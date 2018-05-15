@@ -232,6 +232,7 @@
       <ref role="PrY4T" to="vs0r:1S6A2cmQVtM" resolve="ICallable" />
     </node>
   </node>
+<<<<<<< HEAD
   <node concept="1TIwiD" id="3UsoL$l5qkL">
     <property role="EcuMT" value="4511589886097466673" />
     <property role="TrG5h" value="InheritanceInstance" />
@@ -261,6 +262,30 @@
       <property role="20kJfa" value="class" />
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="4o2nsMgBpPQ" resolve="ClassDeclaration" />
+=======
+  <node concept="1TIwiD" id="3EDDOqDY7x5">
+    <property role="EcuMT" value="4227093647205103685" />
+    <property role="TrG5h" value="DeleteKeyword" />
+    <property role="34LRSv" value="delete" />
+    <property role="R4oN_" value="Delete keyword (delete &lt;expression&gt;)" />
+    <ref role="1TJDcQ" to="c4fa:3CmSUB7FmO3" resolve="Statement" />
+    <node concept="1TJgyi" id="3EDDOqDY7xa" role="1TKVEl">
+      <property role="IQ2nx" value="4227093647205103690" />
+      <property role="TrG5h" value="expression" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3EDDOqDY7xe">
+    <property role="EcuMT" value="4227093647205103694" />
+    <property role="TrG5h" value="DeleteArrayKeyword" />
+    <property role="34LRSv" value="delete []" />
+    <property role="R4oN_" value="Delete array keyword (delete [] &lt;expression&gt;)" />
+    <ref role="1TJDcQ" to="c4fa:3CmSUB7FmO3" resolve="Statement" />
+    <node concept="1TJgyi" id="3EDDOqDY7xf" role="1TKVEl">
+      <property role="IQ2nx" value="4227093647205103695" />
+      <property role="TrG5h" value="expression" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+>>>>>>> bbcc623764... Add concept and editor for DeleteKeyword and DeleteArrayKeyword
     </node>
   </node>
 </model>
