@@ -1096,6 +1096,14 @@
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
   </node>
+<<<<<<< HEAD
 >>>>>>> 09b625296a... Add typesystem for specifiers
+=======
+  <node concept="1TIwiD" id="383ZxwZqQYo">
+    <property role="EcuMT" value="3604003506923204504" />
+    <property role="TrG5h" value="Testconcepttt" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+  </node>
+>>>>>>> 7d36981961... Testing git connection
 </model>
 
