@@ -410,6 +410,9 @@
     <ref role="1XX52x" to="wnzg:2Ai0Gt9WczV" resolve="MethodPrototype" />
     <node concept="3EZMnI" id="3v5DuFDrgcR" role="2wV5jI">
       <node concept="2iRfu4" id="3v5DuFDrgcS" role="2iSdaV" />
+      <node concept="PMmxH" id="2L1k$oXxoSI" role="3EZMnx">
+        <ref role="PMmxG" node="2L1k$oXm7Pq" resolve="VirtualFlag" />
+      </node>
       <node concept="PMmxH" id="3v5DuFDpKbk" role="3EZMnx">
         <ref role="PMmxG" node="3v5DuFDr9bv" resolve="methodSignature" />
       </node>
@@ -715,11 +718,15 @@
   </node>
   <node concept="PKFIW" id="2L1k$oXm7Pq">
     <property role="TrG5h" value="VirtualFlag" />
-    <ref role="1XX52x" to="wnzg:4o2nsMgB$VW" resolve="MethodDeclaration" />
+    <ref role="1XX52x" to="wnzg:2L1k$oXxncW" resolve="IVirtualisable" />
     <node concept="1kHk_G" id="2LwGNVbhV8I" role="2wV5jI">
       <ref role="1k5W1q" to="r4b4:2CEi94dgHKA" resolve="KW" />
+<<<<<<< HEAD
       <ref role="1NtTu8" to="wnzg:2L1k$oXkZhn" resolve="virtual" />
 >>>>>>> 1def60992c... Add virtual keyword to editor
+=======
+      <ref role="1NtTu8" to="wnzg:2L1k$oXxncX" resolve="virtual" />
+>>>>>>> 0a6e17621e... Move virtual to interface IVirtual and add it to MethodPrototype and textgen.
     </node>
   </node>
 </model>
