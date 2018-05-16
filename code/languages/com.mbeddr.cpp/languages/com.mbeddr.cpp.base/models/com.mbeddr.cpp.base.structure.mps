@@ -116,15 +116,20 @@
     <node concept="1TJgyj" id="3CmSUB7Fp_k" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="body" />
-      <property role="20lbJX" value="1" />
+      <property role="20lbJX" value="0..1" />
       <property role="IQ2ns" value="4185783222026475860" />
       <ref role="20lvS9" to="c4fa:3CmSUB7Fp_l" resolve="StatementList" />
     </node>
     <node concept="PrWs8" id="3v5DuFDl4c1" role="PzmwI">
       <ref role="PrY4T" node="4o2nsMgBJ5Y" resolve="INamedClassMemberDeclaration" />
     </node>
+<<<<<<< HEAD
     <node concept="PrWs8" id="2L1k$oXxnd5" role="PzmwI">
       <ref role="PrY4T" node="2L1k$oXxncW" resolve="IVirtualableConcept" />
+=======
+    <node concept="PrWs8" id="2L1k$oXDqK5" role="PzmwI">
+      <ref role="PrY4T" node="2L1k$oXDqJY" resolve="IPureVirtualisable" />
+>>>>>>> e035d6ce33... Move pure after visibility.
     </node>
   </node>
   <node concept="1TIwiD" id="4o2nsMgBEtu">
@@ -210,8 +215,13 @@
     <node concept="PrWs8" id="2Ai0Gtag2pd" role="PzmwI">
       <ref role="PrY4T" node="4o2nsMgBIr5" resolve="IClassMemberDeclaration" />
     </node>
+<<<<<<< HEAD
     <node concept="PrWs8" id="2L1k$oXxoOS" role="PzmwI">
       <ref role="PrY4T" node="2L1k$oXxncW" resolve="IVirtualableConcept" />
+=======
+    <node concept="PrWs8" id="2L1k$oXNUaR" role="PzmwI">
+      <ref role="PrY4T" node="2L1k$oXDqJY" resolve="IPureVirtualisable" />
+>>>>>>> e035d6ce33... Move pure after visibility.
     </node>
   </node>
   <node concept="1TIwiD" id="3v5DuFDls_I">
@@ -553,6 +563,18 @@
       <property role="20kJfa" value="actual_arguments" />
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" to="mj1l:7FQByU3CrCM" resolve="Expression" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="2L1k$oXDqJY">
+    <property role="EcuMT" value="3188920472790477822" />
+    <property role="TrG5h" value="IPureVirtualisable" />
+    <node concept="PrWs8" id="2L1k$oXDqJZ" role="PrDN$">
+      <ref role="PrY4T" node="2L1k$oXxncW" resolve="IVirtualisable" />
+    </node>
+    <node concept="1TJgyi" id="2L1k$oXDqK2" role="1TKVEl">
+      <property role="IQ2nx" value="3188920472790477826" />
+      <property role="TrG5h" value="pure" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
   </node>
 </model>
