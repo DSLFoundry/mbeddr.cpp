@@ -232,16 +232,18 @@
   <node concept="24kQdi" id="4o2nsMgBCkM">
     <ref role="1XX52x" to="wnzg:4o2nsMgB$VW" resolve="MethodDeclaration" />
     <node concept="3EZMnI" id="3v5DuFDnNFt" role="2wV5jI">
-      <node concept="PMmxH" id="2L1k$oXn3Ob" role="3EZMnx">
-        <ref role="PMmxG" node="2L1k$oXm7Pq" resolve="VirtualFlag" />
-      </node>
       <node concept="PMmxH" id="59MAV0ydrUB" role="3EZMnx">
         <ref role="PMmxG" node="59MAV0yaZn2" resolve="VisibilityFlag" />
       </node>
+<<<<<<< HEAD
       <node concept="1kHk_G" id="4K6s$_sMpMC" role="3EZMnx">
         <property role="ZjSer" value="static" />
         <ref role="1NtTu8" to="wnzg:4K6s$_sMpMQ" resolve="static" />
         <ref role="1k5W1q" to="tpen:hgVS8CF" resolve="KeyWord" />
+=======
+      <node concept="PMmxH" id="2L1k$oXn3Ob" role="3EZMnx">
+        <ref role="PMmxG" node="2L1k$oXm7Pq" resolve="VirtualFlag" />
+>>>>>>> 41ab77689e... Move virtual keyword to be after the visibility declaration
       </node>
       <node concept="PMmxH" id="3v5DuFDoxUa" role="3EZMnx">
         <ref role="PMmxG" node="3v5DuFDr9bv" resolve="methodSignature" />
