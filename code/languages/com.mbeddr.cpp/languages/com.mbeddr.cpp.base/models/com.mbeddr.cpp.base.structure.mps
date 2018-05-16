@@ -240,6 +240,7 @@
   </node>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   <node concept="1TIwiD" id="3UsoL$l5qkL">
     <property role="EcuMT" value="4511589886097466673" />
     <property role="TrG5h" value="InheritanceInstance" />
@@ -271,6 +272,9 @@
       <ref role="20lvS9" node="4o2nsMgBpPQ" resolve="ClassDeclaration" />
 =======
   <node concept="1TIwiD" id="3EDDOqDY7x5">
+=======
+	<node concept="1TIwiD" id="3EDDOqDY7x5">
+>>>>>>> c4df1187c0... Fix broken merge
     <property role="EcuMT" value="4227093647205103685" />
     <property role="TrG5h" value="DeleteKeyword" />
     <property role="34LRSv" value="delete" />
@@ -292,8 +296,13 @@
       <property role="IQ2nx" value="4227093647205103695" />
       <property role="TrG5h" value="expression" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+<<<<<<< HEAD
 >>>>>>> bbcc623764... Add concept and editor for DeleteKeyword and DeleteArrayKeyword
 =======
+=======
+    </node>
+	</node>
+>>>>>>> c4df1187c0... Fix broken merge
   <node concept="PlHQZ" id="2L1k$oXxncW">
     <property role="EcuMT" value="3188920472788366140" />
     <property role="TrG5h" value="IVirtualisable" />
