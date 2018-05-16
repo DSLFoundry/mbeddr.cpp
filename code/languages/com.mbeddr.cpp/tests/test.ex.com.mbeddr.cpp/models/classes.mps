@@ -83,7 +83,11 @@
         <reference id="4511589886097466674" name="parent_class" index="FysoF" />
       </concept>
       <concept id="5044697665789382396" name="com.mbeddr.cpp.base.structure.MethodDeclaration" flags="ng" index="3mB1cK">
+<<<<<<< HEAD:code/languages/com.mbeddr.cpp/tests/test.ex.com.mbeddr.cpp/models/classes.mps
         <property id="5478191656157682870" name="static" index="gNYVZ" />
+=======
+        <property id="3188920472785122391" name="virtual" index="h4Eoh" />
+>>>>>>> 1def60992c... Add virtual keyword to editor:code/languages/com.mbeddr.cpp/tests/test.ex.com.mbeddr.cpp/models/simple_classes.mps
         <child id="4185783222026475860" name="body" index="3XIRFX" />
       </concept>
       <concept id="5044697665789423998" name="com.mbeddr.cpp.base.structure.INamedClassMemberDeclaration" flags="ng" index="3mBaMM">
@@ -298,6 +302,7 @@
       <node concept="3u$6M4" id="nbE_$_6HEb" role="3mBdys" />
       <node concept="3mB1cK" id="3v5DuFDsqls" role="3mBdys">
         <property role="TrG5h" value="incN" />
+        <property role="h4Eoh" value="false" />
         <property role="1wg9_F" value="public" />
         <node concept="19RgSI" id="3v5DuFDsqnj" role="1UOdpc">
           <property role="TrG5h" value="n" />
@@ -327,6 +332,7 @@
       <node concept="3mB1cK" id="3v5DuFDvm4t" role="3mBdys">
         <property role="TrG5h" value="getVal" />
         <property role="1wg9_F" value="public" />
+        <property role="h4Eoh" value="true" />
         <node concept="3XIRFW" id="3v5DuFDvm4w" role="3XIRFX">
           <node concept="2BFjQ_" id="3v5DuFDvma7" role="3XIRFZ">
             <node concept="3uHcMF" id="3v5DuFDvma_" role="2BFjQA">
