@@ -11,9 +11,13 @@
     <import index="rj8d" ref="r:da9fd96f-5c71-45ab-b2da-1aa6232ec67f(com.mbeddr.core.statements.behavior)" />
     <import index="x27k" ref="r:75ecab8a-8931-4140-afc6-4b46398710fc(com.mbeddr.core.modules.structure)" />
 <<<<<<< HEAD
+<<<<<<< HEAD
     <import index="dylp" ref="r:9840bc62-cb31-4ef3-9c9b-2de91c97cc15(com.mbeddr.core.expressions.textGen)" />
     <import index="hwgx" ref="r:fd2980c8-676c-4b19-b524-18c70e02f8b7(com.mbeddr.core.base.behavior)" />
     <import index="c4fa" ref="r:9f0e84b6-2ec7-4f9e-83e0-feedc77b63a3(com.mbeddr.core.statements.structure)" />
+=======
+    <import index="tbr6" ref="r:6a005c26-87c0-43c4-8cf3-49ffba1099df(de.slisson.mps.richtext.behavior)" />
+>>>>>>> 71d8fb9fa7... Added InnerClassType, further testing for Using Namespace, small adjustments
     <import index="wnzg" ref="r:24646c42-f8e0-499c-b639-679cfa170a2e(com.mbeddr.cpp.base.structure)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
 <<<<<<< HEAD
@@ -1838,17 +1842,11 @@
             </node>
           </node>
         </node>
-        <node concept="lc7rE" id="1rolTiv7_aK" role="3cqZAp">
-          <node concept="l9S2W" id="1rolTiv7_q_" role="lcghm">
-            <property role="XA4eZ" value="true" />
-            <property role="lbP0B" value=", " />
-            <node concept="2OqwBi" id="1rolTiv7_IK" role="lbANJ">
-              <node concept="117lpO" id="1rolTiv7_$T" role="2Oq$k0" />
-              <node concept="3Tsc0h" id="1rolTiv7A19" role="2OqNvi">
-                <ref role="3TtcxE" to="wnzg:1rolTiv5m$t" resolve="actuals" />
-              </node>
-            </node>
+        <node concept="lc7rE" id="1rolTivoOfk" role="3cqZAp">
+          <node concept="la8eA" id="1rolTivoOvT" role="lcghm">
+            <property role="lacIc" value=";" />
           </node>
+          <node concept="l8MVK" id="1rolTivuL1a" role="lcghm" />
         </node>
       </node>
     </node>
