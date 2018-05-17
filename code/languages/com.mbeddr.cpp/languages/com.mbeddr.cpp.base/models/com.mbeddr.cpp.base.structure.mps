@@ -1135,7 +1135,7 @@
     <property role="EcuMT" value="3604003506923402521" />
     <property role="3GE5qa" value="Namespace" />
     <property role="TrG5h" value="NamespaceAttributeRef" />
-    <property role="34LRSv" value="::attribute" />
+    <property role="34LRSv" value="::" />
     <property role="R4oN_" value="Call a namespace attribute" />
     <ref role="1TJDcQ" to="mj1l:7FQByU3CrCM" resolve="Expression" />
     <node concept="1TJgyj" id="383ZxwZrBkq" role="1TKVEi">
@@ -1163,7 +1163,7 @@
     <property role="EcuMT" value="3604003506923402530" />
     <property role="3GE5qa" value="Namespace" />
     <property role="TrG5h" value="NamespaceMethodCall" />
-    <property role="34LRSv" value="::method" />
+    <property role="34LRSv" value="::" />
     <property role="R4oN_" value="Call a namespace method" />
     <ref role="1TJDcQ" to="mj1l:7FQByU3CrCM" resolve="Expression" />
     <node concept="PrWs8" id="383ZxwZrBkz" role="PzmwI">
@@ -1213,6 +1213,41 @@
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
   </node>
+<<<<<<< HEAD
 >>>>>>> 7d36981961... Testing git connection
+=======
+  <node concept="1TIwiD" id="1rolTiuOPQt">
+    <property role="EcuMT" value="1646161959635344797" />
+    <property role="3GE5qa" value="Namespace" />
+    <property role="TrG5h" value="UsingNamespaceMethod" />
+    <property role="34LRSv" value="using" />
+    <property role="R4oN_" value="Using a namespace member" />
+    <ref role="1TJDcQ" to="mj1l:7FQByU3CrCM" resolve="Expression" />
+    <node concept="1TJgyj" id="1rolTiuRvvJ" role="1TKVEi">
+      <property role="IQ2ns" value="1646161959636039663" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="namespace" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="383ZxwZqQYo" resolve="NamespaceDeclaration" />
+    </node>
+    <node concept="1TJgyj" id="1rolTiuOPRl" role="1TKVEi">
+      <property role="IQ2ns" value="1646161959635344853" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="method" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="4o2nsMgB$VW" resolve="MethodDeclaration" />
+    </node>
+    <node concept="1TJgyj" id="1rolTiv5m$t" role="1TKVEi">
+      <property role="IQ2ns" value="1646161959639673117" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="actuals" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" to="mj1l:7FQByU3CrCM" resolve="Expression" />
+    </node>
+    <node concept="PrWs8" id="1rolTiv5m$$" role="PzmwI">
+      <ref role="PrY4T" to="x27k:6WGVxckB05U" resolve="ICallLike" />
+    </node>
+  </node>
+>>>>>>> 186ea3c3fb... Added bases 'Using Namespace Method' feature, cleaned up TextGens and Editors
 </model>
 
