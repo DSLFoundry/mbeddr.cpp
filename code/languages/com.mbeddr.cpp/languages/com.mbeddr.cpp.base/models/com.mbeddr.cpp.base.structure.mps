@@ -125,11 +125,15 @@
     </node>
 <<<<<<< HEAD
     <node concept="PrWs8" id="2L1k$oXxnd5" role="PzmwI">
+<<<<<<< HEAD
       <ref role="PrY4T" node="2L1k$oXxncW" resolve="IVirtualableConcept" />
 =======
     <node concept="PrWs8" id="2L1k$oXDqK5" role="PzmwI">
       <ref role="PrY4T" node="2L1k$oXDqJY" resolve="IPureVirtualisable" />
 >>>>>>> e035d6ce33... Move pure after visibility.
+=======
+      <ref role="PrY4T" node="2L1k$oXxncW" resolve="IVirtualizableConcept" />
+>>>>>>> a905633504... Fix spelling mistake
     </node>
   </node>
   <node concept="1TIwiD" id="4o2nsMgBEtu">
@@ -217,11 +221,15 @@
     </node>
 <<<<<<< HEAD
     <node concept="PrWs8" id="2L1k$oXxoOS" role="PzmwI">
+<<<<<<< HEAD
       <ref role="PrY4T" node="2L1k$oXxncW" resolve="IVirtualableConcept" />
 =======
     <node concept="PrWs8" id="2L1k$oXNUaR" role="PzmwI">
       <ref role="PrY4T" node="2L1k$oXDqJY" resolve="IPureVirtualisable" />
 >>>>>>> e035d6ce33... Move pure after visibility.
+=======
+      <ref role="PrY4T" node="2L1k$oXxncW" resolve="IVirtualizableConcept" />
+>>>>>>> a905633504... Fix spelling mistake
     </node>
   </node>
   <node concept="1TIwiD" id="3v5DuFDls_I">
@@ -347,7 +355,7 @@
 >>>>>>> c4df1187c0... Fix broken merge
   <node concept="PlHQZ" id="2L1k$oXxncW">
     <property role="EcuMT" value="3188920472788366140" />
-    <property role="TrG5h" value="IVirtualableConcept" />
+    <property role="TrG5h" value="IVirtualizableConcept" />
     <property role="3GE5qa" value="method" />
     <node concept="1TJgyi" id="2L1k$oXxncX" role="1TKVEl">
       <property role="IQ2nx" value="3188920472788366141" />
