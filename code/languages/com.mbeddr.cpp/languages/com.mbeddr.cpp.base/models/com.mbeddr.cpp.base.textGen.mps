@@ -156,6 +156,7 @@
     </language>
   </registry>
   <node concept="WtQ9Q" id="4o2nsMgBYl0">
+    <property role="3GE5qa" value="class" />
     <ref role="WuzLi" to="wnzg:4o2nsMgBEtu" resolve="ClassType" />
     <node concept="11bSqf" id="4o2nsMgBYl1" role="11c4hB">
       <node concept="3clFbS" id="4o2nsMgBYl2" role="2VODD2">
@@ -178,6 +179,7 @@
     </node>
   </node>
   <node concept="WtQ9Q" id="4o2nsMgC05X">
+    <property role="3GE5qa" value="class" />
     <ref role="WuzLi" to="wnzg:4o2nsMgBpPQ" resolve="ClassDeclaration" />
     <node concept="11bSqf" id="4o2nsMgC05Y" role="11c4hB">
       <node concept="3clFbS" id="4o2nsMgC05Z" role="2VODD2">
@@ -219,7 +221,6 @@
                 </node>
               </node>
             </node>
-            <node concept="3clFbH" id="3UsoL$lgysO" role="3cqZAp" />
           </node>
           <node concept="2OqwBi" id="3UsoL$lgwGU" role="3clFbw">
             <node concept="2OqwBi" id="3UsoL$lguhN" role="2Oq$k0">
@@ -231,6 +232,7 @@
             <node concept="3GX2aA" id="3UsoL$lgxUs" role="2OqNvi" />
           </node>
         </node>
+        <node concept="3clFbH" id="45rBLTFpktY" role="3cqZAp" />
         <node concept="lc7rE" id="3UsoL$laeTf" role="3cqZAp">
           <node concept="la8eA" id="3UsoL$laf63" role="lcghm">
             <property role="lacIc" value=" {" />
@@ -273,6 +275,7 @@
     </node>
   </node>
   <node concept="WtQ9Q" id="4o2nsMgC2ap">
+    <property role="3GE5qa" value="method" />
     <ref role="WuzLi" to="wnzg:4o2nsMgB$VW" resolve="MethodDeclaration" />
     <node concept="11bSqf" id="4o2nsMgC2aq" role="11c4hB">
       <node concept="3clFbS" id="4o2nsMgC2ar" role="2VODD2">
@@ -479,6 +482,7 @@
     </node>
   </node>
   <node concept="WtQ9Q" id="2Ai0Gt9WtTg">
+    <property role="3GE5qa" value="method" />
     <ref role="WuzLi" to="wnzg:2Ai0Gt9WczV" resolve="MethodPrototype" />
     <node concept="11bSqf" id="2Ai0Gt9WtTh" role="11c4hB">
       <node concept="3clFbS" id="2Ai0Gt9WtTi" role="2VODD2">
@@ -493,7 +497,7 @@
           <node concept="2OqwBi" id="2L1k$oX_Io8" role="3clFbw">
             <node concept="117lpO" id="2L1k$oX_I4V" role="2Oq$k0" />
             <node concept="3TrcHB" id="2L1k$oX_JpL" role="2OqNvi">
-              <ref role="3TsBF5" to="wnzg:2L1k$oXxncX" resolve="virtual" />
+              <ref role="3TsBF5" to="wnzg:2L1k$oXxncX" resolve="isVirtual" />
             </node>
           </node>
         </node>
@@ -573,7 +577,7 @@
   </node>
 <<<<<<< HEAD
   <node concept="WtQ9Q" id="3UsoL$lb1lN">
-    <property role="3GE5qa" value="inheritance" />
+    <property role="3GE5qa" value="class" />
     <ref role="WuzLi" to="wnzg:3UsoL$l5qkL" resolve="InheritanceInstance" />
     <node concept="11bSqf" id="3UsoL$lb1lO" role="11c4hB">
       <node concept="3clFbS" id="3UsoL$lb1lP" role="2VODD2">
@@ -630,7 +634,8 @@
     </node>
   </node>
   <node concept="WtQ9Q" id="O6qFYdpBjt">
-    <ref role="WuzLi" to="wnzg:3EDDOqDY7xe" resolve="DeleteArrayKeyword" />
+    <property role="3GE5qa" value="class" />
+    <ref role="WuzLi" to="wnzg:3EDDOqDY7xe" resolve="DeleteArrayDecleration" />
     <node concept="11bSqf" id="O6qFYdpBju" role="11c4hB">
       <node concept="3clFbS" id="O6qFYdpBjv" role="2VODD2">
         <node concept="lc7rE" id="O6qFYdpBjM" role="3cqZAp">
@@ -657,7 +662,37 @@
           <node concept="la8eA" id="O6qFYdpC7V" role="lcghm">
             <property role="lacIc" value=";" />
           </node>
+<<<<<<< HEAD
 >>>>>>> 375fe27794... Add textGen for DeleteKeyword and DeleteArrayKeyword
+=======
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="WtQ9Q" id="O6qFYdpAsQ">
+    <property role="3GE5qa" value="class" />
+    <ref role="WuzLi" to="wnzg:3EDDOqDY7x5" resolve="DeleteDecleration" />
+    <node concept="11bSqf" id="O6qFYdpAsR" role="11c4hB">
+      <node concept="3clFbS" id="O6qFYdpAsS" role="2VODD2">
+        <node concept="lc7rE" id="O6qFYdpAtb" role="3cqZAp">
+          <node concept="la8eA" id="O6qFYdpAtz" role="lcghm">
+            <property role="lacIc" value="delete" />
+          </node>
+          <node concept="la8eA" id="O6qFYdpAuv" role="lcghm">
+            <property role="lacIc" value=" " />
+          </node>
+          <node concept="l9hG8" id="O6qFYdpAvv" role="lcghm">
+            <node concept="2OqwBi" id="O6qFYdpAJz" role="lb14g">
+              <node concept="117lpO" id="O6qFYdpAwt" role="2Oq$k0" />
+              <node concept="3TrcHB" id="O6qFYdpB6L" role="2OqNvi">
+                <ref role="3TsBF5" to="wnzg:3EDDOqDY7xa" resolve="expression" />
+              </node>
+            </node>
+          </node>
+          <node concept="la8eA" id="O6qFYdpBf0" role="lcghm">
+            <property role="lacIc" value=";" />
+          </node>
+>>>>>>> 8ebf22174f... Refactor and sort com.mbeddr.cpp
         </node>
       </node>
     </node>

@@ -140,6 +140,12 @@
     </language>
     <language id="8c081446-e4ba-48b7-a7e0-3db40e2c3439" name="com.mbeddr.cpp.base">
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+      <concept id="3188920472788366140" name="com.mbeddr.cpp.base.structure.IVirtualableConcept" flags="ng" index="hL25U">
+        <property id="3188920472788366141" name="isVirtual" index="hL25V" />
+      </concept>
+>>>>>>> 8ebf22174f... Refactor and sort com.mbeddr.cpp
       <concept id="4511589886097466673" name="com.mbeddr.cpp.base.structure.InheritanceInstance" flags="ng" index="FysoC">
         <reference id="4511589886097466674" name="parent_class" index="FysoF" />
 =======
@@ -731,7 +737,7 @@
                                     <ref role="3cqZAo" node="2Ai0Gtaf_tm" resolve="it" />
                                   </node>
                                   <node concept="3TrcHB" id="2L1k$oXys5T" role="2OqNvi">
-                                    <ref role="3TsBF5" to="wnzg:2L1k$oXxncX" resolve="virtual" />
+                                    <ref role="3TsBF5" to="wnzg:2L1k$oXxncX" resolve="isVirtual" />
                                   </node>
                                 </node>
                               </node>
@@ -852,7 +858,7 @@
                                   <ref role="3cqZAo" node="2L1k$oXygGT" resolve="it" />
                                 </node>
                                 <node concept="3TrcHB" id="2L1k$oXyEfp" role="2OqNvi">
-                                  <ref role="3TsBF5" to="wnzg:2L1k$oXxncX" resolve="virtual" />
+                                  <ref role="3TsBF5" to="wnzg:2L1k$oXxncX" resolve="isVirtual" />
                                 </node>
                               </node>
                               <node concept="2OqwBi" id="2L1k$oXygGN" role="3uHU7B">
@@ -1047,7 +1053,7 @@
                                     <ref role="3cqZAo" node="2Ai0GtafK7v" resolve="it" />
                                   </node>
                                   <node concept="3TrcHB" id="2L1k$oXySLu" role="2OqNvi">
-                                    <ref role="3TsBF5" to="wnzg:2L1k$oXxncX" resolve="virtual" />
+                                    <ref role="3TsBF5" to="wnzg:2L1k$oXxncX" resolve="isVirtual" />
                                   </node>
                                 </node>
                               </node>
@@ -1168,7 +1174,7 @@
                                   <ref role="3cqZAo" node="2L1k$oXyVj0" resolve="it" />
                                 </node>
                                 <node concept="3TrcHB" id="2L1k$oXyViZ" role="2OqNvi">
-                                  <ref role="3TsBF5" to="wnzg:2L1k$oXxncX" resolve="virtual" />
+                                  <ref role="3TsBF5" to="wnzg:2L1k$oXxncX" resolve="isVirtual" />
                                 </node>
                               </node>
                             </node>
@@ -1333,7 +1339,7 @@
                                     <ref role="3cqZAo" node="2Ai0GtafQdN" resolve="it" />
                                   </node>
                                   <node concept="3TrcHB" id="2L1k$oXz8wc" role="2OqNvi">
-                                    <ref role="3TsBF5" to="wnzg:2L1k$oXxncX" resolve="virtual" />
+                                    <ref role="3TsBF5" to="wnzg:2L1k$oXxncX" resolve="isVirtual" />
                                   </node>
                                 </node>
                               </node>
@@ -1454,7 +1460,7 @@
                                   <ref role="3cqZAo" node="2L1k$oXzd7b" resolve="it" />
                                 </node>
                                 <node concept="3TrcHB" id="2L1k$oXzd74" role="2OqNvi">
-                                  <ref role="3TsBF5" to="wnzg:2L1k$oXxncX" resolve="virtual" />
+                                  <ref role="3TsBF5" to="wnzg:2L1k$oXxncX" resolve="isVirtual" />
                                 </node>
                               </node>
                               <node concept="2OqwBi" id="2L1k$oXzd75" role="3uHU7B">
