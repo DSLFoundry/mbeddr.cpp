@@ -9,6 +9,7 @@
     <import index="o8zo" ref="r:314576fc-3aee-4386-a0a5-a38348ac317d(jetbrains.mps.scope)" />
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <import index="wnzg" ref="r:24646c42-f8e0-499c-b639-679cfa170a2e(com.mbeddr.cpp.base.structure)" />
     <import index="hwgx" ref="r:fd2980c8-676c-4b19-b524-18c70e02f8b7(com.mbeddr.core.base.behavior)" />
     <import index="vs0r" ref="r:f7764ca4-8c75-4049-922b-08516400a727(com.mbeddr.core.base.structure)" />
@@ -32,28 +33,37 @@
 =======
     <import index="x27k" ref="r:75ecab8a-8931-4140-afc6-4b46398710fc(com.mbeddr.core.modules.structure)" />
     <import index="1yyn" ref="r:64e0a2a9-7957-424b-8102-a5e8a7a73035(com.mbeddr.cpp.templates.structure)" />
+=======
+>>>>>>> b95cdd26ff... Namespace Declaration and Member Referencing (WIP) without TextGen elements
     <import index="wnzg" ref="r:24646c42-f8e0-499c-b639-679cfa170a2e(com.mbeddr.cpp.base.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
+<<<<<<< HEAD
       <concept id="4836112446988635817" name="jetbrains.mps.baseLanguage.structure.UndefinedType" flags="in" index="2jxLKc" />
 >>>>>>> b70d14e537... loads of stuff
+=======
+>>>>>>> b95cdd26ff... Namespace Declaration and Member Referencing (WIP) without TextGen elements
       <concept id="1197027756228" name="jetbrains.mps.baseLanguage.structure.DotExpression" flags="nn" index="2OqwBi">
         <child id="1197027771414" name="operand" index="2Oq$k0" />
         <child id="1197027833540" name="operation" index="2OqNvi" />
       </concept>
+<<<<<<< HEAD
 <<<<<<< HEAD
       <concept id="1145552977093" name="jetbrains.mps.baseLanguage.structure.GenericNewExpression" flags="nn" index="2ShNRf">
         <child id="1145553007750" name="creator" index="2ShVmc" />
       </concept>
 =======
 >>>>>>> b70d14e537... loads of stuff
+=======
+>>>>>>> b95cdd26ff... Namespace Declaration and Member Referencing (WIP) without TextGen elements
       <concept id="1137021947720" name="jetbrains.mps.baseLanguage.structure.ConceptFunction" flags="in" index="2VMwT0">
         <child id="1137022507850" name="body" index="2VODD2" />
       </concept>
       <concept id="1081236700937" name="jetbrains.mps.baseLanguage.structure.StaticMethodCall" flags="nn" index="2YIFZM">
         <reference id="1144433194310" name="classConcept" index="1Pybhc" />
       </concept>
+<<<<<<< HEAD
 <<<<<<< HEAD
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
         <child id="1068431790190" name="initializer" index="33vP2m" />
@@ -98,10 +108,19 @@
       <concept id="1081516740877" name="jetbrains.mps.baseLanguage.structure.NotExpression" flags="nn" index="3fqX7Q">
         <child id="1081516765348" name="expression" index="3fr31v" />
       </concept>
+=======
+      <concept id="1068580123155" name="jetbrains.mps.baseLanguage.structure.ExpressionStatement" flags="nn" index="3clFbF">
+        <child id="1068580123156" name="expression" index="3clFbG" />
+      </concept>
+      <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
+        <child id="1068581517665" name="statement" index="3cqZAp" />
+      </concept>
+>>>>>>> b95cdd26ff... Namespace Declaration and Member Referencing (WIP) without TextGen elements
       <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ng" index="1ndlxa">
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
         <child id="1068499141038" name="actualArgument" index="37wK5m" />
       </concept>
+<<<<<<< HEAD
 <<<<<<< HEAD
       <concept id="1212685548494" name="jetbrains.mps.baseLanguage.structure.ClassCreator" flags="nn" index="1pGfFk" />
       <concept id="1107535904670" name="jetbrains.mps.baseLanguage.structure.ClassifierType" flags="in" index="3uibUv">
@@ -125,6 +144,12 @@
     <language id="3f4bc5f5-c6c1-4a28-8b10-c83066ffa4a1" name="jetbrains.mps.lang.constraints">
       <concept id="8966504967485224688" name="jetbrains.mps.lang.constraints.structure.ConstraintFunctionParameter_contextNode" flags="nn" index="2rP1CM" />
       <concept id="5564765827938091039" name="jetbrains.mps.lang.constraints.structure.ConstraintFunction_ReferentSearchScope_Scope" flags="ig" index="3dgokm" />
+=======
+    </language>
+    <language id="3f4bc5f5-c6c1-4a28-8b10-c83066ffa4a1" name="jetbrains.mps.lang.constraints">
+      <concept id="5564765827938091039" name="jetbrains.mps.lang.constraints.structure.ConstraintFunction_ReferentSearchScope_Scope" flags="ig" index="3dgokm" />
+      <concept id="1163200647017" name="jetbrains.mps.lang.constraints.structure.ConstraintFunctionParameter_referenceNode" flags="nn" index="3kakTB" />
+>>>>>>> b95cdd26ff... Namespace Declaration and Member Referencing (WIP) without TextGen elements
       <concept id="1213093968558" name="jetbrains.mps.lang.constraints.structure.ConceptConstraints" flags="ng" index="1M2fIO">
         <reference id="1213093996982" name="concept" index="1M2myG" />
         <child id="1213100494875" name="referent" index="1Mr941" />
@@ -134,6 +159,7 @@
         <child id="1148687345559" name="searchScopeFactory" index="1N6uqs" />
       </concept>
     </language>
+<<<<<<< HEAD
     <language id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures">
       <concept id="1199569711397" name="jetbrains.mps.baseLanguage.closures.structure.ClosureLiteral" flags="nn" index="1bVj0M">
         <child id="1199569906740" name="parameter" index="1bW2Oz" />
@@ -165,10 +191,17 @@
       </concept>
       <concept id="1138056022639" name="jetbrains.mps.lang.smodel.structure.SPropertyAccess" flags="nn" index="3TrcHB">
         <reference id="1138056395725" name="property" index="3TsBF5" />
+=======
+    <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
+      <concept id="2644386474301421077" name="jetbrains.mps.lang.smodel.structure.LinkIdRefExpression" flags="nn" index="359W_D">
+        <reference id="2644386474301421078" name="conceptDeclaration" index="359W_E" />
+        <reference id="2644386474301421079" name="linkDeclaration" index="359W_F" />
+>>>>>>> b95cdd26ff... Namespace Declaration and Member Referencing (WIP) without TextGen elements
       </concept>
       <concept id="1138056143562" name="jetbrains.mps.lang.smodel.structure.SLinkAccess" flags="nn" index="3TrEf2">
         <reference id="1138056516764" name="link" index="3Tt5mk" />
       </concept>
+<<<<<<< HEAD
       <concept id="1138056282393" name="jetbrains.mps.lang.smodel.structure.SLinkListAccess" flags="nn" index="3Tsc0h">
         <reference id="1138056546658" name="link" index="3TtcxE" />
       </concept>
@@ -182,11 +215,14 @@
         <child id="1207343664468" name="conceptArgument" index="ri$Ld" />
       </concept>
 >>>>>>> b70d14e537... loads of stuff
+=======
+>>>>>>> b95cdd26ff... Namespace Declaration and Member Referencing (WIP) without TextGen elements
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
         <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
       </concept>
+<<<<<<< HEAD
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
@@ -476,10 +512,38 @@
               <ref role="3cqZAo" node="6hUtorEuXyd" resolve="cScope" />
             </node>
           </node>
+=======
+    </language>
+  </registry>
+  <node concept="1M2fIO" id="383ZxwZunUH">
+    <property role="3GE5qa" value="Namespace" />
+    <ref role="1M2myG" to="wnzg:383ZxwZrBkp" resolve="NamespaceAttributeRef" />
+    <node concept="1N5Pfh" id="383ZxwZunUI" role="1Mr941">
+      <ref role="1N5Vy1" to="wnzg:383ZxwZrBkt" resolve="attribute" />
+      <node concept="3dgokm" id="383ZxwZunUO" role="1N6uqs">
+        <node concept="3clFbS" id="383ZxwZunUQ" role="2VODD2">
+          <node concept="3clFbF" id="383ZxwZux7X" role="3cqZAp">
+            <node concept="2YIFZM" id="383ZxwZuxcw" role="3clFbG">
+              <ref role="37wK5l" to="o8zo:6t3ylNOzI9Y" resolve="forNamedElements" />
+              <ref role="1Pybhc" to="o8zo:7ipADkTevLm" resolve="SimpleRoleScope" />
+              <node concept="2OqwBi" id="383ZxwZuxy7" role="37wK5m">
+                <node concept="3kakTB" id="383ZxwZuxht" role="2Oq$k0" />
+                <node concept="3TrEf2" id="383ZxwZuyka" role="2OqNvi">
+                  <ref role="3Tt5mk" to="wnzg:383ZxwZrBkq" resolve="namespace" />
+                </node>
+              </node>
+              <node concept="359W_D" id="383ZxwZuyBe" role="37wK5m">
+                <ref role="359W_E" to="wnzg:383ZxwZqQYo" resolve="NamespaceDeclaration" />
+                <ref role="359W_F" to="wnzg:383ZxwZsUja" resolve="members" />
+              </node>
+            </node>
+          </node>
+>>>>>>> b95cdd26ff... Namespace Declaration and Member Referencing (WIP) without TextGen elements
         </node>
       </node>
     </node>
   </node>
+<<<<<<< HEAD
   <node concept="1M2fIO" id="6hUtorEt3FS">
     <property role="3GE5qa" value="class" />
     <ref role="1M2myG" to="wnzg:6hUtorE0jsx" resolve="IClassTyped" />
@@ -736,6 +800,31 @@
           </node>
 =======
 >>>>>>> b70d14e537... loads of stuff
+=======
+  <node concept="1M2fIO" id="383ZxwZuPTg">
+    <property role="3GE5qa" value="Namespace" />
+    <ref role="1M2myG" to="wnzg:383ZxwZrBky" resolve="NamespaceMethodCall" />
+    <node concept="1N5Pfh" id="383ZxwZuPTh" role="1Mr941">
+      <ref role="1N5Vy1" to="wnzg:383ZxwZrBkI" resolve="method" />
+      <node concept="3dgokm" id="383ZxwZuPTn" role="1N6uqs">
+        <node concept="3clFbS" id="383ZxwZuPTp" role="2VODD2">
+          <node concept="3clFbF" id="383ZxwZuQ5e" role="3cqZAp">
+            <node concept="2YIFZM" id="383ZxwZuQbd" role="3clFbG">
+              <ref role="37wK5l" to="o8zo:6t3ylNOzI9Y" resolve="forNamedElements" />
+              <ref role="1Pybhc" to="o8zo:7ipADkTevLm" resolve="SimpleRoleScope" />
+              <node concept="2OqwBi" id="383ZxwZuQzu" role="37wK5m">
+                <node concept="3kakTB" id="383ZxwZuQga" role="2Oq$k0" />
+                <node concept="3TrEf2" id="383ZxwZuR18" role="2OqNvi">
+                  <ref role="3Tt5mk" to="wnzg:383ZxwZrBkD" resolve="namespace" />
+                </node>
+              </node>
+              <node concept="359W_D" id="383ZxwZuRkB" role="37wK5m">
+                <ref role="359W_E" to="wnzg:383ZxwZqQYo" resolve="NamespaceDeclaration" />
+                <ref role="359W_F" to="wnzg:383ZxwZsUja" resolve="members" />
+              </node>
+            </node>
+          </node>
+>>>>>>> b95cdd26ff... Namespace Declaration and Member Referencing (WIP) without TextGen elements
         </node>
       </node>
     </node>

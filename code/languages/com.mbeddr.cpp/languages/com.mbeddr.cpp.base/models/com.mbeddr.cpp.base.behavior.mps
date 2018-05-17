@@ -21,6 +21,7 @@
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
     <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" />
+<<<<<<< HEAD
     <import index="vs0r" ref="r:f7764ca4-8c75-4049-922b-08516400a727(com.mbeddr.core.base.structure)" />
     <import index="o8zo" ref="r:314576fc-3aee-4386-a0a5-a38348ac317d(jetbrains.mps.scope)" />
     <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" />
@@ -49,6 +50,10 @@
 >>>>>>> 365cef1251... Autofill template args and allow defaults with =
     <import index="6bz1" ref="r:d3905048-7598-4a84-931a-cbbcbcda146d(jetbrains.mps.lang.intentions.methods)" implicit="true" />
 >>>>>>> b70d14e537... loads of stuff
+=======
+    <import index="vs0r" ref="r:f7764ca4-8c75-4049-922b-08516400a727(com.mbeddr.core.base.structure)" implicit="true" />
+    <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" implicit="true" />
+>>>>>>> b95cdd26ff... Namespace Declaration and Member Referencing (WIP) without TextGen elements
   </imports>
   <registry>
     <language id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior">
@@ -77,9 +82,11 @@
         <child id="1068498886297" name="rValue" index="37vLTx" />
         <child id="1068498886295" name="lValue" index="37vLTJ" />
       </concept>
+      <concept id="1153417849900" name="jetbrains.mps.baseLanguage.structure.GreaterThanOrEqualsExpression" flags="nn" index="2d3UOw" />
       <concept id="1215695189714" name="jetbrains.mps.baseLanguage.structure.PlusAssignmentExpression" flags="nn" index="d57v9" />
       <concept id="1153422305557" name="jetbrains.mps.baseLanguage.structure.LessThanOrEqualsExpression" flags="nn" index="2dkUwp" />
       <concept id="4836112446988635817" name="jetbrains.mps.baseLanguage.structure.UndefinedType" flags="in" index="2jxLKc" />
+<<<<<<< HEAD
       <concept id="1202948039474" name="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" flags="nn" index="liA8E" />
 <<<<<<< HEAD
       <concept id="1239714755177" name="jetbrains.mps.baseLanguage.structure.AbstractUnaryNumberOperation" flags="nn" index="2$Kvd9">
@@ -87,6 +94,14 @@
       </concept>
 =======
 >>>>>>> ce47921082... Fixed auto declaration type errors.
+=======
+      <concept id="1076505808687" name="jetbrains.mps.baseLanguage.structure.WhileStatement" flags="nn" index="2$JKZl">
+        <child id="1076505808688" name="condition" index="2$JKZa" />
+      </concept>
+      <concept id="1239714755177" name="jetbrains.mps.baseLanguage.structure.AbstractUnaryNumberOperation" flags="nn" index="2$Kvd9">
+        <child id="1239714902950" name="expression" index="2$L3a6" />
+      </concept>
+>>>>>>> b95cdd26ff... Namespace Declaration and Member Referencing (WIP) without TextGen elements
       <concept id="1188207840427" name="jetbrains.mps.baseLanguage.structure.AnnotationInstance" flags="nn" index="2AHcQZ">
         <reference id="1188208074048" name="annotation" index="2AI5Lk" />
       </concept>
@@ -114,11 +129,14 @@
       </concept>
       <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
       <concept id="1070534370425" name="jetbrains.mps.baseLanguage.structure.IntegerType" flags="in" index="10Oyi0" />
+<<<<<<< HEAD
       <concept id="1070534644030" name="jetbrains.mps.baseLanguage.structure.BooleanType" flags="in" index="10P_77" />
       <concept id="1070534934090" name="jetbrains.mps.baseLanguage.structure.CastExpression" flags="nn" index="10QFUN">
         <child id="1070534934091" name="type" index="10QFUM" />
         <child id="1070534934092" name="expression" index="10QFUP" />
       </concept>
+=======
+>>>>>>> b95cdd26ff... Namespace Declaration and Member Referencing (WIP) without TextGen elements
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
         <child id="1068431790190" name="initializer" index="33vP2m" />
       </concept>
@@ -138,6 +156,7 @@
         <child id="1068580123134" name="parameter" index="3clF46" />
         <child id="1068580123135" name="body" index="3clF47" />
       </concept>
+      <concept id="1068580123152" name="jetbrains.mps.baseLanguage.structure.EqualsExpression" flags="nn" index="3clFbC" />
       <concept id="1068580123155" name="jetbrains.mps.baseLanguage.structure.ExpressionStatement" flags="nn" index="3clFbF">
         <child id="1068580123156" name="expression" index="3clFbG" />
       </concept>
@@ -186,13 +205,20 @@
         <child id="1081773367579" name="rightExpression" index="3uHU7w" />
         <child id="1081773367580" name="leftExpression" index="3uHU7B" />
       </concept>
+<<<<<<< HEAD
       <concept id="1214918800624" name="jetbrains.mps.baseLanguage.structure.PostfixIncrementExpression" flags="nn" index="3uNrnE" />
+=======
+      <concept id="1214918975462" name="jetbrains.mps.baseLanguage.structure.PostfixDecrementExpression" flags="nn" index="3uO5VW" />
+>>>>>>> b95cdd26ff... Namespace Declaration and Member Referencing (WIP) without TextGen elements
       <concept id="1073239437375" name="jetbrains.mps.baseLanguage.structure.NotEqualsExpression" flags="nn" index="3y3z36" />
       <concept id="1178549954367" name="jetbrains.mps.baseLanguage.structure.IVisible" flags="ng" index="1B3ioH">
         <child id="1178549979242" name="visibility" index="1B3o_S" />
       </concept>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b95cdd26ff... Namespace Declaration and Member Referencing (WIP) without TextGen elements
       <concept id="1144230876926" name="jetbrains.mps.baseLanguage.structure.AbstractForStatement" flags="nn" index="1DupvO">
         <child id="1144230900587" name="variable" index="1Duv9x" />
       </concept>
@@ -200,6 +226,7 @@
         <child id="1144231399730" name="condition" index="1Dwp0S" />
         <child id="1144231408325" name="iteration" index="1Dwrff" />
       </concept>
+<<<<<<< HEAD
       <concept id="6329021646629104957" name="jetbrains.mps.baseLanguage.structure.TextCommentPart" flags="nn" index="3SKdUq">
         <property id="6329021646629104958" name="text" index="3SKdUp" />
       </concept>
@@ -212,6 +239,8 @@
       </concept>
 =======
 >>>>>>> 067191f2ac... Type value arguments & defaults
+=======
+>>>>>>> b95cdd26ff... Namespace Declaration and Member Referencing (WIP) without TextGen elements
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
       <concept id="1080120340718" name="jetbrains.mps.baseLanguage.structure.AndExpression" flags="nn" index="1Wc70l" />
     </language>
@@ -301,6 +330,7 @@
         <child id="3906496115198199033" name="conceptArgument" index="3oSUPX" />
       </concept>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <concept id="1145383075378" name="jetbrains.mps.lang.smodel.structure.SNodeListType" flags="in" index="2I9FWS">
         <reference id="1145383142433" name="elementConcept" index="2I9WkF" />
       </concept>
@@ -325,6 +355,11 @@
 >>>>>>> 067191f2ac... Type value arguments & defaults
 =======
 >>>>>>> 365cef1251... Autofill template args and allow defaults with =
+=======
+      <concept id="1145383075378" name="jetbrains.mps.lang.smodel.structure.SNodeListType" flags="in" index="2I9FWS">
+        <reference id="1145383142433" name="elementConcept" index="2I9WkF" />
+      </concept>
+>>>>>>> b95cdd26ff... Namespace Declaration and Member Referencing (WIP) without TextGen elements
       <concept id="1145567426890" name="jetbrains.mps.lang.smodel.structure.SNodeListCreator" flags="nn" index="2T8Vx0">
         <child id="1145567471833" name="createdType" index="2T96Bj" />
       </concept>
@@ -336,6 +371,7 @@
       <concept id="1139621453865" name="jetbrains.mps.lang.smodel.structure.Node_IsInstanceOfOperation" flags="nn" index="1mIQ4w">
         <child id="1177027386292" name="conceptArgument" index="cj9EA" />
       </concept>
+      <concept id="334628810661441841" name="jetbrains.mps.lang.smodel.structure.AsSConcept" flags="nn" index="1rGIog" />
       <concept id="1146171026731" name="jetbrains.mps.lang.smodel.structure.Property_HasValue_Enum" flags="nn" index="3t7uKx">
         <child id="1146171026732" name="value" index="3t7uKA" />
       </concept>
@@ -399,6 +435,7 @@
       <concept id="1160600644654" name="jetbrains.mps.baseLanguage.collections.structure.ListCreatorWithInit" flags="nn" index="Tc6Ow" />
       <concept id="1160612413312" name="jetbrains.mps.baseLanguage.collections.structure.AddElementOperation" flags="nn" index="TSZUe" />
       <concept id="1160666733551" name="jetbrains.mps.baseLanguage.collections.structure.AddAllElementsOperation" flags="nn" index="X8dFx" />
+      <concept id="1162935959151" name="jetbrains.mps.baseLanguage.collections.structure.GetSizeOperation" flags="nn" index="34oBXx" />
       <concept id="5232196642625575054" name="jetbrains.mps.baseLanguage.collections.structure.TailListOperation" flags="nn" index="1eb2uI">
         <child id="5232196642625575056" name="fromIndex" index="1eb2uK" />
       </concept>
@@ -935,8 +972,11 @@
                 </node>
                 <node concept="1mIQ4w" id="41KMvfckCw5" role="2OqNvi">
                   <node concept="25Kdxt" id="3kEjc_WJ41E" role="cj9EA">
-                    <node concept="37vLTw" id="3kEjc_WJ41F" role="25KhWn">
-                      <ref role="3cqZAo" node="3v5DuFDl4Mo" resolve="targetConcept" />
+                    <node concept="2OqwBi" id="1rolTiuBHuD" role="25KhWn">
+                      <node concept="37vLTw" id="3kEjc_WJ41F" role="2Oq$k0">
+                        <ref role="3cqZAo" node="3v5DuFDl4Mo" resolve="targetConcept" />
+                      </node>
+                      <node concept="1rGIog" id="1rolTiuBIeB" role="2OqNvi" />
                     </node>
                   </node>
                 </node>
@@ -998,8 +1038,11 @@
                     </node>
                     <node concept="1mIQ4w" id="41KMvfckCwR" role="2OqNvi">
                       <node concept="25Kdxt" id="41KMvfckCwT" role="cj9EA">
-                        <node concept="37vLTw" id="41KMvfckCwV" role="25KhWn">
-                          <ref role="3cqZAo" node="3v5DuFDl4Mo" resolve="targetConcept" />
+                        <node concept="2OqwBi" id="1rolTiuBIsU" role="25KhWn">
+                          <node concept="37vLTw" id="41KMvfckCwV" role="2Oq$k0">
+                            <ref role="3cqZAo" node="3v5DuFDl4Mo" resolve="targetConcept" />
+                          </node>
+                          <node concept="1rGIog" id="1rolTiuBIFj" role="2OqNvi" />
                         </node>
                       </node>
                     </node>
@@ -1789,6 +1832,73 @@
             <node concept="3GX2aA" id="gWE$qafT6e" role="2OqNvi" />
           </node>
         </node>
+        <node concept="3clFbJ" id="383ZxwZv4CP" role="3cqZAp">
+          <node concept="3clFbS" id="383ZxwZv4CR" role="3clFbx">
+            <node concept="3cpWs6" id="383ZxwZv8Yo" role="3cqZAp">
+              <node concept="3cpWs3" id="383ZxwZvp2C" role="3cqZAk">
+                <node concept="Xl_RD" id="383ZxwZvp2F" role="3uHU7w">
+                  <property role="Xl_RC" value=")" />
+                </node>
+                <node concept="3cpWs3" id="383ZxwZvnI1" role="3uHU7B">
+                  <node concept="3cpWs3" id="383ZxwZvkGe" role="3uHU7B">
+                    <node concept="3cpWs3" id="383ZxwZvgU1" role="3uHU7B">
+                      <node concept="3cpWs3" id="383ZxwZvf6C" role="3uHU7B">
+                        <node concept="2OqwBi" id="383ZxwZvcon" role="3uHU7B">
+                          <node concept="2OqwBi" id="383ZxwZv9XW" role="2Oq$k0">
+                            <node concept="13iPFW" id="383ZxwZv9uK" role="2Oq$k0" />
+                            <node concept="2Xjw5R" id="383ZxwZvb4q" role="2OqNvi">
+                              <node concept="1xMEDy" id="383ZxwZvb4s" role="1xVPHs">
+                                <node concept="chp4Y" id="383ZxwZvbAo" role="ri$Ld">
+                                  <ref role="cht4Q" to="wnzg:383ZxwZqQYo" resolve="NamespaceDeclaration" />
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                          <node concept="3TrcHB" id="383ZxwZvdQB" role="2OqNvi">
+                            <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                          </node>
+                        </node>
+                        <node concept="Xl_RD" id="383ZxwZvfBV" role="3uHU7w">
+                          <property role="Xl_RC" value="::" />
+                        </node>
+                      </node>
+                      <node concept="2OqwBi" id="383ZxwZvhRG" role="3uHU7w">
+                        <node concept="13iPFW" id="383ZxwZvhrC" role="2Oq$k0" />
+                        <node concept="3TrcHB" id="383ZxwZvjkd" role="2OqNvi">
+                          <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="Xl_RD" id="383ZxwZvleq" role="3uHU7w">
+                      <property role="Xl_RC" value="(" />
+                    </node>
+                  </node>
+                  <node concept="37vLTw" id="383ZxwZvogr" role="3uHU7w">
+                    <ref role="3cqZAo" node="gWE$qafCP_" resolve="args" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3y3z36" id="383ZxwZv8F_" role="3clFbw">
+            <node concept="10Nm6u" id="383ZxwZv8G8" role="3uHU7w" />
+            <node concept="2OqwBi" id="383ZxwZv6B4" role="3uHU7B">
+              <node concept="2OqwBi" id="383ZxwZv5ta" role="2Oq$k0">
+                <node concept="13iPFW" id="383ZxwZv57F" role="2Oq$k0" />
+                <node concept="2Xjw5R" id="383ZxwZv6h_" role="2OqNvi">
+                  <node concept="1xMEDy" id="383ZxwZv6hB" role="1xVPHs">
+                    <node concept="chp4Y" id="383ZxwZv6kk" role="ri$Ld">
+                      <ref role="cht4Q" to="wnzg:383ZxwZqQYo" resolve="NamespaceDeclaration" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3TrcHB" id="383ZxwZv7Nh" role="2OqNvi">
+                <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3clFbF" id="gWE$qaeQAj" role="3cqZAp">
           <node concept="3cpWs3" id="gWE$qafkHW" role="3clFbG">
             <node concept="Xl_RD" id="gWE$qafkL7" role="3uHU7w">
@@ -1841,6 +1951,7 @@
       <node concept="3clFbS" id="3v5DuFDr92O" role="2VODD2" />
     </node>
   </node>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   <node concept="13h7C7" id="6ddXmWdEGr3">
@@ -2036,10 +2147,46 @@
               <node concept="2T8Vx0" id="6_kdBKN4fYe" role="2ShVmc">
                 <node concept="2I9FWS" id="6_kdBKN4fYf" role="2T96Bj">
                   <ref role="2I9WkF" to="x27k:7kKaL9x4DZT" resolve="IArgumentLike" />
+=======
+  <node concept="13h7C7" id="383ZxwZt1$1">
+    <property role="3GE5qa" value="Namespace" />
+    <ref role="13h7C2" to="wnzg:383ZxwZqQYo" resolve="NamespaceDeclaration" />
+    <node concept="13i0hz" id="383ZxwZt1$c" role="13h7CS">
+      <property role="TrG5h" value="getMembers" />
+      <node concept="3Tm1VV" id="383ZxwZt1$d" role="1B3o_S" />
+      <node concept="2I9FWS" id="383ZxwZt1$w" role="3clF45">
+        <ref role="2I9WkF" to="wnzg:383ZxwZsgd4" resolve="INamespaceMemberDeclaration" />
+      </node>
+      <node concept="3clFbS" id="383ZxwZt1$f" role="3clF47">
+        <node concept="3clFbF" id="383ZxwZt1$X" role="3cqZAp">
+          <node concept="2OqwBi" id="383ZxwZt1Qs" role="3clFbG">
+            <node concept="13iPFW" id="383ZxwZt1$W" role="2Oq$k0" />
+            <node concept="3Tsc0h" id="383ZxwZt2NO" role="2OqNvi">
+              <ref role="3TtcxE" to="wnzg:383ZxwZsUja" resolve="members" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="13i0hz" id="383ZxwZt354" role="13h7CS">
+      <property role="TrG5h" value="getPresentation" />
+      <property role="2Ki8OM" value="false" />
+      <ref role="13i0hy" to="tpcu:hEwIMiw" resolve="getPresentation" />
+      <node concept="3clFbS" id="383ZxwZt357" role="3clF47">
+        <node concept="3clFbH" id="383ZxwZt3ds" role="3cqZAp" />
+        <node concept="3clFbJ" id="383ZxwZt3dP" role="3cqZAp">
+          <node concept="3clFbS" id="383ZxwZt3dR" role="3clFbx">
+            <node concept="3cpWs6" id="383ZxwZtaa$" role="3cqZAp">
+              <node concept="2OqwBi" id="383ZxwZtat2" role="3cqZAk">
+                <node concept="13iPFW" id="383ZxwZtaaQ" role="2Oq$k0" />
+                <node concept="3TrcHB" id="383ZxwZtb3H" role="2OqNvi">
+                  <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+>>>>>>> b95cdd26ff... Namespace Declaration and Member Referencing (WIP) without TextGen elements
                 </node>
               </node>
             </node>
           </node>
+<<<<<<< HEAD
         </node>
         <node concept="3clFbH" id="6_kdBKN4kUx" role="3cqZAp" />
         <node concept="3cpWs8" id="6_kdBKN4lEM" role="3cqZAp">
@@ -2114,10 +2261,23 @@
                       </node>
                       <node concept="37vLTw" id="6_kdBKN4rAo" role="2Oq$k0">
                         <ref role="3cqZAo" node="6_kdBKN4h7g" resolve="resolvedArg" />
+=======
+          <node concept="1Wc70l" id="383ZxwZt6Gb" role="3clFbw">
+            <node concept="3clFbC" id="383ZxwZt8FD" role="3uHU7w">
+              <node concept="10Nm6u" id="383ZxwZt8Gc" role="3uHU7w" />
+              <node concept="2OqwBi" id="383ZxwZt7Pz" role="3uHU7B">
+                <node concept="2OqwBi" id="383ZxwZt701" role="2Oq$k0">
+                  <node concept="13iPFW" id="383ZxwZt6Id" role="2Oq$k0" />
+                  <node concept="2Xjw5R" id="383ZxwZt7vM" role="2OqNvi">
+                    <node concept="1xMEDy" id="383ZxwZt7vO" role="1xVPHs">
+                      <node concept="chp4Y" id="383ZxwZt7yD" role="ri$Ld">
+                        <ref role="cht4Q" to="wnzg:4o2nsMgBpPQ" resolve="ClassDeclaration" />
+>>>>>>> b95cdd26ff... Namespace Declaration and Member Referencing (WIP) without TextGen elements
                       </node>
                     </node>
                   </node>
                 </node>
+<<<<<<< HEAD
                 <node concept="2OqwBi" id="6_kdBKN4ib5" role="37vLTJ">
                   <node concept="37vLTw" id="6_kdBKN4qET" role="2Oq$k0">
                     <ref role="3cqZAo" node="6_kdBKN4h7g" resolve="resolvedArg" />
@@ -2560,10 +2720,113 @@
               <node concept="Xl_RD" id="457OG4Qf69r" role="3uHU7w">
                 <property role="Xl_RC" value="_" />
 >>>>>>> 3168c40245... Fixed incompatible types.
+=======
+                <node concept="3TrcHB" id="383ZxwZt8lH" role="2OqNvi">
+                  <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbC" id="383ZxwZt6E5" role="3uHU7B">
+              <node concept="2OqwBi" id="383ZxwZt8ZO" role="3uHU7B">
+                <node concept="2OqwBi" id="383ZxwZt3y4" role="2Oq$k0">
+                  <node concept="13iPFW" id="383ZxwZt3gA" role="2Oq$k0" />
+                  <node concept="2Xjw5R" id="383ZxwZt6l2" role="2OqNvi">
+                    <node concept="1xMEDy" id="383ZxwZt6l4" role="1xVPHs">
+                      <node concept="chp4Y" id="383ZxwZt6ny" role="ri$Ld">
+                        <ref role="cht4Q" to="wnzg:383ZxwZqQYo" resolve="NamespaceDeclaration" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3TrcHB" id="383ZxwZta2D" role="2OqNvi">
+                  <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                </node>
+              </node>
+              <node concept="10Nm6u" id="383ZxwZt6Fa" role="3uHU7w" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="383ZxwZt3ei" role="3cqZAp" />
+        <node concept="3clFbJ" id="383ZxwZt3eZ" role="3cqZAp">
+          <node concept="3clFbS" id="383ZxwZt3f1" role="3clFbx">
+            <node concept="3cpWs6" id="383ZxwZtf6r" role="3cqZAp">
+              <node concept="3cpWs3" id="383ZxwZtjQA" role="3cqZAk">
+                <node concept="2OqwBi" id="383ZxwZtkoL" role="3uHU7w">
+                  <node concept="13iPFW" id="383ZxwZtk4F" role="2Oq$k0" />
+                  <node concept="3TrcHB" id="383ZxwZtlyQ" role="2OqNvi">
+                    <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                  </node>
+                </node>
+                <node concept="3cpWs3" id="383ZxwZti$b" role="3uHU7B">
+                  <node concept="2OqwBi" id="383ZxwZtg_c" role="3uHU7B">
+                    <node concept="2OqwBi" id="383ZxwZtfpm" role="2Oq$k0">
+                      <node concept="13iPFW" id="383ZxwZtf6J" role="2Oq$k0" />
+                      <node concept="2Xjw5R" id="383ZxwZtg0x" role="2OqNvi">
+                        <node concept="1xMEDy" id="383ZxwZtg0z" role="1xVPHs">
+                          <node concept="chp4Y" id="383ZxwZtgaP" role="ri$Ld">
+                            <ref role="cht4Q" to="wnzg:4o2nsMgBpPQ" resolve="ClassDeclaration" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3TrcHB" id="383ZxwZthFO" role="2OqNvi">
+                      <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                    </node>
+                  </node>
+                  <node concept="Xl_RD" id="383ZxwZtiYU" role="3uHU7w">
+                    <property role="Xl_RC" value="." />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbC" id="383ZxwZtf18" role="3clFbw">
+            <node concept="10Nm6u" id="383ZxwZtf2s" role="3uHU7w" />
+            <node concept="2OqwBi" id="383ZxwZtcLm" role="3uHU7B">
+              <node concept="2OqwBi" id="383ZxwZtbwM" role="2Oq$k0">
+                <node concept="13iPFW" id="383ZxwZtbfa" role="2Oq$k0" />
+                <node concept="2Xjw5R" id="383ZxwZtbZN" role="2OqNvi">
+                  <node concept="1xMEDy" id="383ZxwZtbZP" role="1xVPHs">
+                    <node concept="chp4Y" id="383ZxwZtc2l" role="ri$Ld">
+                      <ref role="cht4Q" to="wnzg:383ZxwZqQYo" resolve="NamespaceDeclaration" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3TrcHB" id="383ZxwZte9s" role="2OqNvi">
+                <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
               </node>
             </node>
           </node>
         </node>
+        <node concept="3clFbH" id="383ZxwZt3fA" role="3cqZAp" />
+        <node concept="3cpWs8" id="383ZxwZtm68" role="3cqZAp">
+          <node concept="3cpWsn" id="383ZxwZtm6b" role="3cpWs9">
+            <property role="TrG5h" value="presentation" />
+            <node concept="17QB3L" id="383ZxwZtm66" role="1tU5fm" />
+            <node concept="Xl_RD" id="383ZxwZtmlz" role="33vP2m" />
+          </node>
+        </node>
+        <node concept="3cpWs8" id="383ZxwZtmMD" role="3cqZAp">
+          <node concept="3cpWsn" id="383ZxwZtmMG" role="3cpWs9">
+            <property role="TrG5h" value="ancestorNode" />
+            <node concept="3Tqbb2" id="383ZxwZtmMB" role="1tU5fm">
+              <ref role="ehGHo" to="wnzg:383ZxwZqQYo" resolve="NamespaceDeclaration" />
+            </node>
+            <node concept="2OqwBi" id="383ZxwZtnho" role="33vP2m">
+              <node concept="13iPFW" id="383ZxwZtn2Q" role="2Oq$k0" />
+              <node concept="2Xjw5R" id="383ZxwZtnKr" role="2OqNvi">
+                <node concept="1xMEDy" id="383ZxwZtnKt" role="1xVPHs">
+                  <node concept="chp4Y" id="383ZxwZtnN2" role="ri$Ld">
+                    <ref role="cht4Q" to="wnzg:383ZxwZqQYo" resolve="NamespaceDeclaration" />
+                  </node>
+                </node>
+>>>>>>> b95cdd26ff... Namespace Declaration and Member Referencing (WIP) without TextGen elements
+              </node>
+            </node>
+          </node>
+        </node>
+<<<<<<< HEAD
 <<<<<<< HEAD
         <node concept="3cpWs6" id="6ddXmWdITvN" role="3cqZAp">
           <node concept="37vLTw" id="6ddXmWdIUpU" role="3cqZAk">
@@ -2586,11 +2849,24 @@
               <node concept="2T8Vx0" id="6_kdBKNdo$L" role="2ShVmc">
                 <node concept="2I9FWS" id="6_kdBKNdo$M" role="2T96Bj">
                   <ref role="2I9WkF" to="x27k:7kKaL9x4DZT" resolve="IArgumentLike" />
+=======
+        <node concept="3cpWs8" id="383ZxwZto_n" role="3cqZAp">
+          <node concept="3cpWsn" id="383ZxwZto_q" role="3cpWs9">
+            <property role="TrG5h" value="ancestorNodes" />
+            <node concept="2I9FWS" id="383ZxwZto_i" role="1tU5fm">
+              <ref role="2I9WkF" to="wnzg:383ZxwZqQYo" resolve="NamespaceDeclaration" />
+            </node>
+            <node concept="2ShNRf" id="383ZxwZtoPY" role="33vP2m">
+              <node concept="Tc6Ow" id="383ZxwZtoZw" role="2ShVmc">
+                <node concept="3Tqbb2" id="383ZxwZtp58" role="HW$YZ">
+                  <ref role="ehGHo" to="wnzg:383ZxwZqQYo" resolve="NamespaceDeclaration" />
+>>>>>>> b95cdd26ff... Namespace Declaration and Member Referencing (WIP) without TextGen elements
                 </node>
               </node>
             </node>
           </node>
         </node>
+<<<<<<< HEAD
         <node concept="2Gpval" id="6_kdBKNdoKS" role="3cqZAp">
           <node concept="2GrKxI" id="6_kdBKNdoKU" role="2Gsz3X">
             <property role="TrG5h" value="arg" />
@@ -2633,10 +2909,26 @@
                     <node concept="1xMEDy" id="6_kdBKNdty1" role="1xVPHs">
                       <node concept="chp4Y" id="6_kdBKNdt$_" role="ri$Ld">
                         <ref role="cht4Q" to="wnzg:4o2nsMgBpPQ" resolve="ClassDeclaration" />
+=======
+        <node concept="3clFbH" id="383ZxwZtlNy" role="3cqZAp" />
+        <node concept="3clFbJ" id="383ZxwZtq6J" role="3cqZAp">
+          <node concept="3clFbS" id="383ZxwZtq6L" role="3clFbx">
+            <node concept="2$JKZl" id="383ZxwZtqK5" role="3cqZAp">
+              <node concept="3clFbS" id="383ZxwZtqK7" role="2LFqv$">
+                <node concept="3clFbF" id="383ZxwZtr3j" role="3cqZAp">
+                  <node concept="2OqwBi" id="383ZxwZtuQ4" role="3clFbG">
+                    <node concept="37vLTw" id="383ZxwZtr3i" role="2Oq$k0">
+                      <ref role="3cqZAo" node="383ZxwZto_q" resolve="ancestorNodes" />
+                    </node>
+                    <node concept="TSZUe" id="383ZxwZtCn3" role="2OqNvi">
+                      <node concept="37vLTw" id="383ZxwZtCDu" role="25WWJ7">
+                        <ref role="3cqZAo" node="383ZxwZtmMG" resolve="ancestorNode" />
+>>>>>>> b95cdd26ff... Namespace Declaration and Member Referencing (WIP) without TextGen elements
                       </node>
                     </node>
                   </node>
                 </node>
+<<<<<<< HEAD
                 <node concept="3Tsc0h" id="6_kdBKNduUx" role="2OqNvi">
                   <ref role="3TtcxE" to="wnzg:3UsoL$l5qj8" resolve="ancestors" />
                 </node>
@@ -2661,10 +2953,23 @@
                           </node>
                           <node concept="3TrEf2" id="6_kdBKNdzPL" role="2OqNvi">
                             <ref role="3Tt5mk" to="mj1l:hEaDaGor64" resolve="type" />
+=======
+                <node concept="3clFbF" id="383ZxwZtCWe" role="3cqZAp">
+                  <node concept="37vLTI" id="383ZxwZtDpg" role="3clFbG">
+                    <node concept="2OqwBi" id="383ZxwZtDTT" role="37vLTx">
+                      <node concept="37vLTw" id="383ZxwZtDpO" role="2Oq$k0">
+                        <ref role="3cqZAo" node="383ZxwZtmMG" resolve="ancestorNode" />
+                      </node>
+                      <node concept="2Xjw5R" id="383ZxwZtEs2" role="2OqNvi">
+                        <node concept="1xMEDy" id="383ZxwZtEs4" role="1xVPHs">
+                          <node concept="chp4Y" id="383ZxwZtExJ" role="ri$Ld">
+                            <ref role="cht4Q" to="wnzg:383ZxwZqQYo" resolve="NamespaceDeclaration" />
+>>>>>>> b95cdd26ff... Namespace Declaration and Member Referencing (WIP) without TextGen elements
                           </node>
                         </node>
                       </node>
                     </node>
+<<<<<<< HEAD
                     <node concept="2OqwBi" id="6_kdBKNdvbG" role="37vLTJ">
                       <node concept="37vLTw" id="6_kdBKNduZi" role="2Oq$k0">
                         <ref role="3cqZAo" node="6_kdBKNds9U" resolve="resolvedArg" />
@@ -2672,10 +2977,15 @@
                       <node concept="3TrEf2" id="6_kdBKNdvXt" role="2OqNvi">
                         <ref role="3Tt5mk" to="mj1l:hEaDaGor64" resolve="type" />
                       </node>
+=======
+                    <node concept="37vLTw" id="383ZxwZtCWc" role="37vLTJ">
+                      <ref role="3cqZAo" node="383ZxwZtmMG" resolve="ancestorNode" />
+>>>>>>> b95cdd26ff... Namespace Declaration and Member Referencing (WIP) without TextGen elements
                     </node>
                   </node>
                 </node>
               </node>
+<<<<<<< HEAD
             </node>
             <node concept="3clFbF" id="6_kdBKNd$qJ" role="3cqZAp">
               <node concept="2OqwBi" id="6_kdBKNdBlK" role="3clFbG">
@@ -2686,10 +2996,17 @@
                   <node concept="37vLTw" id="6_kdBKNdJ9K" role="25WWJ7">
                     <ref role="3cqZAo" node="6_kdBKNds9U" resolve="resolvedArg" />
                   </node>
+=======
+              <node concept="3y3z36" id="383ZxwZtr2g" role="2$JKZa">
+                <node concept="10Nm6u" id="383ZxwZtr2N" role="3uHU7w" />
+                <node concept="37vLTw" id="383ZxwZtqKz" role="3uHU7B">
+                  <ref role="3cqZAo" node="383ZxwZtmMG" resolve="ancestorNode" />
+>>>>>>> b95cdd26ff... Namespace Declaration and Member Referencing (WIP) without TextGen elements
                 </node>
               </node>
             </node>
           </node>
+<<<<<<< HEAD
         </node>
         <node concept="3cpWs6" id="6_kdBKNdoJt" role="3cqZAp">
           <node concept="37vLTw" id="6_kdBKNdoK1" role="3cqZAk">
@@ -2915,11 +3232,127 @@
               <node concept="2T8Vx0" id="3kfXlW6mrli" role="2ShVmc">
                 <node concept="2I9FWS" id="3kfXlW6mrlj" role="2T96Bj">
                   <ref role="2I9WkF" to="x27k:5_l8w1EmTdf" resolve="IModuleContent" />
+=======
+          <node concept="3y3z36" id="383ZxwZtqJw" role="3clFbw">
+            <node concept="37vLTw" id="383ZxwZtqmH" role="3uHU7B">
+              <ref role="3cqZAo" node="383ZxwZtmMG" resolve="ancestorNode" />
+            </node>
+            <node concept="10Nm6u" id="383ZxwZtqJ1" role="3uHU7w" />
+          </node>
+        </node>
+        <node concept="3clFbH" id="383ZxwZtEA9" role="3cqZAp" />
+        <node concept="1Dw8fO" id="383ZxwZtFvh" role="3cqZAp">
+          <node concept="3clFbS" id="383ZxwZtFvj" role="2LFqv$">
+            <node concept="3clFbF" id="383ZxwZu1kD" role="3cqZAp">
+              <node concept="d57v9" id="383ZxwZu1Ac" role="3clFbG">
+                <node concept="3cpWs3" id="383ZxwZucIX" role="37vLTx">
+                  <node concept="Xl_RD" id="383ZxwZucNA" role="3uHU7w">
+                    <property role="Xl_RC" value="::" />
+                  </node>
+                  <node concept="2OqwBi" id="383ZxwZuaMC" role="3uHU7B">
+                    <node concept="1y4W85" id="383ZxwZu9I5" role="2Oq$k0">
+                      <node concept="37vLTw" id="383ZxwZu9Ij" role="1y58nS">
+                        <ref role="3cqZAo" node="383ZxwZtFvk" resolve="j" />
+                      </node>
+                      <node concept="37vLTw" id="383ZxwZu1AH" role="1y566C">
+                        <ref role="3cqZAo" node="383ZxwZto_q" resolve="ancestorNodes" />
+                      </node>
+                    </node>
+                    <node concept="3TrcHB" id="383ZxwZubL$" role="2OqNvi">
+                      <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="37vLTw" id="383ZxwZu1kB" role="37vLTJ">
+                  <ref role="3cqZAo" node="383ZxwZtm6b" resolve="presentation" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3cpWsn" id="383ZxwZtFvk" role="1Duv9x">
+            <property role="TrG5h" value="j" />
+            <node concept="10Oyi0" id="383ZxwZtFZw" role="1tU5fm" />
+            <node concept="3cpWsd" id="383ZxwZtZwq" role="33vP2m">
+              <node concept="3cmrfG" id="383ZxwZtZwt" role="3uHU7w">
+                <property role="3cmrfH" value="1" />
+              </node>
+              <node concept="2OqwBi" id="383ZxwZtKyZ" role="3uHU7B">
+                <node concept="37vLTw" id="383ZxwZtG0R" role="2Oq$k0">
+                  <ref role="3cqZAo" node="383ZxwZto_q" resolve="ancestorNodes" />
+                </node>
+                <node concept="34oBXx" id="383ZxwZtU3W" role="2OqNvi" />
+              </node>
+            </node>
+          </node>
+          <node concept="2d3UOw" id="383ZxwZu0qm" role="1Dwp0S">
+            <node concept="3cmrfG" id="383ZxwZu0qT" role="3uHU7w">
+              <property role="3cmrfH" value="0" />
+            </node>
+            <node concept="37vLTw" id="383ZxwZtZAB" role="3uHU7B">
+              <ref role="3cqZAo" node="383ZxwZtFvk" resolve="j" />
+            </node>
+          </node>
+          <node concept="3uO5VW" id="383ZxwZu1fx" role="1Dwrff">
+            <node concept="37vLTw" id="383ZxwZu1fz" role="2$L3a6">
+              <ref role="3cqZAo" node="383ZxwZtFvk" resolve="j" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="383ZxwZudFg" role="3cqZAp">
+          <node concept="d57v9" id="383ZxwZuepR" role="3clFbG">
+            <node concept="2OqwBi" id="383ZxwZueJj" role="37vLTx">
+              <node concept="13iPFW" id="383ZxwZueqk" role="2Oq$k0" />
+              <node concept="3TrcHB" id="383ZxwZufGN" role="2OqNvi">
+                <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+              </node>
+            </node>
+            <node concept="37vLTw" id="383ZxwZudFe" role="37vLTJ">
+              <ref role="3cqZAo" node="383ZxwZtm6b" resolve="presentation" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="383ZxwZtlRa" role="3cqZAp" />
+        <node concept="3cpWs6" id="383ZxwZtmmc" role="3cqZAp">
+          <node concept="37vLTw" id="383ZxwZtm_o" role="3cqZAk">
+            <ref role="3cqZAo" node="383ZxwZtm6b" resolve="presentation" />
+          </node>
+        </node>
+      </node>
+      <node concept="17QB3L" id="383ZxwZt39x" role="3clF45" />
+      <node concept="3Tm1VV" id="383ZxwZt39y" role="1B3o_S" />
+    </node>
+    <node concept="13i0hz" id="383ZxwZufXU" role="13h7CS">
+      <property role="TrG5h" value="getEditorPresentation" />
+      <node concept="3Tm1VV" id="383ZxwZufXV" role="1B3o_S" />
+      <node concept="17QB3L" id="383ZxwZuhvX" role="3clF45" />
+      <node concept="3clFbS" id="383ZxwZufXX" role="3clF47">
+        <node concept="3cpWs8" id="383ZxwZuhwi" role="3cqZAp">
+          <node concept="3cpWsn" id="383ZxwZuhwl" role="3cpWs9">
+            <property role="TrG5h" value="editorPres" />
+            <node concept="17QB3L" id="383ZxwZuhwh" role="1tU5fm" />
+            <node concept="Xl_RD" id="383ZxwZuhx2" role="33vP2m" />
+          </node>
+        </node>
+        <node concept="3cpWs8" id="383ZxwZuier" role="3cqZAp">
+          <node concept="3cpWsn" id="383ZxwZuies" role="3cpWs9">
+            <property role="TrG5h" value="ancestorNode" />
+            <node concept="3Tqbb2" id="383ZxwZuiet" role="1tU5fm">
+              <ref role="ehGHo" to="wnzg:383ZxwZqQYo" resolve="NamespaceDeclaration" />
+            </node>
+            <node concept="2OqwBi" id="383ZxwZuieu" role="33vP2m">
+              <node concept="13iPFW" id="383ZxwZuiev" role="2Oq$k0" />
+              <node concept="2Xjw5R" id="383ZxwZuiew" role="2OqNvi">
+                <node concept="1xMEDy" id="383ZxwZuiex" role="1xVPHs">
+                  <node concept="chp4Y" id="383ZxwZuiey" role="ri$Ld">
+                    <ref role="cht4Q" to="wnzg:383ZxwZqQYo" resolve="NamespaceDeclaration" />
+                  </node>
+>>>>>>> b95cdd26ff... Namespace Declaration and Member Referencing (WIP) without TextGen elements
                 </node>
               </node>
             </node>
           </node>
         </node>
+<<<<<<< HEAD
         <node concept="3clFbF" id="3kfXlW6mrDo" role="3cqZAp">
           <node concept="2OqwBi" id="3kfXlW6msyZ" role="3clFbG">
             <node concept="37vLTw" id="3kfXlW6mrDn" role="2Oq$k0">
@@ -2934,11 +3367,24 @@
                   <node concept="3TrEf2" id="7oI7FI6rWyD" role="2OqNvi">
                     <ref role="3Tt5mk" to="mj1l:hEaDaGor64" resolve="type" />
                   </node>
+=======
+        <node concept="3cpWs8" id="383ZxwZuibg" role="3cqZAp">
+          <node concept="3cpWsn" id="383ZxwZuibh" role="3cpWs9">
+            <property role="TrG5h" value="ancestorNodes" />
+            <node concept="2I9FWS" id="383ZxwZuibi" role="1tU5fm">
+              <ref role="2I9WkF" to="wnzg:383ZxwZqQYo" resolve="NamespaceDeclaration" />
+            </node>
+            <node concept="2ShNRf" id="383ZxwZuibj" role="33vP2m">
+              <node concept="Tc6Ow" id="383ZxwZuibk" role="2ShVmc">
+                <node concept="3Tqbb2" id="383ZxwZuibl" role="HW$YZ">
+                  <ref role="ehGHo" to="wnzg:383ZxwZqQYo" resolve="NamespaceDeclaration" />
+>>>>>>> b95cdd26ff... Namespace Declaration and Member Referencing (WIP) without TextGen elements
                 </node>
               </node>
             </node>
           </node>
         </node>
+<<<<<<< HEAD
         <node concept="3clFbJ" id="40dlgDLBfxS" role="3cqZAp">
           <node concept="3clFbS" id="40dlgDLBfxV" role="3clFbx">
             <node concept="3cpWs8" id="3kfXlW6o2d2" role="3cqZAp">
@@ -2984,10 +3430,46 @@
                         <property role="TrG5h" value="it" />
                         <node concept="2jxLKc" id="3kfXlW6o2dk" role="1tU5fm" />
                       </node>
+=======
+        <node concept="3clFbH" id="383ZxwZuhxQ" role="3cqZAp" />
+        <node concept="3clFbJ" id="383ZxwZujlD" role="3cqZAp">
+          <node concept="3clFbS" id="383ZxwZujlE" role="3clFbx">
+            <node concept="2$JKZl" id="383ZxwZujlF" role="3cqZAp">
+              <node concept="3clFbS" id="383ZxwZujlG" role="2LFqv$">
+                <node concept="3clFbF" id="383ZxwZujlH" role="3cqZAp">
+                  <node concept="2OqwBi" id="383ZxwZujlI" role="3clFbG">
+                    <node concept="37vLTw" id="383ZxwZujlJ" role="2Oq$k0">
+                      <ref role="3cqZAo" node="383ZxwZuibh" resolve="ancestorNodes" />
+                    </node>
+                    <node concept="TSZUe" id="383ZxwZujlK" role="2OqNvi">
+                      <node concept="37vLTw" id="383ZxwZujlL" role="25WWJ7">
+                        <ref role="3cqZAo" node="383ZxwZuies" resolve="ancestorNode" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3clFbF" id="383ZxwZujlM" role="3cqZAp">
+                  <node concept="37vLTI" id="383ZxwZujlN" role="3clFbG">
+                    <node concept="2OqwBi" id="383ZxwZujlO" role="37vLTx">
+                      <node concept="37vLTw" id="383ZxwZujlP" role="2Oq$k0">
+                        <ref role="3cqZAo" node="383ZxwZuies" resolve="ancestorNode" />
+                      </node>
+                      <node concept="2Xjw5R" id="383ZxwZujlQ" role="2OqNvi">
+                        <node concept="1xMEDy" id="383ZxwZujlR" role="1xVPHs">
+                          <node concept="chp4Y" id="383ZxwZujlS" role="ri$Ld">
+                            <ref role="cht4Q" to="wnzg:383ZxwZqQYo" resolve="NamespaceDeclaration" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="37vLTw" id="383ZxwZujlT" role="37vLTJ">
+                      <ref role="3cqZAo" node="383ZxwZuies" resolve="ancestorNode" />
+>>>>>>> b95cdd26ff... Namespace Declaration and Member Referencing (WIP) without TextGen elements
                     </node>
                   </node>
                 </node>
               </node>
+<<<<<<< HEAD
             </node>
             <node concept="3clFbF" id="3kfXlW6o8vG" role="3cqZAp">
               <node concept="2OqwBi" id="3kfXlW6oabm" role="3clFbG">
@@ -3399,10 +3881,111 @@
             <node concept="3TrEf2" id="2O2YBLDv2KG" role="2OqNvi">
               <ref role="3Tt5mk" to="wnzg:2O2YBLDq81u" resolve="initialize" />
 >>>>>>> 3168c40245... Fixed incompatible types.
+=======
+              <node concept="3y3z36" id="383ZxwZujlU" role="2$JKZa">
+                <node concept="10Nm6u" id="383ZxwZujlV" role="3uHU7w" />
+                <node concept="37vLTw" id="383ZxwZujlW" role="3uHU7B">
+                  <ref role="3cqZAo" node="383ZxwZuies" resolve="ancestorNode" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3y3z36" id="383ZxwZujlX" role="3clFbw">
+            <node concept="37vLTw" id="383ZxwZujlY" role="3uHU7B">
+              <ref role="3cqZAo" node="383ZxwZuies" resolve="ancestorNode" />
+            </node>
+            <node concept="10Nm6u" id="383ZxwZujlZ" role="3uHU7w" />
+          </node>
+        </node>
+        <node concept="3clFbH" id="383ZxwZuj74" role="3cqZAp" />
+        <node concept="1Dw8fO" id="383ZxwZuhzA" role="3cqZAp">
+          <node concept="3clFbS" id="383ZxwZuhzB" role="2LFqv$">
+            <node concept="3clFbF" id="383ZxwZuhzC" role="3cqZAp">
+              <node concept="d57v9" id="383ZxwZuhzD" role="3clFbG">
+                <node concept="3cpWs3" id="383ZxwZuhzE" role="37vLTx">
+                  <node concept="Xl_RD" id="383ZxwZuhzF" role="3uHU7w">
+                    <property role="Xl_RC" value="::" />
+                  </node>
+                  <node concept="2OqwBi" id="383ZxwZuhzG" role="3uHU7B">
+                    <node concept="1y4W85" id="383ZxwZuhzH" role="2Oq$k0">
+                      <node concept="37vLTw" id="383ZxwZuhzI" role="1y58nS">
+                        <ref role="3cqZAo" node="383ZxwZuhzM" resolve="j" />
+                      </node>
+                      <node concept="37vLTw" id="383ZxwZuiMm" role="1y566C">
+                        <ref role="3cqZAo" node="383ZxwZuibh" resolve="ancestorNodes" />
+                      </node>
+                    </node>
+                    <node concept="3TrcHB" id="383ZxwZuhzK" role="2OqNvi">
+                      <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="37vLTw" id="383ZxwZuhYc" role="37vLTJ">
+                  <ref role="3cqZAo" node="383ZxwZuhwl" resolve="editorPres" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3cpWsn" id="383ZxwZuhzM" role="1Duv9x">
+            <property role="TrG5h" value="j" />
+            <node concept="10Oyi0" id="383ZxwZuhzN" role="1tU5fm" />
+            <node concept="3cpWsd" id="383ZxwZuhzO" role="33vP2m">
+              <node concept="3cmrfG" id="383ZxwZuhzP" role="3uHU7w">
+                <property role="3cmrfH" value="1" />
+              </node>
+              <node concept="2OqwBi" id="383ZxwZuhzQ" role="3uHU7B">
+                <node concept="37vLTw" id="383ZxwZuilT" role="2Oq$k0">
+                  <ref role="3cqZAo" node="383ZxwZuibh" resolve="ancestorNodes" />
+                </node>
+                <node concept="34oBXx" id="383ZxwZuhzS" role="2OqNvi" />
+              </node>
+            </node>
+          </node>
+          <node concept="2d3UOw" id="383ZxwZuhzT" role="1Dwp0S">
+            <node concept="3cmrfG" id="383ZxwZuhzU" role="3uHU7w">
+              <property role="3cmrfH" value="0" />
+            </node>
+            <node concept="37vLTw" id="383ZxwZuhzV" role="3uHU7B">
+              <ref role="3cqZAo" node="383ZxwZuhzM" resolve="j" />
+            </node>
+          </node>
+          <node concept="3uO5VW" id="383ZxwZuhzW" role="1Dwrff">
+            <node concept="37vLTw" id="383ZxwZuhzX" role="2$L3a6">
+              <ref role="3cqZAo" node="383ZxwZuhzM" resolve="j" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="383ZxwZuhy3" role="3cqZAp" />
+        <node concept="3cpWs6" id="383ZxwZuhyz" role="3cqZAp">
+          <node concept="37vLTw" id="383ZxwZuhzi" role="3cqZAk">
+            <ref role="3cqZAo" node="383ZxwZuhwl" resolve="editorPres" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="13hLZK" id="383ZxwZt1$2" role="13h7CW">
+      <node concept="3clFbS" id="383ZxwZt1$3" role="2VODD2" />
+    </node>
+  </node>
+  <node concept="13h7C7" id="383ZxwZuROF">
+    <property role="3GE5qa" value="Namespace" />
+    <ref role="13h7C2" to="wnzg:383ZxwZrBky" resolve="NamespaceMethodCall" />
+    <node concept="13i0hz" id="383ZxwZuROQ" role="13h7CS">
+      <property role="TrG5h" value="getActuals" />
+      <property role="2Ki8OM" value="false" />
+      <ref role="13i0hy" to="qd6m:6WGVxckB05Y" resolve="getActuals" />
+      <node concept="3clFbS" id="383ZxwZuROT" role="3clF47">
+        <node concept="3clFbF" id="383ZxwZuRPP" role="3cqZAp">
+          <node concept="2OqwBi" id="383ZxwZuS7d" role="3clFbG">
+            <node concept="13iPFW" id="383ZxwZuRPO" role="2Oq$k0" />
+            <node concept="3Tsc0h" id="383ZxwZuS_F" role="2OqNvi">
+              <ref role="3TtcxE" to="wnzg:383ZxwZrBkA" resolve="actuals" />
+>>>>>>> b95cdd26ff... Namespace Declaration and Member Referencing (WIP) without TextGen elements
             </node>
           </node>
         </node>
       </node>
+<<<<<<< HEAD
 <<<<<<< HEAD
       <node concept="2I9FWS" id="7DDmkzcDq_" role="3clF45">
         <ref role="2I9WkF" to="mj1l:7FQByU3CrCM" resolve="Expression" />
@@ -3443,11 +4026,50 @@
               </node>
             </node>
             <node concept="3Tsc0h" id="7DDmkzcKcf" role="2OqNvi">
+=======
+      <node concept="2I9FWS" id="383ZxwZuRPA" role="3clF45">
+        <ref role="2I9WkF" to="mj1l:7FQByU3CrCM" resolve="Expression" />
+      </node>
+      <node concept="3Tm1VV" id="383ZxwZuRPB" role="1B3o_S" />
+    </node>
+    <node concept="13i0hz" id="383ZxwZuSNn" role="13h7CS">
+      <property role="TrG5h" value="getActualsLink" />
+      <property role="2Ki8OM" value="true" />
+      <ref role="13i0hy" to="qd6m:2$xXL4HCFy0" resolve="getActualsLink" />
+      <node concept="3clFbS" id="383ZxwZuSNq" role="3clF47">
+        <node concept="3clFbF" id="383ZxwZuTlw" role="3cqZAp">
+          <node concept="28GBK8" id="383ZxwZuTlv" role="3clFbG">
+            <ref role="28GBKb" to="wnzg:383ZxwZrBky" resolve="NamespaceMethodCall" />
+            <ref role="28H3Ia" to="wnzg:383ZxwZrBkA" resolve="actuals" />
+          </node>
+        </node>
+      </node>
+      <node concept="3Tqbb2" id="383ZxwZuSRN" role="3clF45">
+        <ref role="ehGHo" to="tpce:f_TJgxE" resolve="LinkDeclaration" />
+      </node>
+      <node concept="3Tm1VV" id="383ZxwZuSRO" role="1B3o_S" />
+    </node>
+    <node concept="13i0hz" id="383ZxwZuSVL" role="13h7CS">
+      <property role="TrG5h" value="getFormals" />
+      <property role="2Ki8OM" value="false" />
+      <ref role="13i0hy" to="qd6m:6WGVxckB065" resolve="getFormals" />
+      <node concept="3clFbS" id="383ZxwZuSVO" role="3clF47">
+        <node concept="3clFbF" id="383ZxwZuTme" role="3cqZAp">
+          <node concept="2OqwBi" id="383ZxwZuUZ9" role="3clFbG">
+            <node concept="2OqwBi" id="383ZxwZuTBA" role="2Oq$k0">
+              <node concept="13iPFW" id="383ZxwZuTmd" role="2Oq$k0" />
+              <node concept="3TrEf2" id="383ZxwZuU6c" role="2OqNvi">
+                <ref role="3Tt5mk" to="wnzg:383ZxwZrBkI" resolve="method" />
+              </node>
+            </node>
+            <node concept="3Tsc0h" id="383ZxwZuVLD" role="2OqNvi">
+>>>>>>> b95cdd26ff... Namespace Declaration and Member Referencing (WIP) without TextGen elements
               <ref role="3TtcxE" to="x27k:4WTYg$PUiX5" resolve="arguments" />
             </node>
           </node>
         </node>
       </node>
+<<<<<<< HEAD
       <node concept="2I9FWS" id="7DDmkzcDqL" role="3clF45">
         <ref role="2I9WkF" to="x27k:7kKaL9x4DZT" resolve="IArgumentLike" />
       </node>
@@ -3468,11 +4090,33 @@
               </node>
             </node>
             <node concept="3TrEf2" id="7DDmkzcNHq" role="2OqNvi">
+=======
+      <node concept="2I9FWS" id="383ZxwZuT0d" role="3clF45">
+        <ref role="2I9WkF" to="x27k:7kKaL9x4DZT" resolve="IArgumentLike" />
+      </node>
+      <node concept="3Tm1VV" id="383ZxwZuT0e" role="1B3o_S" />
+    </node>
+    <node concept="13i0hz" id="383ZxwZuT4b" role="13h7CS">
+      <property role="TrG5h" value="getReturnType" />
+      <property role="2Ki8OM" value="false" />
+      <ref role="13i0hy" to="qd6m:7$$5Stoo8Y$" resolve="getReturnType" />
+      <node concept="3clFbS" id="383ZxwZuT4e" role="3clF47">
+        <node concept="3clFbF" id="383ZxwZuW3u" role="3cqZAp">
+          <node concept="2OqwBi" id="383ZxwZuY4T" role="3clFbG">
+            <node concept="2OqwBi" id="383ZxwZuWi$" role="2Oq$k0">
+              <node concept="13iPFW" id="383ZxwZuW3t" role="2Oq$k0" />
+              <node concept="3TrEf2" id="383ZxwZuXfi" role="2OqNvi">
+                <ref role="3Tt5mk" to="wnzg:383ZxwZrBkI" resolve="method" />
+              </node>
+            </node>
+            <node concept="3TrEf2" id="383ZxwZuYRn" role="2OqNvi">
+>>>>>>> b95cdd26ff... Namespace Declaration and Member Referencing (WIP) without TextGen elements
               <ref role="3Tt5mk" to="mj1l:hEaDaGor64" resolve="type" />
             </node>
           </node>
         </node>
       </node>
+<<<<<<< HEAD
       <node concept="3Tqbb2" id="7DDmkzcDqR" role="3clF45" />
     </node>
     <node concept="13i0hz" id="7DDmkzcDqS" role="13h7CS">
@@ -3565,10 +4209,26 @@
 >>>>>>> 3168c40245... Fixed incompatible types.
 =======
 >>>>>>> dd5d1b9963... Fixed error: abstract concept.
+=======
+      <node concept="3Tqbb2" id="383ZxwZuT8J" role="3clF45" />
+      <node concept="3Tm1VV" id="383ZxwZuT8K" role="1B3o_S" />
+    </node>
+    <node concept="13i0hz" id="383ZxwZuTcH" role="13h7CS">
+      <property role="TrG5h" value="getFunction" />
+      <property role="2Ki8OM" value="false" />
+      <ref role="13i0hy" to="qd6m:74lwjTQiYY5" resolve="getFunction" />
+      <node concept="3clFbS" id="383ZxwZuTcK" role="3clF47">
+        <node concept="3clFbF" id="383ZxwZuZ0m" role="3cqZAp">
+          <node concept="2OqwBi" id="383ZxwZuZhI" role="3clFbG">
+            <node concept="13iPFW" id="383ZxwZuZ0l" role="2Oq$k0" />
+            <node concept="3TrEf2" id="383ZxwZuZKm" role="2OqNvi">
+              <ref role="3Tt5mk" to="wnzg:383ZxwZrBkI" resolve="method" />
+>>>>>>> b95cdd26ff... Namespace Declaration and Member Referencing (WIP) without TextGen elements
             </node>
           </node>
         </node>
       </node>
+<<<<<<< HEAD
 <<<<<<< HEAD
       <node concept="3Tqbb2" id="7DDmkzcDqX" role="3clF45">
         <ref role="ehGHo" to="x27k:71UKpntnl7M" resolve="IFunctionLike" />
@@ -3619,6 +4279,15 @@
     <node concept="13hLZK" id="2QDt3lz1dfg" role="13h7CW">
       <node concept="3clFbS" id="2QDt3lz1dfh" role="2VODD2" />
 >>>>>>> 067191f2ac... Type value arguments & defaults
+=======
+      <node concept="3Tqbb2" id="383ZxwZuThx" role="3clF45">
+        <ref role="ehGHo" to="x27k:71UKpntnl7M" resolve="IFunctionLike" />
+      </node>
+      <node concept="3Tm1VV" id="383ZxwZuThy" role="1B3o_S" />
+    </node>
+    <node concept="13hLZK" id="383ZxwZuROG" role="13h7CW">
+      <node concept="3clFbS" id="383ZxwZuROH" role="2VODD2" />
+>>>>>>> b95cdd26ff... Namespace Declaration and Member Referencing (WIP) without TextGen elements
     </node>
   </node>
 </model>
