@@ -96,6 +96,7 @@
       <concept id="1068581242878" name="jetbrains.mps.baseLanguage.structure.ReturnStatement" flags="nn" index="3cpWs6">
         <child id="1068581517676" name="expression" index="3cqZAk" />
       </concept>
+<<<<<<< HEAD
       <concept id="1068581242864" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" flags="nn" index="3cpWs8">
         <child id="1068581242865" name="localVariableDeclaration" index="3cpWs9" />
       </concept>
@@ -116,6 +117,8 @@
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
 >>>>>>> b95cdd26ff... Namespace Declaration and Member Referencing (WIP) without TextGen elements
+=======
+>>>>>>> c9ad58ee32... Added TextGen elements of Namespace Concepts and adjusted several Editors
       <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ng" index="1ndlxa">
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
         <child id="1068499141038" name="actualArgument" index="37wK5m" />
@@ -808,8 +811,8 @@
       <ref role="1N5Vy1" to="wnzg:383ZxwZrBkI" resolve="method" />
       <node concept="3dgokm" id="383ZxwZuPTn" role="1N6uqs">
         <node concept="3clFbS" id="383ZxwZuPTp" role="2VODD2">
-          <node concept="3clFbF" id="383ZxwZuQ5e" role="3cqZAp">
-            <node concept="2YIFZM" id="383ZxwZuQbd" role="3clFbG">
+          <node concept="3cpWs6" id="1rolTiuFl$R" role="3cqZAp">
+            <node concept="2YIFZM" id="383ZxwZuQbd" role="3cqZAk">
               <ref role="37wK5l" to="o8zo:6t3ylNOzI9Y" resolve="forNamedElements" />
               <ref role="1Pybhc" to="o8zo:7ipADkTevLm" resolve="SimpleRoleScope" />
               <node concept="2OqwBi" id="383ZxwZuQzu" role="37wK5m">

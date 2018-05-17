@@ -127,9 +127,10 @@
       <property role="IQ2ns" value="4185783222026475860" />
       <ref role="20lvS9" to="c4fa:3CmSUB7Fp_l" resolve="StatementList" />
     </node>
-    <node concept="PrWs8" id="3v5DuFDl4c1" role="PzmwI">
+    <node concept="PrWs8" id="1rolTiuExQl" role="PzmwI">
       <ref role="PrY4T" node="4o2nsMgBJ5Y" resolve="INamedClassMemberDeclaration" />
     </node>
+<<<<<<< HEAD
 <<<<<<< HEAD
     <node concept="PrWs8" id="2L1k$oXxnd5" role="PzmwI">
 <<<<<<< HEAD
@@ -161,6 +162,10 @@
     </node>
     <node concept="PrWs8" id="15T8UHysf1I" role="PzmwI">
       <ref role="PrY4T" node="5eDFAXBRQhJ" resolve="IConstExprFlagConcept" />
+=======
+    <node concept="PrWs8" id="1rolTiuExQu" role="PzmwI">
+      <ref role="PrY4T" node="383ZxwZsgd5" resolve="INamedNamespaceMemberDeclaration" />
+>>>>>>> c9ad58ee32... Added TextGen elements of Namespace Concepts and adjusted several Editors
     </node>
   </node>
   <node concept="1TIwiD" id="4o2nsMgBEtu">
@@ -212,6 +217,9 @@
     </node>
     <node concept="PrWs8" id="4o2nsMgBJ6a" role="PzmwI">
       <ref role="PrY4T" node="4o2nsMgBJ5Y" resolve="INamedClassMemberDeclaration" />
+    </node>
+    <node concept="PrWs8" id="1rolTiuExQ9" role="PzmwI">
+      <ref role="PrY4T" node="383ZxwZsgd5" resolve="INamedNamespaceMemberDeclaration" />
     </node>
     <node concept="PrWs8" id="3v5DuFDm5p5" role="PzmwI">
       <ref role="PrY4T" to="mj1l:1LDGRqyYkTP" resolve="IVariableDeclaration" />
@@ -1144,7 +1152,13 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="4o2nsMgBIrb" resolve="AttributeDeclaration" />
     </node>
-    <node concept="PrWs8" id="383ZxwZsgdv" role="PzmwI">
+    <node concept="PrWs8" id="1rolTiuH3OT" role="PzmwI">
+      <ref role="PrY4T" to="x27k:5_l8w1EmTdf" resolve="IModuleContent" />
+    </node>
+    <node concept="PrWs8" id="1rolTiuGebY" role="PzmwI">
+      <ref role="PrY4T" node="4o2nsMgBJ5Y" resolve="INamedClassMemberDeclaration" />
+    </node>
+    <node concept="PrWs8" id="1rolTiuGebD" role="PzmwI">
       <ref role="PrY4T" node="383ZxwZsgd5" resolve="INamedNamespaceMemberDeclaration" />
     </node>
   </node>
@@ -1157,6 +1171,9 @@
     <ref role="1TJDcQ" to="mj1l:7FQByU3CrCM" resolve="Expression" />
     <node concept="PrWs8" id="383ZxwZrBkz" role="PzmwI">
       <ref role="PrY4T" to="x27k:6WGVxckB05U" resolve="ICallLike" />
+    </node>
+    <node concept="PrWs8" id="1rolTiuGgp_" role="PzmwI">
+      <ref role="PrY4T" node="4o2nsMgBJ5Y" resolve="INamedClassMemberDeclaration" />
     </node>
     <node concept="PrWs8" id="383ZxwZsgdp" role="PzmwI">
       <ref role="PrY4T" node="383ZxwZsgd5" resolve="INamedNamespaceMemberDeclaration" />
