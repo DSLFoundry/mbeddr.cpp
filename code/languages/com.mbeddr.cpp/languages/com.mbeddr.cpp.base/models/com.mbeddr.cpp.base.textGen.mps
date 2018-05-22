@@ -219,7 +219,7 @@
           <node concept="3clFbS" id="3UsoL$lgtU$" role="3clFbx">
             <node concept="lc7rE" id="3UsoL$lgyhN" role="3cqZAp">
               <node concept="la8eA" id="3UsoL$lgyid" role="lcghm">
-                <property role="lacIc" value=": " />
+                <property role="lacIc" value=" :" />
               </node>
             </node>
             <node concept="lc7rE" id="3UsoL$lggRi" role="3cqZAp">
@@ -728,6 +728,7 @@
       </node>
     </node>
   </node>
+<<<<<<< HEAD
   <node concept="WtQ9Q" id="6ddXmWdNsw1">
     <property role="3GE5qa" value="method.constructor" />
     <ref role="WuzLi" to="wnzg:6NtgknWJ20B" resolve="ClassConstructorDeclaration" />
@@ -746,6 +747,24 @@
               </node>
               <node concept="3TrcHB" id="6ddXmWdPEwa" role="2OqNvi">
                 <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+=======
+  <node concept="WtQ9Q" id="3UsoL$lb1lN">
+    <property role="3GE5qa" value="class" />
+    <ref role="WuzLi" to="wnzg:3UsoL$l5qkL" resolve="InheritanceInstance" />
+    <node concept="11bSqf" id="3UsoL$lb1lO" role="11c4hB">
+      <node concept="3clFbS" id="3UsoL$lb1lP" role="2VODD2">
+        <node concept="lc7rE" id="3OWNtRXFoA8" role="3cqZAp">
+          <node concept="la8eA" id="3OWNtRXFoGN" role="lcghm">
+            <property role="lacIc" value=" " />
+          </node>
+        </node>
+        <node concept="lc7rE" id="3UsoL$lb1m8" role="3cqZAp">
+          <node concept="l9hG8" id="3UsoL$lb1mw" role="lcghm">
+            <node concept="2OqwBi" id="3UsoL$lb1vH" role="lb14g">
+              <node concept="117lpO" id="3UsoL$lb1nq" role="2Oq$k0" />
+              <node concept="3TrcHB" id="3UsoL$lb1Bi" role="2OqNvi">
+                <ref role="3TsBF5" to="wnzg:3UsoL$l5qkP" resolve="visibility" />
+>>>>>>> 24ac19e1a8... Improve text generation for class declerations
               </node>
             </node>
           </node>
