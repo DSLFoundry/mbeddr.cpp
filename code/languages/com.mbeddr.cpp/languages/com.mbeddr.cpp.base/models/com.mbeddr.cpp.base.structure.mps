@@ -87,7 +87,7 @@
     <node concept="1TJgyj" id="3UsoL$l5qj8" role="1TKVEi">
       <property role="IQ2ns" value="4511589886097466568" />
       <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="inherits_from" />
+      <property role="20kJfa" value="ancestors" />
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="3UsoL$l5qkL" resolve="InheritanceInstance" />
     </node>
@@ -377,7 +377,11 @@
     <node concept="1TJgyj" id="6oRbCP62xkT" role="1TKVEi">
       <property role="IQ2ns" value="7365406899888067897" />
       <property role="20lmBu" value="reference" />
+<<<<<<< HEAD
       <property role="20kJfa" value="class" />
+=======
+      <property role="20kJfa" value="parentClass" />
+>>>>>>> a12a984071... Fix style issues
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="4o2nsMgBpPQ" resolve="ClassDeclaration" />
 >>>>>>> 65ef5d08b6... Fix name of ClassTypeAccessor

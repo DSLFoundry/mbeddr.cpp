@@ -2040,6 +2040,7 @@
       </node>
       <node concept="FysoC" id="3UsoL$lgJrO" role="Fysvh">
         <ref role="FysoF" node="2Ai0Gta7ex0" resolve="Class" />
+<<<<<<< HEAD
         <node concept="2b32R4" id="3UsoL$lh39t" role="lGtFl">
           <node concept="3JmXsc" id="3UsoL$lh39w" role="2P8S$">
             <node concept="3clFbS" id="3UsoL$lh39x" role="2VODD2">
@@ -2047,6 +2048,15 @@
                 <node concept="2OqwBi" id="3UsoL$lh39y" role="3clFbG">
                   <node concept="3Tsc0h" id="3UsoL$lh39_" role="2OqNvi">
                     <ref role="3TtcxE" to="wnzg:3UsoL$l5qj8" resolve="inherits_from" />
+=======
+        <node concept="2b32R4" id="6ddXmWe8V0p" role="lGtFl">
+          <node concept="3JmXsc" id="6ddXmWe8V0s" role="2P8S$">
+            <node concept="3clFbS" id="6ddXmWe8V0t" role="2VODD2">
+              <node concept="3clFbF" id="6ddXmWe8V0z" role="3cqZAp">
+                <node concept="2OqwBi" id="6ddXmWe8V0u" role="3clFbG">
+                  <node concept="3Tsc0h" id="6ddXmWe8V0x" role="2OqNvi">
+                    <ref role="3TtcxE" to="wnzg:3UsoL$l5qj8" resolve="ancestors" />
+>>>>>>> a12a984071... Fix style issues
                   </node>
                   <node concept="30H73N" id="3UsoL$lh39A" role="2Oq$k0" />
                 </node>

@@ -229,7 +229,7 @@
                 <node concept="2OqwBi" id="3UsoL$lghbz" role="lbANJ">
                   <node concept="117lpO" id="3UsoL$lgh03" role="2Oq$k0" />
                   <node concept="3Tsc0h" id="3UsoL$lghSJ" role="2OqNvi">
-                    <ref role="3TtcxE" to="wnzg:3UsoL$l5qj8" resolve="inherits_from" />
+                    <ref role="3TtcxE" to="wnzg:3UsoL$l5qj8" resolve="ancestors" />
                   </node>
                 </node>
               </node>
@@ -239,7 +239,7 @@
             <node concept="2OqwBi" id="3UsoL$lguhN" role="2Oq$k0">
               <node concept="117lpO" id="3UsoL$lgu3i" role="2Oq$k0" />
               <node concept="3Tsc0h" id="3UsoL$lguZ0" role="2OqNvi">
-                <ref role="3TtcxE" to="wnzg:3UsoL$l5qj8" resolve="inherits_from" />
+                <ref role="3TtcxE" to="wnzg:3UsoL$l5qj8" resolve="ancestors" />
               </node>
             </node>
             <node concept="3GX2aA" id="3UsoL$lgxUs" role="2OqNvi" />
@@ -754,6 +754,7 @@
           <node concept="la8eA" id="6ddXmWdNu16" role="lcghm">
             <property role="lacIc" value=" " />
           </node>
+<<<<<<< HEAD
           <node concept="l9hG8" id="6ddXmWdNu2k" role="lcghm">
             <node concept="2OqwBi" id="6ddXmWdNuk4" role="lb14g">
               <node concept="117lpO" id="6ddXmWdNu3g" role="2Oq$k0" />
@@ -863,6 +864,14 @@
                   <node concept="3Tsc0h" id="7DDmkza6F5" role="2OqNvi">
                     <ref role="3TtcxE" to="wnzg:3n$8_Xbh2kv" resolve="initializers" />
                   </node>
+=======
+          <node concept="l9hG8" id="3UsoL$lb2Bh" role="lcghm">
+            <node concept="2OqwBi" id="3UsoL$lb3gT" role="lb14g">
+              <node concept="2OqwBi" id="3UsoL$lb2MK" role="2Oq$k0">
+                <node concept="117lpO" id="3UsoL$lb2Et" role="2Oq$k0" />
+                <node concept="3TrEf2" id="3UsoL$lb2Ul" role="2OqNvi">
+                  <ref role="3Tt5mk" to="wnzg:3UsoL$l5qkM" resolve="parentClass" />
+>>>>>>> a12a984071... Fix style issues
                 </node>
               </node>
             </node>
