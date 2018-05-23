@@ -91,6 +91,7 @@
     <dependency reexport="false">b341759a-c721-4072-90cf-328bb2724684(com.mbeddr.cpp.expressions)</dependency>
     <dependency reexport="false">8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)</dependency>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     <dependency reexport="true">9d69e719-78c8-4286-90db-fb19c107d049(com.mbeddr.mpsutil.grammarcells)</dependency>
 >>>>>>> 1def60992c... Add virtual keyword to editor
@@ -110,6 +111,11 @@
 =======
     <dependency reexport="false">7308c66b-3b31-4952-bf56-0f3405fab5be(com.mbeddr.cpp.operator_overload)</dependency>
 >>>>>>> dc8ff306fc... Migrate operator overloading to separate language
+=======
+    <dependency reexport="false">1ed103c3-3aa6-49b7-9c21-6765ee11f224(MPS.Editor)</dependency>
+    <dependency reexport="false">c72da2b9-7cce-4447-8389-f407dc1158b7(jetbrains.mps.lang.structure)</dependency>
+    <dependency reexport="false">ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)</dependency>
+>>>>>>> ff7b242aec... Added auto declaration.
   </dependencies>
   <languageVersions>
     <language slang="l:d4280a54-f6df-4383-aa41-d1b2bffa7eb1:com.mbeddr.core.base" version="5" />
