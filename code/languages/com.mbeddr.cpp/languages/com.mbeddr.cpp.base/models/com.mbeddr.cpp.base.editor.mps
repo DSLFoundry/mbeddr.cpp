@@ -57,9 +57,12 @@
       <concept id="1176897764478" name="jetbrains.mps.lang.editor.structure.QueryFunction_NodeFactory" flags="in" index="4$FPG" />
       <concept id="1597643335227097138" name="jetbrains.mps.lang.editor.structure.QueryFunctionParameter_TransformationMenu_node" flags="ng" index="7Obwk" />
       <concept id="6516520003787916624" name="jetbrains.mps.lang.editor.structure.QueryFunction_TransformationMenu_Condition" flags="ig" index="27VH4U" />
+<<<<<<< HEAD
       <concept id="7429591467341004871" name="jetbrains.mps.lang.editor.structure.TransformationMenuPart_Group" flags="ng" index="aenpk">
         <child id="7429591467341004877" name="condition" index="aenpu" />
       </concept>
+=======
+>>>>>>> 8526e6c0af... Finished the other using statements, only TextGen left.
       <concept id="1140524381322" name="jetbrains.mps.lang.editor.structure.CellModel_ListWithRole" flags="ng" index="2czfm3">
         <property id="1140524450557" name="separatorText" index="2czwfO" />
         <child id="1176897874615" name="nodeFactory" index="4_6I_" />
@@ -78,10 +81,13 @@
       <concept id="7667276221847570194" name="jetbrains.mps.lang.editor.structure.ParametersInformationStyleClassItem" flags="ln" index="2$oqgb">
         <reference id="8863456892852949148" name="parametersInformation" index="Bvoe9" />
       </concept>
+<<<<<<< HEAD
       <concept id="6718020819487620876" name="jetbrains.mps.lang.editor.structure.TransformationMenuReference_Default" flags="ng" index="A1WHr" />
       <concept id="6718020819487620873" name="jetbrains.mps.lang.editor.structure.TransformationMenuReference_Named" flags="ng" index="A1WHu">
         <reference id="6718020819487620874" name="menu" index="A1WHt" />
       </concept>
+=======
+>>>>>>> 8526e6c0af... Finished the other using statements, only TextGen left.
       <concept id="3473224453637651916" name="jetbrains.mps.lang.editor.structure.TransformationLocation_SideTransform_PlaceInCellHolder" flags="ng" index="CtIbL">
         <property id="3473224453637651917" name="placeInCell" index="CtIbK" />
       </concept>
@@ -92,6 +98,7 @@
         <child id="1638911550608610281" name="executeFunction" index="IWgqQ" />
         <child id="5692353713941573325" name="textFunction" index="1hCUd6" />
       </concept>
+<<<<<<< HEAD
       <concept id="1160493135005" name="jetbrains.mps.lang.editor.structure.CellMenuPart_PropertyValues_GetValues" flags="in" index="MLZmj" />
       <concept id="1164824717996" name="jetbrains.mps.lang.editor.structure.CellMenuDescriptor" flags="ng" index="OXEIz">
         <child id="1164824815888" name="cellMenuPart" index="OY2wv" />
@@ -99,6 +106,8 @@
       <concept id="1164833692343" name="jetbrains.mps.lang.editor.structure.CellMenuPart_PropertyValues" flags="ng" index="PvTIS">
         <child id="1164833692344" name="valuesFunction" index="PvTIR" />
       </concept>
+=======
+>>>>>>> 8526e6c0af... Finished the other using statements, only TextGen left.
       <concept id="1078938745671" name="jetbrains.mps.lang.editor.structure.EditorComponentDeclaration" flags="ig" index="PKFIW" />
       <concept id="1078939183254" name="jetbrains.mps.lang.editor.structure.CellModel_Component" flags="sg" stub="3162947552742194261" index="PMmxH">
         <reference id="1078939183255" name="editorComponent" index="PMmxG" />
@@ -130,10 +139,13 @@
       </concept>
       <concept id="1186414860679" name="jetbrains.mps.lang.editor.structure.EditableStyleClassItem" flags="ln" index="VPxyj" />
       <concept id="1186414928363" name="jetbrains.mps.lang.editor.structure.SelectableStyleSheetItem" flags="ln" index="VPM3Z" />
+<<<<<<< HEAD
       <concept id="1186414949600" name="jetbrains.mps.lang.editor.structure.AutoDeletableStyleClassItem" flags="ln" index="VPRnO" />
       <concept id="1630016958697718209" name="jetbrains.mps.lang.editor.structure.IMenuReference_Default" flags="ng" index="2Z_bC8">
         <reference id="1630016958698373342" name="concept" index="2ZyFGn" />
       </concept>
+=======
+>>>>>>> 8526e6c0af... Finished the other using statements, only TextGen left.
       <concept id="1630016958697344083" name="jetbrains.mps.lang.editor.structure.IMenu_Concept" flags="ng" index="2ZABuq">
         <reference id="6591946374543067572" name="conceptDeclaration" index="aqKnT" />
       </concept>
@@ -162,7 +174,14 @@
 >>>>>>> b95cdd26ff... Namespace Declaration and Member Referencing (WIP) without TextGen elements
 =======
       <concept id="8313721352726366579" name="jetbrains.mps.lang.editor.structure.CellModel_Empty" flags="ng" index="35HoNQ" />
+<<<<<<< HEAD
 >>>>>>> c9ad58ee32... Added TextGen elements of Namespace Concepts and adjusted several Editors
+=======
+      <concept id="2896773699153795590" name="jetbrains.mps.lang.editor.structure.TransformationLocation_SideTransform" flags="ng" index="3cWJ9i">
+        <child id="3473224453637651919" name="placeInCell" index="CtIbM" />
+      </concept>
+      <concept id="5692353713941573329" name="jetbrains.mps.lang.editor.structure.QueryFunction_TransformationMenu_ActionLabelText" flags="ig" index="1hCUdq" />
+>>>>>>> 8526e6c0af... Finished the other using statements, only TextGen left.
       <concept id="1088013125922" name="jetbrains.mps.lang.editor.structure.CellModel_RefCell" flags="sg" stub="730538219795941030" index="1iCGBv">
         <child id="1088186146602" name="editorComponent" index="1sWHZn" />
       </concept>
@@ -212,6 +231,7 @@
       <concept id="1225900081164" name="jetbrains.mps.lang.editor.structure.CellModel_ReadOnlyModelAccessor" flags="sg" stub="3708815482283559694" index="1HlG4h">
         <child id="1225900141900" name="modelAccessor" index="1HlULh" />
       </concept>
+<<<<<<< HEAD
       <concept id="7985135009827365938" name="jetbrains.mps.lang.editor.structure.TransformationMenuPart_Placeholder" flags="ng" index="1IAO7e" />
       <concept id="5624877018226904808" name="jetbrains.mps.lang.editor.structure.TransformationMenu_Named" flags="ng" index="3ICXOK" />
       <concept id="5624877018228267058" name="jetbrains.mps.lang.editor.structure.ITransformationMenu" flags="ng" index="3INCJE">
@@ -223,6 +243,11 @@
         <child id="1088612958265" name="ifTrueCellModel" index="1QoS34" />
         <child id="1088612973955" name="ifFalseCellModel" index="1QoVPY" />
       </concept>
+=======
+      <concept id="5624877018228267058" name="jetbrains.mps.lang.editor.structure.ITransformationMenu" flags="ng" index="3INCJE">
+        <child id="1638911550608572412" name="sections" index="IW6Ez" />
+      </concept>
+>>>>>>> 8526e6c0af... Finished the other using statements, only TextGen left.
       <concept id="7980428675268276156" name="jetbrains.mps.lang.editor.structure.TransformationMenuSection" flags="ng" index="1Qtc8_">
         <child id="7980428675268276157" name="locations" index="1Qtc8$" />
         <child id="7980428675268276159" name="parts" index="1Qtc8A" />
@@ -246,7 +271,14 @@
       <concept id="1202948039474" name="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" flags="nn" index="liA8E" />
 =======
       <concept id="1080223426719" name="jetbrains.mps.baseLanguage.structure.OrExpression" flags="nn" index="22lmx$" />
+<<<<<<< HEAD
 >>>>>>> d652370829... Editor and TextGen MethodCalls using GeneralNamespaceDeclarations works correctly.
+=======
+      <concept id="1215693861676" name="jetbrains.mps.baseLanguage.structure.BaseAssignmentExpression" flags="nn" index="d038R">
+        <child id="1068498886297" name="rValue" index="37vLTx" />
+        <child id="1068498886295" name="lValue" index="37vLTJ" />
+      </concept>
+>>>>>>> 8526e6c0af... Finished the other using statements, only TextGen left.
       <concept id="1197027756228" name="jetbrains.mps.baseLanguage.structure.DotExpression" flags="nn" index="2OqwBi">
         <child id="1197027771414" name="operand" index="2Oq$k0" />
         <child id="1197027833540" name="operation" index="2OqNvi" />
@@ -262,6 +294,9 @@
       </concept>
       <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 8526e6c0af... Finished the other using statements, only TextGen left.
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
         <child id="1068431790190" name="initializer" index="33vP2m" />
       </concept>
@@ -272,15 +307,19 @@
       <concept id="4972933694980447171" name="jetbrains.mps.baseLanguage.structure.BaseVariableDeclaration" flags="ng" index="19Szcq">
         <child id="5680397130376446158" name="type" index="1tU5fm" />
       </concept>
+<<<<<<< HEAD
       <concept id="1068580123152" name="jetbrains.mps.baseLanguage.structure.EqualsExpression" flags="nn" index="3clFbC" />
 =======
 >>>>>>> 4af7845191... Fixed TextGen problems with 'Using (namespace)' declarations
+=======
+>>>>>>> 8526e6c0af... Finished the other using statements, only TextGen left.
       <concept id="1068580123155" name="jetbrains.mps.baseLanguage.structure.ExpressionStatement" flags="nn" index="3clFbF">
         <child id="1068580123156" name="expression" index="3clFbG" />
       </concept>
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT">
@@ -292,10 +331,13 @@
       <concept id="1068581242878" name="jetbrains.mps.baseLanguage.structure.ReturnStatement" flags="nn" index="3cpWs6">
         <child id="1068581517676" name="expression" index="3cqZAk" />
       </concept>
+=======
+>>>>>>> 8526e6c0af... Finished the other using statements, only TextGen left.
       <concept id="1068581242864" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" flags="nn" index="3cpWs8">
         <child id="1068581242865" name="localVariableDeclaration" index="3cpWs9" />
       </concept>
       <concept id="1068581242863" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" flags="nr" index="3cpWsn" />
+<<<<<<< HEAD
       <concept id="1081516740877" name="jetbrains.mps.baseLanguage.structure.NotExpression" flags="nn" index="3fqX7Q">
         <child id="1081516765348" name="expression" index="3fr31v" />
       </concept>
@@ -309,6 +351,8 @@
       <concept id="1073239437375" name="jetbrains.mps.baseLanguage.structure.NotEqualsExpression" flags="nn" index="3y3z36" />
 =======
 =======
+=======
+>>>>>>> 8526e6c0af... Finished the other using statements, only TextGen left.
       <concept id="1081516740877" name="jetbrains.mps.baseLanguage.structure.NotExpression" flags="nn" index="3fqX7Q">
         <child id="1081516765348" name="expression" index="3fr31v" />
       </concept>
@@ -352,6 +396,9 @@
 >>>>>>> ff7b242aec... Added auto declaration.
 =======
 >>>>>>> 605219c496... Fixes to auto declaration.
+    </language>
+    <language id="aee9cad2-acd4-4608-aef2-0004f6a1cdbd" name="jetbrains.mps.lang.actions">
+      <concept id="767145758118872824" name="jetbrains.mps.lang.actions.structure.NF_Node_InsertNewNextSiblingOperation" flags="nn" index="2DeJnS" />
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
 <<<<<<< HEAD
@@ -417,9 +464,15 @@
       <concept id="1180636770613" name="jetbrains.mps.lang.smodel.structure.SNodeCreator" flags="nn" index="3zrR0B">
         <child id="1180636770616" name="createdType" index="3zrR0E" />
       </concept>
+<<<<<<< HEAD
       <concept id="1140131837776" name="jetbrains.mps.lang.smodel.structure.Node_ReplaceWithAnotherOperation" flags="nn" index="1P9Npp">
         <child id="1140131861877" name="replacementNode" index="1P9ThW" />
 >>>>>>> b70d14e537... loads of stuff
+=======
+      <concept id="1144146199828" name="jetbrains.mps.lang.smodel.structure.Node_CopyOperation" flags="nn" index="1$rogu" />
+      <concept id="1139858892567" name="jetbrains.mps.lang.smodel.structure.Node_InsertNewNextSiblingOperation" flags="nn" index="1$SAou">
+        <reference id="1139858951584" name="concept" index="1$SOMD" />
+>>>>>>> 8526e6c0af... Finished the other using statements, only TextGen left.
       </concept>
       <concept id="1138055754698" name="jetbrains.mps.lang.smodel.structure.SNodeType" flags="in" index="3Tqbb2">
         <reference id="1138405853777" name="concept" index="ehGHo" />
@@ -2975,6 +3028,134 @@
         </node>
       </node>
       <node concept="l2Vlx" id="1$h5d7wdNlf" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="IW6AY" id="3Nc$bFFlJIh">
+    <property role="3GE5qa" value="Namespace" />
+    <ref role="aqKnT" to="wnzg:1$h5d7v1dEb" resolve="UsingNamespaceAttributeDeclaration" />
+    <node concept="1Qtc8_" id="3Nc$bFFlJIi" role="IW6Ez">
+      <node concept="3cWJ9i" id="3Nc$bFFlJIq" role="1Qtc8$">
+        <node concept="CtIbL" id="3Nc$bFFlJIs" role="CtIbM">
+          <property role="CtIbK" value="LEFT" />
+        </node>
+      </node>
+      <node concept="IWgqT" id="3Nc$bFF_vlm" role="1Qtc8A">
+        <node concept="1hCUdq" id="3Nc$bFF_vln" role="1hCUd6">
+          <node concept="3clFbS" id="3Nc$bFF_vlo" role="2VODD2">
+            <node concept="3clFbF" id="3Nc$bFFG8Bs" role="3cqZAp">
+              <node concept="Xl_RD" id="3Nc$bFFG8Br" role="3clFbG" />
+            </node>
+          </node>
+        </node>
+        <node concept="IWg2L" id="3Nc$bFF_vlp" role="IWgqQ">
+          <node concept="3clFbS" id="3Nc$bFF_vlq" role="2VODD2">
+            <node concept="3cpWs8" id="3Nc$bFFBGCz" role="3cqZAp">
+              <node concept="3cpWsn" id="3Nc$bFFBGCA" role="3cpWs9">
+                <property role="TrG5h" value="attNode" />
+                <node concept="3Tqbb2" id="3Nc$bFFBGCy" role="1tU5fm">
+                  <ref role="ehGHo" to="wnzg:4o2nsMgBIrb" resolve="AttributeDeclaration" />
+                </node>
+                <node concept="2OqwBi" id="3Nc$bFFBGUj" role="33vP2m">
+                  <node concept="7Obwk" id="3Nc$bFFBGDJ" role="2Oq$k0" />
+                  <node concept="2DeJnS" id="3Nc$bFFE23O" role="2OqNvi">
+                    <ref role="1$SOMD" to="wnzg:4o2nsMgBIrb" resolve="AttributeDeclaration" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="3Nc$bFFBIlV" role="3cqZAp">
+              <node concept="37vLTI" id="3Nc$bFFBKAY" role="3clFbG">
+                <node concept="2OqwBi" id="3Nc$bFFBW53" role="37vLTx">
+                  <node concept="2OqwBi" id="3Nc$bFFBOoT" role="2Oq$k0">
+                    <node concept="7Obwk" id="3Nc$bFFBO4v" role="2Oq$k0" />
+                    <node concept="3TrEf2" id="3Nc$bFFBVnG" role="2OqNvi">
+                      <ref role="3Tt5mk" to="wnzg:1$h5d7v1dEp" resolve="attribute" />
+                    </node>
+                  </node>
+                  <node concept="3TrcHB" id="3Nc$bFFBWFP" role="2OqNvi">
+                    <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                  </node>
+                </node>
+                <node concept="2OqwBi" id="3Nc$bFFBI$$" role="37vLTJ">
+                  <node concept="37vLTw" id="3Nc$bFFBIlT" role="2Oq$k0">
+                    <ref role="3cqZAo" node="3Nc$bFFBGCA" resolve="attNode" />
+                  </node>
+                  <node concept="3TrcHB" id="3Nc$bFFBJvw" role="2OqNvi">
+                    <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="3Nc$bFFBPg_" role="3cqZAp">
+              <node concept="37vLTI" id="3Nc$bFFBQUb" role="3clFbG">
+                <node concept="2OqwBi" id="3Nc$bFFGb_Q" role="37vLTx">
+                  <node concept="2OqwBi" id="3Nc$bFFBTbz" role="2Oq$k0">
+                    <node concept="2OqwBi" id="3Nc$bFFBRhb" role="2Oq$k0">
+                      <node concept="7Obwk" id="3Nc$bFFBR0w" role="2Oq$k0" />
+                      <node concept="3TrEf2" id="3Nc$bFFBSuc" role="2OqNvi">
+                        <ref role="3Tt5mk" to="wnzg:1$h5d7v1dEp" resolve="attribute" />
+                      </node>
+                    </node>
+                    <node concept="3TrEf2" id="3Nc$bFFBUjF" role="2OqNvi">
+                      <ref role="3Tt5mk" to="mj1l:hEaDaGor64" resolve="type" />
+                    </node>
+                  </node>
+                  <node concept="1$rogu" id="3Nc$bFFGc2M" role="2OqNvi" />
+                </node>
+                <node concept="2OqwBi" id="3Nc$bFFBPA7" role="37vLTJ">
+                  <node concept="37vLTw" id="3Nc$bFFBPgz" role="2Oq$k0">
+                    <ref role="3cqZAo" node="3Nc$bFFBGCA" resolve="attNode" />
+                  </node>
+                  <node concept="3TrEf2" id="3Nc$bFFBQ3N" role="2OqNvi">
+                    <ref role="3Tt5mk" to="mj1l:hEaDaGor64" resolve="type" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="3Nc$bFFE2ty" role="3cqZAp">
+              <node concept="37vLTI" id="3Nc$bFFE4aC" role="3clFbG">
+                <node concept="2OqwBi" id="3Nc$bFFGcOP" role="37vLTx">
+                  <node concept="2OqwBi" id="3Nc$bFFE5Da" role="2Oq$k0">
+                    <node concept="2OqwBi" id="3Nc$bFFE4sG" role="2Oq$k0">
+                      <node concept="7Obwk" id="3Nc$bFFE4eK" role="2Oq$k0" />
+                      <node concept="3TrEf2" id="3Nc$bFFE4VN" role="2OqNvi">
+                        <ref role="3Tt5mk" to="wnzg:1$h5d7v1dEp" resolve="attribute" />
+                      </node>
+                    </node>
+                    <node concept="3TrEf2" id="3Nc$bFFE6fW" role="2OqNvi">
+                      <ref role="3Tt5mk" to="wnzg:3CmSUB7Fw7R" resolve="init" />
+                    </node>
+                  </node>
+                  <node concept="1$rogu" id="3Nc$bFFGdlL" role="2OqNvi" />
+                </node>
+                <node concept="2OqwBi" id="3Nc$bFFE2NI" role="37vLTJ">
+                  <node concept="37vLTw" id="3Nc$bFFE2tw" role="2Oq$k0">
+                    <ref role="3cqZAo" node="3Nc$bFFBGCA" resolve="attNode" />
+                  </node>
+                  <node concept="3TrEf2" id="3Nc$bFFE3ho" role="2OqNvi">
+                    <ref role="3Tt5mk" to="wnzg:3CmSUB7Fw7R" resolve="init" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="27VH4U" id="3Nc$bFF_vub" role="2jiSrf">
+          <node concept="3clFbS" id="3Nc$bFF_vuc" role="2VODD2">
+            <node concept="3clFbF" id="3Nc$bFF_v_A" role="3cqZAp">
+              <node concept="2OqwBi" id="3Nc$bFF_xo_" role="3clFbG">
+                <node concept="2OqwBi" id="3Nc$bFF_vTS" role="2Oq$k0">
+                  <node concept="7Obwk" id="3Nc$bFF_v__" role="2Oq$k0" />
+                  <node concept="3TrEf2" id="3Nc$bFF_wtK" role="2OqNvi">
+                    <ref role="3Tt5mk" to="wnzg:1$h5d7v1dEp" resolve="attribute" />
+                  </node>
+                </node>
+                <node concept="3x8VRR" id="3Nc$bFF_y2P" role="2OqNvi" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
   </node>
 </model>
