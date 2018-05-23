@@ -277,6 +277,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   <node concept="1TIwiD" id="3UsoL$l5qkL">
     <property role="EcuMT" value="4511589886097466673" />
     <property role="TrG5h" value="InheritanceInstance" />
@@ -294,6 +295,16 @@
       <property role="IQ2nx" value="4511589886097466677" />
       <property role="TrG5h" value="visibility" />
       <ref role="AX2Wp" node="2Ai0Gt9ODIr" resolve="EClassMemberVisibility" />
+=======
+  <node concept="PlHQZ" id="2L1k$oXxncW">
+    <property role="EcuMT" value="3188920472788366140" />
+    <property role="TrG5h" value="IVirtualisableConcept" />
+    <property role="3GE5qa" value="method" />
+    <node concept="1TJgyi" id="2L1k$oXxncX" role="1TKVEl">
+      <property role="IQ2nx" value="3188920472788366141" />
+      <property role="TrG5h" value="isVirtual" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+>>>>>>> 9e19ddddd6... Rename virtualable -> virtualisable
     </node>
   </node>
 <<<<<<< HEAD
@@ -584,7 +595,11 @@
     <property role="EcuMT" value="3188920472790477822" />
     <property role="TrG5h" value="IPureVirtualisable" />
     <node concept="PrWs8" id="2L1k$oXDqJZ" role="PrDN$">
+<<<<<<< HEAD
       <ref role="PrY4T" node="2L1k$oXxncW" resolve="IVirtualisable" />
+=======
+      <ref role="PrY4T" node="2L1k$oXxncW" resolve="IVirtualisableConcept" />
+>>>>>>> 9e19ddddd6... Rename virtualable -> virtualisable
     </node>
     <node concept="1TJgyi" id="2L1k$oXDqK2" role="1TKVEl">
       <property role="IQ2nx" value="3188920472790477826" />

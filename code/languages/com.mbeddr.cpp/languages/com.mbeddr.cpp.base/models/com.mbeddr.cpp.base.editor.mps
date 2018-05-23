@@ -591,6 +591,7 @@
       <ref role="1k5W1q" to="tpen:hgVS8CF" resolve="KeyWord" />
     </node>
   </node>
+<<<<<<< HEAD
   <node concept="24kQdi" id="3UsoL$l5ql0">
     <property role="3GE5qa" value="inheritance" />
     <ref role="1XX52x" to="wnzg:3UsoL$l5qkL" resolve="InheritanceInstance" />
@@ -609,6 +610,16 @@
         </node>
       </node>
       <node concept="l2Vlx" id="3UsoL$l5ql5" role="2iSdaV" />
+=======
+  <node concept="PKFIW" id="2L1k$oXm7Pq">
+    <property role="TrG5h" value="VirtualFlag" />
+    <property role="3GE5qa" value="method" />
+    <ref role="1XX52x" to="wnzg:2L1k$oXxncW" resolve="IVirtualisableConcept" />
+    <node concept="1kHk_G" id="2LwGNVbhV8I" role="2wV5jI">
+      <property role="ZjSer" value="virtual" />
+      <ref role="1k5W1q" to="r4b4:2CEi94dgHKA" resolve="KW" />
+      <ref role="1NtTu8" to="wnzg:2L1k$oXxncX" resolve="isVirtual" />
+>>>>>>> 9e19ddddd6... Rename virtualable -> virtualisable
     </node>
   </node>
   <node concept="PKFIW" id="3UsoL$l5qlB">
