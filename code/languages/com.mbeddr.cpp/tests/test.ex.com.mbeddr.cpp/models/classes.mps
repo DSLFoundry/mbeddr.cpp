@@ -96,6 +96,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD:code/languages/com.mbeddr.cpp/tests/test.ex.com.mbeddr.cpp/models/classes.mps
 =======
       <concept id="7844497894798008401" name="com.mbeddr.cpp.base.structure.ClassConstructorSignature" flags="ng" index="2gom4k">
@@ -104,6 +105,20 @@
       </concept>
       <concept id="7844497894798008359" name="com.mbeddr.cpp.base.structure.ClassConstructor" flags="ng" index="2gom5y">
         <reference id="7844497894798008388" name="parent_class" index="2gom41" />
+=======
+      <concept id="7240228573260630076" name="com.mbeddr.cpp.base.structure.ConstructorVoidType" flags="ng" index="2dFNQU" />
+      <concept id="7844497894798008401" name="com.mbeddr.cpp.base.structure.ClassConstructorSignature" flags="ng" index="2gom4k">
+        <property id="6088872510303555204" name="is_destructor" index="3BMcJd" />
+        <child id="7155645240280389397" name="body" index="1IVm9U" />
+        <child id="3883266571380204831" name="initializers" index="1YC0t0" />
+      </concept>
+      <concept id="7844497894798008359" name="com.mbeddr.cpp.base.structure.ClassConstructorDeclaration" flags="ng" index="2gom5y">
+        <property id="7844497894798008385" name="visibility" index="2gom44" />
+        <reference id="7844497894798008388" name="parent_class" index="2gom41" />
+      </concept>
+      <concept id="3188920472788366140" name="com.mbeddr.cpp.base.structure.IVirtualisableConcept" flags="ng" index="hL25U">
+        <property id="3188920472788366141" name="isVirtual" index="hL25V" />
+>>>>>>> d43bb3786f... Add constructor test case
       </concept>
 >>>>>>> 31081c8f5e... Basic syntax editor for constructors
 =======
@@ -115,6 +130,7 @@
         <reference id="7240228573263980490" name="constructor" index="2esx9c" />
         <child id="7240228573265829198" name="constructor_arg_actuals" index="2enIz8" />
       </concept>
+<<<<<<< HEAD
 >>>>>>> 94d273528c... Add constructor calls and break naming of class instances
       <concept id="7240228573260630076" name="com.mbeddr.cpp.base.structure.ConstructorVoidType" flags="ng" index="2dFNQU" />
 >>>>>>> 48045b5359... Fix generation of constructor text in implementation files
@@ -136,11 +152,16 @@
         <child id="137823117411762663" name="actual_arguments" index="yKYi2" />
       </concept>
 >>>>>>> fbce44d1c8... Warning for parent constructor initilialization which does not currently generate the name
+=======
+>>>>>>> d43bb3786f... Add constructor test case
       <concept id="137823117407795547" name="com.mbeddr.cpp.base.structure.ConstructorInitializedAttribute" flags="ng" index="z11KY">
         <reference id="137823117409445459" name="identity" index="yVOcQ" />
         <child id="137823117409121665" name="init" index="yU53$" />
       </concept>
+<<<<<<< HEAD
 >>>>>>> 4a9f27958b... Attribute initialization lists
+=======
+>>>>>>> d43bb3786f... Add constructor test case
       <concept id="4511589886097466673" name="com.mbeddr.cpp.base.structure.InheritanceInstance" flags="ng" index="FysoC">
         <property id="4511589886097466677" name="visibility" index="FysoG" />
         <reference id="4511589886097466674" name="parentClass" index="FysoF" />
@@ -312,6 +333,9 @@
       <ref role="3oK8_y" node="3v5DuFDkAwn" resolve="portable" />
       <node concept="2v9HqM" id="45rBLTFpWcv" role="2eOfOg">
         <ref role="2v9HqP" node="2Ai0Gt9Pvr9" resolve="Class" />
+      </node>
+      <node concept="2v9HqM" id="7wcjSRtu35l" role="2eOfOg">
+        <ref role="2v9HqP" node="6KmaLbDZjG7" resolve="Constructor" />
       </node>
       <node concept="2v9HqM" id="45rBLTFpWcO" role="2eOfOg">
         <ref role="2v9HqP" node="nbE_$_7VLA" resolve="Extension" />
@@ -1323,6 +1347,89 @@
     <node concept="3mBW2U" id="6KmaLbDZm15" role="N3F5h">
       <property role="2OOxQR" value="true" />
       <property role="TrG5h" value="ParentClass" />
+      <node concept="2gom5y" id="7wcjSRttVKs" role="3mBdys">
+        <property role="3BMcJd" value="false" />
+        <property role="2gom44" value="public" />
+        <property role="TrG5h" value="ParentClass" />
+        <ref role="2gom41" node="6KmaLbDZm15" resolve="ParentClass" />
+        <node concept="3XIRFW" id="7wcjSRttVKt" role="1IVm9U" />
+        <node concept="2dFNQU" id="7wcjSRttVKu" role="2C2TGm">
+          <property role="2caQfQ" value="false" />
+          <property role="2c7vTL" value="false" />
+        </node>
+      </node>
+      <node concept="3mBbG7" id="7wcjSRttVKQ" role="3mBdys">
+        <property role="TrG5h" value="parentY" />
+        <property role="1wg9_F" value="public" />
+        <node concept="26Vqph" id="7wcjSRttVL9" role="2C2TGm">
+          <property role="2caQfQ" value="false" />
+          <property role="2c7vTL" value="false" />
+        </node>
+        <node concept="3TlMh9" id="7wcjSRttVLK" role="3XIe9v">
+          <property role="2hmy$m" value="0" />
+        </node>
+      </node>
+    </node>
+    <node concept="2NXPZ9" id="7wcjSRttVM9" role="N3F5h">
+      <property role="TrG5h" value="empty_1527147506030_1" />
+    </node>
+    <node concept="3mBW2U" id="7wcjSRttVMY" role="N3F5h">
+      <property role="2OOxQR" value="true" />
+      <property role="TrG5h" value="ClassName" />
+      <node concept="FysoC" id="7wcjSRttVN$" role="Fysvh">
+        <ref role="FysoF" node="6KmaLbDZm15" resolve="ParentClass" />
+      </node>
+      <node concept="3mBbG7" id="7wcjSRttVNB" role="3mBdys">
+        <property role="TrG5h" value="x" />
+        <node concept="26Vqph" id="7wcjSRttVNM" role="2C2TGm">
+          <property role="2caQfQ" value="false" />
+          <property role="2c7vTL" value="false" />
+        </node>
+        <node concept="3TlMh9" id="7wcjSRttVOd" role="3XIe9v">
+          <property role="2hmy$m" value="0" />
+        </node>
+      </node>
+      <node concept="2gom5y" id="7wcjSRttVOM" role="3mBdys">
+        <property role="3BMcJd" value="false" />
+        <property role="2gom44" value="public" />
+        <property role="TrG5h" value="ClassName" />
+        <ref role="2gom41" node="7wcjSRttVMY" resolve="ClassName" />
+        <node concept="3XIRFW" id="7wcjSRttVON" role="1IVm9U" />
+        <node concept="2dFNQU" id="7wcjSRttVOO" role="2C2TGm">
+          <property role="2caQfQ" value="false" />
+          <property role="2c7vTL" value="false" />
+        </node>
+      </node>
+      <node concept="2gom5y" id="7wcjSRttVPm" role="3mBdys">
+        <property role="3BMcJd" value="false" />
+        <property role="2gom44" value="public" />
+        <property role="TrG5h" value="ClassName" />
+        <ref role="2gom41" node="7wcjSRttVMY" resolve="ClassName" />
+        <node concept="3XIRFW" id="7wcjSRttVPn" role="1IVm9U" />
+        <node concept="2dFNQU" id="7wcjSRttVPo" role="2C2TGm">
+          <property role="2caQfQ" value="false" />
+          <property role="2c7vTL" value="false" />
+        </node>
+        <node concept="19RgSI" id="7wcjSRttVPM" role="1UOdpc">
+          <property role="TrG5h" value="inputX" />
+          <node concept="26Vqph" id="7wcjSRttVPL" role="2C2TGm">
+            <property role="2caQfQ" value="false" />
+            <property role="2c7vTL" value="false" />
+          </node>
+        </node>
+        <node concept="z11KY" id="7wcjSRttVQk" role="1YC0t0">
+          <ref role="yVOcQ" node="7wcjSRttVNB" resolve="x" />
+          <node concept="3ZUYvv" id="7wcjSRttVRj" role="yU53$">
+            <ref role="3ZUYvu" node="7wcjSRttVPM" resolve="inputX" />
+          </node>
+        </node>
+        <node concept="z11KY" id="7wcjSRttVRQ" role="1YC0t0">
+          <ref role="yVOcQ" node="7wcjSRttVKQ" resolve="parentY" />
+          <node concept="3TlMh9" id="7wcjSRttVSd" role="yU53$">
+            <property role="2hmy$m" value="3" />
+          </node>
+        </node>
+      </node>
     </node>
   </node>
 </model>
