@@ -1168,5 +1168,117 @@
       </node>
     </node>
   </node>
+<<<<<<< HEAD
+=======
+  <node concept="WtQ9Q" id="7DDmkz5meI">
+    <property role="3GE5qa" value="method.constructor" />
+    <ref role="WuzLi" to="wnzg:7DDmkyVr_r" resolve="ConstructorInitializedAttribute" />
+    <node concept="11bSqf" id="7DDmkz5meJ" role="11c4hB">
+      <node concept="3clFbS" id="7DDmkz5meK" role="2VODD2">
+        <node concept="lc7rE" id="7DDmkz5wRD" role="3cqZAp">
+          <node concept="l9hG8" id="7DDmkz5wS1" role="lcghm">
+            <node concept="2OqwBi" id="7DDmkz5xAG" role="lb14g">
+              <node concept="2OqwBi" id="7DDmkz5x63" role="2Oq$k0">
+                <node concept="117lpO" id="7DDmkz5wXc" role="2Oq$k0" />
+                <node concept="3TrEf2" id="7DDmkz5xf3" role="2OqNvi">
+                  <ref role="3Tt5mk" to="wnzg:7DDmkz1Ipj" resolve="identity" />
+                </node>
+              </node>
+              <node concept="3TrcHB" id="7DDmkz5xYa" role="2OqNvi">
+                <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+              </node>
+            </node>
+          </node>
+          <node concept="la8eA" id="7DDmkz5y99" role="lcghm">
+            <property role="lacIc" value="(" />
+          </node>
+          <node concept="l9hG8" id="7DDmkz5yk_" role="lcghm">
+            <node concept="2OqwBi" id="7DDmkz5yzC" role="lb14g">
+              <node concept="117lpO" id="7DDmkz5yqL" role="2Oq$k0" />
+              <node concept="3TrEf2" id="7DDmkz5yGs" role="2OqNvi">
+                <ref role="3Tt5mk" to="wnzg:7DDmkz0vm1" resolve="init" />
+              </node>
+            </node>
+          </node>
+          <node concept="la8eA" id="7DDmkz5yVz" role="lcghm">
+            <property role="lacIc" value=")" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="WtQ9Q" id="3LE5RBQ6aSI">
+    <property role="3GE5qa" value="method" />
+    <ref role="WuzLi" to="wnzg:3LE5RBPQ$rY" resolve="OperatorOverloadDeclaration" />
+    <node concept="11bSqf" id="3LE5RBQ6aSJ" role="11c4hB">
+      <node concept="3clFbS" id="3LE5RBQ6aSK" role="2VODD2">
+        <node concept="3clFbJ" id="3LE5RBQayu$" role="3cqZAp">
+          <node concept="2OqwBi" id="3LE5RBQayK5" role="3clFbw">
+            <node concept="117lpO" id="3LE5RBQayv2" role="2Oq$k0" />
+            <node concept="3TrcHB" id="3LE5RBQazcs" role="2OqNvi">
+              <ref role="3TsBF5" to="wnzg:3LE5RBQ6qAk" resolve="inline" />
+            </node>
+          </node>
+          <node concept="3clFbS" id="3LE5RBQayuA" role="3clFbx">
+            <node concept="lc7rE" id="3LE5RBQazgY" role="3cqZAp">
+              <node concept="la8eA" id="3LE5RBQazhm" role="lcghm">
+                <property role="lacIc" value="inline " />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="lc7rE" id="3LE5RBQazmQ" role="3cqZAp">
+          <node concept="l9hG8" id="3LE5RBQazrE" role="lcghm">
+            <node concept="2OqwBi" id="3LE5RBQazI_" role="lb14g">
+              <node concept="117lpO" id="3LE5RBQazs$" role="2Oq$k0" />
+              <node concept="3TrEf2" id="3LE5RBQa$bv" role="2OqNvi">
+                <ref role="3Tt5mk" to="mj1l:hEaDaGor64" resolve="type" />
+              </node>
+            </node>
+          </node>
+          <node concept="la8eA" id="3LE5RBQa$qM" role="lcghm">
+            <property role="lacIc" value=" operator" />
+          </node>
+          <node concept="l9hG8" id="3LE5RBQa_ZR" role="lcghm">
+            <node concept="2OqwBi" id="3LE5RBQaAqc" role="lb14g">
+              <node concept="117lpO" id="3LE5RBQaA8b" role="2Oq$k0" />
+              <node concept="3TrcHB" id="3LE5RBQaAR6" role="2OqNvi">
+                <ref role="3TsBF5" to="wnzg:3LE5RBPSwkK" resolve="operator" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="lc7rE" id="3LE5RBQaBHC" role="3cqZAp">
+          <node concept="la8eA" id="3LE5RBQaKcq" role="lcghm">
+            <property role="lacIc" value="(" />
+          </node>
+          <node concept="l9S2W" id="3LE5RBQaCBe" role="lcghm">
+            <property role="XA4eZ" value="true" />
+            <property role="lbP0B" value="," />
+            <node concept="2OqwBi" id="3LE5RBQaCP9" role="lbANJ">
+              <node concept="117lpO" id="3LE5RBQaCBA" role="2Oq$k0" />
+              <node concept="3Tsc0h" id="3LE5RBQaDhv" role="2OqNvi">
+                <ref role="3TtcxE" to="x27k:4WTYg$PUiX5" resolve="arguments" />
+              </node>
+            </node>
+          </node>
+          <node concept="la8eA" id="3LE5RBQaKlS" role="lcghm">
+            <property role="lacIc" value=")" />
+          </node>
+        </node>
+        <node concept="lc7rE" id="3LE5RBQaKzE" role="3cqZAp">
+          <node concept="l9hG8" id="3LE5RBQaKGG" role="lcghm">
+            <node concept="2OqwBi" id="3LE5RBQaKZB" role="lb14g">
+              <node concept="117lpO" id="3LE5RBQaKHA" role="2Oq$k0" />
+              <node concept="3TrEf2" id="3LE5RBQaLsl" role="2OqNvi">
+                <ref role="3Tt5mk" to="wnzg:3LE5RBPSwl7" resolve="body" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+>>>>>>> 5cb8cfdb11... Fix tests and remove unused concepts
 </model>
 
