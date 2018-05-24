@@ -1839,8 +1839,13 @@
                                   <ref role="3TsBF5" to="wnzg:2Ai0Gt9ODIG" resolve="visibility" />
                                 </node>
                               </node>
+<<<<<<< HEAD
                               <node concept="3t7uKx" id="2L1k$oXQIAT" role="2OqNvi">
                                 <node concept="uoxfO" id="2L1k$oXQIAU" role="3t7uKA">
+=======
+                              <node concept="3t7uKx" id="3OTimPpFZGb" role="2OqNvi">
+                                <node concept="uoxfO" id="3OTimPpFZGc" role="3t7uKA">
+>>>>>>> 41f05e1384... Fix private methods not being generated in header files
                                   <ref role="uo_Cq" to="wnzg:2Ai0Gt9ODIt" />
                                 </node>
                               </node>
