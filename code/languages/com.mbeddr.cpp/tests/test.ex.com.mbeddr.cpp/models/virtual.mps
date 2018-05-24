@@ -2,7 +2,11 @@
 <model ref="r:a5789047-b4aa-41ea-a318-3be2627ee2d4(test.ex.com.mbeddr.cpp.virtual)">
   <persistence version="9" />
   <languages>
+<<<<<<< HEAD
     <engage id="236f3e56-2360-4657-9b9d-0cb84f56784d" name="com.mbeddr.cpp.modules.gen" />
+=======
+    <use id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test" version="2" />
+>>>>>>> dd5d1b9963... Fixed error: abstract concept.
     <devkit ref="bdd1ab49-ce55-4bff-86d1-5394fa0aa930(com.mbeddr.cpp)" />
   </languages>
   <imports>
@@ -13,9 +17,13 @@
       <concept id="7254843406768833938" name="com.mbeddr.core.statements.structure.ExpressionStatement" flags="ng" index="1_9egQ">
         <child id="7254843406768833939" name="expr" index="1_9egR" />
       </concept>
+<<<<<<< HEAD
       <concept id="4185783222026475238" name="com.mbeddr.core.statements.structure.LocalVariableDeclaration" flags="ng" index="3XIRlf">
         <child id="4185783222026502647" name="init" index="3XIe9u" />
       </concept>
+=======
+      <concept id="4185783222026475238" name="com.mbeddr.core.statements.structure.LocalVariableDeclaration" flags="ng" index="3XIRlf" />
+>>>>>>> dd5d1b9963... Fixed error: abstract concept.
       <concept id="4185783222026475861" name="com.mbeddr.core.statements.structure.StatementList" flags="ng" index="3XIRFW">
         <child id="4185783222026475862" name="statements" index="3XIRFZ" />
       </concept>
@@ -64,6 +72,7 @@
       </concept>
     </language>
     <language id="8c081446-e4ba-48b7-a7e0-3db40e2c3439" name="com.mbeddr.cpp.base">
+<<<<<<< HEAD
       <concept id="7240228573262412204" name="com.mbeddr.cpp.base.structure.LocalClassVariableDeclaration" flags="ng" index="2dywKE" />
       <concept id="3188920472788366140" name="com.mbeddr.cpp.base.structure.IVirtualisableConcept" flags="ng" index="hL25U">
         <property id="3188920472788366141" name="isVirtual" index="hL25V" />
@@ -72,11 +81,24 @@
         <reference id="4511589886097466674" name="parentClass" index="FysoF" />
       </concept>
       <concept id="4353317802403516287" name="com.mbeddr.cpp.base.structure.LocalClassVarRef" flags="ng" index="3aNPw6" />
+=======
+      <concept id="3188920472788366140" name="com.mbeddr.cpp.base.structure.IVirtualableConcept" flags="ng" index="hL25U">
+        <property id="3188920472788366141" name="isVirtual" index="hL25V" />
+      </concept>
+      <concept id="4511589886097466673" name="com.mbeddr.cpp.base.structure.InheritanceInstance" flags="ng" index="FysoC">
+        <property id="4511589886097466677" name="visibility" index="FysoG" />
+        <reference id="4511589886097466674" name="parentClass" index="FysoF" />
+      </concept>
+>>>>>>> dd5d1b9963... Fixed error: abstract concept.
       <concept id="5044697665789382396" name="com.mbeddr.cpp.base.structure.MethodDeclaration" flags="ng" index="3mB1cK">
         <property id="5478191656157682870" name="static" index="gNYVZ" />
         <child id="4185783222026475860" name="body" index="3XIRFX" />
       </concept>
+<<<<<<< HEAD
       <concept id="5044697665789421253" name="com.mbeddr.cpp.base.structure.IClassMemberDeclaration" flags="ng" index="3mBbG9">
+=======
+      <concept id="5044697665789423998" name="com.mbeddr.cpp.base.structure.INamedClassMemberDeclaration" flags="ng" index="3mBaMM">
+>>>>>>> dd5d1b9963... Fixed error: abstract concept.
         <property id="2995459757115087788" name="visibility" index="1wg9_F" />
       </concept>
       <concept id="5044697665789405022" name="com.mbeddr.cpp.base.structure.ClassType" flags="ng" index="3mBfEi">
@@ -168,11 +190,19 @@
   </registry>
   <node concept="2v9HqL" id="3fD_lX6gUJ5">
     <node concept="2eOfOl" id="4o2nsMgBpPF" role="2ePNbc">
+<<<<<<< HEAD
       <property role="TrG5h" value="Virtual" />
       <property role="iO3LB" value="true" />
       <ref role="3oK8_y" node="3v5DuFDkAwn" resolve="portable" />
       <node concept="2v9HqM" id="7wcjSRtanT1" role="2eOfOg">
         <ref role="2v9HqP" node="6KmaLbE81Ky" resolve="Virtual" />
+=======
+      <property role="iO3LB" value="true" />
+      <property role="TrG5h" value="ex" />
+      <ref role="3oK8_y" node="3v5DuFDkAwn" resolve="portable" />
+      <node concept="2v9HqM" id="2O2YBLCfgO5" role="2eOfOg">
+        <ref role="2v9HqP" node="2O2YBLCfgIm" resolve="Virtual" />
+>>>>>>> dd5d1b9963... Fixed error: abstract concept.
       </node>
       <node concept="2v9HqM" id="3v5DuFDttij" role="2eOfOg">
         <ref role="2v9HqP" to="3y0n:137zkozycPF" resolve="stdarg" />
@@ -207,6 +237,7 @@
       </node>
     </node>
   </node>
+<<<<<<< HEAD
   <node concept="1whW_1" id="6KmaLbE81Ky">
     <property role="TrG5h" value="Virtual" />
     <node concept="3mBW2U" id="6KmaLbE81K$" role="N3F5h">
@@ -239,12 +270,47 @@
         <node concept="19RgSI" id="6KmaLbE81KI" role="1UOdpc">
           <property role="TrG5h" value="boo" />
           <node concept="3TlMgk" id="6KmaLbE81KJ" role="2C2TGm">
+=======
+  <node concept="1whW_1" id="2O2YBLCfgIm">
+    <property role="TrG5h" value="Virtual" />
+    <node concept="3mBW2U" id="2O2YBLCfgIy" role="N3F5h">
+      <property role="2OOxQR" value="true" />
+      <property role="TrG5h" value="someClass" />
+      <node concept="3mB1cK" id="2O2YBLCfgIz" role="3mBdys">
+        <property role="1wg9_F" value="public" />
+        <property role="gNYVZ" value="false" />
+        <property role="TrG5h" value="doSomething" />
+        <property role="hL25V" value="true" />
+        <node concept="3TlMgk" id="2O2YBLCfgI$" role="2C2TGm">
+          <property role="2caQfQ" value="false" />
+          <property role="2c7vTL" value="false" />
+        </node>
+        <node concept="3XIRFW" id="2O2YBLCfgI_" role="3XIRFX">
+          <node concept="1_9egQ" id="2O2YBLCfgIA" role="3XIRFZ">
+            <node concept="3pqW6w" id="2O2YBLCfgIB" role="1_9egR">
+              <node concept="3TlMhd" id="2O2YBLCfgIC" role="3TlMhJ" />
+              <node concept="3ZUYvv" id="2O2YBLCfgID" role="3TlMhI">
+                <ref role="3ZUYvu" node="2O2YBLCfgIG" resolve="boo" />
+              </node>
+            </node>
+          </node>
+          <node concept="2BFjQ_" id="2O2YBLCfgIE" role="3XIRFZ">
+            <node concept="3ZUYvv" id="2O2YBLCfgIF" role="2BFjQA">
+              <ref role="3ZUYvu" node="2O2YBLCfgIG" resolve="boo" />
+            </node>
+          </node>
+        </node>
+        <node concept="19RgSI" id="2O2YBLCfgIG" role="1UOdpc">
+          <property role="TrG5h" value="boo" />
+          <node concept="3TlMgk" id="2O2YBLCfgIH" role="2C2TGm">
+>>>>>>> dd5d1b9963... Fixed error: abstract concept.
             <property role="2caQfQ" value="false" />
             <property role="2c7vTL" value="false" />
           </node>
         </node>
       </node>
     </node>
+<<<<<<< HEAD
     <node concept="2NXPZ9" id="6KmaLbE81LD" role="N3F5h">
       <property role="TrG5h" value="empty_1527145164400_2" />
     </node>
@@ -277,11 +343,50 @@
         <node concept="19RgSI" id="6KmaLbE81NI" role="1UOdpc">
           <property role="TrG5h" value="boo" />
           <node concept="3TlMgk" id="6KmaLbE81NJ" role="2C2TGm">
+=======
+    <node concept="2NXPZ9" id="2O2YBLCfgII" role="N3F5h">
+      <property role="TrG5h" value="empty_1527060500657_2" />
+    </node>
+    <node concept="3mBW2U" id="2O2YBLCfgIJ" role="N3F5h">
+      <property role="2OOxQR" value="true" />
+      <property role="TrG5h" value="anotherClass" />
+      <node concept="FysoC" id="2O2YBLCfgIK" role="Fysvh">
+        <property role="FysoG" value="public" />
+        <ref role="FysoF" node="2O2YBLCfgIy" resolve="someClass" />
+      </node>
+      <node concept="3mB1cK" id="2O2YBLCfgIL" role="3mBdys">
+        <property role="1wg9_F" value="public" />
+        <property role="gNYVZ" value="false" />
+        <property role="TrG5h" value="doSomething" />
+        <node concept="3TlMgk" id="2O2YBLCfgIM" role="2C2TGm">
+          <property role="2caQfQ" value="false" />
+          <property role="2c7vTL" value="false" />
+        </node>
+        <node concept="3XIRFW" id="2O2YBLCfgIN" role="3XIRFX">
+          <node concept="1_9egQ" id="2O2YBLCfgIO" role="3XIRFZ">
+            <node concept="3pqW6w" id="2O2YBLCfgIP" role="1_9egR">
+              <node concept="3TlMhK" id="2O2YBLCfgIQ" role="3TlMhJ" />
+              <node concept="3ZUYvv" id="2O2YBLCfgIR" role="3TlMhI">
+                <ref role="3ZUYvu" node="2O2YBLCfgIU" resolve="boo" />
+              </node>
+            </node>
+          </node>
+          <node concept="2BFjQ_" id="2O2YBLCfgIS" role="3XIRFZ">
+            <node concept="3ZUYvv" id="2O2YBLCfgIT" role="2BFjQA">
+              <ref role="3ZUYvu" node="2O2YBLCfgIU" resolve="boo" />
+            </node>
+          </node>
+        </node>
+        <node concept="19RgSI" id="2O2YBLCfgIU" role="1UOdpc">
+          <property role="TrG5h" value="boo" />
+          <node concept="3TlMgk" id="2O2YBLCfgIV" role="2C2TGm">
+>>>>>>> dd5d1b9963... Fixed error: abstract concept.
             <property role="2caQfQ" value="false" />
             <property role="2c7vTL" value="false" />
           </node>
         </node>
       </node>
+<<<<<<< HEAD
       <node concept="FysoC" id="6KmaLbE9XBy" role="Fysvh">
         <ref role="FysoF" node="6KmaLbE81K$" resolve="SomeClass" />
       </node>
@@ -357,10 +462,92 @@
           <node concept="3TlMhK" id="6KmaLbE822S" role="2N2GHh" />
           <node concept="3ZVu4v" id="6KmaLbE822T" role="2N2GHg">
             <ref role="3ZVs_2" node="6KmaLbE822y" resolve="aBool" />
+=======
+    </node>
+    <node concept="2NXPZ9" id="2O2YBLCfgIW" role="N3F5h">
+      <property role="TrG5h" value="empty_1527061326759_8" />
+    </node>
+    <node concept="c0Qz5" id="2O2YBLCfgIX" role="N3F5h">
+      <property role="2OOxQR" value="true" />
+      <property role="TrG5h" value="virtualTest1" />
+      <node concept="19Rifw" id="2O2YBLCfgIY" role="2C2TGm">
+        <property role="2caQfQ" value="false" />
+        <property role="2c7vTL" value="false" />
+      </node>
+      <node concept="3XIRFW" id="2O2YBLCfgIZ" role="c0Qz3">
+        <node concept="3XIRlf" id="2O2YBLCfgJ0" role="3XIRFZ">
+          <property role="TrG5h" value="classA" />
+          <node concept="3mBfEi" id="2O2YBLCfgJ1" role="2C2TGm">
+            <property role="2caQfQ" value="false" />
+            <property role="2c7vTL" value="false" />
+            <ref role="3mBfEM" node="2O2YBLCfgIy" resolve="someClass" />
+          </node>
+        </node>
+        <node concept="3XIRlf" id="2O2YBLCfgJ2" role="3XIRFZ">
+          <property role="TrG5h" value="boo" />
+          <node concept="3TlMgk" id="2O2YBLCfgJ3" role="2C2TGm">
+            <property role="2caQfQ" value="false" />
+            <property role="2c7vTL" value="false" />
+          </node>
+        </node>
+        <node concept="1_9egQ" id="2O2YBLCfgJ4" role="3XIRFZ">
+          <node concept="3pqW6w" id="2O2YBLCfgJ5" role="1_9egR">
+            <node concept="3ZVu4v" id="2O2YBLCfgJ6" role="3TlMhI">
+              <ref role="3ZVs_2" node="2O2YBLCfgJ2" resolve="boo" />
+            </node>
+            <node concept="2qmXGp" id="2O2YBLCfgJ7" role="3TlMhJ">
+              <node concept="3mBbHP" id="2O2YBLCfgJ8" role="1ESnxz">
+                <ref role="3mBbHN" node="2O2YBLCfgIz" resolve="doSomething" />
+                <node concept="3TlMhK" id="2O2YBLCfgJ9" role="3mBtou" />
+              </node>
+              <node concept="3ZVu4v" id="2O2YBLCfgJa" role="1_9fRO">
+                <ref role="3ZVs_2" node="2O2YBLCfgJ0" resolve="classA" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="2N2KuS" id="2O2YBLCfgJb" role="3XIRFZ">
+          <node concept="3TlMhd" id="2O2YBLCfgJc" role="2N2GHh" />
+          <node concept="3ZVu4v" id="2O2YBLCfgJd" role="2N2GHg">
+            <ref role="3ZVs_2" node="2O2YBLCfgJ2" resolve="boo" />
+          </node>
+        </node>
+        <node concept="3XIRlf" id="2O2YBLCfgJe" role="3XIRFZ">
+          <property role="TrG5h" value="classB" />
+          <node concept="3mBfEi" id="2O2YBLCfgJf" role="2C2TGm">
+            <property role="2caQfQ" value="false" />
+            <property role="2c7vTL" value="false" />
+            <ref role="3mBfEM" node="2O2YBLCfgIJ" resolve="anotherClass" />
+          </node>
+        </node>
+        <node concept="1_9egQ" id="2O2YBLCfgJg" role="3XIRFZ">
+          <node concept="3pqW6w" id="2O2YBLCfgJh" role="1_9egR">
+            <node concept="2qmXGp" id="2O2YBLCfgJi" role="3TlMhJ">
+              <node concept="3mBbHP" id="2O2YBLCfgJj" role="1ESnxz">
+                <ref role="3mBbHN" node="2O2YBLCfgIL" resolve="doSomething" />
+                <node concept="3ZVu4v" id="2O2YBLCfgJk" role="3mBtou">
+                  <ref role="3ZVs_2" node="2O2YBLCfgJ2" resolve="boo" />
+                </node>
+              </node>
+              <node concept="3ZVu4v" id="2O2YBLCfgJl" role="1_9fRO">
+                <ref role="3ZVs_2" node="2O2YBLCfgJe" resolve="classB" />
+              </node>
+            </node>
+            <node concept="3ZVu4v" id="2O2YBLCfgJm" role="3TlMhI">
+              <ref role="3ZVs_2" node="2O2YBLCfgJ2" resolve="boo" />
+            </node>
+          </node>
+        </node>
+        <node concept="2N2KuS" id="2O2YBLCfgJn" role="3XIRFZ">
+          <node concept="3TlMhK" id="2O2YBLCfgJo" role="2N2GHh" />
+          <node concept="3ZVu4v" id="2O2YBLCfgJp" role="2N2GHg">
+            <ref role="3ZVs_2" node="2O2YBLCfgJ2" resolve="boo" />
+>>>>>>> dd5d1b9963... Fixed error: abstract concept.
           </node>
         </node>
       </node>
     </node>
+<<<<<<< HEAD
     <node concept="2NXPZ9" id="6KmaLbE8280" role="N3F5h">
       <property role="TrG5h" value="empty_1527145195583_6" />
     </node>
@@ -382,6 +569,20 @@
     </node>
     <node concept="2NXPZ9" id="6KmaLbE81Kz" role="N3F5h">
       <property role="TrG5h" value="empty_1527145133660_1" />
+=======
+    <node concept="2NXPZ9" id="2O2YBLCfgJq" role="N3F5h">
+      <property role="TrG5h" value="empty_1527062325853_16" />
+    </node>
+    <node concept="lIfQi" id="2O2YBLCfgJr" role="N3F5h">
+      <property role="3HjyOP" value="true" />
+      <property role="TrG5h" value="main" />
+      <node concept="3cM6IN" id="2O2YBLCfgJs" role="lIfQt">
+        <ref role="3cM6IK" node="2O2YBLCfgIX" resolve="virtualTest1" />
+      </node>
+    </node>
+    <node concept="2NXPZ9" id="2O2YBLCfgIn" role="N3F5h">
+      <property role="TrG5h" value="empty_1527146417375_12" />
+>>>>>>> dd5d1b9963... Fixed error: abstract concept.
     </node>
   </node>
 </model>
