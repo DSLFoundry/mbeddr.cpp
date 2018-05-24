@@ -264,6 +264,7 @@
         <property id="7617962380315063287" name="flagText" index="ZjSer" />
         <child id="484443907672828832" name="substituteCondition" index="3gMvMa" />
       </concept>
+<<<<<<< HEAD
       <concept id="7363578995839435357" name="com.mbeddr.mpsutil.grammarcells.structure.WrapperCell" flags="ng" index="1kIj98">
 <<<<<<< HEAD
         <property id="484443907677193054" name="focusWrapped" index="3g2DhO" />
@@ -276,6 +277,8 @@
         <child id="7363578995839435358" name="wrapped" index="1kIj9b" />
       </concept>
 >>>>>>> ff7b242aec... Added auto declaration.
+=======
+>>>>>>> 605219c496... Fixes to auto declaration.
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
       <concept id="1177026924588" name="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" flags="nn" index="chp4Y">
@@ -1506,21 +1509,37 @@
         </node>
       </node>
     </node>
-    <node concept="3EZMnI" id="79L075HWorw" role="2wV5jI">
-      <node concept="1kIj98" id="7bCENxTSAtU" role="3EZMnx">
-        <node concept="PMmxH" id="79L075I2tal" role="1kIj9b">
-          <property role="1cu_pB" value="0" />
-          <ref role="1ERwB7" to="vrqd:4mLQOETx0L2" resolve="typeAliasActions" />
-          <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
-          <ref role="1k5W1q" to="r4b4:2CEi94dgHKA" resolve="KW" />
-          <node concept="OXEIz" id="79L075I2tam" role="P5bDN">
-            <node concept="UkePV" id="79L075I2tan" role="OY2wv">
-              <ref role="Ul1FP" to="mj1l:7FQByU3CrCQ" resolve="Type" />
-            </node>
+    <node concept="3EZMnI" id="2O2YBLCk5kt" role="2wV5jI">
+      <node concept="PMmxH" id="2O2YBLCk5ku" role="3EZMnx">
+        <property role="1cu_pB" value="0" />
+        <ref role="1ERwB7" to="vrqd:4mLQOETx0L2" resolve="typeAliasActions" />
+        <ref role="1k5W1q" to="r4b4:2CEi94dgHKA" resolve="KW" />
+        <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+        <node concept="OXEIz" id="2O2YBLCk5kv" role="P5bDN">
+          <node concept="UkePV" id="2O2YBLCk5kw" role="OY2wv">
+            <ref role="Ul1FP" to="mj1l:7FQByU3CrCQ" resolve="Type" />
           </node>
         </node>
       </node>
-      <node concept="l2Vlx" id="79L075HWor$" role="2iSdaV" />
+      <node concept="l2Vlx" id="2O2YBLCk5kx" role="2iSdaV" />
+      <node concept="3F0A7n" id="2O2YBLCk5ky" role="3EZMnx">
+        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+      </node>
+      <node concept="3EZMnI" id="2O2YBLCk5kz" role="3EZMnx">
+        <node concept="l2Vlx" id="2O2YBLCk5k$" role="2iSdaV" />
+        <node concept="3F0ifn" id="2O2YBLCk5k_" role="3EZMnx">
+          <property role="3F0ifm" value="=" />
+        </node>
+        <node concept="3F1sOY" id="2O2YBLCk5kA" role="3EZMnx">
+          <ref role="1NtTu8" to="wnzg:2pPw_DEjkM9" resolve="init" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="2O2YBLCk5kB" role="3EZMnx">
+        <property role="3F0ifm" value=";" />
+        <node concept="11L4FC" id="2O2YBLCk5kC" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
     </node>
   </node>
 </model>
