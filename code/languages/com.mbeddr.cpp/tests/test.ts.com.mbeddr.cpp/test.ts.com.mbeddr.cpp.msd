@@ -7,7 +7,11 @@
   </models>
   <sourcePath />
   <dependencies>
+<<<<<<< HEAD
     <dependency reexport="false">a2a03fd8-cc5a-4e82-b374-eb6c0f29cc9e(test.ex.com.mbeddr.cpp)</dependency>
+=======
+    <dependency reexport="false">~_PreferencesModule#com.mbeddr.cpp.__spreferences.PlatformTemplates(com.mbeddr.cpp.__spreferences.PlatformTemplates)</dependency>
+>>>>>>> 09067ffb17... Added support for the global Namespace Declaration.
   </dependencies>
   <languageVersions>
     <language slang="l:d4280a54-f6df-4383-aa41-d1b2bffa7eb1:com.mbeddr.core.base" version="5" />
@@ -60,7 +64,11 @@
     <language slang="l:7a5dda62-9140-4668-ab76-d5ed1746f2b2:jetbrains.mps.lang.typesystem" version="1" />
   </languageVersions>
   <dependencyVersions>
+<<<<<<< HEAD
     <module reference="a2a03fd8-cc5a-4e82-b374-eb6c0f29cc9e(test.ex.com.mbeddr.cpp)" version="0" />
+=======
+    <module reference="~_PreferencesModule#com.mbeddr.cpp.__spreferences.PlatformTemplates(com.mbeddr.cpp.__spreferences.PlatformTemplates)" version="0" />
+>>>>>>> 09067ffb17... Added support for the global Namespace Declaration.
     <module reference="05157886-1175-44aa-8e79-7768b4ab9711(test.ts.com.mbeddr.cpp)" version="0" />
   </dependencyVersions>
 </solution>

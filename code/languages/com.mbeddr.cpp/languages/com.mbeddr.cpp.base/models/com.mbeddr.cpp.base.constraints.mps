@@ -41,14 +41,22 @@
 >>>>>>> 71d8fb9fa7... Added InnerClassType, further testing for Using Namespace, small adjustments
     <import index="wnzg" ref="r:24646c42-f8e0-499c-b639-679cfa170a2e(com.mbeddr.cpp.base.structure)" implicit="true" />
     <import index="kntn" ref="r:4090021e-0c8f-4cca-ab3f-590afb43a745(com.mbeddr.cpp.base.behavior)" implicit="true" />
+    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
+<<<<<<< HEAD
 <<<<<<< HEAD
       <concept id="4836112446988635817" name="jetbrains.mps.baseLanguage.structure.UndefinedType" flags="in" index="2jxLKc" />
 >>>>>>> b70d14e537... loads of stuff
 =======
 >>>>>>> b95cdd26ff... Namespace Declaration and Member Referencing (WIP) without TextGen elements
+=======
+      <concept id="1215693861676" name="jetbrains.mps.baseLanguage.structure.BaseAssignmentExpression" flags="nn" index="d038R">
+        <child id="1068498886297" name="rValue" index="37vLTx" />
+        <child id="1068498886295" name="lValue" index="37vLTJ" />
+      </concept>
+>>>>>>> 09067ffb17... Added support for the global Namespace Declaration.
       <concept id="1197027756228" name="jetbrains.mps.baseLanguage.structure.DotExpression" flags="nn" index="2OqwBi">
         <child id="1197027771414" name="operand" index="2Oq$k0" />
         <child id="1197027833540" name="operation" index="2OqNvi" />
@@ -65,6 +73,9 @@
       <concept id="1137021947720" name="jetbrains.mps.baseLanguage.structure.ConceptFunction" flags="in" index="2VMwT0">
         <child id="1137022507850" name="body" index="2VODD2" />
       </concept>
+      <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
+        <property id="1070475926801" name="value" index="Xl_RC" />
+      </concept>
       <concept id="1081236700937" name="jetbrains.mps.baseLanguage.structure.StaticMethodCall" flags="nn" index="2YIFZM">
         <reference id="1144433194310" name="classConcept" index="1Pybhc" />
       </concept>
@@ -80,12 +91,16 @@
         <reference id="1068581517664" name="variableDeclaration" index="3cqZAo" />
       </concept>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <concept id="1225271283259" name="jetbrains.mps.baseLanguage.structure.NPEEqualsExpression" flags="nn" index="17R0WA" />
 =======
       <concept id="1068498886296" name="jetbrains.mps.baseLanguage.structure.VariableReference" flags="nn" index="37vLTw">
         <reference id="1068581517664" name="variableDeclaration" index="3cqZAo" />
       </concept>
 >>>>>>> b70d14e537... loads of stuff
+=======
+      <concept id="1068498886294" name="jetbrains.mps.baseLanguage.structure.AssignmentExpression" flags="nn" index="37vLTI" />
+>>>>>>> 09067ffb17... Added support for the global Namespace Declaration.
       <concept id="4972933694980447171" name="jetbrains.mps.baseLanguage.structure.BaseVariableDeclaration" flags="ng" index="19Szcq">
         <child id="5680397130376446158" name="type" index="1tU5fm" />
       </concept>
@@ -121,6 +136,7 @@
       <concept id="1068580320020" name="jetbrains.mps.baseLanguage.structure.IntegerConstant" flags="nn" index="3cmrfG">
         <property id="1068580320021" name="value" index="3cmrfH" />
       </concept>
+      <concept id="1068581242875" name="jetbrains.mps.baseLanguage.structure.PlusExpression" flags="nn" index="3cpWs3" />
       <concept id="1068581242878" name="jetbrains.mps.baseLanguage.structure.ReturnStatement" flags="nn" index="3cpWs6">
         <child id="1068581517676" name="expression" index="3cqZAk" />
       </concept>
@@ -168,6 +184,7 @@
         <child id="1081773367579" name="rightExpression" index="3uHU7w" />
         <child id="1081773367580" name="leftExpression" index="3uHU7B" />
       </concept>
+<<<<<<< HEAD
       <concept id="1073239437375" name="jetbrains.mps.baseLanguage.structure.NotEqualsExpression" flags="nn" index="3y3z36" />
       <concept id="6329021646629104957" name="jetbrains.mps.baseLanguage.structure.TextCommentPart" flags="nn" index="3SKdUq">
         <property id="6329021646629104958" name="text" index="3SKdUp" />
@@ -188,13 +205,27 @@
         <reference id="1107535924139" name="classifier" index="3uigEE" />
       </concept>
 >>>>>>> 186ea3c3fb... Added bases 'Using Namespace Method' feature, cleaned up TextGens and Editors
+=======
+>>>>>>> 09067ffb17... Added support for the global Namespace Declaration.
     </language>
     <language id="3f4bc5f5-c6c1-4a28-8b10-c83066ffa4a1" name="jetbrains.mps.lang.constraints">
+      <concept id="1147467115080" name="jetbrains.mps.lang.constraints.structure.NodePropertyConstraint" flags="ng" index="EnEH3">
+        <reference id="1147467295099" name="applicableProperty" index="EomxK" />
+        <child id="1147468630220" name="propertyGetter" index="EtsB7" />
+        <child id="1152963095733" name="propertySetter" index="1LXaQT" />
+      </concept>
+      <concept id="1147467790433" name="jetbrains.mps.lang.constraints.structure.ConstraintFunction_PropertyGetter" flags="in" index="Eqf_E" />
+      <concept id="1147468365020" name="jetbrains.mps.lang.constraints.structure.ConstraintsFunctionParameter_node" flags="nn" index="EsrRn" />
       <concept id="5564765827938091039" name="jetbrains.mps.lang.constraints.structure.ConstraintFunction_ReferentSearchScope_Scope" flags="ig" index="3dgokm" />
       <concept id="1163200647017" name="jetbrains.mps.lang.constraints.structure.ConstraintFunctionParameter_referenceNode" flags="nn" index="3kakTB" />
+<<<<<<< HEAD
 >>>>>>> b95cdd26ff... Namespace Declaration and Member Referencing (WIP) without TextGen elements
+=======
+      <concept id="1152959968041" name="jetbrains.mps.lang.constraints.structure.ConstraintFunction_PropertySetter" flags="in" index="1LLf8_" />
+>>>>>>> 09067ffb17... Added support for the global Namespace Declaration.
       <concept id="1213093968558" name="jetbrains.mps.lang.constraints.structure.ConceptConstraints" flags="ng" index="1M2fIO">
         <reference id="1213093996982" name="concept" index="1M2myG" />
+        <child id="1213098023997" name="property" index="1MhHOB" />
         <child id="1213100494875" name="referent" index="1Mr941" />
       </concept>
       <concept id="1148687176410" name="jetbrains.mps.lang.constraints.structure.NodeReferentConstraint" flags="ng" index="1N5Pfh">
@@ -244,6 +275,9 @@
       </concept>
       <concept id="2644386474300074836" name="jetbrains.mps.lang.smodel.structure.ConceptIdRefExpression" flags="nn" index="35c_gC">
         <reference id="2644386474300074837" name="conceptDeclaration" index="35c_gD" />
+      </concept>
+      <concept id="1138056022639" name="jetbrains.mps.lang.smodel.structure.SPropertyAccess" flags="nn" index="3TrcHB">
+        <reference id="1138056395725" name="property" index="3TsBF5" />
       </concept>
       <concept id="1138056143562" name="jetbrains.mps.lang.smodel.structure.SLinkAccess" flags="nn" index="3TrEf2">
         <reference id="1138056516764" name="link" index="3Tt5mk" />
@@ -1084,6 +1118,65 @@
               <node concept="359W_D" id="3Nc$bFFSO6C" role="37wK5m">
                 <ref role="359W_E" to="wnzg:383ZxwZqQYo" resolve="NamespaceDeclaration" />
                 <ref role="359W_F" to="wnzg:383ZxwZsUja" resolve="members" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="6gFj6gpEkqz">
+    <property role="3GE5qa" value="Namespace" />
+    <ref role="1M2myG" to="wnzg:6gFj6gpBJFg" resolve="GlobalUsingGeneralNamespaceDeclaration" />
+    <node concept="EnEH3" id="6gFj6gpEkq$" role="1MhHOB">
+      <ref role="EomxK" to="tpck:h0TrG11" resolve="name" />
+      <node concept="Eqf_E" id="6gFj6gpKXtU" role="EtsB7">
+        <node concept="3clFbS" id="6gFj6gpKXtV" role="2VODD2">
+          <node concept="3clFbF" id="6gFj6gpN9aN" role="3cqZAp">
+            <node concept="3cpWs3" id="6gFj6gpREoD" role="3clFbG">
+              <node concept="Xl_RD" id="6gFj6gpRECu" role="3uHU7w">
+                <property role="Xl_RC" value="gb" />
+              </node>
+              <node concept="2OqwBi" id="6gFj6gpNbKG" role="3uHU7B">
+                <node concept="2OqwBi" id="6gFj6gpNawP" role="2Oq$k0">
+                  <node concept="EsrRn" id="6gFj6gpNab7" role="2Oq$k0" />
+                  <node concept="3TrEf2" id="6gFj6gpNb4L" role="2OqNvi">
+                    <ref role="3Tt5mk" to="wnzg:6gFj6gpBJF$" resolve="namespace" />
+                  </node>
+                </node>
+                <node concept="3TrcHB" id="6gFj6gpNcrF" role="2OqNvi">
+                  <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="1LLf8_" id="6gFj6gpPkCd" role="1LXaQT">
+        <node concept="3clFbS" id="6gFj6gpPkCe" role="2VODD2">
+          <node concept="3clFbF" id="6gFj6gpPkS6" role="3cqZAp">
+            <node concept="37vLTI" id="6gFj6gpPm7d" role="3clFbG">
+              <node concept="3cpWs3" id="6gFj6gpPpyg" role="37vLTx">
+                <node concept="Xl_RD" id="6gFj6gpPpIk" role="3uHU7B">
+                  <property role="Xl_RC" value="global using namespace " />
+                </node>
+                <node concept="2OqwBi" id="6gFj6gpPnCF" role="3uHU7w">
+                  <node concept="2OqwBi" id="6gFj6gpPmAO" role="2Oq$k0">
+                    <node concept="EsrRn" id="6gFj6gpPmjs" role="2Oq$k0" />
+                    <node concept="3TrEf2" id="6gFj6gpPmYH" role="2OqNvi">
+                      <ref role="3Tt5mk" to="wnzg:6gFj6gpBJF$" resolve="namespace" />
+                    </node>
+                  </node>
+                  <node concept="3TrcHB" id="6gFj6gpPoAB" role="2OqNvi">
+                    <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                  </node>
+                </node>
+              </node>
+              <node concept="2OqwBi" id="6gFj6gpPl5r" role="37vLTJ">
+                <node concept="EsrRn" id="6gFj6gpPkS5" role="2Oq$k0" />
+                <node concept="3TrcHB" id="6gFj6gpPlq5" role="2OqNvi">
+                  <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                </node>
               </node>
             </node>
           </node>

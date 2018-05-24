@@ -6,8 +6,12 @@
     <devkit ref="bdd1ab49-ce55-4bff-86d1-5394fa0aa930(com.mbeddr.cpp)" />
   </languages>
   <imports>
+<<<<<<< HEAD:code/languages/com.mbeddr.cpp/tests/test.ts.com.mbeddr.cpp/models/accessmodifiers@tests.mps
     <import index="s390" ref="r:c7950158-6cef-4f64-956c-820859f3e040(test.ex.com.mbeddr.cpp.classes)" />
     <import index="ux7" ref="r:7a7d22ce-1d67-4772-b659-fbcc3b235afb(com.mbeddr.cpp.__spreferences.PlatformTemplates)" implicit="true" />
+=======
+    <import index="ux7" ref="r:7a7d22ce-1d67-4772-b659-fbcc3b235afb(com.mbeddr.cpp.__spreferences.PlatformTemplates)" />
+>>>>>>> 09067ffb17... Added support for the global Namespace Declaration.:code/languages/com.mbeddr.cpp/tests/test.ts.com.mbeddr.cpp/models/simple_classes@tests.mps
   </imports>
   <registry>
     <language id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test">
@@ -556,7 +560,7 @@
     <property role="2XOHcw" value="${mbeddr.github.core.home}/code/languages/com.mbeddr.cpp/" />
   </node>
   <node concept="2v9HqL" id="7pg8HYlqyX2">
-    <node concept="2xfidK" id="7ApeIptaldc" role="2AWWZH">
+    <node concept="2xfidK" id="6gFj6gr99Az" role="2AWWZH">
       <ref role="2xfifS" to="ux7:4FIECQpE9e1" resolve="Desktop Platform" />
     </node>
     <node concept="2Q9Fgs" id="7pg8HYlqyX4" role="2Q9xDr">
