@@ -252,6 +252,9 @@
       <ref role="PrY4T" node="2L1k$oXDqJY" resolve="IPureVirtualisableConcept" />
 >>>>>>> 41dbd51e8a... Refactor IPureVirtualisable to IPureVirtualisableConcept
     </node>
+    <node concept="PrWs8" id="1Yr26iur2wG" role="PzmwI">
+      <ref role="PrY4T" node="1Yr26itwx8u" resolve="IStaticConcept" />
+    </node>
   </node>
   <node concept="1TIwiD" id="3v5DuFDls_I">
     <property role="EcuMT" value="4018800670853679470" />

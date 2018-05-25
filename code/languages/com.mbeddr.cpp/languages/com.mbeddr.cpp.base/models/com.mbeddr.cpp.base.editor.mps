@@ -550,7 +550,13 @@
       <node concept="3F0A7n" id="6ddXmWe6WbN" role="3EZMnx">
         <ref role="1NtTu8" to="wnzg:2L1k$oXxncX" resolve="isVirtual" />
       </node>
+<<<<<<< HEAD
 >>>>>>> 12702de356... Refactor pure to isPureVitual
+=======
+      <node concept="3F0A7n" id="1Yr26iur2x1" role="3EZMnx">
+        <ref role="1NtTu8" to="wnzg:1Yr26itwx8v" resolve="isStatic" />
+      </node>
+>>>>>>> cea3f118a7... Add static to method prototype
       <node concept="2iRfu4" id="3v5DuFDrgcS" role="2iSdaV" />
       <node concept="PMmxH" id="2L1k$oXxoSI" role="3EZMnx">
         <ref role="PMmxG" node="2L1k$oXm7Pq" resolve="VirtualFlag" />
