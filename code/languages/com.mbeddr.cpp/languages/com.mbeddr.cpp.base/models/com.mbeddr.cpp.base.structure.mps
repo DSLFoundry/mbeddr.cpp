@@ -189,6 +189,7 @@
     <property role="EcuMT" value="5044697665789421259" />
     <property role="TrG5h" value="AttributeDeclaration" />
     <property role="34LRSv" value="field" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="3CmSUB7Fw7R" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="init" />
@@ -222,6 +223,9 @@
     </node>
     <node concept="PrWs8" id="5eDFAXBRQi_" role="PzmwI">
       <ref role="PrY4T" node="5eDFAXBRQhJ" resolve="IConstExprFlagConcept" />
+    </node>
+    <node concept="PrWs8" id="5eDFAXBS4mZ" role="PzmwI">
+      <ref role="PrY4T" node="5eDFAXBS4m7" resolve="IThreadLocalFlag" />
     </node>
   </node>
   <node concept="PlHQZ" id="4o2nsMgBJ5Y">
@@ -1036,6 +1040,19 @@
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
   </node>
+<<<<<<< HEAD
 >>>>>>> 7d83bedcca... Add constexpr and extern
+=======
+  <node concept="PlHQZ" id="5eDFAXBS4m7">
+    <property role="EcuMT" value="6028541369719473543" />
+    <property role="3GE5qa" value="flag" />
+    <property role="TrG5h" value="IThreadLocalFlag" />
+    <node concept="1TJgyi" id="5eDFAXBS4m8" role="1TKVEl">
+      <property role="IQ2nx" value="6028541369719473544" />
+      <property role="TrG5h" value="isThreadLocal" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+  </node>
+>>>>>>> fc91ccac11... Add thread local flag
 </model>
 
