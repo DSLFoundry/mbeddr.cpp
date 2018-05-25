@@ -611,6 +611,7 @@
   </node>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   <node concept="1TIwiD" id="3OWNtRXmIPi">
     <property role="EcuMT" value="4412628088238304594" />
     <property role="3GE5qa" value="class" />
@@ -893,5 +894,17 @@
       <ref role="20lvS9" to="mj1l:7FQByU3CrCM" resolve="Expression" />
     </node>
   </node>
+=======
+  <node concept="PlHQZ" id="1Yr26itwsSZ">
+    <property role="EcuMT" value="2277423264798199359" />
+    <property role="3GE5qa" value="method" />
+    <property role="TrG5h" value="IInlineConcept" />
+    <node concept="1TJgyi" id="1Yr26itwsT0" role="1TKVEl">
+      <property role="IQ2nx" value="2277423264798199360" />
+      <property role="TrG5h" value="isInlined" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+  </node>
+>>>>>>> 4830cd7d5d... Add inline concept and editor
 </model>
 
