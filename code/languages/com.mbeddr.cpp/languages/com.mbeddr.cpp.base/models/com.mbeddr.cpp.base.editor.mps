@@ -353,6 +353,7 @@
       </node>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       <node concept="1kHk_G" id="4K6s$_sMpMC" role="3EZMnx">
         <property role="ZjSer" value="static" />
         <ref role="1NtTu8" to="wnzg:4K6s$_sMpMQ" resolve="static" />
@@ -360,6 +361,15 @@
 =======
 =======
       <node concept="PMmxH" id="1TorPL4sJfd" role="3EZMnx">
+=======
+      <node concept="PMmxH" id="1Yr26itUKV_" role="3EZMnx">
+        <ref role="PMmxG" node="1Yr26itwx8V" resolve="StaticFlag" />
+      </node>
+      <node concept="PMmxH" id="1Yr26itUKV5" role="3EZMnx">
+        <ref role="PMmxG" node="1Yr26itwsTs" resolve="InlineFlag" />
+      </node>
+      <node concept="PMmxH" id="6ddXmWeaxpU" role="3EZMnx">
+>>>>>>> 9464eae8b8... Add flags back after wrong auto merge
         <ref role="PMmxG" node="1TorPL4sJdQ" resolve="PureFlag" />
       </node>
 >>>>>>> e035d6ce33... Move pure after visibility.
