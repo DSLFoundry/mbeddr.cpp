@@ -34,10 +34,14 @@
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" implicit="true" />
 <<<<<<< HEAD
+<<<<<<< HEAD
     <import index="kntn" ref="r:4090021e-0c8f-4cca-ab3f-590afb43a745(com.mbeddr.cpp.base.behavior)" implicit="true" />
 =======
     <import index="tpco" ref="r:00000000-0000-4000-0000-011c89590284(jetbrains.mps.lang.core.editor)" implicit="true" />
 >>>>>>> ecef4c91d7... Add null pointer type and null pointer literal
+=======
+    <import index="1yyn" ref="r:64e0a2a9-7957-424b-8102-a5e8a7a73035(com.mbeddr.cpp.templates.structure)" implicit="true" />
+>>>>>>> b70d14e537... loads of stuff
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
@@ -297,6 +301,7 @@
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       <concept id="1177026924588" name="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" flags="nn" index="chp4Y">
         <reference id="1177026940964" name="conceptDeclaration" index="cht4Q" />
       </concept>
@@ -319,6 +324,19 @@
       </concept>
       <concept id="1172326502327" name="jetbrains.mps.lang.smodel.structure.Concept_IsExactlyOperation" flags="nn" index="3O6GUB">
         <child id="1206733650006" name="conceptArgument" index="3QVz_e" />
+=======
+      <concept id="1177026924588" name="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" flags="nn" index="chp4Y">
+        <reference id="1177026940964" name="conceptDeclaration" index="cht4Q" />
+      </concept>
+      <concept id="1139621453865" name="jetbrains.mps.lang.smodel.structure.Node_IsInstanceOfOperation" flags="nn" index="1mIQ4w">
+        <child id="1177027386292" name="conceptArgument" index="cj9EA" />
+      </concept>
+      <concept id="1180636770613" name="jetbrains.mps.lang.smodel.structure.SNodeCreator" flags="nn" index="3zrR0B">
+        <child id="1180636770616" name="createdType" index="3zrR0E" />
+      </concept>
+      <concept id="1140131837776" name="jetbrains.mps.lang.smodel.structure.Node_ReplaceWithAnotherOperation" flags="nn" index="1P9Npp">
+        <child id="1140131861877" name="replacementNode" index="1P9ThW" />
+>>>>>>> b70d14e537... loads of stuff
       </concept>
       <concept id="1138055754698" name="jetbrains.mps.lang.smodel.structure.SNodeType" flags="in" index="3Tqbb2">
         <reference id="1138405853777" name="concept" index="ehGHo" />
@@ -1157,8 +1175,13 @@
 >>>>>>> a12a984071... Fix style issues
             <property role="1Intyy" value="true" />
             <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+<<<<<<< HEAD
             <node concept="VPxyj" id="6ddXmWdFet8" role="3F10Kt">
               <property role="VOm3f" value="false" />
+=======
+            <node concept="A1WHr" id="2QDt3lyq4Jq" role="3vIgyS">
+              <ref role="2ZyFGn" to="wnzg:3UsoL$l5qkL" resolve="InheritanceInstance" />
+>>>>>>> b70d14e537... loads of stuff
             </node>
           </node>
         </node>
@@ -1230,6 +1253,108 @@
               </node>
             </node>
           </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1Qtc8_" id="1N32NMNSrbD" role="IW6Ez">
+      <node concept="IWgqT" id="1N32NMNSrcd" role="1Qtc8A">
+        <node concept="1hCUdq" id="1N32NMNSrcf" role="1hCUd6">
+          <node concept="3clFbS" id="1N32NMNSrch" role="2VODD2">
+            <node concept="3clFbF" id="1N32NMNSrld" role="3cqZAp">
+              <node concept="Xl_RD" id="1N32NMNSrlc" role="3clFbG">
+                <property role="Xl_RC" value="&lt;" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="IWg2L" id="1N32NMNSrcj" role="IWgqQ">
+          <node concept="3clFbS" id="1N32NMNSrcl" role="2VODD2">
+            <node concept="3cpWs8" id="1N32NMNSs9r" role="3cqZAp">
+              <node concept="3cpWsn" id="1N32NMNSs9u" role="3cpWs9">
+                <property role="TrG5h" value="templated" />
+                <node concept="3Tqbb2" id="1N32NMNSs9p" role="1tU5fm">
+                  <ref role="ehGHo" to="1yyn:1N32NMNMKsa" resolve="TemplateInheritanceInstance" />
+                </node>
+                <node concept="2ShNRf" id="1N32NMNSscA" role="33vP2m">
+                  <node concept="3zrR0B" id="1N32NMNSsc$" role="2ShVmc">
+                    <node concept="3Tqbb2" id="1N32NMNSsc_" role="3zrR0E">
+                      <ref role="ehGHo" to="1yyn:1N32NMNMKsa" resolve="TemplateInheritanceInstance" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="1N32NMNSsdM" role="3cqZAp">
+              <node concept="37vLTI" id="1N32NMNStvR" role="3clFbG">
+                <node concept="2OqwBi" id="1N32NMNStPV" role="37vLTx">
+                  <node concept="7Obwk" id="1N32NMNStEP" role="2Oq$k0" />
+                  <node concept="3TrcHB" id="1N32NMNSucA" role="2OqNvi">
+                    <ref role="3TsBF5" to="wnzg:3UsoL$l5qkP" resolve="visibility" />
+                  </node>
+                </node>
+                <node concept="2OqwBi" id="1N32NMNSsmC" role="37vLTJ">
+                  <node concept="37vLTw" id="1N32NMNSsdK" role="2Oq$k0">
+                    <ref role="3cqZAo" node="1N32NMNSs9u" resolve="templated" />
+                  </node>
+                  <node concept="3TrcHB" id="1N32NMNSsH$" role="2OqNvi">
+                    <ref role="3TsBF5" to="wnzg:3UsoL$l5qkP" resolve="visibility" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="1N32NMNSulC" role="3cqZAp">
+              <node concept="37vLTI" id="1N32NMNSvIx" role="3clFbG">
+                <node concept="2OqwBi" id="1N32NMNSvTz" role="37vLTx">
+                  <node concept="7Obwk" id="1N32NMNSvJ4" role="2Oq$k0" />
+                  <node concept="3TrEf2" id="1N32NMNSwjp" role="2OqNvi">
+                    <ref role="3Tt5mk" to="wnzg:3UsoL$l5qkM" resolve="parentClass" />
+                  </node>
+                </node>
+                <node concept="2OqwBi" id="1N32NMNSuGZ" role="37vLTJ">
+                  <node concept="37vLTw" id="1N32NMNSulA" role="2Oq$k0">
+                    <ref role="3cqZAo" node="1N32NMNSs9u" resolve="templated" />
+                  </node>
+                  <node concept="3TrEf2" id="1N32NMNSv8M" role="2OqNvi">
+                    <ref role="3Tt5mk" to="wnzg:3UsoL$l5qkM" resolve="parentClass" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="1N32NMNSrEU" role="3cqZAp">
+              <node concept="2OqwBi" id="1N32NMNSrMa" role="3clFbG">
+                <node concept="7Obwk" id="1N32NMNSrET" role="2Oq$k0" />
+                <node concept="1P9Npp" id="1N32NMNSs6E" role="2OqNvi">
+                  <node concept="37vLTw" id="1N32NMNSwp5" role="1P9ThW">
+                    <ref role="3cqZAo" node="1N32NMNSs9u" resolve="templated" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="27VH4U" id="1N32NMNSwvU" role="2jiSrf">
+          <node concept="3clFbS" id="1N32NMNSwvV" role="2VODD2">
+            <node concept="3clFbF" id="1N32NMNSwFM" role="3cqZAp">
+              <node concept="2OqwBi" id="1N32NMNSxJw" role="3clFbG">
+                <node concept="2OqwBi" id="1N32NMNSwSe" role="2Oq$k0">
+                  <node concept="7Obwk" id="1N32NMNSwFL" role="2Oq$k0" />
+                  <node concept="3TrEf2" id="1N32NMNSxa1" role="2OqNvi">
+                    <ref role="3Tt5mk" to="wnzg:3UsoL$l5qkM" resolve="parentClass" />
+                  </node>
+                </node>
+                <node concept="1mIQ4w" id="1N32NMNSyry" role="2OqNvi">
+                  <node concept="chp4Y" id="1N32NMNSyFW" role="cj9EA">
+                    <ref role="cht4Q" to="1yyn:ZKpU3C3Nka" resolve="TemplateClassDeclaration" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3cWJ9i" id="1N32NMNSrc2" role="1Qtc8$">
+        <node concept="CtIbL" id="1N32NMNSrc4" role="CtIbM">
+          <property role="CtIbK" value="RIGHT" />
         </node>
       </node>
     </node>

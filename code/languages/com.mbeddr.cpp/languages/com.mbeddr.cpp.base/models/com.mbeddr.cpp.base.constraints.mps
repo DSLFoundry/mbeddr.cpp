@@ -8,6 +8,7 @@
   <imports>
     <import index="o8zo" ref="r:314576fc-3aee-4386-a0a5-a38348ac317d(jetbrains.mps.scope)" />
 <<<<<<< HEAD
+<<<<<<< HEAD
     <import index="wnzg" ref="r:24646c42-f8e0-499c-b639-679cfa170a2e(com.mbeddr.cpp.base.structure)" />
     <import index="hwgx" ref="r:fd2980c8-676c-4b19-b524-18c70e02f8b7(com.mbeddr.core.base.behavior)" />
     <import index="vs0r" ref="r:f7764ca4-8c75-4049-922b-08516400a727(com.mbeddr.core.base.structure)" />
@@ -28,19 +29,32 @@
       <concept id="1154032098014" name="jetbrains.mps.baseLanguage.structure.AbstractLoopStatement" flags="nn" index="2LF5Ji">
         <child id="1154032183016" name="body" index="2LFqv$" />
       </concept>
+=======
+    <import index="x27k" ref="r:75ecab8a-8931-4140-afc6-4b46398710fc(com.mbeddr.core.modules.structure)" />
+    <import index="1yyn" ref="r:64e0a2a9-7957-424b-8102-a5e8a7a73035(com.mbeddr.cpp.templates.structure)" />
+    <import index="wnzg" ref="r:24646c42-f8e0-499c-b639-679cfa170a2e(com.mbeddr.cpp.base.structure)" implicit="true" />
+  </imports>
+  <registry>
+    <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
+      <concept id="4836112446988635817" name="jetbrains.mps.baseLanguage.structure.UndefinedType" flags="in" index="2jxLKc" />
+>>>>>>> b70d14e537... loads of stuff
       <concept id="1197027756228" name="jetbrains.mps.baseLanguage.structure.DotExpression" flags="nn" index="2OqwBi">
         <child id="1197027771414" name="operand" index="2Oq$k0" />
         <child id="1197027833540" name="operation" index="2OqNvi" />
       </concept>
+<<<<<<< HEAD
       <concept id="1145552977093" name="jetbrains.mps.baseLanguage.structure.GenericNewExpression" flags="nn" index="2ShNRf">
         <child id="1145553007750" name="creator" index="2ShVmc" />
       </concept>
+=======
+>>>>>>> b70d14e537... loads of stuff
       <concept id="1137021947720" name="jetbrains.mps.baseLanguage.structure.ConceptFunction" flags="in" index="2VMwT0">
         <child id="1137022507850" name="body" index="2VODD2" />
       </concept>
       <concept id="1081236700937" name="jetbrains.mps.baseLanguage.structure.StaticMethodCall" flags="nn" index="2YIFZM">
         <reference id="1144433194310" name="classConcept" index="1Pybhc" />
       </concept>
+<<<<<<< HEAD
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
         <child id="1068431790190" name="initializer" index="33vP2m" />
       </concept>
@@ -48,12 +62,18 @@
         <reference id="1068581517664" name="variableDeclaration" index="3cqZAo" />
       </concept>
       <concept id="1225271283259" name="jetbrains.mps.baseLanguage.structure.NPEEqualsExpression" flags="nn" index="17R0WA" />
+=======
+      <concept id="1068498886296" name="jetbrains.mps.baseLanguage.structure.VariableReference" flags="nn" index="37vLTw">
+        <reference id="1068581517664" name="variableDeclaration" index="3cqZAo" />
+      </concept>
+>>>>>>> b70d14e537... loads of stuff
       <concept id="4972933694980447171" name="jetbrains.mps.baseLanguage.structure.BaseVariableDeclaration" flags="ng" index="19Szcq">
         <child id="5680397130376446158" name="type" index="1tU5fm" />
       </concept>
       <concept id="1068580123155" name="jetbrains.mps.baseLanguage.structure.ExpressionStatement" flags="nn" index="3clFbF">
         <child id="1068580123156" name="expression" index="3clFbG" />
       </concept>
+<<<<<<< HEAD
       <concept id="1068580123157" name="jetbrains.mps.baseLanguage.structure.Statement" flags="nn" index="3clFbH" />
       <concept id="1068580123159" name="jetbrains.mps.baseLanguage.structure.IfStatement" flags="nn" index="3clFbJ">
         <child id="1082485599094" name="ifFalseStatement" index="9aQIa" />
@@ -70,6 +90,11 @@
         <child id="1068581242865" name="localVariableDeclaration" index="3cpWs9" />
       </concept>
       <concept id="1068581242863" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" flags="nr" index="3cpWsn" />
+=======
+      <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
+        <child id="1068581517665" name="statement" index="3cqZAp" />
+      </concept>
+>>>>>>> b70d14e537... loads of stuff
       <concept id="1081516740877" name="jetbrains.mps.baseLanguage.structure.NotExpression" flags="nn" index="3fqX7Q">
         <child id="1081516765348" name="expression" index="3fr31v" />
       </concept>
@@ -77,6 +102,7 @@
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
         <child id="1068499141038" name="actualArgument" index="37wK5m" />
       </concept>
+<<<<<<< HEAD
       <concept id="1212685548494" name="jetbrains.mps.baseLanguage.structure.ClassCreator" flags="nn" index="1pGfFk" />
       <concept id="1107535904670" name="jetbrains.mps.baseLanguage.structure.ClassifierType" flags="in" index="3uibUv">
         <reference id="1107535924139" name="classifier" index="3uigEE" />
@@ -93,6 +119,8 @@
         <child id="6329021646629175155" name="commentPart" index="3SKWNk" />
       </concept>
       <concept id="1080120340718" name="jetbrains.mps.baseLanguage.structure.AndExpression" flags="nn" index="1Wc70l" />
+=======
+>>>>>>> b70d14e537... loads of stuff
     </language>
     <language id="3f4bc5f5-c6c1-4a28-8b10-c83066ffa4a1" name="jetbrains.mps.lang.constraints">
       <concept id="8966504967485224688" name="jetbrains.mps.lang.constraints.structure.ConstraintFunctionParameter_contextNode" flags="nn" index="2rP1CM" />
@@ -119,6 +147,7 @@
       <concept id="1138411891628" name="jetbrains.mps.lang.smodel.structure.SNodeOperation" flags="nn" index="eCIE_">
         <child id="1144104376918" name="parameter" index="1xVPHs" />
       </concept>
+<<<<<<< HEAD
       <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
       <concept id="1138676077309" name="jetbrains.mps.lang.smodel.structure.EnumMemberReference" flags="nn" index="uoxfO">
         <reference id="1138676095763" name="enumMember" index="uo_Cq" />
@@ -143,6 +172,16 @@
       <concept id="1138056282393" name="jetbrains.mps.lang.smodel.structure.SLinkListAccess" flags="nn" index="3Tsc0h">
         <reference id="1138056546658" name="link" index="3TtcxE" />
       </concept>
+=======
+      <concept id="1171305280644" name="jetbrains.mps.lang.smodel.structure.Node_GetDescendantsOperation" flags="nn" index="2Rf3mk" />
+      <concept id="1171407110247" name="jetbrains.mps.lang.smodel.structure.Node_GetAncestorOperation" flags="nn" index="2Xjw5R" />
+      <concept id="1139621453865" name="jetbrains.mps.lang.smodel.structure.Node_IsInstanceOfOperation" flags="nn" index="1mIQ4w">
+        <child id="1177027386292" name="conceptArgument" index="cj9EA" />
+      </concept>
+      <concept id="1144101972840" name="jetbrains.mps.lang.smodel.structure.OperationParm_Concept" flags="ng" index="1xMEDy">
+        <child id="1207343664468" name="conceptArgument" index="ri$Ld" />
+      </concept>
+>>>>>>> b70d14e537... loads of stuff
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
@@ -156,6 +195,7 @@
       <concept id="1204796164442" name="jetbrains.mps.baseLanguage.collections.structure.InternalSequenceOperation" flags="nn" index="23sCx2">
         <child id="1204796294226" name="closure" index="23t8la" />
       </concept>
+<<<<<<< HEAD
       <concept id="1153943597977" name="jetbrains.mps.baseLanguage.collections.structure.ForEachStatement" flags="nn" index="2Gpval">
         <child id="1153944400369" name="variable" index="2Gsz3X" />
         <child id="1153944424730" name="inputSequence" index="2GsD0m" />
@@ -164,10 +204,13 @@
       <concept id="1153944233411" name="jetbrains.mps.baseLanguage.collections.structure.ForEachVariableReference" flags="nn" index="2GrUjf">
         <reference id="1153944258490" name="variable" index="2Gs0qQ" />
       </concept>
+=======
+>>>>>>> b70d14e537... loads of stuff
       <concept id="1203518072036" name="jetbrains.mps.baseLanguage.collections.structure.SmartClosureParameterDeclaration" flags="ig" index="Rh6nW" />
       <concept id="1202120902084" name="jetbrains.mps.baseLanguage.collections.structure.WhereOperation" flags="nn" index="3zZkjj" />
     </language>
   </registry>
+<<<<<<< HEAD
   <node concept="1M2fIO" id="6hUtorE3DPH">
     <property role="3GE5qa" value="class" />
     <ref role="1M2myG" to="wnzg:6hUtorDW7AG" resolve="LocalClassVariableDeclaration" />
@@ -265,10 +308,32 @@
                         </node>
                         <node concept="2qgKlT" id="2xmTzC2NImX" role="2OqNvi">
                           <ref role="37wK5l" to="kntn:2xmTzC2MHBB" resolve="getAllLocalConstructors" />
+=======
+  <node concept="1M2fIO" id="ZKpU3C45zg">
+    <property role="3GE5qa" value="class" />
+    <ref role="1M2myG" to="wnzg:4o2nsMgBEtu" resolve="ClassType" />
+    <node concept="1N5Pfh" id="ZKpU3C45zh" role="1Mr941">
+      <ref role="1N5Vy1" to="wnzg:4o2nsMgBEtY" resolve="clazz" />
+      <node concept="3dgokm" id="ZKpU3C57SJ" role="1N6uqs">
+        <node concept="3clFbS" id="ZKpU3C57SL" role="2VODD2">
+          <node concept="3clFbF" id="ZKpU3C57VK" role="3cqZAp">
+            <node concept="2YIFZM" id="ZKpU3C53dL" role="3clFbG">
+              <ref role="37wK5l" to="o8zo:4IP40Bi3eAf" resolve="forNamedElements" />
+              <ref role="1Pybhc" to="o8zo:4IP40Bi3e_R" resolve="ListScope" />
+              <node concept="2OqwBi" id="ZKpU3C5dZh" role="37wK5m">
+                <node concept="2OqwBi" id="ZKpU3C56iw" role="2Oq$k0">
+                  <node concept="2OqwBi" id="ZKpU3C53vY" role="2Oq$k0">
+                    <node concept="2rP1CM" id="ZKpU3C53j2" role="2Oq$k0" />
+                    <node concept="2Xjw5R" id="ZKpU3C53KM" role="2OqNvi">
+                      <node concept="1xMEDy" id="ZKpU3C53KO" role="1xVPHs">
+                        <node concept="chp4Y" id="ZKpU3C53T6" role="ri$Ld">
+                          <ref role="cht4Q" to="x27k:5_l8w1EmTde" resolve="ImplementationModule" />
+>>>>>>> b70d14e537... loads of stuff
                         </node>
                       </node>
                     </node>
                   </node>
+<<<<<<< HEAD
                 </node>
               </node>
               <node concept="3clFbF" id="2xmTzC2NJmu" role="3cqZAp">
@@ -288,10 +353,17 @@
                         <node concept="2qgKlT" id="2xmTzC2NPAE" role="2OqNvi">
                           <ref role="37wK5l" to="kntn:2xmTzC2MVik" resolve="getInheritedConstructors" />
                         </node>
+=======
+                  <node concept="2Rf3mk" id="ZKpU3C57FE" role="2OqNvi">
+                    <node concept="1xMEDy" id="ZKpU3C57FG" role="1xVPHs">
+                      <node concept="chp4Y" id="ZKpU3C5$L$" role="ri$Ld">
+                        <ref role="cht4Q" to="wnzg:4o2nsMgBpPQ" resolve="ClassDeclaration" />
+>>>>>>> b70d14e537... loads of stuff
                       </node>
                     </node>
                   </node>
                 </node>
+<<<<<<< HEAD
               </node>
             </node>
             <node concept="17R0WA" id="2xmTzC2OYuP" role="3clFbw">
@@ -372,12 +444,27 @@
                               <node concept="Rh6nW" id="3n$8_XbdPYR" role="1bW2Oz">
                                 <property role="TrG5h" value="it" />
                                 <node concept="2jxLKc" id="3n$8_XbdPYS" role="1tU5fm" />
+=======
+                <node concept="3zZkjj" id="ZKpU3C5go9" role="2OqNvi">
+                  <node concept="1bVj0M" id="ZKpU3C5gob" role="23t8la">
+                    <node concept="3clFbS" id="ZKpU3C5goc" role="1bW5cS">
+                      <node concept="3clFbF" id="ZKpU3C5gyJ" role="3cqZAp">
+                        <node concept="3fqX7Q" id="ZKpU3C5gyH" role="3clFbG">
+                          <node concept="2OqwBi" id="ZKpU3C5gVq" role="3fr31v">
+                            <node concept="37vLTw" id="ZKpU3C5gDB" role="2Oq$k0">
+                              <ref role="3cqZAo" node="ZKpU3C5god" resolve="it" />
+                            </node>
+                            <node concept="1mIQ4w" id="ZKpU3C5hm8" role="2OqNvi">
+                              <node concept="chp4Y" id="ZKpU3C5_8o" role="cj9EA">
+                                <ref role="cht4Q" to="1yyn:ZKpU3C3Nka" resolve="TemplateClassDeclaration" />
+>>>>>>> b70d14e537... loads of stuff
                               </node>
                             </node>
                           </node>
                         </node>
                       </node>
                     </node>
+<<<<<<< HEAD
                   </node>
                 </node>
               </node>
@@ -629,18 +716,26 @@
                     </node>
                     <node concept="2qgKlT" id="7DDmkzaWIX" role="2OqNvi">
                       <ref role="37wK5l" to="kntn:2xmTzC2MVik" resolve="getInheritedConstructors" />
+=======
+                    <node concept="Rh6nW" id="ZKpU3C5god" role="1bW2Oz">
+                      <property role="TrG5h" value="it" />
+                      <node concept="2jxLKc" id="ZKpU3C5goe" role="1tU5fm" />
+>>>>>>> b70d14e537... loads of stuff
                     </node>
                   </node>
                 </node>
               </node>
             </node>
           </node>
+<<<<<<< HEAD
           <node concept="3clFbH" id="7DDmkza$ya" role="3cqZAp" />
           <node concept="3cpWs6" id="7DDmkza$Cq" role="3cqZAp">
             <node concept="37vLTw" id="7DDmkza$FK" role="3cqZAk">
               <ref role="3cqZAo" node="7DDmkza$eM" resolve="cScope" />
             </node>
           </node>
+=======
+>>>>>>> b70d14e537... loads of stuff
         </node>
       </node>
     </node>
