@@ -100,6 +100,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD:code/languages/com.mbeddr.cpp/tests/test.ex.com.mbeddr.cpp/models/classes.mps
 =======
       <concept id="7844497894798008401" name="com.mbeddr.cpp.base.structure.ClassConstructorSignature" flags="ng" index="2gom4k">
@@ -111,9 +112,12 @@
 =======
 =======
       <concept id="2277423264798216734" name="com.mbeddr.cpp.base.structure.IStaticConcept" flags="ng" index="226hDU">
+=======
+      <concept id="2277423264798216734" name="com.mbeddr.cpp.base.structure.IStaticFlagConcept" flags="ng" index="226hDU">
+>>>>>>> 4ee4a88205... Remove a ParentClass invocation from test case
         <property id="2277423264798216735" name="isStatic" index="226hDV" />
       </concept>
-      <concept id="2277423264798199359" name="com.mbeddr.cpp.base.structure.IInlineConcept" flags="ng" index="226Gpr">
+      <concept id="2277423264798199359" name="com.mbeddr.cpp.base.structure.IInlineFlagConcept" flags="ng" index="226Gpr">
         <property id="2277423264798199360" name="isInlined" index="226Go$" />
       </concept>
 >>>>>>> a36012117c... Fix testcases
@@ -126,6 +130,7 @@
       <concept id="7844497894798008359" name="com.mbeddr.cpp.base.structure.ClassConstructorDeclaration" flags="ng" index="2gom5y">
         <reference id="7844497894798008388" name="parent_class" index="2gom41" />
       </concept>
+<<<<<<< HEAD
 =======
 >>>>>>> a0c5014c67... Add test cases for inheritance access modifiers
       <concept id="3188920472788366140" name="com.mbeddr.cpp.base.structure.IVirtualisableConcept" flags="ng" index="hL25U">
@@ -135,6 +140,9 @@
       </concept>
       <concept id="3188920472788366140" name="com.mbeddr.cpp.base.structure.IVirtualFlagConcept" flags="ng" index="hL25U">
 >>>>>>> ce47921082... Fixed auto declaration type errors.
+=======
+      <concept id="3188920472788366140" name="com.mbeddr.cpp.base.structure.IVirtualFlagConcept" flags="ng" index="hL25U">
+>>>>>>> 4ee4a88205... Remove a ParentClass invocation from test case
         <property id="3188920472788366141" name="isVirtual" index="hL25V" />
 >>>>>>> d43bb3786f... Add constructor test case
       </concept>
@@ -150,6 +158,7 @@
       </concept>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 94d273528c... Add constructor calls and break naming of class instances
       <concept id="7240228573260630076" name="com.mbeddr.cpp.base.structure.ConstructorVoidType" flags="ng" index="2dFNQU" />
 >>>>>>> 48045b5359... Fix generation of constructor text in implementation files
@@ -158,6 +167,9 @@
         <child id="3883266571380204831" name="initializers" index="1YC0t0" />
 =======
       <concept id="3188920472790477822" name="com.mbeddr.cpp.base.structure.IPureVirtualisableConcept" flags="ng" index="hTfAS">
+=======
+      <concept id="3188920472790477822" name="com.mbeddr.cpp.base.structure.IPureVirtualFlagConcept" flags="ng" index="hTfAS">
+>>>>>>> 4ee4a88205... Remove a ParentClass invocation from test case
         <property id="3188920472790477826" name="isPureVirtual" index="hTfT4" />
 >>>>>>> a36012117c... Fix testcases
       </concept>
@@ -1646,9 +1658,12 @@
             <property role="2hmy$m" value="3" />
           </node>
         </node>
+<<<<<<< HEAD
         <node concept="yZclw" id="3LE5RBQaMTk" role="1YC0t0">
           <ref role="yKYgm" node="7wcjSRttVKs" resolve="ParentClass" />
         </node>
+=======
+>>>>>>> 4ee4a88205... Remove a ParentClass invocation from test case
       </node>
       <node concept="2gom5y" id="7wcjSRtzLBl" role="3mBdys">
         <property role="3BMcJd" value="false" />
