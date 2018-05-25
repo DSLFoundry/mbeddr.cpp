@@ -133,6 +133,7 @@
 =======
     <node concept="PrWs8" id="2L1k$oXDqK5" role="PzmwI">
 <<<<<<< HEAD
+<<<<<<< HEAD
       <ref role="PrY4T" node="2L1k$oXDqJY" resolve="IPureVirtualisable" />
 >>>>>>> e035d6ce33... Move pure after visibility.
 =======
@@ -141,9 +142,12 @@
 =======
       <ref role="PrY4T" node="2L1k$oXDqJY" resolve="IPureVirtualisableConcept" />
 >>>>>>> 41dbd51e8a... Refactor IPureVirtualisable to IPureVirtualisableConcept
+=======
+      <ref role="PrY4T" node="2L1k$oXDqJY" resolve="IPureVirtualFlagConcept" />
+>>>>>>> 1494c628ee... Major refactoring of flags
     </node>
     <node concept="PrWs8" id="1Yr26itUKUw" role="PzmwI">
-      <ref role="PrY4T" node="1Yr26itwsSZ" resolve="IInlineConcept" />
+      <ref role="PrY4T" node="1Yr26itwsSZ" resolve="IInlineFlagConcept" />
     </node>
   </node>
   <node concept="1TIwiD" id="4o2nsMgBEtu">
@@ -173,8 +177,12 @@
       <ref role="AX2Wp" node="2Ai0Gt9ODIr" resolve="EClassMemberVisibility" />
 =======
     <node concept="PrWs8" id="5eDFAXBm97W" role="PrDN$">
+<<<<<<< HEAD
       <ref role="PrY4T" node="1Yr26itwx8u" resolve="IStaticConcept" />
 >>>>>>> 86eeb3ce85... Add static fields
+=======
+      <ref role="PrY4T" node="1Yr26itwx8u" resolve="IStaticFlagConcept" />
+>>>>>>> 1494c628ee... Major refactoring of flags
     </node>
   </node>
   <node concept="1TIwiD" id="4o2nsMgBIrb">
@@ -245,6 +253,7 @@
 =======
     <node concept="PrWs8" id="2L1k$oXNUaR" role="PzmwI">
 <<<<<<< HEAD
+<<<<<<< HEAD
       <ref role="PrY4T" node="2L1k$oXDqJY" resolve="IPureVirtualisable" />
 >>>>>>> e035d6ce33... Move pure after visibility.
 =======
@@ -253,9 +262,12 @@
 =======
       <ref role="PrY4T" node="2L1k$oXDqJY" resolve="IPureVirtualisableConcept" />
 >>>>>>> 41dbd51e8a... Refactor IPureVirtualisable to IPureVirtualisableConcept
+=======
+      <ref role="PrY4T" node="2L1k$oXDqJY" resolve="IPureVirtualFlagConcept" />
+>>>>>>> 1494c628ee... Major refactoring of flags
     </node>
     <node concept="PrWs8" id="1Yr26iur2wG" role="PzmwI">
-      <ref role="PrY4T" node="1Yr26itwx8u" resolve="IStaticConcept" />
+      <ref role="PrY4T" node="1Yr26itwx8u" resolve="IStaticFlagConcept" />
     </node>
   </node>
   <node concept="1TIwiD" id="3v5DuFDls_I">
@@ -391,12 +403,17 @@
   <node concept="PlHQZ" id="2L1k$oXxncW">
     <property role="EcuMT" value="3188920472788366140" />
 <<<<<<< HEAD
+<<<<<<< HEAD
     <property role="TrG5h" value="IVirtualizableConcept" />
     <property role="3GE5qa" value="method" />
 =======
     <property role="TrG5h" value="IVirtualisableConcept" />
     <property role="3GE5qa" value="method.flag" />
 >>>>>>> 39e7298076... Group flags into a virtual package
+=======
+    <property role="TrG5h" value="IVirtualFlagConcept" />
+    <property role="3GE5qa" value="flag" />
+>>>>>>> 1494c628ee... Major refactoring of flags
     <node concept="1TJgyi" id="2L1k$oXxncX" role="1TKVEl">
       <property role="IQ2nx" value="3188920472788366141" />
       <property role="TrG5h" value="isVirtual" />
@@ -442,6 +459,7 @@
     </node>
     <node concept="PrWs8" id="6NtgknWJ20V" role="PzmwI">
 <<<<<<< HEAD
+<<<<<<< HEAD
       <ref role="PrY4T" node="2L1k$oXxncW" resolve="IVirtualableConcept" />
 =======
       <ref role="PrY4T" node="2L1k$oXxncW" resolve="IVirtualisableConcept" />
@@ -449,6 +467,12 @@
     <node concept="PrWs8" id="3OTimPpGcj0" role="PzmwI">
       <ref role="PrY4T" node="2L1k$oXDqJY" resolve="IPureVirtualisableConcept" />
 >>>>>>> 41dbd51e8a... Refactor IPureVirtualisable to IPureVirtualisableConcept
+=======
+      <ref role="PrY4T" node="2L1k$oXxncW" resolve="IVirtualFlagConcept" />
+    </node>
+    <node concept="PrWs8" id="3OTimPpGcj0" role="PzmwI">
+      <ref role="PrY4T" node="2L1k$oXDqJY" resolve="IPureVirtualFlagConcept" />
+>>>>>>> 1494c628ee... Major refactoring of flags
     </node>
     <node concept="PrWs8" id="6ddXmWdS2eK" role="PzmwI">
       <ref role="PrY4T" to="mj1l:hEaDaGor63" resolve="ITyped" />
@@ -620,14 +644,18 @@
   </node>
   <node concept="PlHQZ" id="2L1k$oXDqJY">
     <property role="EcuMT" value="3188920472790477822" />
-    <property role="TrG5h" value="IPureVirtualisableConcept" />
-    <property role="3GE5qa" value="method.flag" />
+    <property role="TrG5h" value="IPureVirtualFlagConcept" />
+    <property role="3GE5qa" value="flag" />
     <node concept="PrWs8" id="2L1k$oXDqJZ" role="PrDN$">
+<<<<<<< HEAD
 <<<<<<< HEAD
       <ref role="PrY4T" node="2L1k$oXxncW" resolve="IVirtualisable" />
 =======
       <ref role="PrY4T" node="2L1k$oXxncW" resolve="IVirtualisableConcept" />
 >>>>>>> 9e19ddddd6... Rename virtualable -> virtualisable
+=======
+      <ref role="PrY4T" node="2L1k$oXxncW" resolve="IVirtualFlagConcept" />
+>>>>>>> 1494c628ee... Major refactoring of flags
     </node>
     <node concept="1TJgyi" id="2L1k$oXDqK2" role="1TKVEl">
       <property role="IQ2nx" value="3188920472790477826" />
@@ -923,8 +951,8 @@
 =======
   <node concept="PlHQZ" id="1Yr26itwsSZ">
     <property role="EcuMT" value="2277423264798199359" />
-    <property role="3GE5qa" value="method.flag" />
-    <property role="TrG5h" value="IInlineConcept" />
+    <property role="3GE5qa" value="flag" />
+    <property role="TrG5h" value="IInlineFlagConcept" />
     <node concept="1TJgyi" id="1Yr26itwsT0" role="1TKVEl">
       <property role="IQ2nx" value="2277423264798199360" />
       <property role="TrG5h" value="isInlined" />
@@ -936,8 +964,8 @@
 =======
   <node concept="PlHQZ" id="1Yr26itwx8u">
     <property role="EcuMT" value="2277423264798216734" />
-    <property role="3GE5qa" value="method.flag" />
-    <property role="TrG5h" value="IStaticConcept" />
+    <property role="3GE5qa" value="flag" />
+    <property role="TrG5h" value="IStaticFlagConcept" />
     <node concept="1TJgyi" id="1Yr26itwx8v" role="1TKVEl">
       <property role="IQ2nx" value="2277423264798216735" />
       <property role="TrG5h" value="isStatic" />
