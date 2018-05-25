@@ -1257,7 +1257,73 @@
                 <ref role="3Tt5mk" to="mj1l:hEaDaGor64" resolve="type" />
               </node>
             </node>
+<<<<<<< HEAD
 =======
+=======
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="7DDmkz3qBt" role="1YuTPh">
+      <property role="TrG5h" value="constructorInitializedAttribute" />
+      <ref role="1YaFvo" to="wnzg:7DDmkyVr_r" resolve="ConstructorInitializedAttribute" />
+    </node>
+  </node>
+  <node concept="18kY7G" id="4KyQ_QhNKFY">
+    <property role="TrG5h" value="check_ConstructorInitializedConstructor" />
+    <property role="3GE5qa" value="method.constructor" />
+    <node concept="3clFbS" id="4KyQ_QhNKFZ" role="18ibNy">
+      <node concept="a7r0C" id="4KyQ_QhNKG5" role="3cqZAp">
+        <node concept="Xl_RD" id="4KyQ_QhNKGq" role="a7wSD">
+          <property role="Xl_RC" value="TODO: TextGen does not generate the constructor name on initialized lists." />
+        </node>
+        <node concept="1YBJjd" id="4KyQ_QhNKIc" role="2OEOjV">
+          <ref role="1YBMHb" node="4KyQ_QhNKG1" resolve="constructorInitializedConstructor" />
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="4KyQ_QhNKG1" role="1YuTPh">
+      <property role="TrG5h" value="constructorInitializedConstructor" />
+      <ref role="1YaFvo" to="wnzg:7DDmkz5m05" resolve="ConstructorInitializedConstructor" />
+    </node>
+  </node>
+  <node concept="18kY7G" id="2L1k$oXFjdZ">
+    <property role="TrG5h" value="check_IPureVirtualisable" />
+    <property role="3GE5qa" value="method" />
+    <node concept="3clFbS" id="2L1k$oXFje0" role="18ibNy">
+      <node concept="3clFbJ" id="2L1k$oXFjlp" role="3cqZAp">
+        <node concept="1Wc70l" id="2L1k$oXFkfQ" role="3clFbw">
+          <node concept="3fqX7Q" id="2L1k$oXFkis" role="3uHU7w">
+            <node concept="2OqwBi" id="2L1k$oXFkwp" role="3fr31v">
+              <node concept="1YBJjd" id="2L1k$oXFkkN" role="2Oq$k0">
+                <ref role="1YBMHb" node="2L1k$oXFje2" resolve="iPureVirtualisable" />
+              </node>
+              <node concept="3TrcHB" id="2L1k$oXFkER" role="2OqNvi">
+                <ref role="3TsBF5" to="wnzg:2L1k$oXxncX" resolve="isVirtual" />
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="2L1k$oXFjv3" role="3uHU7B">
+            <node concept="1YBJjd" id="2L1k$oXFjlC" role="2Oq$k0">
+              <ref role="1YBMHb" node="2L1k$oXFje2" resolve="iPureVirtualisable" />
+            </node>
+            <node concept="3TrcHB" id="2L1k$oXFjBk" role="2OqNvi">
+              <ref role="3TsBF5" to="wnzg:2L1k$oXDqK2" resolve="pure" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbS" id="2L1k$oXFjlr" role="3clFbx">
+          <node concept="2MkqsV" id="2L1k$oXFkHn" role="3cqZAp">
+            <node concept="Xl_RD" id="2L1k$oXFkHA" role="2MkJ7o">
+              <property role="Xl_RC" value="Non-virtual method can not be pure." />
+            </node>
+            <node concept="1YBJjd" id="2L1k$oXFkHT" role="2OEOjV">
+              <ref role="1YBMHb" node="2L1k$oXFje2" resolve="iPureVirtualisable" />
+            </node>
+          </node>
+        </node>
+      </node>
+>>>>>>> db12665a8c... Move pure virtualisable into the method virtual package
     </node>
     <node concept="1YaCAy" id="2L1k$oXFje2" role="1YuTPh">
       <property role="TrG5h" value="iPureVirtualisable" />
