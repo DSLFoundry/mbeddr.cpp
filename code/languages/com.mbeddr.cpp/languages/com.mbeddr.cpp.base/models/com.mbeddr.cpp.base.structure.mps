@@ -142,9 +142,6 @@
       <ref role="PrY4T" node="2L1k$oXDqJY" resolve="IPureVirtualisableConcept" />
 >>>>>>> 41dbd51e8a... Refactor IPureVirtualisable to IPureVirtualisableConcept
     </node>
-    <node concept="PrWs8" id="1Yr26itUKUf" role="PzmwI">
-      <ref role="PrY4T" node="1Yr26itwx8u" resolve="IStaticConcept" />
-    </node>
     <node concept="PrWs8" id="1Yr26itUKUw" role="PzmwI">
       <ref role="PrY4T" node="1Yr26itwsSZ" resolve="IInlineConcept" />
     </node>
@@ -169,10 +166,15 @@
     <property role="EcuMT" value="5044697665789421253" />
     <property role="TrG5h" value="IClassMemberDeclaration" />
     <property role="3GE5qa" value="class" />
+<<<<<<< HEAD
     <node concept="1TJgyi" id="2Ai0Gt9ODIG" role="1TKVEl">
       <property role="IQ2nx" value="2995459757115087788" />
       <property role="TrG5h" value="visibility" />
       <ref role="AX2Wp" node="2Ai0Gt9ODIr" resolve="EClassMemberVisibility" />
+=======
+    <node concept="PrWs8" id="5eDFAXBm97W" role="PrDN$">
+      <ref role="PrY4T" node="1Yr26itwx8u" resolve="IStaticConcept" />
+>>>>>>> 86eeb3ce85... Add static fields
     </node>
   </node>
   <node concept="1TIwiD" id="4o2nsMgBIrb">
