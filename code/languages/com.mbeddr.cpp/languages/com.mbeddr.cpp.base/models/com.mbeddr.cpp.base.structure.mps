@@ -786,11 +786,6 @@
       <property role="2fHolG" value="decrement" />
       <property role="1uS6qv" value="--" />
     </node>
-    <node concept="M4N5e" id="45rBLTHELyc" role="M5hS2">
-      <property role="1uS6qo" value="," />
-      <property role="2fHolG" value="comma" />
-      <property role="1uS6qv" value="," />
-    </node>
     <node concept="M4N5e" id="45rBLTHELzj" role="M5hS2">
       <property role="1uS6qo" value="-&gt;" />
       <property role="2fHolG" value="structureDereference" />
@@ -800,11 +795,6 @@
       <property role="1uS6qo" value="-&gt;*" />
       <property role="2fHolG" value="pointerToMember" />
       <property role="1uS6qv" value="-&gt;*" />
-    </node>
-    <node concept="M4N5e" id="45rBLTHEL_B" role="M5hS2">
-      <property role="1uS6qo" value="()" />
-      <property role="2fHolG" value="functionCall" />
-      <property role="1uS6qv" value="()" />
     </node>
     <node concept="M4N5e" id="45rBLTHELAO" role="M5hS2">
       <property role="1uS6qo" value="[]" />
