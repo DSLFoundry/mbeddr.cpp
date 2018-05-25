@@ -91,7 +91,6 @@
       </concept>
 >>>>>>> dd5d1b9963... Fixed error: abstract concept.
       <concept id="5044697665789382396" name="com.mbeddr.cpp.base.structure.MethodDeclaration" flags="ng" index="3mB1cK">
-        <property id="5478191656157682870" name="static" index="gNYVZ" />
         <child id="4185783222026475860" name="body" index="3XIRFX" />
       </concept>
 <<<<<<< HEAD
@@ -244,7 +243,11 @@
       <property role="2OOxQR" value="true" />
       <property role="TrG5h" value="SomeClass" />
       <node concept="3mB1cK" id="6KmaLbE81K_" role="3mBdys">
+<<<<<<< HEAD
         <property role="gNYVZ" value="false" />
+=======
+        <property role="1wg9_F" value="public" />
+>>>>>>> 98bf538aef... Fix test case
         <property role="TrG5h" value="setFalse" />
         <property role="hL25V" value="false" />
         <property role="1wg9_F" value="public" />
@@ -270,6 +273,7 @@
         <node concept="19RgSI" id="6KmaLbE81KI" role="1UOdpc">
           <property role="TrG5h" value="boo" />
           <node concept="3TlMgk" id="6KmaLbE81KJ" role="2C2TGm">
+<<<<<<< HEAD
 =======
   <node concept="1whW_1" id="2O2YBLCfgIm">
     <property role="TrG5h" value="Virtual" />
@@ -282,6 +286,18 @@
         <property role="TrG5h" value="doSomething" />
         <property role="hL25V" value="true" />
         <node concept="3TlMgk" id="2O2YBLCfgI$" role="2C2TGm">
+=======
+            <property role="2caQfQ" value="false" />
+            <property role="2c7vTL" value="false" />
+          </node>
+        </node>
+      </node>
+      <node concept="3u$6M4" id="7wcjSRtodQX" role="3mBdys" />
+      <node concept="3mB1cK" id="7wcjSRtodRL" role="3mBdys">
+        <property role="1wg9_F" value="private" />
+        <property role="TrG5h" value="setToSomething" />
+        <node concept="26Vqph" id="7wcjSRtodSm" role="2C2TGm">
+>>>>>>> 98bf538aef... Fix test case
           <property role="2caQfQ" value="false" />
           <property role="2c7vTL" value="false" />
         </node>
@@ -318,7 +334,11 @@
       <property role="2OOxQR" value="true" />
       <property role="TrG5h" value="AnotherClass" />
       <node concept="3mB1cK" id="6KmaLbE81N_" role="3mBdys">
+<<<<<<< HEAD
         <property role="gNYVZ" value="false" />
+=======
+        <property role="1wg9_F" value="public" />
+>>>>>>> 98bf538aef... Fix test case
         <property role="TrG5h" value="setTrue" />
         <property role="1wg9_F" value="public" />
         <node concept="3TlMgk" id="6KmaLbE81NA" role="2C2TGm">
