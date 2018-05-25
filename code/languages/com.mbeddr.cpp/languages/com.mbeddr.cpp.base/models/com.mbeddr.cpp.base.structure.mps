@@ -137,11 +137,15 @@
       <ref role="PrY4T" node="2L1k$oXxncW" resolve="IVirtualableConcept" />
 =======
     <node concept="PrWs8" id="2L1k$oXDqK5" role="PzmwI">
+<<<<<<< HEAD
       <ref role="PrY4T" node="2L1k$oXDqJY" resolve="IPureVirtualisable" />
 >>>>>>> e035d6ce33... Move pure after visibility.
 =======
       <ref role="PrY4T" node="2L1k$oXxncW" resolve="IVirtualizableConcept" />
 >>>>>>> a905633504... Fix spelling mistake
+=======
+      <ref role="PrY4T" node="2L1k$oXDqJY" resolve="IPureVirtualisableConcept" />
+>>>>>>> 41dbd51e8a... Refactor IPureVirtualisable to IPureVirtualisableConcept
     </node>
   </node>
   <node concept="1TIwiD" id="4o2nsMgBEtu">
@@ -237,11 +241,15 @@
       <ref role="PrY4T" node="2L1k$oXxncW" resolve="IVirtualableConcept" />
 =======
     <node concept="PrWs8" id="2L1k$oXNUaR" role="PzmwI">
+<<<<<<< HEAD
       <ref role="PrY4T" node="2L1k$oXDqJY" resolve="IPureVirtualisable" />
 >>>>>>> e035d6ce33... Move pure after visibility.
 =======
       <ref role="PrY4T" node="2L1k$oXxncW" resolve="IVirtualizableConcept" />
 >>>>>>> a905633504... Fix spelling mistake
+=======
+      <ref role="PrY4T" node="2L1k$oXDqJY" resolve="IPureVirtualisableConcept" />
+>>>>>>> 41dbd51e8a... Refactor IPureVirtualisable to IPureVirtualisableConcept
     </node>
   </node>
   <node concept="1TIwiD" id="3v5DuFDls_I">
@@ -422,7 +430,14 @@
       <ref role="PrY4T" to="2gv2:3SnnFeub0mq" resolve="IWatchablesProviderContext" />
     </node>
     <node concept="PrWs8" id="6NtgknWJ20V" role="PzmwI">
+<<<<<<< HEAD
       <ref role="PrY4T" node="2L1k$oXxncW" resolve="IVirtualableConcept" />
+=======
+      <ref role="PrY4T" node="2L1k$oXxncW" resolve="IVirtualisableConcept" />
+    </node>
+    <node concept="PrWs8" id="3OTimPpGcj0" role="PzmwI">
+      <ref role="PrY4T" node="2L1k$oXDqJY" resolve="IPureVirtualisableConcept" />
+>>>>>>> 41dbd51e8a... Refactor IPureVirtualisable to IPureVirtualisableConcept
     </node>
     <node concept="PrWs8" id="6ddXmWdS2eK" role="PzmwI">
       <ref role="PrY4T" to="mj1l:hEaDaGor63" resolve="ITyped" />
@@ -594,7 +609,7 @@
   </node>
   <node concept="PlHQZ" id="2L1k$oXDqJY">
     <property role="EcuMT" value="3188920472790477822" />
-    <property role="TrG5h" value="IPureVirtualisable" />
+    <property role="TrG5h" value="IPureVirtualisableConcept" />
     <property role="3GE5qa" value="method" />
     <node concept="PrWs8" id="2L1k$oXDqJZ" role="PrDN$">
 <<<<<<< HEAD
