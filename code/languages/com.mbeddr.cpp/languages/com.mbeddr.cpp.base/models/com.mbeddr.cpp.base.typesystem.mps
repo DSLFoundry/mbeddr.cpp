@@ -1308,7 +1308,7 @@
               <ref role="1YBMHb" node="2L1k$oXFje2" resolve="iPureVirtualisable" />
             </node>
             <node concept="3TrcHB" id="2L1k$oXFjBk" role="2OqNvi">
-              <ref role="3TsBF5" to="wnzg:2L1k$oXDqK2" resolve="pure" />
+              <ref role="3TsBF5" to="wnzg:2L1k$oXDqK2" resolve="isPureVirtual" />
             </node>
           </node>
         </node>
@@ -1351,7 +1351,7 @@
                 <ref role="1YBMHb" node="2L1k$oXKZ8O" resolve="methodDeclaration" />
               </node>
               <node concept="3TrcHB" id="2L1k$oXM0Ew" role="2OqNvi">
-                <ref role="3TsBF5" to="wnzg:2L1k$oXDqK2" resolve="pure" />
+                <ref role="3TsBF5" to="wnzg:2L1k$oXDqK2" resolve="isPureVirtual" />
               </node>
             </node>
           </node>
