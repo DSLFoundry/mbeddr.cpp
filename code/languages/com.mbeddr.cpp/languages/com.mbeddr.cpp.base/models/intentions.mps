@@ -74,8 +74,12 @@
   <node concept="2S6QgY" id="2L1k$oXnM2$">
     <property role="TrG5h" value="ToggleVirtual" />
     <property role="2ZfUl0" value="true" />
+<<<<<<< HEAD
     <property role="3GE5qa" value="method" />
 <<<<<<< HEAD
+=======
+    <property role="3GE5qa" value="method.flag" />
+>>>>>>> 39e7298076... Group flags into a virtual package
     <ref role="2ZfgGC" to="wnzg:2L1k$oXxncW" resolve="IVirtualisableConcept" />
 =======
     <ref role="2ZfgGC" to="wnzg:2L1k$oXxncW" resolve="IVirtualableConcept" />
