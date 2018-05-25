@@ -368,7 +368,7 @@
 >>>>>>> 41ab77689e... Move virtual keyword to be after the visibility declaration
       </node>
       <node concept="PMmxH" id="3v5DuFDoxUa" role="3EZMnx">
-        <ref role="PMmxG" node="3v5DuFDr9bv" resolve="methodSignature" />
+        <ref role="PMmxG" node="3v5DuFDr9bv" resolve="MethodSignature_Editor" />
       </node>
       <node concept="_tjkj" id="1TorPL4ukhA" role="3EZMnx">
         <node concept="3F1sOY" id="1TorPL4ukhQ" role="_tjki">
@@ -546,7 +546,7 @@
         <ref role="PMmxG" node="2L1k$oXm7Pq" resolve="VirtualFlag" />
       </node>
       <node concept="PMmxH" id="3v5DuFDpKbk" role="3EZMnx">
-        <ref role="PMmxG" node="3v5DuFDr9bv" resolve="methodSignature" />
+        <ref role="PMmxG" node="3v5DuFDr9bv" resolve="MethodSignature_Editor" />
       </node>
       <node concept="3F0ifn" id="3v5DuFDrgdc" role="3EZMnx">
         <property role="3F0ifm" value=";" />
@@ -562,7 +562,11 @@
     <node concept="3F0ifn" id="3v5DuFDls_W" role="2wV5jI" />
   </node>
   <node concept="PKFIW" id="3v5DuFDr9bv">
+<<<<<<< HEAD
     <property role="TrG5h" value="methodSignature" />
+=======
+    <property role="TrG5h" value="MethodSignature_Editor" />
+>>>>>>> 4d4c807b2f... Move and rename MethodSignature_Editor into the method virtual package
     <property role="3GE5qa" value="method" />
     <ref role="1XX52x" to="wnzg:3v5DuFDqYGC" resolve="MethodSignature" />
     <node concept="3EZMnI" id="6Q7bJ$$mLHM" role="2wV5jI">
