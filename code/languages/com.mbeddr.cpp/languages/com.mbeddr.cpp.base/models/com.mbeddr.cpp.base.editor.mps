@@ -678,8 +678,12 @@
     <property role="3GE5qa" value="class" />
 =======
     <property role="TrG5h" value="AccessModifier" />
+<<<<<<< HEAD
     <property role="3GE5qa" value="" />
 >>>>>>> 1494c628ee... Major refactoring of flags
+=======
+    <property role="3GE5qa" value="class" />
+>>>>>>> 21055d660b... Move access modifier editor in the class virtual package
     <ref role="1XX52x" to="wnzg:4o2nsMgBJ5Y" resolve="INamedClassMemberDeclaration" />
 =======
     <ref role="1XX52x" to="wnzg:4o2nsMgBIr5" resolve="IClassMemberDeclaration" />
