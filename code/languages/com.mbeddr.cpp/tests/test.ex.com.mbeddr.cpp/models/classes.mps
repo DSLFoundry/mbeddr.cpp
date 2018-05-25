@@ -99,6 +99,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD:code/languages/com.mbeddr.cpp/tests/test.ex.com.mbeddr.cpp/models/classes.mps
 =======
       <concept id="7844497894798008401" name="com.mbeddr.cpp.base.structure.ClassConstructorSignature" flags="ng" index="2gom4k">
@@ -108,6 +109,14 @@
       <concept id="7844497894798008359" name="com.mbeddr.cpp.base.structure.ClassConstructor" flags="ng" index="2gom5y">
         <reference id="7844497894798008388" name="parent_class" index="2gom41" />
 =======
+=======
+      <concept id="2277423264798216734" name="com.mbeddr.cpp.base.structure.IStaticConcept" flags="ng" index="226hDU">
+        <property id="2277423264798216735" name="isStatic" index="226hDV" />
+      </concept>
+      <concept id="2277423264798199359" name="com.mbeddr.cpp.base.structure.IInlineConcept" flags="ng" index="226Gpr">
+        <property id="2277423264798199360" name="isInlined" index="226Go$" />
+      </concept>
+>>>>>>> a36012117c... Fix testcases
       <concept id="7240228573260630076" name="com.mbeddr.cpp.base.structure.ConstructorVoidType" flags="ng" index="2dFNQU" />
       <concept id="7844497894798008401" name="com.mbeddr.cpp.base.structure.ClassConstructorSignature" flags="ng" index="2gom4k">
         <property id="6088872510303555204" name="is_destructor" index="3BMcJd" />
@@ -140,12 +149,17 @@
         <child id="7240228573265829198" name="constructor_arg_actuals" index="2enIz8" />
       </concept>
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 94d273528c... Add constructor calls and break naming of class instances
       <concept id="7240228573260630076" name="com.mbeddr.cpp.base.structure.ConstructorVoidType" flags="ng" index="2dFNQU" />
 >>>>>>> 48045b5359... Fix generation of constructor text in implementation files
       <concept id="7844497894798008401" name="com.mbeddr.cpp.base.structure.ClassConstructorSignature" flags="ng" index="2gom4k">
         <child id="7155645240280389397" name="body" index="1IVm9U" />
         <child id="3883266571380204831" name="initializers" index="1YC0t0" />
+=======
+      <concept id="3188920472790477822" name="com.mbeddr.cpp.base.structure.IPureVirtualisableConcept" flags="ng" index="hTfAS">
+        <property id="3188920472790477826" name="isPureVirtual" index="hTfT4" />
+>>>>>>> a36012117c... Fix testcases
       </concept>
       <concept id="7844497894798008359" name="com.mbeddr.cpp.base.structure.ClassConstructorDeclaration" flags="ng" index="2gom5y">
         <property id="7844497894798008385" name="visibility" index="2gom44" />
@@ -188,6 +202,7 @@
       </concept>
       <concept id="5044697665789382396" name="com.mbeddr.cpp.base.structure.MethodDeclaration" flags="ng" index="3mB1cK">
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD:code/languages/com.mbeddr.cpp/tests/test.ex.com.mbeddr.cpp/models/classes.mps
         <property id="5478191656157682870" name="static" index="gNYVZ" />
 =======
@@ -197,6 +212,8 @@
       <concept id="3188920472788366140" name="com.mbeddr.cpp.base.structure.IVirtualisable" flags="ng" index="hL25U">
         <property id="3188920472788366141" name="virtual" index="hL25V" />
 =======
+=======
+>>>>>>> a36012117c... Fix testcases
         <child id="4185783222026475860" name="body" index="3XIRFX" />
 >>>>>>> ce47921082... Fixed auto declaration type errors.
       </concept>
@@ -1060,6 +1077,7 @@
 <<<<<<< HEAD
 =======
       <property role="TrG5h" value="Adder" />
+<<<<<<< HEAD
 >>>>>>> b124467075... Redo extension tests
       <node concept="3mB1cK" id="6oRbCP68kRM" role="3mBdys">
         <property role="gNYVZ" value="false" />
@@ -1075,12 +1093,18 @@
           </node>
         </node>
         <node concept="26Vqph" id="6oRbCP68kSk" role="2C2TGm">
+=======
+      <node concept="3mB1cK" id="1Yr26iuhgnr" role="3mBdys">
+        <property role="1wg9_F" value="public" />
+        <property role="TrG5h" value="increment" />
+        <node concept="26Vqph" id="1Yr26iuhgnF" role="2C2TGm">
+>>>>>>> a36012117c... Fix testcases
           <property role="2caQfQ" value="false" />
           <property role="2c7vTL" value="false" />
         </node>
-        <node concept="19RgSI" id="29I8DMSfSsv" role="1UOdpc">
+        <node concept="19RgSI" id="1Yr26iuhgnU" role="1UOdpc">
           <property role="TrG5h" value="value" />
-          <node concept="26Vqph" id="29I8DMSfSsu" role="2C2TGm">
+          <node concept="26Vqph" id="1Yr26iuhgnT" role="2C2TGm">
             <property role="2caQfQ" value="false" />
             <property role="2c7vTL" value="false" />
 =======
@@ -1136,6 +1160,15 @@
 >>>>>>> ce47921082... Fixed auto declaration type errors.
           </node>
         </node>
+        <node concept="3XIRFW" id="1Yr26iuhgoy" role="3XIRFX">
+          <node concept="2BFjQ_" id="1Yr26iuhgoU" role="3XIRFZ">
+            <node concept="3TM6Ez" id="1Yr26iuhgpZ" role="2BFjQA">
+              <node concept="3ZUYvv" id="1Yr26iuhgpf" role="1_9fRO">
+                <ref role="3ZUYvu" node="1Yr26iuhgnU" resolve="value" />
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
     </node>
     <node concept="2NXPZ9" id="nbE_$_7VLO" role="N3F5h">
@@ -1152,13 +1185,19 @@
         <property role="FysoG" value="private" />
         <ref role="FysoF" node="45rBLTDXFnO" resolve="Subtractor" />
       </node>
+<<<<<<< HEAD
       <node concept="3mB1cK" id="29I8DMSfSEQ" role="3mBdys">
         <property role="gNYVZ" value="false" />
+=======
+      <node concept="3mB1cK" id="1Yr26iuhgzj" role="3mBdys">
+        <property role="1wg9_F" value="public" />
+>>>>>>> a36012117c... Fix testcases
         <property role="TrG5h" value="increment20" />
-        <node concept="26Vqph" id="29I8DMSfSFj" role="2C2TGm">
+        <node concept="26Vqph" id="1Yr26iuhgzu" role="2C2TGm">
           <property role="2caQfQ" value="false" />
           <property role="2c7vTL" value="false" />
         </node>
+<<<<<<< HEAD
 <<<<<<< HEAD
         <node concept="3TlMh9" id="nbE_$_7W86" role="3XIe9v">
           <property role="2hmy$m" value="0" />
@@ -1216,18 +1255,32 @@
                     <ref role="3uHhlH" node="6oRbCP68kRM" resolve="increment" />
                     <node concept="3ZUYvv" id="29I8DMSfT4q" role="3O_q_j">
                       <ref role="3ZUYvu" node="29I8DMSfSGb" resolve="value" />
+=======
+        <node concept="3XIRFW" id="1Yr26iuhg$c" role="3XIRFX">
+          <node concept="1_a8vi" id="1Yr26iuhgQa" role="3XIRFZ">
+            <node concept="3XIRFW" id="1Yr26iuhgQb" role="1_amYn">
+              <node concept="1_9egQ" id="1Yr26iuhhgP" role="3XIRFZ">
+                <node concept="3pqW6w" id="1Yr26iuhhhf" role="1_9egR">
+                  <node concept="3uHhno" id="1Yr26iuhhhY" role="3TlMhJ">
+                    <ref role="3uHhlH" node="1Yr26iuhgnr" resolve="increment" />
+                    <node concept="3ZUYvv" id="1Yr26iuhhii" role="3O_q_j">
+                      <ref role="3ZUYvu" node="1Yr26iuhhgj" resolve="value" />
+>>>>>>> a36012117c... Fix testcases
                     </node>
+                  </node>
+                  <node concept="3ZUYvv" id="1Yr26iuhhgO" role="3TlMhI">
+                    <ref role="3ZUYvu" node="1Yr26iuhhgj" resolve="value" />
                   </node>
                 </node>
               </node>
             </node>
-            <node concept="1_amY7" id="29I8DMSfSH2" role="1_amZ$">
+            <node concept="1_amY7" id="1Yr26iuhgRw" role="1_amZ$">
               <property role="TrG5h" value="i" />
-              <node concept="26Vqph" id="29I8DMSfSH1" role="2C2TGm">
+              <node concept="26Vqph" id="1Yr26iuhgRv" role="2C2TGm">
                 <property role="2caQfQ" value="false" />
                 <property role="2c7vTL" value="false" />
               </node>
-              <node concept="3TlMh9" id="29I8DMSfSHn" role="3XIe9u">
+              <node concept="3TlMh9" id="1Yr26iuhgRP" role="3XIe9u">
                 <property role="2hmy$m" value="0" />
               </node>
 =======
@@ -1247,64 +1300,71 @@
               <ref role="3uHhlH" node="4w6UgEud6vv" resolve="protectedMethod" />
 >>>>>>> ce47921082... Fixed auto declaration type errors.
             </node>
-            <node concept="3TM6Ey" id="29I8DMSfSOP" role="1_amZy">
-              <node concept="3ZVu4v" id="29I8DMSfSHO" role="1_9fRO">
-                <ref role="3ZVs_2" node="29I8DMSfSH2" resolve="i" />
-              </node>
-            </node>
-            <node concept="3Tl9Jn" id="29I8DMSfSJi" role="1_amZB">
-              <node concept="3TlMh9" id="29I8DMSfSKe" role="3TlMhJ">
+            <node concept="3Tl9Jn" id="1Yr26iuhgSG" role="1_amZB">
+              <node concept="3TlMh9" id="1Yr26iuhgTa" role="3TlMhJ">
                 <property role="2hmy$m" value="35" />
               </node>
-              <node concept="3ZVu4v" id="29I8DMSfSI6" role="3TlMhI">
-                <ref role="3ZVs_2" node="29I8DMSfSH2" resolve="i" />
+              <node concept="3ZVu4v" id="1Yr26iuhgSh" role="3TlMhI">
+                <ref role="3ZVs_2" node="1Yr26iuhgRw" resolve="i" />
+              </node>
+            </node>
+            <node concept="3TM6Ey" id="1Yr26iuhhbv" role="1_amZy">
+              <node concept="3ZVu4v" id="1Yr26iuhh6I" role="1_9fRO">
+                <ref role="3ZVs_2" node="1Yr26iuhgRw" resolve="i" />
               </node>
             </node>
           </node>
-          <node concept="1_a8vi" id="29I8DMSfTjQ" role="3XIRFZ">
-            <node concept="3XIRFW" id="29I8DMSfTjR" role="1_amYn">
-              <node concept="1_9egQ" id="29I8DMSfTjS" role="3XIRFZ">
-                <node concept="3pqW6w" id="29I8DMSfTjT" role="1_9egR">
-                  <node concept="3ZUYvv" id="29I8DMSfTjU" role="3TlMhI">
-                    <ref role="3ZUYvu" node="29I8DMSfSGb" resolve="value" />
-                  </node>
-                  <node concept="3uHhno" id="29I8DMSfTDE" role="3TlMhJ">
-                    <ref role="3uHhlH" node="29I8DMSfS4T" resolve="decrement" />
-                    <node concept="3ZUYvv" id="29I8DMSfTEP" role="3O_q_j">
-                      <ref role="3ZUYvu" node="29I8DMSfSGb" resolve="value" />
+          <node concept="1_a8vi" id="1Yr26iuhhmc" role="3XIRFZ">
+            <node concept="3XIRFW" id="1Yr26iuhhmd" role="1_amYn">
+              <node concept="1_9egQ" id="1Yr26iuhhPc" role="3XIRFZ">
+                <node concept="3pqW6w" id="1Yr26iuhhPA" role="1_9egR">
+                  <node concept="3uHhno" id="1Yr26iuhhQB" role="3TlMhJ">
+                    <ref role="3uHhlH" node="1Yr26iugZ3B" resolve="decrement" />
+                    <node concept="3ZUYvv" id="1Yr26iuhhSg" role="3O_q_j">
+                      <ref role="3ZUYvu" node="1Yr26iuhhgj" resolve="value" />
                     </node>
+                  </node>
+                  <node concept="3ZUYvv" id="1Yr26iuhhPb" role="3TlMhI">
+                    <ref role="3ZUYvu" node="1Yr26iuhhgj" resolve="value" />
                   </node>
                 </node>
               </node>
             </node>
-            <node concept="1_amY7" id="29I8DMSfTjX" role="1_amZ$">
+            <node concept="1_amY7" id="1Yr26iuhhny" role="1_amZ$">
               <property role="TrG5h" value="i" />
-              <node concept="26Vqph" id="29I8DMSfTjY" role="2C2TGm">
+              <node concept="26Vqph" id="1Yr26iuhhnx" role="2C2TGm">
                 <property role="2caQfQ" value="false" />
                 <property role="2c7vTL" value="false" />
               </node>
-              <node concept="3TlMh9" id="29I8DMSfTjZ" role="3XIe9u">
+              <node concept="3TlMh9" id="1Yr26iuhhnR" role="3XIe9u">
                 <property role="2hmy$m" value="0" />
               </node>
             </node>
-            <node concept="3TM6Ey" id="29I8DMSfTk0" role="1_amZy">
-              <node concept="3ZVu4v" id="29I8DMSfTk1" role="1_9fRO">
-                <ref role="3ZVs_2" node="29I8DMSfTjX" resolve="i" />
-              </node>
-            </node>
-            <node concept="3Tl9Jn" id="29I8DMSfTk2" role="1_amZB">
-              <node concept="3TlMh9" id="29I8DMSfTk3" role="3TlMhJ">
+            <node concept="3Tl9Jn" id="1Yr26iuhhoI" role="1_amZB">
+              <node concept="3TlMh9" id="1Yr26iuhhp0" role="3TlMhJ">
                 <property role="2hmy$m" value="15" />
               </node>
-              <node concept="3ZVu4v" id="29I8DMSfTk4" role="3TlMhI">
-                <ref role="3ZVs_2" node="29I8DMSfTjX" resolve="i" />
+              <node concept="3ZVu4v" id="1Yr26iuhhoj" role="3TlMhI">
+                <ref role="3ZVs_2" node="1Yr26iuhhny" resolve="i" />
+              </node>
+            </node>
+            <node concept="3TM6Ey" id="1Yr26iuhhKl" role="1_amZy">
+              <node concept="3ZVu4v" id="1Yr26iuhhF_" role="1_9fRO">
+                <ref role="3ZVs_2" node="1Yr26iuhhny" resolve="i" />
               </node>
             </node>
           </node>
-          <node concept="2BFjQ_" id="29I8DMSfSZT" role="3XIRFZ">
-            <node concept="3ZUYvv" id="29I8DMSfT0C" role="2BFjQA">
-              <ref role="3ZUYvu" node="29I8DMSfSGb" resolve="value" />
+          <node concept="2BFjQ_" id="1Yr26iuhhV9" role="3XIRFZ">
+            <node concept="3ZUYvv" id="1Yr26iuhhX2" role="2BFjQA">
+              <ref role="3ZUYvu" node="1Yr26iuhhgj" resolve="value" />
             </node>
+          </node>
+        </node>
+        <node concept="19RgSI" id="1Yr26iuhhgj" role="1UOdpc">
+          <property role="TrG5h" value="value" />
+          <node concept="26Vqph" id="1Yr26iuhhgi" role="2C2TGm">
+            <property role="2caQfQ" value="false" />
+            <property role="2c7vTL" value="false" />
           </node>
         </node>
       </node>
@@ -1341,7 +1401,7 @@
         <node concept="1_9egQ" id="29I8DMSfTNL" role="3XIRFZ">
           <node concept="2qmXGp" id="29I8DMSfTO0" role="1_9egR">
             <node concept="3mBbHP" id="29I8DMSfTOp" role="1ESnxz">
-              <ref role="3mBbHN" node="6oRbCP68kRM" resolve="increment" />
+              <ref role="3mBbHN" node="1Yr26iuhgnr" resolve="increment" />
               <node concept="3ZVu4v" id="29I8DMSfTQJ" role="3mBtou">
                 <ref role="3ZVs_2" node="29I8DMSfTOU" resolve="someInt" />
               </node>
@@ -1363,7 +1423,11 @@
         <node concept="1_9egQ" id="29I8DMSfUeF" role="3XIRFZ">
           <node concept="2qmXGp" id="29I8DMSfUfg" role="1_9egR">
             <node concept="3mBbHP" id="29I8DMSfUud" role="1ESnxz">
+<<<<<<< HEAD
               <ref role="3mBbHN" node="6oRbCP68kRM" resolve="increment" />
+=======
+              <ref role="3mBbHN" node="1Yr26iuhgzj" resolve="increment20" />
+>>>>>>> a36012117c... Fix testcases
               <node concept="3ZVu4v" id="29I8DMSfUAc" role="3mBtou">
                 <ref role="3ZVs_2" node="29I8DMSfTOU" resolve="someInt" />
               </node>
@@ -1439,6 +1503,7 @@
     <node concept="3mBW2U" id="45rBLTDXFnO" role="N3F5h">
       <property role="2OOxQR" value="true" />
       <property role="TrG5h" value="Subtractor" />
+<<<<<<< HEAD
       <node concept="3mB1cK" id="29I8DMSfS4T" role="3mBdys">
         <property role="gNYVZ" value="false" />
         <property role="TrG5h" value="decrement" />
@@ -1452,12 +1517,34 @@
           <property role="2hmy$m" value="0" />
 =======
         <node concept="19RgSI" id="29I8DMSfS5v" role="1UOdpc">
+=======
+      <node concept="3mB1cK" id="1Yr26iugZ3B" role="3mBdys">
+        <property role="1wg9_F" value="public" />
+        <property role="TrG5h" value="decrement" />
+        <property role="226Go$" value="true" />
+        <property role="226hDV" value="true" />
+        <node concept="26Vqph" id="1Yr26iugZ3M" role="2C2TGm">
+          <property role="2caQfQ" value="false" />
+          <property role="2c7vTL" value="false" />
+        </node>
+        <node concept="3XIRFW" id="1Yr26iugZ48" role="3XIRFX">
+          <node concept="2BFjQ_" id="1Yr26iugZ4E" role="3XIRFZ">
+            <node concept="1FldXs" id="1Yr26iuhgw$" role="2BFjQA">
+              <node concept="3ZUYvv" id="1Yr26iuhgwd" role="1_9fRO">
+                <ref role="3ZUYvu" node="1Yr26iugZ7w" resolve="value" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="19RgSI" id="1Yr26iugZ7w" role="1UOdpc">
+>>>>>>> a36012117c... Fix testcases
           <property role="TrG5h" value="value" />
-          <node concept="26Vqph" id="29I8DMSfS5u" role="2C2TGm">
+          <node concept="26Vqph" id="1Yr26iugZ7v" role="2C2TGm">
             <property role="2caQfQ" value="false" />
             <property role="2c7vTL" value="false" />
           </node>
         </node>
+<<<<<<< HEAD
         <node concept="3XIRFW" id="29I8DMSfS5Q" role="3XIRFX">
           <node concept="2BFjQ_" id="29I8DMSfSgk" role="3XIRFZ">
             <node concept="1FldXs" id="29I8DMSfSrr" role="2BFjQA">
@@ -1468,6 +1555,8 @@
           </node>
 >>>>>>> b124467075... Redo extension tests
         </node>
+=======
+>>>>>>> a36012117c... Fix testcases
       </node>
     </node>
   </node>
