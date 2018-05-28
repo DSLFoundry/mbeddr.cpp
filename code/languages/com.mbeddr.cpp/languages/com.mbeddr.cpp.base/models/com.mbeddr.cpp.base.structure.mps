@@ -150,6 +150,15 @@
     <node concept="PrWs8" id="1Yr26itUKUw" role="PzmwI">
       <ref role="PrY4T" node="1Yr26itwsSZ" resolve="IInlineFlagConcept" />
     </node>
+    <node concept="PrWs8" id="15T8UHynjIu" role="PzmwI">
+      <ref role="PrY4T" node="5eDFAXBCper" resolve="IVolatileFlagConcept" />
+    </node>
+    <node concept="PrWs8" id="15T8UHynkMK" role="PzmwI">
+      <ref role="PrY4T" node="5eDFAXBC$A7" resolve="IConstFlagConcept" />
+    </node>
+    <node concept="PrWs8" id="15T8UHysf1I" role="PzmwI">
+      <ref role="PrY4T" node="5eDFAXBRQhJ" resolve="IConstExprFlagConcept" />
+    </node>
   </node>
   <node concept="1TIwiD" id="4o2nsMgBEtu">
     <property role="EcuMT" value="5044697665789405022" />
@@ -216,9 +225,6 @@
     <node concept="PrWs8" id="5eDFAXBCDcW" role="PzmwI">
       <ref role="PrY4T" node="5eDFAXBCper" resolve="IVolatileFlagConcept" />
     </node>
-    <node concept="PrWs8" id="5eDFAXBREP4" role="PzmwI">
-      <ref role="PrY4T" node="5eDFAXBRENn" resolve="IExternFlagConcept" />
-    </node>
     <node concept="PrWs8" id="5eDFAXBRI2X" role="PzmwI">
       <ref role="PrY4T" node="1Yr26itwsSZ" resolve="IInlineFlagConcept" />
     </node>
@@ -227,6 +233,9 @@
     </node>
     <node concept="PrWs8" id="5eDFAXBS4mZ" role="PzmwI">
       <ref role="PrY4T" node="5eDFAXBS4m7" resolve="IThreadLocalFlag" />
+    </node>
+    <node concept="PrWs8" id="15T8UHynq6K" role="PzmwI">
+      <ref role="PrY4T" node="15T8UHynq3H" resolve="IMutableFlagConcept" />
     </node>
   </node>
   <node concept="PlHQZ" id="4o2nsMgBJ5Y">
@@ -1055,6 +1064,7 @@
     </node>
   </node>
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> fc91ccac11... Add thread local flag
 =======
   <node concept="1TIwiD" id="29cSqvcoIWG">
@@ -1075,5 +1085,17 @@
     </node>
   </node>
 >>>>>>> ecef4c91d7... Add null pointer type and null pointer literal
+=======
+  <node concept="PlHQZ" id="15T8UHynq3H">
+    <property role="EcuMT" value="1259076789823447277" />
+    <property role="3GE5qa" value="flag" />
+    <property role="TrG5h" value="IMutableFlagConcept" />
+    <node concept="1TJgyi" id="15T8UHynq3I" role="1TKVEl">
+      <property role="IQ2nx" value="1259076789823447278" />
+      <property role="TrG5h" value="isMutable" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+  </node>
+>>>>>>> 09b625296a... Add typesystem for specifiers
 </model>
 
