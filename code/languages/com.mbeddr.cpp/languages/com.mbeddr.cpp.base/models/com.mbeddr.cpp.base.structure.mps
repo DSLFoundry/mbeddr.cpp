@@ -19,6 +19,7 @@
 =======
 >>>>>>> 3168c40245... Fixed incompatible types.
     <import index="2gv2" ref="r:055bac8c-a50b-42ec-a317-e20a256152b4(com.mbeddr.core.debug.structure)" implicit="true" />
+    <import index="yq40" ref="r:152b3fc0-83a1-4bab-a8cd-565eb8483785(com.mbeddr.core.pointers.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
@@ -1053,6 +1054,26 @@
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
   </node>
+<<<<<<< HEAD
 >>>>>>> fc91ccac11... Add thread local flag
+=======
+  <node concept="1TIwiD" id="29cSqvcoIWG">
+    <property role="EcuMT" value="2471598406324383532" />
+    <property role="TrG5h" value="NullPointerLiteral" />
+    <property role="34LRSv" value="nullptr" />
+    <property role="R4oN_" value="Null pointer literal" />
+    <ref role="1TJDcQ" to="mj1l:7FQByU3CrDq" resolve="Literal" />
+  </node>
+  <node concept="1TIwiD" id="29cSqvcoIWH">
+    <property role="EcuMT" value="2471598406324383533" />
+    <property role="TrG5h" value="NullPointerType" />
+    <property role="34LRSv" value="std::nullptr_t" />
+    <property role="R4oN_" value="Null pointer type" />
+    <ref role="1TJDcQ" to="mj1l:7FQByU3CrCQ" resolve="Type" />
+    <node concept="PrWs8" id="29cSqvdKNcz" role="PzmwI">
+      <ref role="PrY4T" to="yq40:4$HG0yY9G70" resolve="INullableType" />
+    </node>
+  </node>
+>>>>>>> ecef4c91d7... Add null pointer type and null pointer literal
 </model>
 

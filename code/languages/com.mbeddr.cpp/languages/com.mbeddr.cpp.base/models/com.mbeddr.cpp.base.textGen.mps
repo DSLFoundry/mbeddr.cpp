@@ -1329,6 +1329,7 @@
     </node>
   </node>
 <<<<<<< HEAD
+<<<<<<< HEAD
   <node concept="WtQ9Q" id="3LE5RBQ6aSI">
     <property role="3GE5qa" value="operator" />
     <ref role="WuzLi" to="wnzg:3LE5RBPQ$rY" resolve="OperatorOverloadDeclaration" />
@@ -1396,11 +1397,21 @@
                 <ref role="3Tt5mk" to="wnzg:3LE5RBPSwl7" resolve="body" />
               </node>
             </node>
+=======
+  <node concept="WtQ9Q" id="29cSqvdUjFp">
+    <ref role="WuzLi" to="wnzg:29cSqvcoIWH" resolve="NullPointerType" />
+    <node concept="11bSqf" id="29cSqvdUjFq" role="11c4hB">
+      <node concept="3clFbS" id="29cSqvdUjFr" role="2VODD2">
+        <node concept="lc7rE" id="29cSqvdUjFI" role="3cqZAp">
+          <node concept="la8eA" id="29cSqve1vuw" role="lcghm">
+            <property role="lacIc" value="std::nullptr_t" />
+>>>>>>> ecef4c91d7... Add null pointer type and null pointer literal
           </node>
         </node>
       </node>
     </node>
   </node>
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 5cb8cfdb11... Fix tests and remove unused concepts
 =======
@@ -1451,11 +1462,21 @@
         <node concept="lc7rE" id="3LE5RBQz5ni" role="3cqZAp">
           <node concept="la8eA" id="3LE5RBQz5nj" role="lcghm">
             <property role="lacIc" value=";" />
+=======
+  <node concept="WtQ9Q" id="29cSqvdUjKq">
+    <ref role="WuzLi" to="wnzg:29cSqvcoIWG" resolve="NullPointerLiteral" />
+    <node concept="11bSqf" id="29cSqvdUjKr" role="11c4hB">
+      <node concept="3clFbS" id="29cSqvdUjKs" role="2VODD2">
+        <node concept="lc7rE" id="29cSqvdUjKJ" role="3cqZAp">
+          <node concept="la8eA" id="29cSqve1vsG" role="lcghm">
+            <property role="lacIc" value="nullptr" />
+>>>>>>> ecef4c91d7... Add null pointer type and null pointer literal
           </node>
         </node>
       </node>
     </node>
   </node>
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 1e5511abaf... TextGen for operator overloading signatures and restructuring
 =======
@@ -1601,10 +1622,22 @@
           <node concept="la8eA" id="79L075GfowB" role="lcghm">
             <property role="lacIc" value=";" />
           </node>
+=======
+  <node concept="WtQ9Q" id="29cSqve8Gd0">
+    <property role="3GE5qa" value="class" />
+    <ref role="WuzLi" to="wnzg:3v5DuFDls_I" resolve="EmptyClassContent" />
+    <node concept="11bSqf" id="29cSqve8Gd1" role="11c4hB">
+      <node concept="3clFbS" id="29cSqve8Gd2" role="2VODD2">
+        <node concept="lc7rE" id="29cSqve8QPZ" role="3cqZAp">
+          <node concept="l8MVK" id="29cSqve8QRq" role="lcghm" />
+>>>>>>> ecef4c91d7... Add null pointer type and null pointer literal
         </node>
       </node>
     </node>
   </node>
+<<<<<<< HEAD
 >>>>>>> ff7b242aec... Added auto declaration.
+=======
+>>>>>>> ecef4c91d7... Add null pointer type and null pointer literal
 </model>
 
