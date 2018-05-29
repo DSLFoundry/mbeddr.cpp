@@ -26,6 +26,7 @@
     <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" />
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <import index="rj8d" ref="r:da9fd96f-5c71-45ab-b2da-1aa6232ec67f(com.mbeddr.core.statements.behavior)" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" />
     <import index="tpd5" ref="r:00000000-0000-4000-0000-011c895902b5(jetbrains.mps.lang.typesystem.dependencies)" />
@@ -44,6 +45,8 @@
 >>>>>>> 3168c40245... Fixed incompatible types.
 =======
     <import index="1yyn" ref="r:64e0a2a9-7957-424b-8102-a5e8a7a73035(com.mbeddr.cpp.templates.structure)" implicit="true" />
+=======
+>>>>>>> 365cef1251... Autofill template args and allow defaults with =
     <import index="6bz1" ref="r:d3905048-7598-4a84-931a-cbbcbcda146d(jetbrains.mps.lang.intentions.methods)" implicit="true" />
 >>>>>>> b70d14e537... loads of stuff
   </imports>
@@ -307,6 +310,7 @@
 >>>>>>> 3168c40245... Fixed incompatible types.
 =======
       <concept id="1145383075378" name="jetbrains.mps.lang.smodel.structure.SNodeListType" flags="in" index="2I9FWS" />
+<<<<<<< HEAD
       <concept id="1883223317721008708" name="jetbrains.mps.lang.smodel.structure.IfInstanceOfStatement" flags="nn" index="Jncv_">
         <reference id="1883223317721008712" name="nodeConcept" index="JncvD" />
         <child id="1883223317721008709" name="body" index="Jncv$" />
@@ -319,6 +323,8 @@
 >>>>>>> b70d14e537... loads of stuff
 =======
 >>>>>>> 067191f2ac... Type value arguments & defaults
+=======
+>>>>>>> 365cef1251... Autofill template args and allow defaults with =
       <concept id="1145567426890" name="jetbrains.mps.lang.smodel.structure.SNodeListCreator" flags="nn" index="2T8Vx0">
         <child id="1145567471833" name="createdType" index="2T96Bj" />
       </concept>
@@ -526,11 +532,11 @@
         <ref role="ehGHo" to="mj1l:7FQByU3CrCQ" resolve="Type" />
       </node>
       <node concept="3clFbS" id="2QDt3lyrals" role="3clF47">
-        <node concept="Jncv_" id="2QDt3lyriEz" role="3cqZAp">
-          <ref role="JncvD" to="1yyn:2_lkiVk2Aqm" resolve="TemplateTypeRef" />
-          <node concept="37vLTw" id="2QDt3lyriJK" role="JncvB">
-            <ref role="3cqZAo" node="2QDt3lyraqD" resolve="type" />
+        <node concept="2Gpval" id="2C_gXOWLoT$" role="3cqZAp">
+          <node concept="2GrKxI" id="2C_gXOWLoT_" role="2Gsz3X">
+            <property role="TrG5h" value="ancestor" />
           </node>
+<<<<<<< HEAD
           <node concept="3clFbS" id="2QDt3lyriEB" role="Jncv$">
             <node concept="2Gpval" id="2QDt3lyrzy5" role="3cqZAp">
               <node concept="2GrKxI" id="2QDt3lyrzy7" role="2Gsz3X">
@@ -681,18 +687,43 @@
                           <ref role="3cqZAo" node="2QDt3lyraqD" resolve="type" />
                         </node>
                       </node>
+=======
+          <node concept="2OqwBi" id="2C_gXOWLoTA" role="2GsD0m">
+            <node concept="2OqwBi" id="2C_gXOWLoTB" role="2Oq$k0">
+              <node concept="13iPFW" id="2C_gXOWLoTC" role="2Oq$k0" />
+              <node concept="3TrEf2" id="2C_gXOWLoTD" role="2OqNvi">
+                <ref role="3Tt5mk" to="wnzg:4o2nsMgBEtY" resolve="clazz" />
+              </node>
+            </node>
+            <node concept="3Tsc0h" id="2C_gXOWLoTE" role="2OqNvi">
+              <ref role="3TtcxE" to="wnzg:3UsoL$l5qj8" resolve="ancestors" />
+            </node>
+          </node>
+          <node concept="3clFbS" id="2C_gXOWLoTF" role="2LFqv$">
+            <node concept="3clFbF" id="2C_gXOWLoTG" role="3cqZAp">
+              <node concept="37vLTI" id="2C_gXOWLoTH" role="3clFbG">
+                <node concept="2OqwBi" id="2C_gXOWLoTI" role="37vLTx">
+                  <node concept="2OqwBi" id="2C_gXOWLoTJ" role="2Oq$k0">
+                    <node concept="2GrUjf" id="2C_gXOWLoTK" role="2Oq$k0">
+                      <ref role="2Gs0qQ" node="2C_gXOWLoT_" resolve="ancestor" />
+>>>>>>> 365cef1251... Autofill template args and allow defaults with =
                     </node>
-                    <node concept="37vLTw" id="2QDt3lyJG5n" role="37vLTJ">
+                    <node concept="2qgKlT" id="2C_gXOWLoTL" role="2OqNvi">
+                      <ref role="37wK5l" node="2QDt3lz1dfq" resolve="getType" />
+                    </node>
+                  </node>
+                  <node concept="2qgKlT" id="2C_gXOWLoTM" role="2OqNvi">
+                    <ref role="37wK5l" node="2QDt3lyralp" resolve="resolveTemplateType" />
+                    <node concept="37vLTw" id="2C_gXOWLoTN" role="37wK5m">
                       <ref role="3cqZAo" node="2QDt3lyraqD" resolve="type" />
                     </node>
                   </node>
                 </node>
+                <node concept="37vLTw" id="2C_gXOWLoTO" role="37vLTJ">
+                  <ref role="3cqZAo" node="2QDt3lyraqD" resolve="type" />
+                </node>
               </node>
             </node>
-          </node>
-          <node concept="JncvC" id="2QDt3lyriED" role="JncvA">
-            <property role="TrG5h" value="templateType" />
-            <node concept="2jxLKc" id="2QDt3lyriEE" role="1tU5fm" />
           </node>
         </node>
         <node concept="3cpWs6" id="2QDt3lyrgWw" role="3cqZAp">
