@@ -75,7 +75,11 @@
     <property role="TrG5h" value="ToggleVirtual" />
     <property role="2ZfUl0" value="true" />
     <property role="3GE5qa" value="method" />
+<<<<<<< HEAD
     <ref role="2ZfgGC" to="wnzg:2L1k$oXxncW" resolve="IVirtualisableConcept" />
+=======
+    <ref role="2ZfgGC" to="wnzg:2L1k$oXxncW" resolve="IVirtualableConcept" />
+>>>>>>> ce47921082... Fixed auto declaration type errors.
     <node concept="2S6ZIM" id="2L1k$oXnM2_" role="2ZfVej">
       <node concept="3clFbS" id="2L1k$oXnM2A" role="2VODD2">
         <node concept="3clFbF" id="2L1k$oXnMc1" role="3cqZAp">

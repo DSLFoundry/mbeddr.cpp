@@ -98,6 +98,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD:code/languages/com.mbeddr.cpp/tests/test.ex.com.mbeddr.cpp/models/classes.mps
 =======
       <concept id="7844497894798008401" name="com.mbeddr.cpp.base.structure.ClassConstructorSignature" flags="ng" index="2gom4k">
@@ -119,6 +120,12 @@
 =======
 >>>>>>> a0c5014c67... Add test cases for inheritance access modifiers
       <concept id="3188920472788366140" name="com.mbeddr.cpp.base.structure.IVirtualisableConcept" flags="ng" index="hL25U">
+=======
+      <concept id="2277423264798216734" name="com.mbeddr.cpp.base.structure.IStaticFlagConcept" flags="ng" index="226hDU">
+        <property id="2277423264798216735" name="isStatic" index="226hDV" />
+      </concept>
+      <concept id="3188920472788366140" name="com.mbeddr.cpp.base.structure.IVirtualFlagConcept" flags="ng" index="hL25U">
+>>>>>>> ce47921082... Fixed auto declaration type errors.
         <property id="3188920472788366141" name="isVirtual" index="hL25V" />
 >>>>>>> d43bb3786f... Add constructor test case
       </concept>
@@ -154,12 +161,17 @@
         <child id="137823117411762663" name="actual_arguments" index="yKYi2" />
       </concept>
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> fbce44d1c8... Warning for parent constructor initilialization which does not currently generate the name
 =======
 >>>>>>> d43bb3786f... Add constructor test case
 =======
       <concept id="137823117410394117" name="com.mbeddr.cpp.base.structure.ConstructorInitializedConstructor" flags="ng" index="yZclw">
         <reference id="137823117411762547" name="identity" index="yKYgm" />
+=======
+      <concept id="3188920472790477822" name="com.mbeddr.cpp.base.structure.IPureVirtualFlagConcept" flags="ng" index="hTfAS">
+        <property id="3188920472790477826" name="isPureVirtual" index="hTfT4" />
+>>>>>>> ce47921082... Fixed auto declaration type errors.
       </concept>
 >>>>>>> 2587269438... Finish constructor test case
       <concept id="137823117407795547" name="com.mbeddr.cpp.base.structure.ConstructorInitializedAttribute" flags="ng" index="z11KY">
@@ -175,6 +187,7 @@
         <reference id="4511589886097466674" name="parentClass" index="FysoF" />
       </concept>
       <concept id="5044697665789382396" name="com.mbeddr.cpp.base.structure.MethodDeclaration" flags="ng" index="3mB1cK">
+<<<<<<< HEAD
 <<<<<<< HEAD:code/languages/com.mbeddr.cpp/tests/test.ex.com.mbeddr.cpp/models/classes.mps
         <property id="5478191656157682870" name="static" index="gNYVZ" />
 =======
@@ -183,6 +196,9 @@
 =======
       <concept id="3188920472788366140" name="com.mbeddr.cpp.base.structure.IVirtualisable" flags="ng" index="hL25U">
         <property id="3188920472788366141" name="virtual" index="hL25V" />
+=======
+        <child id="4185783222026475860" name="body" index="3XIRFX" />
+>>>>>>> ce47921082... Fixed auto declaration type errors.
       </concept>
       <concept id="5044697665789382396" name="com.mbeddr.cpp.base.structure.MethodDeclaration" flags="ng" index="3mB1cK">
 >>>>>>> 0a6e17621e... Move virtual to interface IVirtual and add it to MethodPrototype and textgen.:code/languages/com.mbeddr.cpp/tests/test.ex.com.mbeddr.cpp/models/simple_classes.mps
@@ -1041,6 +1057,7 @@
         </node>
       </node>
       <node concept="3u$6M4" id="6oRbCP69jgM" role="3mBdys" />
+<<<<<<< HEAD
 =======
       <property role="TrG5h" value="Adder" />
 >>>>>>> b124467075... Redo extension tests
@@ -1066,6 +1083,57 @@
           <node concept="26Vqph" id="29I8DMSfSsu" role="2C2TGm">
             <property role="2caQfQ" value="false" />
             <property role="2c7vTL" value="false" />
+=======
+      <node concept="3mB1cK" id="4w6UgEud6RY" role="3mBdys">
+        <property role="1wg9_F" value="public" />
+        <property role="TrG5h" value="publicMethod" />
+        <node concept="26Vqph" id="4w6UgEud6UZ" role="2C2TGm">
+          <property role="2caQfQ" value="false" />
+          <property role="2c7vTL" value="false" />
+        </node>
+        <node concept="3XIRFW" id="4w6UgEud6Vo" role="3XIRFX">
+          <node concept="2BFjQ_" id="4w6UgEud6VT" role="3XIRFZ">
+            <node concept="3TlMh9" id="4w6UgEud6W7" role="2BFjQA">
+              <property role="2hmy$m" value="0" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3u$6M4" id="6oRbCP69jdY" role="3mBdys" />
+      <node concept="3mB1cK" id="4w6UgEud6vv" role="3mBdys">
+        <property role="1wg9_F" value="protected" />
+        <property role="TrG5h" value="protectedMethod" />
+        <node concept="26Vqph" id="4w6UgEud6w$" role="2C2TGm">
+          <property role="2caQfQ" value="false" />
+          <property role="2c7vTL" value="false" />
+        </node>
+        <node concept="3XIRFW" id="4w6UgEud6xh" role="3XIRFX">
+          <node concept="1_9egQ" id="4w6UgEud6NC" role="3XIRFZ">
+            <node concept="3uHhno" id="4w6UgEud6NA" role="1_9egR">
+              <ref role="3uHhlH" node="4w6UgEud6Cz" resolve="privateMethod" />
+            </node>
+          </node>
+          <node concept="2BFjQ_" id="4w6UgEud6yA" role="3XIRFZ">
+            <node concept="3TlMh9" id="4w6UgEud6yS" role="2BFjQA">
+              <property role="2hmy$m" value="0" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3u$6M4" id="6oRbCP69XrG" role="3mBdys" />
+      <node concept="3mB1cK" id="4w6UgEud6Cz" role="3mBdys">
+        <property role="1wg9_F" value="private" />
+        <property role="TrG5h" value="privateMethod" />
+        <node concept="26Vqph" id="4w6UgEud6EQ" role="2C2TGm">
+          <property role="2caQfQ" value="false" />
+          <property role="2c7vTL" value="false" />
+        </node>
+        <node concept="3XIRFW" id="4w6UgEud6Fa" role="3XIRFX">
+          <node concept="2BFjQ_" id="4w6UgEud6Fu" role="3XIRFZ">
+            <node concept="3TlMh9" id="4w6UgEud6FF" role="2BFjQA">
+              <property role="2hmy$m" value="0" />
+            </node>
+>>>>>>> ce47921082... Fixed auto declaration type errors.
           </node>
         </node>
       </node>
@@ -1113,13 +1181,17 @@
         </node>
       </node>
       <node concept="3u$6M4" id="45rBLTDuPlu" role="3mBdys" />
-      <node concept="3mB1cK" id="4K6s$_sMpzO" role="3mBdys">
-        <property role="TrG5h" value="staticMethod" />
+      <node concept="3mB1cK" id="4w6UgEud71_" role="3mBdys">
         <property role="1wg9_F" value="public" />
-        <property role="gNYVZ" value="true" />
-        <node concept="3XIRFW" id="4K6s$_sMpzQ" role="3XIRFX">
-          <node concept="2BFjQ_" id="4K6s$_sMp_B" role="3XIRFZ">
-            <node concept="3TlMh9" id="4K6s$_sMp_O" role="2BFjQA">
+        <property role="TrG5h" value="staticMethod" />
+        <property role="226hDV" value="true" />
+        <node concept="26Vqqz" id="4w6UgEud72y" role="2C2TGm">
+          <property role="2caQfQ" value="false" />
+          <property role="2c7vTL" value="false" />
+        </node>
+        <node concept="3XIRFW" id="4w6UgEud72L" role="3XIRFX">
+          <node concept="2BFjQ_" id="4w6UgEud73i" role="3XIRFZ">
+            <node concept="3TlMh9" id="4w6UgEud73q" role="2BFjQA">
               <property role="2hmy$m" value="0" />
             </node>
 =======
@@ -1131,6 +1203,7 @@
 >>>>>>> b124467075... Redo extension tests
           </node>
         </node>
+<<<<<<< HEAD
         <node concept="3XIRFW" id="29I8DMSfSGB" role="3XIRFX">
           <node concept="1_a8vi" id="29I8DMSfSGS" role="3XIRFZ">
             <node concept="3XIRFW" id="29I8DMSfSGT" role="1_amYn">
@@ -1157,6 +1230,22 @@
               <node concept="3TlMh9" id="29I8DMSfSHn" role="3XIe9u">
                 <property role="2hmy$m" value="0" />
               </node>
+=======
+      </node>
+      <node concept="3u$6M4" id="45rBLTDuPmd" role="3mBdys" />
+      <node concept="3mB1cK" id="4K6s$_rq$4L" role="3mBdys">
+        <property role="1wg9_F" value="public" />
+        <property role="TrG5h" value="getInt8" />
+        <node concept="3XIRFW" id="4K6s$_rq$4N" role="3XIRFX">
+          <node concept="1_9egQ" id="6oRbCP69XAN" role="3XIRFZ">
+            <node concept="3uHhno" id="6oRbCP69XAL" role="1_9egR">
+              <ref role="3uHhlH" node="4w6UgEud6RY" resolve="publicMethod" />
+            </node>
+          </node>
+          <node concept="1_9egQ" id="4w6UgEud7tG" role="3XIRFZ">
+            <node concept="3uHhno" id="4w6UgEud7tE" role="1_9egR">
+              <ref role="3uHhlH" node="4w6UgEud6vv" resolve="protectedMethod" />
+>>>>>>> ce47921082... Fixed auto declaration type errors.
             </node>
             <node concept="3TM6Ey" id="29I8DMSfSOP" role="1_amZy">
               <node concept="3ZVu4v" id="29I8DMSfSHO" role="1_9fRO">
@@ -1262,6 +1351,7 @@
             </node>
           </node>
         </node>
+<<<<<<< HEAD
         <node concept="2N2KuS" id="29I8DMSfTRw" role="3XIRFZ">
           <node concept="3TlMh9" id="29I8DMSfTSi" role="2N2GHh">
             <property role="2hmy$m" value="1" />
@@ -1280,6 +1370,25 @@
             </node>
             <node concept="3ZVu4v" id="29I8DMSfUeD" role="1_9fRO">
               <ref role="3ZVs_2" node="29I8DMSfTNi" resolve="calculator" />
+=======
+        <node concept="1_9egQ" id="4w6UgEud7x7" role="3XIRFZ">
+          <node concept="2qmXGp" id="4w6UgEud7y0" role="1_9egR">
+            <node concept="3mBbHP" id="4w6UgEud7yp" role="1ESnxz">
+              <ref role="3mBbHN" node="4w6UgEud6RY" resolve="publicMethod" />
+            </node>
+            <node concept="3ZVu4v" id="4w6UgEud7x5" role="1_9fRO">
+              <ref role="3ZVs_2" node="nbE_$_7WbC" resolve="child" />
+            </node>
+          </node>
+        </node>
+        <node concept="1_9egQ" id="4w6UgEud7It" role="3XIRFZ">
+          <node concept="2qmXGp" id="4w6UgEud7Jm" role="1_9egR">
+            <node concept="3mBbHP" id="4w6UgEud7Lk" role="1ESnxz">
+              <ref role="3mBbHN" node="4w6UgEud71_" resolve="staticMethod" />
+            </node>
+            <node concept="3ZVu4v" id="4w6UgEud7Ir" role="1_9fRO">
+              <ref role="3ZVs_2" node="nbE_$_7WbC" resolve="child" />
+>>>>>>> ce47921082... Fixed auto declaration type errors.
             </node>
           </node>
         </node>
