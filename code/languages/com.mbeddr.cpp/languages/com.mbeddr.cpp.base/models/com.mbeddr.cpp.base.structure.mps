@@ -357,11 +357,20 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   <node concept="1TIwiD" id="3UsoL$l5qkL">
     <property role="EcuMT" value="4511589886097466673" />
     <property role="TrG5h" value="InheritanceInstance" />
     <property role="R4oN_" value="holds a reference to the inherited class and it's visibility" />
     <property role="3GE5qa" value="class" />
+=======
+  <node concept="1TIwiD" id="6gFj6gpBJFg">
+    <property role="EcuMT" value="7217946820601641680" />
+    <property role="3GE5qa" value="namespace" />
+    <property role="TrG5h" value="GlobalUsingGeneralNamespaceDeclaration" />
+    <property role="34LRSv" value="using" />
+    <property role="R4oN_" value="Using namespace &lt;...&gt;" />
+>>>>>>> a5b410c665... Fix highlighting to be consistent and make the package name lowercase
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="3UsoL$l5qkM" role="1TKVEi">
       <property role="IQ2ns" value="4511589886097466674" />
@@ -387,9 +396,18 @@
     </node>
   </node>
 <<<<<<< HEAD
+<<<<<<< HEAD
   <node concept="1TIwiD" id="6oRbCP62xkS">
     <property role="EcuMT" value="7365406899888067896" />
     <property role="TrG5h" value="lassTypeAccessor" />
+=======
+  <node concept="1TIwiD" id="7RFM8R0xwre">
+    <property role="EcuMT" value="9073566385413949134" />
+    <property role="3GE5qa" value="namespace" />
+    <property role="TrG5h" value="GlobalUsingNamespaceAttributeDeclaration" />
+    <property role="34LRSv" value="using" />
+    <property role="R4oN_" value="Using a namespace attribute" />
+>>>>>>> a5b410c665... Fix highlighting to be consistent and make the package name lowercase
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="6oRbCP62xkT" role="1TKVEi">
       <property role="IQ2ns" value="7365406899888067897" />
@@ -469,10 +487,19 @@
 =======
     </node>
   </node>
+<<<<<<< HEAD
   <node concept="1TIwiD" id="6oRbCP62xkS">
     <property role="EcuMT" value="7365406899888067896" />
     <property role="TrG5h" value="ClassTypeAccessor" />
     <property role="3GE5qa" value="class" />
+=======
+  <node concept="1TIwiD" id="7RFM8R0Rm5q">
+    <property role="EcuMT" value="9073566385419673946" />
+    <property role="3GE5qa" value="namespace" />
+    <property role="TrG5h" value="GlobalUsingNamespaceMethodDeclaration" />
+    <property role="34LRSv" value="using" />
+    <property role="R4oN_" value="Using a namespace method" />
+>>>>>>> a5b410c665... Fix highlighting to be consistent and make the package name lowercase
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="6oRbCP62xkT" role="1TKVEi">
       <property role="IQ2ns" value="7365406899888067897" />
@@ -487,6 +514,7 @@
 >>>>>>> 65ef5d08b6... Fix name of ClassTypeAccessor
     </node>
   </node>
+<<<<<<< HEAD
   <node concept="1TIwiD" id="6NtgknWJ20B">
     <property role="EcuMT" value="7844497894798008359" />
     <property role="TrG5h" value="ClassConstructorDeclaration" />
@@ -496,12 +524,42 @@
     <ref role="1TJDcQ" node="6NtgknWJ21h" resolve="ClassConstructorSignature" />
     <node concept="PrWs8" id="6NtgknWJ20C" role="PzmwI">
       <ref role="PrY4T" node="4o2nsMgBIr5" resolve="IClassMemberDeclaration" />
+=======
+  <node concept="PlHQZ" id="383ZxwZsgd5">
+    <property role="EcuMT" value="3604003506923569989" />
+    <property role="3GE5qa" value="namespace" />
+    <property role="TrG5h" value="INamedNamespaceMemberDeclaration" />
+    <node concept="PrWs8" id="383ZxwZsgd6" role="PrDN$">
+      <ref role="PrY4T" node="383ZxwZsgd4" resolve="INamespaceMemberDeclaration" />
+>>>>>>> a5b410c665... Fix highlighting to be consistent and make the package name lowercase
     </node>
     <node concept="PrWs8" id="6ddXmWdKgbL" role="PzmwI">
       <ref role="PrY4T" to="tpee:htgVS9_" resolve="IStatementListContainer" />
     </node>
+<<<<<<< HEAD
     <node concept="PrWs8" id="6ddXmWdKgVj" role="PzmwI">
       <ref role="PrY4T" to="2gv2:3SnnFeub0mq" resolve="IWatchablesProviderContext" />
+=======
+  </node>
+  <node concept="PlHQZ" id="383ZxwZsgd4">
+    <property role="EcuMT" value="3604003506923569988" />
+    <property role="3GE5qa" value="namespace" />
+    <property role="TrG5h" value="INamespaceMemberDeclaration" />
+  </node>
+  <node concept="1TIwiD" id="383ZxwZrBkp">
+    <property role="EcuMT" value="3604003506923402521" />
+    <property role="3GE5qa" value="namespace" />
+    <property role="TrG5h" value="NamespaceAttributeRef" />
+    <property role="34LRSv" value="::" />
+    <property role="R4oN_" value="Call a namespace attribute" />
+    <ref role="1TJDcQ" to="mj1l:7FQByU3CrCM" resolve="Expression" />
+    <node concept="1TJgyj" id="383ZxwZrBkq" role="1TKVEi">
+      <property role="IQ2ns" value="3604003506923402522" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="namespace" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="383ZxwZqQYo" resolve="NamespaceDeclaration" />
+>>>>>>> a5b410c665... Fix highlighting to be consistent and make the package name lowercase
     </node>
     <node concept="PrWs8" id="6NtgknWJ20V" role="PzmwI">
 <<<<<<< HEAD
@@ -516,9 +574,22 @@
 =======
       <ref role="PrY4T" node="2L1k$oXxncW" resolve="IVirtualFlagConcept" />
     </node>
+<<<<<<< HEAD
     <node concept="PrWs8" id="3OTimPpGcj0" role="PzmwI">
       <ref role="PrY4T" node="2L1k$oXDqJY" resolve="IPureVirtualFlagConcept" />
 >>>>>>> 1494c628ee... Major refactoring of flags
+=======
+  </node>
+  <node concept="1TIwiD" id="7RFM8R3Me1y">
+    <property role="EcuMT" value="9073566385468661858" />
+    <property role="3GE5qa" value="namespace" />
+    <property role="TrG5h" value="NamespaceClassInstance" />
+    <property role="34LRSv" value="class instance" />
+    <property role="R4oN_" value="Create instance of namespace class" />
+    <ref role="1TJDcQ" to="mj1l:7FQByU3CrCM" resolve="Expression" />
+    <node concept="PrWs8" id="7RFM8R3Me1P" role="PzmwI">
+      <ref role="PrY4T" node="4o2nsMgBJ5Y" resolve="INamedClassMemberDeclaration" />
+>>>>>>> a5b410c665... Fix highlighting to be consistent and make the package name lowercase
     </node>
     <node concept="PrWs8" id="6ddXmWdS2eK" role="PzmwI">
       <ref role="PrY4T" to="mj1l:hEaDaGor63" resolve="ITyped" />
@@ -531,6 +602,7 @@
       <ref role="20lvS9" node="4o2nsMgBpPQ" resolve="ClassDeclaration" />
     </node>
   </node>
+<<<<<<< HEAD
   <node concept="1TIwiD" id="6NtgknWJ21h">
     <property role="EcuMT" value="7844497894798008401" />
     <property role="3GE5qa" value="method.constructor" />
@@ -539,12 +611,44 @@
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="6NtgknWJ2OD" role="PzmwI">
       <ref role="PrY4T" to="mj1l:6mfXVgRsmwb" resolve="IVoidTypeContainer" />
+=======
+  <node concept="1TIwiD" id="7fNEwq_6ZJn">
+    <property role="EcuMT" value="8355208679219002327" />
+    <property role="3GE5qa" value="namespace" />
+    <property role="TrG5h" value="NamespaceClassInstanceAttributeRef" />
+    <property role="R4oN_" value="Refer to namespace class attribute" />
+    <property role="34LRSv" value="." />
+    <ref role="1TJDcQ" to="mj1l:7FQByU3CrCM" resolve="Expression" />
+    <node concept="1TJgyj" id="7fNEwq_6ZJT" role="1TKVEi">
+      <property role="IQ2ns" value="8355208679219002361" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="class_instance" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="7RFM8R3Me1y" resolve="NamespaceClassInstance" />
+>>>>>>> a5b410c665... Fix highlighting to be consistent and make the package name lowercase
     </node>
     <node concept="PrWs8" id="6NtgknWJ2OY" role="PzmwI">
       <ref role="PrY4T" to="vs0r:4qSf1u1TQeO" resolve="IContainerOfUniqueNames" />
     </node>
+<<<<<<< HEAD
     <node concept="PrWs8" id="6NtgknWJ2Pf" role="PzmwI">
       <ref role="PrY4T" to="vs0r:1DVNPtFPBay" resolve="IShowUpInOutline" />
+=======
+  </node>
+  <node concept="1TIwiD" id="7fNEwqBx$6S">
+    <property role="EcuMT" value="8355208679259521464" />
+    <property role="3GE5qa" value="namespace" />
+    <property role="TrG5h" value="NamespaceClassInstanceMethodCall" />
+    <property role="34LRSv" value="." />
+    <property role="R4oN_" value="Refer to namespace class method" />
+    <ref role="1TJDcQ" to="mj1l:7FQByU3CrCM" resolve="Expression" />
+    <node concept="1TJgyj" id="7fNEwqBxBea" role="1TKVEi">
+      <property role="IQ2ns" value="8355208679259534218" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="actuals" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" to="mj1l:7FQByU3CrCM" resolve="Expression" />
+>>>>>>> a5b410c665... Fix highlighting to be consistent and make the package name lowercase
     </node>
     <node concept="PrWs8" id="6ddXmWdIoF3" role="PzmwI">
       <ref role="PrY4T" to="c4fa:1OcdQnySJNS" resolve="ILocalVarScopeProvider" />
@@ -555,8 +659,21 @@
     <node concept="PrWs8" id="6NtgknWJ2PX" role="PzmwI">
       <ref role="PrY4T" to="x27k:2lgwE2U4_F1" resolve="ICodeLocationAware" />
     </node>
+<<<<<<< HEAD
     <node concept="PrWs8" id="6NtgknWJ2Qq" role="PzmwI">
       <ref role="PrY4T" to="356a:4pl5GY7LKmz" resolve="TraceableConcept" />
+=======
+  </node>
+  <node concept="1TIwiD" id="383ZxwZqQYo">
+    <property role="EcuMT" value="3604003506923204504" />
+    <property role="TrG5h" value="NamespaceDeclaration" />
+    <property role="34LRSv" value="namespace" />
+    <property role="R4oN_" value="New namespace" />
+    <property role="3GE5qa" value="namespace" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="383ZxwZrBkm" role="PzmwI">
+      <ref role="PrY4T" to="x27k:5_l8w1EmTdf" resolve="IModuleContent" />
+>>>>>>> a5b410c665... Fix highlighting to be consistent and make the package name lowercase
     </node>
     <node concept="PrWs8" id="6NtgknWJ2RG" role="PzmwI">
       <ref role="PrY4T" to="vs0r:49YGTZdSIMN" resolve="GenericUnitProvider" />
@@ -567,16 +684,148 @@
     <node concept="1TJgyj" id="6ddXmWdC9sl" role="1TKVEi">
       <property role="IQ2ns" value="7155645240280389397" />
       <property role="20lmBu" value="aggregation" />
+<<<<<<< HEAD
       <property role="20kJfa" value="body" />
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" to="c4fa:3CmSUB7Fp_l" resolve="StatementList" />
+=======
+      <property role="20kJfa" value="members" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="383ZxwZsgd4" resolve="INamespaceMemberDeclaration" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="383ZxwZrBky">
+    <property role="EcuMT" value="3604003506923402530" />
+    <property role="3GE5qa" value="namespace" />
+    <property role="TrG5h" value="NamespaceMethodCall" />
+    <property role="34LRSv" value="::" />
+    <property role="R4oN_" value="Call a namespace method" />
+    <ref role="1TJDcQ" to="mj1l:7FQByU3CrCM" resolve="Expression" />
+    <node concept="PrWs8" id="383ZxwZrBkz" role="PzmwI">
+      <ref role="PrY4T" to="x27k:6WGVxckB05U" resolve="ICallLike" />
+    </node>
+    <node concept="PrWs8" id="1rolTiuGgp_" role="PzmwI">
+      <ref role="PrY4T" node="4o2nsMgBJ5Y" resolve="INamedClassMemberDeclaration" />
+>>>>>>> a5b410c665... Fix highlighting to be consistent and make the package name lowercase
     </node>
     <node concept="1TJgyj" id="3n$8_Xbh2kv" role="1TKVEi">
       <property role="IQ2ns" value="3883266571380204831" />
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="initializers" />
       <property role="20lbJX" value="0..n" />
+<<<<<<< HEAD
       <ref role="20lvS9" node="3n$8_Xbpg8r" resolve="IAmConstructorInitializable" />
+=======
+      <ref role="20lvS9" to="mj1l:7FQByU3CrCM" resolve="Expression" />
+    </node>
+    <node concept="1TJgyj" id="383ZxwZrBkD" role="1TKVEi">
+      <property role="IQ2ns" value="3604003506923402537" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="namespace" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="383ZxwZqQYo" resolve="NamespaceDeclaration" />
+    </node>
+    <node concept="1TJgyj" id="383ZxwZrBkI" role="1TKVEi">
+      <property role="IQ2ns" value="3604003506923402542" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="method" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="4o2nsMgB$VW" resolve="MethodDeclaration" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1$h5d7wdNkU">
+    <property role="EcuMT" value="1806247817194714426" />
+    <property role="3GE5qa" value="namespace" />
+    <property role="TrG5h" value="UsingGeneralNamespaceDeclaration" />
+    <property role="34LRSv" value="using" />
+    <property role="R4oN_" value="Using namespace &lt;...&gt;" />
+    <ref role="1TJDcQ" to="mj1l:7FQByU3CrCM" resolve="Expression" />
+    <node concept="1TJgyj" id="1$h5d7wk3lQ" role="1TKVEi">
+      <property role="IQ2ns" value="1806247817196352886" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="namespace" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="383ZxwZqQYo" resolve="NamespaceDeclaration" />
+    </node>
+    <node concept="PrWs8" id="1$h5d7wl4VS" role="PzmwI">
+      <ref role="PrY4T" node="383ZxwZsgd5" resolve="INamedNamespaceMemberDeclaration" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1$h5d7v1dEb">
+    <property role="EcuMT" value="1806247817174637195" />
+    <property role="3GE5qa" value="namespace" />
+    <property role="TrG5h" value="UsingNamespaceAttributeDeclaration" />
+    <property role="34LRSv" value="using" />
+    <property role="R4oN_" value="Using a namespace attribute" />
+    <ref role="1TJDcQ" to="mj1l:7FQByU3CrCM" resolve="Expression" />
+    <node concept="PrWs8" id="1$h5d7v1dEc" role="PzmwI">
+      <ref role="PrY4T" node="383ZxwZsgd5" resolve="INamedNamespaceMemberDeclaration" />
+    </node>
+    <node concept="1TJgyj" id="1$h5d7v1dEf" role="1TKVEi">
+      <property role="IQ2ns" value="1806247817174637199" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="namespace" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="383ZxwZqQYo" resolve="NamespaceDeclaration" />
+    </node>
+    <node concept="1TJgyj" id="1$h5d7v1dEp" role="1TKVEi">
+      <property role="IQ2ns" value="1806247817174637209" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="attribute" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="4o2nsMgBIrb" resolve="AttributeDeclaration" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1rolTiuOPQt">
+    <property role="EcuMT" value="1646161959635344797" />
+    <property role="3GE5qa" value="namespace" />
+    <property role="TrG5h" value="UsingNamespaceMethodDeclaration" />
+    <property role="34LRSv" value="using" />
+    <property role="R4oN_" value="Using a namespace method" />
+    <ref role="1TJDcQ" to="mj1l:7FQByU3CrCM" resolve="Expression" />
+    <node concept="1TJgyj" id="1rolTiuRvvJ" role="1TKVEi">
+      <property role="IQ2ns" value="1646161959636039663" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="namespace" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="383ZxwZqQYo" resolve="NamespaceDeclaration" />
+    </node>
+    <node concept="1TJgyj" id="1rolTiuOPRl" role="1TKVEi">
+      <property role="IQ2ns" value="1646161959635344853" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="method" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="4o2nsMgB$VW" resolve="MethodDeclaration" />
+    </node>
+    <node concept="PrWs8" id="1rolTivilg$" role="PzmwI">
+      <ref role="PrY4T" node="383ZxwZsgd5" resolve="INamedNamespaceMemberDeclaration" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="6oRbCP62xkS">
+    <property role="EcuMT" value="7365406899888067896" />
+    <property role="TrG5h" value="ClassTypeAccessor" />
+    <property role="3GE5qa" value="class" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="6oRbCP62xkT" role="1TKVEi">
+      <property role="IQ2ns" value="7365406899888067897" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="class" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="4o2nsMgBpPQ" resolve="ClassDeclaration" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3EDDOqDY7xe">
+    <property role="EcuMT" value="4227093647205103694" />
+    <property role="TrG5h" value="DeleteArrayDecleration" />
+    <property role="34LRSv" value="delete []" />
+    <property role="3GE5qa" value="class" />
+    <property role="R4oN_" value="delete keyword" />
+    <ref role="1TJDcQ" to="c4fa:3CmSUB7FmO3" resolve="Statement" />
+    <node concept="1TJgyi" id="3EDDOqDY7xf" role="1TKVEl">
+      <property role="IQ2nx" value="4227093647205103695" />
+      <property role="TrG5h" value="expression" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+>>>>>>> a5b410c665... Fix highlighting to be consistent and make the package name lowercase
     </node>
     <node concept="1TJgyi" id="6ddXmWdALYA" role="1TKVEl">
       <property role="IQ2nx" value="7155645240280031142" />

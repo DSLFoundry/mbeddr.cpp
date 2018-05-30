@@ -983,6 +983,7 @@
 >>>>>>> 9e19ddddd6... Rename virtualable -> virtualisable
     </node>
   </node>
+<<<<<<< HEAD
   <node concept="PKFIW" id="3UsoL$l5qlB">
     <property role="3GE5qa" value="class" />
     <property role="TrG5h" value="AncestorListEditor" />
@@ -1026,6 +1027,22 @@
                   <node concept="3zrR0B" id="3UsoL$l610$" role="2ShVmc">
                     <node concept="3Tqbb2" id="3UsoL$l610A" role="3zrR0E">
                       <ref role="ehGHo" to="wnzg:3UsoL$l5qkL" resolve="InheritanceInstance" />
+=======
+  <node concept="24kQdi" id="383ZxwZuAl6">
+    <property role="3GE5qa" value="namespace" />
+    <ref role="1XX52x" to="wnzg:383ZxwZrBky" resolve="NamespaceMethodCall" />
+    <node concept="3EZMnI" id="383ZxwZuAl8" role="2wV5jI">
+      <node concept="3EZMnI" id="dx81$Jcs1n" role="3EZMnx">
+        <node concept="1HlG4h" id="dx81$JFaFk" role="3EZMnx">
+          <node concept="1HfYo3" id="dx81$JFaFl" role="1HlULh">
+            <node concept="3TQlhw" id="dx81$JFaFm" role="1Hhtcw">
+              <node concept="3clFbS" id="dx81$JFaFn" role="2VODD2">
+                <node concept="3clFbF" id="dx81$JFaFo" role="3cqZAp">
+                  <node concept="2OqwBi" id="dx81$JFaFq" role="3clFbG">
+                    <node concept="pncrf" id="dx81$JFaFr" role="2Oq$k0" />
+                    <node concept="2qgKlT" id="r2pGceVWlJ" role="2OqNvi">
+                      <ref role="37wK5l" to="kntn:r2pGceUPkv" resolve="getNewEditorPresentation" />
+>>>>>>> a5b410c665... Fix highlighting to be consistent and make the package name lowercase
                     </node>
                   </node>
                 </node>
@@ -1420,6 +1437,7 @@
     </node>
   </node>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   <node concept="1h_SRR" id="6hUtorEdeMU">
     <property role="3GE5qa" value="class" />
@@ -1437,6 +1455,31 @@
                 <node concept="0IXxy" id="6hUtorEdjOD" role="2Oq$k0" />
                 <node concept="3TrEf2" id="6hUtorEdl5c" role="2OqNvi">
                   <ref role="3Tt5mk" to="wnzg:6hUtorE26va" resolve="constructor" />
+=======
+  <node concept="24kQdi" id="6gFj6gpBJFr">
+    <property role="3GE5qa" value="namespace" />
+    <ref role="1XX52x" to="wnzg:6gFj6gpBJFg" resolve="GlobalUsingGeneralNamespaceDeclaration" />
+    <node concept="3EZMnI" id="6gFj6gpBKdZ" role="2wV5jI">
+      <node concept="3F0ifn" id="6gFj6gpBKe0" role="3EZMnx">
+        <property role="3F0ifm" value="using namespace" />
+        <ref role="1k5W1q" to="r4b4:2CEi94dgHKA" resolve="KW" />
+      </node>
+      <node concept="1HlG4h" id="6gFj6gpBKe1" role="3EZMnx">
+        <node concept="1HfYo3" id="6gFj6gpBKe2" role="1HlULh">
+          <node concept="3TQlhw" id="6gFj6gpBKe3" role="1Hhtcw">
+            <node concept="3clFbS" id="6gFj6gpBKe4" role="2VODD2">
+              <node concept="3clFbF" id="6gFj6gpBKe5" role="3cqZAp">
+                <node concept="2OqwBi" id="6gFj6gpBKe6" role="3clFbG">
+                  <node concept="2OqwBi" id="6gFj6gpBKe7" role="2Oq$k0">
+                    <node concept="pncrf" id="6gFj6gpBKe8" role="2Oq$k0" />
+                    <node concept="3TrEf2" id="6gFj6gpBNse" role="2OqNvi">
+                      <ref role="3Tt5mk" to="wnzg:6gFj6gpBJF$" resolve="namespace" />
+                    </node>
+                  </node>
+                  <node concept="2qgKlT" id="6gFj6gpBOuC" role="2OqNvi">
+                    <ref role="37wK5l" to="kntn:383ZxwZufXU" resolve="getEditorPresentation" />
+                  </node>
+>>>>>>> a5b410c665... Fix highlighting to be consistent and make the package name lowercase
                 </node>
               </node>
             </node>
@@ -1477,6 +1520,7 @@
         </node>
       </node>
     </node>
+<<<<<<< HEAD
     <node concept="1Qtc8_" id="1N32NMNSrbD" role="IW6Ez">
       <node concept="IWgqT" id="1N32NMNSrcd" role="1Qtc8A">
         <node concept="1hCUdq" id="1N32NMNSrcf" role="1hCUd6">
@@ -1486,6 +1530,37 @@
                 <property role="Xl_RC" value="&lt;" />
               </node>
             </node>
+=======
+  </node>
+  <node concept="24kQdi" id="7fNEwq_6ZK4">
+    <property role="3GE5qa" value="namespace" />
+    <ref role="1XX52x" to="wnzg:7fNEwq_6ZJn" resolve="NamespaceClassInstanceAttributeRef" />
+    <node concept="3EZMnI" id="7fNEwq_6ZK7" role="2wV5jI">
+      <node concept="1iCGBv" id="7fNEwq_6ZKh" role="3EZMnx">
+        <ref role="1NtTu8" to="wnzg:7fNEwq_6ZJT" resolve="class_instance" />
+        <node concept="1sVBvm" id="7fNEwq_6ZKj" role="1sWHZn">
+          <node concept="3F0A7n" id="7fNEwqABAzs" role="2wV5jI">
+            <property role="1Intyy" value="true" />
+            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+          </node>
+        </node>
+      </node>
+      <node concept="3F0ifn" id="7fNEwq_6ZKE" role="3EZMnx">
+        <property role="3F0ifm" value="." />
+        <node concept="11L4FC" id="7fNEwq_kdgI" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="11LMrY" id="7fNEwq_kdgQ" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="1iCGBv" id="7fNEwq_6ZM9" role="3EZMnx">
+        <ref role="1NtTu8" to="wnzg:7fNEwq_6ZLT" resolve="class_attribute" />
+        <node concept="1sVBvm" id="7fNEwq_6ZMb" role="1sWHZn">
+          <node concept="3F0A7n" id="7fNEwq_6ZMt" role="2wV5jI">
+            <property role="1Intyy" value="true" />
+            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+>>>>>>> a5b410c665... Fix highlighting to be consistent and make the package name lowercase
           </node>
         </node>
         <node concept="IWg2L" id="1N32NMNSrcj" role="IWgqQ">
@@ -1505,6 +1580,7 @@
                 </node>
               </node>
             </node>
+<<<<<<< HEAD
             <node concept="3clFbF" id="1N32NMNSsdM" role="3cqZAp">
               <node concept="37vLTI" id="1N32NMNStvR" role="3clFbG">
                 <node concept="2OqwBi" id="1N32NMNStPV" role="37vLTx">
@@ -1519,6 +1595,32 @@
                   </node>
                   <node concept="3TrcHB" id="1N32NMNSsH$" role="2OqNvi">
                     <ref role="3TsBF5" to="wnzg:3UsoL$l5qkP" resolve="visibility" />
+=======
+          </node>
+        </node>
+      </node>
+      <node concept="l2Vlx" id="7fNEwq_6ZKa" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="383ZxwZsUB4">
+    <property role="3GE5qa" value="namespace" />
+    <ref role="1XX52x" to="wnzg:383ZxwZrBkp" resolve="NamespaceAttributeRef" />
+    <node concept="3EZMnI" id="383ZxwZsUB6" role="2wV5jI">
+      <node concept="3EZMnI" id="r2pGcfQ$VP" role="3EZMnx">
+        <node concept="VPM3Z" id="r2pGcfQ$VR" role="3F10Kt">
+          <property role="VOm3f" value="false" />
+        </node>
+        <node concept="1HlG4h" id="r2pGcfQ_ne" role="3EZMnx">
+          <node concept="1HfYo3" id="r2pGcfQ_nf" role="1HlULh">
+            <node concept="3TQlhw" id="r2pGcfQ_ng" role="1Hhtcw">
+              <node concept="3clFbS" id="r2pGcfQ_nh" role="2VODD2">
+                <node concept="3clFbF" id="r2pGcfQ_ni" role="3cqZAp">
+                  <node concept="2OqwBi" id="r2pGcfQ_nk" role="3clFbG">
+                    <node concept="pncrf" id="r2pGcfQ_nl" role="2Oq$k0" />
+                    <node concept="2qgKlT" id="r2pGcfQJAR" role="2OqNvi">
+                      <ref role="37wK5l" to="kntn:r2pGcfLTig" resolve="getNewEditorPresentation" />
+                    </node>
+>>>>>>> a5b410c665... Fix highlighting to be consistent and make the package name lowercase
                   </node>
                 </node>
               </node>
@@ -1636,6 +1738,7 @@
       </node>
     </node>
   </node>
+<<<<<<< HEAD
   <node concept="24kQdi" id="6hUtorDW7AP">
     <property role="3GE5qa" value="class" />
     <ref role="1XX52x" to="wnzg:6hUtorDW7AG" resolve="LocalClassVariableDeclaration" />
@@ -1651,6 +1754,30 @@
                 <node concept="3O6GUB" id="qT5MFmtIrM" role="2OqNvi">
                   <node concept="chp4Y" id="qT5MFmtIWj" role="3QVz_e">
                     <ref role="cht4Q" to="c4fa:3CmSUB7FprA" resolve="LocalVariableDeclaration" />
+=======
+  <node concept="24kQdi" id="1$h5d7wdNl6">
+    <property role="3GE5qa" value="namespace" />
+    <ref role="1XX52x" to="wnzg:1$h5d7wdNkU" resolve="UsingGeneralNamespaceDeclaration" />
+    <node concept="3EZMnI" id="1$h5d7wdNlc" role="2wV5jI">
+      <node concept="3F0ifn" id="1$h5d7wdNlF" role="3EZMnx">
+        <property role="3F0ifm" value="using namespace" />
+        <ref role="1k5W1q" to="r4b4:2CEi94dgHKA" resolve="KW" />
+      </node>
+      <node concept="1HlG4h" id="1$h5d7wKGpU" role="3EZMnx">
+        <node concept="1HfYo3" id="1$h5d7wKGpW" role="1HlULh">
+          <node concept="3TQlhw" id="1$h5d7wKGpY" role="1Hhtcw">
+            <node concept="3clFbS" id="1$h5d7wKGq0" role="2VODD2">
+              <node concept="3clFbF" id="1$h5d7wKKC_" role="3cqZAp">
+                <node concept="2OqwBi" id="1$h5d7wKNph" role="3clFbG">
+                  <node concept="2OqwBi" id="1$h5d7wKKXu" role="2Oq$k0">
+                    <node concept="pncrf" id="1$h5d7wKKC$" role="2Oq$k0" />
+                    <node concept="3TrEf2" id="1$h5d7wKMB7" role="2OqNvi">
+                      <ref role="3Tt5mk" to="wnzg:1$h5d7wk3lQ" resolve="namespace" />
+                    </node>
+                  </node>
+                  <node concept="2qgKlT" id="1$h5d7wKOEG" role="2OqNvi">
+                    <ref role="37wK5l" to="kntn:383ZxwZufXU" resolve="getEditorPresentation" />
+>>>>>>> a5b410c665... Fix highlighting to be consistent and make the package name lowercase
                   </node>
                 </node>
               </node>
@@ -1713,6 +1840,23 @@
             </node>
           </node>
         </node>
+<<<<<<< HEAD
+=======
+        <node concept="11L4FC" id="1$h5d7wJyQu" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="l2Vlx" id="1$h5d7wdNlf" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="1$h5d7v1dER">
+    <property role="3GE5qa" value="namespace" />
+    <ref role="1XX52x" to="wnzg:1$h5d7v1dEb" resolve="UsingNamespaceAttributeDeclaration" />
+    <node concept="3EZMnI" id="1$h5d7v1emW" role="2wV5jI">
+      <node concept="3F0ifn" id="1$h5d7v1emX" role="3EZMnx">
+        <property role="3F0ifm" value="using" />
+        <ref role="1k5W1q" to="r4b4:2CEi94dgHKA" resolve="KW" />
+>>>>>>> a5b410c665... Fix highlighting to be consistent and make the package name lowercase
       </node>
       <node concept="3EZMnI" id="17yeYAhLPYR" role="3EZMnx">
         <node concept="VPM3Z" id="17yeYAhLPYT" role="3F10Kt">
@@ -1896,6 +2040,7 @@
       </node>
     </node>
   </node>
+<<<<<<< HEAD
   <node concept="24kQdi" id="7DDmkyVrAx">
     <property role="3GE5qa" value="method.constructor" />
     <ref role="1XX52x" to="wnzg:7DDmkyVr_r" resolve="ConstructorInitializedAttribute" />
@@ -1910,6 +2055,26 @@
               <property role="VOm3f" value="false" />
             </node>
           </node>
+=======
+  <node concept="24kQdi" id="383ZxwZsUhv">
+    <property role="3GE5qa" value="namespace" />
+    <ref role="1XX52x" to="wnzg:383ZxwZqQYo" resolve="NamespaceDeclaration" />
+    <node concept="3EZMnI" id="383ZxwZsUhx" role="2wV5jI">
+      <node concept="3EZMnI" id="383ZxwZsUhF" role="3EZMnx">
+        <node concept="VPM3Z" id="383ZxwZsUhH" role="3F10Kt">
+          <property role="VOm3f" value="false" />
+        </node>
+        <node concept="3F0ifn" id="383ZxwZsUhT" role="3EZMnx">
+          <property role="3F0ifm" value="namespace" />
+          <ref role="1k5W1q" to="r4b4:2CEi94dgHKA" resolve="KW" />
+        </node>
+        <node concept="3F0A7n" id="383ZxwZsUi2" role="3EZMnx">
+          <property role="1cu_pB" value="0" />
+          <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+        </node>
+        <node concept="3F0ifn" id="383ZxwZsUif" role="3EZMnx">
+          <property role="3F0ifm" value="{" />
+>>>>>>> a5b410c665... Fix highlighting to be consistent and make the package name lowercase
         </node>
       </node>
       <node concept="3F0ifn" id="7DDmkz0vlO" role="3EZMnx">
@@ -1973,6 +2138,7 @@
       <node concept="l2Vlx" id="7DDmkza$5W" role="2iSdaV" />
     </node>
   </node>
+<<<<<<< HEAD
   <node concept="3ICXOK" id="5i01kANlz3$">
     <property role="3GE5qa" value="method.constructor" />
     <property role="TrG5h" value="ConstructorToDestructor" />
@@ -1984,6 +2150,32 @@
             <node concept="3clFbF" id="5i01kANlzcX" role="3cqZAp">
               <node concept="Xl_RD" id="5i01kANlzcW" role="3clFbG">
                 <property role="Xl_RC" value="~" />
+=======
+  <node concept="24kQdi" id="7RFM8R0xwrp">
+    <property role="3GE5qa" value="namespace" />
+    <ref role="1XX52x" to="wnzg:7RFM8R0xwre" resolve="GlobalUsingNamespaceAttributeDeclaration" />
+    <node concept="3EZMnI" id="7RFM8R0xwrx" role="2wV5jI">
+      <node concept="3F0ifn" id="7RFM8R0xwry" role="3EZMnx">
+        <property role="3F0ifm" value="using" />
+        <ref role="1k5W1q" to="r4b4:2CEi94dgHKA" resolve="KW" />
+      </node>
+      <node concept="1HlG4h" id="7RFM8R0xwrz" role="3EZMnx">
+        <node concept="1HfYo3" id="7RFM8R0xwr$" role="1HlULh">
+          <node concept="3TQlhw" id="7RFM8R0xwr_" role="1Hhtcw">
+            <node concept="3clFbS" id="7RFM8R0xwrA" role="2VODD2">
+              <node concept="3clFbF" id="7RFM8R0xwrB" role="3cqZAp">
+                <node concept="2OqwBi" id="7RFM8R0xwrC" role="3clFbG">
+                  <node concept="2OqwBi" id="7RFM8R0xwrD" role="2Oq$k0">
+                    <node concept="pncrf" id="7RFM8R0xwrE" role="2Oq$k0" />
+                    <node concept="3TrEf2" id="7RFM8R0xwrF" role="2OqNvi">
+                      <ref role="3Tt5mk" to="wnzg:7RFM8R0xwrf" resolve="namespace" />
+                    </node>
+                  </node>
+                  <node concept="2qgKlT" id="7RFM8R0xwrG" role="2OqNvi">
+                    <ref role="37wK5l" to="kntn:383ZxwZufXU" resolve="getEditorPresentation" />
+                  </node>
+                </node>
+>>>>>>> a5b410c665... Fix highlighting to be consistent and make the package name lowercase
               </node>
             </node>
           </node>
@@ -2128,6 +2320,7 @@
           </node>
         </node>
       </node>
+<<<<<<< HEAD
       <node concept="PMmxH" id="2O2YBLCyL1o" role="3EZMnx">
         <ref role="PMmxG" to="j4gk:52l0VUuN8lr" resolve="IStoreInRegisterComponent" />
       </node>
@@ -2139,6 +2332,21 @@
         <node concept="OXEIz" id="2O2YBLCk5kv" role="P5bDN">
           <node concept="UkePV" id="2O2YBLCk5kw" role="OY2wv">
             <ref role="Ul1FP" to="mj1l:7FQByU3CrCQ" resolve="Type" />
+=======
+      <node concept="l2Vlx" id="7RFM8R0xwsr" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="7fNEwqBx$79">
+    <property role="3GE5qa" value="namespace" />
+    <ref role="1XX52x" to="wnzg:7fNEwqBx$6S" resolve="NamespaceClassInstanceMethodCall" />
+    <node concept="3EZMnI" id="7fNEwqBx_4A" role="2wV5jI">
+      <node concept="1iCGBv" id="7fNEwqBx_4U" role="3EZMnx">
+        <ref role="1NtTu8" to="wnzg:7fNEwqBx$6T" resolve="class_instance" />
+        <node concept="1sVBvm" id="7fNEwqBx_4V" role="1sWHZn">
+          <node concept="3F0A7n" id="7fNEwqBx_4W" role="2wV5jI">
+            <property role="1Intyy" value="true" />
+            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+>>>>>>> a5b410c665... Fix highlighting to be consistent and make the package name lowercase
           </node>
         </node>
       </node>
@@ -2380,7 +2588,7 @@
     </node>
   </node>
   <node concept="V5hpn" id="383ZxwZsUkN">
-    <property role="3GE5qa" value="Namespace" />
+    <property role="3GE5qa" value="namespace" />
     <property role="TrG5h" value="NamespaceImplementation" />
     <node concept="14StLt" id="383ZxwZsUkR" role="V601i">
       <property role="TrG5h" value="NS" />
@@ -2405,6 +2613,7 @@
       </node>
     </node>
   </node>
+<<<<<<< HEAD
   <node concept="24kQdi" id="383ZxwZsUB4">
     <property role="3GE5qa" value="Namespace" />
     <ref role="1XX52x" to="wnzg:383ZxwZrBkp" resolve="NamespaceAttributeRef" />
@@ -2422,12 +2631,123 @@
                     <node concept="pncrf" id="r2pGcfQ_nl" role="2Oq$k0" />
                     <node concept="2qgKlT" id="r2pGcfQJAR" role="2OqNvi">
                       <ref role="37wK5l" to="kntn:r2pGcfLTig" resolve="getNewEditorPresentation" />
+=======
+  <node concept="24kQdi" id="7RFM8R3Me2l">
+    <property role="3GE5qa" value="namespace" />
+    <ref role="1XX52x" to="wnzg:7RFM8R3Me1y" resolve="NamespaceClassInstance" />
+    <node concept="3EZMnI" id="7RFM8R3Me2r" role="2wV5jI">
+      <node concept="1HlG4h" id="7RFM8R40pvP" role="3EZMnx">
+        <node concept="1HfYo3" id="7RFM8R40pvR" role="1HlULh">
+          <node concept="3TQlhw" id="7RFM8R40pvT" role="1Hhtcw">
+            <node concept="3clFbS" id="7RFM8R40pvV" role="2VODD2">
+              <node concept="3clFbF" id="7RFM8R40t6C" role="3cqZAp">
+                <node concept="2OqwBi" id="7RFM8R40tuR" role="3clFbG">
+                  <node concept="pncrf" id="7RFM8R40t6B" role="2Oq$k0" />
+                  <node concept="2qgKlT" id="7RFM8R41v_l" role="2OqNvi">
+                    <ref role="37wK5l" to="kntn:7RFM8R40uZO" resolve="getNamespaceAncestorsOfClass" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="11LMrY" id="7fNEwq$1CdS" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="1iCGBv" id="7RFM8R3Me2_" role="3EZMnx">
+        <ref role="1NtTu8" to="wnzg:7RFM8R3Me2a" resolve="class" />
+        <node concept="1sVBvm" id="7RFM8R3Me2B" role="1sWHZn">
+          <node concept="3F0A7n" id="7RFM8R3Me2L" role="2wV5jI">
+            <property role="1Intyy" value="true" />
+            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+          </node>
+        </node>
+      </node>
+      <node concept="3F0A7n" id="7RFM8R3Me2Y" role="3EZMnx">
+        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+        <node concept="pkWqt" id="7RFM8R4xUhe" role="pqm2j">
+          <node concept="3clFbS" id="7RFM8R4xUhf" role="2VODD2">
+            <node concept="3clFbF" id="7RFM8R4xUGR" role="3cqZAp">
+              <node concept="2OqwBi" id="7RFM8R4xWPM" role="3clFbG">
+                <node concept="2OqwBi" id="7RFM8R4xV4x" role="2Oq$k0">
+                  <node concept="pncrf" id="7RFM8R4xUGQ" role="2Oq$k0" />
+                  <node concept="3TrEf2" id="7RFM8R4xVSX" role="2OqNvi">
+                    <ref role="3Tt5mk" to="wnzg:7RFM8R3Me2a" resolve="class" />
+                  </node>
+                </node>
+                <node concept="3x8VRR" id="7RFM8R4xXHE" role="2OqNvi" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3F0ifn" id="7fNEwq$7SRi" role="3EZMnx">
+        <property role="3F0ifm" value=";" />
+        <ref role="1k5W1q" to="r4b4:2CEi94dhkRt" resolve="Semi" />
+        <node concept="11L4FC" id="7fNEwq$7TJQ" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="pkWqt" id="7fNEwq$7TJT" role="pqm2j">
+          <node concept="3clFbS" id="7fNEwq$7TJU" role="2VODD2">
+            <node concept="3clFbF" id="7fNEwq$7TRh" role="3cqZAp">
+              <node concept="1Wc70l" id="7fNEwqBqxV$" role="3clFbG">
+                <node concept="2OqwBi" id="7fNEwqBq$TS" role="3uHU7w">
+                  <node concept="2OqwBi" id="7fNEwqBqyyr" role="2Oq$k0">
+                    <node concept="pncrf" id="7fNEwqBqy89" role="2Oq$k0" />
+                    <node concept="2Xjw5R" id="7fNEwqBqzwh" role="2OqNvi">
+                      <node concept="1xMEDy" id="7fNEwqBqzwj" role="1xVPHs">
+                        <node concept="chp4Y" id="7fNEwqBq$ph" role="ri$Ld">
+                          <ref role="cht4Q" to="c4fa:3CmSUB7Fp_l" resolve="StatementList" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3w_OXm" id="7fNEwqBq_NR" role="2OqNvi" />
+                </node>
+                <node concept="2OqwBi" id="7fNEwq$7W0K" role="3uHU7B">
+                  <node concept="2OqwBi" id="7fNEwq$7UeV" role="2Oq$k0">
+                    <node concept="pncrf" id="7fNEwq$7TRg" role="2Oq$k0" />
+                    <node concept="3TrcHB" id="7fNEwq$7V3k" role="2OqNvi">
+                      <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                    </node>
+                  </node>
+                  <node concept="17RvpY" id="7fNEwq$7WBp" role="2OqNvi" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="l2Vlx" id="7RFM8R3Me2u" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="7RFM8R0Rm5A">
+    <property role="3GE5qa" value="namespace" />
+    <ref role="1XX52x" to="wnzg:7RFM8R0Rm5q" resolve="GlobalUsingNamespaceMethodDeclaration" />
+    <node concept="3EZMnI" id="7RFM8R0Rm67" role="2wV5jI">
+      <node concept="3F0ifn" id="7RFM8R0Rm68" role="3EZMnx">
+        <property role="3F0ifm" value="using" />
+        <ref role="1k5W1q" to="r4b4:2CEi94dgHKA" resolve="KW" />
+      </node>
+      <node concept="1HlG4h" id="7RFM8R0Rm69" role="3EZMnx">
+        <node concept="1HfYo3" id="7RFM8R0Rm6a" role="1HlULh">
+          <node concept="3TQlhw" id="7RFM8R0Rm6b" role="1Hhtcw">
+            <node concept="3clFbS" id="7RFM8R0Rm6c" role="2VODD2">
+              <node concept="3clFbF" id="7RFM8R0Rm6d" role="3cqZAp">
+                <node concept="2OqwBi" id="7RFM8R0Rm6e" role="3clFbG">
+                  <node concept="2OqwBi" id="7RFM8R0Rm6f" role="2Oq$k0">
+                    <node concept="pncrf" id="7RFM8R0Rm6g" role="2Oq$k0" />
+                    <node concept="3TrEf2" id="7RFM8R0Rm6h" role="2OqNvi">
+                      <ref role="3Tt5mk" to="wnzg:7RFM8R0Rm5r" resolve="namespace" />
+>>>>>>> a5b410c665... Fix highlighting to be consistent and make the package name lowercase
                     </node>
                   </node>
                 </node>
               </node>
             </node>
           </node>
+<<<<<<< HEAD
           <node concept="pkWqt" id="r2pGcfQ_no" role="pqm2j">
             <node concept="3clFbS" id="r2pGcfQ_np" role="2VODD2">
               <node concept="3clFbF" id="r2pGcfQ_nq" role="3cqZAp">
@@ -2436,6 +2756,34 @@
                     <node concept="pncrf" id="r2pGcfQ_nt" role="2Oq$k0" />
                     <node concept="3TrEf2" id="r2pGcfQ_nu" role="2OqNvi">
                       <ref role="3Tt5mk" to="wnzg:383ZxwZrBkq" resolve="namespace" />
+=======
+        </node>
+        <node concept="11L4FC" id="7RFM8R0Rm70" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="l2Vlx" id="7RFM8R0Rm71" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="1rolTiuOPR0">
+    <property role="3GE5qa" value="namespace" />
+    <ref role="1XX52x" to="wnzg:1rolTiuOPQt" resolve="UsingNamespaceMethodDeclaration" />
+    <node concept="3EZMnI" id="1rolTiuOPR2" role="2wV5jI">
+      <node concept="3F0ifn" id="1rolTiuOPRc" role="3EZMnx">
+        <property role="3F0ifm" value="using" />
+        <ref role="1k5W1q" to="r4b4:2CEi94dgHKA" resolve="KW" />
+      </node>
+      <node concept="1HlG4h" id="1rolTiuWJKc" role="3EZMnx">
+        <node concept="1HfYo3" id="1rolTiuWJKe" role="1HlULh">
+          <node concept="3TQlhw" id="1rolTiuWJKg" role="1Hhtcw">
+            <node concept="3clFbS" id="1rolTiuWJKi" role="2VODD2">
+              <node concept="3clFbF" id="1rolTiuWMXK" role="3cqZAp">
+                <node concept="2OqwBi" id="1rolTiuWOM4" role="3clFbG">
+                  <node concept="2OqwBi" id="1rolTiuWNgn" role="2Oq$k0">
+                    <node concept="pncrf" id="1rolTiuWMXJ" role="2Oq$k0" />
+                    <node concept="3TrEf2" id="1rolTiuWNYk" role="2OqNvi">
+                      <ref role="3Tt5mk" to="wnzg:1rolTiuRvvJ" resolve="namespace" />
+>>>>>>> a5b410c665... Fix highlighting to be consistent and make the package name lowercase
                     </node>
                   </node>
                   <node concept="3x8VRR" id="r2pGcfQ_nv" role="2OqNvi" />

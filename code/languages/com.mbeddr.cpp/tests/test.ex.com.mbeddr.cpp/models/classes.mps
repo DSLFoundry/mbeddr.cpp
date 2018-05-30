@@ -128,6 +128,7 @@
         <property id="2277423264798199360" name="isInlined" index="226Go$" />
       </concept>
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> a36012117c... Fix testcases
 =======
       <concept id="7240228573262412204" name="com.mbeddr.cpp.base.structure.LocalClassVariableDeclaration" flags="ng" index="2dywKE">
@@ -135,6 +136,9 @@
         <child id="7240228573265829198" name="constructor_arg_actuals" index="2enIz8" />
       </concept>
 >>>>>>> 25f98cbbb7... Fix class constructors
+=======
+      <concept id="3604003506923204504" name="com.mbeddr.cpp.base.structure.NamespaceDeclaration" flags="ng" index="dq960" />
+>>>>>>> a5b410c665... Fix highlighting to be consistent and make the package name lowercase
       <concept id="7240228573260630076" name="com.mbeddr.cpp.base.structure.ConstructorVoidType" flags="ng" index="2dFNQU" />
       <concept id="7844497894798008401" name="com.mbeddr.cpp.base.structure.ClassConstructorSignature" flags="ng" index="2gom4k">
         <property id="6088872510303555204" name="is_destructor" index="3BMcJd" />
@@ -717,12 +721,19 @@
         </node>
       </node>
     </node>
+<<<<<<< HEAD
     <node concept="2NXPZ9" id="6ddXmWdFdJu" role="N3F5h">
       <property role="TrG5h" value="empty_1526554437131_1" />
     </node>
     <node concept="2NXPZ9" id="6ddXmWdFdNl" role="N3F5h">
       <property role="TrG5h" value="empty_1526554437289_2" />
     </node>
+=======
+    <node concept="2NXPZ9" id="3UJ18qjr0Y3" role="N3F5h">
+      <property role="TrG5h" value="empty_1527686545203_3" />
+    </node>
+    <node concept="dq960" id="3UJ18qjr15B" role="N3F5h" />
+>>>>>>> a5b410c665... Fix highlighting to be consistent and make the package name lowercase
     <node concept="2NXPZ9" id="45rBLTDXEWp" role="N3F5h">
       <property role="TrG5h" value="empty_1526547438983_6" />
     </node>

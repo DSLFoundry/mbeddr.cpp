@@ -329,6 +329,7 @@
     </language>
   </registry>
 <<<<<<< HEAD
+<<<<<<< HEAD
   <node concept="1M2fIO" id="6hUtorE3DPH">
     <property role="3GE5qa" value="class" />
     <ref role="1M2myG" to="wnzg:6hUtorDW7AG" resolve="LocalClassVariableDeclaration" />
@@ -341,6 +342,20 @@
               <property role="TrG5h" value="cScope" />
               <node concept="3uibUv" id="6hUtorEuXye" role="1tU5fm">
                 <ref role="3uigEE" to="o8zo:7ipADkTevLt" resolve="CompositeScope" />
+=======
+  <node concept="1M2fIO" id="383ZxwZuPTg">
+    <property role="3GE5qa" value="namespace" />
+    <ref role="1M2myG" to="wnzg:383ZxwZrBky" resolve="NamespaceMethodCall" />
+    <node concept="1N5Pfh" id="383ZxwZuPTh" role="1Mr941">
+      <ref role="1N5Vy1" to="wnzg:383ZxwZrBkI" resolve="method" />
+      <node concept="3dgokm" id="383ZxwZuPTn" role="1N6uqs">
+        <node concept="3clFbS" id="383ZxwZuPTp" role="2VODD2">
+          <node concept="3cpWs8" id="3Nc$bFG9xCR" role="3cqZAp">
+            <node concept="3cpWsn" id="3Nc$bFG9xCS" role="3cpWs9">
+              <property role="TrG5h" value="methScope" />
+              <node concept="3uibUv" id="3Nc$bFG9xCT" role="1tU5fm">
+                <ref role="3uigEE" to="o8zo:3fifI_xCtN$" resolve="Scope" />
+>>>>>>> a5b410c665... Fix highlighting to be consistent and make the package name lowercase
               </node>
               <node concept="2ShNRf" id="6hUtorEuXI8" role="33vP2m">
                 <node concept="1pGfFk" id="6hUtorEuXOr" role="2ShVmc">
@@ -379,9 +394,43 @@
               <property role="3SKdUp" value="This may be null, checks for whether or not the declaration is inside of a class. If it is, we" />
             </node>
           </node>
+<<<<<<< HEAD
           <node concept="3SKdUt" id="2xmTzC2MlNY" role="3cqZAp">
             <node concept="3SKdUq" id="2xmTzC2MlO0" role="3SKWNk">
               <property role="3SKdUp" value="include protected and private constructors of the current class, and protected constructors" />
+=======
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="7RFM8R0Rm5C">
+    <property role="3GE5qa" value="namespace" />
+    <ref role="1M2myG" to="wnzg:7RFM8R0Rm5q" resolve="GlobalUsingNamespaceMethodDeclaration" />
+    <node concept="1N5Pfh" id="7RFM8R0Roby" role="1Mr941">
+      <ref role="1N5Vy1" to="wnzg:7RFM8R0Rm5s" resolve="method" />
+      <node concept="3dgokm" id="7RFM8R0RoeG" role="1N6uqs">
+        <node concept="3clFbS" id="7RFM8R0RoeH" role="2VODD2">
+          <node concept="3cpWs8" id="7RFM8R0RoeI" role="3cqZAp">
+            <node concept="3cpWsn" id="7RFM8R0RoeJ" role="3cpWs9">
+              <property role="TrG5h" value="newScope" />
+              <node concept="3uibUv" id="7RFM8R0RoeK" role="1tU5fm">
+                <ref role="3uigEE" to="o8zo:3fifI_xCtN$" resolve="Scope" />
+              </node>
+              <node concept="2YIFZM" id="7RFM8R0RoeL" role="33vP2m">
+                <ref role="1Pybhc" to="o8zo:7ipADkTevLm" resolve="SimpleRoleScope" />
+                <ref role="37wK5l" to="o8zo:6t3ylNOzI9Y" resolve="forNamedElements" />
+                <node concept="2OqwBi" id="7RFM8R0RoeM" role="37wK5m">
+                  <node concept="3kakTB" id="7RFM8R0RoeN" role="2Oq$k0" />
+                  <node concept="3TrEf2" id="7RFM8R0RoeO" role="2OqNvi">
+                    <ref role="3Tt5mk" to="wnzg:7RFM8R0Rm5r" resolve="namespace" />
+                  </node>
+                </node>
+                <node concept="359W_D" id="7RFM8R0RoeP" role="37wK5m">
+                  <ref role="359W_E" to="wnzg:383ZxwZqQYo" resolve="NamespaceDeclaration" />
+                  <ref role="359W_F" to="wnzg:383ZxwZsUja" resolve="members" />
+                </node>
+              </node>
+>>>>>>> a5b410c665... Fix highlighting to be consistent and make the package name lowercase
             </node>
           </node>
           <node concept="3SKdUt" id="2xmTzC2MmC4" role="3cqZAp">
@@ -424,6 +473,7 @@
                         <node concept="37vLTw" id="2xmTzC2ME0H" role="2Oq$k0">
                           <ref role="3cqZAo" node="2xmTzC2MgH2" resolve="pClass" />
                         </node>
+<<<<<<< HEAD
                         <node concept="2qgKlT" id="6_kdBKMWMqE" role="2OqNvi">
                           <ref role="37wK5l" to="kntn:2xmTzC2MHBB" resolve="getAllLocalConstructors" />
 =======
@@ -447,6 +497,216 @@
                         <node concept="chp4Y" id="ZKpU3C53T6" role="ri$Ld">
                           <ref role="cht4Q" to="x27k:5_l8w1EmTde" resolve="ImplementationModule" />
 >>>>>>> b70d14e537... loads of stuff
+=======
+                      </node>
+                      <node concept="3TrcHB" id="7RFM8R0YLmg" role="2OqNvi">
+                        <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="2OqwBi" id="7RFM8R0Rvpx" role="37vLTJ">
+                <node concept="EsrRn" id="7RFM8R0Rvpy" role="2Oq$k0" />
+                <node concept="3TrcHB" id="7RFM8R0Rvpz" role="2OqNvi">
+                  <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="6gFj6gpEkqz">
+    <property role="3GE5qa" value="namespace" />
+    <ref role="1M2myG" to="wnzg:6gFj6gpBJFg" resolve="GlobalUsingGeneralNamespaceDeclaration" />
+    <node concept="EnEH3" id="6gFj6gpEkq$" role="1MhHOB">
+      <ref role="EomxK" to="tpck:h0TrG11" resolve="name" />
+      <node concept="Eqf_E" id="6gFj6gpKXtU" role="EtsB7">
+        <node concept="3clFbS" id="6gFj6gpKXtV" role="2VODD2">
+          <node concept="3clFbF" id="6gFj6gpN9aN" role="3cqZAp">
+            <node concept="3cpWs3" id="6gFj6gpREoD" role="3clFbG">
+              <node concept="Xl_RD" id="6gFj6gpRECu" role="3uHU7w">
+                <property role="Xl_RC" value="gb" />
+              </node>
+              <node concept="2OqwBi" id="6gFj6gpNbKG" role="3uHU7B">
+                <node concept="2OqwBi" id="6gFj6gpNawP" role="2Oq$k0">
+                  <node concept="EsrRn" id="6gFj6gpNab7" role="2Oq$k0" />
+                  <node concept="3TrEf2" id="6gFj6gpNb4L" role="2OqNvi">
+                    <ref role="3Tt5mk" to="wnzg:6gFj6gpBJF$" resolve="namespace" />
+                  </node>
+                </node>
+                <node concept="3TrcHB" id="6gFj6gpNcrF" role="2OqNvi">
+                  <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="1LLf8_" id="6gFj6gpPkCd" role="1LXaQT">
+        <node concept="3clFbS" id="6gFj6gpPkCe" role="2VODD2">
+          <node concept="3clFbF" id="6gFj6gpPkS6" role="3cqZAp">
+            <node concept="37vLTI" id="6gFj6gpPm7d" role="3clFbG">
+              <node concept="3cpWs3" id="6gFj6gpPpyg" role="37vLTx">
+                <node concept="Xl_RD" id="6gFj6gpPpIk" role="3uHU7B">
+                  <property role="Xl_RC" value="global using namespace " />
+                </node>
+                <node concept="2OqwBi" id="6gFj6gpPnCF" role="3uHU7w">
+                  <node concept="2OqwBi" id="6gFj6gpPmAO" role="2Oq$k0">
+                    <node concept="EsrRn" id="6gFj6gpPmjs" role="2Oq$k0" />
+                    <node concept="3TrEf2" id="6gFj6gpPmYH" role="2OqNvi">
+                      <ref role="3Tt5mk" to="wnzg:6gFj6gpBJF$" resolve="namespace" />
+                    </node>
+                  </node>
+                  <node concept="3TrcHB" id="6gFj6gpPoAB" role="2OqNvi">
+                    <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                  </node>
+                </node>
+              </node>
+              <node concept="2OqwBi" id="6gFj6gpPl5r" role="37vLTJ">
+                <node concept="EsrRn" id="6gFj6gpPkS5" role="2Oq$k0" />
+                <node concept="3TrcHB" id="6gFj6gpPlq5" role="2OqNvi">
+                  <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="7fNEwq_6ZK6">
+    <property role="3GE5qa" value="namespace" />
+    <ref role="1M2myG" to="wnzg:7fNEwq_6ZJn" resolve="NamespaceClassInstanceAttributeRef" />
+    <node concept="1N5Pfh" id="7fNEwq_6ZMx" role="1Mr941">
+      <ref role="1N5Vy1" to="wnzg:7fNEwq_6ZLT" resolve="class_attribute" />
+      <node concept="3dgokm" id="7fNEwq_6ZMB" role="1N6uqs">
+        <node concept="3clFbS" id="7fNEwq_6ZMD" role="2VODD2">
+          <node concept="3clFbF" id="7fNEwq_r2Gq" role="3cqZAp">
+            <node concept="2YIFZM" id="7fNEwq_r2On" role="3clFbG">
+              <ref role="37wK5l" to="o8zo:4IP40Bi3eAf" resolve="forNamedElements" />
+              <ref role="1Pybhc" to="o8zo:4IP40Bi3e_R" resolve="ListScope" />
+              <node concept="2OqwBi" id="7fNEwq_r3dU" role="37wK5m">
+                <node concept="3kakTB" id="7fNEwq_r2Ta" role="2Oq$k0" />
+                <node concept="2qgKlT" id="7fNEwq_r3FS" role="2OqNvi">
+                  <ref role="37wK5l" to="kntn:7fNEwq_qWne" resolve="allPublicAttributes" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="7fNEwqBx$7b">
+    <property role="3GE5qa" value="namespace" />
+    <ref role="1M2myG" to="wnzg:7fNEwqBx$6S" resolve="NamespaceClassInstanceMethodCall" />
+    <node concept="1N5Pfh" id="7fNEwqBxCee" role="1Mr941">
+      <ref role="1N5Vy1" to="wnzg:7fNEwqBx$6W" resolve="class_method" />
+      <node concept="3dgokm" id="7fNEwqBxCey" role="1N6uqs">
+        <node concept="3clFbS" id="7fNEwqBxCe$" role="2VODD2">
+          <node concept="3clFbF" id="7fNEwqBxCtm" role="3cqZAp">
+            <node concept="2YIFZM" id="7fNEwqBxC_j" role="3clFbG">
+              <ref role="37wK5l" to="o8zo:4IP40Bi3eAf" resolve="forNamedElements" />
+              <ref role="1Pybhc" to="o8zo:4IP40Bi3e_R" resolve="ListScope" />
+              <node concept="2OqwBi" id="7fNEwqBym$e" role="37wK5m">
+                <node concept="3kakTB" id="7fNEwqBymgJ" role="2Oq$k0" />
+                <node concept="2qgKlT" id="7fNEwqBymXs" role="2OqNvi">
+                  <ref role="37wK5l" to="kntn:7fNEwqBxD2s" resolve="allPublicMethods" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="3Nc$bFFSMUe">
+    <property role="3GE5qa" value="namespace" />
+    <ref role="1M2myG" to="wnzg:1$h5d7v1dEb" resolve="UsingNamespaceAttributeDeclaration" />
+    <node concept="1N5Pfh" id="3Nc$bFFSMUf" role="1Mr941">
+      <ref role="1N5Vy1" to="wnzg:1$h5d7v1dEp" resolve="attribute" />
+      <node concept="3dgokm" id="3Nc$bFFSMUh" role="1N6uqs">
+        <node concept="3clFbS" id="3Nc$bFFSMUi" role="2VODD2">
+          <node concept="3clFbF" id="3Nc$bFFSMXf" role="3cqZAp">
+            <node concept="2YIFZM" id="3Nc$bFFSN4K" role="3clFbG">
+              <ref role="37wK5l" to="o8zo:6t3ylNOzI9Y" resolve="forNamedElements" />
+              <ref role="1Pybhc" to="o8zo:7ipADkTevLm" resolve="SimpleRoleScope" />
+              <node concept="2OqwBi" id="3Nc$bFFSNpQ" role="37wK5m">
+                <node concept="3kakTB" id="3Nc$bFFSN9k" role="2Oq$k0" />
+                <node concept="3TrEf2" id="3Nc$bFFSNNS" role="2OqNvi">
+                  <ref role="3Tt5mk" to="wnzg:1$h5d7v1dEf" resolve="namespace" />
+                </node>
+              </node>
+              <node concept="359W_D" id="3Nc$bFFSO6C" role="37wK5m">
+                <ref role="359W_E" to="wnzg:383ZxwZqQYo" resolve="NamespaceDeclaration" />
+                <ref role="359W_F" to="wnzg:383ZxwZsUja" resolve="members" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="7RFM8R0xwrr">
+    <property role="3GE5qa" value="namespace" />
+    <ref role="1M2myG" to="wnzg:7RFM8R0xwre" resolve="GlobalUsingNamespaceAttributeDeclaration" />
+    <node concept="EnEH3" id="7RFM8R0xz7o" role="1MhHOB">
+      <ref role="EomxK" to="tpck:h0TrG11" resolve="name" />
+      <node concept="Eqf_E" id="7RFM8R0xzX3" role="EtsB7">
+        <node concept="3clFbS" id="7RFM8R0xzX4" role="2VODD2">
+          <node concept="3clFbF" id="7RFM8R0xzX5" role="3cqZAp">
+            <node concept="3cpWs3" id="7RFM8R0xzX6" role="3clFbG">
+              <node concept="2OqwBi" id="7RFM8R0xzX8" role="3uHU7B">
+                <node concept="2OqwBi" id="7RFM8R0xzX9" role="2Oq$k0">
+                  <node concept="EsrRn" id="7RFM8R0xzXa" role="2Oq$k0" />
+                  <node concept="3TrEf2" id="7RFM8R19rSs" role="2OqNvi">
+                    <ref role="3Tt5mk" to="wnzg:7RFM8R0xwrs" resolve="attribute" />
+                  </node>
+                </node>
+                <node concept="3TrcHB" id="7RFM8R19ssB" role="2OqNvi">
+                  <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                </node>
+              </node>
+              <node concept="Xl_RD" id="7RFM8R0xzX7" role="3uHU7w">
+                <property role="Xl_RC" value="gb" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="1LLf8_" id="7RFM8R0xExm" role="1LXaQT">
+        <node concept="3clFbS" id="7RFM8R0xExn" role="2VODD2">
+          <node concept="3clFbF" id="7RFM8R0xF6h" role="3cqZAp">
+            <node concept="37vLTI" id="7RFM8R0xF6i" role="3clFbG">
+              <node concept="3cpWs3" id="7RFM8R0xSaW" role="37vLTx">
+                <node concept="2OqwBi" id="7RFM8R13HS3" role="3uHU7w">
+                  <node concept="2OqwBi" id="7RFM8R0xSTP" role="2Oq$k0">
+                    <node concept="EsrRn" id="7RFM8R0xSuh" role="2Oq$k0" />
+                    <node concept="3TrEf2" id="7RFM8R0xTwN" role="2OqNvi">
+                      <ref role="3Tt5mk" to="wnzg:7RFM8R0xwrs" resolve="attribute" />
+                    </node>
+                  </node>
+                  <node concept="3TrcHB" id="7RFM8R13I_z" role="2OqNvi">
+                    <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                  </node>
+                </node>
+                <node concept="3cpWs3" id="7RFM8R0xU4V" role="3uHU7B">
+                  <node concept="Xl_RD" id="7RFM8R0xUop" role="3uHU7w">
+                    <property role="Xl_RC" value="::" />
+                  </node>
+                  <node concept="3cpWs3" id="7RFM8R0xF6j" role="3uHU7B">
+                    <node concept="Xl_RD" id="7RFM8R0xF6k" role="3uHU7B">
+                      <property role="Xl_RC" value="global using namespace attribute " />
+                    </node>
+                    <node concept="2OqwBi" id="7RFM8R0xF6l" role="3uHU7w">
+                      <node concept="2OqwBi" id="7RFM8R0xF6m" role="2Oq$k0">
+                        <node concept="EsrRn" id="7RFM8R0xF6n" role="2Oq$k0" />
+                        <node concept="3TrEf2" id="7RFM8R0xF6o" role="2OqNvi">
+                          <ref role="3Tt5mk" to="wnzg:7RFM8R0xwrf" resolve="namespace" />
+>>>>>>> a5b410c665... Fix highlighting to be consistent and make the package name lowercase
                         </node>
                       </node>
                     </node>
@@ -454,6 +714,7 @@
 <<<<<<< HEAD
                 </node>
               </node>
+<<<<<<< HEAD
               <node concept="3clFbF" id="2xmTzC2NJmu" role="3cqZAp">
                 <node concept="2OqwBi" id="2xmTzC2NJ$W" role="3clFbG">
                   <node concept="37vLTw" id="2xmTzC2NJms" role="2Oq$k0">
@@ -479,6 +740,63 @@
 >>>>>>> b70d14e537... loads of stuff
                       </node>
                     </node>
+=======
+              <node concept="2OqwBi" id="7RFM8R0xF6q" role="37vLTJ">
+                <node concept="EsrRn" id="7RFM8R0xF6r" role="2Oq$k0" />
+                <node concept="3TrcHB" id="7RFM8R0xF6s" role="2OqNvi">
+                  <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1N5Pfh" id="7RFM8R0xyPF" role="1Mr941">
+      <ref role="1N5Vy1" to="wnzg:7RFM8R0xwrs" resolve="attribute" />
+      <node concept="3dgokm" id="7RFM8R0xyPI" role="1N6uqs">
+        <node concept="3clFbS" id="7RFM8R0xyPJ" role="2VODD2">
+          <node concept="3clFbF" id="7RFM8R0xySH" role="3cqZAp">
+            <node concept="2YIFZM" id="7RFM8R0xySI" role="3clFbG">
+              <ref role="1Pybhc" to="o8zo:7ipADkTevLm" resolve="SimpleRoleScope" />
+              <ref role="37wK5l" to="o8zo:6t3ylNOzI9Y" resolve="forNamedElements" />
+              <node concept="2OqwBi" id="7RFM8R0xySJ" role="37wK5m">
+                <node concept="3kakTB" id="7RFM8R0xySK" role="2Oq$k0" />
+                <node concept="3TrEf2" id="7RFM8R0xySL" role="2OqNvi">
+                  <ref role="3Tt5mk" to="wnzg:7RFM8R0xwrf" resolve="namespace" />
+                </node>
+              </node>
+              <node concept="359W_D" id="7RFM8R0xySM" role="37wK5m">
+                <ref role="359W_E" to="wnzg:383ZxwZqQYo" resolve="NamespaceDeclaration" />
+                <ref role="359W_F" to="wnzg:383ZxwZsUja" resolve="members" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="1rolTiuVQHX">
+    <property role="3GE5qa" value="namespace" />
+    <ref role="1M2myG" to="wnzg:1rolTiuOPQt" resolve="UsingNamespaceMethodDeclaration" />
+    <node concept="1N5Pfh" id="1rolTiuVQHY" role="1Mr941">
+      <ref role="1N5Vy1" to="wnzg:1rolTiuOPRl" resolve="method" />
+      <node concept="3dgokm" id="1rolTiuVQI4" role="1N6uqs">
+        <node concept="3clFbS" id="1rolTiuVQI6" role="2VODD2">
+          <node concept="3cpWs8" id="1rolTiuYDiE" role="3cqZAp">
+            <node concept="3cpWsn" id="1rolTiuYDiF" role="3cpWs9">
+              <property role="TrG5h" value="newScope" />
+              <node concept="3uibUv" id="1rolTiuYDiG" role="1tU5fm">
+                <ref role="3uigEE" to="o8zo:3fifI_xCtN$" resolve="Scope" />
+              </node>
+              <node concept="2YIFZM" id="1rolTiuYEd5" role="33vP2m">
+                <ref role="37wK5l" to="o8zo:6t3ylNOzI9Y" resolve="forNamedElements" />
+                <ref role="1Pybhc" to="o8zo:7ipADkTevLm" resolve="SimpleRoleScope" />
+                <node concept="2OqwBi" id="1rolTiuYEFn" role="37wK5m">
+                  <node concept="3kakTB" id="1rolTiuYElG" role="2Oq$k0" />
+                  <node concept="3TrEf2" id="1rolTiuYF5n" role="2OqNvi">
+                    <ref role="3Tt5mk" to="wnzg:1rolTiuRvvJ" resolve="namespace" />
+>>>>>>> a5b410c665... Fix highlighting to be consistent and make the package name lowercase
                   </node>
                 </node>
 <<<<<<< HEAD
@@ -603,7 +921,7 @@
     </language>
   </registry>
   <node concept="1M2fIO" id="383ZxwZunUH">
-    <property role="3GE5qa" value="Namespace" />
+    <property role="3GE5qa" value="namespace" />
     <ref role="1M2myG" to="wnzg:383ZxwZrBkp" resolve="NamespaceAttributeRef" />
     <node concept="1N5Pfh" id="383ZxwZunUI" role="1Mr941">
       <ref role="1N5Vy1" to="wnzg:383ZxwZrBkt" resolve="attribute" />
@@ -796,6 +1114,7 @@
       </node>
     </node>
   </node>
+<<<<<<< HEAD
   <node concept="1M2fIO" id="7DDmkza$8D">
     <property role="3GE5qa" value="method.constructor" />
     <ref role="1M2myG" to="wnzg:7DDmkz5m05" resolve="ConstructorInitializedConstructor" />
@@ -812,6 +1131,23 @@
               <node concept="2ShNRf" id="7DDmkza$nP" role="33vP2m">
                 <node concept="1pGfFk" id="7DDmkza$nO" role="2ShVmc">
                   <ref role="37wK5l" to="o8zo:7ipADkTevLv" resolve="CompositeScope" />
+=======
+  <node concept="1M2fIO" id="7RFM8R3Szyr">
+    <property role="3GE5qa" value="namespace" />
+    <ref role="1M2myG" to="wnzg:7RFM8R3Me1y" resolve="NamespaceClassInstance" />
+    <node concept="1N5Pfh" id="7RFM8R3Szys" role="1Mr941">
+      <ref role="1N5Vy1" to="wnzg:7RFM8R3Me2a" resolve="class" />
+      <node concept="3dgokm" id="7RFM8R3Szyy" role="1N6uqs">
+        <node concept="3clFbS" id="7RFM8R3Szy$" role="2VODD2">
+          <node concept="3clFbF" id="7RFM8R3SzD2" role="3cqZAp">
+            <node concept="2YIFZM" id="7RFM8R3SzI4" role="3clFbG">
+              <ref role="37wK5l" to="o8zo:4IP40Bi3eAf" resolve="forNamedElements" />
+              <ref role="1Pybhc" to="o8zo:4IP40Bi3e_R" resolve="ListScope" />
+              <node concept="2OqwBi" id="7RFM8R3TYSm" role="37wK5m">
+                <node concept="3kakTB" id="7RFM8R3TYxV" role="2Oq$k0" />
+                <node concept="2qgKlT" id="7RFM8R3TZrB" role="2OqNvi">
+                  <ref role="37wK5l" to="kntn:7RFM8R3Sz_I" resolve="classesWithinNamespaces" />
+>>>>>>> a5b410c665... Fix highlighting to be consistent and make the package name lowercase
                 </node>
               </node>
             </node>
