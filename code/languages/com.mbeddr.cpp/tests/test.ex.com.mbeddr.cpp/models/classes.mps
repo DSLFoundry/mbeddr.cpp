@@ -129,8 +129,11 @@
       </concept>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> a36012117c... Fix testcases
 =======
+=======
+>>>>>>> 13bca3dc9b... Remove empty namespace declaration in classes
       <concept id="7240228573262412204" name="com.mbeddr.cpp.base.structure.LocalClassVariableDeclaration" flags="ng" index="2dywKE">
         <reference id="7240228573263980490" name="constructor" index="2esx9c" />
         <child id="7240228573265829198" name="constructor_arg_actuals" index="2enIz8" />
@@ -722,6 +725,7 @@
       </node>
     </node>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <node concept="2NXPZ9" id="6ddXmWdFdJu" role="N3F5h">
       <property role="TrG5h" value="empty_1526554437131_1" />
     </node>
@@ -736,6 +740,10 @@
 >>>>>>> a5b410c665... Fix highlighting to be consistent and make the package name lowercase
     <node concept="2NXPZ9" id="45rBLTDXEWp" role="N3F5h">
       <property role="TrG5h" value="empty_1526547438983_6" />
+=======
+    <node concept="2NXPZ9" id="2POwV1ob7Yn" role="N3F5h">
+      <property role="TrG5h" value="empty_1527750170367_2" />
+>>>>>>> 13bca3dc9b... Remove empty namespace declaration in classes
     </node>
     <node concept="c0Qz5" id="3v5DuFDvJ1D" role="N3F5h">
       <property role="2OOxQR" value="true" />
