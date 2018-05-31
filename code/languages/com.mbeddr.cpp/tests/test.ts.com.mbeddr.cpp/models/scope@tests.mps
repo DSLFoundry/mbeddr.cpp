@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD:code/languages/com.mbeddr.cpp/tests/test.ts.com.mbeddr.cpp/models/accessmodifiers@tests.mps
 <model ref="r:35c69821-58fc-4d27-a863-facebccabcf0(test.ts.com.mbeddr.cpp.accessmodifiers@tests)">
+=======
+<model ref="r:35c69821-58fc-4d27-a863-facebccabcf0(test.ts.com.mbeddr.cpp.scope@tests)">
+>>>>>>> 67bc8da713... Rename simple_classes model to scope:code/languages/com.mbeddr.cpp/tests/test.ts.com.mbeddr.cpp/models/scope@tests.mps
   <persistence version="9" />
   <languages>
     <use id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test" version="2" />
@@ -88,7 +92,6 @@
         <reference id="4511589886097466674" name="parentClass" index="FysoF" />
       </concept>
       <concept id="5044697665789382396" name="com.mbeddr.cpp.base.structure.MethodDeclaration" flags="ng" index="3mB1cK">
-        <property id="5478191656157682870" name="static" index="gNYVZ" />
         <child id="4185783222026475860" name="body" index="3XIRFX" />
       </concept>
       <concept id="5044697665789421259" name="com.mbeddr.cpp.base.structure.AttributeDeclaration" flags="ng" index="3mBbG7" />
@@ -582,7 +585,11 @@
           <property role="2OOxQR" value="true" />
           <property role="TrG5h" value="Adder" />
           <node concept="3mB1cK" id="6oRbCP68kRM" role="3mBdys">
+<<<<<<< HEAD:code/languages/com.mbeddr.cpp/tests/test.ts.com.mbeddr.cpp/models/accessmodifiers@tests.mps
             <property role="gNYVZ" value="false" />
+=======
+            <property role="1wg9_F" value="public" />
+>>>>>>> 67bc8da713... Rename simple_classes model to scope:code/languages/com.mbeddr.cpp/tests/test.ts.com.mbeddr.cpp/models/scope@tests.mps
             <property role="TrG5h" value="increment" />
             <property role="1wg9_F" value="public" />
             <node concept="3XIRFW" id="6oRbCP68kRO" role="3XIRFX">
@@ -609,7 +616,11 @@
           <node concept="3u$6M4" id="688xTXtQiLd" role="3mBdys" />
           <node concept="3u$6M4" id="688xTXtQiOd" role="3mBdys" />
           <node concept="3mB1cK" id="688xTXtQiNN" role="3mBdys">
+<<<<<<< HEAD:code/languages/com.mbeddr.cpp/tests/test.ts.com.mbeddr.cpp/models/accessmodifiers@tests.mps
             <property role="gNYVZ" value="false" />
+=======
+            <property role="1wg9_F" value="private" />
+>>>>>>> 67bc8da713... Rename simple_classes model to scope:code/languages/com.mbeddr.cpp/tests/test.ts.com.mbeddr.cpp/models/scope@tests.mps
             <property role="TrG5h" value="incrementByTwo" />
             <node concept="26Vqph" id="688xTXtQiPE" role="2C2TGm">
               <property role="2caQfQ" value="false" />
@@ -651,7 +662,11 @@
             <ref role="FysoF" node="45rBLTDXFnO" resolve="Subtractor" />
           </node>
           <node concept="3mB1cK" id="29I8DMSfSEQ" role="3mBdys">
+<<<<<<< HEAD:code/languages/com.mbeddr.cpp/tests/test.ts.com.mbeddr.cpp/models/accessmodifiers@tests.mps
             <property role="gNYVZ" value="false" />
+=======
+            <property role="1wg9_F" value="public" />
+>>>>>>> 67bc8da713... Rename simple_classes model to scope:code/languages/com.mbeddr.cpp/tests/test.ts.com.mbeddr.cpp/models/scope@tests.mps
             <property role="TrG5h" value="someFunction" />
             <node concept="26Vqph" id="29I8DMSfSFj" role="2C2TGm">
               <property role="2caQfQ" value="false" />
@@ -809,7 +824,11 @@
       <property role="2OOxQR" value="true" />
       <property role="TrG5h" value="Subtractor" />
       <node concept="3mB1cK" id="29I8DMSfS4T" role="3mBdys">
+<<<<<<< HEAD:code/languages/com.mbeddr.cpp/tests/test.ts.com.mbeddr.cpp/models/accessmodifiers@tests.mps
         <property role="gNYVZ" value="false" />
+=======
+        <property role="1wg9_F" value="public" />
+>>>>>>> 67bc8da713... Rename simple_classes model to scope:code/languages/com.mbeddr.cpp/tests/test.ts.com.mbeddr.cpp/models/scope@tests.mps
         <property role="TrG5h" value="decrement" />
         <property role="1wg9_F" value="public" />
         <node concept="26Vqph" id="29I8DMSfS56" role="2C2TGm">
@@ -835,7 +854,11 @@
       </node>
       <node concept="3u$6M4" id="688xTXtQizE" role="3mBdys" />
       <node concept="3mB1cK" id="688xTXtQi$$" role="3mBdys">
+<<<<<<< HEAD:code/languages/com.mbeddr.cpp/tests/test.ts.com.mbeddr.cpp/models/accessmodifiers@tests.mps
         <property role="gNYVZ" value="false" />
+=======
+        <property role="1wg9_F" value="private" />
+>>>>>>> 67bc8da713... Rename simple_classes model to scope:code/languages/com.mbeddr.cpp/tests/test.ts.com.mbeddr.cpp/models/scope@tests.mps
         <property role="TrG5h" value="decrementByTwo" />
         <property role="1wg9_F" value="public" />
         <node concept="26Vqph" id="688xTXtQi_l" role="2C2TGm">
