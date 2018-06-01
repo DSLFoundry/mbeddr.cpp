@@ -24,12 +24,10 @@
       </concept>
       <concept id="1082978164219" name="jetbrains.mps.lang.structure.structure.EnumerationDataTypeDeclaration" flags="ng" index="AxPO7">
         <property id="1212080844762" name="hasNoDefaultMember" index="PDuV0" />
-        <property id="1197591154882" name="memberIdentifierPolicy" index="3lZH7k" />
         <reference id="1083171729157" name="memberDataType" index="M4eZT" />
         <child id="1083172003582" name="member" index="M5hS2" />
       </concept>
       <concept id="1083171877298" name="jetbrains.mps.lang.structure.structure.EnumerationMemberDeclaration" flags="ig" index="M4N5e">
-        <property id="1192116978809" name="javaIdentifier" index="2fHolG" />
         <property id="1083923523172" name="externalValue" index="1uS6qo" />
         <property id="1083923523171" name="internalValue" index="1uS6qv" />
       </concept>
@@ -607,6 +605,7 @@
     </node>
   </node>
 <<<<<<< HEAD
+<<<<<<< HEAD
   <node concept="1TIwiD" id="3OWNtRXmIPi">
     <property role="EcuMT" value="4412628088238304594" />
     <property role="3GE5qa" value="class" />
@@ -815,6 +814,8 @@
       <ref role="20lvS9" to="c4fa:3CmSUB7Fp_l" resolve="StatementList" />
     </node>
   </node>
+=======
+>>>>>>> dc8ff306fc... Migrate operator overloading to separate language
   <node concept="PlHQZ" id="3LE5RBQ6qAj">
     <property role="EcuMT" value="4353317802394364307" />
     <property role="3GE5qa" value="method" />
@@ -823,46 +824,6 @@
       <property role="IQ2nx" value="4353317802394364308" />
       <property role="TrG5h" value="inline" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="3LE5RBQoIen">
-    <property role="EcuMT" value="4353317802399163287" />
-    <property role="3GE5qa" value="operator" />
-    <property role="TrG5h" value="OperatorOverloadPrototype" />
-    <ref role="1TJDcQ" node="3LE5RBQoIer" resolve="OperatorOverloadSignature" />
-  </node>
-  <node concept="1TIwiD" id="3LE5RBQoIer">
-    <property role="EcuMT" value="4353317802399163291" />
-    <property role="3GE5qa" value="operator" />
-    <property role="TrG5h" value="OperatorOverloadSignature" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyi" id="3LE5RBQoIf8" role="1TKVEl">
-      <property role="IQ2nx" value="4353317802399163336" />
-      <property role="TrG5h" value="operator" />
-      <ref role="AX2Wp" node="45rBLTH8Vrc" resolve="EOverloadableOperator" />
-    </node>
-    <node concept="PrWs8" id="3LE5RBQoIfl" role="PzmwI">
-      <ref role="PrY4T" node="4o2nsMgBIr5" resolve="IClassMemberDeclaration" />
-    </node>
-    <node concept="PrWs8" id="3LE5RBQoIfv" role="PzmwI">
-      <ref role="PrY4T" to="x27k:71UKpntnl7M" resolve="IFunctionLike" />
-    </node>
-  </node>
-  <node concept="AxPO7" id="3CCyXivS5dy">
-    <property role="3GE5qa" value="operator" />
-    <property role="TrG5h" value="EOperatorType" />
-    <ref role="M4eZT" to="tpck:fKAQMTA" resolve="integer" />
-    <node concept="M4N5e" id="3CCyXivS5dz" role="M5hS2">
-      <property role="1uS6qv" value="0" />
-      <property role="1uS6qo" value="Binary" />
-    </node>
-    <node concept="M4N5e" id="3CCyXivS5d$" role="M5hS2">
-      <property role="1uS6qv" value="1" />
-      <property role="1uS6qo" value="PrePostfix" />
-    </node>
-    <node concept="M4N5e" id="3CCyXiw92mb" role="M5hS2">
-      <property role="1uS6qv" value="2" />
-      <property role="1uS6qo" value="ArrayAccess" />
     </node>
   </node>
 </model>

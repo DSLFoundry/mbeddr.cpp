@@ -1207,6 +1207,7 @@
       </node>
     </node>
   </node>
+<<<<<<< HEAD
   <node concept="WtQ9Q" id="3LE5RBQ6aSI">
     <property role="3GE5qa" value="operator" />
     <ref role="WuzLi" to="wnzg:3LE5RBPQ$rY" resolve="OperatorOverloadDeclaration" />
@@ -1335,5 +1336,7 @@
     </node>
   </node>
 >>>>>>> 1e5511abaf... TextGen for operator overloading signatures and restructuring
+=======
+>>>>>>> dc8ff306fc... Migrate operator overloading to separate language
 </model>
 
