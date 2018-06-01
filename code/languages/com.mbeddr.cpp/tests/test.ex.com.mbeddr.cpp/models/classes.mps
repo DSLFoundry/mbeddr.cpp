@@ -152,6 +152,7 @@
         <reference id="7844497894798008388" name="parent_class" index="2gom41" />
       </concept>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a0c5014c67... Add test cases for inheritance access modifiers
       <concept id="3188920472788366140" name="com.mbeddr.cpp.base.structure.IVirtualisableConcept" flags="ng" index="hL25U">
@@ -164,9 +165,13 @@
 =======
       <concept id="3188920472788366140" name="com.mbeddr.cpp.base.structure.IVirtualFlagConcept" flags="ng" index="hL25U">
 >>>>>>> 4ee4a88205... Remove a ParentClass invocation from test case
+=======
+      <concept id="3188920472788366140" name="com.mbeddr.cpp.base.structure.IVirtualFlagConcept" flags="ng" index="hL25U">
+>>>>>>> 858f7e856f... Fix tests
         <property id="3188920472788366141" name="isVirtual" index="hL25V" />
 >>>>>>> d43bb3786f... Add constructor test case
       </concept>
+<<<<<<< HEAD
 >>>>>>> 31081c8f5e... Basic syntax editor for constructors
 =======
 >>>>>>> 9a129de57d... Add unique names to new constructors
@@ -176,6 +181,10 @@
       <concept id="7240228573262412204" name="com.mbeddr.cpp.base.structure.LocalClassVariableDeclaration" flags="ng" index="2dywKE">
         <reference id="7240228573263980490" name="constructor" index="2esx9c" />
         <child id="7240228573265829198" name="constructor_arg_actuals" index="2enIz8" />
+=======
+      <concept id="3188920472790477822" name="com.mbeddr.cpp.base.structure.IPureVirtualFlagConcept" flags="ng" index="hTfAS">
+        <property id="3188920472790477826" name="isPureVirtual" index="hTfT4" />
+>>>>>>> 858f7e856f... Fix tests
       </concept>
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -250,10 +259,13 @@
         <child id="4185783222026475860" name="body" index="3XIRFX" />
 >>>>>>> ce47921082... Fixed auto declaration type errors.
       </concept>
+<<<<<<< HEAD
       <concept id="5044697665789382396" name="com.mbeddr.cpp.base.structure.MethodDeclaration" flags="ng" index="3mB1cK">
 >>>>>>> 0a6e17621e... Move virtual to interface IVirtual and add it to MethodPrototype and textgen.:code/languages/com.mbeddr.cpp/tests/test.ex.com.mbeddr.cpp/models/simple_classes.mps
         <child id="4185783222026475860" name="body" index="3XIRFX" />
       </concept>
+=======
+>>>>>>> 858f7e856f... Fix tests
       <concept id="5044697665789421259" name="com.mbeddr.cpp.base.structure.AttributeDeclaration" flags="ng" index="3mBbG7">
         <child id="4185783222026502647" name="init" index="3XIe9v" />
       </concept>
@@ -575,6 +587,13 @@
         <property role="TrG5h" value="value" />
         <property role="1wg9_F" value="public" />
         <property role="226hDV" value="false" />
+<<<<<<< HEAD
+=======
+        <property role="1wg9_F" value="public" />
+        <node concept="3TlMh9" id="22ONl2uh6vJ" role="3XIe9v">
+          <property role="2hmy$m" value="0" />
+        </node>
+>>>>>>> 858f7e856f... Fix tests
         <node concept="26Vqqz" id="3v5DuFDqjuj" role="2C2TGm">
           <property role="2caQfQ" value="false" />
           <property role="2c7vTL" value="false" />
@@ -1144,8 +1163,8 @@
         <node concept="26Vqph" id="6oRbCP68kSk" role="2C2TGm">
 =======
       <node concept="3mB1cK" id="1Yr26iuhgnr" role="3mBdys">
-        <property role="1wg9_F" value="public" />
         <property role="TrG5h" value="increment" />
+        <property role="1wg9_F" value="public" />
         <node concept="26Vqph" id="1Yr26iuhgnF" role="2C2TGm">
 >>>>>>> a36012117c... Fix testcases
           <property role="2caQfQ" value="false" />
@@ -1239,9 +1258,13 @@
         <property role="gNYVZ" value="false" />
 =======
       <node concept="3mB1cK" id="1Yr26iuhgzj" role="3mBdys">
+<<<<<<< HEAD
         <property role="1wg9_F" value="public" />
 >>>>>>> a36012117c... Fix testcases
+=======
+>>>>>>> 858f7e856f... Fix tests
         <property role="TrG5h" value="increment20" />
+        <property role="1wg9_F" value="public" />
         <node concept="26Vqph" id="1Yr26iuhgzu" role="2C2TGm">
           <property role="2caQfQ" value="false" />
           <property role="2c7vTL" value="false" />
@@ -1568,10 +1591,10 @@
         <node concept="19RgSI" id="29I8DMSfS5v" role="1UOdpc">
 =======
       <node concept="3mB1cK" id="1Yr26iugZ3B" role="3mBdys">
-        <property role="1wg9_F" value="public" />
         <property role="TrG5h" value="decrement" />
         <property role="226Go$" value="false" />
         <property role="226hDV" value="false" />
+        <property role="1wg9_F" value="public" />
         <node concept="26Vqph" id="1Yr26iugZ3M" role="2C2TGm">
           <property role="2caQfQ" value="false" />
           <property role="2c7vTL" value="false" />
@@ -1627,7 +1650,7 @@
       </node>
       <node concept="3mBbG7" id="7wcjSRttVKQ" role="3mBdys">
         <property role="TrG5h" value="parentY" />
-        <property role="1wg9_F" value="public" />
+        <property role="1wg9_F" value="protected" />
         <node concept="26Vqph" id="7wcjSRttVL9" role="2C2TGm">
           <property role="2caQfQ" value="false" />
           <property role="2c7vTL" value="false" />
@@ -1648,7 +1671,7 @@
       </node>
       <node concept="3mBbG7" id="29cSqvdU9AJ" role="3mBdys">
         <property role="TrG5h" value="x" />
-        <property role="1wg9_F" value="public" />
+        <property role="1wg9_F" value="protected" />
         <node concept="26Vqph" id="29cSqvdU9DR" role="2C2TGm">
           <property role="2caQfQ" value="false" />
           <property role="2c7vTL" value="false" />
@@ -1660,6 +1683,7 @@
       <node concept="2gom5y" id="7wcjSRttVOM" role="3mBdys">
         <property role="3BMcJd" value="false" />
         <property role="TrG5h" value="ClassName" />
+        <property role="1wg9_F" value="public" />
         <ref role="2gom41" node="7wcjSRttVMY" resolve="ClassName" />
         <node concept="3XIRFW" id="7wcjSRttVON" role="1IVm9U" />
         <node concept="2dFNQU" id="7wcjSRttVOO" role="2C2TGm">
@@ -1670,6 +1694,7 @@
       <node concept="2gom5y" id="7wcjSRttVPm" role="3mBdys">
         <property role="3BMcJd" value="false" />
         <property role="TrG5h" value="ClassName" />
+        <property role="1wg9_F" value="public" />
         <ref role="2gom41" node="7wcjSRttVMY" resolve="ClassName" />
         <node concept="3XIRFW" id="7wcjSRttVPn" role="1IVm9U" />
         <node concept="2dFNQU" id="7wcjSRttVPo" role="2C2TGm">
@@ -1705,19 +1730,25 @@
       <node concept="2gom5y" id="7wcjSRtzLBl" role="3mBdys">
         <property role="3BMcJd" value="false" />
         <property role="TrG5h" value="ClassName" />
+        <property role="1wg9_F" value="public" />
         <ref role="2gom41" node="7wcjSRttVMY" resolve="ClassName" />
         <node concept="3XIRFW" id="7wcjSRtzLBm" role="1IVm9U" />
         <node concept="2dFNQU" id="7wcjSRtzLBn" role="2C2TGm">
           <property role="2caQfQ" value="false" />
           <property role="2c7vTL" value="false" />
         </node>
+<<<<<<< HEAD
         <node concept="yZclw" id="3LE5RBQaMRJ" role="1YC0t0">
+=======
+        <node concept="yZclw" id="6FnHX$H9n$K" role="1YC0t0">
+>>>>>>> 858f7e856f... Fix tests
           <ref role="yKYgm" node="7wcjSRttVKs" resolve="ParentClass" />
         </node>
       </node>
       <node concept="2gom5y" id="7wcjSRtzLD7" role="3mBdys">
         <property role="3BMcJd" value="true" />
         <property role="TrG5h" value="ClassName" />
+        <property role="1wg9_F" value="public" />
         <ref role="2gom41" node="7wcjSRttVMY" resolve="ClassName" />
         <node concept="3XIRFW" id="7wcjSRtzLD8" role="1IVm9U" />
         <node concept="2dFNQU" id="7wcjSRtzLD9" role="2C2TGm">
