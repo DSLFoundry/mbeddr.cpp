@@ -586,7 +586,7 @@
             </node>
           </node>
           <node concept="3mB1cK" id="688xTXtQiNN" role="3mBdys">
-            <property role="1wg9_F" value="public" />
+            <property role="1wg9_F" value="protected" />
             <property role="TrG5h" value="protectedMethodPublicClass" />
             <node concept="19Rifw" id="1gzloVU$YUC" role="2C2TGm">
               <property role="2caQfQ" value="false" />
@@ -595,7 +595,7 @@
             <node concept="3XIRFW" id="688xTXtQiQ$" role="3XIRFX" />
           </node>
           <node concept="3mB1cK" id="1gzloVU$YVH" role="3mBdys">
-            <property role="1wg9_F" value="public" />
+            <property role="1wg9_F" value="private" />
             <property role="TrG5h" value="privateMethodPublicClass" />
             <node concept="19Rifw" id="1gzloVU$YWb" role="2C2TGm">
               <property role="2caQfQ" value="false" />
@@ -632,7 +632,7 @@
             </node>
           </node>
           <node concept="3mB1cK" id="1gzloVU$Z1T" role="3mBdys">
-            <property role="1wg9_F" value="public" />
+            <property role="1wg9_F" value="protected" />
             <property role="TrG5h" value="protectedMethodProtectedClass" />
             <node concept="19Rifw" id="1gzloVU$Z1U" role="2C2TGm">
               <property role="2caQfQ" value="false" />
@@ -641,7 +641,7 @@
             <node concept="3XIRFW" id="1gzloVU$Z1V" role="3XIRFX" />
           </node>
           <node concept="3mB1cK" id="1gzloVU$Z1W" role="3mBdys">
-            <property role="1wg9_F" value="public" />
+            <property role="1wg9_F" value="private" />
             <property role="TrG5h" value="privateMethodProtectedClass" />
             <node concept="19Rifw" id="1gzloVU$Z1X" role="2C2TGm">
               <property role="2caQfQ" value="false" />
@@ -666,7 +666,7 @@
             </node>
           </node>
           <node concept="3mB1cK" id="1gzloVU$Z8w" role="3mBdys">
-            <property role="1wg9_F" value="public" />
+            <property role="1wg9_F" value="protected" />
             <property role="TrG5h" value="protectedMethodPrivateClass" />
             <node concept="19Rifw" id="1gzloVU$Z8x" role="2C2TGm">
               <property role="2caQfQ" value="false" />
@@ -675,7 +675,7 @@
             <node concept="3XIRFW" id="1gzloVU$Z8y" role="3XIRFX" />
           </node>
           <node concept="3mB1cK" id="1gzloVU$Z8z" role="3mBdys">
-            <property role="1wg9_F" value="public" />
+            <property role="1wg9_F" value="private" />
             <property role="TrG5h" value="privateMethodPrivateClass" />
             <node concept="19Rifw" id="1gzloVU$Z8$" role="2C2TGm">
               <property role="2caQfQ" value="false" />
