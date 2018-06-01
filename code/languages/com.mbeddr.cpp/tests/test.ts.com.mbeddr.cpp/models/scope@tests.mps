@@ -10,20 +10,32 @@
     <devkit ref="bdd1ab49-ce55-4bff-86d1-5394fa0aa930(com.mbeddr.cpp)" />
   </languages>
   <imports>
+<<<<<<< HEAD
 <<<<<<< HEAD:code/languages/com.mbeddr.cpp/tests/test.ts.com.mbeddr.cpp/models/accessmodifiers@tests.mps
     <import index="s390" ref="r:c7950158-6cef-4f64-956c-820859f3e040(test.ex.com.mbeddr.cpp.classes)" />
     <import index="ux7" ref="r:7a7d22ce-1d67-4772-b659-fbcc3b235afb(com.mbeddr.cpp.__spreferences.PlatformTemplates)" implicit="true" />
 =======
     <import index="ux7" ref="r:7a7d22ce-1d67-4772-b659-fbcc3b235afb(com.mbeddr.cpp.__spreferences.PlatformTemplates)" />
 >>>>>>> 09067ffb17... Added support for the global Namespace Declaration.:code/languages/com.mbeddr.cpp/tests/test.ts.com.mbeddr.cpp/models/simple_classes@tests.mps
+=======
+    <import index="ux7" ref="r:7a7d22ce-1d67-4772-b659-fbcc3b235afb(com.mbeddr.cpp.__spreferences.PlatformTemplates)" />
+    <import index="g7jk" ref="r:e06e24a5-d0fa-4f76-9dee-2042532d92a1(com.mbeddr.cpp.base.typesystem)" />
+>>>>>>> 43a96eaa19... Add modifier test cases
   </imports>
   <registry>
     <language id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test">
       <concept id="1215507671101" name="jetbrains.mps.lang.test.structure.NodeErrorCheckOperation" flags="ng" index="1TM$A" />
+      <concept id="1215511704609" name="jetbrains.mps.lang.test.structure.NodeWarningCheckOperation" flags="ng" index="29bkU">
+        <child id="8489045168660938635" name="warningRef" index="3lydCh" />
+      </concept>
       <concept id="1215603922101" name="jetbrains.mps.lang.test.structure.NodeOperationsContainer" flags="ng" index="7CXmI">
         <child id="1215604436604" name="nodeOperations" index="7EUXB" />
       </concept>
       <concept id="1215607067978" name="jetbrains.mps.lang.test.structure.CheckNodeForErrorMessagesOperation" flags="ng" index="7OXhh" />
+      <concept id="7691029917083872157" name="jetbrains.mps.lang.test.structure.IRuleReference" flags="ng" index="2u4UPC">
+        <reference id="8333855927540250453" name="declaration" index="39XzEq" />
+      </concept>
+      <concept id="4531408400486526326" name="jetbrains.mps.lang.test.structure.WarningStatementReference" flags="ng" index="2PQEqo" />
       <concept id="5097124989038916362" name="jetbrains.mps.lang.test.structure.TestInfo" flags="ng" index="2XOHcx">
         <property id="5097124989038916363" name="projectPath" index="2XOHcw" />
       </concept>
@@ -41,9 +53,6 @@
       </concept>
       <concept id="1679452829930336984" name="com.mbeddr.core.statements.structure.CommentStatement" flags="ng" index="1QiMYF">
         <child id="8624890525768479139" name="textblock" index="3SJzmv" />
-      </concept>
-      <concept id="4185783222026475238" name="com.mbeddr.core.statements.structure.LocalVariableDeclaration" flags="ng" index="3XIRlf">
-        <child id="4185783222026502647" name="init" index="3XIe9u" />
       </concept>
       <concept id="4185783222026475861" name="com.mbeddr.core.statements.structure.StatementList" flags="ng" index="3XIRFW">
         <child id="4185783222026475862" name="statements" index="3XIRFZ" />
@@ -103,15 +112,8 @@
         <child id="4511589886097466568" name="ancestors" index="Fysvh" />
         <child id="5044697665789396304" name="members" index="3mBdys" />
       </concept>
-      <concept id="4018800670853679470" name="com.mbeddr.cpp.base.structure.EmptyClassContent" flags="ng" index="3u$6M4" />
     </language>
     <language id="6d11763d-483d-4b2b-8efc-09336c1b0001" name="com.mbeddr.core.modules">
-      <concept id="8967919205527146149" name="com.mbeddr.core.modules.structure.ReturnStatement" flags="ng" index="2BFjQ_">
-        <child id="8967919205527146150" name="expression" index="2BFjQA" />
-      </concept>
-      <concept id="8105003328814797298" name="com.mbeddr.core.modules.structure.IFunctionLike" flags="ng" index="2H9T1B">
-        <child id="5708867820623310661" name="arguments" index="1UOdpc" />
-      </concept>
       <concept id="6437088627575722813" name="com.mbeddr.core.modules.structure.Module" flags="ng" index="N3F4X">
         <child id="6437088627575722833" name="contents" index="N3F5h" />
       </concept>
@@ -122,12 +124,10 @@
         <child id="4185783222026475860" name="body" index="3XIRFY" />
       </concept>
       <concept id="8934095934011938595" name="com.mbeddr.core.modules.structure.EmptyModuleContent" flags="ng" index="2NXPZ9" />
-      <concept id="7892328519581704407" name="com.mbeddr.core.modules.structure.Argument" flags="ng" index="19RgSI" />
     </language>
     <language id="b341759a-c721-4072-90cf-328bb2724684" name="com.mbeddr.cpp.expressions">
       <concept id="5044697665789421241" name="com.mbeddr.cpp.expressions.structure.QualifiedMethodCall" flags="ng" index="3mBbHP">
         <reference id="5044697665789421247" name="method" index="3mBbHN" />
-        <child id="5044697665789463506" name="actuals" index="3mBtou" />
       </concept>
       <concept id="5044697665789435301" name="com.mbeddr.cpp.expressions.structure.AttributeRef" flags="ng" index="3mBk1D">
         <reference id="5044697665789435307" name="attribute" index="3mBk1B" />
@@ -158,13 +158,9 @@
       <concept id="2995459757115296646" name="com.mbeddr.cpp.modules.structure.CPPImplementationModule" flags="ng" index="1whW_1" />
     </language>
     <language id="61c69711-ed61-4850-81d9-7714ff227fb0" name="com.mbeddr.core.expressions">
-      <concept id="8463282783691618426" name="com.mbeddr.core.expressions.structure.Int8tType" flags="ng" index="26Vqqz" />
+      <concept id="8463282783691618440" name="com.mbeddr.core.expressions.structure.Int32tType" flags="ng" index="26Vqph" />
       <concept id="3005510381523579442" name="com.mbeddr.core.expressions.structure.UnaryExpression" flags="ng" index="2aKSnQ">
         <child id="7254843406768839760" name="expression" index="1_9fRO" />
-      </concept>
-      <concept id="8864856114140038681" name="com.mbeddr.core.expressions.structure.DoubleType" flags="ng" index="2fgwQN" />
-      <concept id="2212975673976017893" name="com.mbeddr.core.expressions.structure.NumericLiteral" flags="ng" index="2hns93">
-        <property id="2212975673976043696" name="value" index="2hmy$m" />
       </concept>
       <concept id="4620120465980402700" name="com.mbeddr.core.expressions.structure.GenericDotExpression" flags="ng" index="2qmXGp">
         <child id="7034214596252529803" name="target" index="1ESnxz" />
@@ -172,20 +168,14 @@
       <concept id="318113533128716675" name="com.mbeddr.core.expressions.structure.ITyped" flags="ng" index="2C2TGh">
         <child id="318113533128716676" name="type" index="2C2TGm" />
       </concept>
-      <concept id="5924821888882196543" name="com.mbeddr.core.expressions.structure.ExpressionList" flags="ng" index="2Ysn8y">
-        <child id="5924821888882211457" name="expressions" index="2Yskys" />
-      </concept>
       <concept id="7892328519581699353" name="com.mbeddr.core.expressions.structure.VoidType" flags="ng" index="19Rifw" />
-      <concept id="4739982148980385695" name="com.mbeddr.core.expressions.structure.FloatType" flags="ng" index="3AreGT" />
-      <concept id="8860443239512128058" name="com.mbeddr.core.expressions.structure.BooleanType" flags="ng" index="3TlMgk" />
       <concept id="8860443239512128054" name="com.mbeddr.core.expressions.structure.Type" flags="ng" index="3TlMgo">
         <property id="2941277002445651368" name="const" index="2c7vTL" />
         <property id="2941277002448691247" name="volatile" index="2caQfQ" />
       </concept>
-      <concept id="8860443239512128103" name="com.mbeddr.core.expressions.structure.NumberLiteral" flags="ng" index="3TlMh9" />
-      <concept id="8860443239512128094" name="com.mbeddr.core.expressions.structure.TrueLiteral" flags="ng" index="3TlMhK" />
     </language>
   </registry>
+<<<<<<< HEAD
   <node concept="1lH9Xt" id="3v5DuFDz1Eq">
     <property role="TrG5h" value="ClassModifiers" />
     <property role="3OwPAg" value="false" />
@@ -542,6 +532,8 @@
       </node>
     </node>
   </node>
+=======
+>>>>>>> 43a96eaa19... Add modifier test cases
   <node concept="2XOHcx" id="3v5DuFDz1EB">
     <property role="2XOHcw" value="${mbeddr.github.core.home}/code/languages/com.mbeddr.cpp/" />
   </node>
@@ -560,7 +552,7 @@
     </node>
   </node>
   <node concept="1lH9Xt" id="688xTXtQgqc">
-    <property role="TrG5h" value="InheritanceModifiers" />
+    <property role="TrG5h" value="AccessModifiersInheritance" />
     <node concept="1qefOq" id="688xTXtQgqd" role="1SKRRt">
       <node concept="1whW_1" id="688xTXtQgr3" role="1qenE9">
         <property role="TrG5h" value="InheritanceModifiers" />
@@ -939,6 +931,13 @@
                 <property role="2c7vTL" value="false" />
                 <ref role="3mBfEM" node="1gzloVU$ZfR" resolve="BaseClass" />
               </node>
+              <node concept="7CXmI" id="6ejQpbw4eyi" role="lGtFl">
+                <node concept="29bkU" id="6ejQpbw4eEa" role="7EUXB">
+                  <node concept="2PQEqo" id="6ejQpbw4eEb" role="3lydCh">
+                    <ref role="39XzEq" to="g7jk:2xmTzC2LYc4" />
+                  </node>
+                </node>
+              </node>
             </node>
             <node concept="3XISUE" id="1gzloVU_0yR" role="3XIRFZ" />
             <node concept="1QiMYF" id="1gzloVU_0zW" role="3XIRFZ">
@@ -1175,6 +1174,173 @@
         </node>
 =======
 >>>>>>> 6252029eeb... Add test for inheritance scoping
+      </node>
+    </node>
+  </node>
+  <node concept="1lH9Xt" id="1gzloVU_9IT">
+    <property role="TrG5h" value="AccessModifiers" />
+    <property role="3OwPAg" value="false" />
+    <node concept="1qefOq" id="1gzloVU_9IU" role="1SKRRt">
+      <node concept="1whW_1" id="1gzloVU_9IV" role="1qenE9">
+        <property role="TrG5h" value="AccessModifiers" />
+        <node concept="3mBW2U" id="1gzloVU_9IW" role="N3F5h">
+          <property role="2OOxQR" value="true" />
+          <property role="TrG5h" value="SomeClass" />
+          <node concept="3mBbG7" id="1gzloVU_9IX" role="3mBdys">
+            <property role="TrG5h" value="publicAttribute" />
+            <property role="1wg9_F" value="public" />
+            <node concept="26Vqph" id="1gzloVU_9IY" role="2C2TGm">
+              <property role="2caQfQ" value="false" />
+              <property role="2c7vTL" value="false" />
+            </node>
+          </node>
+          <node concept="3mBbG7" id="1gzloVU_9IZ" role="3mBdys">
+            <property role="1wg9_F" value="protected" />
+            <property role="TrG5h" value="protectedAttribute" />
+            <node concept="26Vqph" id="1gzloVU_9J0" role="2C2TGm">
+              <property role="2caQfQ" value="false" />
+              <property role="2c7vTL" value="false" />
+            </node>
+          </node>
+          <node concept="3mBbG7" id="1gzloVU_9J1" role="3mBdys">
+            <property role="TrG5h" value="privateAttribute" />
+            <property role="1wg9_F" value="private" />
+            <node concept="26Vqph" id="1gzloVU_9J2" role="2C2TGm">
+              <property role="2caQfQ" value="false" />
+              <property role="2c7vTL" value="false" />
+            </node>
+          </node>
+          <node concept="3mB1cK" id="1gzloVU_9J3" role="3mBdys">
+            <property role="1wg9_F" value="public" />
+            <property role="TrG5h" value="publicMethod" />
+            <node concept="3XIRFW" id="1gzloVU_9J4" role="3XIRFX" />
+            <node concept="19Rifw" id="1gzloVU_9J5" role="2C2TGm">
+              <property role="2caQfQ" value="false" />
+              <property role="2c7vTL" value="false" />
+            </node>
+          </node>
+          <node concept="3mB1cK" id="1gzloVU_9J6" role="3mBdys">
+            <property role="1wg9_F" value="protected" />
+            <property role="TrG5h" value="protectedMethod" />
+            <node concept="3XIRFW" id="1gzloVU_9J7" role="3XIRFX" />
+            <node concept="19Rifw" id="1gzloVU_9J8" role="2C2TGm">
+              <property role="2caQfQ" value="false" />
+              <property role="2c7vTL" value="false" />
+            </node>
+          </node>
+          <node concept="3mB1cK" id="1gzloVU_9J9" role="3mBdys">
+            <property role="1wg9_F" value="private" />
+            <property role="TrG5h" value="privateMethod" />
+            <node concept="3XIRFW" id="1gzloVU_9Ja" role="3XIRFX" />
+            <node concept="19Rifw" id="1gzloVU_9Jb" role="2C2TGm">
+              <property role="2caQfQ" value="false" />
+              <property role="2c7vTL" value="false" />
+            </node>
+          </node>
+        </node>
+        <node concept="2NXPZ9" id="1gzloVU_9Jc" role="N3F5h">
+          <property role="TrG5h" value="empty_1504854840309_9" />
+        </node>
+        <node concept="N3Fnx" id="1gzloVU_9Jd" role="N3F5h">
+          <property role="TrG5h" value="test" />
+          <property role="2OOxQR" value="false" />
+          <node concept="3XIRFW" id="1gzloVU_9Je" role="3XIRFY">
+            <node concept="2dywKE" id="1gzloVU_9Jf" role="3XIRFZ">
+              <property role="TrG5h" value="someClass" />
+              <node concept="3mBfEi" id="1gzloVU_9Jg" role="2C2TGm">
+                <property role="2caQfQ" value="false" />
+                <property role="2c7vTL" value="false" />
+                <ref role="3mBfEM" node="1gzloVU_9IW" resolve="SomeClass" />
+              </node>
+              <node concept="7CXmI" id="6ejQpbw4eMI" role="lGtFl">
+                <node concept="29bkU" id="6ejQpbw4ePx" role="7EUXB">
+                  <node concept="2PQEqo" id="6ejQpbw4ePy" role="3lydCh">
+                    <ref role="39XzEq" to="g7jk:2xmTzC2LYc4" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="1_9egQ" id="1gzloVU_9Jh" role="3XIRFZ">
+              <node concept="2qmXGp" id="1gzloVU_9Ji" role="1_9egR">
+                <node concept="3mBk1D" id="1gzloVU_9Jj" role="1ESnxz">
+                  <ref role="3mBk1B" node="1gzloVU_9IX" resolve="publicAttribute" />
+                </node>
+                <node concept="3ZVu4v" id="1gzloVU_9Jk" role="1_9fRO">
+                  <ref role="3ZVs_2" node="1gzloVU_9Jf" resolve="someClass" />
+                </node>
+              </node>
+            </node>
+            <node concept="1_9egQ" id="1gzloVU_9Jl" role="3XIRFZ">
+              <node concept="2qmXGp" id="1gzloVU_9Jm" role="1_9egR">
+                <node concept="3mBk1D" id="1gzloVU_9Jn" role="1ESnxz">
+                  <ref role="3mBk1B" node="1gzloVU_9IZ" resolve="protectedAttribute" />
+                  <node concept="7CXmI" id="1gzloVU_9Jo" role="lGtFl">
+                    <node concept="1TM$A" id="1gzloVU_9Jp" role="7EUXB" />
+                  </node>
+                </node>
+                <node concept="3ZVu4v" id="1gzloVU_9Jq" role="1_9fRO">
+                  <ref role="3ZVs_2" node="1gzloVU_9Jf" resolve="someClass" />
+                </node>
+              </node>
+            </node>
+            <node concept="1_9egQ" id="1gzloVU_9Jr" role="3XIRFZ">
+              <node concept="2qmXGp" id="1gzloVU_9Js" role="1_9egR">
+                <node concept="3mBk1D" id="1gzloVU_9Jt" role="1ESnxz">
+                  <ref role="3mBk1B" node="1gzloVU_9J1" resolve="privateAttribute" />
+                  <node concept="7CXmI" id="1gzloVU_9Ju" role="lGtFl">
+                    <node concept="1TM$A" id="1gzloVU_9Jv" role="7EUXB" />
+                  </node>
+                </node>
+                <node concept="3ZVu4v" id="1gzloVU_9Jw" role="1_9fRO">
+                  <ref role="3ZVs_2" node="1gzloVU_9Jf" resolve="someClass" />
+                </node>
+              </node>
+            </node>
+            <node concept="1_9egQ" id="1gzloVU_9Jx" role="3XIRFZ">
+              <node concept="2qmXGp" id="1gzloVU_9Jy" role="1_9egR">
+                <node concept="3mBbHP" id="1gzloVU_9Jz" role="1ESnxz">
+                  <ref role="3mBbHN" node="1gzloVU_9J3" resolve="publicMethod" />
+                </node>
+                <node concept="3ZVu4v" id="1gzloVU_9J$" role="1_9fRO">
+                  <ref role="3ZVs_2" node="1gzloVU_9Jf" resolve="someClass" />
+                </node>
+              </node>
+            </node>
+            <node concept="1_9egQ" id="1gzloVU_9J_" role="3XIRFZ">
+              <node concept="2qmXGp" id="1gzloVU_9JA" role="1_9egR">
+                <node concept="3mBbHP" id="1gzloVU_9JB" role="1ESnxz">
+                  <ref role="3mBbHN" node="1gzloVU_9J6" resolve="protectedMethod" />
+                  <node concept="7CXmI" id="1gzloVU_9JC" role="lGtFl">
+                    <node concept="1TM$A" id="1gzloVU_9JD" role="7EUXB" />
+                  </node>
+                </node>
+                <node concept="3ZVu4v" id="1gzloVU_9JE" role="1_9fRO">
+                  <ref role="3ZVs_2" node="1gzloVU_9Jf" resolve="someClass" />
+                </node>
+              </node>
+            </node>
+            <node concept="1_9egQ" id="1gzloVU_9JF" role="3XIRFZ">
+              <node concept="2qmXGp" id="1gzloVU_9JG" role="1_9egR">
+                <node concept="3mBbHP" id="1gzloVU_9JH" role="1ESnxz">
+                  <ref role="3mBbHN" node="1gzloVU_9J9" resolve="privateMethod" />
+                  <node concept="7CXmI" id="1gzloVU_9JI" role="lGtFl">
+                    <node concept="1TM$A" id="1gzloVU_9JJ" role="7EUXB" />
+                  </node>
+                </node>
+                <node concept="3ZVu4v" id="1gzloVU_9JK" role="1_9fRO">
+                  <ref role="3ZVs_2" node="1gzloVU_9Jf" resolve="someClass" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="19Rifw" id="1gzloVU_9JL" role="2C2TGm">
+            <property role="2caQfQ" value="false" />
+            <property role="2c7vTL" value="false" />
+          </node>
+        </node>
+        <node concept="7CXmI" id="1gzloVU_9JM" role="lGtFl">
+          <node concept="7OXhh" id="6ejQpbvYgeB" role="7EUXB" />
+        </node>
       </node>
     </node>
   </node>
