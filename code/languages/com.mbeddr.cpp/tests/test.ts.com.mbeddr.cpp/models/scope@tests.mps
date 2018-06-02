@@ -560,6 +560,7 @@
           <property role="2OOxQR" value="true" />
           <property role="TrG5h" value="PublicParentClass" />
           <node concept="3mB1cK" id="6oRbCP68kRM" role="3mBdys">
+<<<<<<< HEAD
 <<<<<<< HEAD:code/languages/com.mbeddr.cpp/tests/test.ts.com.mbeddr.cpp/models/accessmodifiers@tests.mps
             <property role="gNYVZ" value="false" />
 =======
@@ -578,6 +579,10 @@
               </node>
 =======
             <property role="TrG5h" value="publicMethodPublicClass" />
+=======
+            <property role="TrG5h" value="publicMethodPublicClass" />
+            <property role="1wg9_F" value="public" />
+>>>>>>> ad56adfaea... Fix typesystem test cases
             <node concept="3XIRFW" id="6oRbCP68kRO" role="3XIRFX" />
             <node concept="19Rifw" id="1gzloVU$YOL" role="2C2TGm">
               <property role="2caQfQ" value="false" />
@@ -586,8 +591,11 @@
             </node>
           </node>
           <node concept="3mB1cK" id="688xTXtQiNN" role="3mBdys">
-            <property role="1wg9_F" value="protected" />
             <property role="TrG5h" value="protectedMethodPublicClass" />
+<<<<<<< HEAD
+=======
+            <property role="1wg9_F" value="protected" />
+>>>>>>> ad56adfaea... Fix typesystem test cases
             <node concept="19Rifw" id="1gzloVU$YUC" role="2C2TGm">
               <property role="2caQfQ" value="false" />
               <property role="2c7vTL" value="false" />
@@ -595,7 +603,6 @@
             <node concept="3XIRFW" id="688xTXtQiQ$" role="3XIRFX" />
           </node>
           <node concept="3mB1cK" id="1gzloVU$YVH" role="3mBdys">
-            <property role="1wg9_F" value="private" />
             <property role="TrG5h" value="privateMethodPublicClass" />
             <node concept="19Rifw" id="1gzloVU$YWb" role="2C2TGm">
               <property role="2caQfQ" value="false" />
@@ -623,8 +630,8 @@
           <property role="2OOxQR" value="true" />
           <property role="TrG5h" value="ProtectedParentClass" />
           <node concept="3mB1cK" id="1gzloVU$Z1Q" role="3mBdys">
-            <property role="1wg9_F" value="public" />
             <property role="TrG5h" value="publicMethodProtectedClass" />
+            <property role="1wg9_F" value="public" />
             <node concept="3XIRFW" id="1gzloVU$Z1R" role="3XIRFX" />
             <node concept="19Rifw" id="1gzloVU$Z1S" role="2C2TGm">
               <property role="2caQfQ" value="false" />
@@ -632,8 +639,8 @@
             </node>
           </node>
           <node concept="3mB1cK" id="1gzloVU$Z1T" role="3mBdys">
-            <property role="1wg9_F" value="protected" />
             <property role="TrG5h" value="protectedMethodProtectedClass" />
+            <property role="1wg9_F" value="protected" />
             <node concept="19Rifw" id="1gzloVU$Z1U" role="2C2TGm">
               <property role="2caQfQ" value="false" />
               <property role="2c7vTL" value="false" />
@@ -641,7 +648,6 @@
             <node concept="3XIRFW" id="1gzloVU$Z1V" role="3XIRFX" />
           </node>
           <node concept="3mB1cK" id="1gzloVU$Z1W" role="3mBdys">
-            <property role="1wg9_F" value="private" />
             <property role="TrG5h" value="privateMethodProtectedClass" />
             <node concept="19Rifw" id="1gzloVU$Z1X" role="2C2TGm">
               <property role="2caQfQ" value="false" />
@@ -657,8 +663,8 @@
           <property role="2OOxQR" value="true" />
           <property role="TrG5h" value="PrivateParentClass" />
           <node concept="3mB1cK" id="1gzloVU$Z8t" role="3mBdys">
-            <property role="1wg9_F" value="public" />
             <property role="TrG5h" value="publicMethodPrivateClass" />
+            <property role="1wg9_F" value="public" />
             <node concept="3XIRFW" id="1gzloVU$Z8u" role="3XIRFX" />
             <node concept="19Rifw" id="1gzloVU$Z8v" role="2C2TGm">
               <property role="2caQfQ" value="false" />
@@ -666,8 +672,8 @@
             </node>
           </node>
           <node concept="3mB1cK" id="1gzloVU$Z8w" role="3mBdys">
-            <property role="1wg9_F" value="protected" />
             <property role="TrG5h" value="protectedMethodPrivateClass" />
+            <property role="1wg9_F" value="protected" />
             <node concept="19Rifw" id="1gzloVU$Z8x" role="2C2TGm">
               <property role="2caQfQ" value="false" />
               <property role="2c7vTL" value="false" />
@@ -675,7 +681,6 @@
             <node concept="3XIRFW" id="1gzloVU$Z8y" role="3XIRFX" />
           </node>
           <node concept="3mB1cK" id="1gzloVU$Z8z" role="3mBdys">
-            <property role="1wg9_F" value="private" />
             <property role="TrG5h" value="privateMethodPrivateClass" />
             <node concept="19Rifw" id="1gzloVU$Z8$" role="2C2TGm">
               <property role="2caQfQ" value="false" />
@@ -702,7 +707,6 @@
             <ref role="FysoF" node="nbE_$_7VLV" resolve="PublicParentClass" />
           </node>
           <node concept="3mB1cK" id="1gzloVU_6LT" role="3mBdys">
-            <property role="1wg9_F" value="private" />
             <property role="TrG5h" value="localClassTest" />
             <node concept="19Rifw" id="1gzloVU_6M4" role="2C2TGm">
 >>>>>>> 6252029eeb... Add test for inheritance scoping
@@ -817,7 +821,6 @@
             <node concept="26Vqph" id="29I8DMSfSFj" role="2C2TGm">
 =======
           <node concept="3mB1cK" id="1gzloVU_7Fn" role="3mBdys">
-            <property role="1wg9_F" value="private" />
             <property role="TrG5h" value="inheritedClassTest" />
             <node concept="19Rifw" id="1gzloVU_7Fy" role="2C2TGm">
 >>>>>>> 6252029eeb... Add test for inheritance scoping
@@ -1195,8 +1198,8 @@
             </node>
           </node>
           <node concept="3mBbG7" id="1gzloVU_9IZ" role="3mBdys">
-            <property role="1wg9_F" value="protected" />
             <property role="TrG5h" value="protectedAttribute" />
+            <property role="1wg9_F" value="protected" />
             <node concept="26Vqph" id="1gzloVU_9J0" role="2C2TGm">
               <property role="2caQfQ" value="false" />
               <property role="2c7vTL" value="false" />
@@ -1204,15 +1207,14 @@
           </node>
           <node concept="3mBbG7" id="1gzloVU_9J1" role="3mBdys">
             <property role="TrG5h" value="privateAttribute" />
-            <property role="1wg9_F" value="private" />
             <node concept="26Vqph" id="1gzloVU_9J2" role="2C2TGm">
               <property role="2caQfQ" value="false" />
               <property role="2c7vTL" value="false" />
             </node>
           </node>
           <node concept="3mB1cK" id="1gzloVU_9J3" role="3mBdys">
-            <property role="1wg9_F" value="public" />
             <property role="TrG5h" value="publicMethod" />
+            <property role="1wg9_F" value="public" />
             <node concept="3XIRFW" id="1gzloVU_9J4" role="3XIRFX" />
             <node concept="19Rifw" id="1gzloVU_9J5" role="2C2TGm">
               <property role="2caQfQ" value="false" />
@@ -1220,8 +1222,8 @@
             </node>
           </node>
           <node concept="3mB1cK" id="1gzloVU_9J6" role="3mBdys">
-            <property role="1wg9_F" value="protected" />
             <property role="TrG5h" value="protectedMethod" />
+            <property role="1wg9_F" value="protected" />
             <node concept="3XIRFW" id="1gzloVU_9J7" role="3XIRFX" />
             <node concept="19Rifw" id="1gzloVU_9J8" role="2C2TGm">
               <property role="2caQfQ" value="false" />
@@ -1229,7 +1231,6 @@
             </node>
           </node>
           <node concept="3mB1cK" id="1gzloVU_9J9" role="3mBdys">
-            <property role="1wg9_F" value="private" />
             <property role="TrG5h" value="privateMethod" />
             <node concept="3XIRFW" id="1gzloVU_9Ja" role="3XIRFX" />
             <node concept="19Rifw" id="1gzloVU_9Jb" role="2C2TGm">
