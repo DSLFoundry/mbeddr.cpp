@@ -12,10 +12,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
     <import index="wnzg" ref="r:24646c42-f8e0-499c-b639-679cfa170a2e(com.mbeddr.cpp.base.structure)" />
+<<<<<<< HEAD
     <import index="hwgx" ref="r:fd2980c8-676c-4b19-b524-18c70e02f8b7(com.mbeddr.core.base.behavior)" />
     <import index="vs0r" ref="r:f7764ca4-8c75-4049-922b-08516400a727(com.mbeddr.core.base.structure)" />
     <import index="c4fa" ref="r:9f0e84b6-2ec7-4f9e-83e0-feedc77b63a3(com.mbeddr.core.statements.structure)" />
     <import index="rj8d" ref="r:da9fd96f-5c71-45ab-b2da-1aa6232ec67f(com.mbeddr.core.statements.behavior)" />
+=======
+    <import index="x27k" ref="r:75ecab8a-8931-4140-afc6-4b46398710fc(com.mbeddr.core.modules.structure)" />
+    <import index="1yyn" ref="r:64e0a2a9-7957-424b-8102-a5e8a7a73035(com.mbeddr.cpp.templates.structure)" />
+>>>>>>> 180d6b24f4... Unify structure naming, fix dependency issue and remove unused dependencies
     <import index="kntn" ref="r:4090021e-0c8f-4cca-ab3f-590afb43a745(com.mbeddr.cpp.base.behavior)" implicit="true" />
 =======
     <import index="hwgx" ref="r:fd2980c8-676c-4b19-b524-18c70e02f8b7(com.mbeddr.core.base.behavior)" />
@@ -906,10 +911,34 @@
               </node>
             </node>
           </node>
+<<<<<<< HEAD
           <node concept="3clFbH" id="2xmTzC2Mn0X" role="3cqZAp" />
           <node concept="3cpWs6" id="6hUtorEuXS6" role="3cqZAp">
             <node concept="37vLTw" id="6hUtorEuXVs" role="3cqZAk">
               <ref role="3cqZAo" node="6hUtorEuXyd" resolve="cScope" />
+=======
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="7fNEwq_6ZK6">
+    <property role="3GE5qa" value="namespace" />
+    <ref role="1M2myG" to="wnzg:7fNEwq_6ZJn" resolve="NamespaceClassInstanceAttributeRef" />
+    <node concept="1N5Pfh" id="7fNEwq_6ZMx" role="1Mr941">
+      <ref role="1N5Vy1" to="wnzg:7fNEwq_6ZLT" resolve="classAttribute" />
+      <node concept="3dgokm" id="7fNEwq_6ZMB" role="1N6uqs">
+        <node concept="3clFbS" id="7fNEwq_6ZMD" role="2VODD2">
+          <node concept="3clFbF" id="7fNEwq_r2Gq" role="3cqZAp">
+            <node concept="2YIFZM" id="7fNEwq_r2On" role="3clFbG">
+              <ref role="37wK5l" to="o8zo:4IP40Bi3eAf" resolve="forNamedElements" />
+              <ref role="1Pybhc" to="o8zo:4IP40Bi3e_R" resolve="ListScope" />
+              <node concept="2OqwBi" id="7fNEwq_r3dU" role="37wK5m">
+                <node concept="3kakTB" id="7fNEwq_r2Ta" role="2Oq$k0" />
+                <node concept="2qgKlT" id="7fNEwq_r3FS" role="2OqNvi">
+                  <ref role="37wK5l" to="kntn:7fNEwq_qWne" resolve="allPublicAttributes" />
+                </node>
+              </node>
+>>>>>>> 180d6b24f4... Unify structure naming, fix dependency issue and remove unused dependencies
             </node>
           </node>
 =======
@@ -1425,9 +1454,33 @@
               </node>
             </node>
           </node>
+<<<<<<< HEAD
           <node concept="3cpWs6" id="1rolTiuYFT3" role="3cqZAp">
             <node concept="37vLTw" id="1rolTivhoZJ" role="3cqZAk">
               <ref role="3cqZAo" node="1rolTivhlRS" resolve="extraScope" />
+=======
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="7fNEwqBx$7b">
+    <property role="3GE5qa" value="namespace" />
+    <ref role="1M2myG" to="wnzg:7fNEwqBx$6S" resolve="NamespaceClassInstanceMethodCall" />
+    <node concept="1N5Pfh" id="7fNEwqBxCee" role="1Mr941">
+      <ref role="1N5Vy1" to="wnzg:7fNEwqBx$6W" resolve="classMethod" />
+      <node concept="3dgokm" id="7fNEwqBxCey" role="1N6uqs">
+        <node concept="3clFbS" id="7fNEwqBxCe$" role="2VODD2">
+          <node concept="3clFbF" id="7fNEwqBxCtm" role="3cqZAp">
+            <node concept="2YIFZM" id="7fNEwqBxC_j" role="3clFbG">
+              <ref role="37wK5l" to="o8zo:4IP40Bi3eAf" resolve="forNamedElements" />
+              <ref role="1Pybhc" to="o8zo:4IP40Bi3e_R" resolve="ListScope" />
+              <node concept="2OqwBi" id="7fNEwqBym$e" role="37wK5m">
+                <node concept="3kakTB" id="7fNEwqBymgJ" role="2Oq$k0" />
+                <node concept="2qgKlT" id="7fNEwqBymXs" role="2OqNvi">
+                  <ref role="37wK5l" to="kntn:7fNEwqBxD2s" resolve="allPublicMethods" />
+                </node>
+              </node>
+>>>>>>> 180d6b24f4... Unify structure naming, fix dependency issue and remove unused dependencies
             </node>
           </node>
         </node>

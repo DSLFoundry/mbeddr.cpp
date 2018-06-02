@@ -15,6 +15,7 @@
     <import index="dylp" ref="r:9840bc62-cb31-4ef3-9c9b-2de91c97cc15(com.mbeddr.core.expressions.textGen)" />
     <import index="hwgx" ref="r:fd2980c8-676c-4b19-b524-18c70e02f8b7(com.mbeddr.core.base.behavior)" />
     <import index="c4fa" ref="r:9f0e84b6-2ec7-4f9e-83e0-feedc77b63a3(com.mbeddr.core.statements.structure)" />
+<<<<<<< HEAD
 =======
     <import index="tbr6" ref="r:6a005c26-87c0-43c4-8cf3-49ffba1099df(de.slisson.mps.richtext.behavior)" />
 >>>>>>> 71d8fb9fa7... Added InnerClassType, further testing for Using Namespace, small adjustments
@@ -27,6 +28,10 @@
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
     <import index="c4fa" ref="r:9f0e84b6-2ec7-4f9e-83e0-feedc77b63a3(com.mbeddr.core.statements.structure)" />
     <import index="hwgx" ref="r:fd2980c8-676c-4b19-b524-18c70e02f8b7(com.mbeddr.core.base.behavior)" />
+=======
+    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
+    <import index="dylp" ref="r:9840bc62-cb31-4ef3-9c9b-2de91c97cc15(com.mbeddr.core.expressions.textGen)" />
+>>>>>>> 180d6b24f4... Unify structure naming, fix dependency issue and remove unused dependencies
     <import index="wnzg" ref="r:24646c42-f8e0-499c-b639-679cfa170a2e(com.mbeddr.cpp.base.structure)" implicit="true" />
 >>>>>>> ff7b242aec... Added auto declaration.
 =======
@@ -1621,6 +1626,121 @@
               <node concept="3Tsc0h" id="1rolTiuDBrr" role="2OqNvi">
                 <ref role="3TtcxE" to="wnzg:383ZxwZrBkA" resolve="actuals" />
               </node>
+<<<<<<< HEAD
+=======
+            </node>
+          </node>
+        </node>
+        <node concept="lc7rE" id="1rolTiuDGeq" role="3cqZAp">
+          <node concept="la8eA" id="1rolTiuDGuB" role="lcghm">
+            <property role="lacIc" value=")" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="WtQ9Q" id="7fNEwq_Vo48">
+    <property role="3GE5qa" value="namespace" />
+    <ref role="WuzLi" to="wnzg:7fNEwq_6ZJn" resolve="NamespaceClassInstanceAttributeRef" />
+    <node concept="11bSqf" id="7fNEwq_Vo49" role="11c4hB">
+      <node concept="3clFbS" id="7fNEwq_Vo4a" role="2VODD2">
+        <node concept="lc7rE" id="7fNEwq_Vo4t" role="3cqZAp">
+          <node concept="l9hG8" id="7fNEwq_Vo4P" role="lcghm">
+            <node concept="2OqwBi" id="7fNEwq_Vp4f" role="lb14g">
+              <node concept="2OqwBi" id="7fNEwq_Voii" role="2Oq$k0">
+                <node concept="117lpO" id="7fNEwq_Vo5J" role="2Oq$k0" />
+                <node concept="3TrEf2" id="7fNEwq_VozO" role="2OqNvi">
+                  <ref role="3Tt5mk" to="wnzg:7fNEwq_6ZJT" resolve="classInstance" />
+                </node>
+              </node>
+              <node concept="3TrcHB" id="7fNEwq_Vpyd" role="2OqNvi">
+                <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+              </node>
+            </node>
+          </node>
+          <node concept="la8eA" id="7fNEwq_VpKy" role="lcghm">
+            <property role="lacIc" value="." />
+          </node>
+          <node concept="l9hG8" id="7fNEwq_VpZk" role="lcghm">
+            <node concept="2OqwBi" id="7fNEwq_Vrvh" role="lb14g">
+              <node concept="2OqwBi" id="7fNEwq_Vqjy" role="2Oq$k0">
+                <node concept="117lpO" id="7fNEwq_Vq7b" role="2Oq$k0" />
+                <node concept="3TrEf2" id="7fNEwq_VqWG" role="2OqNvi">
+                  <ref role="3Tt5mk" to="wnzg:7fNEwq_6ZLT" resolve="classAttribute" />
+                </node>
+              </node>
+              <node concept="3TrcHB" id="7fNEwq_VrUP" role="2OqNvi">
+                <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="WtQ9Q" id="6gFj6gq0OZt">
+    <property role="3GE5qa" value="namespace" />
+    <ref role="WuzLi" to="wnzg:6gFj6gpBJFg" resolve="GlobalUsingGeneralNamespaceDeclaration" />
+    <node concept="11bSqf" id="6gFj6gq0Pf_" role="11c4hB">
+      <node concept="3clFbS" id="6gFj6gq0PfA" role="2VODD2">
+        <node concept="lc7rE" id="6gFj6gq0PfB" role="3cqZAp">
+          <node concept="la8eA" id="6gFj6gq0PfC" role="lcghm">
+            <property role="lacIc" value="using namespace " />
+          </node>
+          <node concept="l9hG8" id="6gFj6gq0PfD" role="lcghm">
+            <node concept="2OqwBi" id="6gFj6gq0PfE" role="lb14g">
+              <node concept="2OqwBi" id="6gFj6gq0PfF" role="2Oq$k0">
+                <node concept="117lpO" id="6gFj6gq0PfG" role="2Oq$k0" />
+                <node concept="3TrEf2" id="6gFj6gq0PfH" role="2OqNvi">
+                  <ref role="3Tt5mk" to="wnzg:6gFj6gpBJF$" resolve="namespace" />
+                </node>
+              </node>
+              <node concept="2qgKlT" id="6gFj6gq0PfI" role="2OqNvi">
+                <ref role="37wK5l" to="tpcu:hEwIMiw" resolve="getPresentation" />
+              </node>
+            </node>
+          </node>
+          <node concept="la8eA" id="6gFj6gq2U1e" role="lcghm">
+            <property role="lacIc" value=";" />
+          </node>
+          <node concept="l8MVK" id="6gFj6gq2Un3" role="lcghm" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="WtQ9Q" id="17yeYAhYjUw">
+    <property role="3GE5qa" value="class" />
+    <ref role="WuzLi" to="wnzg:6hUtorDW7AG" resolve="LocalClassVariableDeclaration" />
+    <node concept="11bSqf" id="17yeYAhYjUx" role="11c4hB">
+      <node concept="3clFbS" id="17yeYAhYjUy" role="2VODD2">
+        <node concept="3clFbJ" id="3_fgNoLAYot" role="3cqZAp">
+          <node concept="3clFbS" id="3_fgNoLAYou" role="3clFbx">
+            <node concept="lc7rE" id="3_fgNoLAYoB" role="3cqZAp">
+              <node concept="la8eA" id="3_fgNoLAYoD" role="lcghm">
+                <property role="lacIc" value="static " />
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="3_fgNoLAYoy" role="3clFbw">
+            <node concept="117lpO" id="3_fgNoLAYox" role="2Oq$k0" />
+            <node concept="3TrcHB" id="3_fgNoLAYoA" role="2OqNvi">
+              <ref role="3TsBF5" to="c4fa:3_fgNoLA7XY" resolve="static" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="71J$BslqK0h" role="3cqZAp">
+          <node concept="3clFbS" id="71J$BslqK0i" role="3clFbx">
+            <node concept="lc7rE" id="71J$BslqK0j" role="3cqZAp">
+              <node concept="la8eA" id="71J$BslqK0k" role="lcghm">
+                <property role="lacIc" value="extern " />
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="71J$BslqK0l" role="3clFbw">
+            <node concept="117lpO" id="71J$BslqK0m" role="2Oq$k0" />
+            <node concept="3TrcHB" id="71J$BslqL4l" role="2OqNvi">
+              <ref role="3TsBF5" to="c4fa:71J$BslqIK_" resolve="extern" />
+>>>>>>> 180d6b24f4... Unify structure naming, fix dependency issue and remove unused dependencies
             </node>
           </node>
         </node>
@@ -2318,6 +2438,7 @@
       </node>
     </node>
   </node>
+<<<<<<< HEAD
   <node concept="WtQ9Q" id="1$h5d7wobOh">
     <property role="3GE5qa" value="Namespace" />
     <ref role="WuzLi" to="wnzg:1$h5d7wdNkU" resolve="UsingGeneralNamespaceDeclaration" />
@@ -2333,6 +2454,20 @@
                 <node concept="117lpO" id="1$h5d7wFnjT" role="2Oq$k0" />
                 <node concept="3TrEf2" id="1$h5d7wFnjU" role="2OqNvi">
                   <ref role="3Tt5mk" to="wnzg:1$h5d7wk3lQ" resolve="namespace" />
+=======
+  <node concept="WtQ9Q" id="7fNEwqBx$7n">
+    <property role="3GE5qa" value="namespace" />
+    <ref role="WuzLi" to="wnzg:7fNEwqBx$6S" resolve="NamespaceClassInstanceMethodCall" />
+    <node concept="11bSqf" id="7fNEwqBx$7o" role="11c4hB">
+      <node concept="3clFbS" id="7fNEwqBx$7p" role="2VODD2">
+        <node concept="lc7rE" id="7fNEwqByo60" role="3cqZAp">
+          <node concept="l9hG8" id="7fNEwqBypT8" role="lcghm">
+            <node concept="2OqwBi" id="7fNEwqBypT9" role="lb14g">
+              <node concept="2OqwBi" id="7fNEwqBypTa" role="2Oq$k0">
+                <node concept="117lpO" id="7fNEwqBypTb" role="2Oq$k0" />
+                <node concept="3TrEf2" id="7fNEwqBypTc" role="2OqNvi">
+                  <ref role="3Tt5mk" to="wnzg:7fNEwqBx$6T" resolve="classInstance" />
+>>>>>>> 180d6b24f4... Unify structure naming, fix dependency issue and remove unused dependencies
                 </node>
               </node>
               <node concept="2qgKlT" id="1$h5d7wFnjV" role="2OqNvi">
@@ -2350,6 +2485,7 @@
               <node concept="l8MVK" id="dx81$J8jmH" role="lcghm" />
             </node>
           </node>
+<<<<<<< HEAD
           <node concept="2OqwBi" id="dx81$J8li8" role="3clFbw">
             <node concept="2OqwBi" id="dx81$J8jUA" role="2Oq$k0">
               <node concept="117lpO" id="dx81$J8jGo" role="2Oq$k0" />
@@ -2358,6 +2494,14 @@
                   <node concept="chp4Y" id="dx81$J8ks5" role="ri$Ld">
                     <ref role="cht4Q" to="wnzg:383ZxwZqQYo" resolve="NamespaceDeclaration" />
                   </node>
+=======
+          <node concept="l9hG8" id="7fNEwqByo61" role="lcghm">
+            <node concept="2OqwBi" id="7fNEwqByo62" role="lb14g">
+              <node concept="2OqwBi" id="7fNEwqByo63" role="2Oq$k0">
+                <node concept="117lpO" id="7fNEwqByo64" role="2Oq$k0" />
+                <node concept="3TrEf2" id="7fNEwqByoxc" role="2OqNvi">
+                  <ref role="3Tt5mk" to="wnzg:7fNEwqBx$6W" resolve="classMethod" />
+>>>>>>> 180d6b24f4... Unify structure naming, fix dependency issue and remove unused dependencies
                 </node>
               </node>
             </node>

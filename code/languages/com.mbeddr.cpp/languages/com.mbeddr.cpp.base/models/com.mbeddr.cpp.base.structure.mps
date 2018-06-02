@@ -199,6 +199,7 @@
       <property role="IQ2nx" value="2995459757115087788" />
       <property role="TrG5h" value="visibility" />
       <ref role="AX2Wp" node="2Ai0Gt9ODIr" resolve="EClassMemberVisibility" />
+<<<<<<< HEAD
 =======
     <node concept="PrWs8" id="5eDFAXBm97W" role="PrDN$">
 <<<<<<< HEAD
@@ -207,6 +208,8 @@
 =======
       <ref role="PrY4T" node="1Yr26itwx8u" resolve="IStaticFlagConcept" />
 >>>>>>> 1494c628ee... Major refactoring of flags
+=======
+>>>>>>> 180d6b24f4... Unify structure naming, fix dependency issue and remove unused dependencies
     </node>
   </node>
   <node concept="1TIwiD" id="4o2nsMgBIrb">
@@ -1478,14 +1481,22 @@
     <node concept="1TJgyj" id="1rolTiuRvvJ" role="1TKVEi">
       <property role="IQ2ns" value="1646161959636039663" />
       <property role="20lmBu" value="reference" />
+<<<<<<< HEAD
       <property role="20kJfa" value="namespace" />
+=======
+      <property role="20kJfa" value="classInstance" />
+>>>>>>> 180d6b24f4... Unify structure naming, fix dependency issue and remove unused dependencies
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="383ZxwZqQYo" resolve="NamespaceDeclaration" />
     </node>
     <node concept="1TJgyj" id="1rolTiuOPRl" role="1TKVEi">
       <property role="IQ2ns" value="1646161959635344853" />
       <property role="20lmBu" value="reference" />
+<<<<<<< HEAD
       <property role="20kJfa" value="method" />
+=======
+      <property role="20kJfa" value="classAttribute" />
+>>>>>>> 180d6b24f4... Unify structure naming, fix dependency issue and remove unused dependencies
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="4o2nsMgB$VW" resolve="MethodDeclaration" />
     </node>
@@ -1500,13 +1511,33 @@
     <property role="34LRSv" value="using" />
     <property role="R4oN_" value="Using a namespace attribute" />
     <ref role="1TJDcQ" to="mj1l:7FQByU3CrCM" resolve="Expression" />
+<<<<<<< HEAD
     <node concept="PrWs8" id="1$h5d7v1dEc" role="PzmwI">
       <ref role="PrY4T" node="383ZxwZsgd5" resolve="INamedNamespaceMemberDeclaration" />
+=======
+    <node concept="1TJgyj" id="7fNEwqBxBea" role="1TKVEi">
+      <property role="IQ2ns" value="8355208679259534218" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="actuals" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" to="mj1l:7FQByU3CrCM" resolve="Expression" />
+    </node>
+    <node concept="1TJgyj" id="7fNEwqBx$6T" role="1TKVEi">
+      <property role="IQ2ns" value="8355208679259521465" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="classInstance" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="7RFM8R3Me1y" resolve="NamespaceClassInstance" />
+>>>>>>> 180d6b24f4... Unify structure naming, fix dependency issue and remove unused dependencies
     </node>
     <node concept="1TJgyj" id="1$h5d7v1dEf" role="1TKVEi">
       <property role="IQ2ns" value="1806247817174637199" />
       <property role="20lmBu" value="reference" />
+<<<<<<< HEAD
       <property role="20kJfa" value="namespace" />
+=======
+      <property role="20kJfa" value="classMethod" />
+>>>>>>> 180d6b24f4... Unify structure naming, fix dependency issue and remove unused dependencies
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="383ZxwZqQYo" resolve="NamespaceDeclaration" />
     </node>

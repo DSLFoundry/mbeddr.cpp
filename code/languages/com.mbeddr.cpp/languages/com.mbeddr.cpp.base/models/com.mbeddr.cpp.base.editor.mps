@@ -1179,6 +1179,7 @@
       <node concept="2iRfu4" id="6oRbCP62xl9" role="2iSdaV" />
     </node>
   </node>
+<<<<<<< HEAD
   <node concept="24kQdi" id="3EDDOqDY7xr">
     <ref role="1XX52x" to="wnzg:3EDDOqDY7x5" resolve="DeleteKeyword" />
     <node concept="3EZMnI" id="3EDDOqDY7xt" role="2wV5jI">
@@ -1193,6 +1194,29 @@
         <property role="3F0ifm" value=";" />
         <node concept="11L4FC" id="3EDDOqDY7yj" role="3F10Kt">
           <property role="VOm3f" value="true" />
+=======
+  <node concept="PKFIW" id="2L1k$oXm7Pq">
+    <property role="TrG5h" value="VirtualFlag" />
+    <property role="3GE5qa" value="flag" />
+    <ref role="1XX52x" to="wnzg:2L1k$oXxncW" resolve="IVirtualFlagConcept" />
+    <node concept="1kHk_G" id="2LwGNVbhV8I" role="2wV5jI">
+      <property role="ZjSer" value="virtual" />
+      <ref role="1k5W1q" to="r4b4:2CEi94dgHKA" resolve="KW" />
+      <ref role="1NtTu8" to="wnzg:2L1k$oXxncX" resolve="isVirtual" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="6oRbCP62xl4">
+    <property role="3GE5qa" value="class" />
+    <ref role="1XX52x" to="wnzg:6oRbCP62xkS" resolve="ClassTypeAccessor" />
+    <node concept="3EZMnI" id="6oRbCP62xl6" role="2wV5jI">
+      <node concept="1iCGBv" id="6oRbCP62xlg" role="3EZMnx">
+        <ref role="1NtTu8" to="wnzg:6oRbCP62xkT" resolve="class" />
+        <node concept="1sVBvm" id="6oRbCP62xli" role="1sWHZn">
+          <node concept="3F0A7n" id="6oRbCP62xls" role="2wV5jI">
+            <property role="1Intyy" value="true" />
+            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+          </node>
+>>>>>>> 180d6b24f4... Unify structure naming, fix dependency issue and remove unused dependencies
         </node>
       </node>
       <node concept="l2Vlx" id="3EDDOqDY7xw" role="2iSdaV" />
@@ -2284,6 +2308,39 @@
       <property role="ZjSer" value="pure" />
       <ref role="1k5W1q" to="r4b4:2CEi94dgHKA" resolve="KW" />
       <ref role="1NtTu8" to="wnzg:2L1k$oXDqK2" resolve="isPureVirtual" />
+<<<<<<< HEAD
+=======
+    </node>
+  </node>
+  <node concept="PKFIW" id="5eDFAXBRQic">
+    <property role="3GE5qa" value="flag" />
+    <property role="TrG5h" value="ConstExprFlag" />
+    <ref role="1XX52x" to="wnzg:5eDFAXBRQhJ" resolve="IConstExprFlagConcept" />
+    <node concept="1kHk_G" id="5eDFAXBRQie" role="2wV5jI">
+      <property role="ZjSer" value="constexpr" />
+      <ref role="1NtTu8" to="wnzg:5eDFAXBRQhK" resolve="isConstExpr" />
+      <ref role="1k5W1q" to="r4b4:2CEi94dgHKA" resolve="KW" />
+    </node>
+  </node>
+  <node concept="PKFIW" id="5eDFAXBC$A$">
+    <property role="3GE5qa" value="flag" />
+    <property role="TrG5h" value="ConstFlag" />
+    <ref role="1XX52x" to="wnzg:5eDFAXBC$A7" resolve="IConstFlagConcept" />
+    <node concept="1kHk_G" id="5eDFAXBC$AA" role="2wV5jI">
+      <property role="ZjSer" value="const" />
+      <ref role="1NtTu8" to="wnzg:5eDFAXBC$A8" resolve="isConstant" />
+      <ref role="1k5W1q" to="r4b4:2CEi94dgHKA" resolve="KW" />
+    </node>
+  </node>
+  <node concept="PKFIW" id="5eDFAXBRENO">
+    <property role="3GE5qa" value="flag" />
+    <property role="TrG5h" value="ExternFlag" />
+    <ref role="1XX52x" to="wnzg:5eDFAXBRENn" resolve="IExternFlagConcept" />
+    <node concept="1kHk_G" id="5eDFAXBRENQ" role="2wV5jI">
+      <property role="ZjSer" value="extern" />
+      <ref role="1NtTu8" to="wnzg:5eDFAXBRENo" resolve="isExtern" />
+      <ref role="1k5W1q" to="r4b4:2CEi94dgHKA" resolve="KW" />
+>>>>>>> 180d6b24f4... Unify structure naming, fix dependency issue and remove unused dependencies
     </node>
   </node>
 <<<<<<< HEAD
@@ -3049,6 +3106,7 @@
       <node concept="l2Vlx" id="383ZxwZuAlb" role="2iSdaV" />
     </node>
   </node>
+<<<<<<< HEAD
   <node concept="24kQdi" id="1rolTiuOPR0">
     <property role="3GE5qa" value="Namespace" />
     <ref role="1XX52x" to="wnzg:1rolTiuOPQt" resolve="UsingNamespaceMethodDeclaration" />
@@ -3100,6 +3158,16 @@
         <ref role="1NtTu8" to="wnzg:1rolTiuRvvJ" resolve="namespace" />
         <node concept="1sVBvm" id="1rolTiuRvw5" role="1sWHZn">
           <node concept="3F0A7n" id="1rolTiuRvwl" role="2wV5jI">
+=======
+  <node concept="24kQdi" id="7fNEwq_6ZK4">
+    <property role="3GE5qa" value="namespace" />
+    <ref role="1XX52x" to="wnzg:7fNEwq_6ZJn" resolve="NamespaceClassInstanceAttributeRef" />
+    <node concept="3EZMnI" id="7fNEwq_6ZK7" role="2wV5jI">
+      <node concept="1iCGBv" id="7fNEwq_6ZKh" role="3EZMnx">
+        <ref role="1NtTu8" to="wnzg:7fNEwq_6ZJT" resolve="classInstance" />
+        <node concept="1sVBvm" id="7fNEwq_6ZKj" role="1sWHZn">
+          <node concept="3F0A7n" id="7fNEwqABAzs" role="2wV5jI">
+>>>>>>> 180d6b24f4... Unify structure naming, fix dependency issue and remove unused dependencies
             <property role="1Intyy" value="true" />
             <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
           </node>
@@ -3114,14 +3182,22 @@
           <property role="VOm3f" value="true" />
         </node>
       </node>
+<<<<<<< HEAD
       <node concept="1iCGBv" id="1rolTiuRvx9" role="3EZMnx">
         <ref role="1NtTu8" to="wnzg:1rolTiuOPRl" resolve="method" />
         <node concept="1sVBvm" id="1rolTiuRvxb" role="1sWHZn">
           <node concept="3F0A7n" id="1rolTiuRvxz" role="2wV5jI">
+=======
+      <node concept="1iCGBv" id="7fNEwq_6ZM9" role="3EZMnx">
+        <ref role="1NtTu8" to="wnzg:7fNEwq_6ZLT" resolve="classAttribute" />
+        <node concept="1sVBvm" id="7fNEwq_6ZMb" role="1sWHZn">
+          <node concept="3F0A7n" id="7fNEwq_6ZMt" role="2wV5jI">
+>>>>>>> 180d6b24f4... Unify structure naming, fix dependency issue and remove unused dependencies
             <property role="1Intyy" value="true" />
             <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
           </node>
         </node>
+<<<<<<< HEAD
         <node concept="pkWqt" id="1rolTiuRvxB" role="pqm2j">
           <node concept="3clFbS" id="1rolTiuRvxC" role="2VODD2">
             <node concept="3clFbF" id="1rolTiuRvCZ" role="3cqZAp">
@@ -3130,6 +3206,16 @@
                   <node concept="pncrf" id="1rolTiuRvCY" role="2Oq$k0" />
                   <node concept="3TrEf2" id="1rolTiuRwMm" role="2OqNvi">
                     <ref role="3Tt5mk" to="wnzg:1rolTiuRvvJ" resolve="namespace" />
+=======
+        <node concept="pkWqt" id="7fNEwq_xn$5" role="pqm2j">
+          <node concept="3clFbS" id="7fNEwq_xn$6" role="2VODD2">
+            <node concept="3clFbF" id="7fNEwq_xnFt" role="3cqZAp">
+              <node concept="2OqwBi" id="7fNEwq_xpGi" role="3clFbG">
+                <node concept="2OqwBi" id="7fNEwq_xo1s" role="2Oq$k0">
+                  <node concept="pncrf" id="7fNEwq_xnFs" role="2Oq$k0" />
+                  <node concept="3TrEf2" id="7fNEwq_xoH2" role="2OqNvi">
+                    <ref role="3Tt5mk" to="wnzg:7fNEwq_6ZJT" resolve="classInstance" />
+>>>>>>> 180d6b24f4... Unify structure naming, fix dependency issue and remove unused dependencies
                   </node>
                 </node>
                 <node concept="3x8VRR" id="1rolTiuRyC1" role="2OqNvi" />
@@ -3640,6 +3726,7 @@
       <node concept="l2Vlx" id="7RFM8R0xwsr" role="2iSdaV" />
     </node>
   </node>
+<<<<<<< HEAD
   <node concept="24kQdi" id="7RFM8R0Rm5A">
     <property role="3GE5qa" value="Namespace" />
     <ref role="1XX52x" to="wnzg:7RFM8R0Rm5q" resolve="GlobalUsingNamespaceMethodDeclaration" />
@@ -3662,12 +3749,53 @@
                   </node>
                   <node concept="2qgKlT" id="7RFM8R0Rm6i" role="2OqNvi">
                     <ref role="37wK5l" to="kntn:383ZxwZufXU" resolve="getEditorPresentation" />
+=======
+  <node concept="24kQdi" id="7fNEwqBx$79">
+    <property role="3GE5qa" value="namespace" />
+    <ref role="1XX52x" to="wnzg:7fNEwqBx$6S" resolve="NamespaceClassInstanceMethodCall" />
+    <node concept="3EZMnI" id="7fNEwqBx_4A" role="2wV5jI">
+      <node concept="1iCGBv" id="7fNEwqBx_4U" role="3EZMnx">
+        <ref role="1NtTu8" to="wnzg:7fNEwqBx$6T" resolve="classInstance" />
+        <node concept="1sVBvm" id="7fNEwqBx_4V" role="1sWHZn">
+          <node concept="3F0A7n" id="7fNEwqBx_4W" role="2wV5jI">
+            <property role="1Intyy" value="true" />
+            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+          </node>
+        </node>
+      </node>
+      <node concept="3F0ifn" id="7fNEwqBx_4X" role="3EZMnx">
+        <property role="3F0ifm" value="." />
+        <node concept="11L4FC" id="7fNEwqBx_4Y" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="11LMrY" id="7fNEwqBx_4Z" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="1iCGBv" id="7fNEwqBx_5e" role="3EZMnx">
+        <ref role="1NtTu8" to="wnzg:7fNEwqBx$6W" resolve="classMethod" />
+        <node concept="1sVBvm" id="7fNEwqBx_5f" role="1sWHZn">
+          <node concept="3F0A7n" id="7fNEwqBx_5g" role="2wV5jI">
+            <property role="1Intyy" value="true" />
+            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+          </node>
+        </node>
+        <node concept="pkWqt" id="7fNEwqBx_5h" role="pqm2j">
+          <node concept="3clFbS" id="7fNEwqBx_5i" role="2VODD2">
+            <node concept="3clFbF" id="7fNEwqBx_5j" role="3cqZAp">
+              <node concept="2OqwBi" id="7fNEwqBx_5k" role="3clFbG">
+                <node concept="2OqwBi" id="7fNEwqBx_5l" role="2Oq$k0">
+                  <node concept="pncrf" id="7fNEwqBx_5m" role="2Oq$k0" />
+                  <node concept="3TrEf2" id="7fNEwqBC0Vo" role="2OqNvi">
+                    <ref role="3Tt5mk" to="wnzg:7fNEwqBx$6T" resolve="classInstance" />
+>>>>>>> 180d6b24f4... Unify structure naming, fix dependency issue and remove unused dependencies
                   </node>
                 </node>
               </node>
             </node>
           </node>
         </node>
+<<<<<<< HEAD
         <node concept="pkWqt" id="7RFM8R0Rm6j" role="pqm2j">
           <node concept="3clFbS" id="7RFM8R0Rm6k" role="2VODD2">
             <node concept="3clFbF" id="7RFM8R0Rm6l" role="3cqZAp">
@@ -3676,6 +3804,19 @@
                   <node concept="pncrf" id="7RFM8R0Rm6o" role="2Oq$k0" />
                   <node concept="3TrEf2" id="7RFM8R0Rm6p" role="2OqNvi">
                     <ref role="3Tt5mk" to="wnzg:7RFM8R0Rm5r" resolve="namespace" />
+=======
+      </node>
+      <node concept="3F0ifn" id="7fNEwqBx_5p" role="3EZMnx">
+        <property role="3F0ifm" value="(" />
+        <node concept="pkWqt" id="7fNEwqBx_5q" role="pqm2j">
+          <node concept="3clFbS" id="7fNEwqBx_5r" role="2VODD2">
+            <node concept="3clFbF" id="7fNEwqBx_5s" role="3cqZAp">
+              <node concept="2OqwBi" id="7fNEwqBx_5t" role="3clFbG">
+                <node concept="2OqwBi" id="7fNEwqBx_5u" role="2Oq$k0">
+                  <node concept="pncrf" id="7fNEwqBx_5v" role="2Oq$k0" />
+                  <node concept="3TrEf2" id="7fNEwqBC0cc" role="2OqNvi">
+                    <ref role="3Tt5mk" to="wnzg:7fNEwqBx$6W" resolve="classMethod" />
+>>>>>>> 180d6b24f4... Unify structure naming, fix dependency issue and remove unused dependencies
                   </node>
                 </node>
                 <node concept="3x8VRR" id="7RFM8R0Rm6q" role="2OqNvi" />
@@ -3705,6 +3846,7 @@
           <property role="VOm3f" value="true" />
         </node>
       </node>
+<<<<<<< HEAD
       <node concept="1iCGBv" id="7RFM8R0Rm6y" role="3EZMnx">
         <ref role="1NtTu8" to="wnzg:7RFM8R0Rm5s" resolve="method" />
         <node concept="1sVBvm" id="7RFM8R0Rm6z" role="1sWHZn">
@@ -3721,6 +3863,38 @@
                   <node concept="pncrf" id="7RFM8R0Rm6E" role="2Oq$k0" />
                   <node concept="3TrEf2" id="7RFM8R0Rm6F" role="2OqNvi">
                     <ref role="3Tt5mk" to="wnzg:7RFM8R0Rm5r" resolve="namespace" />
+=======
+      <node concept="3F2HdR" id="7fNEwqBx_5$" role="3EZMnx">
+        <ref role="1NtTu8" to="wnzg:7fNEwqBxBea" resolve="actuals" />
+        <node concept="l2Vlx" id="7fNEwqBx_5_" role="2czzBx" />
+        <node concept="pkWqt" id="7fNEwqBx_5A" role="pqm2j">
+          <node concept="3clFbS" id="7fNEwqBx_5B" role="2VODD2">
+            <node concept="3clFbF" id="7fNEwqBx_5C" role="3cqZAp">
+              <node concept="2OqwBi" id="7fNEwqBx_5D" role="3clFbG">
+                <node concept="2OqwBi" id="7fNEwqBx_5E" role="2Oq$k0">
+                  <node concept="pncrf" id="7fNEwqBx_5F" role="2Oq$k0" />
+                  <node concept="3TrEf2" id="7fNEwqBC1J9" role="2OqNvi">
+                    <ref role="3Tt5mk" to="wnzg:7fNEwqBx$6W" resolve="classMethod" />
+                  </node>
+                </node>
+                <node concept="3x8VRR" id="7fNEwqBx_5H" role="2OqNvi" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="35HoNQ" id="7fNEwqBx_5I" role="2czzBI" />
+      </node>
+      <node concept="3F0ifn" id="7fNEwqBx_5J" role="3EZMnx">
+        <property role="3F0ifm" value=")" />
+        <node concept="pkWqt" id="7fNEwqBx_5K" role="pqm2j">
+          <node concept="3clFbS" id="7fNEwqBx_5L" role="2VODD2">
+            <node concept="3clFbF" id="7fNEwqBx_5M" role="3cqZAp">
+              <node concept="2OqwBi" id="7fNEwqBx_5N" role="3clFbG">
+                <node concept="2OqwBi" id="7fNEwqBx_5O" role="2Oq$k0">
+                  <node concept="pncrf" id="7fNEwqBx_5P" role="2Oq$k0" />
+                  <node concept="3TrEf2" id="7fNEwqBC2yU" role="2OqNvi">
+                    <ref role="3Tt5mk" to="wnzg:7fNEwqBx$6W" resolve="classMethod" />
+>>>>>>> 180d6b24f4... Unify structure naming, fix dependency issue and remove unused dependencies
                   </node>
                 </node>
                 <node concept="3x8VRR" id="7RFM8R0Rm6G" role="2OqNvi" />
