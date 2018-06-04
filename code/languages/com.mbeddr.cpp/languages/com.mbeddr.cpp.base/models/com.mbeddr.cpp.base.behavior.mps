@@ -1838,6 +1838,7 @@
             </node>
           </node>
         </node>
+<<<<<<< HEAD
         <node concept="2Gpval" id="3p40HKh2pXk" role="3cqZAp">
           <node concept="2GrKxI" id="3p40HKh2pXl" role="2Gsz3X">
             <property role="TrG5h" value="parent" />
@@ -1891,6 +1892,93 @@
                   </node>
                 </node>
               </node>
+=======
+      </node>
+    </node>
+    <node concept="13i0hz" id="2yiFVcKzYCg" role="13h7CS">
+      <property role="13i0it" value="true" />
+      <property role="TrG5h" value="getType" />
+      <node concept="3Tm1VV" id="2yiFVcKzYCh" role="1B3o_S" />
+      <node concept="3Tqbb2" id="2yiFVcK$63D" role="3clF45">
+        <ref role="ehGHo" to="wnzg:4o2nsMgBEtu" resolve="ClassType" />
+      </node>
+      <node concept="3clFbS" id="2yiFVcKzYCj" role="3clF47">
+        <node concept="3cpWs8" id="2yiFVcK$7Ps" role="3cqZAp">
+          <node concept="3cpWsn" id="2yiFVcK$7Pv" role="3cpWs9">
+            <property role="TrG5h" value="classTypeNode" />
+            <node concept="3Tqbb2" id="2yiFVcK$7Pr" role="1tU5fm">
+              <ref role="ehGHo" to="wnzg:4o2nsMgBEtu" resolve="ClassType" />
+            </node>
+            <node concept="2ShNRf" id="2yiFVcK$7Qq" role="33vP2m">
+              <node concept="3zrR0B" id="2yiFVcK$8m6" role="2ShVmc">
+                <node concept="3Tqbb2" id="2yiFVcK$8m8" role="3zrR0E">
+                  <ref role="ehGHo" to="wnzg:4o2nsMgBEtu" resolve="ClassType" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="2yiFVcK$8sX" role="3cqZAp">
+          <node concept="37vLTI" id="2yiFVcK$cZm" role="3clFbG">
+            <node concept="13iPFW" id="2yiFVcK$daB" role="37vLTx" />
+            <node concept="2OqwBi" id="2yiFVcK$8DE" role="37vLTJ">
+              <node concept="37vLTw" id="2yiFVcK$8sV" role="2Oq$k0">
+                <ref role="3cqZAo" node="2yiFVcK$7Pv" resolve="classTypeNode" />
+              </node>
+              <node concept="3TrEf2" id="2yiFVcK$9wF" role="2OqNvi">
+                <ref role="3Tt5mk" to="wnzg:4o2nsMgBEtY" resolve="clazz" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs6" id="2yiFVcK$dw_" role="3cqZAp">
+          <node concept="37vLTw" id="2yiFVcK$d$$" role="3cqZAk">
+            <ref role="3cqZAo" node="2yiFVcK$7Pv" resolve="classTypeNode" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="13h7C7" id="2Ai0Gt9WfLZ">
+    <property role="3GE5qa" value="method" />
+    <ref role="13h7C2" to="wnzg:2Ai0Gt9WczV" resolve="MethodPrototype" />
+    <node concept="13i0hz" id="4WTYg$PPEcw" role="13h7CS">
+      <property role="13i0iv" value="false" />
+      <property role="13i0it" value="false" />
+      <property role="TrG5h" value="getStatementList" />
+      <ref role="13i0hy" to="qd6m:71UKpntnl7S" resolve="getStatementList" />
+      <node concept="3Tm1VV" id="4WTYg$PPEcx" role="1B3o_S" />
+      <node concept="3clFbS" id="4WTYg$PPEcy" role="3clF47">
+        <node concept="3cpWs6" id="4WTYg$PPEcI" role="3cqZAp">
+          <node concept="10Nm6u" id="4WTYg$PPEcK" role="3cqZAk" />
+        </node>
+      </node>
+      <node concept="3Tqbb2" id="4WTYg$PPEcz" role="3clF45">
+        <ref role="ehGHo" to="c4fa:3CmSUB7Fp_l" resolve="StatementList" />
+      </node>
+    </node>
+    <node concept="13hLZK" id="2Ai0Gt9WfM0" role="13h7CW">
+      <node concept="3clFbS" id="2Ai0Gt9WfM1" role="2VODD2" />
+    </node>
+  </node>
+  <node concept="13h7C7" id="3v5DuFDm5pb">
+    <ref role="13h7C2" to="wnzg:4o2nsMgBIrb" resolve="AttributeDeclaration" />
+    <node concept="13hLZK" id="3v5DuFDm5pc" role="13h7CW">
+      <node concept="3clFbS" id="3v5DuFDm5pd" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="3v5DuFDm5qi" role="13h7CS">
+      <property role="13i0iv" value="false" />
+      <property role="13i0it" value="false" />
+      <property role="TrG5h" value="getDeclaredType" />
+      <ref role="13i0hy" to="ywuz:1LDGRqyYkTX" resolve="getDeclaredType" />
+      <node concept="3Tm1VV" id="3v5DuFDm5qj" role="1B3o_S" />
+      <node concept="3clFbS" id="3v5DuFDm5qm" role="3clF47">
+        <node concept="3clFbF" id="3v5DuFDm5r7" role="3cqZAp">
+          <node concept="2OqwBi" id="3v5DuFDm5BI" role="3clFbG">
+            <node concept="13iPFW" id="3v5DuFDm5r6" role="2Oq$k0" />
+            <node concept="3TrEf2" id="3v5DuFDm6bm" role="2OqNvi">
+              <ref role="3Tt5mk" to="mj1l:hEaDaGor64" resolve="type" />
+>>>>>>> efc1f3b310... Implemented this keyword and changed class member scoping
             </node>
           </node>
         </node>
