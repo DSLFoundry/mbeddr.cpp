@@ -163,10 +163,14 @@
     <node concept="PrWs8" id="15T8UHynjIu" role="PzmwI">
       <ref role="PrY4T" node="5eDFAXBCper" resolve="IVolatileFlagConcept" />
     </node>
+<<<<<<< HEAD
     <node concept="PrWs8" id="15T8UHynkMK" role="PzmwI">
       <ref role="PrY4T" node="5eDFAXBC$A7" resolve="IConstFlagConcept" />
     </node>
     <node concept="PrWs8" id="15T8UHysf1I" role="PzmwI">
+=======
+    <node concept="PrWs8" id="3UJ18qjqSjS" role="PzmwI">
+>>>>>>> e244fa05a3... Add method and attribute test cases
       <ref role="PrY4T" node="5eDFAXBRQhJ" resolve="IConstExprFlagConcept" />
 =======
     <node concept="PrWs8" id="1rolTiuExQu" role="PzmwI">
@@ -238,9 +242,6 @@
     </node>
     <node concept="PrWs8" id="7DDmkyVqQX" role="PzmwI">
       <ref role="PrY4T" to="mj1l:hEaDaGor63" resolve="ITyped" />
-    </node>
-    <node concept="PrWs8" id="5eDFAXBCDaF" role="PzmwI">
-      <ref role="PrY4T" node="5eDFAXBC$A7" resolve="IConstFlagConcept" />
     </node>
     <node concept="PrWs8" id="5eDFAXBCDcW" role="PzmwI">
       <ref role="PrY4T" node="5eDFAXBCper" resolve="IVolatileFlagConcept" />
@@ -351,9 +352,6 @@
     </node>
     <node concept="PrWs8" id="5C47DuoDR$z" role="PzmwI">
       <ref role="PrY4T" to="vs0r:1S6A2cmQVtM" resolve="ICallable" />
-    </node>
-    <node concept="PrWs8" id="3LE5RBQ6qAL" role="PzmwI">
-      <ref role="PrY4T" node="3LE5RBQ6qAj" resolve="IAmInlineable" />
     </node>
   </node>
 <<<<<<< HEAD
@@ -969,6 +967,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   <node concept="1TIwiD" id="3OWNtRXmIPi">
     <property role="EcuMT" value="4412628088238304594" />
     <property role="3GE5qa" value="class" />
@@ -1196,6 +1195,23 @@
     <property role="34LRSv" value="auto" />
     <ref role="1TJDcQ" to="x27k:5IYyAOzCrre" resolve="GlobalVariableDeclaration" />
     <node concept="PrWs8" id="2O2YBLCk51z" role="PzmwI">
+=======
+  <node concept="1TIwiD" id="6gFj6gpBJFg">
+    <property role="EcuMT" value="7217946820601641680" />
+    <property role="3GE5qa" value="namespace" />
+    <property role="TrG5h" value="GlobalUsingGeneralNamespaceDeclaration" />
+    <property role="34LRSv" value="using" />
+    <property role="R4oN_" value="Using namespace &lt;...&gt;" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="6gFj6gpBJF$" role="1TKVEi">
+      <property role="IQ2ns" value="7217946820601641700" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="namespace" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="383ZxwZqQYo" resolve="NamespaceDeclaration" />
+    </node>
+    <node concept="PrWs8" id="6gFj6gpBJFh" role="PzmwI">
+>>>>>>> e244fa05a3... Add method and attribute test cases
       <ref role="PrY4T" to="x27k:5_l8w1EmTdf" resolve="IModuleContent" />
     </node>
     <node concept="PrWs8" id="2O2YBLCktFw" role="PzmwI">
@@ -1647,6 +1663,7 @@
     </node>
   </node>
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 187dabb7a4... Added global using namespace declaration support.
 =======
   <node concept="1TIwiD" id="7RFM8R3Me1y">
@@ -1660,6 +1677,36 @@
       <ref role="PrY4T" node="4o2nsMgBJ5Y" resolve="INamedClassMemberDeclaration" />
     </node>
     <node concept="PrWs8" id="7RFM8R3Me22" role="PzmwI">
+=======
+  <node concept="PlHQZ" id="15T8UHynq3H">
+    <property role="EcuMT" value="1259076789823447277" />
+    <property role="3GE5qa" value="flag" />
+    <property role="TrG5h" value="IMutableFlagConcept" />
+    <node concept="1TJgyi" id="15T8UHynq3I" role="1TKVEl">
+      <property role="IQ2nx" value="1259076789823447278" />
+      <property role="TrG5h" value="isMutable" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="1Yr26itwx8u">
+    <property role="EcuMT" value="2277423264798216734" />
+    <property role="3GE5qa" value="flag" />
+    <property role="TrG5h" value="IStaticFlagConcept" />
+    <node concept="1TJgyi" id="1Yr26itwx8v" role="1TKVEl">
+      <property role="IQ2nx" value="2277423264798216735" />
+      <property role="TrG5h" value="isStatic" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="383ZxwZqQYo">
+    <property role="EcuMT" value="3604003506923204504" />
+    <property role="TrG5h" value="NamespaceDeclaration" />
+    <property role="34LRSv" value="namespace" />
+    <property role="R4oN_" value="New namespace" />
+    <property role="3GE5qa" value="namespace" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="383ZxwZrBkm" role="PzmwI">
+>>>>>>> e244fa05a3... Add method and attribute test cases
       <ref role="PrY4T" to="x27k:5_l8w1EmTdf" resolve="IModuleContent" />
     </node>
     <node concept="1TJgyj" id="7RFM8R3Me2a" role="1TKVEi">

@@ -2011,6 +2011,7 @@
         </node>
       </node>
 <<<<<<< HEAD
+<<<<<<< HEAD
     </node>
     <node concept="1YaCAy" id="5i01kANrE35" role="1YuTPh">
       <property role="TrG5h" value="classDeclaration" />
@@ -2066,6 +2067,8 @@
           </node>
         </node>
       </node>
+=======
+>>>>>>> e244fa05a3... Add method and attribute test cases
     </node>
     <node concept="1YaCAy" id="2L1k$oXKZ8O" role="1YuTPh">
       <property role="TrG5h" value="methodDeclaration" />
