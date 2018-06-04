@@ -1648,6 +1648,24 @@
           <property role="2c7vTL" value="false" />
         </node>
       </node>
+      <node concept="2gom5y" id="T6qFshze8D" role="3mBdys">
+        <property role="3BMcJd" value="false" />
+        <property role="1wg9_F" value="public" />
+        <property role="TrG5h" value="ParentClass" />
+        <ref role="2gom41" node="6KmaLbDZm15" resolve="ParentClass" />
+        <node concept="19RgSI" id="T6qFshzebJ" role="1UOdpc">
+          <property role="TrG5h" value="x" />
+          <node concept="26Vqqz" id="T6qFshzebH" role="2C2TGm">
+            <property role="2caQfQ" value="false" />
+            <property role="2c7vTL" value="false" />
+          </node>
+        </node>
+        <node concept="3XIRFW" id="T6qFshze8E" role="1IVm9U" />
+        <node concept="2dFNQU" id="T6qFshze8F" role="2C2TGm">
+          <property role="2caQfQ" value="false" />
+          <property role="2c7vTL" value="false" />
+        </node>
+      </node>
       <node concept="3mBbG7" id="7wcjSRttVKQ" role="3mBdys">
         <property role="TrG5h" value="parentY" />
         <property role="1wg9_F" value="protected" />
@@ -1738,11 +1756,20 @@
           <property role="2c7vTL" value="false" />
         </node>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <node concept="yZclw" id="3LE5RBQaMRJ" role="1YC0t0">
 =======
         <node concept="yZclw" id="6FnHX$H9n$K" role="1YC0t0">
 >>>>>>> 858f7e856f... Fix tests
           <ref role="yKYgm" node="7wcjSRttVKs" resolve="ParentClass" />
+=======
+        <node concept="yZclw" id="T6qFshzTGJ" role="1YC0t0">
+          <property role="TrG5h" value="ClassName" />
+          <ref role="yKYgm" node="T6qFshze8D" resolve="ParentClass" />
+          <node concept="3TlMh9" id="T6qFshzTHd" role="yKYi2">
+            <property role="2hmy$m" value="23" />
+          </node>
+>>>>>>> fafdce9933... Fix textgen not working on constructor initializers
         </node>
       </node>
       <node concept="2gom5y" id="7wcjSRtzLD7" role="3mBdys">

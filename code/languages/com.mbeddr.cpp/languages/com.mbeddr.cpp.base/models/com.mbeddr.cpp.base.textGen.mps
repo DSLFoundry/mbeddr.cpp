@@ -2170,6 +2170,7 @@
               </node>
             </node>
           </node>
+<<<<<<< HEAD
           <node concept="3clFbS" id="5Oog2UbP_cC" role="3clFbx">
             <node concept="lc7rE" id="5Oog2UbP_cL" role="3cqZAp">
               <node concept="la8eA" id="5Oog2UbP_cN" role="lcghm">
@@ -2202,6 +2203,47 @@
                 <node concept="3TrcHB" id="2S_w_nntZ5O" role="2OqNvi">
                   <ref role="3TsBF5" to="x27k:19a6$uAA0vK" resolve="exported" />
                 </node>
+=======
+        </node>
+        <node concept="3clFbH" id="7DDmkza5jz" role="3cqZAp" />
+      </node>
+      <node concept="37vLTG" id="6ddXmWdP_q9" role="3clF46">
+        <property role="TrG5h" value="node" />
+        <node concept="3Tqbb2" id="6ddXmWdP_q8" role="1tU5fm">
+          <ref role="ehGHo" to="wnzg:6NtgknWJ21h" resolve="ClassConstructorSignature" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="6ddXmWdPAB7" role="3clF46">
+        <property role="TrG5h" value="className" />
+        <node concept="17QB3L" id="6ddXmWdPABr" role="1tU5fm" />
+      </node>
+    </node>
+  </node>
+  <node concept="WtQ9Q" id="6hUtorDPkwX">
+    <property role="3GE5qa" value="method.constructor" />
+    <ref role="WuzLi" to="wnzg:6hUtorDPkwW" resolve="ConstructorVoidType" />
+    <node concept="11bSqf" id="6hUtorDPkwY" role="11c4hB">
+      <node concept="3clFbS" id="6hUtorDPkwZ" role="2VODD2">
+        <node concept="3SKdUt" id="6hUtorDPkxi" role="3cqZAp">
+          <node concept="3SKdUq" id="6hUtorDPkxj" role="3SKWNk">
+            <property role="3SKdUp" value="Intentionally empty" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="WtQ9Q" id="4KyQ_QhDpke">
+    <property role="3GE5qa" value="method.constructor" />
+    <ref role="WuzLi" to="wnzg:7DDmkz5m05" resolve="ConstructorInitializedConstructor" />
+    <node concept="11bSqf" id="4KyQ_QhDpkf" role="11c4hB">
+      <node concept="3clFbS" id="4KyQ_QhDpkg" role="2VODD2">
+        <node concept="lc7rE" id="4KyQ_QhDpkP" role="3cqZAp">
+          <node concept="l9hG8" id="4KyQ_QhDplf" role="lcghm">
+            <node concept="2OqwBi" id="T6qFsh$1id" role="lb14g">
+              <node concept="117lpO" id="T6qFsh$18e" role="2Oq$k0" />
+              <node concept="3TrcHB" id="T6qFsh$1u3" role="2OqNvi">
+                <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+>>>>>>> fafdce9933... Fix textgen not working on constructor initializers
               </node>
             </node>
           </node>
