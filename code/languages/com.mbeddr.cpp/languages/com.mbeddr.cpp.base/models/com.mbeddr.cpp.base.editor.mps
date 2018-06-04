@@ -107,6 +107,7 @@
         <child id="5692353713941573325" name="textFunction" index="1hCUd6" />
       </concept>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <concept id="1160493135005" name="jetbrains.mps.lang.editor.structure.CellMenuPart_PropertyValues_GetValues" flags="in" index="MLZmj" />
       <concept id="1164824717996" name="jetbrains.mps.lang.editor.structure.CellMenuDescriptor" flags="ng" index="OXEIz">
         <child id="1164824815888" name="cellMenuPart" index="OY2wv" />
@@ -118,11 +119,14 @@
 >>>>>>> 8526e6c0af... Finished the other using statements, only TextGen left.
 =======
 >>>>>>> 09067ffb17... Added support for the global Namespace Declaration.
+=======
+>>>>>>> f7ba0272ae... Redo auto keyword
       <concept id="1078938745671" name="jetbrains.mps.lang.editor.structure.EditorComponentDeclaration" flags="ig" index="PKFIW" />
       <concept id="1078939183254" name="jetbrains.mps.lang.editor.structure.CellModel_Component" flags="sg" stub="3162947552742194261" index="PMmxH">
         <reference id="1078939183255" name="editorComponent" index="PMmxG" />
       </concept>
       <concept id="4323500428121233431" name="jetbrains.mps.lang.editor.structure.EditorCellId" flags="ng" index="2SqB2G" />
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       <concept id="1186402211651" name="jetbrains.mps.lang.editor.structure.StyleSheet" flags="ng" index="V5hpn">
@@ -133,6 +137,8 @@
 >>>>>>> ff7b242aec... Added auto declaration.
       </concept>
 =======
+=======
+>>>>>>> f7ba0272ae... Redo auto keyword
       <concept id="1186402211651" name="jetbrains.mps.lang.editor.structure.StyleSheet" flags="ng" index="V5hpn">
         <child id="1186402402630" name="styleClass" index="V601i" />
       </concept>
@@ -223,7 +229,6 @@
 =======
 >>>>>>> ff7b242aec... Added auto declaration.
         <child id="1142887637401" name="renderingCondition" index="pqm2j" />
-        <child id="1164826688380" name="menuDescriptor" index="P5bDN" />
         <child id="4323500428121274054" name="id" index="2SqHTX" />
         <child id="4202667662392416064" name="transformationMenu" index="3vIgyS" />
       </concept>
@@ -240,7 +245,6 @@
       </concept>
       <concept id="1073389882823" name="jetbrains.mps.lang.editor.structure.CellModel_RefNode" flags="sg" stub="730538219795960754" index="3F1sOY" />
       <concept id="1073390211982" name="jetbrains.mps.lang.editor.structure.CellModel_RefNodeList" flags="sg" stub="2794558372793454595" index="3F2HdR" />
-      <concept id="1163613822479" name="jetbrains.mps.lang.editor.structure.CellMenuPart_Abstract_editedNode" flags="nn" index="3GMtW1" />
       <concept id="1225898583838" name="jetbrains.mps.lang.editor.structure.ReadOnlyModelAccessor" flags="ng" index="1HfYo3">
         <child id="1225898971709" name="getter" index="1Hhtcw" />
       </concept>
@@ -276,9 +280,6 @@
       <concept id="1198256887712" name="jetbrains.mps.lang.editor.structure.CellModel_Indent" flags="ng" index="3XFhqQ" />
       <concept id="1166049232041" name="jetbrains.mps.lang.editor.structure.AbstractComponent" flags="ng" index="1XWOmA">
         <reference id="1166049300910" name="conceptDeclaration" index="1XX52x" />
-      </concept>
-      <concept id="1166059625718" name="jetbrains.mps.lang.editor.structure.CellMenuPart_CellMenuComponent" flags="ng" index="1Y$tRT">
-        <reference id="1166059677893" name="cellMenuComponent" index="1Y$EBa" />
       </concept>
     </language>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -4031,6 +4032,7 @@
       <node concept="l2Vlx" id="7RFM8R3Me2u" role="2iSdaV" />
     </node>
   </node>
+<<<<<<< HEAD
   <node concept="24kQdi" id="7fNEwq_6ZK4">
     <property role="3GE5qa" value="Namespace" />
     <ref role="1XX52x" to="wnzg:7fNEwq_6ZJn" resolve="NamespaceClassInstanceAttributeRef" />
@@ -4195,6 +4197,20 @@
         </node>
       </node>
       <node concept="l2Vlx" id="7fNEwqBx_5U" role="2iSdaV" />
+=======
+  <node concept="24kQdi" id="29cSqvcoIY4">
+    <ref role="1XX52x" to="wnzg:29cSqvcoIWH" resolve="NullPointerType" />
+    <node concept="PMmxH" id="29cSqvdRCTs" role="2wV5jI">
+      <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+      <ref role="1k5W1q" to="r4b4:2CEi94dgHKA" resolve="KW" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="29cSqvcoIYs">
+    <ref role="1XX52x" to="wnzg:29cSqvcoIWG" resolve="NullPointerLiteral" />
+    <node concept="PMmxH" id="29cSqvdRCT$" role="2wV5jI">
+      <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+      <ref role="1k5W1q" to="r4b4:2CEi94dgHKA" resolve="KW" />
+>>>>>>> f7ba0272ae... Redo auto keyword
     </node>
   </node>
 </model>

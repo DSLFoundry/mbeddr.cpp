@@ -1739,6 +1739,7 @@
       <ref role="20lvS9" node="4o2nsMgBIrb" resolve="AttributeDeclaration" />
     </node>
   </node>
+<<<<<<< HEAD
   <node concept="1TIwiD" id="7fNEwqBx$6S">
     <property role="EcuMT" value="8355208679259521464" />
     <property role="3GE5qa" value="Namespace" />
@@ -1770,6 +1771,17 @@
     <node concept="PrWs8" id="7fNEwqBxBek" role="PzmwI">
       <ref role="PrY4T" to="x27k:6WGVxckB05U" resolve="ICallLike" />
     </node>
+=======
+  <node concept="1TIwiD" id="6FZQsHt7RdA">
+    <property role="EcuMT" value="7710120554545509222" />
+    <property role="TrG5h" value="AutoType" />
+    <property role="34LRSv" value="auto" />
+    <property role="R4oN_" value="auto" />
+    <ref role="1TJDcQ" to="mj1l:7FQByU3CrCS" resolve="PrimitiveType" />
+    <node concept="PrWs8" id="6FZQsHu28zs" role="PzmwI">
+      <ref role="PrY4T" to="mj1l:4usdeMNUjj3" resolve="IRequiresTypeToBeInferred" />
+    </node>
+>>>>>>> f7ba0272ae... Redo auto keyword
   </node>
 >>>>>>> 5ef9af0b8a... Classes in Namespaces.
 </model>

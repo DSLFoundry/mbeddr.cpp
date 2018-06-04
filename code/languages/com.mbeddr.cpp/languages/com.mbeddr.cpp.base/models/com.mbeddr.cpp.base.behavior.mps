@@ -91,8 +91,13 @@
 >>>>>>> 1598e219f8... QoL changes, removed Class support in Namespaces due to various errors.
 =======
     <import index="exl8" ref="r:9058158e-0926-42f8-8d00-d1d86f1ff722(com.mbeddr.core.debug.behavior)" />
+<<<<<<< HEAD
     <import index="gxir" ref="642f71f8-327a-425b-84f9-44ad58786d27/f:project#8865b7a8-5271-43d3-884c-6fd1d9cfdd34(jetbrains.mps.lang.project.modules/module.MPS.OpenAPI@project_stub)" />
     <import index="2eq1" ref="r:383be79d-d39d-4dc4-9df3-57e57bcac2b5(jetbrains.mps.ide.platform.watching)" />
+=======
+    <import index="tpek" ref="r:00000000-0000-4000-0000-011c895902c0(jetbrains.mps.baseLanguage.behavior)" />
+    <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+>>>>>>> f7ba0272ae... Redo auto keyword
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" implicit="true" />
 >>>>>>> 6cc9eb2d0e... Fix link not changing name of constructor when class name was changed
   </imports>
@@ -135,7 +140,6 @@
       </concept>
       <concept id="1153417849900" name="jetbrains.mps.baseLanguage.structure.GreaterThanOrEqualsExpression" flags="nn" index="2d3UOw" />
       <concept id="1215695189714" name="jetbrains.mps.baseLanguage.structure.PlusAssignmentExpression" flags="nn" index="d57v9" />
-      <concept id="1153422305557" name="jetbrains.mps.baseLanguage.structure.LessThanOrEqualsExpression" flags="nn" index="2dkUwp" />
       <concept id="4836112446988635817" name="jetbrains.mps.baseLanguage.structure.UndefinedType" flags="in" index="2jxLKc" />
 <<<<<<< HEAD
       <concept id="1202948039474" name="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" flags="nn" index="liA8E" />
@@ -175,14 +179,12 @@
       <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
         <property id="1070475926801" name="value" index="Xl_RC" />
       </concept>
-      <concept id="1081236700937" name="jetbrains.mps.baseLanguage.structure.StaticMethodCall" flags="nn" index="2YIFZM">
-        <reference id="1144433194310" name="classConcept" index="1Pybhc" />
-      </concept>
       <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
       <concept id="1070534370425" name="jetbrains.mps.baseLanguage.structure.IntegerType" flags="in" index="10Oyi0" />
 <<<<<<< HEAD
 <<<<<<< HEAD
       <concept id="1070534644030" name="jetbrains.mps.baseLanguage.structure.BooleanType" flags="in" index="10P_77" />
+<<<<<<< HEAD
       <concept id="1070534934090" name="jetbrains.mps.baseLanguage.structure.CastExpression" flags="nn" index="10QFUN">
         <child id="1070534934091" name="type" index="10QFUM" />
         <child id="1070534934092" name="expression" index="10QFUP" />
@@ -192,6 +194,8 @@
 =======
       <concept id="1070534644030" name="jetbrains.mps.baseLanguage.structure.BooleanType" flags="in" index="10P_77" />
 >>>>>>> 7b3a85ea65... Added various uses of the Using keyword for namespaces
+=======
+>>>>>>> f7ba0272ae... Redo auto keyword
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
         <child id="1068431790190" name="initializer" index="33vP2m" />
       </concept>
@@ -242,6 +246,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f7ba0272ae... Redo auto keyword
       <concept id="1079359253375" name="jetbrains.mps.baseLanguage.structure.ParenthesizedExpression" flags="nn" index="1eOMI4">
         <child id="1079359253376" name="expression" index="1eOMHV" />
       </concept>
@@ -267,9 +274,6 @@
       <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ng" index="1ndlxa">
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
         <child id="1068499141038" name="actualArgument" index="37wK5m" />
-      </concept>
-      <concept id="1107535904670" name="jetbrains.mps.baseLanguage.structure.ClassifierType" flags="in" index="3uibUv">
-        <reference id="1107535924139" name="classifier" index="3uigEE" />
       </concept>
       <concept id="1081773326031" name="jetbrains.mps.baseLanguage.structure.BinaryOperation" flags="nn" index="3uHJSO">
         <child id="1081773367579" name="rightExpression" index="3uHU7w" />
@@ -390,24 +394,6 @@
         <child id="8182547171709752112" name="expression" index="36biLW" />
       </concept>
     </language>
-    <language id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem">
-      <concept id="1176544042499" name="jetbrains.mps.lang.typesystem.structure.Node_TypeOperation" flags="nn" index="3JvlWi" />
-    </language>
-    <language id="ebb5e132-d298-4649-b320-b3f4d7f3acff" name="com.mbeddr.core.debug.blext">
-      <concept id="8328524084371399528" name="com.mbeddr.core.debug.blext.structure.VariableKindExpression" flags="ng" index="NEJZJ">
-        <property id="8328524084371399529" name="variableKind" index="NEJZI" />
-      </concept>
-      <concept id="8483575004407084862" name="com.mbeddr.core.debug.blext.structure.MapByNameStatement" flags="ng" index="2QEC6U">
-        <property id="6239935301600030806" name="canBeOptimized" index="3ROChe" />
-        <child id="8328524084370301580" name="variableKinds" index="NIrSb" />
-        <child id="8483575004407084863" name="unmappedName" index="2QEC6V" />
-        <child id="8483575004407084868" name="highlightedNode" index="2QEC70" />
-        <child id="8483575004407084864" name="typeExpr" index="2QEC74" />
-        <child id="8483575004407084865" name="mappedName" index="2QEC75" />
-        <child id="8236113172499118431" name="categoryName" index="1qXjgk" />
-        <child id="8236113172499130991" name="iconProvider" index="1qXms$" />
-      </concept>
-    </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
       <concept id="1204834851141" name="jetbrains.mps.lang.smodel.structure.PoundExpression" flags="ng" index="25Kdxt">
         <child id="1204834868751" name="expression" index="25KhWn" />
@@ -440,6 +426,7 @@
         <reference id="1145383142433" name="elementConcept" index="2I9WkF" />
       </concept>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
       <concept id="1171305280644" name="jetbrains.mps.lang.smodel.structure.Node_GetDescendantsOperation" flags="nn" index="2Rf3mk" />
 >>>>>>> 3168c40245... Fixed incompatible types.
@@ -470,6 +457,8 @@
       <concept id="1145383075378" name="jetbrains.mps.lang.smodel.structure.SNodeListType" flags="in" index="2I9FWS">
         <reference id="1145383142433" name="elementConcept" index="2I9WkF" />
       </concept>
+=======
+>>>>>>> f7ba0272ae... Redo auto keyword
       <concept id="1171323947159" name="jetbrains.mps.lang.smodel.structure.Model_NodesOperation" flags="nn" index="2SmgA7">
         <child id="1758937410080001570" name="conceptArgument" index="1dBWTz" />
       </concept>
@@ -579,7 +568,6 @@
         <child id="1225711191269" name="index" index="1y58nS" />
       </concept>
       <concept id="1202120902084" name="jetbrains.mps.baseLanguage.collections.structure.WhereOperation" flags="nn" index="3zZkjj" />
-      <concept id="1202128969694" name="jetbrains.mps.baseLanguage.collections.structure.SelectOperation" flags="nn" index="3$u5V9" />
       <concept id="1176501494711" name="jetbrains.mps.baseLanguage.collections.structure.IsNotEmptyOperation" flags="nn" index="3GX2aA" />
       <concept id="1522217801069396578" name="jetbrains.mps.baseLanguage.collections.structure.FoldLeftOperation" flags="nn" index="1MD8d$">
         <child id="1522217801069421796" name="seed" index="1MDeny" />
@@ -3563,6 +3551,7 @@
       <node concept="3cqZAl" id="457OG4Qf68U" role="3clF45" />
     </node>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <node concept="13i0hz" id="457OG4Qf698" role="13h7CS">
       <property role="TrG5h" value="getIdentifierForCVariable" />
       <node concept="3Tm1VV" id="457OG4Qf699" role="1B3o_S" />
@@ -4253,6 +4242,18 @@
             <node concept="17QB3L" id="383ZxwZuhwh" role="1tU5fm" />
             <node concept="Xl_RD" id="383ZxwZuhx2" role="33vP2m" />
           </node>
+=======
+  </node>
+  <node concept="13h7C7" id="7RFM8R3Sz_z">
+    <property role="3GE5qa" value="namespace" />
+    <ref role="13h7C2" to="wnzg:7RFM8R3Me1y" resolve="NamespaceClassInstance" />
+    <node concept="13i0hz" id="7RFM8R3Sz_I" role="13h7CS">
+      <property role="TrG5h" value="classesWithinNamespaces" />
+      <node concept="3Tm1VV" id="7RFM8R3Sz_J" role="1B3o_S" />
+      <node concept="A3Dl8" id="7RFM8R3SzS9" role="3clF45">
+        <node concept="3Tqbb2" id="7RFM8R3SzVs" role="A3Ik2">
+          <ref role="ehGHo" to="wnzg:4o2nsMgBpPQ" resolve="ClassDeclaration" />
+>>>>>>> f7ba0272ae... Redo auto keyword
         </node>
 <<<<<<< HEAD
         <node concept="3cpWs8" id="383ZxwZuier" role="3cqZAp">
@@ -10672,6 +10673,12 @@
     </node>
     <node concept="13hLZK" id="7fNEwqBx$7d" role="13h7CW">
       <node concept="3clFbS" id="7fNEwqBx$7e" role="2VODD2" />
+    </node>
+  </node>
+  <node concept="13h7C7" id="6FZQsHtgKqK">
+    <ref role="13h7C2" to="wnzg:6FZQsHt7RdA" resolve="AutoType" />
+    <node concept="13hLZK" id="6FZQsHtgKqL" role="13h7CW">
+      <node concept="3clFbS" id="6FZQsHtgKqM" role="2VODD2" />
     </node>
   </node>
 </model>

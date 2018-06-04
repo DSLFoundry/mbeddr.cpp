@@ -143,11 +143,14 @@
       <concept id="6329021646629104954" name="jetbrains.mps.baseLanguage.structure.SingleLineComment" flags="nn" index="3SKdUt">
         <child id="6329021646629175155" name="commentPart" index="3SKWNk" />
       </concept>
+<<<<<<< HEAD
 =======
 >>>>>>> 7b3a85ea65... Added various uses of the Using keyword for namespaces
       <concept id="1080120340718" name="jetbrains.mps.baseLanguage.structure.AndExpression" flags="nn" index="1Wc70l" />
 =======
 >>>>>>> 4af7845191... Fixed TextGen problems with 'Using (namespace)' declarations
+=======
+>>>>>>> f7ba0272ae... Redo auto keyword
     </language>
     <language id="b83431fe-5c8f-40bc-8a36-65e25f4dd253" name="jetbrains.mps.lang.textGen">
       <concept id="1237305208784" name="jetbrains.mps.lang.textGen.structure.NewLineAppendPart" flags="ng" index="l8MVK" />
@@ -1017,6 +1020,7 @@
       </node>
     </node>
   </node>
+<<<<<<< HEAD
   <node concept="1bsvg0" id="6ddXmWdP_5w">
     <property role="TrG5h" value="constructorPrototype" />
     <node concept="1bwezc" id="6ddXmWdP_nH" role="1bwxVq">
@@ -1479,6 +1483,15 @@
           <node concept="3SKdUq" id="4KyQ_QhOZ0U" role="3SKWNk">
             <property role="3SKdUp" value="TODO: The following line doesn't print the name for some reason." />
           </node>
+=======
+  <node concept="WtQ9Q" id="29cSqve8Gd0">
+    <property role="3GE5qa" value="class" />
+    <ref role="WuzLi" to="wnzg:3v5DuFDls_I" resolve="EmptyClassContent" />
+    <node concept="11bSqf" id="29cSqve8Gd1" role="11c4hB">
+      <node concept="3clFbS" id="29cSqve8Gd2" role="2VODD2">
+        <node concept="lc7rE" id="29cSqve8QPZ" role="3cqZAp">
+          <node concept="l8MVK" id="29cSqve8QRq" role="lcghm" />
+>>>>>>> f7ba0272ae... Redo auto keyword
         </node>
         <node concept="3SKdUt" id="4KyQ_QhOZqM" role="3cqZAp">
           <node concept="3SKdUq" id="4KyQ_QhOZqO" role="3SKWNk">
@@ -2859,6 +2872,21 @@
       </node>
     </node>
   </node>
+<<<<<<< HEAD
 >>>>>>> 5ef9af0b8a... Classes in Namespaces.
+=======
+  <node concept="WtQ9Q" id="6FZQsHt$4Ly">
+    <ref role="WuzLi" to="wnzg:6FZQsHt7RdA" resolve="AutoType" />
+    <node concept="11bSqf" id="6FZQsHt$4Lz" role="11c4hB">
+      <node concept="3clFbS" id="6FZQsHt$4L$" role="2VODD2">
+        <node concept="lc7rE" id="6FZQsHt$4LR" role="3cqZAp">
+          <node concept="la8eA" id="6FZQsHt$4Mf" role="lcghm">
+            <property role="lacIc" value="auto" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+>>>>>>> f7ba0272ae... Redo auto keyword
 </model>
 
