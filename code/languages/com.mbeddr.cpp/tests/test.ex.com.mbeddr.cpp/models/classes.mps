@@ -213,6 +213,7 @@
 =======
 =======
       <concept id="137823117410394117" name="com.mbeddr.cpp.base.structure.ConstructorInitializedConstructor" flags="ng" index="yZclw">
+        <property id="1655951865576146579" name="real_name" index="2IddBx" />
         <reference id="137823117411762547" name="identity" index="yKYgm" />
       </concept>
 <<<<<<< HEAD
@@ -1740,6 +1741,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <node concept="yZclw" id="3LE5RBQaMRJ" role="1YC0t0">
 =======
         <node concept="yZclw" id="6FnHX$H9n$K" role="1YC0t0">
@@ -1758,6 +1760,10 @@
 =======
         <node concept="yZclw" id="phuaKKqwUj" role="1YC0t0">
 >>>>>>> 6cc9eb2d0e... Fix link not changing name of constructor when class name was changed
+=======
+        <node concept="yZclw" id="1rV7RaUSl2v" role="1YC0t0">
+          <property role="2IddBx" value="ParentClass" />
+>>>>>>> 938ad72d9c... Fix textgen for class constructors.
           <ref role="yKYgm" node="7wcjSRttVKs" resolve="ParentClass" />
 >>>>>>> 25b03c4dda... Revert "Fix textgen not working on constructor initializers", it was
         </node>
