@@ -1739,6 +1739,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <node concept="yZclw" id="3LE5RBQaMRJ" role="1YC0t0">
 =======
         <node concept="yZclw" id="6FnHX$H9n$K" role="1YC0t0">
@@ -1754,6 +1755,9 @@
 >>>>>>> fafdce9933... Fix textgen not working on constructor initializers
 =======
         <node concept="yZclw" id="6FnHX$H9n$K" role="1YC0t0">
+=======
+        <node concept="yZclw" id="phuaKKqwUj" role="1YC0t0">
+>>>>>>> 6cc9eb2d0e... Fix link not changing name of constructor when class name was changed
           <ref role="yKYgm" node="7wcjSRttVKs" resolve="ParentClass" />
 >>>>>>> 25b03c4dda... Revert "Fix textgen not working on constructor initializers", it was
         </node>
