@@ -14,6 +14,7 @@
     <import index="c4fa" ref="r:9f0e84b6-2ec7-4f9e-83e0-feedc77b63a3(com.mbeddr.core.statements.structure)" implicit="true" />
     <import index="wnzg" ref="r:24646c42-f8e0-499c-b639-679cfa170a2e(com.mbeddr.cpp.base.structure)" implicit="true" />
     <import index="kntn" ref="r:4090021e-0c8f-4cca-ab3f-590afb43a745(com.mbeddr.cpp.base.behavior)" implicit="true" />
+    <import index="1yyn" ref="r:64e0a2a9-7957-424b-8102-a5e8a7a73035(com.mbeddr.cpp.templates.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -80,6 +81,9 @@
         <child id="1068581242865" name="localVariableDeclaration" index="3cpWs9" />
       </concept>
       <concept id="1068581242863" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" flags="nr" index="3cpWsn" />
+      <concept id="1081516740877" name="jetbrains.mps.baseLanguage.structure.NotExpression" flags="nn" index="3fqX7Q">
+        <child id="1081516765348" name="expression" index="3fr31v" />
+      </concept>
       <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ng" index="1ndlxa">
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
         <child id="1068499141038" name="actualArgument" index="37wK5m" />
@@ -160,6 +164,7 @@
       <concept id="1883223317721107059" name="jetbrains.mps.lang.smodel.structure.IfInstanceOfVarReference" flags="nn" index="Jnkvi" />
       <concept id="1171407110247" name="jetbrains.mps.lang.smodel.structure.Node_GetAncestorOperation" flags="nn" index="2Xjw5R" />
 <<<<<<< HEAD
+<<<<<<< HEAD
       <concept id="1146171026731" name="jetbrains.mps.lang.smodel.structure.Property_HasValue_Enum" flags="nn" index="3t7uKx">
         <child id="1146171026732" name="value" index="3t7uKA" />
       </concept>
@@ -169,6 +174,11 @@
       </concept>
       <concept id="1171999116870" name="jetbrains.mps.lang.smodel.structure.Node_IsNullOperation" flags="nn" index="3w_OXm" />
 >>>>>>> efc1f3b310... Implemented this keyword and changed class member scoping
+=======
+      <concept id="1139621453865" name="jetbrains.mps.lang.smodel.structure.Node_IsInstanceOfOperation" flags="nn" index="1mIQ4w">
+        <child id="1177027386292" name="conceptArgument" index="cj9EA" />
+      </concept>
+>>>>>>> 230e9df384... Method templates
       <concept id="1144100932627" name="jetbrains.mps.lang.smodel.structure.OperationParm_Inclusion" flags="ng" index="1xIGOp" />
       <concept id="1144101972840" name="jetbrains.mps.lang.smodel.structure.OperationParm_Concept" flags="ng" index="1xMEDy">
         <child id="1207343664468" name="conceptArgument" index="ri$Ld" />
@@ -214,8 +224,13 @@
       <concept id="1153944233411" name="jetbrains.mps.baseLanguage.collections.structure.ForEachVariableReference" flags="nn" index="2GrUjf">
         <reference id="1153944258490" name="variable" index="2Gs0qQ" />
       </concept>
+<<<<<<< HEAD
       <concept id="1235566554328" name="jetbrains.mps.baseLanguage.collections.structure.AnyOperation" flags="nn" index="2HwmR7" />
       <concept id="1203518072036" name="jetbrains.mps.baseLanguage.collections.structure.SmartClosureParameterDeclaration" flags="ig" index="Rh6nW" />
+=======
+      <concept id="1203518072036" name="jetbrains.mps.baseLanguage.collections.structure.SmartClosureParameterDeclaration" flags="ig" index="Rh6nW" />
+      <concept id="1202120902084" name="jetbrains.mps.baseLanguage.collections.structure.WhereOperation" flags="nn" index="3zZkjj" />
+>>>>>>> 230e9df384... Method templates
     </language>
   </registry>
   <node concept="1M2fIO" id="3v5DuFDz3BL">
@@ -767,6 +782,7 @@
                         <node concept="2YIFZM" id="4smL_2CVmB5" role="37wK5m">
                           <ref role="37wK5l" to="o8zo:3jEbQoczdCs" resolve="forResolvableElements" />
                           <ref role="1Pybhc" to="o8zo:4IP40Bi3e_R" resolve="ListScope" />
+<<<<<<< HEAD
                           <node concept="3K4zz7" id="4smL_2CVmB6" role="37wK5m">
                             <node concept="2OqwBi" id="4smL_2CVmB7" role="3K4E3e">
                               <node concept="2OqwBi" id="4smL_2CVmB8" role="2Oq$k0">
@@ -796,6 +812,45 @@
                               <node concept="2qgKlT" id="4smL_2CVryj" role="2OqNvi">
                                 <ref role="37wK5l" to="kntn:3v5DuFDzMNl" resolve="allPublicMethods" />
                               </node>
+=======
+                          <node concept="2OqwBi" id="76fdl5jcYYL" role="37wK5m">
+                            <node concept="2OqwBi" id="6oRbCP68KJh" role="2Oq$k0">
+                              <node concept="2OqwBi" id="6oRbCP68Ia3" role="2Oq$k0">
+                                <node concept="2GrUjf" id="6oRbCP68HVJ" role="2Oq$k0">
+                                  <ref role="2Gs0qQ" node="6oRbCP68CjI" resolve="element" />
+                                </node>
+                                <node concept="3TrEf2" id="6oRbCP68Ioi" role="2OqNvi">
+                                  <ref role="3Tt5mk" to="wnzg:3UsoL$l5qkM" resolve="parentClass" />
+                                </node>
+                              </node>
+                              <node concept="2qgKlT" id="6oRbCP68LvM" role="2OqNvi">
+                                <ref role="37wK5l" to="kntn:3v5DuFDzMNl" resolve="allPublicMethods" />
+                              </node>
+                            </node>
+                            <node concept="3zZkjj" id="76fdl5jcZt1" role="2OqNvi">
+                              <node concept="1bVj0M" id="76fdl5jcZt3" role="23t8la">
+                                <node concept="3clFbS" id="76fdl5jcZt4" role="1bW5cS">
+                                  <node concept="3clFbF" id="76fdl5jcZKj" role="3cqZAp">
+                                    <node concept="3fqX7Q" id="76fdl5jcZKh" role="3clFbG">
+                                      <node concept="2OqwBi" id="76fdl5jd00h" role="3fr31v">
+                                        <node concept="37vLTw" id="76fdl5jcZKu" role="2Oq$k0">
+                                          <ref role="3cqZAo" node="76fdl5jcZt5" resolve="it" />
+                                        </node>
+                                        <node concept="1mIQ4w" id="76fdl5jd0qa" role="2OqNvi">
+                                          <node concept="chp4Y" id="76fdl5jd0J$" role="cj9EA">
+                                            <ref role="cht4Q" to="1yyn:76fdl5j7ss8" resolve="TemplateMethodDeclaration" />
+                                          </node>
+                                        </node>
+                                      </node>
+                                    </node>
+                                  </node>
+                                </node>
+                                <node concept="Rh6nW" id="76fdl5jcZt5" role="1bW2Oz">
+                                  <property role="TrG5h" value="it" />
+                                  <node concept="2jxLKc" id="76fdl5jcZt6" role="1tU5fm" />
+                                </node>
+                              </node>
+>>>>>>> 230e9df384... Method templates
                             </node>
 >>>>>>> efc1f3b310... Implemented this keyword and changed class member scoping
                           </node>
@@ -831,6 +886,7 @@
                     <node concept="2YIFZM" id="4smL_2CVmBm" role="37wK5m">
                       <ref role="37wK5l" to="o8zo:3jEbQoczdCs" resolve="forResolvableElements" />
                       <ref role="1Pybhc" to="o8zo:4IP40Bi3e_R" resolve="ListScope" />
+<<<<<<< HEAD
                       <node concept="3K4zz7" id="4smL_2CVmBn" role="37wK5m">
                         <node concept="2OqwBi" id="4smL_2CVmBo" role="3K4E3e">
                           <node concept="2OqwBi" id="4smL_2CVmBp" role="2Oq$k0">
@@ -848,6 +904,45 @@
 <<<<<<< HEAD
                         <node concept="2qgKlT" id="3v5DuFDzUZY" role="2OqNvi">
                           <ref role="37wK5l" to="kntn:3v5DuFDzMNl" resolve="allPublicMethods" />
+=======
+                      <node concept="2OqwBi" id="76fdl5jd1o5" role="37wK5m">
+                        <node concept="2OqwBi" id="3v5DuFDzM5P" role="2Oq$k0">
+                          <node concept="2OqwBi" id="3v5DuFDzM5Q" role="2Oq$k0">
+                            <node concept="Jnkvi" id="3v5DuFDzM5R" role="2Oq$k0">
+                              <ref role="1M0zk5" node="3v5DuFDzM5U" resolve="ct" />
+                            </node>
+                            <node concept="3TrEf2" id="3v5DuFDzM5S" role="2OqNvi">
+                              <ref role="3Tt5mk" to="wnzg:4o2nsMgBEtY" resolve="clazz" />
+                            </node>
+                          </node>
+                          <node concept="2qgKlT" id="3v5DuFDzUZY" role="2OqNvi">
+                            <ref role="37wK5l" to="kntn:3v5DuFDzMNl" resolve="allPublicMethods" />
+                          </node>
+                        </node>
+                        <node concept="3zZkjj" id="76fdl5jd1W2" role="2OqNvi">
+                          <node concept="1bVj0M" id="76fdl5jd1W3" role="23t8la">
+                            <node concept="3clFbS" id="76fdl5jd1W4" role="1bW5cS">
+                              <node concept="3clFbF" id="76fdl5jd1W5" role="3cqZAp">
+                                <node concept="3fqX7Q" id="76fdl5jd1W6" role="3clFbG">
+                                  <node concept="2OqwBi" id="76fdl5jd1W7" role="3fr31v">
+                                    <node concept="37vLTw" id="76fdl5jd1W8" role="2Oq$k0">
+                                      <ref role="3cqZAo" node="76fdl5jd1Wb" resolve="it" />
+                                    </node>
+                                    <node concept="1mIQ4w" id="76fdl5jd1W9" role="2OqNvi">
+                                      <node concept="chp4Y" id="76fdl5jd1Wa" role="cj9EA">
+                                        <ref role="cht4Q" to="1yyn:76fdl5j7ss8" resolve="TemplateMethodDeclaration" />
+                                      </node>
+                                    </node>
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                            <node concept="Rh6nW" id="76fdl5jd1Wb" role="1bW2Oz">
+                              <property role="TrG5h" value="it" />
+                              <node concept="2jxLKc" id="76fdl5jd1Wc" role="1tU5fm" />
+                            </node>
+                          </node>
+>>>>>>> 230e9df384... Method templates
                         </node>
                       </node>
                     </node>
@@ -1030,6 +1125,7 @@
                       <ref role="cht4Q" to="wnzg:4o2nsMgBpPQ" resolve="ClassDeclaration" />
                     </node>
                   </node>
+                  <node concept="1xIGOp" id="1CWIc7EZzVg" role="1xVPHs" />
                 </node>
               </node>
             </node>
@@ -1145,6 +1241,7 @@
                     <node concept="2YIFZM" id="3p40HKh9vvB" role="37wK5m">
                       <ref role="37wK5l" to="o8zo:4IP40Bi3eAf" resolve="forNamedElements" />
                       <ref role="1Pybhc" to="o8zo:4IP40Bi3e_R" resolve="ListScope" />
+<<<<<<< HEAD
                       <node concept="2OqwBi" id="3p40HKh9wQa" role="37wK5m">
                         <node concept="2OqwBi" id="3p40HKh9vRQ" role="2Oq$k0">
                           <node concept="2GrUjf" id="3p40HKh9vLz" role="2Oq$k0">
@@ -1156,6 +1253,45 @@
                         </node>
                         <node concept="2qgKlT" id="3p40HKh9xIM" role="2OqNvi">
                           <ref role="37wK5l" to="kntn:3p40HKh2pX8" resolve="availableMethodsForChild" />
+=======
+                      <node concept="2OqwBi" id="76fdl5jedlG" role="37wK5m">
+                        <node concept="2OqwBi" id="6oRbCP69xWR" role="2Oq$k0">
+                          <node concept="2OqwBi" id="6oRbCP69wr_" role="2Oq$k0">
+                            <node concept="2GrUjf" id="6oRbCP69wdZ" role="2Oq$k0">
+                              <ref role="2Gs0qQ" node="6oRbCP69pgJ" resolve="element" />
+                            </node>
+                            <node concept="3TrEf2" id="6oRbCP69xbl" role="2OqNvi">
+                              <ref role="3Tt5mk" to="wnzg:3UsoL$l5qkM" resolve="parentClass" />
+                            </node>
+                          </node>
+                          <node concept="2qgKlT" id="6oRbCP69z41" role="2OqNvi">
+                            <ref role="37wK5l" to="kntn:6oRbCP699Mz" resolve="allHeritableMethods" />
+                          </node>
+                        </node>
+                        <node concept="3zZkjj" id="76fdl5jedRh" role="2OqNvi">
+                          <node concept="1bVj0M" id="76fdl5jedRi" role="23t8la">
+                            <node concept="3clFbS" id="76fdl5jedRj" role="1bW5cS">
+                              <node concept="3clFbF" id="76fdl5jedRk" role="3cqZAp">
+                                <node concept="3fqX7Q" id="76fdl5jedRl" role="3clFbG">
+                                  <node concept="2OqwBi" id="76fdl5jedRm" role="3fr31v">
+                                    <node concept="37vLTw" id="76fdl5jedRn" role="2Oq$k0">
+                                      <ref role="3cqZAo" node="76fdl5jedRq" resolve="it" />
+                                    </node>
+                                    <node concept="1mIQ4w" id="76fdl5jedRo" role="2OqNvi">
+                                      <node concept="chp4Y" id="76fdl5jedRp" role="cj9EA">
+                                        <ref role="cht4Q" to="1yyn:76fdl5j7ss8" resolve="TemplateMethodDeclaration" />
+                                      </node>
+                                    </node>
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                            <node concept="Rh6nW" id="76fdl5jedRq" role="1bW2Oz">
+                              <property role="TrG5h" value="it" />
+                              <node concept="2jxLKc" id="76fdl5jedRr" role="1tU5fm" />
+                            </node>
+                          </node>
+>>>>>>> 230e9df384... Method templates
                         </node>
                       </node>
                     </node>
@@ -1169,6 +1305,7 @@
               <property role="3SKdUp" value="Add this classes internal methods." />
             </node>
           </node>
+<<<<<<< HEAD
           <node concept="1X3_iC" id="3p40HKh9z1U" role="lGtFl">
             <property role="3V$3am" value="statement" />
             <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
@@ -1189,13 +1326,56 @@
                           <node concept="1xMEDy" id="gWE$qahEIL" role="1xVPHs">
                             <node concept="chp4Y" id="gWE$qahEPj" role="ri$Ld">
                               <ref role="cht4Q" to="wnzg:4o2nsMgBpPQ" resolve="ClassDeclaration" />
+=======
+          <node concept="3clFbF" id="6oRbCP69nDr" role="3cqZAp">
+            <node concept="2OqwBi" id="6oRbCP69nOk" role="3clFbG">
+              <node concept="37vLTw" id="6oRbCP69nDp" role="2Oq$k0">
+                <ref role="3cqZAo" node="6oRbCP69lWc" resolve="compScope" />
+              </node>
+              <node concept="liA8E" id="6oRbCP69o0X" role="2OqNvi">
+                <ref role="37wK5l" to="o8zo:7ipADkTevN6" resolve="addScope" />
+                <node concept="2YIFZM" id="gWE$qahEbt" role="37wK5m">
+                  <ref role="1Pybhc" to="o8zo:4IP40Bi3e_R" resolve="ListScope" />
+                  <ref role="37wK5l" to="o8zo:4IP40Bi3eAf" resolve="forNamedElements" />
+                  <node concept="2OqwBi" id="76fdl5jeesl" role="37wK5m">
+                    <node concept="2OqwBi" id="1Ft79nE7FTb" role="2Oq$k0">
+                      <node concept="37vLTw" id="1Ft79nE7Exp" role="2Oq$k0">
+                        <ref role="3cqZAo" node="6oRbCP69jYA" resolve="parentClass" />
+                      </node>
+                      <node concept="2qgKlT" id="1Ft79nE7GAP" role="2OqNvi">
+                        <ref role="37wK5l" to="kntn:3v5DuFDzMNl" resolve="allPublicMethods" />
+                      </node>
+                    </node>
+                    <node concept="3zZkjj" id="76fdl5jeeJY" role="2OqNvi">
+                      <node concept="1bVj0M" id="76fdl5jeeJZ" role="23t8la">
+                        <node concept="3clFbS" id="76fdl5jeeK0" role="1bW5cS">
+                          <node concept="3clFbF" id="76fdl5jeeK1" role="3cqZAp">
+                            <node concept="3fqX7Q" id="76fdl5jeeK2" role="3clFbG">
+                              <node concept="2OqwBi" id="76fdl5jeeK3" role="3fr31v">
+                                <node concept="37vLTw" id="76fdl5jeeK4" role="2Oq$k0">
+                                  <ref role="3cqZAo" node="76fdl5jeeK7" resolve="it" />
+                                </node>
+                                <node concept="1mIQ4w" id="76fdl5jeeK5" role="2OqNvi">
+                                  <node concept="chp4Y" id="76fdl5jeeK6" role="cj9EA">
+                                    <ref role="cht4Q" to="1yyn:76fdl5j7ss8" resolve="TemplateMethodDeclaration" />
+                                  </node>
+                                </node>
+                              </node>
+>>>>>>> 230e9df384... Method templates
                             </node>
                           </node>
                         </node>
+                        <node concept="Rh6nW" id="76fdl5jeeK7" role="1bW2Oz">
+                          <property role="TrG5h" value="it" />
+                          <node concept="2jxLKc" id="76fdl5jeeK8" role="1tU5fm" />
+                        </node>
                       </node>
+<<<<<<< HEAD
                       <node concept="2qgKlT" id="gWE$qahSHu" role="2OqNvi">
                         <ref role="37wK5l" to="kntn:gWE$qahG7M" resolve="allMethods" />
                       </node>
+=======
+>>>>>>> 230e9df384... Method templates
                     </node>
                   </node>
                 </node>

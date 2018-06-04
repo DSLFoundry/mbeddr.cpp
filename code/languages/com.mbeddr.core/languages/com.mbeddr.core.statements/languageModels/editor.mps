@@ -441,7 +441,6 @@
       <concept id="1139621453865" name="jetbrains.mps.lang.smodel.structure.Node_IsInstanceOfOperation" flags="nn" index="1mIQ4w">
         <child id="1177027386292" name="conceptArgument" index="cj9EA" />
       </concept>
-      <concept id="1171999116870" name="jetbrains.mps.lang.smodel.structure.Node_IsNullOperation" flags="nn" index="3w_OXm" />
       <concept id="1172008320231" name="jetbrains.mps.lang.smodel.structure.Node_IsNotNullOperation" flags="nn" index="3x8VRR" />
       <concept id="1144100932627" name="jetbrains.mps.lang.smodel.structure.OperationParm_Inclusion" flags="ng" index="1xIGOp" />
       <concept id="1144101972840" name="jetbrains.mps.lang.smodel.structure.OperationParm_Concept" flags="ng" index="1xMEDy">
@@ -551,6 +550,7 @@
         <ref role="PMmxG" node="52l0VUuN8lr" resolve="IStoreInRegisterComponent" />
       </node>
       <node concept="l2Vlx" id="3CmSUB7FprI" role="2iSdaV" />
+<<<<<<< HEAD
       <node concept="1kIj98" id="6ASs6Ln7be9" role="3EZMnx">
         <property role="3g2DhO" value="true" />
         <node concept="3F1sOY" id="3CmSUB7FprJ" role="1kIj9b">
@@ -574,6 +574,9 @@
           </node>
         </node>
       </node>
+=======
+      <node concept="3EYTF0" id="1Ft79nEe_fw" role="3EZMnx" />
+>>>>>>> 230e9df384... Method templates
       <node concept="3F0A7n" id="3CmSUB7FprL" role="3EZMnx">
         <property role="1cu_pB" value="1" />
         <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
