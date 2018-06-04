@@ -214,7 +214,6 @@
 =======
       <concept id="137823117410394117" name="com.mbeddr.cpp.base.structure.ConstructorInitializedConstructor" flags="ng" index="yZclw">
         <reference id="137823117411762547" name="identity" index="yKYgm" />
-        <child id="137823117411762663" name="actual_arguments" index="yKYi2" />
       </concept>
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1648,24 +1647,6 @@
           <property role="2c7vTL" value="false" />
         </node>
       </node>
-      <node concept="2gom5y" id="T6qFshze8D" role="3mBdys">
-        <property role="3BMcJd" value="false" />
-        <property role="1wg9_F" value="public" />
-        <property role="TrG5h" value="ParentClass" />
-        <ref role="2gom41" node="6KmaLbDZm15" resolve="ParentClass" />
-        <node concept="19RgSI" id="T6qFshzebJ" role="1UOdpc">
-          <property role="TrG5h" value="x" />
-          <node concept="26Vqqz" id="T6qFshzebH" role="2C2TGm">
-            <property role="2caQfQ" value="false" />
-            <property role="2c7vTL" value="false" />
-          </node>
-        </node>
-        <node concept="3XIRFW" id="T6qFshze8E" role="1IVm9U" />
-        <node concept="2dFNQU" id="T6qFshze8F" role="2C2TGm">
-          <property role="2caQfQ" value="false" />
-          <property role="2c7vTL" value="false" />
-        </node>
-      </node>
       <node concept="3mBbG7" id="7wcjSRttVKQ" role="3mBdys">
         <property role="TrG5h" value="parentY" />
         <property role="1wg9_F" value="protected" />
@@ -1757,6 +1738,7 @@
         </node>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <node concept="yZclw" id="3LE5RBQaMRJ" role="1YC0t0">
 =======
         <node concept="yZclw" id="6FnHX$H9n$K" role="1YC0t0">
@@ -1770,6 +1752,10 @@
             <property role="2hmy$m" value="23" />
           </node>
 >>>>>>> fafdce9933... Fix textgen not working on constructor initializers
+=======
+        <node concept="yZclw" id="6FnHX$H9n$K" role="1YC0t0">
+          <ref role="yKYgm" node="7wcjSRttVKs" resolve="ParentClass" />
+>>>>>>> 25b03c4dda... Revert "Fix textgen not working on constructor initializers", it was
         </node>
       </node>
       <node concept="2gom5y" id="7wcjSRtzLD7" role="3mBdys">
