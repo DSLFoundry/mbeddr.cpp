@@ -238,6 +238,7 @@
       <concept id="3308396621974580100" name="jetbrains.mps.lang.editor.structure.SubstituteMenu_Default" flags="ng" index="3p36aQ" />
       <concept id="1088185857835" name="jetbrains.mps.lang.editor.structure.InlineEditorComponent" flags="ig" index="1sVBvm" />
       <concept id="1139848536355" name="jetbrains.mps.lang.editor.structure.CellModel_WithRole" flags="ng" index="1$h60E">
+        <property id="1139852716018" name="noTargetText" index="1$x2rV" />
         <property id="1140017977771" name="readOnly" index="1Intyy" />
         <reference id="1140103550593" name="relationDeclaration" index="1NtTu8" />
       </concept>
@@ -4736,6 +4737,7 @@
       <ref role="1k5W1q" to="r4b4:2CEi94dgHKA" resolve="KW" />
     </node>
   </node>
+<<<<<<< HEAD
   <node concept="1h_SRR" id="7j9KGYKZMY5">
     <property role="3GE5qa" value="method.constructor" />
     <property role="TrG5h" value="PreventAutocompleteOnConstructorName" />
@@ -4753,6 +4755,22 @@
       <node concept="1hAIg9" id="7j9KGYKZMYo" role="1hA7z_">
         <node concept="3clFbS" id="7j9KGYKZMYp" role="2VODD2" />
       </node>
+=======
+  <node concept="24kQdi" id="6WSa0snOgwh">
+    <ref role="1XX52x" to="wnzg:6WSa0snOgvZ" resolve="NewDeclaration" />
+    <node concept="3EZMnI" id="6WSa0snOgwr" role="2wV5jI">
+      <node concept="3F0ifn" id="6WSa0snOgwt" role="3EZMnx">
+        <property role="3F0ifm" value="new" />
+      </node>
+      <node concept="1kHk_G" id="6WSa0snOgxa" role="3EZMnx">
+        <property role="1$x2rV" value="(std::nothrow)" />
+        <ref role="1NtTu8" to="wnzg:6WSa0snOgw0" resolve="no_throw" />
+      </node>
+      <node concept="3F1sOY" id="6WSa0sofgq0" role="3EZMnx">
+        <ref role="1NtTu8" to="wnzg:6WSa0so1IOP" resolve="typeOrConstructor" />
+      </node>
+      <node concept="l2Vlx" id="6WSa0snOgwu" role="2iSdaV" />
+>>>>>>> 07c2c9e1af... Working on new keyword with class constructors
     </node>
   </node>
 </model>

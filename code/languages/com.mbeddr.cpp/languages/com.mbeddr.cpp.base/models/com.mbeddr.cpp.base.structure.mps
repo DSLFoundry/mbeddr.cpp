@@ -1861,6 +1861,7 @@
   </node>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> fb3f85f504... Add explicit specifier for class constructor
 =======
   <node concept="1TIwiD" id="3p40HKhzA44">
@@ -1873,5 +1874,33 @@
 >>>>>>> 9f10d43a5e... Add array assignment to array fields
 =======
 >>>>>>> f6a9ef0714... Fix TextGen for arrays in classes, add type and size checking
+=======
+  <node concept="1TIwiD" id="6WSa0snOgvZ">
+    <property role="EcuMT" value="8014199547835254783" />
+    <property role="TrG5h" value="NewDeclaration" />
+    <property role="34LRSv" value="new" />
+    <property role="R4oN_" value="Allocate memory for a new object" />
+    <ref role="1TJDcQ" to="mj1l:7FQByU3CrCM" resolve="Expression" />
+    <node concept="1TJgyi" id="6WSa0snOgw0" role="1TKVEl">
+      <property role="IQ2nx" value="8014199547835254784" />
+      <property role="TrG5h" value="no_throw" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyj" id="6WSa0so1IOP" role="1TKVEi">
+      <property role="IQ2ns" value="8014199547838786869" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="typeOrConstructor" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="6WSa0so1IOL" resolve="INewDeclaration" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="6WSa0so1IOL">
+    <property role="EcuMT" value="8014199547838786865" />
+    <property role="TrG5h" value="INewDeclaration" />
+    <node concept="PrWs8" id="6WSa0so1IOM" role="PrDN$">
+      <ref role="PrY4T" to="mj1l:hEaDaGor63" resolve="ITyped" />
+    </node>
+  </node>
+>>>>>>> 07c2c9e1af... Working on new keyword with class constructors
 </model>
 
