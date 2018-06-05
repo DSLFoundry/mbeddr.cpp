@@ -1860,6 +1860,7 @@
     </node>
   </node>
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> fb3f85f504... Add explicit specifier for class constructor
 =======
   <node concept="1TIwiD" id="3p40HKhzA44">
@@ -1870,5 +1871,7 @@
     <ref role="1TJDcQ" to="c4fa:7FkLcyyQKyx" resolve="InitExpression" />
   </node>
 >>>>>>> 9f10d43a5e... Add array assignment to array fields
+=======
+>>>>>>> f6a9ef0714... Fix TextGen for arrays in classes, add type and size checking
 </model>
 

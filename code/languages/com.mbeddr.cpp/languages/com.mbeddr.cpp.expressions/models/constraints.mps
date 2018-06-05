@@ -9,8 +9,14 @@
   <imports>
     <import index="o8zo" ref="r:314576fc-3aee-4386-a0a5-a38348ac317d(jetbrains.mps.scope)" />
     <import index="mj1l" ref="r:c371cf98-dcc8-4a43-8eb8-8a8096de18b2(com.mbeddr.core.expressions.structure)" />
+    <import index="wnzg" ref="r:24646c42-f8e0-499c-b639-679cfa170a2e(com.mbeddr.cpp.base.structure)" />
+    <import index="yq40" ref="r:152b3fc0-83a1-4bab-a8cd-565eb8483785(com.mbeddr.core.pointers.structure)" />
     <import index="3d25" ref="r:b51ed3f8-f18c-4b51-8a93-f4ee7f6adf9a(com.mbeddr.cpp.expressions.structure)" implicit="true" />
+<<<<<<< HEAD
     <import index="yq40" ref="r:152b3fc0-83a1-4bab-a8cd-565eb8483785(com.mbeddr.core.pointers.structure)" implicit="true" />
+=======
+    <import index="kntn" ref="r:4090021e-0c8f-4cca-ab3f-590afb43a745(com.mbeddr.cpp.base.behavior)" implicit="true" />
+>>>>>>> f6a9ef0714... Fix TextGen for arrays in classes, add type and size checking
     <import index="c4fa" ref="r:9f0e84b6-2ec7-4f9e-83e0-feedc77b63a3(com.mbeddr.core.statements.structure)" implicit="true" />
     <import index="wnzg" ref="r:24646c42-f8e0-499c-b639-679cfa170a2e(com.mbeddr.cpp.base.structure)" implicit="true" />
     <import index="kntn" ref="r:4090021e-0c8f-4cca-ab3f-590afb43a745(com.mbeddr.cpp.base.behavior)" implicit="true" />
@@ -168,6 +174,12 @@
       <concept id="1171407110247" name="jetbrains.mps.lang.smodel.structure.Node_GetAncestorOperation" flags="nn" index="2Xjw5R" />
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+      <concept id="1139621453865" name="jetbrains.mps.lang.smodel.structure.Node_IsInstanceOfOperation" flags="nn" index="1mIQ4w">
+        <child id="1177027386292" name="conceptArgument" index="cj9EA" />
+      </concept>
+>>>>>>> f6a9ef0714... Fix TextGen for arrays in classes, add type and size checking
       <concept id="1146171026731" name="jetbrains.mps.lang.smodel.structure.Property_HasValue_Enum" flags="nn" index="3t7uKx">
         <child id="1146171026732" name="value" index="3t7uKA" />
       </concept>
@@ -1475,6 +1487,7 @@
       </node>
     </node>
   </node>
+<<<<<<< HEAD
   <node concept="1M2fIO" id="4smL_2CORWJ">
     <ref role="1M2myG" to="3d25:2yiFVcKEErD" resolve="This" />
     <node concept="9S07l" id="4smL_2CORWK" role="9Vyp8">
@@ -1521,6 +1534,46 @@
         <node concept="3cpWs6" id="4smL_2CSeFB" role="3cqZAp">
           <node concept="3clFbT" id="4smL_2CSeG0" role="3cqZAk">
             <property role="3clFbU" value="true" />
+=======
+  <node concept="1M2fIO" id="3p40HKhBuaB">
+    <ref role="1M2myG" to="3d25:3p40HKhBtQG" resolve="ArrayAttributeInitExpression" />
+    <node concept="9S07l" id="3p40HKhBuaC" role="9Vyp8">
+      <node concept="3clFbS" id="3p40HKhBuaD" role="2VODD2">
+        <node concept="3cpWs8" id="3p40HKh$64e" role="3cqZAp">
+          <node concept="3cpWsn" id="3p40HKh$64h" role="3cpWs9">
+            <property role="TrG5h" value="attrDec" />
+            <node concept="3Tqbb2" id="3p40HKh$64c" role="1tU5fm">
+              <ref role="ehGHo" to="wnzg:4o2nsMgBIrb" resolve="AttributeDeclaration" />
+            </node>
+            <node concept="2OqwBi" id="3p40HKh$7_d" role="33vP2m">
+              <node concept="nLn13" id="3p40HKh$S9T" role="2Oq$k0" />
+              <node concept="2Xjw5R" id="3p40HKh$8zb" role="2OqNvi">
+                <node concept="1xMEDy" id="3p40HKh$8zd" role="1xVPHs">
+                  <node concept="chp4Y" id="3p40HKh$8Oc" role="ri$Ld">
+                    <ref role="cht4Q" to="wnzg:4o2nsMgBIrb" resolve="AttributeDeclaration" />
+                  </node>
+                </node>
+                <node concept="1xIGOp" id="3p40HKh$953" role="1xVPHs" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs6" id="3p40HKh$9lo" role="3cqZAp">
+          <node concept="2OqwBi" id="3p40HKh$fDQ" role="3cqZAk">
+            <node concept="2OqwBi" id="3p40HKh$azy" role="2Oq$k0">
+              <node concept="37vLTw" id="3p40HKh$9_K" role="2Oq$k0">
+                <ref role="3cqZAo" node="3p40HKh$64h" resolve="attrDec" />
+              </node>
+              <node concept="3TrEf2" id="3p40HKh$ctm" role="2OqNvi">
+                <ref role="3Tt5mk" to="mj1l:hEaDaGor64" resolve="type" />
+              </node>
+            </node>
+            <node concept="1mIQ4w" id="3p40HKh$g81" role="2OqNvi">
+              <node concept="chp4Y" id="3p40HKh$gLm" role="cj9EA">
+                <ref role="cht4Q" to="yq40:4VhroexOKM1" resolve="ArrayType" />
+              </node>
+            </node>
+>>>>>>> f6a9ef0714... Fix TextGen for arrays in classes, add type and size checking
           </node>
         </node>
       </node>
