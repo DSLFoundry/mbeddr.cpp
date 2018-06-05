@@ -2956,5 +2956,112 @@
       </node>
     </node>
   </node>
+<<<<<<< HEAD
+=======
+  <node concept="Q5z_Y" id="1rV7RaURv4x">
+    <property role="TrG5h" value="fix_" />
+    <node concept="Q5ZZ6" id="1rV7RaURv4y" role="Q6x$H">
+      <node concept="3clFbS" id="1rV7RaURv4z" role="2VODD2" />
+    </node>
+  </node>
+  <node concept="Q5z_Y" id="1rV7RaURv92">
+    <property role="3GE5qa" value="method.constructor" />
+    <property role="TrG5h" value="fix_cic_real_name" />
+    <node concept="Q5ZZ6" id="1rV7RaURv93" role="Q6x$H">
+      <node concept="3clFbS" id="1rV7RaURv94" role="2VODD2">
+        <node concept="3SKdUt" id="1rV7RaUSrZW" role="3cqZAp">
+          <node concept="3SKdUq" id="1rV7RaUSrZY" role="3SKWNk">
+            <property role="3SKdUp" value="This forces the real_name attribute to be fixed for textgen." />
+          </node>
+        </node>
+        <node concept="3cpWs8" id="1rV7RaURwuf" role="3cqZAp">
+          <node concept="3cpWsn" id="1rV7RaURwui" role="3cpWs9">
+            <property role="TrG5h" value="asCIC" />
+            <node concept="3Tqbb2" id="1rV7RaURwue" role="1tU5fm">
+              <ref role="ehGHo" to="wnzg:7DDmkz5m05" resolve="ConstructorInitializedConstructor" />
+            </node>
+            <node concept="1PxgMI" id="1rV7RaURx0N" role="33vP2m">
+              <node concept="chp4Y" id="1rV7RaURx1x" role="3oSUPX">
+                <ref role="cht4Q" to="wnzg:7DDmkz5m05" resolve="ConstructorInitializedConstructor" />
+              </node>
+              <node concept="Q6c8r" id="1rV7RaURwwj" role="1m5AlR" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="1rV7RaURx3R" role="3cqZAp">
+          <node concept="37vLTI" id="1rV7RaURyB9" role="3clFbG">
+            <node concept="2OqwBi" id="1rV7RaUR_IA" role="37vLTx">
+              <node concept="2OqwBi" id="1rV7RaURzHT" role="2Oq$k0">
+                <node concept="2OqwBi" id="1rV7RaURyR8" role="2Oq$k0">
+                  <node concept="37vLTw" id="1rV7RaURyEa" role="2Oq$k0">
+                    <ref role="3cqZAo" node="1rV7RaURwui" resolve="asCIC" />
+                  </node>
+                  <node concept="3TrEf2" id="1rV7RaURz5z" role="2OqNvi">
+                    <ref role="3Tt5mk" to="wnzg:7DDmkza$5N" resolve="identity" />
+                  </node>
+                </node>
+                <node concept="3TrEf2" id="1rV7RaUR$wB" role="2OqNvi">
+                  <ref role="3Tt5mk" to="wnzg:6NtgknWJ214" resolve="parent_class" />
+                </node>
+              </node>
+              <node concept="3TrcHB" id="1rV7RaURAuG" role="2OqNvi">
+                <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="1rV7RaURxes" role="37vLTJ">
+              <node concept="37vLTw" id="1rV7RaURx3P" role="2Oq$k0">
+                <ref role="3cqZAo" node="1rV7RaURwui" resolve="asCIC" />
+              </node>
+              <node concept="3TrcHB" id="1rV7RaURxqx" role="2OqNvi">
+                <ref role="3TsBF5" to="wnzg:1rV7RaSNWqj" resolve="real_name" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1YbPZF" id="6OyCGy9cZbG">
+    <property role="TrG5h" value="typeof_ClassStaticVarRef" />
+    <node concept="3clFbS" id="6OyCGy9cZbH" role="18ibNy">
+      <node concept="nvevp" id="6OyCGy9cZbN" role="3cqZAp">
+        <node concept="3clFbS" id="6OyCGy9cZbO" role="nvhr_">
+          <node concept="1Z5TYs" id="6OyCGy9d1mr" role="3cqZAp">
+            <node concept="mw_s8" id="6OyCGy9d1mP" role="1ZfhKB">
+              <node concept="2X3wrD" id="6OyCGy9d1mN" role="mwGJk">
+                <ref role="2X3Bk0" node="6OyCGy9cZbQ" resolve="type" />
+              </node>
+            </node>
+            <node concept="mw_s8" id="6OyCGy9d1mu" role="1ZfhK$">
+              <node concept="1Z2H0r" id="6OyCGy9cZMT" role="mwGJk">
+                <node concept="1YBJjd" id="6OyCGy9cZNc" role="1Z2MuG">
+                  <ref role="1YBMHb" node="6OyCGy9cZbJ" resolve="classStaticVarRef" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1Z2H0r" id="6OyCGy9cZcE" role="nvjzm">
+          <node concept="2OqwBi" id="6OyCGy9cZpt" role="1Z2MuG">
+            <node concept="1YBJjd" id="6OyCGy9cZd8" role="2Oq$k0">
+              <ref role="1YBMHb" node="6OyCGy9cZbJ" resolve="classStaticVarRef" />
+            </node>
+            <node concept="3TrEf2" id="6OyCGy9cZHO" role="2OqNvi">
+              <ref role="3Tt5mk" to="wnzg:6OyCGy9cOMS" resolve="attribute" />
+            </node>
+          </node>
+        </node>
+        <node concept="2X1qdy" id="6OyCGy9cZbQ" role="2X0Ygz">
+          <property role="TrG5h" value="type" />
+          <node concept="2jxLKc" id="6OyCGy9cZbR" role="1tU5fm" />
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="6OyCGy9cZbJ" role="1YuTPh">
+      <property role="TrG5h" value="classStaticVarRef" />
+      <ref role="1YaFvo" to="wnzg:6OyCGy9cOMO" resolve="ClassStaticVarRef" />
+    </node>
+  </node>
+>>>>>>> 857aa482f2... Replaced IAccessStatisClassVar for ClassStaticVarRef
 </model>
 
