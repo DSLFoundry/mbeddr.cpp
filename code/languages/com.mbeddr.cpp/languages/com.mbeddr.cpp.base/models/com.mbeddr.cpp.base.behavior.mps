@@ -99,7 +99,11 @@
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
 >>>>>>> f7ba0272ae... Redo auto keyword
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" implicit="true" />
+<<<<<<< HEAD
 >>>>>>> 6cc9eb2d0e... Fix link not changing name of constructor when class name was changed
+=======
+    <import index="yq40" ref="r:152b3fc0-83a1-4bab-a8cd-565eb8483785(com.mbeddr.core.pointers.structure)" implicit="true" />
+>>>>>>> 60fac7f4dd... Fix behavior throwing error on pointers in IClassTyped
   </imports>
   <registry>
     <language id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior">
@@ -320,12 +324,18 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 7b3a85ea65... Added various uses of the Using keyword for namespaces
 =======
 >>>>>>> 09067ffb17... Added support for the global Namespace Declaration.
 =======
 >>>>>>> 187dabb7a4... Added global using namespace declaration support.
+=======
+      <concept id="5497648299878491908" name="jetbrains.mps.baseLanguage.structure.BaseVariableReference" flags="nn" index="1M0zk4">
+        <reference id="5497648299878491909" name="baseVariableDeclaration" index="1M0zk5" />
+      </concept>
+>>>>>>> 60fac7f4dd... Fix behavior throwing error on pointers in IClassTyped
       <concept id="6329021646629104957" name="jetbrains.mps.baseLanguage.structure.TextCommentPart" flags="nn" index="3SKdUq">
         <property id="6329021646629104958" name="text" index="3SKdUp" />
       </concept>
@@ -464,8 +474,19 @@
       <concept id="1145383075378" name="jetbrains.mps.lang.smodel.structure.SNodeListType" flags="in" index="2I9FWS">
         <reference id="1145383142433" name="elementConcept" index="2I9WkF" />
       </concept>
+<<<<<<< HEAD
 =======
 >>>>>>> f7ba0272ae... Redo auto keyword
+=======
+      <concept id="1883223317721008708" name="jetbrains.mps.lang.smodel.structure.IfInstanceOfStatement" flags="nn" index="Jncv_">
+        <reference id="1883223317721008712" name="nodeConcept" index="JncvD" />
+        <child id="1883223317721008709" name="body" index="Jncv$" />
+        <child id="1883223317721008711" name="variable" index="JncvA" />
+        <child id="1883223317721008710" name="nodeExpression" index="JncvB" />
+      </concept>
+      <concept id="1883223317721008713" name="jetbrains.mps.lang.smodel.structure.IfInstanceOfVariable" flags="ng" index="JncvC" />
+      <concept id="1883223317721107059" name="jetbrains.mps.lang.smodel.structure.IfInstanceOfVarReference" flags="nn" index="Jnkvi" />
+>>>>>>> 60fac7f4dd... Fix behavior throwing error on pointers in IClassTyped
       <concept id="1171323947159" name="jetbrains.mps.lang.smodel.structure.Model_NodesOperation" flags="nn" index="2SmgA7">
         <child id="1758937410080001570" name="conceptArgument" index="1dBWTz" />
       </concept>
@@ -3840,6 +3861,7 @@
 =======
     <node concept="13i0hz" id="6_kdBKNdp3D" role="13h7CS">
       <property role="13i0iv" value="false" />
+<<<<<<< HEAD
       <property role="13i0it" value="false" />
       <property role="TrG5h" value="getFormals" />
       <ref role="13i0hy" to="qd6m:6WGVxckB065" resolve="getFormals" />
@@ -3850,6 +3872,55 @@
             <property role="TrG5h" value="formals" />
             <node concept="2I9FWS" id="6_kdBKNdp3I" role="1tU5fm">
               <ref role="2I9WkF" to="x27k:7kKaL9x4DZT" resolve="IArgumentLike" />
+=======
+      <property role="13i0it" value="true" />
+      <property role="TrG5h" value="getClassType" />
+      <node concept="3Tm1VV" id="6hUtorEt37E" role="1B3o_S" />
+      <node concept="3Tqbb2" id="6hUtorEt38h" role="3clF45">
+        <ref role="ehGHo" to="wnzg:4o2nsMgBEtu" resolve="ClassType" />
+      </node>
+      <node concept="3clFbS" id="6hUtorEt37G" role="3clF47">
+        <node concept="Jncv_" id="3p40HKhHqzv" role="3cqZAp">
+          <ref role="JncvD" to="yq40:fwMInzpHoK" resolve="PointerType" />
+          <node concept="2OqwBi" id="3p40HKhHqTd" role="JncvB">
+            <node concept="13iPFW" id="3p40HKhHqKw" role="2Oq$k0" />
+            <node concept="3TrEf2" id="3p40HKhHrke" role="2OqNvi">
+              <ref role="3Tt5mk" to="mj1l:hEaDaGor64" resolve="type" />
+            </node>
+          </node>
+          <node concept="3clFbS" id="3p40HKhHqzz" role="Jncv$">
+            <node concept="3cpWs6" id="3p40HKhHrEO" role="3cqZAp">
+              <node concept="1PxgMI" id="3p40HKhHu5I" role="3cqZAk">
+                <node concept="chp4Y" id="3p40HKhHujt" role="3oSUPX">
+                  <ref role="cht4Q" to="wnzg:4o2nsMgBEtu" resolve="ClassType" />
+                </node>
+                <node concept="2OqwBi" id="3p40HKhHspD" role="1m5AlR">
+                  <node concept="Jnkvi" id="3p40HKhHrFd" role="2Oq$k0">
+                    <ref role="1M0zk5" node="3p40HKhHqz_" resolve="pt" />
+                  </node>
+                  <node concept="3TrEf2" id="3p40HKhHt6i" role="2OqNvi">
+                    <ref role="3Tt5mk" to="c4fa:6IWRcVPT6tm" resolve="baseType" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="JncvC" id="3p40HKhHqz_" role="JncvA">
+            <property role="TrG5h" value="pt" />
+            <node concept="2jxLKc" id="3p40HKhHqzA" role="1tU5fm" />
+          </node>
+        </node>
+        <node concept="3cpWs6" id="3p40HKhHuS0" role="3cqZAp">
+          <node concept="1PxgMI" id="3p40HKhHx0Z" role="3cqZAk">
+            <node concept="chp4Y" id="3p40HKhHxhV" role="3oSUPX">
+              <ref role="cht4Q" to="wnzg:4o2nsMgBEtu" resolve="ClassType" />
+            </node>
+            <node concept="2OqwBi" id="3p40HKhHvGj" role="1m5AlR">
+              <node concept="13iPFW" id="3p40HKhHvpI" role="2Oq$k0" />
+              <node concept="3TrEf2" id="3p40HKhHwns" role="2OqNvi">
+                <ref role="3Tt5mk" to="mj1l:hEaDaGor64" resolve="type" />
+              </node>
+>>>>>>> 60fac7f4dd... Fix behavior throwing error on pointers in IClassTyped
             </node>
             <node concept="2ShNRf" id="6_kdBKNdo$N" role="33vP2m">
               <node concept="2T8Vx0" id="6_kdBKNdo$L" role="2ShVmc">
