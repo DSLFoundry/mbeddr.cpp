@@ -3090,6 +3090,7 @@
     </node>
   </node>
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 4cbcd056d4... Copied StaticVar from screenshots and started making test
 =======
   <node concept="WtQ9Q" id="6OyCGyafvkZ">
@@ -3135,5 +3136,7 @@
     </node>
   </node>
 >>>>>>> 857aa482f2... Replaced IAccessStatisClassVar for ClassStaticVarRef
+=======
+>>>>>>> 8bd087cd45... Fix textgen for auto type
 </model>
 
