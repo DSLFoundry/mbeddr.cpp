@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 <model ref="r:0777b219-94ea-49d2-8175-d5f018f3e7f9(com.mbeddr.cpp.base.textGen)">
   <persistence version="9" />
@@ -3303,3 +3304,5 @@
 >>>>>>> 5699f64d84... added Textgen and behaviour
 </model>
 
+=======
+>>>>>>> f496843022... removed scope file
