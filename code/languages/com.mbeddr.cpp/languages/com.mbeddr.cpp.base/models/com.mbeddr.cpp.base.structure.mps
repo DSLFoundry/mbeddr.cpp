@@ -1816,6 +1816,15 @@
       <ref role="20lvS9" node="4o2nsMgBEtu" resolve="ClassType" />
     </node>
   </node>
+<<<<<<< HEAD
 >>>>>>> 54b1c4752f... Copied GlobalVarDecCPP and IAccessStaticClassVariable from screenshots
+=======
+  <node concept="1TIwiD" id="6OyCGy3I3ZK">
+    <property role="EcuMT" value="7864026881429356528" />
+    <property role="TrG5h" value="StaticVar" />
+    <property role="34LRSv" value="static" />
+    <ref role="1TJDcQ" node="6OyCGy3FHs3" resolve="GlobalVarDecCPP" />
+  </node>
+>>>>>>> 4cbcd056d4... Copied StaticVar from screenshots and started making test
 </model>
 
