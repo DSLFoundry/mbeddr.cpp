@@ -595,13 +595,16 @@
       <ref role="PrY4T" node="4o2nsMgBJ5Y" resolve="INamedClassMemberDeclaration" />
 >>>>>>> a5b410c665... Fix highlighting to be consistent and make the package name lowercase
     </node>
+    <node concept="PrWs8" id="1D2kn99oQ0S" role="PzmwI">
+      <ref role="PrY4T" node="5eDFAXBRQhJ" resolve="IConstExprFlagConcept" />
+    </node>
     <node concept="PrWs8" id="6ddXmWdS2eK" role="PzmwI">
       <ref role="PrY4T" to="mj1l:hEaDaGor63" resolve="ITyped" />
     </node>
     <node concept="1TJgyj" id="6NtgknWJ214" role="1TKVEi">
       <property role="IQ2ns" value="7844497894798008388" />
       <property role="20lmBu" value="reference" />
-      <property role="20kJfa" value="parent_class" />
+      <property role="20kJfa" value="parentClass" />
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="4o2nsMgBpPQ" resolve="ClassDeclaration" />
     </node>
@@ -729,12 +732,19 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="383ZxwZqQYo" resolve="NamespaceDeclaration" />
     </node>
+<<<<<<< HEAD
     <node concept="1TJgyj" id="383ZxwZrBkI" role="1TKVEi">
       <property role="IQ2ns" value="3604003506923402542" />
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="method" />
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="4o2nsMgB$VW" resolve="MethodDeclaration" />
+=======
+    <node concept="1TJgyi" id="5i01kANicU4" role="1TKVEl">
+      <property role="IQ2nx" value="6088872510303555204" />
+      <property role="TrG5h" value="isDestructor" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+>>>>>>> b0d1d327f3... Add contexpr to constructors
     </node>
   </node>
   <node concept="1TIwiD" id="1$h5d7wdNkU">

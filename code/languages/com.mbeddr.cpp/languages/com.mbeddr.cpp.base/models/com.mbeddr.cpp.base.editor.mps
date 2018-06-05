@@ -400,9 +400,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT">
         <property id="1068580123138" name="value" index="3clFbU" />
       </concept>
+=======
+      <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT" />
+>>>>>>> b0d1d327f3... Add contexpr to constructors
       <concept id="1068580320020" name="jetbrains.mps.baseLanguage.structure.IntegerConstant" flags="nn" index="3cmrfG">
         <property id="1068580320021" name="value" index="3cmrfH" />
       </concept>
@@ -1412,7 +1416,7 @@
         <ref role="1NtTu8" to="wnzg:7DDmkza$5N" resolve="identity" />
         <node concept="1sVBvm" id="7DDmkza$65" role="1sWHZn">
           <node concept="1iCGBv" id="phuaKKO95m" role="2wV5jI">
-            <ref role="1NtTu8" to="wnzg:6NtgknWJ214" resolve="parent_class" />
+            <ref role="1NtTu8" to="wnzg:6NtgknWJ214" resolve="parentClass" />
             <node concept="1sVBvm" id="phuaKKO95n" role="1sWHZn">
               <node concept="3F0A7n" id="phuaKKO95_" role="2wV5jI">
                 <property role="1Intyy" value="true" />
@@ -1503,26 +1507,21 @@
       <node concept="PMmxH" id="4KyQ_QhPIXq" role="3EZMnx">
         <ref role="PMmxG" node="2L1k$oXm7Pq" resolve="VirtualFlag" />
       </node>
-      <node concept="3F0ifn" id="5i01kANig6U" role="3EZMnx">
-        <property role="3F0ifm" value="~" />
-        <ref role="1k5W1q" node="7DDmkz49ic" resolve="Scrunched" />
-        <ref role="1ERwB7" node="5i01kANoQSk" resolve="Undestructor" />
-        <node concept="pkWqt" id="5i01kANig7e" role="pqm2j">
-          <node concept="3clFbS" id="5i01kANig7f" role="2VODD2">
-            <node concept="3clFbF" id="5i01kANigeA" role="3cqZAp">
-              <node concept="2OqwBi" id="5i01kANigEK" role="3clFbG">
-                <node concept="pncrf" id="5i01kANige_" role="2Oq$k0" />
-                <node concept="3TrcHB" id="5i01kANiikU" role="2OqNvi">
-                  <ref role="3TsBF5" to="wnzg:5i01kANicU4" resolve="is_destructor" />
-                </node>
-              </node>
-            </node>
-          </node>
+      <node concept="PMmxH" id="1D2kn99oQ1x" role="3EZMnx">
+        <ref role="PMmxG" node="5eDFAXBRQic" resolve="ConstExprFlag" />
+      </node>
+      <node concept="1kHk_G" id="1D2kn99moLS" role="3EZMnx">
+        <property role="ZjSer" value="~" />
+        <ref role="1NtTu8" to="wnzg:5i01kANicU4" resolve="isDestructor" />
+        <node concept="11LMrY" id="1D2kn99xo7l" role="3F10Kt">
+          <property role="VOm3f" value="true" />
         </node>
-        <node concept="11L4FC" id="5i01kANqiUX" role="3F10Kt" />
+        <node concept="3CIbrd" id="1D2kn99xo7t" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
       </node>
       <node concept="1iCGBv" id="6ddXmWdAFQT" role="3EZMnx">
-        <ref role="1NtTu8" to="wnzg:6NtgknWJ214" resolve="parent_class" />
+        <ref role="1NtTu8" to="wnzg:6NtgknWJ214" resolve="parentClass" />
         <node concept="1sVBvm" id="6ddXmWdAFQV" role="1sWHZn">
           <node concept="3F0A7n" id="6ddXmWdAFR9" role="2wV5jI">
 =======
@@ -1545,9 +1544,6 @@
         </node>
         <node concept="VPxyj" id="6ddXmWdCZQv" role="3F10Kt">
           <property role="VOm3f" value="false" />
-        </node>
-        <node concept="A1WHu" id="5i01kANlAex" role="3vIgyS">
-          <ref role="A1WHt" node="5i01kANlz3$" resolve="ConstructorToDestructor" />
         </node>
       </node>
       <node concept="PMmxH" id="6NtgknWJ3yp" role="3EZMnx">
@@ -2069,6 +2065,7 @@
       </node>
     </node>
   </node>
+<<<<<<< HEAD
   <node concept="PKFIW" id="6hUtorE0haO">
     <property role="3GE5qa" value="method.constructor" />
     <property role="TrG5h" value="ConstructorObjectInstantiation" />
@@ -2396,6 +2393,8 @@
       </node>
     </node>
   </node>
+=======
+>>>>>>> b0d1d327f3... Add contexpr to constructors
   <node concept="PKFIW" id="1TorPL4sJdQ">
     <property role="TrG5h" value="PureFlag" />
     <property role="3GE5qa" value="flag" />

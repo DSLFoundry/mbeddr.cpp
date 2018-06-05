@@ -1988,6 +1988,7 @@
                 <ref role="3TtcxE" to="x27k:4WTYg$PUiX5" resolve="arguments" />
               </node>
             </node>
+<<<<<<< HEAD
           </node>
           <node concept="la8eA" id="3LE5RBQaKlS" role="lcghm">
             <property role="lacIc" value=")" />
@@ -2000,6 +2001,10 @@
               <node concept="3TrEf2" id="3LE5RBQaLsl" role="2OqNvi">
                 <ref role="3Tt5mk" to="wnzg:3LE5RBPSwl7" resolve="body" />
               </node>
+=======
+            <node concept="3TrcHB" id="5i01kANsxwL" role="2OqNvi">
+              <ref role="3TsBF5" to="wnzg:5i01kANicU4" resolve="isDestructor" />
+>>>>>>> b0d1d327f3... Add contexpr to constructors
             </node>
 =======
   <node concept="WtQ9Q" id="29cSqvdUjFp">
@@ -2778,6 +2783,7 @@
       </node>
     </node>
   </node>
+<<<<<<< HEAD
   <node concept="WtQ9Q" id="7fNEwq_Vo48">
     <property role="3GE5qa" value="Namespace" />
     <ref role="WuzLi" to="wnzg:7fNEwq_6ZJn" resolve="NamespaceClassInstanceAttributeRef" />
@@ -2790,6 +2796,22 @@
                 <node concept="117lpO" id="7fNEwq_Vo5J" role="2Oq$k0" />
                 <node concept="3TrEf2" id="7fNEwq_VozO" role="2OqNvi">
                   <ref role="3Tt5mk" to="wnzg:7fNEwq_6ZJT" resolve="class_instance" />
+=======
+  <node concept="WtQ9Q" id="6ddXmWdNsw1">
+    <property role="3GE5qa" value="method.constructor" />
+    <ref role="WuzLi" to="wnzg:6NtgknWJ20B" resolve="ClassConstructorDeclaration" />
+    <node concept="11bSqf" id="6ddXmWdNsw2" role="11c4hB">
+      <node concept="3clFbS" id="6ddXmWdNsw3" role="2VODD2">
+        <node concept="lc7rE" id="6ddXmWdPBIB" role="3cqZAp">
+          <node concept="1bDJIP" id="6ddXmWdPBRL" role="lcghm">
+            <ref role="1rvKf6" node="6ddXmWdP_nH" resolve="generateConstructorPrototype" />
+            <node concept="117lpO" id="6ddXmWdPBS7" role="1ryhcI" />
+            <node concept="2OqwBi" id="6ddXmWdPDCj" role="1ryhcI">
+              <node concept="2OqwBi" id="6ddXmWdPCys" role="2Oq$k0">
+                <node concept="117lpO" id="6ddXmWdPCiA" role="2Oq$k0" />
+                <node concept="3TrEf2" id="6ddXmWdPCW6" role="2OqNvi">
+                  <ref role="3Tt5mk" to="wnzg:6NtgknWJ214" resolve="parentClass" />
+>>>>>>> b0d1d327f3... Add contexpr to constructors
                 </node>
               </node>
               <node concept="3TrcHB" id="7fNEwq_Vpyd" role="2OqNvi">
