@@ -456,7 +456,11 @@
 =======
       <concept id="3976803464656498418" name="com.mbeddr.core.expressions.structure.PreDecrementExpression" flags="ng" index="1FldXs" />
       <concept id="8860443239512147449" name="com.mbeddr.core.expressions.structure.LessExpression" flags="ng" index="3Tl9Jn" />
+<<<<<<< HEAD
 >>>>>>> b124467075... Redo extension tests
+=======
+      <concept id="8860443239512128058" name="com.mbeddr.core.expressions.structure.BooleanType" flags="ng" index="3TlMgk" />
+>>>>>>> c6757b8776... changed testing
       <concept id="8860443239512128054" name="com.mbeddr.core.expressions.structure.Type" flags="ng" index="3TlMgo">
         <property id="2941277002445651368" name="const" index="2c7vTL" />
         <property id="2941277002448691247" name="volatile" index="2caQfQ" />
@@ -467,6 +471,8 @@
       </concept>
       <concept id="8860443239512128108" name="com.mbeddr.core.expressions.structure.IntType" flags="ng" index="3TlMh2" />
       <concept id="8860443239512128103" name="com.mbeddr.core.expressions.structure.NumberLiteral" flags="ng" index="3TlMh9" />
+      <concept id="8860443239512128099" name="com.mbeddr.core.expressions.structure.FalseLiteral" flags="ng" index="3TlMhd" />
+      <concept id="8860443239512128094" name="com.mbeddr.core.expressions.structure.TrueLiteral" flags="ng" index="3TlMhK" />
       <concept id="4375898003726285486" name="com.mbeddr.core.expressions.structure.PostIncrementExpression" flags="ng" index="3TM6Ey" />
       <concept id="4375898003726285487" name="com.mbeddr.core.expressions.structure.PreIncrementExpression" flags="ng" index="3TM6Ez" />
     </language>
@@ -2734,6 +2740,33 @@
             <property role="2OOxQR" value="true" />
             <property role="TrG5h" value="T" />
             <property role="1wg9_F" value="public" />
+            <node concept="3mB1cK" id="1yn8Pkzl_3r" role="3mBdys">
+              <property role="1wg9_F" value="public" />
+              <property role="TrG5h" value="yesSir" />
+              <node concept="3TlMgk" id="1yn8Pkzl_3C" role="2C2TGm">
+                <property role="2caQfQ" value="false" />
+                <property role="2c7vTL" value="false" />
+              </node>
+              <node concept="3XIRFW" id="1yn8Pkzl_4g" role="3XIRFX">
+                <node concept="2BFjQ_" id="1yn8Pkzl_4C" role="3XIRFZ">
+                  <node concept="3TlMhK" id="1yn8Pkzl_4V" role="2BFjQA" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3u$6M4" id="1yn8Pkzl_5u" role="3mBdys" />
+      <node concept="3mB1cK" id="1yn8Pkzl_6Y" role="3mBdys">
+        <property role="1wg9_F" value="private" />
+        <property role="TrG5h" value="noSir" />
+        <node concept="3TlMgk" id="1yn8Pkzl_81" role="2C2TGm">
+          <property role="2caQfQ" value="false" />
+          <property role="2c7vTL" value="false" />
+        </node>
+        <node concept="3XIRFW" id="1yn8Pkzl_8l" role="3XIRFX">
+          <node concept="2BFjQ_" id="1yn8Pkzl_8N" role="3XIRFZ">
+            <node concept="3TlMhd" id="1yn8Pkzl_9e" role="2BFjQA" />
           </node>
         </node>
       </node>
