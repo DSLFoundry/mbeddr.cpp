@@ -277,6 +277,12 @@
       <concept id="1138676077309" name="jetbrains.mps.lang.smodel.structure.EnumMemberReference" flags="nn" index="uoxfO">
         <reference id="1138676095763" name="enumMember" index="uo_Cq" />
       </concept>
+<<<<<<< HEAD
+=======
+      <concept id="1143234257716" name="jetbrains.mps.lang.smodel.structure.Node_GetModelOperation" flags="nn" index="I4A8Y" />
+      <concept id="1171305280644" name="jetbrains.mps.lang.smodel.structure.Node_GetDescendantsOperation" flags="nn" index="2Rf3mk" />
+      <concept id="1171315804604" name="jetbrains.mps.lang.smodel.structure.Model_RootsOperation" flags="nn" index="2RRcyG" />
+>>>>>>> 5fffaff81e... added broken scoping
       <concept id="1171407110247" name="jetbrains.mps.lang.smodel.structure.Node_GetAncestorOperation" flags="nn" index="2Xjw5R" />
       <concept id="1146171026731" name="jetbrains.mps.lang.smodel.structure.Property_HasValue_Enum" flags="nn" index="3t7uKx">
         <child id="1146171026732" name="value" index="3t7uKA" />
@@ -340,6 +346,19 @@
         <child id="1204796294226" name="closure" index="23t8la" />
       </concept>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+      <concept id="1176903168877" name="jetbrains.mps.baseLanguage.collections.structure.UnionOperation" flags="nn" index="4Tj9Z" />
+      <concept id="1176906603202" name="jetbrains.mps.baseLanguage.collections.structure.BinaryOperation" flags="nn" index="56pJg">
+        <child id="1176906787974" name="rightExpression" index="576Qk" />
+      </concept>
+      <concept id="1224414427926" name="jetbrains.mps.baseLanguage.collections.structure.SequenceCreator" flags="nn" index="kMnCb">
+        <child id="1224414456414" name="elementType" index="kMuH3" />
+      </concept>
+      <concept id="1151689724996" name="jetbrains.mps.baseLanguage.collections.structure.SequenceType" flags="in" index="A3Dl8">
+        <child id="1151689745422" name="elementType" index="A3Ik2" />
+      </concept>
+>>>>>>> 5fffaff81e... added broken scoping
       <concept id="1153943597977" name="jetbrains.mps.baseLanguage.collections.structure.ForEachStatement" flags="nn" index="2Gpval">
         <child id="1153944400369" name="variable" index="2Gsz3X" />
         <child id="1153944424730" name="inputSequence" index="2GsD0m" />
@@ -351,6 +370,7 @@
 =======
 >>>>>>> b70d14e537... loads of stuff
       <concept id="1203518072036" name="jetbrains.mps.baseLanguage.collections.structure.SmartClosureParameterDeclaration" flags="ig" index="Rh6nW" />
+      <concept id="1165525191778" name="jetbrains.mps.baseLanguage.collections.structure.GetFirstOperation" flags="nn" index="1uHKPH" />
       <concept id="1202120902084" name="jetbrains.mps.baseLanguage.collections.structure.WhereOperation" flags="nn" index="3zZkjj" />
     </language>
   </registry>
@@ -1481,6 +1501,7 @@
     </node>
   </node>
 <<<<<<< HEAD
+<<<<<<< HEAD
   <node concept="1M2fIO" id="7DDmkza$8D">
     <property role="3GE5qa" value="method.constructor" />
     <ref role="1M2myG" to="wnzg:7DDmkz5m05" resolve="ConstructorInitializedConstructor" />
@@ -1514,10 +1535,33 @@
                 <node concept="2qgKlT" id="7RFM8R3TZrB" role="2OqNvi">
                   <ref role="37wK5l" to="kntn:7RFM8R3Sz_I" resolve="classesWithinNamespaces" />
 >>>>>>> a5b410c665... Fix highlighting to be consistent and make the package name lowercase
+=======
+  <node concept="1M2fIO" id="ZKpU3C45zg">
+    <property role="3GE5qa" value="class" />
+    <ref role="1M2myG" to="wnzg:4o2nsMgBEtu" resolve="ClassType" />
+    <node concept="1N5Pfh" id="ZKpU3C45zh" role="1Mr941">
+      <ref role="1N5Vy1" to="wnzg:4o2nsMgBEtY" resolve="clazz" />
+      <node concept="3dgokm" id="ZKpU3C57SJ" role="1N6uqs">
+        <node concept="3clFbS" id="ZKpU3C57SL" role="2VODD2">
+          <node concept="3cpWs8" id="64ejoCJUGcK" role="3cqZAp">
+            <node concept="3cpWsn" id="64ejoCJUGcN" role="3cpWs9">
+              <property role="TrG5h" value="scope" />
+              <node concept="A3Dl8" id="64ejoCJUGcH" role="1tU5fm">
+                <node concept="3Tqbb2" id="64ejoCJUGxC" role="A3Ik2">
+                  <ref role="ehGHo" to="wnzg:4o2nsMgBpPQ" resolve="ClassDeclaration" />
+                </node>
+              </node>
+              <node concept="2ShNRf" id="64ejoCJUHt8" role="33vP2m">
+                <node concept="kMnCb" id="64ejoCJUINu" role="2ShVmc">
+                  <node concept="3Tqbb2" id="64ejoCJUJ7s" role="kMuH3">
+                    <ref role="ehGHo" to="wnzg:4o2nsMgBpPQ" resolve="ClassDeclaration" />
+                  </node>
+>>>>>>> 5fffaff81e... added broken scoping
                 </node>
               </node>
             </node>
           </node>
+<<<<<<< HEAD
           <node concept="3cpWs8" id="7DDmkza_SU" role="3cqZAp">
             <node concept="3cpWsn" id="7DDmkza_SX" role="3cpWs9">
               <property role="TrG5h" value="pClass" />
@@ -1532,10 +1576,34 @@
                       <ref role="cht4Q" to="wnzg:4o2nsMgBpPQ" resolve="ClassDeclaration" />
                     </node>
                   </node>
+=======
+          <node concept="3clFbH" id="64ejoCJWyHv" role="3cqZAp" />
+          <node concept="3clFbF" id="64ejoCJUK8w" role="3cqZAp">
+            <node concept="2OqwBi" id="64ejoCJUKPg" role="3clFbG">
+              <node concept="37vLTw" id="64ejoCJUKtC" role="2Oq$k0">
+                <ref role="3cqZAo" node="64ejoCJUGcN" resolve="scope" />
+              </node>
+              <node concept="4Tj9Z" id="64ejoCJULnT" role="2OqNvi">
+                <node concept="2OqwBi" id="64ejoCJUNzM" role="576Qk">
+                  <node concept="2OqwBi" id="64ejoCJUM8z" role="2Oq$k0">
+                    <node concept="3kakTB" id="64ejoCJW31T" role="2Oq$k0" />
+                    <node concept="2Xjw5R" id="64ejoCJUMyr" role="2OqNvi">
+                      <node concept="1xMEDy" id="64ejoCJUMyt" role="1xVPHs">
+                        <node concept="chp4Y" id="64ejoCJUMS_" role="ri$Ld">
+                          <ref role="cht4Q" to="wnzg:4o2nsMgBpPQ" resolve="ClassDeclaration" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="2qgKlT" id="64ejoCJUOVZ" role="2OqNvi">
+                    <ref role="37wK5l" to="kntn:1yn8PkxZ2Zk" resolve="allClassMembers" />
+                  </node>
+>>>>>>> 5fffaff81e... added broken scoping
                 </node>
               </node>
             </node>
           </node>
+<<<<<<< HEAD
           <node concept="3clFbH" id="7DDmkza$Jy" role="3cqZAp" />
           <node concept="3SKdUt" id="7DDmkzaY6f" role="3cqZAp">
             <node concept="3SKdUq" id="7DDmkzaY6h" role="3SKWNk">
@@ -1579,10 +1647,88 @@
                                   </node>
                                   <node concept="3TrcHB" id="5i01kANoHaG" role="2OqNvi">
                                     <ref role="3TsBF5" to="wnzg:5i01kANicU4" resolve="is_destructor" />
+=======
+          <node concept="3clFbH" id="64ejoCJW2rp" role="3cqZAp" />
+          <node concept="3clFbF" id="64ejoCJUPJ6" role="3cqZAp">
+            <node concept="2OqwBi" id="64ejoCJUQ7T" role="3clFbG">
+              <node concept="37vLTw" id="64ejoCJUPJ4" role="2Oq$k0">
+                <ref role="3cqZAo" node="64ejoCJUGcN" resolve="scope" />
+              </node>
+              <node concept="4Tj9Z" id="64ejoCJUQJ_" role="2OqNvi">
+                <node concept="2OqwBi" id="64ejoCJUVxo" role="576Qk">
+                  <node concept="2OqwBi" id="64ejoCJUTpK" role="2Oq$k0">
+                    <node concept="2OqwBi" id="64ejoCJUREl" role="2Oq$k0">
+                      <node concept="3kakTB" id="64ejoCJW3h2" role="2Oq$k0" />
+                      <node concept="2Xjw5R" id="64ejoCJUSej" role="2OqNvi">
+                        <node concept="1xMEDy" id="64ejoCJUSel" role="1xVPHs">
+                          <node concept="chp4Y" id="64ejoCJUSDw" role="ri$Ld">
+                            <ref role="cht4Q" to="wnzg:4o2nsMgBpPQ" resolve="ClassDeclaration" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="2Xjw5R" id="64ejoCJUUlL" role="2OqNvi">
+                      <node concept="1xMEDy" id="64ejoCJUUlN" role="1xVPHs">
+                        <node concept="chp4Y" id="64ejoCJUUL1" role="ri$Ld">
+                          <ref role="cht4Q" to="wnzg:4o2nsMgBpPQ" resolve="ClassDeclaration" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="2qgKlT" id="64ejoCJUWZh" role="2OqNvi">
+                    <ref role="37wK5l" to="kntn:1yn8PkxZfdx" resolve="allPublicClassMembers" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbH" id="64ejoCJW4js" role="3cqZAp" />
+          <node concept="3clFbF" id="64ejoCJVwIu" role="3cqZAp">
+            <node concept="2OqwBi" id="64ejoCJVxdo" role="3clFbG">
+              <node concept="37vLTw" id="64ejoCJVwIs" role="2Oq$k0">
+                <ref role="3cqZAo" node="64ejoCJUGcN" resolve="scope" />
+              </node>
+              <node concept="4Tj9Z" id="64ejoCJVxAX" role="2OqNvi">
+                <node concept="2OqwBi" id="64ejoCJVOC_" role="576Qk">
+                  <node concept="2OqwBi" id="64ejoCJVHhW" role="2Oq$k0">
+                    <node concept="2OqwBi" id="64ejoCJVA5i" role="2Oq$k0">
+                      <node concept="2OqwBi" id="64ejoCJV$sM" role="2Oq$k0">
+                        <node concept="2OqwBi" id="64ejoCJVzuu" role="2Oq$k0">
+                          <node concept="2rP1CM" id="64ejoCJVxTD" role="2Oq$k0" />
+                          <node concept="I4A8Y" id="64ejoCJVzVA" role="2OqNvi" />
+                        </node>
+                        <node concept="2RRcyG" id="64ejoCJV$U9" role="2OqNvi" />
+                      </node>
+                      <node concept="1uHKPH" id="64ejoCJVBcV" role="2OqNvi" />
+                    </node>
+                    <node concept="2Rf3mk" id="64ejoCJVHMQ" role="2OqNvi">
+                      <node concept="1xMEDy" id="64ejoCJVHMS" role="1xVPHs">
+                        <node concept="chp4Y" id="64ejoCJVI80" role="ri$Ld">
+                          <ref role="cht4Q" to="wnzg:4o2nsMgBpPQ" resolve="ClassDeclaration" />
+                        </node>
+                      </node>
+                      <node concept="1xIGOp" id="64ejoCJWgxJ" role="1xVPHs" />
+                    </node>
+                  </node>
+                  <node concept="3zZkjj" id="64ejoCJVXHM" role="2OqNvi">
+                    <node concept="1bVj0M" id="64ejoCJVXHO" role="23t8la">
+                      <node concept="3clFbS" id="64ejoCJVXHP" role="1bW5cS">
+                        <node concept="3clFbF" id="64ejoCJVY72" role="3cqZAp">
+                          <node concept="2OqwBi" id="64ejoCJW0JM" role="3clFbG">
+                            <node concept="2OqwBi" id="64ejoCJVYD9" role="2Oq$k0">
+                              <node concept="37vLTw" id="64ejoCJVY71" role="2Oq$k0">
+                                <ref role="3cqZAo" node="64ejoCJVXHQ" resolve="it" />
+                              </node>
+                              <node concept="2Xjw5R" id="64ejoCJVZyt" role="2OqNvi">
+                                <node concept="1xMEDy" id="64ejoCJVZyv" role="1xVPHs">
+                                  <node concept="chp4Y" id="64ejoCJVZYU" role="ri$Ld">
+                                    <ref role="cht4Q" to="wnzg:4o2nsMgBpPQ" resolve="ClassDeclaration" />
+>>>>>>> 5fffaff81e... added broken scoping
                                   </node>
                                 </node>
                               </node>
                             </node>
+                            <node concept="3w_OXm" id="64ejoCJW1Eh" role="2OqNvi" />
                           </node>
                         </node>
                         <node concept="Rh6nW" id="7DDmkzaCVK" role="1bW2Oz">
@@ -1590,6 +1736,7 @@
                           <node concept="2jxLKc" id="7DDmkzaCVL" role="1tU5fm" />
                         </node>
                       </node>
+<<<<<<< HEAD
                     </node>
                   </node>
                 </node>
@@ -1622,12 +1769,19 @@
                       <property role="TrG5h" value="it" />
                       <node concept="2jxLKc" id="ZKpU3C5goe" role="1tU5fm" />
 >>>>>>> b70d14e537... loads of stuff
+=======
+                      <node concept="Rh6nW" id="64ejoCJVXHQ" role="1bW2Oz">
+                        <property role="TrG5h" value="it" />
+                        <node concept="2jxLKc" id="64ejoCJVXHR" role="1tU5fm" />
+                      </node>
+>>>>>>> 5fffaff81e... added broken scoping
                     </node>
                   </node>
                 </node>
               </node>
             </node>
           </node>
+<<<<<<< HEAD
 <<<<<<< HEAD
           <node concept="3clFbH" id="7DDmkza$ya" role="3cqZAp" />
           <node concept="3cpWs6" id="7DDmkza$Cq" role="3cqZAp">
@@ -1638,6 +1792,23 @@
 =======
 >>>>>>> b70d14e537... loads of stuff
 =======
+=======
+          <node concept="3clFbH" id="64ejoCJWfp4" role="3cqZAp" />
+          <node concept="3clFbH" id="64ejoCJVtge" role="3cqZAp" />
+          <node concept="3cpWs6" id="64ejoCJVtAK" role="3cqZAp">
+            <node concept="2YIFZM" id="64ejoCJVuO9" role="3cqZAk">
+              <ref role="37wK5l" to="o8zo:4IP40Bi3eAf" resolve="forNamedElements" />
+              <ref role="1Pybhc" to="o8zo:4IP40Bi3e_R" resolve="ListScope" />
+              <node concept="37vLTw" id="64ejoCJVv6o" role="37wK5m">
+                <ref role="3cqZAo" node="64ejoCJUGcN" resolve="scope" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+>>>>>>> 5fffaff81e... added broken scoping
   <node concept="1M2fIO" id="383ZxwZuPTg">
     <property role="3GE5qa" value="Namespace" />
     <ref role="1M2myG" to="wnzg:383ZxwZrBky" resolve="NamespaceMethodCall" />
