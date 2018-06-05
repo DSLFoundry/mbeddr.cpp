@@ -1859,6 +1859,16 @@
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
   </node>
+<<<<<<< HEAD
 >>>>>>> fb3f85f504... Add explicit specifier for class constructor
+=======
+  <node concept="1TIwiD" id="3p40HKhzA44">
+    <property role="EcuMT" value="3910253520675037444" />
+    <property role="3GE5qa" value="class" />
+    <property role="TrG5h" value="ArrayAttributeInitExpression" />
+    <property role="34LRSv" value="{" />
+    <ref role="1TJDcQ" to="c4fa:7FkLcyyQKyx" resolve="InitExpression" />
+  </node>
+>>>>>>> 9f10d43a5e... Add array assignment to array fields
 </model>
 
