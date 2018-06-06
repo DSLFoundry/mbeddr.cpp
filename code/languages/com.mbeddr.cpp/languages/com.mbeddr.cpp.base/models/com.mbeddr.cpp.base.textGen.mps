@@ -2001,6 +2001,7 @@
             </node>
           </node>
         </node>
+<<<<<<< HEAD
         <node concept="lc7rE" id="3LE5RBQazmQ" role="3cqZAp">
           <node concept="l9hG8" id="3LE5RBQazrE" role="lcghm">
             <node concept="2OqwBi" id="3LE5RBQazI_" role="lb14g">
@@ -2024,6 +2025,35 @@
           <node concept="la8eA" id="dx81$JxKig" role="lcghm">
 >>>>>>> d652370829... Editor and TextGen MethodCalls using GeneralNamespaceDeclarations works correctly.
             <property role="lacIc" value="(" />
+=======
+        <node concept="3clFbJ" id="5HgCzLwxJGF" role="3cqZAp">
+          <node concept="3clFbS" id="5HgCzLwxJGH" role="3clFbx">
+            <node concept="lc7rE" id="6ddXmWdPACC" role="3cqZAp">
+              <node concept="l9hG8" id="6ddXmWdPAD7" role="lcghm">
+                <node concept="37vLTw" id="6ddXmWdPADU" role="lb14g">
+                  <ref role="3cqZAo" node="6ddXmWdPAB7" resolve="className" />
+                </node>
+              </node>
+              <node concept="la8eA" id="6ddXmWdPAEE" role="lcghm">
+                <property role="lacIc" value="::" />
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="5HgCzLwxKPv" role="3clFbw">
+            <node concept="2OqwBi" id="5HgCzLwxJZm" role="2Oq$k0">
+              <node concept="37vLTw" id="5HgCzLwxJIq" role="2Oq$k0">
+                <ref role="3cqZAo" node="6ddXmWdP_q9" resolve="node" />
+              </node>
+              <node concept="2Xjw5R" id="5HgCzLwxKs1" role="2OqNvi">
+                <node concept="1xMEDy" id="5HgCzLwxKs3" role="1xVPHs">
+                  <node concept="chp4Y" id="5HgCzLwHRWU" role="ri$Ld">
+                    <ref role="cht4Q" to="wnzg:4o2nsMgBpPQ" resolve="ClassDeclaration" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3w_OXm" id="5HgCzLwxMel" role="2OqNvi" />
+>>>>>>> 9c4d6db0b0... Fix constructors
           </node>
         </node>
         <node concept="lc7rE" id="1rolTiuDA8B" role="3cqZAp">
