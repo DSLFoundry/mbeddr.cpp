@@ -1524,7 +1524,12 @@
         </node>
       </node>
       <node concept="1iCGBv" id="6ddXmWdAFQT" role="3EZMnx">
+<<<<<<< HEAD
         <ref role="1NtTu8" to="wnzg:6NtgknWJ214" resolve="parentClass" />
+=======
+        <ref role="1NtTu8" to="wnzg:6NtgknWJ214" resolve="parent_class" />
+        <ref role="1ERwB7" node="7j9KGYKZMY5" resolve="PreventAutocompleteOnConstructorName" />
+>>>>>>> b8ff75134f... Remove autocomplete on constructor items so an error can be removed
         <node concept="1sVBvm" id="6ddXmWdAFQV" role="1sWHZn">
           <node concept="3F0A7n" id="6ddXmWdAFR9" role="2wV5jI">
 =======
@@ -4702,6 +4707,25 @@
       <property role="ZjSer" value="explicit" />
       <ref role="1NtTu8" to="wnzg:1D2kn9asHiy" resolve="isExplicit" />
       <ref role="1k5W1q" to="r4b4:2CEi94dgHKA" resolve="KW" />
+    </node>
+  </node>
+  <node concept="1h_SRR" id="7j9KGYKZMY5">
+    <property role="3GE5qa" value="method.constructor" />
+    <property role="TrG5h" value="PreventAutocompleteOnConstructorName" />
+    <ref role="1h_SK9" to="wnzg:6NtgknWJ20B" resolve="ClassConstructorDeclaration" />
+    <node concept="1hA7zw" id="7j9KGYKZMY6" role="1h_SK8">
+      <property role="1hAc7j" value="complete_action_id" />
+      <property role="1hHO97" value="Do nothing" />
+      <node concept="1hAIg9" id="7j9KGYKZMY7" role="1hA7z_">
+        <node concept="3clFbS" id="7j9KGYKZMY8" role="2VODD2" />
+      </node>
+    </node>
+    <node concept="1hA7zw" id="7j9KGYKZMYn" role="1h_SK8">
+      <property role="1hAc7j" value="complete_smart_action_id" />
+      <property role="1hHO97" value="Do nothing" />
+      <node concept="1hAIg9" id="7j9KGYKZMYo" role="1hA7z_">
+        <node concept="3clFbS" id="7j9KGYKZMYp" role="2VODD2" />
+      </node>
     </node>
   </node>
 </model>
