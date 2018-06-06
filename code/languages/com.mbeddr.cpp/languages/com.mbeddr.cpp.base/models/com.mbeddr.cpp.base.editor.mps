@@ -1318,6 +1318,7 @@
       <node concept="l2Vlx" id="3EDDOqDY7xw" role="2iSdaV" />
     </node>
   </node>
+<<<<<<< HEAD
   <node concept="24kQdi" id="3EDDOqDY7yv">
     <property role="3GE5qa" value="class" />
     <ref role="1XX52x" to="wnzg:3EDDOqDY7xe" resolve="DeleteArrayDeclaration" />
@@ -1356,20 +1357,26 @@
       <ref role="1NtTu8" to="wnzg:2L1k$oXxncX" resolve="virtual" />
 >>>>>>> 0a6e17621e... Move virtual to interface IVirtual and add it to MethodPrototype and textgen.
 =======
+=======
+>>>>>>> 9cc6d595ca... New and Delete keywords are working, with types and constructors
   <node concept="24kQdi" id="3EDDOqDY7xr">
     <property role="3GE5qa" value="class" />
     <ref role="1XX52x" to="wnzg:3EDDOqDY7x5" resolve="DeleteDeclaration" />
     <node concept="3EZMnI" id="3EDDOqDY7xt" role="2wV5jI">
-      <node concept="3F0ifn" id="3EDDOqDY7xE" role="3EZMnx">
+      <node concept="3F0ifn" id="72UYQRW0DPT" role="3EZMnx">
         <property role="3F0ifm" value="delete" />
         <ref role="1k5W1q" to="r4b4:2CEi94dgHKA" resolve="KW" />
       </node>
-      <node concept="3F0A7n" id="3EDDOqDY7xQ" role="3EZMnx">
-        <ref role="1NtTu8" to="wnzg:3EDDOqDY7xa" resolve="expression" />
+      <node concept="1kHk_G" id="72UYQRWwqOe" role="3EZMnx">
+        <property role="ZjSer" value="[]" />
+        <ref role="1NtTu8" to="wnzg:72UYQRWwqOq" resolve="brackets" />
       </node>
-      <node concept="3F0ifn" id="3EDDOqDY7y8" role="3EZMnx">
+      <node concept="3F1sOY" id="72UYQRW0DQa" role="3EZMnx">
+        <ref role="1NtTu8" to="wnzg:72UYQRW0DPK" resolve="varRef" />
+      </node>
+      <node concept="3F0ifn" id="72UYQRWa38w" role="3EZMnx">
         <property role="3F0ifm" value=";" />
-        <node concept="11L4FC" id="3EDDOqDY7yj" role="3F10Kt">
+        <node concept="11L4FC" id="72UYQRWds6E" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
       </node>
@@ -4761,6 +4768,7 @@
     <node concept="3EZMnI" id="6WSa0snOgwr" role="2wV5jI">
       <node concept="3F0ifn" id="6WSa0snOgwt" role="3EZMnx">
         <property role="3F0ifm" value="new" />
+        <ref role="1k5W1q" to="r4b4:2CEi94dgHKA" resolve="KW" />
       </node>
       <node concept="1kHk_G" id="6WSa0snOgxa" role="3EZMnx">
         <property role="1$x2rV" value="(std::nothrow)" />

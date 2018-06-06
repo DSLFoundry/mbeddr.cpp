@@ -401,6 +401,7 @@
   </node>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   <node concept="1TIwiD" id="6oRbCP62xkS">
     <property role="EcuMT" value="7365406899888067896" />
     <property role="TrG5h" value="lassTypeAccessor" />
@@ -435,6 +436,8 @@
     </node>
   </node>
 >>>>>>> 8ebf22174f... Refactor and sort com.mbeddr.cpp
+=======
+>>>>>>> 9cc6d595ca... New and Delete keywords are working, with types and constructors
   <node concept="1TIwiD" id="3EDDOqDY7x5">
 =======
 	<node concept="1TIwiD" id="3EDDOqDY7x5">
@@ -445,10 +448,17 @@
     <property role="3GE5qa" value="class" />
     <property role="R4oN_" value="delete keyword for arrays" />
     <ref role="1TJDcQ" to="c4fa:3CmSUB7FmO3" resolve="Statement" />
-    <node concept="1TJgyi" id="3EDDOqDY7xa" role="1TKVEl">
-      <property role="IQ2nx" value="4227093647205103690" />
-      <property role="TrG5h" value="expression" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    <node concept="1TJgyj" id="72UYQRW0DPK" role="1TKVEi">
+      <property role="IQ2ns" value="8123081327714147696" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="varRef" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="c4fa:1OcdQnyStpU" resolve="LocalVarRef" />
+    </node>
+    <node concept="1TJgyi" id="72UYQRWwqOq" role="1TKVEl">
+      <property role="IQ2nx" value="8123081327722474778" />
+      <property role="TrG5h" value="brackets" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
   </node>
   <node concept="1TIwiD" id="3EDDOqDY7xe">
