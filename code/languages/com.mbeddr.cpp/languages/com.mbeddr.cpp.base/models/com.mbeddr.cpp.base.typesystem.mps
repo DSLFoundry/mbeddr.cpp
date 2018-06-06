@@ -497,8 +497,11 @@
         <child id="1177027386292" name="conceptArgument" index="cj9EA" />
       </concept>
       <concept id="1171999116870" name="jetbrains.mps.lang.smodel.structure.Node_IsNullOperation" flags="nn" index="3w_OXm" />
+<<<<<<< HEAD
       <concept id="1172008320231" name="jetbrains.mps.lang.smodel.structure.Node_IsNotNullOperation" flags="nn" index="3x8VRR" />
       <concept id="1144100932627" name="jetbrains.mps.lang.smodel.structure.OperationParm_Inclusion" flags="ng" index="1xIGOp" />
+=======
+>>>>>>> 723c5db34c... Remove constructor naming error
       <concept id="1144101972840" name="jetbrains.mps.lang.smodel.structure.OperationParm_Concept" flags="ng" index="1xMEDy">
         <child id="1207343664468" name="conceptArgument" index="ri$Ld" />
       </concept>
@@ -1488,6 +1491,7 @@
     <property role="TrG5h" value="check_ClassConstructor" />
     <property role="3GE5qa" value="method.constructor" />
     <node concept="3clFbS" id="6ddXmWdG7ba" role="18ibNy">
+<<<<<<< HEAD
       <node concept="3cpWs8" id="6ddXmWdG9lV" role="3cqZAp">
         <node concept="3cpWsn" id="6ddXmWdG9lY" role="3cpWs9">
           <property role="TrG5h" value="ancestorClass" />
@@ -1558,6 +1562,8 @@
         </node>
       </node>
       <node concept="3clFbH" id="5i01kANs12L" role="3cqZAp" />
+=======
+>>>>>>> 723c5db34c... Remove constructor naming error
       <node concept="3clFbJ" id="5i01kANs1kc" role="3cqZAp">
         <node concept="3clFbS" id="5i01kANs1ke" role="3clFbx">
           <node concept="2MkqsV" id="5i01kANshiJ" role="3cqZAp">
