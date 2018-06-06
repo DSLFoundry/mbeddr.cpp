@@ -423,7 +423,7 @@
 =======
   <node concept="1TIwiD" id="3EDDOqDY7xe">
     <property role="EcuMT" value="4227093647205103694" />
-    <property role="TrG5h" value="DeleteArrayDecleration" />
+    <property role="TrG5h" value="DeleteArrayDeclaration" />
     <property role="34LRSv" value="delete []" />
     <property role="3GE5qa" value="class" />
     <property role="R4oN_" value="delete keyword" />
@@ -440,7 +440,7 @@
 	<node concept="1TIwiD" id="3EDDOqDY7x5">
 >>>>>>> c4df1187c0... Fix broken merge
     <property role="EcuMT" value="4227093647205103685" />
-    <property role="TrG5h" value="DeleteDecleration" />
+    <property role="TrG5h" value="DeleteDeclaration" />
     <property role="34LRSv" value="delete" />
     <property role="3GE5qa" value="class" />
     <property role="R4oN_" value="delete keyword for arrays" />
