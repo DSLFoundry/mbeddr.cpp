@@ -1416,7 +1416,7 @@
         <ref role="1NtTu8" to="wnzg:7DDmkza$5N" resolve="identity" />
         <node concept="1sVBvm" id="7DDmkza$65" role="1sWHZn">
           <node concept="1iCGBv" id="phuaKKO95m" role="2wV5jI">
-            <ref role="1NtTu8" to="wnzg:6NtgknWJ214" resolve="parentClass" />
+            <ref role="1NtTu8" to="wnzg:6NtgknWJ214" resolve="parent_class" />
             <node concept="1sVBvm" id="phuaKKO95n" role="1sWHZn">
               <node concept="3F0A7n" id="phuaKKO95_" role="2wV5jI">
                 <property role="1Intyy" value="true" />
@@ -1515,7 +1515,7 @@
       </node>
       <node concept="1kHk_G" id="1D2kn99moLS" role="3EZMnx">
         <property role="ZjSer" value="~" />
-        <ref role="1NtTu8" to="wnzg:5i01kANicU4" resolve="isDestructor" />
+        <ref role="1NtTu8" to="wnzg:5i01kANicU4" resolve="is_destructor" />
         <node concept="11LMrY" id="1D2kn99xo7l" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
@@ -1525,11 +1525,15 @@
       </node>
       <node concept="1iCGBv" id="6ddXmWdAFQT" role="3EZMnx">
 <<<<<<< HEAD
+<<<<<<< HEAD
         <ref role="1NtTu8" to="wnzg:6NtgknWJ214" resolve="parentClass" />
 =======
         <ref role="1NtTu8" to="wnzg:6NtgknWJ214" resolve="parent_class" />
         <ref role="1ERwB7" node="7j9KGYKZMY5" resolve="PreventAutocompleteOnConstructorName" />
 >>>>>>> b8ff75134f... Remove autocomplete on constructor items so an error can be removed
+=======
+        <ref role="1NtTu8" to="wnzg:6NtgknWJ214" resolve="parent_class" />
+>>>>>>> 60e54ae41e... Removed C imports and 'extern C' from headers.
         <node concept="1sVBvm" id="6ddXmWdAFQV" role="1sWHZn">
           <node concept="3F0A7n" id="6ddXmWdAFR9" role="2wV5jI">
 =======
@@ -3245,19 +3249,25 @@
           <property role="VOm3f" value="true" />
         </node>
       </node>
-      <node concept="3F2HdR" id="383ZxwZuAxE" role="3EZMnx">
+      <node concept="3F2HdR" id="6_ukAvnHfwo" role="3EZMnx">
+        <property role="2czwfO" value="," />
         <ref role="1NtTu8" to="wnzg:383ZxwZrBkA" resolve="actuals" />
-        <node concept="l2Vlx" id="383ZxwZuAxG" role="2czzBx" />
-        <node concept="pkWqt" id="1rolTiuHWD5" role="pqm2j">
-          <node concept="3clFbS" id="1rolTiuHWD6" role="2VODD2">
-            <node concept="3clFbF" id="1rolTiuHWT5" role="3cqZAp">
-              <node concept="2OqwBi" id="1rolTiuHZsB" role="3clFbG">
-                <node concept="2OqwBi" id="1rolTiuHXlu" role="2Oq$k0">
-                  <node concept="pncrf" id="1rolTiuHWT4" role="2Oq$k0" />
-                  <node concept="3TrEf2" id="1rolTiuHYgu" role="2OqNvi">
+        <node concept="2iRfu4" id="6_ukAvnHfwr" role="2czzBx" />
+        <node concept="VPM3Z" id="6_ukAvnHfws" role="3F10Kt">
+          <property role="VOm3f" value="false" />
+        </node>
+        <node concept="3F0ifn" id="6_ukAvnHgFt" role="2czzBI" />
+        <node concept="pkWqt" id="6_ukAvnHgPF" role="pqm2j">
+          <node concept="3clFbS" id="6_ukAvnHgPG" role="2VODD2">
+            <node concept="3clFbF" id="6_ukAvnHgX3" role="3cqZAp">
+              <node concept="2OqwBi" id="6_ukAvnHj6D" role="3clFbG">
+                <node concept="2OqwBi" id="6_ukAvnHhiV" role="2Oq$k0">
+                  <node concept="pncrf" id="6_ukAvnHgX2" role="2Oq$k0" />
+                  <node concept="3TrEf2" id="6_ukAvnHi5r" role="2OqNvi">
                     <ref role="3Tt5mk" to="wnzg:383ZxwZrBkI" resolve="method" />
                   </node>
                 </node>
+<<<<<<< HEAD
                 <node concept="3x8VRR" id="1rolTiuI0vu" role="2OqNvi" />
               </node>
             </node>
@@ -3317,10 +3327,14 @@
                     <ref role="37wK5l" to="kntn:383ZxwZufXU" resolve="getEditorPresentation" />
                   </node>
                 </node>
+=======
+                <node concept="3x8VRR" id="6_ukAvnHkj4" role="2OqNvi" />
+>>>>>>> 60e54ae41e... Removed C imports and 'extern C' from headers.
               </node>
             </node>
           </node>
         </node>
+<<<<<<< HEAD
         <node concept="pkWqt" id="1rolTiuWK7c" role="pqm2j">
           <node concept="3clFbS" id="1rolTiuWK7d" role="2VODD2">
             <node concept="3clFbF" id="1rolTiuWKeA" role="3cqZAp">
@@ -3329,6 +3343,19 @@
                   <node concept="pncrf" id="1rolTiuWKe_" role="2Oq$k0" />
                   <node concept="3TrEf2" id="1rolTiuWL7f" role="2OqNvi">
                     <ref role="3Tt5mk" to="wnzg:1rolTiuRvvJ" resolve="namespace" />
+=======
+      </node>
+      <node concept="3F0ifn" id="383ZxwZuAyG" role="3EZMnx">
+        <property role="3F0ifm" value=")" />
+        <node concept="pkWqt" id="383ZxwZuM4M" role="pqm2j">
+          <node concept="3clFbS" id="383ZxwZuM4N" role="2VODD2">
+            <node concept="3clFbF" id="383ZxwZuMkf" role="3cqZAp">
+              <node concept="2OqwBi" id="383ZxwZuOqA" role="3clFbG">
+                <node concept="2OqwBi" id="383ZxwZuMH1" role="2Oq$k0">
+                  <node concept="pncrf" id="383ZxwZuMke" role="2Oq$k0" />
+                  <node concept="3TrEf2" id="383ZxwZuNmt" role="2OqNvi">
+                    <ref role="3Tt5mk" to="wnzg:383ZxwZrBkI" resolve="method" />
+>>>>>>> 60e54ae41e... Removed C imports and 'extern C' from headers.
                   </node>
                 </node>
                 <node concept="3x8VRR" id="1rolTiuWMC$" role="2OqNvi" />
