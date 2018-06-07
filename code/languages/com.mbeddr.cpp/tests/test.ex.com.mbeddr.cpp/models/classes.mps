@@ -522,8 +522,13 @@
       <node concept="2v9HqM" id="45rBLTFpWdd" role="2eOfOg">
         <ref role="2v9HqP" node="45rBLTDXEQn" resolve="ImportedModule" />
       </node>
+<<<<<<< HEAD
       <node concept="2v9HqM" id="72UYQRXsh13" role="2eOfOg">
         <ref role="2v9HqP" node="6KmaLbDZjG7" resolve="Constructor" />
+=======
+      <node concept="2v9HqM" id="7pvqO1NPnkY" role="2eOfOg">
+        <ref role="2v9HqP" node="4Mb2ywHr281" resolve="Polymorphism" />
+>>>>>>> e6ce50a6a5... Fix new constructors not having textgen after change, fix double entrypoint
       </node>
       <node concept="2v9HqM" id="4smL_2CVI0S" role="2eOfOg">
         <ref role="2v9HqP" node="2yiFVcKEIWv" resolve="This" />
@@ -1212,6 +1217,9 @@
         <ref role="3cM6IK" node="1yn8PkybR6C" resolve="nestingTC1" />
 >>>>>>> 363789fa02... added testing module
       </node>
+      <node concept="3cM6IN" id="7SgJHc9Iar5" role="lIfQt">
+        <ref role="3cM6IK" node="4Mb2ywHWU4q" resolve="poly_external" />
+      </node>
     </node>
     <node concept="2NXPZ9" id="3OWNtRXpWBc" role="N3F5h">
       <property role="TrG5h" value="empty_1526980563744_98" />
@@ -1235,6 +1243,9 @@
     </node>
     <node concept="3GEVxB" id="7SgJHc9sIbm" role="2OODSX">
       <ref role="3GEb4d" node="1yn8PkybQJK" resolve="Nesting" />
+    </node>
+    <node concept="3GEVxB" id="7SgJHc9IaqE" role="2OODSX">
+      <ref role="3GEb4d" node="4Mb2ywHr281" resolve="Polymorphism" />
     </node>
   </node>
   <node concept="1whW_1" id="nbE_$_7VLA">
@@ -2866,6 +2877,7 @@
       </node>
     </node>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <node concept="2NXPZ9" id="7SgJHc8UcL0" role="N3F5h">
       <property role="TrG5h" value="empty_1528359509077_1" />
     </node>
@@ -2886,6 +2898,8 @@
       <ref role="3GEb4d" node="45rBLTDXEQn" resolve="ImportedModule" />
 >>>>>>> 363789fa02... added testing module
     </node>
+=======
+>>>>>>> e6ce50a6a5... Fix new constructors not having textgen after change, fix double entrypoint
   </node>
 </model>
 
