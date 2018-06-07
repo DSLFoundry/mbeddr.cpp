@@ -202,8 +202,11 @@
       <concept id="2212975673976017893" name="com.mbeddr.core.expressions.structure.NumericLiteral" flags="ng" index="2hns93">
         <property id="2212975673976043696" name="value" index="2hmy$m" />
       </concept>
+<<<<<<< HEAD
       <concept id="4620120465980511009" name="com.mbeddr.core.expressions.structure.IGenericDotTarget" flags="ng" index="2qmygO" />
 >>>>>>> 27c73b6b9d... New and Delete keywords are working, also has executable test and typesystem test
+=======
+>>>>>>> e70b3e0743... Fxi a couple of errors in the tests that likely resulted from a merge
       <concept id="4620120465980402700" name="com.mbeddr.core.expressions.structure.GenericDotExpression" flags="ng" index="2qmXGp">
         <child id="7034214596252529803" name="target" index="1ESnxz" />
       </concept>
@@ -293,7 +296,7 @@
         <node concept="3TlMgk" id="6KmaLbE81KA" role="2C2TGm">
 =======
       <node concept="3mB1cK" id="72UYQRXZPch" role="3mBdys">
-        <property role="1wg9_F" value="private" />
+        <property role="1wg9_F" value="public" />
         <property role="TrG5h" value="setFalse" />
         <node concept="3TlMgk" id="72UYQRXZPd0" role="2C2TGm">
 >>>>>>> 27c73b6b9d... New and Delete keywords are working, also has executable test and typesystem test
@@ -343,7 +346,7 @@
       </node>
       <node concept="3u$6M4" id="7wcjSRtodQX" role="3mBdys" />
       <node concept="3mB1cK" id="72UYQRXZPiZ" role="3mBdys">
-        <property role="1wg9_F" value="private" />
+        <property role="1wg9_F" value="public" />
         <property role="TrG5h" value="setToSomething" />
 <<<<<<< HEAD
         <node concept="26Vqph" id="7wcjSRtodSm" role="2C2TGm">
@@ -405,7 +408,7 @@
         <node concept="3TlMgk" id="6KmaLbE81NA" role="2C2TGm">
 =======
       <node concept="3mB1cK" id="72UYQRXZPrI" role="3mBdys">
-        <property role="1wg9_F" value="private" />
+        <property role="1wg9_F" value="public" />
         <property role="TrG5h" value="setTrue" />
         <node concept="3TlMgk" id="72UYQRXZPsh" role="2C2TGm">
 >>>>>>> 27c73b6b9d... New and Delete keywords are working, also has executable test and typesystem test
@@ -522,7 +525,10 @@
             <node concept="3aNPw6" id="4L4CbxJOIFO" role="1_9fRO">
 =======
           <node concept="2qmXGp" id="72UYQRXZP_s" role="3XIe9u">
-            <node concept="2qmygO" id="72UYQRXZP_t" role="1ESnxz" />
+            <node concept="3mBbHP" id="4V1wcObgnxS" role="1ESnxz">
+              <ref role="3mBbHN" node="72UYQRXZPch" resolve="setFalse" />
+              <node concept="3TlMhK" id="4V1wcObgnzO" role="3mBtou" />
+            </node>
             <node concept="3ZVu4v" id="72UYQRXZP_4" role="1_9fRO">
 >>>>>>> 27c73b6b9d... New and Delete keywords are working, also has executable test and typesystem test
               <ref role="3ZVs_2" node="6KmaLbE9XGM" resolve="classA" />
@@ -551,7 +557,7 @@
           </node>
           <node concept="2qmXGp" id="6KmaLbE9XLr" role="3XIe9u">
             <node concept="3mBbHP" id="6KmaLbE9XLU" role="1ESnxz">
-              <ref role="3mBbHN" node="6KmaLbE81N_" resolve="setTrue" />
+              <ref role="3mBbHN" node="72UYQRXZPrI" resolve="setTrue" />
               <node concept="3ZVu4v" id="6KmaLbE9XM6" role="3mBtou">
                 <ref role="3ZVs_2" node="6KmaLbE822y" resolve="aBool" />
               </node>
