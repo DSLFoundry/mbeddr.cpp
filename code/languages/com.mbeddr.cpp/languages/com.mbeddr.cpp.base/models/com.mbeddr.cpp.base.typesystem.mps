@@ -3,11 +3,16 @@
   <persistence version="9" />
   <languages>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="1" />
 =======
     <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="-1" />
     <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
 >>>>>>> b92bea1c01... Refactor reused code into external class
+=======
+    <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="1" />
+    <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
+>>>>>>> d979bf937a... Namespace EX and TS Tests.
     <devkit ref="00000000-0000-4000-0000-1de82b3a4936(jetbrains.mps.devkit.aspect.typesystem)" />
     <devkit ref="bdd1ab49-ce55-4bff-86d1-5394fa0aa930(com.mbeddr.cpp)" />
   </languages>
@@ -576,7 +581,11 @@
 >>>>>>> 723c5db34c... Remove constructor naming error
 =======
       <concept id="1172008320231" name="jetbrains.mps.lang.smodel.structure.Node_IsNotNullOperation" flags="nn" index="3x8VRR" />
+<<<<<<< HEAD
 >>>>>>> c9601ef09e... Add constructor wrong class error and improve testcase
+=======
+      <concept id="1144100932627" name="jetbrains.mps.lang.smodel.structure.OperationParm_Inclusion" flags="ng" index="1xIGOp" />
+>>>>>>> d979bf937a... Namespace EX and TS Tests.
       <concept id="1144101972840" name="jetbrains.mps.lang.smodel.structure.OperationParm_Concept" flags="ng" index="1xMEDy">
         <child id="1207343664468" name="conceptArgument" index="ri$Ld" />
       </concept>
@@ -662,8 +671,12 @@
       <concept id="1203518072036" name="jetbrains.mps.baseLanguage.collections.structure.SmartClosureParameterDeclaration" flags="ig" index="Rh6nW" />
       <concept id="1160600644654" name="jetbrains.mps.baseLanguage.collections.structure.ListCreatorWithInit" flags="nn" index="Tc6Ow" />
       <concept id="1160612413312" name="jetbrains.mps.baseLanguage.collections.structure.AddElementOperation" flags="nn" index="TSZUe" />
+<<<<<<< HEAD
       <concept id="1160666733551" name="jetbrains.mps.baseLanguage.collections.structure.AddAllElementsOperation" flags="nn" index="X8dFx" />
       <concept id="1162934736510" name="jetbrains.mps.baseLanguage.collections.structure.GetElementOperation" flags="nn" index="34jXtK" />
+=======
+      <concept id="1171391069720" name="jetbrains.mps.baseLanguage.collections.structure.GetIndexOfOperation" flags="nn" index="2WmjW8" />
+>>>>>>> d979bf937a... Namespace EX and TS Tests.
       <concept id="1162935959151" name="jetbrains.mps.baseLanguage.collections.structure.GetSizeOperation" flags="nn" index="34oBXx" />
       <concept id="1202120902084" name="jetbrains.mps.baseLanguage.collections.structure.WhereOperation" flags="nn" index="3zZkjj" />
       <concept id="1202128969694" name="jetbrains.mps.baseLanguage.collections.structure.SelectOperation" flags="nn" index="3$u5V9" />
@@ -4116,6 +4129,7 @@
       <ref role="1YaFvo" to="wnzg:6OyCGy9cOMO" resolve="ClassStaticVarRef" />
     </node>
   </node>
+<<<<<<< HEAD
 >>>>>>> 857aa482f2... Replaced IAccessStatisClassVar for ClassStaticVarRef
 =======
       </node>
@@ -4321,10 +4335,71 @@
                             </node>
                           </node>
                         </node>
+=======
+  <node concept="18kY7G" id="mwDIXwFf3W">
+    <property role="3GE5qa" value="namespace" />
+    <property role="TrG5h" value="check_NamespaceAttributeRef" />
+    <node concept="3clFbS" id="mwDIXwFf3X" role="18ibNy">
+      <node concept="2Gpval" id="mwDIXwFf6K" role="3cqZAp">
+        <node concept="2GrKxI" id="mwDIXwFf6L" role="2Gsz3X">
+          <property role="TrG5h" value="statement" />
+        </node>
+        <node concept="2OqwBi" id="mwDIXwJvuU" role="2GsD0m">
+          <node concept="2OqwBi" id="mwDIXwJuyC" role="2Oq$k0">
+            <node concept="1YBJjd" id="mwDIXwJueC" role="2Oq$k0">
+              <ref role="1YBMHb" node="mwDIXwFf6b" resolve="nsar" />
+            </node>
+            <node concept="2qgKlT" id="mwDIXwJv9O" role="2OqNvi">
+              <ref role="37wK5l" to="kntn:r2pGcfLSmw" resolve="getFunctionStatements" />
+            </node>
+          </node>
+          <node concept="v3k3i" id="mwDIXwJvTp" role="2OqNvi">
+            <node concept="chp4Y" id="mwDIXwJw0t" role="v3oSu">
+              <ref role="cht4Q" to="c4fa:3CmSUB7FprA" resolve="LocalVariableDeclaration" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbS" id="mwDIXwFf6N" role="2LFqv$">
+          <node concept="3clFbJ" id="mwDIXwFgCB" role="3cqZAp">
+            <node concept="3clFbS" id="mwDIXwFgCD" role="3clFbx">
+              <node concept="2MkqsV" id="mwDIXwNp8D" role="3cqZAp">
+                <node concept="Xl_RD" id="mwDIXwNp91" role="2MkJ7o">
+                  <property role="Xl_RC" value="Attribute references to local variable rather than namespace member" />
+                </node>
+                <node concept="1YBJjd" id="mwDIXwNpuy" role="2OEOjV">
+                  <ref role="1YBMHb" node="mwDIXwFf6b" resolve="nsar" />
+                </node>
+              </node>
+            </node>
+            <node concept="1Wc70l" id="mwDIXwO3Ew" role="3clFbw">
+              <node concept="3eOVzh" id="mwDIXwO9no" role="3uHU7w">
+                <node concept="2OqwBi" id="mwDIXwOc0D" role="3uHU7w">
+                  <node concept="2OqwBi" id="mwDIXwOap_" role="2Oq$k0">
+                    <node concept="1YBJjd" id="mwDIXwO9KT" role="2Oq$k0">
+                      <ref role="1YBMHb" node="mwDIXwFf6b" resolve="nsar" />
+                    </node>
+                    <node concept="2qgKlT" id="mwDIXwOb9U" role="2OqNvi">
+                      <ref role="37wK5l" to="kntn:r2pGcfLSmw" resolve="getFunctionStatements" />
+                    </node>
+                  </node>
+                  <node concept="2WmjW8" id="mwDIXwOc$h" role="2OqNvi">
+                    <node concept="2OqwBi" id="mwDIXwOdu3" role="25WWJ7">
+                      <node concept="1YBJjd" id="mwDIXwOd0c" role="2Oq$k0">
+                        <ref role="1YBMHb" node="mwDIXwFf6b" resolve="nsar" />
+                      </node>
+                      <node concept="2Xjw5R" id="mwDIXwOeki" role="2OqNvi">
+                        <node concept="1xMEDy" id="mwDIXwOekk" role="1xVPHs">
+                          <node concept="chp4Y" id="mwDIXwOeLR" role="ri$Ld">
+                            <ref role="cht4Q" to="c4fa:3CmSUB7FmO3" resolve="Statement" />
+                          </node>
+                        </node>
+                        <node concept="1xIGOp" id="mwDIXwOm$c" role="1xVPHs" />
+>>>>>>> d979bf937a... Namespace EX and TS Tests.
                       </node>
                     </node>
                   </node>
                 </node>
+<<<<<<< HEAD
               </node>
             </node>
           </node>
@@ -4469,10 +4544,25 @@
                     </node>
                     <node concept="2GrUjf" id="7j9KGYMN778" role="2OEOjV">
                       <ref role="2Gs0qQ" node="7j9KGYMMQaV" resolve="child" />
+=======
+                <node concept="2OqwBi" id="mwDIXwO6$p" role="3uHU7B">
+                  <node concept="2OqwBi" id="mwDIXwO5hi" role="2Oq$k0">
+                    <node concept="1YBJjd" id="mwDIXwO4Yp" role="2Oq$k0">
+                      <ref role="1YBMHb" node="mwDIXwFf6b" resolve="nsar" />
+                    </node>
+                    <node concept="2qgKlT" id="mwDIXwO5ZE" role="2OqNvi">
+                      <ref role="37wK5l" to="kntn:r2pGcfLSmw" resolve="getFunctionStatements" />
+                    </node>
+                  </node>
+                  <node concept="2WmjW8" id="mwDIXwO764" role="2OqNvi">
+                    <node concept="2GrUjf" id="mwDIXwO7zn" role="25WWJ7">
+                      <ref role="2Gs0qQ" node="mwDIXwFf6L" resolve="statement" />
+>>>>>>> d979bf937a... Namespace EX and TS Tests.
                     </node>
                   </node>
                 </node>
               </node>
+<<<<<<< HEAD
               <node concept="3clFbH" id="7j9KGYMN7bL" role="3cqZAp" />
               <node concept="3SKdUt" id="7j9KGYMNHvV" role="3cqZAp">
                 <node concept="3SKdUq" id="7j9KGYMNHvX" role="3SKWNk">
@@ -4536,10 +4626,36 @@
                       <node concept="Rh6nW" id="7j9KGYMNhlU" role="1bW2Oz">
                         <property role="TrG5h" value="it" />
                         <node concept="2jxLKc" id="7j9KGYMNhlV" role="1tU5fm" />
+=======
+              <node concept="1Wc70l" id="mwDIXwJyeK" role="3uHU7B">
+                <node concept="2OqwBi" id="mwDIXwFyaq" role="3uHU7B">
+                  <node concept="2OqwBi" id="mwDIXwFwcT" role="2Oq$k0">
+                    <node concept="2GrUjf" id="mwDIXwFvJs" role="2Oq$k0">
+                      <ref role="2Gs0qQ" node="mwDIXwFf6L" resolve="statement" />
+                    </node>
+                    <node concept="3TrcHB" id="mwDIXwJwSi" role="2OqNvi">
+                      <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                    </node>
+                  </node>
+                  <node concept="liA8E" id="mwDIXwFy_E" role="2OqNvi">
+                    <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                    <node concept="2OqwBi" id="mwDIXwF_3$" role="37wK5m">
+                      <node concept="2OqwBi" id="mwDIXwFz7F" role="2Oq$k0">
+                        <node concept="1YBJjd" id="mwDIXwFyRD" role="2Oq$k0">
+                          <ref role="1YBMHb" node="mwDIXwFf6b" resolve="nsar" />
+                        </node>
+                        <node concept="3TrEf2" id="mwDIXwF$eh" role="2OqNvi">
+                          <ref role="3Tt5mk" to="wnzg:383ZxwZrBkt" resolve="attribute" />
+                        </node>
+                      </node>
+                      <node concept="3TrcHB" id="mwDIXwFApC" role="2OqNvi">
+                        <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+>>>>>>> d979bf937a... Namespace EX and TS Tests.
                       </node>
                     </node>
                   </node>
                 </node>
+<<<<<<< HEAD
               </node>
             </node>
 =======
@@ -4615,11 +4731,20 @@
                         <ref role="1YBMHb" node="6WSa0so1FHG" resolve="nd" />
                       </node>
                     </node>
+=======
+                <node concept="2OqwBi" id="mwDIXwJ$5b" role="3uHU7w">
+                  <node concept="1YBJjd" id="mwDIXwJzIN" role="2Oq$k0">
+                    <ref role="1YBMHb" node="mwDIXwFf6b" resolve="nsar" />
+                  </node>
+                  <node concept="2qgKlT" id="mwDIXwJ$NS" role="2OqNvi">
+                    <ref role="37wK5l" to="kntn:r2pGcfNSpD" resolve="removeEditorPresentation" />
+>>>>>>> d979bf937a... Namespace EX and TS Tests.
                   </node>
                 </node>
               </node>
             </node>
           </node>
+<<<<<<< HEAD
 <<<<<<< HEAD
           <node concept="Xl_RD" id="6WSa0so1FHM" role="3uHU7B">
             <property role="Xl_RC" value="nd.typeOrConstructor.type = " />
@@ -4788,11 +4913,50 @@
                   </node>
                   <node concept="2qgKlT" id="72UYQRWEaSy" role="2OqNvi">
                     <ref role="37wK5l" to="qd6m:7$$5Stoo9at" resolve="hasEllipsis" />
+=======
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="mwDIXwFf6b" role="1YuTPh">
+      <property role="TrG5h" value="nsar" />
+      <ref role="1YaFvo" to="wnzg:383ZxwZrBkp" resolve="NamespaceAttributeRef" />
+    </node>
+  </node>
+  <node concept="18kY7G" id="3SNFZ61r5Lb">
+    <property role="3GE5qa" value="namespace" />
+    <property role="TrG5h" value="check_GlobalUsingNamespaceAttributeDeclaration" />
+    <node concept="3clFbS" id="3SNFZ61r5Lc" role="18ibNy">
+      <node concept="3clFbJ" id="3SNFZ61r5Mi" role="3cqZAp">
+        <node concept="1Wc70l" id="3SNFZ61rbiC" role="3clFbw">
+          <node concept="3y3z36" id="3SNFZ61redG" role="3uHU7w">
+            <node concept="2OqwBi" id="3SNFZ61reM3" role="3uHU7w">
+              <node concept="1YBJjd" id="3SNFZ61renj" role="2Oq$k0">
+                <ref role="1YBMHb" node="3SNFZ61r5Lu" resolve="guNSad" />
+              </node>
+              <node concept="3TrEf2" id="3SNFZ61rfh7" role="2OqNvi">
+                <ref role="3Tt5mk" to="wnzg:7RFM8R0xwrf" resolve="namespace" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="3SNFZ61rcV1" role="3uHU7B">
+              <node concept="2OqwBi" id="3SNFZ61rbIL" role="2Oq$k0">
+                <node concept="1YBJjd" id="3SNFZ61rbqQ" role="2Oq$k0">
+                  <ref role="1YBMHb" node="3SNFZ61r5Lu" resolve="guNSad" />
+                </node>
+                <node concept="3TrEf2" id="3SNFZ61rcdE" role="2OqNvi">
+                  <ref role="3Tt5mk" to="wnzg:7RFM8R0xwrs" resolve="attribute" />
+                </node>
+              </node>
+              <node concept="2Xjw5R" id="3SNFZ61rdCX" role="2OqNvi">
+                <node concept="1xMEDy" id="3SNFZ61rdCZ" role="1xVPHs">
+                  <node concept="chp4Y" id="3SNFZ61rdM$" role="ri$Ld">
+                    <ref role="cht4Q" to="wnzg:383ZxwZqQYo" resolve="NamespaceDeclaration" />
+>>>>>>> d979bf937a... Namespace EX and TS Tests.
                   </node>
                 </node>
               </node>
             </node>
           </node>
+<<<<<<< HEAD
         </node>
       </node>
       <node concept="3clFbH" id="72UYQRWE9zV" role="3cqZAp" />
@@ -5029,11 +5193,72 @@
                           </node>
                         </node>
                       </node>
+=======
+          <node concept="2OqwBi" id="3SNFZ61r7P0" role="3uHU7B">
+            <node concept="2OqwBi" id="3SNFZ61r6ES" role="2Oq$k0">
+              <node concept="1YBJjd" id="3SNFZ61r6r6" role="2Oq$k0">
+                <ref role="1YBMHb" node="3SNFZ61r5Lu" resolve="guNSad" />
+              </node>
+              <node concept="3TrEf2" id="3SNFZ61r75y" role="2OqNvi">
+                <ref role="3Tt5mk" to="wnzg:7RFM8R0xwrs" resolve="attribute" />
+              </node>
+            </node>
+            <node concept="3x8VRR" id="3SNFZ61ram$" role="2OqNvi" />
+          </node>
+        </node>
+        <node concept="3clFbS" id="3SNFZ61r5Mk" role="3clFbx">
+          <node concept="3cpWs8" id="3SNFZ61xp4F" role="3cqZAp">
+            <node concept="3cpWsn" id="3SNFZ61xp4I" role="3cpWs9">
+              <property role="TrG5h" value="usingWithinOrigin" />
+              <node concept="10P_77" id="3SNFZ61xp4D" role="1tU5fm" />
+              <node concept="3clFbT" id="3SNFZ61xpVt" role="33vP2m">
+                <property role="3clFbU" value="false" />
+              </node>
+            </node>
+          </node>
+          <node concept="2Gpval" id="3SNFZ61xoBd" role="3cqZAp">
+            <node concept="2GrKxI" id="3SNFZ61xoBe" role="2Gsz3X">
+              <property role="TrG5h" value="namespaceUsingDecs" />
+            </node>
+            <node concept="2OqwBi" id="3SNFZ61$1Ke" role="2GsD0m">
+              <node concept="1YBJjd" id="3SNFZ61$1tw" role="2Oq$k0">
+                <ref role="1YBMHb" node="3SNFZ61r5Lu" resolve="guNSad" />
+              </node>
+              <node concept="2qgKlT" id="3SNFZ61$2fg" role="2OqNvi">
+                <ref role="37wK5l" to="kntn:3SNFZ61xpVR" resolve="usedAttsForCheck" />
+              </node>
+            </node>
+            <node concept="3clFbS" id="3SNFZ61xoBg" role="2LFqv$">
+              <node concept="3clFbJ" id="3SNFZ61xoJy" role="3cqZAp">
+                <node concept="3clFbS" id="3SNFZ61xoJ$" role="3clFbx">
+                  <node concept="3clFbF" id="3SNFZ61xpg1" role="3cqZAp">
+                    <node concept="37vLTI" id="3SNFZ61xpQm" role="3clFbG">
+                      <node concept="3clFbT" id="3SNFZ61xpQE" role="37vLTx">
+                        <property role="3clFbU" value="true" />
+                      </node>
+                      <node concept="37vLTw" id="3SNFZ61xpfX" role="37vLTJ">
+                        <ref role="3cqZAo" node="3SNFZ61xp4I" resolve="usingWithinOrigin" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3clFbC" id="3SNFZ61$3Uj" role="3clFbw">
+                  <node concept="2GrUjf" id="3SNFZ61$4dD" role="3uHU7w">
+                    <ref role="2Gs0qQ" node="3SNFZ61xoBe" resolve="namespaceUsingDecs" />
+                  </node>
+                  <node concept="2OqwBi" id="3SNFZ61$2C9" role="3uHU7B">
+                    <node concept="1YBJjd" id="3SNFZ61$2on" role="2Oq$k0">
+                      <ref role="1YBMHb" node="3SNFZ61r5Lu" resolve="guNSad" />
+                    </node>
+                    <node concept="3TrEf2" id="3SNFZ61$3aN" role="2OqNvi">
+                      <ref role="3Tt5mk" to="wnzg:7RFM8R0xwrs" resolve="attribute" />
+>>>>>>> d979bf937a... Namespace EX and TS Tests.
                     </node>
                   </node>
                 </node>
               </node>
             </node>
+<<<<<<< HEAD
             <node concept="2OqwBi" id="7SgJHc7xVHr" role="3clFbw">
               <node concept="37vLTw" id="7SgJHc7xVld" role="2Oq$k0">
                 <ref role="3cqZAo" node="7SgJHc7xU0g" resolve="possibleParentClass" />
@@ -5092,10 +5317,28 @@
                     </node>
                   </node>
                 </node>
+=======
+          </node>
+          <node concept="3clFbJ" id="3SNFZ61xp2$" role="3cqZAp">
+            <node concept="3clFbS" id="3SNFZ61xp2_" role="3clFbx">
+              <node concept="2MkqsV" id="3SNFZ61xp2A" role="3cqZAp">
+                <node concept="Xl_RD" id="3SNFZ61xp2B" role="2MkJ7o">
+                  <property role="Xl_RC" value="Attribute does not exist within given namespace" />
+                </node>
+                <node concept="1YBJjd" id="3SNFZ61xp2C" role="2OEOjV">
+                  <ref role="1YBMHb" node="3SNFZ61r5Lu" resolve="guNSad" />
+                </node>
+              </node>
+            </node>
+            <node concept="3fqX7Q" id="3SNFZ61yof1" role="3clFbw">
+              <node concept="37vLTw" id="3SNFZ61yof3" role="3fr31v">
+                <ref role="3cqZAo" node="3SNFZ61xp4I" resolve="usingWithinOrigin" />
+>>>>>>> d979bf937a... Namespace EX and TS Tests.
               </node>
             </node>
           </node>
         </node>
+<<<<<<< HEAD
         <node concept="JncvC" id="7SgJHc7xv3Y" role="JncvA">
           <property role="TrG5h" value="ct" />
           <node concept="2jxLKc" id="7SgJHc7xv3Z" role="1tU5fm" />
@@ -5113,5 +5356,14 @@
     </node>
   </node>
 >>>>>>> 9cc6d595ca... New and Delete keywords are working, with types and constructors
+=======
+      </node>
+    </node>
+    <node concept="1YaCAy" id="3SNFZ61r5Lu" role="1YuTPh">
+      <property role="TrG5h" value="guNSad" />
+      <ref role="1YaFvo" to="wnzg:7RFM8R0xwre" resolve="GlobalUsingNamespaceAttributeDeclaration" />
+    </node>
+  </node>
+>>>>>>> d979bf937a... Namespace EX and TS Tests.
 </model>
 

@@ -13,10 +13,13 @@
     <import index="hwgx" ref="r:fd2980c8-676c-4b19-b524-18c70e02f8b7(com.mbeddr.core.base.behavior)" />
     <import index="x27k" ref="r:75ecab8a-8931-4140-afc6-4b46398710fc(com.mbeddr.core.modules.structure)" />
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 3efbb4d575... Move all includes to header file
 =======
     <import index="d0vh" ref="r:9488318d-ce46-4320-b4e7-2566a511c366(com.mbeddr.core.modules.gen.structure)" />
 >>>>>>> 60e54ae41e... Removed C imports and 'extern C' from headers.
+=======
+>>>>>>> d979bf937a... Namespace EX and TS Tests.
     <import index="wlyv" ref="r:a0a28ed3-d146-47eb-a19a-e026ce786b29(com.mbeddr.cpp.modules.structure)" implicit="true" />
   </imports>
   <registry>
@@ -181,12 +184,12 @@
           <node concept="3cpWsn" id="29cSqveijqU" role="3cpWs9">
             <property role="TrG5h" value="genStdHeaderImport" />
             <node concept="3Tqbb2" id="29cSqveijqP" role="1tU5fm">
-              <ref role="ehGHo" to="d0vh:3kEjc_WIMEE" resolve="GenStdHeaderImport" />
+              <ref role="ehGHo" to="x27k:3kEjc_WIKGf" resolve="StdHeaderImport" />
             </node>
             <node concept="2ShNRf" id="29cSqveikDL" role="33vP2m">
               <node concept="3zrR0B" id="29cSqveikDJ" role="2ShVmc">
                 <node concept="3Tqbb2" id="29cSqveikDK" role="3zrR0E">
-                  <ref role="ehGHo" to="d0vh:3kEjc_WIMEE" resolve="GenStdHeaderImport" />
+                  <ref role="ehGHo" to="x27k:3kEjc_WIKGf" resolve="StdHeaderImport" />
                 </node>
               </node>
             </node>
@@ -202,8 +205,8 @@
               <node concept="37vLTw" id="29cSqveirjh" role="2Oq$k0">
                 <ref role="3cqZAo" node="29cSqveijqU" resolve="genStdHeaderImport" />
               </node>
-              <node concept="3TrcHB" id="29cSqveirVZ" role="2OqNvi">
-                <ref role="3TsBF5" to="d0vh:3kEjc_WIMEF" resolve="haeaderFileName" />
+              <node concept="3TrcHB" id="7G1ZeMQiAwo" role="2OqNvi">
+                <ref role="3TsBF5" to="x27k:3kEjc_WIKGg" resolve="headerFileName" />
               </node>
             </node>
           </node>
