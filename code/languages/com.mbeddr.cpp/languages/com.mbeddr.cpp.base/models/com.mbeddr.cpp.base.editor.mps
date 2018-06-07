@@ -2069,6 +2069,7 @@
     </node>
   </node>
 <<<<<<< HEAD
+<<<<<<< HEAD
   <node concept="PKFIW" id="6hUtorE0haO">
     <property role="3GE5qa" value="method.constructor" />
     <property role="TrG5h" value="ConstructorObjectInstantiation" />
@@ -2081,6 +2082,98 @@
         </node>
         <node concept="11LMrY" id="6hUtorE0hY7" role="3F10Kt">
           <property role="VOm3f" value="true" />
+=======
+  <node concept="PKFIW" id="1TorPL4sJdQ">
+    <property role="TrG5h" value="PureFlag" />
+    <property role="3GE5qa" value="flag" />
+    <ref role="1XX52x" to="wnzg:2L1k$oXDqJY" resolve="IPureVirtualFlagConcept" />
+    <node concept="1kHk_G" id="1TorPL4sJdR" role="2wV5jI">
+      <property role="ZjSer" value="pure" />
+      <ref role="1k5W1q" to="r4b4:2CEi94dgHKA" resolve="KW" />
+      <ref role="1NtTu8" to="wnzg:2L1k$oXDqK2" resolve="isPureVirtual" />
+    </node>
+  </node>
+  <node concept="PKFIW" id="5eDFAXBRQic">
+    <property role="3GE5qa" value="flag" />
+    <property role="TrG5h" value="ConstExprFlag" />
+    <ref role="1XX52x" to="wnzg:5eDFAXBRQhJ" resolve="IConstExprFlagConcept" />
+    <node concept="1kHk_G" id="5eDFAXBRQie" role="2wV5jI">
+      <property role="ZjSer" value="const" />
+      <ref role="1NtTu8" to="wnzg:5eDFAXBRQhK" resolve="isConstExpr" />
+      <ref role="1k5W1q" to="r4b4:2CEi94dgHKA" resolve="KW" />
+    </node>
+  </node>
+  <node concept="PKFIW" id="5eDFAXBRENO">
+    <property role="3GE5qa" value="flag" />
+    <property role="TrG5h" value="ExternFlag" />
+    <ref role="1XX52x" to="wnzg:5eDFAXBRENn" resolve="IExternFlagConcept" />
+    <node concept="1kHk_G" id="5eDFAXBRENQ" role="2wV5jI">
+      <property role="ZjSer" value="extern" />
+      <ref role="1NtTu8" to="wnzg:5eDFAXBRENo" resolve="isExtern" />
+      <ref role="1k5W1q" to="r4b4:2CEi94dgHKA" resolve="KW" />
+    </node>
+  </node>
+  <node concept="PKFIW" id="1Yr26itwsTs">
+    <property role="3GE5qa" value="flag" />
+    <property role="TrG5h" value="InlineFlag" />
+    <ref role="1XX52x" to="wnzg:1Yr26itwsSZ" resolve="IInlineFlagConcept" />
+    <node concept="1kHk_G" id="1Yr26itwsTu" role="2wV5jI">
+      <property role="ZjSer" value="inline" />
+      <ref role="1NtTu8" to="wnzg:1Yr26itwsT0" resolve="isInlined" />
+      <ref role="1k5W1q" to="r4b4:2CEi94dgHKA" resolve="KW" />
+    </node>
+  </node>
+  <node concept="PKFIW" id="15T8UHynq4a">
+    <property role="3GE5qa" value="flag" />
+    <property role="TrG5h" value="MutableFlag" />
+    <ref role="1XX52x" to="wnzg:15T8UHynq3H" resolve="IMutableFlagConcept" />
+    <node concept="1kHk_G" id="15T8UHynq5E" role="2wV5jI">
+      <property role="ZjSer" value="mutable" />
+      <ref role="1NtTu8" to="wnzg:15T8UHynq3I" resolve="isMutable" />
+      <ref role="1k5W1q" to="r4b4:2CEi94dgHKA" resolve="KW" />
+    </node>
+  </node>
+  <node concept="PKFIW" id="1Yr26itwx8V">
+    <property role="3GE5qa" value="flag" />
+    <property role="TrG5h" value="StaticFlag" />
+    <ref role="1XX52x" to="wnzg:1Yr26itwx8u" resolve="IStaticFlagConcept" />
+    <node concept="1kHk_G" id="1Yr26itwx8X" role="2wV5jI">
+      <property role="ZjSer" value="static" />
+      <ref role="1NtTu8" to="wnzg:1Yr26itwx8v" resolve="isStatic" />
+      <ref role="1k5W1q" to="r4b4:2CEi94dgHKA" resolve="KW" />
+    </node>
+  </node>
+  <node concept="PKFIW" id="5eDFAXBS4m$">
+    <property role="3GE5qa" value="flag" />
+    <property role="TrG5h" value="ThreadLocalFlag" />
+    <ref role="1XX52x" to="wnzg:5eDFAXBS4m7" resolve="IThreadLocalFlag" />
+    <node concept="1kHk_G" id="5eDFAXBS4mA" role="2wV5jI">
+      <property role="ZjSer" value="thread_local" />
+      <ref role="1NtTu8" to="wnzg:5eDFAXBS4m8" resolve="isThreadLocal" />
+    </node>
+  </node>
+  <node concept="PKFIW" id="5eDFAXBCpeS">
+    <property role="3GE5qa" value="flag" />
+    <property role="TrG5h" value="VolatileFlag" />
+    <ref role="1XX52x" to="wnzg:5eDFAXBCper" resolve="IVolatileFlagConcept" />
+    <node concept="1kHk_G" id="5eDFAXBCpeU" role="2wV5jI">
+      <property role="ZjSer" value="volatile" />
+      <ref role="1NtTu8" to="wnzg:5eDFAXBCpes" resolve="isVolatile" />
+      <ref role="1k5W1q" to="r4b4:2CEi94dgHKA" resolve="KW" />
+    </node>
+  </node>
+  <node concept="V5hpn" id="383ZxwZsUkN">
+    <property role="3GE5qa" value="namespace" />
+    <property role="TrG5h" value="NamespaceImplementation" />
+    <node concept="14StLt" id="383ZxwZsUkR" role="V601i">
+      <property role="TrG5h" value="NS" />
+      <node concept="Vb9p2" id="383ZxwZsUAN" role="3F10Kt">
+        <property role="Vbekb" value="BOLD" />
+      </node>
+      <node concept="VechU" id="383ZxwZsUkY" role="3F10Kt">
+        <node concept="1iSF2X" id="383ZxwZsUAT" role="VblUZ">
+          <property role="1iTho6" value="FF4500" />
+>>>>>>> 9251c7f898... Removed ability to add catch block with enter
         </node>
       </node>
       <node concept="1iCGBv" id="6hUtorE9azI" role="3EZMnx">
