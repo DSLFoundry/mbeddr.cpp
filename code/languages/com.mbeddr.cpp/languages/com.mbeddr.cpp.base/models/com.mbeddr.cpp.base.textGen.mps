@@ -3551,6 +3551,7 @@
       </node>
     </node>
   </node>
+<<<<<<< HEAD
 >>>>>>> 9cc6d595ca... New and Delete keywords are working, with types and constructors
 =======
   <node concept="WtQ9Q" id="1yn8Pky5yLK">
@@ -3563,10 +3564,23 @@
             <node concept="2OqwBi" id="1yn8Pky5z0R" role="lb14g">
               <node concept="117lpO" id="1yn8Pky5yNr" role="2Oq$k0" />
               <node concept="3TrEf2" id="1yn8Pky5zlk" role="2OqNvi">
+=======
+  <node concept="WtQ9Q" id="8CgsWn3xra">
+    <property role="3GE5qa" value="class" />
+    <ref role="WuzLi" to="wnzg:1yn8PkxYuRh" resolve="InnerClassType" />
+    <node concept="11bSqf" id="8CgsWn3xrb" role="11c4hB">
+      <node concept="3clFbS" id="8CgsWn3xrc" role="2VODD2">
+        <node concept="lc7rE" id="8CgsWn3xrv" role="3cqZAp">
+          <node concept="l9hG8" id="8CgsWn3xrR" role="lcghm">
+            <node concept="2OqwBi" id="8CgsWn3C8g" role="lb14g">
+              <node concept="117lpO" id="8CgsWn3BVs" role="2Oq$k0" />
+              <node concept="3TrEf2" id="8CgsWn3CE6" role="2OqNvi">
+>>>>>>> f94167da49... Added lost InnerClassType textgen again
                 <ref role="3Tt5mk" to="wnzg:1yn8PkxYuRi" resolve="outerclassType" />
               </node>
             </node>
           </node>
+<<<<<<< HEAD
           <node concept="la8eA" id="1yn8Pky5$5v" role="lcghm">
             <property role="lacIc" value="::" />
           </node>
@@ -3579,6 +3593,20 @@
                 </node>
               </node>
               <node concept="3TrcHB" id="1yn8Pky5A8N" role="2OqNvi">
+=======
+          <node concept="la8eA" id="8CgsWn3CR5" role="lcghm">
+            <property role="lacIc" value="::" />
+          </node>
+          <node concept="l9hG8" id="8CgsWn3D4t" role="lcghm">
+            <node concept="2OqwBi" id="8CgsWn3F7Y" role="lb14g">
+              <node concept="2OqwBi" id="8CgsWn3Dop" role="2Oq$k0">
+                <node concept="117lpO" id="8CgsWn3DbB" role="2Oq$k0" />
+                <node concept="3TrEf2" id="8CgsWn3DDV" role="2OqNvi">
+                  <ref role="3Tt5mk" to="wnzg:4o2nsMgBEtY" resolve="clazz" />
+                </node>
+              </node>
+              <node concept="3TrcHB" id="8CgsWn3GfM" role="2OqNvi">
+>>>>>>> f94167da49... Added lost InnerClassType textgen again
                 <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
               </node>
             </node>
@@ -3587,7 +3615,10 @@
       </node>
     </node>
   </node>
+<<<<<<< HEAD
 >>>>>>> 5699f64d84... added Textgen and behaviour
+=======
+>>>>>>> f94167da49... Added lost InnerClassType textgen again
 </model>
 
 =======
