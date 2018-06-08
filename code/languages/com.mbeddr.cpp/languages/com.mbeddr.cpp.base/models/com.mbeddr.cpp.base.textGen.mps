@@ -2362,7 +2362,7 @@
     </node>
   </node>
   <node concept="WtQ9Q" id="6hUtorDPkwX">
-    <property role="3GE5qa" value="method.constructor" />
+    <property role="3GE5qa" value="constructor" />
     <ref role="WuzLi" to="wnzg:6hUtorDPkwW" resolve="ConstructorVoidType" />
     <node concept="11bSqf" id="6hUtorDPkwY" role="11c4hB">
       <node concept="3clFbS" id="6hUtorDPkwZ" role="2VODD2">
@@ -2375,7 +2375,7 @@
     </node>
   </node>
   <node concept="WtQ9Q" id="4KyQ_QhDpke">
-    <property role="3GE5qa" value="method.constructor" />
+    <property role="3GE5qa" value="constructor" />
     <ref role="WuzLi" to="wnzg:7DDmkz5m05" resolve="ConstructorInitializedConstructor" />
     <node concept="11bSqf" id="4KyQ_QhDpkf" role="11c4hB">
       <node concept="3clFbS" id="4KyQ_QhDpkg" role="2VODD2">
@@ -2933,7 +2933,7 @@
                   <ref role="3Tt5mk" to="wnzg:7fNEwq_6ZJT" resolve="class_instance" />
 =======
   <node concept="WtQ9Q" id="6ddXmWdNsw1">
-    <property role="3GE5qa" value="method.constructor" />
+    <property role="3GE5qa" value="constructor" />
     <ref role="WuzLi" to="wnzg:6NtgknWJ20B" resolve="ClassConstructorDeclaration" />
     <node concept="11bSqf" id="6ddXmWdNsw2" role="11c4hB">
       <node concept="3clFbS" id="6ddXmWdNsw3" role="2VODD2">
@@ -2996,12 +2996,32 @@
           <node concept="la8eA" id="7fNEwqBypTe" role="lcghm">
             <property role="lacIc" value="." />
           </node>
+<<<<<<< HEAD
           <node concept="l9hG8" id="7fNEwqByo61" role="lcghm">
             <node concept="2OqwBi" id="7fNEwqByo62" role="lb14g">
               <node concept="2OqwBi" id="7fNEwqByo63" role="2Oq$k0">
                 <node concept="117lpO" id="7fNEwqByo64" role="2Oq$k0" />
                 <node concept="3TrEf2" id="7fNEwqByoxc" role="2OqNvi">
                   <ref role="3Tt5mk" to="wnzg:7fNEwqBx$6W" resolve="class_method" />
+=======
+          <node concept="l8MVK" id="7RFM8R0xX60" role="lcghm" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="WtQ9Q" id="7DDmkz5meI">
+    <property role="3GE5qa" value="constructor" />
+    <ref role="WuzLi" to="wnzg:7DDmkyVr_r" resolve="ConstructorInitializedAttribute" />
+    <node concept="11bSqf" id="7DDmkz5meJ" role="11c4hB">
+      <node concept="3clFbS" id="7DDmkz5meK" role="2VODD2">
+        <node concept="lc7rE" id="7DDmkz5wRD" role="3cqZAp">
+          <node concept="l9hG8" id="7DDmkz5wS1" role="lcghm">
+            <node concept="2OqwBi" id="7DDmkz5xAG" role="lb14g">
+              <node concept="2OqwBi" id="7DDmkz5x63" role="2Oq$k0">
+                <node concept="117lpO" id="7DDmkz5wXc" role="2Oq$k0" />
+                <node concept="3TrEf2" id="7DDmkz5xf3" role="2OqNvi">
+                  <ref role="3Tt5mk" to="wnzg:7DDmkz1Ipj" resolve="identity" />
+>>>>>>> 7743891de9... Move constructor outside method virtual package
                 </node>
               </node>
               <node concept="3TrcHB" id="7fNEwqBypfM" role="2OqNvi">

@@ -1683,7 +1683,7 @@
   </node>
   <node concept="18kY7G" id="6ddXmWdG7b9">
     <property role="TrG5h" value="check_ClassConstructor" />
-    <property role="3GE5qa" value="method.constructor" />
+    <property role="3GE5qa" value="constructor" />
     <node concept="3clFbS" id="6ddXmWdG7ba" role="18ibNy">
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2127,7 +2127,7 @@
   </node>
   <node concept="1YbPZF" id="7DDmkz3qBq">
     <property role="TrG5h" value="typeof_ConstructorInitializedAttribute" />
-    <property role="3GE5qa" value="method.constructor" />
+    <property role="3GE5qa" value="constructor" />
     <node concept="3clFbS" id="7DDmkz3qBr" role="18ibNy">
       <node concept="3cpWs8" id="6_kdBKN7EXJ" role="3cqZAp">
         <node concept="3cpWsn" id="6_kdBKN7_xO" role="3cpWs9">
@@ -2248,7 +2248,7 @@
   </node>
   <node concept="18kY7G" id="4KyQ_QhNKFY">
     <property role="TrG5h" value="check_ConstructorInitializedConstructor" />
-    <property role="3GE5qa" value="method.constructor" />
+    <property role="3GE5qa" value="constructor" />
     <node concept="3clFbS" id="4KyQ_QhNKFZ" role="18ibNy">
       <node concept="3clFbJ" id="1rV7RaURpzx" role="3cqZAp">
         <node concept="3clFbS" id="1rV7RaURpzz" role="3clFbx">
@@ -3841,7 +3841,57 @@
                 <ref role="2X3Bk0" node="6OyCGy9cZbQ" resolve="type" />
               </node>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+            </node>
+            <node concept="mw_s8" id="6OyCGy9d1mu" role="1ZfhK$">
+              <node concept="1Z2H0r" id="6OyCGy9cZMT" role="mwGJk">
+                <node concept="1YBJjd" id="6OyCGy9cZNc" role="1Z2MuG">
+                  <ref role="1YBMHb" node="6OyCGy9cZbJ" resolve="classStaticVarRef" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1Z2H0r" id="6OyCGy9cZcE" role="nvjzm">
+          <node concept="2OqwBi" id="6OyCGy9cZpt" role="1Z2MuG">
+            <node concept="1YBJjd" id="6OyCGy9cZd8" role="2Oq$k0">
+              <ref role="1YBMHb" node="6OyCGy9cZbJ" resolve="classStaticVarRef" />
+            </node>
+            <node concept="3TrEf2" id="6OyCGy9cZHO" role="2OqNvi">
+              <ref role="3Tt5mk" to="wnzg:6OyCGy9cOMS" resolve="attribute" />
+            </node>
+          </node>
+        </node>
+        <node concept="2X1qdy" id="6OyCGy9cZbQ" role="2X0Ygz">
+          <property role="TrG5h" value="type" />
+          <node concept="2jxLKc" id="6OyCGy9cZbR" role="1tU5fm" />
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="6OyCGy9cZbJ" role="1YuTPh">
+      <property role="TrG5h" value="classStaticVarRef" />
+      <ref role="1YaFvo" to="wnzg:6OyCGy9cOMO" resolve="ClassStaticVarRef" />
+    </node>
+  </node>
+  <node concept="18kY7G" id="3p40HKhGUqA">
+    <property role="TrG5h" value="check_IAmConstructorInitializable" />
+    <property role="3GE5qa" value="constructor" />
+    <node concept="3clFbS" id="3p40HKhGUqB" role="18ibNy">
+      <node concept="3clFbJ" id="3p40HKhGUqK" role="3cqZAp">
+        <node concept="2OqwBi" id="3p40HKhGVeA" role="3clFbw">
+          <node concept="2OqwBi" id="3p40HKhGUzC" role="2Oq$k0">
+            <node concept="1YBJjd" id="3p40HKhGUqZ" role="2Oq$k0">
+              <ref role="1YBMHb" node="3p40HKhGUqD" resolve="iaci" />
+            </node>
+            <node concept="2Xjw5R" id="3p40HKhGUG2" role="2OqNvi">
+              <node concept="1xMEDy" id="3p40HKhGUG4" role="1xVPHs">
+                <node concept="chp4Y" id="3p40HKhGUI4" role="ri$Ld">
+                  <ref role="cht4Q" to="wnzg:6NtgknWJ20B" resolve="ClassConstructorDeclaration" />
+                </node>
+              </node>
+>>>>>>> 7743891de9... Move constructor outside method virtual package
               <node concept="1xIGOp" id="3p40HKhGUOc" role="1xVPHs" />
             </node>
           </node>

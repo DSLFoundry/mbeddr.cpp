@@ -3429,7 +3429,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
   <node concept="13h7C7" id="6ddXmWdEGr3">
-    <property role="3GE5qa" value="method.constructor" />
+    <property role="3GE5qa" value="constructor" />
     <ref role="13h7C2" to="wnzg:6NtgknWJ20B" resolve="ClassConstructorDeclaration" />
     <node concept="13hLZK" id="6ddXmWdEGr4" role="13h7CW">
       <node concept="3clFbS" id="6ddXmWdEGr5" role="2VODD2">
@@ -4064,7 +4064,7 @@
     </node>
   </node>
   <node concept="13h7C7" id="6ddXmWdIoFl">
-    <property role="3GE5qa" value="method.constructor" />
+    <property role="3GE5qa" value="constructor" />
     <ref role="13h7C2" to="wnzg:6NtgknWJ21h" resolve="ClassConstructorSignature" />
     <node concept="13hLZK" id="6ddXmWdIoFm" role="13h7CW">
       <node concept="3clFbS" id="6ddXmWdIoFn" role="2VODD2" />
@@ -4777,6 +4777,7 @@
             </node>
           </node>
         </node>
+<<<<<<< HEAD
         <node concept="1Dw8fO" id="6hUtorEjy6T" role="3cqZAp">
           <node concept="3clFbS" id="6hUtorEjy6U" role="2LFqv$">
             <node concept="3clFbF" id="6hUtorEjy6V" role="3cqZAp">
@@ -4811,6 +4812,38 @@
                   <ref role="3cqZAo" node="6hUtorEjy6Q" resolve="presentation" />
                 </node>
               </node>
+=======
+      </node>
+      <node concept="3Tqbb2" id="6hUtorEiL0D" role="3clF45">
+        <ref role="ehGHo" to="tpce:f_TJgxE" resolve="LinkDeclaration" />
+      </node>
+    </node>
+  </node>
+  <node concept="13h7C7" id="7DDmkz3ngd">
+    <property role="3GE5qa" value="constructor" />
+    <ref role="13h7C2" to="wnzg:7DDmkyVr_r" resolve="ConstructorInitializedAttribute" />
+    <node concept="13hLZK" id="7DDmkz3nge" role="13h7CW">
+      <node concept="3clFbS" id="7DDmkz3ngf" role="2VODD2" />
+    </node>
+  </node>
+  <node concept="13h7C7" id="7DDmkzciF4">
+    <property role="3GE5qa" value="constructor" />
+    <ref role="13h7C2" to="wnzg:7DDmkz5m05" resolve="ConstructorInitializedConstructor" />
+    <node concept="13hLZK" id="7DDmkzciF5" role="13h7CW">
+      <node concept="3clFbS" id="7DDmkzciF6" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="7DDmkzcDqk" role="13h7CS">
+      <property role="13i0iv" value="false" />
+      <property role="13i0it" value="false" />
+      <property role="TrG5h" value="hasEllipsis" />
+      <ref role="13i0hy" to="qd6m:7$$5Stoo9at" resolve="hasEllipsis" />
+      <node concept="3Tm1VV" id="7DDmkzcDql" role="1B3o_S" />
+      <node concept="3clFbS" id="7DDmkzcDqq" role="3clF47">
+        <node concept="3clFbF" id="7DDmkzcDqv" role="3cqZAp">
+          <node concept="2OqwBi" id="7DDmkzcDqs" role="3clFbG">
+            <node concept="13iAh5" id="7DDmkzcDqt" role="2Oq$k0">
+              <ref role="3eA5LN" to="x27k:6WGVxckB05U" resolve="ICallLike" />
+>>>>>>> 7743891de9... Move constructor outside method virtual package
             </node>
             <node concept="3clFbH" id="6hUtorEjy79" role="3cqZAp" />
             <node concept="3clFbJ" id="6hUtorEjy7a" role="3cqZAp">
