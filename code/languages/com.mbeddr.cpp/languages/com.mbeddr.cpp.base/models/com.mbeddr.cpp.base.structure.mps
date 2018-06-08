@@ -1910,6 +1910,9 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" to="mj1l:7FQByU3CrCQ" resolve="Type" />
     </node>
+    <node concept="PrWs8" id="7mGKYHhDf8Q" role="PzmwI">
+      <ref role="PrY4T" node="7mGKYHhDe0x" resolve="IUsageRequiresStdImport" />
+    </node>
   </node>
 <<<<<<< HEAD
 >>>>>>> 07c2c9e1af... Working on new keyword with class constructors
@@ -1958,6 +1961,13 @@
       <ref role="20lvS9" node="4o2nsMgBEtu" resolve="ClassType" />
     </node>
   </node>
+<<<<<<< HEAD
 >>>>>>> b08d15aca7... added InnerClassType concept
+=======
+  <node concept="PlHQZ" id="7mGKYHhDe0x">
+    <property role="EcuMT" value="8479367613886292001" />
+    <property role="TrG5h" value="IUsageRequiresStdImport" />
+  </node>
+>>>>>>> 193f96f9fb... Add header import interface for new keyword, may be used elsewhere
 </model>
 
