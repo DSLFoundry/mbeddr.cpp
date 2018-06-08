@@ -691,6 +691,7 @@
                 </node>
               </node>
             </node>
+<<<<<<< HEAD
           </node>
           <node concept="3clFbH" id="1uKPZVPH$j$" role="3cqZAp" />
           <node concept="3cpWs8" id="4smL_2CVl68" role="3cqZAp">
@@ -719,6 +720,16 @@
                       </node>
                     </node>
                     <node concept="3TrEf2" id="4smL_2CVl6m" role="2OqNvi">
+=======
+            <node concept="3clFbS" id="7j9KGYMnEUu" role="Jncv$">
+              <node concept="3clFbF" id="7j9KGYMnJPS" role="3cqZAp">
+                <node concept="37vLTI" id="7j9KGYMnKFm" role="3clFbG">
+                  <node concept="2OqwBi" id="7iR9kVygBQv" role="37vLTx">
+                    <node concept="Jnkvi" id="7j9KGYMnKYx" role="2Oq$k0">
+                      <ref role="1M0zk5" node="7j9KGYMnEUw" resolve="pt" />
+                    </node>
+                    <node concept="3TrEf2" id="7iR9kVygCID" role="2OqNvi">
+>>>>>>> 24176e4b8f... Fix scoping on qualifiedmethodcall
                       <ref role="3Tt5mk" to="c4fa:6IWRcVPT6tm" resolve="baseType" />
                     </node>
                   </node>
