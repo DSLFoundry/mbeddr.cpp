@@ -162,7 +162,11 @@
 >>>>>>> f7ba0272ae... Redo auto keyword
 =======
     <dependency reexport="false">20c6e580-bdc5-4067-8049-d7e3265a86de(jetbrains.mps.typesystemEngine)</dependency>
+<<<<<<< HEAD
 >>>>>>> 0671c1b426... Fix typechecking on qualified method calls and migrated ICallLike typechecks to a class
+=======
+    <dependency reexport="false">2e15e1a4-8998-4f06-86b2-8d184a179e8e(com.mbeddr.cpp.exceptions)</dependency>
+>>>>>>> 061e94da3b... Migrate error handling to cpp.base
   </dependencies>
   <languageVersions>
     <language slang="l:d4280a54-f6df-4383-aa41-d1b2bffa7eb1:com.mbeddr.core.base" version="5" />
@@ -291,13 +295,17 @@
     <module reference="6d11763d-483d-4b2b-8efc-09336c1b0001(com.mbeddr.core.modules)" version="0" />
     <module reference="3bf5377a-e904-4ded-9754-5a516023bfaa(com.mbeddr.core.pointers)" version="0" />
     <module reference="a9d69647-0840-491e-bf39-2eb0805d2011(com.mbeddr.core.statements)" version="0" />
+<<<<<<< HEAD
     <module reference="efda956e-491e-4f00-ba14-36af2f213ecf(com.mbeddr.core.udt)" version="1" />
 <<<<<<< HEAD
 <<<<<<< HEAD
     <module reference="2693fc71-9b0e-4b05-ab13-f57227d675f2(com.mbeddr.core.util)" version="0" />
 =======
 >>>>>>> 180d6b24f4... Unify structure naming, fix dependency issue and remove unused dependencies
+=======
+>>>>>>> 061e94da3b... Migrate error handling to cpp.base
     <module reference="8c081446-e4ba-48b7-a7e0-3db40e2c3439(com.mbeddr.cpp.base)" version="0" />
+    <module reference="2e15e1a4-8998-4f06-86b2-8d184a179e8e(com.mbeddr.cpp.exceptions)" version="0" />
     <module reference="b341759a-c721-4072-90cf-328bb2724684(com.mbeddr.cpp.expressions)" version="0" />
     <module reference="dd4979e3-3be6-46b3-9e1e-c36309e30758(com.mbeddr.cpp.modules)" version="0" />
     <module reference="7308c66b-3b31-4952-bf56-0f3405fab5be(com.mbeddr.cpp.operator_overload)" version="0" />
@@ -315,7 +323,6 @@
     <module reference="5e6018dc-dc26-4070-9526-663fdbfe4c10(com.mbeddr.cpp.templates)" version="0" />
 >>>>>>> 858f7e856f... Fix tests
     <module reference="63e0e566-5131-447e-90e3-12ea330e1a00(com.mbeddr.mpsutil.blutil)" version="0" />
-    <module reference="a482b416-d0c9-473f-8f67-725ed642b3f3(com.mbeddr.mpsutil.breadcrumb)" version="0" />
     <module reference="d3a0fd26-445a-466c-900e-10444ddfed52(com.mbeddr.mpsutil.filepicker)" version="0" />
     <module reference="9d69e719-78c8-4286-90db-fb19c107d049(com.mbeddr.mpsutil.grammarcells)" version="0" />
     <module reference="7ac49bcb-77fb-4f0f-9036-e31b86b854b2(com.mbeddr.mpsutil.grammarcells.runtime)" version="0" />
