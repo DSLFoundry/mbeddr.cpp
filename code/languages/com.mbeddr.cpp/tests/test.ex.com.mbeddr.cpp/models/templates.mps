@@ -294,6 +294,44 @@
       <concept id="4375898003726285486" name="com.mbeddr.core.expressions.structure.PostIncrementExpression" flags="ng" index="3TM6Ey" />
     </language>
   </registry>
+<<<<<<< HEAD
+=======
+  <node concept="2v9HqL" id="4o2nsMgBpPh">
+    <node concept="2AWWZL" id="3v5DuFDvJhH" role="2AWWZH">
+      <property role="2AWWZJ" value="g++" />
+      <property role="3r8Kw1" value="gdb" />
+      <property role="3r8Kxs" value="make" />
+      <property role="1FkSt$" value="-g" />
+      <property role="2AWWZI" value=" " />
+      <node concept="3abb7c" id="3v5DuFDkAwk" role="3anu1O">
+        <property role="TrG5h" value="Win32" />
+      </node>
+      <node concept="3abb7c" id="3v5DuFDkAwm" role="3anu1O">
+        <property role="TrG5h" value="Linux" />
+      </node>
+      <node concept="3abb7c" id="3v5DuFDkAwn" role="3anu1O">
+        <property role="TrG5h" value="portable" />
+      </node>
+      <node concept="3abb7c" id="3v5DuFDkAwl" role="3anu1O">
+        <property role="TrG5h" value="MacOSX" />
+      </node>
+    </node>
+    <node concept="2eOfOl" id="4o2nsMgBpPF" role="2ePNbc">
+      <property role="iO3LB" value="true" />
+      <property role="TrG5h" value="ex" />
+      <ref role="3oK8_y" node="3v5DuFDkAwn" resolve="portable" />
+      <node concept="2v9HqM" id="2_lkiVk5JE3" role="2eOfOg">
+        <ref role="2v9HqP" node="2_lkiVj_DvU" resolve="Templates" />
+      </node>
+    </node>
+    <node concept="2Q9Fgs" id="3v5DuFDtvd1" role="2Q9xDr">
+      <node concept="2Q9FjX" id="3v5DuFDtvd2" role="2Q9FjI" />
+    </node>
+    <node concept="12mU2y" id="3v5DuFDtti8" role="2Q9xDr">
+      <node concept="3GpDuv" id="3v5DuFDttiu" role="3GpDut" />
+    </node>
+  </node>
+>>>>>>> e6791fc3a8... Cleaned up the executable tests and made sure there weren't snytax errors. Many still have build problems due to UnitTestHelper.h
   <node concept="1whW_1" id="2_lkiVj_DvU">
     <property role="TrG5h" value="Templates" />
     <node concept="3UErvl" id="ZKpU3BwLZ6" role="N3F5h">
@@ -1247,7 +1285,7 @@
           <node concept="2qmXGp" id="1CWIc7F69Gy" role="3XIe9u">
             <node concept="yFYmZ" id="1CWIc7F69Hw" role="1ESnxz">
               <ref role="3mBbHN" node="76fdl5j8cq7" resolve="foobar" />
-              <node concept="3TlMh9" id="1CWIc7F69P_" role="3mBtou">
+              <node concept="3TlMh9" id="6Rfiwa9QF_K" role="3mBtou">
                 <property role="2hmy$m" value="1" />
               </node>
               <node concept="3TlMhK" id="1CWIc7F69Sy" role="3mBtou" />
