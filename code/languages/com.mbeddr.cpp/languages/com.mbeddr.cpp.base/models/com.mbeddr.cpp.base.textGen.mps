@@ -3637,6 +3637,7 @@
   </node>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5699f64d84... added Textgen and behaviour
 =======
 >>>>>>> f94167da49... Added lost InnerClassType textgen again
@@ -3798,6 +3799,8 @@
     </node>
   </node>
 >>>>>>> 061e94da3b... Migrate error handling to cpp.base
+=======
+>>>>>>> d72e40f1e7... Revert "Migrate error handling to cpp.base"
 </model>
 
 =======
