@@ -725,12 +725,20 @@
             <node concept="3clFbS" id="7j9KGYMnEUu" role="Jncv$">
               <node concept="3clFbF" id="7j9KGYMnJPS" role="3cqZAp">
                 <node concept="37vLTI" id="7j9KGYMnKFm" role="3clFbG">
+<<<<<<< HEAD
                   <node concept="2OqwBi" id="7iR9kVygBQv" role="37vLTx">
                     <node concept="Jnkvi" id="7j9KGYMnKYx" role="2Oq$k0">
                       <ref role="1M0zk5" node="7j9KGYMnEUw" resolve="pt" />
                     </node>
                     <node concept="3TrEf2" id="7iR9kVygCID" role="2OqNvi">
 >>>>>>> 24176e4b8f... Fix scoping on qualifiedmethodcall
+=======
+                  <node concept="2OqwBi" id="6ODoR9z0Lsr" role="37vLTx">
+                    <node concept="Jnkvi" id="7j9KGYMnKYx" role="2Oq$k0">
+                      <ref role="1M0zk5" node="7j9KGYMnEUw" resolve="pt" />
+                    </node>
+                    <node concept="3TrEf2" id="6ODoR9z0MvF" role="2OqNvi">
+>>>>>>> be2d622988... Add some tests
                       <ref role="3Tt5mk" to="c4fa:6IWRcVPT6tm" resolve="baseType" />
                     </node>
                   </node>

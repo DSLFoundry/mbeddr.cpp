@@ -4245,6 +4245,7 @@
       </node>
     </node>
     <node concept="3clFbS" id="7j9KGYKwWRh" role="18ibNy">
+<<<<<<< HEAD
       <node concept="3cpWs8" id="7U4vk8Q2gzL" role="3cqZAp">
         <node concept="3cpWsn" id="7U4vk8Q2gzM" role="3cpWs9">
           <property role="TrG5h" value="formals" />
@@ -4301,6 +4302,8 @@
               <ref role="1YBMHb" node="3p40HKhxJwY" resolve="ii" />
 =======
       <node concept="3clFbH" id="7SgJHc8StYP" role="3cqZAp" />
+=======
+>>>>>>> be2d622988... Add some tests
       <node concept="3SKdUt" id="7SgJHc8SquS" role="3cqZAp">
         <node concept="3SKdUq" id="7SgJHc8SquU" role="3SKWNk">
           <property role="3SKdUp" value="Taken from ICallLike (since this rule overrides). It is slightly modified." />
@@ -4621,26 +4624,14 @@
           </node>
         </node>
       </node>
-      <node concept="3clFbH" id="7SgJHc8SiXN" role="3cqZAp" />
-      <node concept="3clFbH" id="72UYQRWE9zV" role="3cqZAp" />
       <node concept="1Z5TYs" id="7SgJHc7_aVQ" role="3cqZAp">
         <node concept="mw_s8" id="7SgJHc7_cXd" role="1ZfhKB">
-          <node concept="2OqwBi" id="7SgJHc7_iQQ" role="mwGJk">
-            <node concept="2OqwBi" id="7SgJHc7_fBY" role="2Oq$k0">
-              <node concept="2OqwBi" id="7SgJHc7_d9w" role="2Oq$k0">
-                <node concept="1YBJjd" id="7SgJHc7_cXb" role="2Oq$k0">
-                  <ref role="1YBMHb" node="7j9KGYKwWRj" resolve="noi" />
-                </node>
-                <node concept="3TrEf2" id="7SgJHc7_eTV" role="2OqNvi">
-                  <ref role="3Tt5mk" to="wnzg:4KCRVMvtPxJ" resolve="identity" />
-                </node>
-              </node>
-              <node concept="3TrEf2" id="7SgJHc7_hJx" role="2OqNvi">
-                <ref role="3Tt5mk" to="wnzg:6NtgknWJ214" resolve="parentClass" />
-              </node>
+          <node concept="2OqwBi" id="7SgJHc7_d9w" role="mwGJk">
+            <node concept="1YBJjd" id="7SgJHc7_cXb" role="2Oq$k0">
+              <ref role="1YBMHb" node="7j9KGYKwWRj" resolve="noi" />
             </node>
-            <node concept="2qgKlT" id="7SgJHc7_kN0" role="2OqNvi">
-              <ref role="37wK5l" to="kntn:2yiFVcKzYCg" resolve="getType" />
+            <node concept="3TrEf2" id="6ODoR9yz1l4" role="2OqNvi">
+              <ref role="3Tt5mk" to="wnzg:7SgJHc8K2Wu" resolve="classType" />
             </node>
           </node>
         </node>
