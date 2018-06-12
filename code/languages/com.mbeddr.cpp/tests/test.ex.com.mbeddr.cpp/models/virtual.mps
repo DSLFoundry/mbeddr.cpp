@@ -22,6 +22,9 @@
         <child id="7254843406768833939" name="expr" index="1_9egR" />
       </concept>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 43fcd2f2dd... Add try catch tests and remove NSinCPP test
       <concept id="4185783222026475238" name="com.mbeddr.core.statements.structure.LocalVariableDeclaration" flags="ng" index="3XIRlf">
         <child id="4185783222026502647" name="init" index="3XIe9u" />
       </concept>
@@ -74,16 +77,17 @@
       <concept id="4459718605982007337" name="com.mbeddr.core.base.structure.IConfigurationContainer" flags="ng" index="2Q9xDo">
         <child id="4459718605982007338" name="configurationItems" index="2Q9xDr" />
       </concept>
-      <concept id="747084250476811597" name="com.mbeddr.core.base.structure.DefaultGenericChunkDependency" flags="ng" index="3GEVxB">
-        <reference id="747084250476878887" name="chunk" index="3GEb4d" />
-      </concept>
     </language>
     <language id="8c081446-e4ba-48b7-a7e0-3db40e2c3439" name="com.mbeddr.cpp.base">
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 43fcd2f2dd... Add try catch tests and remove NSinCPP test
       <concept id="7240228573262412204" name="com.mbeddr.cpp.base.structure.LocalClassVariableDeclaration" flags="ng" index="2dywKE" />
       <concept id="4511589886097466673" name="com.mbeddr.cpp.base.structure.InheritanceInstance" flags="ng" index="FysoC">
         <reference id="4511589886097466674" name="parentClass" index="FysoF" />
       </concept>
+<<<<<<< HEAD
       <concept id="4353317802403516287" name="com.mbeddr.cpp.base.structure.LocalClassVarRef" flags="ng" index="3aNPw6" />
 =======
       <concept id="3188920472788366140" name="com.mbeddr.cpp.base.structure.IVirtualableConcept" flags="ng" index="hL25U">
@@ -113,6 +117,11 @@
       <concept id="5044697665789421259" name="com.mbeddr.cpp.base.structure.AttributeDeclaration" flags="ng" index="3mBbG7">
         <child id="4185783222026502647" name="init" index="3XIe9v" />
       </concept>
+=======
+      <concept id="5044697665789382396" name="com.mbeddr.cpp.base.structure.MethodDeclaration" flags="ng" index="3mB1cK">
+        <child id="4185783222026475860" name="body" index="3XIRFX" />
+      </concept>
+>>>>>>> 43fcd2f2dd... Add try catch tests and remove NSinCPP test
       <concept id="5044697665789421253" name="com.mbeddr.cpp.base.structure.IClassMemberDeclaration" flags="ng" index="3mBbG9">
 >>>>>>> 27c73b6b9d... New and Delete keywords are working, also has executable test and typesystem test
         <property id="2995459757115087788" name="visibility" index="1wg9_F" />
@@ -124,6 +133,7 @@
         <child id="4511589886097466568" name="ancestors" index="Fysvh" />
         <child id="5044697665789396304" name="members" index="3mBdys" />
       </concept>
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
       <concept id="8355208679219002327" name="com.mbeddr.cpp.base.structure.NamespaceClassInstanceAttributeRef" flags="ng" index="3mU57h">
@@ -138,6 +148,9 @@
         <reference id="7217946820601641700" name="namespace" index="1XHrq0" />
       </concept>
 >>>>>>> 27c73b6b9d... New and Delete keywords are working, also has executable test and typesystem test
+=======
+      <concept id="4018800670853679470" name="com.mbeddr.cpp.base.structure.EmptyClassContent" flags="ng" index="3u$6M4" />
+>>>>>>> 43fcd2f2dd... Add try catch tests and remove NSinCPP test
     </language>
     <language id="6d11763d-483d-4b2b-8efc-09336c1b0001" name="com.mbeddr.core.modules">
       <concept id="8967919205527146149" name="com.mbeddr.core.modules.structure.ReturnStatement" flags="ng" index="2BFjQ_">
@@ -148,7 +161,6 @@
       </concept>
       <concept id="6437088627575722813" name="com.mbeddr.core.modules.structure.Module" flags="ng" index="N3F4X">
         <child id="6437088627575722833" name="contents" index="N3F5h" />
-        <child id="1317894735999304826" name="imports" index="2OODSX" />
       </concept>
       <concept id="6437088627575722831" name="com.mbeddr.core.modules.structure.IModuleContent" flags="ng" index="N3F5f">
         <property id="1317894735999272944" name="exported" index="2OOxQR" />
@@ -159,16 +171,9 @@
         <reference id="2093108837558505659" name="arg" index="3ZUYvu" />
       </concept>
     </language>
-    <language id="5e6018dc-dc26-4070-9526-663fdbfe4c10" name="com.mbeddr.cpp.templates">
-      <concept id="1148531845756408680" name="com.mbeddr.cpp.templates.structure.RegularFunctionCall" flags="ng" index="3Cubj8" />
-    </language>
     <language id="06d68b77-b699-4918-83b8-857e63787800" name="com.mbeddr.core.unittest">
       <concept id="6275792049641586523" name="com.mbeddr.core.unittest.structure.TestCase" flags="ng" index="c0Qz5">
         <child id="6275792049641586525" name="body" index="c0Qz3" />
-      </concept>
-      <concept id="7955188678846741606" name="com.mbeddr.core.unittest.structure.TestCollection" flags="ng" index="lIfQi">
-        <property id="8499024683960415454" name="entrypoint" index="3HjyOP" />
-        <child id="7955188678846741609" name="tests" index="lIfQt" />
       </concept>
       <concept id="7755897872837031762" name="com.mbeddr.core.unittest.structure.StructuredBinOpAssertStatement" flags="ng" index="2N2GHn">
         <child id="7755897872837031765" name="actual" index="2N2GHg" />
@@ -177,9 +182,6 @@
       <concept id="7755897872837082045" name="com.mbeddr.core.unittest.structure.AssertEquals" flags="ng" index="2N2KuS" />
       <concept id="8610007178384196427" name="com.mbeddr.core.unittest.structure.TestCaseConfigItem" flags="ng" index="12mU2y">
         <child id="842732463503928104" name="testStrategy" index="3GpDut" />
-      </concept>
-      <concept id="5686538669182340985" name="com.mbeddr.core.unittest.structure.TestCaseRef" flags="ng" index="3cM6IN">
-        <reference id="5686538669182340986" name="testcase" index="3cM6IK" />
       </concept>
       <concept id="842732463503928106" name="com.mbeddr.core.unittest.structure.NoTestIsolationStrategy" flags="ng" index="3GpDuv" />
     </language>
@@ -595,6 +597,7 @@
       <property role="TrG5h" value="empty_1527145133660_1" />
     </node>
   </node>
+<<<<<<< HEAD
   <node concept="1whW_1" id="6gFj6gr9znD">
     <property role="TrG5h" value="NSInCPP" />
     <node concept="dq960" id="6gFj6gr9QzL" role="N3F5h">
@@ -1296,5 +1299,7 @@
 >>>>>>> dd5d1b9963... Fixed error: abstract concept.
     </node>
   </node>
+=======
+>>>>>>> 43fcd2f2dd... Add try catch tests and remove NSinCPP test
 </model>
 
