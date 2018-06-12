@@ -1111,6 +1111,7 @@
         <node concept="2NXPZ9" id="688xTXtV3qU" role="N3F5h">
           <property role="TrG5h" value="empty_1527075986336_9" />
         </node>
+<<<<<<< HEAD
         <node concept="7CXmI" id="688xTXtQgt9" role="lGtFl">
           <node concept="7OXhh" id="688xTXtQgta" role="7EUXB" />
         </node>
@@ -1190,6 +1191,11 @@
         </node>
 =======
 >>>>>>> 6252029eeb... Add test for inheritance scoping
+=======
+      </node>
+      <node concept="7CXmI" id="32KsbhSQDSf" role="lGtFl">
+        <node concept="7OXhh" id="32KsbhSQDSn" role="7EUXB" />
+>>>>>>> bea069b6eb... Add type checks to some typesystem tests and make check for error messages consistent
       </node>
     </node>
   </node>
@@ -1352,9 +1358,9 @@
             <property role="2c7vTL" value="false" />
           </node>
         </node>
-        <node concept="7CXmI" id="1gzloVU_9JM" role="lGtFl">
-          <node concept="7OXhh" id="6ejQpbvYgeB" role="7EUXB" />
-        </node>
+      </node>
+      <node concept="7CXmI" id="32KsbhSQDFs" role="lGtFl">
+        <node concept="7OXhh" id="32KsbhSQDF$" role="7EUXB" />
       </node>
     </node>
   </node>
@@ -1493,6 +1499,9 @@
           </node>
           <node concept="7CXmI" id="3p40HKhyFwh" role="lGtFl" />
         </node>
+      </node>
+      <node concept="7CXmI" id="32KsbhSQE2o" role="lGtFl">
+        <node concept="7OXhh" id="32KsbhSQE6f" role="7EUXB" />
       </node>
     </node>
   </node>
