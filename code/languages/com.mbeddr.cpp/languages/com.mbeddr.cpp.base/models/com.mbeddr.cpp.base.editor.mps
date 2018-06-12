@@ -1040,7 +1040,25 @@
         </node>
 >>>>>>> 51d500d327... Final Editor and Concept adjustments for Referencing and Typechecking
       </node>
+<<<<<<< HEAD
       <node concept="l2Vlx" id="4o2nsMgBJ4g" role="2iSdaV" />
+=======
+      <node concept="PMmxH" id="32KsbhSR3xr" role="3EZMnx">
+        <ref role="PMmxG" node="5eDFAXBS4m$" resolve="ThreadLocalFlag" />
+      </node>
+      <node concept="PMmxH" id="5eDFAXBRQjs" role="3EZMnx">
+        <ref role="PMmxG" node="5eDFAXBRQic" resolve="ConstExprFlag" />
+      </node>
+      <node concept="PMmxH" id="5eDFAXBRI3K" role="3EZMnx">
+        <ref role="PMmxG" node="1Yr26itwsTs" resolve="InlineFlag" />
+      </node>
+      <node concept="PMmxH" id="15T8UHynuN1" role="3EZMnx">
+        <ref role="PMmxG" node="15T8UHynq4a" resolve="MutableFlag" />
+      </node>
+      <node concept="PMmxH" id="5eDFAXBm98u" role="3EZMnx">
+        <ref role="PMmxG" node="1Yr26itwx8V" resolve="StaticFlag" />
+      </node>
+>>>>>>> 3624016979... Add thread_local to attributes and fix styles
       <node concept="1kIj98" id="8CgsWmd256" role="3EZMnx">
         <node concept="3desf3" id="8CgsWmPe0i" role="3desfC">
           <ref role="3desfc" to="mj1l:6Q7bJ$$mwOp" resolve="VoidType" />
@@ -2379,6 +2397,7 @@
     <node concept="1kHk_G" id="5eDFAXBS4mA" role="2wV5jI">
       <property role="ZjSer" value="thread_local" />
       <ref role="1NtTu8" to="wnzg:5eDFAXBS4m8" resolve="isThreadLocal" />
+      <ref role="1k5W1q" to="r4b4:2CEi94dgHKA" resolve="KW" />
     </node>
   </node>
   <node concept="PKFIW" id="5eDFAXBCpeS">
