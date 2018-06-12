@@ -1999,6 +1999,7 @@
   </node>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 193f96f9fb... Add header import interface for new keyword, may be used elsewhere
 =======
   <node concept="1TIwiD" id="4WhfN3oe7VM">
@@ -2086,5 +2087,17 @@
 >>>>>>> 061e94da3b... Migrate error handling to cpp.base
 =======
 >>>>>>> d72e40f1e7... Revert "Migrate error handling to cpp.base"
+=======
+  <node concept="1TIwiD" id="3M9Tj7Yz1kE">
+    <property role="EcuMT" value="4362269716971787562" />
+    <property role="3GE5qa" value="class" />
+    <property role="TrG5h" value="ClassComment" />
+    <property role="34LRSv" value="//" />
+    <ref role="1TJDcQ" to="c4fa:1teBndx1rbo" resolve="CommentStatement" />
+    <node concept="PrWs8" id="3M9Tj7Yz1kI" role="PzmwI">
+      <ref role="PrY4T" node="4o2nsMgBIr5" resolve="IClassMemberDeclaration" />
+    </node>
+  </node>
+>>>>>>> ba061b3fe5... Added ability to comment inside a class
 </model>
 
