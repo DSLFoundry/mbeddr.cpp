@@ -33,7 +33,11 @@
 >>>>>>> 80663fea31... Remove unused test dependencies for typesystem tests
 =======
     <dependency reexport="false">2e15e1a4-8998-4f06-86b2-8d184a179e8e(com.mbeddr.cpp.exceptions)</dependency>
+<<<<<<< HEAD
 >>>>>>> 43fcd2f2dd... Add try catch tests and remove NSinCPP test
+=======
+    <dependency reexport="false">6d11763d-483d-4b2b-8efc-09336c1b0001(com.mbeddr.core.modules)</dependency>
+>>>>>>> 95e7e72af0... Added node error tests
   </dependencies>
   <languageVersions>
     <language slang="l:d4280a54-f6df-4383-aa41-d1b2bffa7eb1:com.mbeddr.core.base" version="5" />
