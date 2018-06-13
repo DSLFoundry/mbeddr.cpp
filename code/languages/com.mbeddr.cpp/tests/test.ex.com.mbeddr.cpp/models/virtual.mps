@@ -175,6 +175,10 @@
       <concept id="6275792049641586523" name="com.mbeddr.core.unittest.structure.TestCase" flags="ng" index="c0Qz5">
         <child id="6275792049641586525" name="body" index="c0Qz3" />
       </concept>
+      <concept id="7955188678846741606" name="com.mbeddr.core.unittest.structure.TestCollection" flags="ng" index="lIfQi">
+        <property id="8499024683960415454" name="entrypoint" index="3HjyOP" />
+        <child id="7955188678846741609" name="tests" index="lIfQt" />
+      </concept>
       <concept id="7755897872837031762" name="com.mbeddr.core.unittest.structure.StructuredBinOpAssertStatement" flags="ng" index="2N2GHn">
         <child id="7755897872837031765" name="actual" index="2N2GHg" />
         <child id="7755897872837031764" name="expected" index="2N2GHh" />
@@ -182,6 +186,9 @@
       <concept id="7755897872837082045" name="com.mbeddr.core.unittest.structure.AssertEquals" flags="ng" index="2N2KuS" />
       <concept id="8610007178384196427" name="com.mbeddr.core.unittest.structure.TestCaseConfigItem" flags="ng" index="12mU2y">
         <child id="842732463503928104" name="testStrategy" index="3GpDut" />
+      </concept>
+      <concept id="5686538669182340985" name="com.mbeddr.core.unittest.structure.TestCaseRef" flags="ng" index="3cM6IN">
+        <reference id="5686538669182340986" name="testcase" index="3cM6IK" />
       </concept>
       <concept id="842732463503928106" name="com.mbeddr.core.unittest.structure.NoTestIsolationStrategy" flags="ng" index="3GpDuv" />
     </language>
@@ -249,9 +256,6 @@
       <node concept="2v9HqM" id="2O2YBLCfgO5" role="2eOfOg">
         <ref role="2v9HqP" node="2O2YBLCfgIm" resolve="Virtual" />
 >>>>>>> dd5d1b9963... Fixed error: abstract concept.
-      </node>
-      <node concept="2v9HqM" id="6Rfiwa9S2BW" role="2eOfOg">
-        <ref role="2v9HqP" node="6gFj6gr9znD" resolve="NSInCPP" />
       </node>
     </node>
     <node concept="2Q9Fgs" id="3v5DuFDtvd1" role="2Q9xDr">
@@ -1014,6 +1018,7 @@
       <property role="TrG5h" value="empty_1527145195583_6" />
     </node>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <node concept="lIfQi" id="6KmaLbE82dC" role="N3F5h">
       <property role="3HjyOP" value="true" />
       <property role="TrG5h" value="main" />
@@ -1141,6 +1146,13 @@
           </node>
         </node>
 >>>>>>> 858f7e856f... Fix tests
+=======
+    <node concept="lIfQi" id="6rvQsg7SRys" role="N3F5h">
+      <property role="3HjyOP" value="true" />
+      <property role="TrG5h" value="main" />
+      <node concept="3cM6IN" id="6rvQsg7SR$u" role="lIfQt">
+        <ref role="3cM6IK" node="6KmaLbE822t" resolve="virtualTest1" />
+>>>>>>> b4b117423f... Fixed some undefined references.
       </node>
     </node>
     <node concept="2NXPZ9" id="6KmaLbE82aN" role="N3F5h">
