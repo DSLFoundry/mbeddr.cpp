@@ -669,6 +669,9 @@
       <property role="20kJfa" value="parentClass" />
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="4o2nsMgBpPQ" resolve="ClassDeclaration" />
+      <node concept="t5JxF" id="c7Kd0fkpIE" role="lGtFl">
+        <property role="t5JxN" value="This is used for naming and maintaining the correct name if the class name changes" />
+      </node>
     </node>
   </node>
 <<<<<<< HEAD
@@ -679,7 +682,7 @@
     <property role="3GE5qa" value="constructor" />
     <property role="TrG5h" value="IAmConstructorInitializable" />
     <node concept="t5JxF" id="3n$8_Xbpga3" role="lGtFl">
-      <property role="t5JxN" value="This interface is responsible for things that can come after a : on a constructor implementation." />
+      <property role="t5JxN" value="This interface is joins things that can come after a : on a constructor implementation." />
     </node>
   </node>
 >>>>>>> 7743891de9... Move constructor outside method virtual package
@@ -795,8 +798,14 @@
       <property role="20lbJX" value="0..n" />
 <<<<<<< HEAD
       <ref role="20lvS9" node="3n$8_Xbpg8r" resolve="IAmConstructorInitializable" />
+<<<<<<< HEAD
 =======
       <ref role="20lvS9" to="mj1l:7FQByU3CrCM" resolve="Expression" />
+=======
+      <node concept="t5JxF" id="c7Kd0fku7Y" role="lGtFl">
+        <property role="t5JxN" value="The list of things that come after the colon" />
+      </node>
+>>>>>>> 2c9787b406... Clean up constructor package
     </node>
     <node concept="1TJgyj" id="383ZxwZrBkD" role="1TKVEi">
       <property role="IQ2ns" value="3604003506923402537" />
@@ -841,6 +850,9 @@
     <property role="TrG5h" value="ConstructorVoidType" />
     <property role="R4oN_" value="empty declaration of VoidType" />
     <ref role="1TJDcQ" to="mj1l:6Q7bJ$$mwOp" resolve="VoidType" />
+    <node concept="t5JxF" id="c7Kd0fkw6U" role="lGtFl">
+      <property role="t5JxN" value="This is used since constructors implement IFunctionLike. This is identical to VoidType but textgens to empty string" />
+    </node>
   </node>
   <node concept="1TIwiD" id="7DDmkyVr_r">
     <property role="EcuMT" value="137823117407795547" />

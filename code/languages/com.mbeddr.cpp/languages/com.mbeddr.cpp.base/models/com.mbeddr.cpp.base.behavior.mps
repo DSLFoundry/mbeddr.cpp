@@ -3572,6 +3572,11 @@
     <ref role="13h7C2" to="wnzg:6NtgknWJ20B" resolve="ClassConstructorDeclaration" />
     <node concept="13hLZK" id="6ddXmWdEGr4" role="13h7CW">
       <node concept="3clFbS" id="6ddXmWdEGr5" role="2VODD2">
+        <node concept="3SKdUt" id="c7Kd0fkpM$" role="3cqZAp">
+          <node concept="3SKdUq" id="c7Kd0fkpMA" role="3SKWNk">
+            <property role="3SKdUp" value="Create empty statement list, the correct type, and set some defaults" />
+          </node>
+        </node>
         <node concept="3clFbF" id="6ddXmWdEIdY" role="3cqZAp">
           <node concept="37vLTI" id="6ddXmWdEWfh" role="3clFbG">
             <node concept="2ShNRf" id="6ddXmWdEWmL" role="37vLTx">
@@ -3805,6 +3810,7 @@
       <property role="TrG5h" value="getPresentation" />
       <property role="2Ki8OM" value="false" />
       <ref role="13i0hy" to="tpcu:hEwIMiw" resolve="getPresentation" />
+<<<<<<< HEAD
       <node concept="3clFbS" id="383ZxwZt357" role="3clF47">
         <node concept="3clFbJ" id="383ZxwZt3dP" role="3cqZAp">
           <node concept="3clFbS" id="383ZxwZt3dR" role="3clFbx">
@@ -3812,6 +3818,23 @@
               <node concept="2OqwBi" id="383ZxwZtat2" role="3cqZAk">
                 <node concept="13iPFW" id="383ZxwZtaaQ" role="2Oq$k0" />
                 <node concept="3TrcHB" id="383ZxwZtb3H" role="2OqNvi">
+=======
+      <node concept="3Tm1VV" id="6hUtorE59FE" role="1B3o_S" />
+      <node concept="3clFbS" id="6hUtorE59FF" role="3clF47">
+        <node concept="3SKdUt" id="c7Kd0fkr8E" role="3cqZAp">
+          <node concept="3SKdUq" id="c7Kd0fkr8G" role="3SKWNk">
+            <property role="3SKdUp" value="Make things look pretty in the autocomplete menu so you can tell one constructor from another." />
+          </node>
+        </node>
+        <node concept="3cpWs8" id="6hUtorE5zF8" role="3cqZAp">
+          <node concept="3cpWsn" id="6hUtorE5zFb" role="3cpWs9">
+            <property role="TrG5h" value="presentation" />
+            <node concept="17QB3L" id="6hUtorE5zF7" role="1tU5fm" />
+            <node concept="3cpWs3" id="3n$8_XbgCWw" role="33vP2m">
+              <node concept="2OqwBi" id="3n$8_XbgDYy" role="3uHU7B">
+                <node concept="13iPFW" id="3n$8_XbgDlb" role="2Oq$k0" />
+                <node concept="3TrcHB" id="3n$8_XbgF6I" role="2OqNvi">
+>>>>>>> 2c9787b406... Clean up constructor package
                   <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
 >>>>>>> b95cdd26ff... Namespace Declaration and Member Referencing (WIP) without TextGen elements
                 </node>
@@ -4363,6 +4386,7 @@
     </node>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <node concept="13i0hz" id="457OG4Qf698" role="13h7CS">
       <property role="TrG5h" value="getIdentifierForCVariable" />
       <node concept="3Tm1VV" id="457OG4Qf699" role="1B3o_S" />
@@ -4375,6 +4399,27 @@
               <node concept="3TrcHB" id="457OG4Qf69i" role="2OqNvi">
                 <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
               </node>
+=======
+    <node concept="13i0hz" id="6hUtorEjy6M" role="13h7CS">
+      <property role="13i0is" value="false" />
+      <property role="TrG5h" value="getPresentation" />
+      <property role="13i0it" value="false" />
+      <property role="13i0iv" value="false" />
+      <ref role="13i0hy" to="tpcu:hEwIMiw" resolve="getPresentation" />
+      <node concept="3Tm1VV" id="6hUtorEjy6N" role="1B3o_S" />
+      <node concept="3clFbS" id="6hUtorEjy6O" role="3clF47">
+        <node concept="3SKdUt" id="c7Kd0fkvfp" role="3cqZAp">
+          <node concept="3SKdUq" id="c7Kd0fkvfr" role="3SKWNk">
+            <property role="3SKdUp" value="See ClassConstructorDeclaration::getPresentation for info on this." />
+          </node>
+        </node>
+        <node concept="3cpWs8" id="6hUtorEjy6P" role="3cqZAp">
+          <node concept="3cpWsn" id="6hUtorEjy6Q" role="3cpWs9">
+            <property role="TrG5h" value="presentation" />
+            <node concept="17QB3L" id="6hUtorEjy6R" role="1tU5fm" />
+            <node concept="Xl_RD" id="6hUtorEjy6S" role="33vP2m">
+              <property role="Xl_RC" value="(" />
+>>>>>>> 2c9787b406... Clean up constructor package
             </node>
             <node concept="3cpWs3" id="457OG4Qf69j" role="3uHU7B">
               <node concept="2OqwBi" id="457OG4Qf69k" role="3uHU7B">
