@@ -144,6 +144,7 @@
     </node>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <node concept="PrWs8" id="2L1k$oXxnd5" role="PzmwI">
 <<<<<<< HEAD
       <ref role="PrY4T" node="2L1k$oXxncW" resolve="IVirtualableConcept" />
@@ -168,6 +169,19 @@
     </node>
     <node concept="PrWs8" id="15T8UHynjIu" role="PzmwI">
       <ref role="PrY4T" node="5eDFAXBCper" resolve="IVolatileFlagConcept" />
+=======
+    <node concept="PrWs8" id="1rolTiuExQu" role="PzmwI">
+      <ref role="PrY4T" node="383ZxwZsgd5" resolve="INamedNamespaceMemberDeclaration" />
+    </node>
+    <node concept="PrWs8" id="3UJ18qjqSiT" role="PzmwI">
+      <ref role="PrY4T" node="2L1k$oXDqJY" resolve="IPureVirtualFlag" />
+    </node>
+    <node concept="PrWs8" id="3UJ18qjqSja" role="PzmwI">
+      <ref role="PrY4T" node="1Yr26itwsSZ" resolve="IInlineFlag" />
+    </node>
+    <node concept="PrWs8" id="3UJ18qjqSjv" role="PzmwI">
+      <ref role="PrY4T" node="5eDFAXBCper" resolve="IVolatileFlag" />
+>>>>>>> be102f3fab... Make naming of flag concepts consistent and shorter
     </node>
 <<<<<<< HEAD
     <node concept="PrWs8" id="15T8UHynkMK" role="PzmwI">
@@ -176,12 +190,23 @@
     <node concept="PrWs8" id="15T8UHysf1I" role="PzmwI">
 =======
     <node concept="PrWs8" id="3UJ18qjqSjS" role="PzmwI">
+<<<<<<< HEAD
 >>>>>>> e244fa05a3... Add method and attribute test cases
       <ref role="PrY4T" node="5eDFAXBRQhJ" resolve="IConstExprFlagConcept" />
 =======
     <node concept="PrWs8" id="1rolTiuExQu" role="PzmwI">
       <ref role="PrY4T" node="383ZxwZsgd5" resolve="INamedNamespaceMemberDeclaration" />
 >>>>>>> c9ad58ee32... Added TextGen elements of Namespace Concepts and adjusted several Editors
+=======
+      <ref role="PrY4T" node="5eDFAXBRQhJ" resolve="IConstExprFlag" />
+    </node>
+    <node concept="1TJgyj" id="3CmSUB7Fp_k" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="body" />
+      <property role="20lbJX" value="0..1" />
+      <property role="IQ2ns" value="4185783222026475860" />
+      <ref role="20lvS9" to="c4fa:3CmSUB7Fp_l" resolve="StatementList" />
+>>>>>>> be102f3fab... Make naming of flag concepts consistent and shorter
     </node>
   </node>
   <node concept="1TIwiD" id="4o2nsMgBEtu">
@@ -205,6 +230,12 @@
     <property role="TrG5h" value="IClassMemberDeclaration" />
     <property role="3GE5qa" value="class" />
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    <node concept="PrWs8" id="5eDFAXBm97W" role="PrDN$">
+      <ref role="PrY4T" node="1Yr26itwx8u" resolve="IStaticFlag" />
+    </node>
+>>>>>>> be102f3fab... Make naming of flag concepts consistent and shorter
     <node concept="1TJgyi" id="2Ai0Gt9ODIG" role="1TKVEl">
       <property role="IQ2nx" value="2995459757115087788" />
       <property role="TrG5h" value="visibility" />
@@ -253,22 +284,22 @@
       <ref role="PrY4T" to="mj1l:hEaDaGor63" resolve="ITyped" />
     </node>
     <node concept="PrWs8" id="5eDFAXBCDcW" role="PzmwI">
-      <ref role="PrY4T" node="5eDFAXBCper" resolve="IVolatileFlagConcept" />
+      <ref role="PrY4T" node="5eDFAXBCper" resolve="IVolatileFlag" />
     </node>
     <node concept="PrWs8" id="5eDFAXBRI2X" role="PzmwI">
-      <ref role="PrY4T" node="1Yr26itwsSZ" resolve="IInlineFlagConcept" />
+      <ref role="PrY4T" node="1Yr26itwsSZ" resolve="IInlineFlag" />
     </node>
     <node concept="PrWs8" id="5eDFAXBRQi_" role="PzmwI">
-      <ref role="PrY4T" node="5eDFAXBRQhJ" resolve="IConstExprFlagConcept" />
+      <ref role="PrY4T" node="5eDFAXBRQhJ" resolve="IConstExprFlag" />
     </node>
     <node concept="PrWs8" id="5eDFAXBS4mZ" role="PzmwI">
       <ref role="PrY4T" node="5eDFAXBS4m7" resolve="IThreadLocalFlag" />
     </node>
     <node concept="PrWs8" id="15T8UHynq6K" role="PzmwI">
-      <ref role="PrY4T" node="15T8UHynq3H" resolve="IMutableFlagConcept" />
+      <ref role="PrY4T" node="15T8UHynq3H" resolve="IMutableFlag" />
     </node>
     <node concept="PrWs8" id="6OyCGy4g52Y" role="PzmwI">
-      <ref role="PrY4T" node="1Yr26itwx8u" resolve="IStaticFlagConcept" />
+      <ref role="PrY4T" node="1Yr26itwx8u" resolve="IStaticFlag" />
     </node>
   </node>
   <node concept="PlHQZ" id="4o2nsMgBJ5Y">
@@ -316,6 +347,7 @@
     <node concept="PrWs8" id="2L1k$oXNUaR" role="PzmwI">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       <ref role="PrY4T" node="2L1k$oXDqJY" resolve="IPureVirtualisable" />
 >>>>>>> e035d6ce33... Move pure after visibility.
 =======
@@ -327,9 +359,12 @@
 =======
       <ref role="PrY4T" node="2L1k$oXDqJY" resolve="IPureVirtualFlagConcept" />
 >>>>>>> 1494c628ee... Major refactoring of flags
+=======
+      <ref role="PrY4T" node="2L1k$oXDqJY" resolve="IPureVirtualFlag" />
+>>>>>>> be102f3fab... Make naming of flag concepts consistent and shorter
     </node>
     <node concept="PrWs8" id="1Yr26iur2wG" role="PzmwI">
-      <ref role="PrY4T" node="1Yr26itwx8u" resolve="IStaticFlagConcept" />
+      <ref role="PrY4T" node="1Yr26itwx8u" resolve="IStaticFlag" />
     </node>
   </node>
   <node concept="1TIwiD" id="3v5DuFDls_I">
@@ -500,6 +535,7 @@
     <property role="EcuMT" value="3188920472788366140" />
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <property role="TrG5h" value="IVirtualizableConcept" />
     <property role="3GE5qa" value="method" />
 =======
@@ -508,6 +544,9 @@
 >>>>>>> 39e7298076... Group flags into a virtual package
 =======
     <property role="TrG5h" value="IVirtualFlagConcept" />
+=======
+    <property role="TrG5h" value="IVirtualFlag" />
+>>>>>>> be102f3fab... Make naming of flag concepts consistent and shorter
     <property role="3GE5qa" value="flag" />
 >>>>>>> 1494c628ee... Major refactoring of flags
     <node concept="1TJgyi" id="2L1k$oXxncX" role="1TKVEl">
@@ -627,6 +666,7 @@
     <node concept="PrWs8" id="6NtgknWJ20V" role="PzmwI">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       <ref role="PrY4T" node="2L1k$oXxncW" resolve="IVirtualableConcept" />
 =======
       <ref role="PrY4T" node="2L1k$oXxncW" resolve="IVirtualisableConcept" />
@@ -636,9 +676,13 @@
 >>>>>>> 41dbd51e8a... Refactor IPureVirtualisable to IPureVirtualisableConcept
 =======
       <ref role="PrY4T" node="2L1k$oXxncW" resolve="IVirtualFlagConcept" />
+=======
+      <ref role="PrY4T" node="2L1k$oXxncW" resolve="IVirtualFlag" />
+>>>>>>> be102f3fab... Make naming of flag concepts consistent and shorter
     </node>
 <<<<<<< HEAD
     <node concept="PrWs8" id="3OTimPpGcj0" role="PzmwI">
+<<<<<<< HEAD
       <ref role="PrY4T" node="2L1k$oXDqJY" resolve="IPureVirtualFlagConcept" />
 >>>>>>> 1494c628ee... Major refactoring of flags
 =======
@@ -653,12 +697,15 @@
     <node concept="PrWs8" id="7RFM8R3Me1P" role="PzmwI">
       <ref role="PrY4T" node="4o2nsMgBJ5Y" resolve="INamedClassMemberDeclaration" />
 >>>>>>> a5b410c665... Fix highlighting to be consistent and make the package name lowercase
+=======
+      <ref role="PrY4T" node="2L1k$oXDqJY" resolve="IPureVirtualFlag" />
+>>>>>>> be102f3fab... Make naming of flag concepts consistent and shorter
     </node>
     <node concept="PrWs8" id="1D2kn99oQ0S" role="PzmwI">
-      <ref role="PrY4T" node="5eDFAXBRQhJ" resolve="IConstExprFlagConcept" />
+      <ref role="PrY4T" node="5eDFAXBRQhJ" resolve="IConstExprFlag" />
     </node>
     <node concept="PrWs8" id="1D2kn9asHjj" role="PzmwI">
-      <ref role="PrY4T" node="1D2kn9asHi2" resolve="IExplicitFlagConcept" />
+      <ref role="PrY4T" node="1D2kn9asHi2" resolve="IExplicitFlag" />
     </node>
     <node concept="PrWs8" id="6ddXmWdS2eK" role="PzmwI">
       <ref role="PrY4T" to="mj1l:hEaDaGor63" resolve="ITyped" />
@@ -1073,9 +1120,10 @@
   </node>
   <node concept="PlHQZ" id="2L1k$oXDqJY">
     <property role="EcuMT" value="3188920472790477822" />
-    <property role="TrG5h" value="IPureVirtualFlagConcept" />
+    <property role="TrG5h" value="IPureVirtualFlag" />
     <property role="3GE5qa" value="flag" />
     <node concept="PrWs8" id="2L1k$oXDqJZ" role="PrDN$">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       <ref role="PrY4T" node="2L1k$oXxncW" resolve="IVirtualisable" />
@@ -1085,6 +1133,9 @@
 =======
       <ref role="PrY4T" node="2L1k$oXxncW" resolve="IVirtualFlagConcept" />
 >>>>>>> 1494c628ee... Major refactoring of flags
+=======
+      <ref role="PrY4T" node="2L1k$oXxncW" resolve="IVirtualFlag" />
+>>>>>>> be102f3fab... Make naming of flag concepts consistent and shorter
     </node>
     <node concept="1TJgyi" id="2L1k$oXDqK2" role="1TKVEl">
       <property role="IQ2nx" value="3188920472790477826" />
@@ -1649,8 +1700,20 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="4o2nsMgB$VW" resolve="MethodDeclaration" />
     </node>
+<<<<<<< HEAD
     <node concept="PrWs8" id="1rolTivilg$" role="PzmwI">
       <ref role="PrY4T" node="383ZxwZsgd5" resolve="INamedNamespaceMemberDeclaration" />
+=======
+  </node>
+  <node concept="PlHQZ" id="1Yr26itwsSZ">
+    <property role="EcuMT" value="2277423264798199359" />
+    <property role="3GE5qa" value="flag" />
+    <property role="TrG5h" value="IInlineFlag" />
+    <node concept="1TJgyi" id="1Yr26itwsT0" role="1TKVEl">
+      <property role="IQ2nx" value="2277423264798199360" />
+      <property role="TrG5h" value="isInlined" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+>>>>>>> be102f3fab... Make naming of flag concepts consistent and shorter
     </node>
   </node>
   <node concept="1TIwiD" id="1$h5d7v1dEb">
@@ -1717,12 +1780,29 @@
     </node>
   </node>
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 186ea3c3fb... Added bases 'Using Namespace Method' feature, cleaned up TextGens and Editors
 =======
   <node concept="1TIwiD" id="6gFj6gpBJFg">
     <property role="EcuMT" value="7217946820601641680" />
     <property role="3GE5qa" value="Namespace" />
     <property role="TrG5h" value="GlobalUsingGeneralNamespaceDeclaration" />
+=======
+  <node concept="PlHQZ" id="5eDFAXBRENn">
+    <property role="EcuMT" value="6028541369719368919" />
+    <property role="3GE5qa" value="flag" />
+    <property role="TrG5h" value="IExternFlag" />
+    <node concept="1TJgyi" id="5eDFAXBRENo" role="1TKVEl">
+      <property role="IQ2nx" value="6028541369719368920" />
+      <property role="TrG5h" value="isExtern" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1$h5d7v1dEb">
+    <property role="EcuMT" value="1806247817174637195" />
+    <property role="3GE5qa" value="namespace" />
+    <property role="TrG5h" value="UsingNamespaceAttributeDeclaration" />
+>>>>>>> be102f3fab... Make naming of flag concepts consistent and shorter
     <property role="34LRSv" value="using" />
     <property role="R4oN_" value="Using namespace &lt;...&gt;" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
@@ -1809,7 +1889,7 @@
   <node concept="PlHQZ" id="15T8UHynq3H">
     <property role="EcuMT" value="1259076789823447277" />
     <property role="3GE5qa" value="flag" />
-    <property role="TrG5h" value="IMutableFlagConcept" />
+    <property role="TrG5h" value="IMutableFlag" />
     <node concept="1TJgyi" id="15T8UHynq3I" role="1TKVEl">
       <property role="IQ2nx" value="1259076789823447278" />
       <property role="TrG5h" value="isMutable" />
@@ -1819,7 +1899,7 @@
   <node concept="PlHQZ" id="1Yr26itwx8u">
     <property role="EcuMT" value="2277423264798216734" />
     <property role="3GE5qa" value="flag" />
-    <property role="TrG5h" value="IStaticFlagConcept" />
+    <property role="TrG5h" value="IStaticFlag" />
     <node concept="1TJgyi" id="1Yr26itwx8v" role="1TKVEl">
       <property role="IQ2nx" value="2277423264798216735" />
       <property role="TrG5h" value="isStatic" />
@@ -1868,6 +1948,7 @@
     </node>
   </node>
 <<<<<<< HEAD
+<<<<<<< HEAD
   <node concept="1TIwiD" id="7fNEwqBx$6S">
     <property role="EcuMT" value="8355208679259521464" />
     <property role="3GE5qa" value="Namespace" />
@@ -1888,6 +1969,26 @@
       <property role="20kJfa" value="class_instance" />
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="7RFM8R3Me1y" resolve="NamespaceClassInstance" />
+=======
+  <node concept="PlHQZ" id="5eDFAXBRQhJ">
+    <property role="EcuMT" value="6028541369719415919" />
+    <property role="3GE5qa" value="flag" />
+    <property role="TrG5h" value="IConstExprFlag" />
+    <node concept="1TJgyi" id="5eDFAXBRQhK" role="1TKVEl">
+      <property role="IQ2nx" value="6028541369719415920" />
+      <property role="TrG5h" value="isConstExpr" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="5eDFAXBCper">
+    <property role="EcuMT" value="6028541369715364763" />
+    <property role="3GE5qa" value="flag" />
+    <property role="TrG5h" value="IVolatileFlag" />
+    <node concept="1TJgyi" id="5eDFAXBCpes" role="1TKVEl">
+      <property role="IQ2nx" value="6028541369715364764" />
+      <property role="TrG5h" value="isVolatile" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+>>>>>>> be102f3fab... Make naming of flag concepts consistent and shorter
     </node>
     <node concept="1TJgyj" id="7fNEwqBx$6W" role="1TKVEi">
       <property role="IQ2ns" value="8355208679259521468" />
@@ -1923,7 +2024,7 @@
       <ref role="PrY4T" to="x27k:5_l8w1EmTdf" resolve="IModuleContent" />
     </node>
     <node concept="PrWs8" id="6OyCGy3FHsc" role="PzmwI">
-      <ref role="PrY4T" node="1Yr26itwx8u" resolve="IStaticFlagConcept" />
+      <ref role="PrY4T" node="1Yr26itwx8u" resolve="IStaticFlag" />
     </node>
     <node concept="PrWs8" id="3VWY4WVNoY5" role="PzmwI">
       <ref role="PrY4T" node="5eDFAXBS4m7" resolve="IThreadLocalFlag" />
@@ -1967,7 +2068,7 @@
   <node concept="PlHQZ" id="1D2kn9asHi2">
     <property role="EcuMT" value="1892164344766190722" />
     <property role="3GE5qa" value="flag" />
-    <property role="TrG5h" value="IExplicitFlagConcept" />
+    <property role="TrG5h" value="IExplicitFlag" />
     <node concept="1TJgyi" id="1D2kn9asHiy" role="1TKVEl">
       <property role="IQ2nx" value="1892164344766190754" />
       <property role="TrG5h" value="isExplicit" />
