@@ -1858,6 +1858,9 @@
     <node concept="PrWs8" id="6OyCGy3FHsc" role="PzmwI">
       <ref role="PrY4T" node="1Yr26itwx8u" resolve="IStaticFlagConcept" />
     </node>
+    <node concept="PrWs8" id="3VWY4WVNoY5" role="PzmwI">
+      <ref role="PrY4T" node="5eDFAXBS4m7" resolve="IThreadLocalFlag" />
+    </node>
   </node>
 <<<<<<< HEAD
 >>>>>>> 54b1c4752f... Copied GlobalVarDecCPP and IAccessStaticClassVariable from screenshots
