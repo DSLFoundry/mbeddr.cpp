@@ -1111,6 +1111,11 @@
         </node>
       </node>
       <node concept="3clFbH" id="1N32NMNR5by" role="3cqZAp" />
+      <node concept="3SKdUt" id="c7Kd0eKU7a" role="3cqZAp">
+        <node concept="3SKdUq" id="c7Kd0eKU7c" role="3SKWNk">
+          <property role="3SKdUp" value="Error if this instance should have template types but does not" />
+        </node>
+      </node>
       <node concept="3clFbJ" id="1N32NMNTKOy" role="3cqZAp">
         <node concept="3clFbS" id="1N32NMNTKO$" role="3clFbx">
           <node concept="2MkqsV" id="1N32NMNTZA1" role="3cqZAp">
@@ -1152,11 +1157,16 @@
           </node>
         </node>
       </node>
+      <node concept="3SKdUt" id="c7Kd0eKUyf" role="3cqZAp">
+        <node concept="3SKdUq" id="c7Kd0eKUyh" role="3SKWNk">
+          <property role="3SKdUp" value="Error if this instance has template types but should not" />
+        </node>
+      </node>
       <node concept="3clFbJ" id="1N32NMNTZWE" role="3cqZAp">
         <node concept="3clFbS" id="1N32NMNTZWF" role="3clFbx">
           <node concept="2MkqsV" id="1N32NMNTZWG" role="3cqZAp">
             <node concept="Xl_RD" id="1N32NMNTZWH" role="2MkJ7o">
-              <property role="Xl_RC" value="Non-emplate class type with template specifiers." />
+              <property role="Xl_RC" value="Non-template class type with template specifiers." />
             </node>
             <node concept="1YBJjd" id="1N32NMNTZWI" role="2OEOjV">
               <ref role="1YBMHb" node="4K6s$_rq5Gi" resolve="inheritanceInstance" />
@@ -1558,17 +1568,6 @@
     <node concept="3clFbS" id="6hUtorEaE9B" role="18ibNy">
       <node concept="3clFbJ" id="2xmTzC2LUoJ" role="3cqZAp">
         <node concept="1Wc70l" id="72UYQRW0mIs" role="3clFbw">
-          <node concept="2OqwBi" id="72UYQRW0pEy" role="3uHU7w">
-            <node concept="2OqwBi" id="72UYQRW0nue" role="2Oq$k0">
-              <node concept="1YBJjd" id="72UYQRW0mV9" role="2Oq$k0">
-                <ref role="1YBMHb" node="6hUtorEaE9D" resolve="lcvd" />
-              </node>
-              <node concept="3TrEf2" id="72UYQRW0otO" role="2OqNvi">
-                <ref role="3Tt5mk" to="c4fa:3CmSUB7Fw7R" resolve="init" />
-              </node>
-            </node>
-            <node concept="3w_OXm" id="72UYQRW0qb3" role="2OqNvi" />
-          </node>
           <node concept="2OqwBi" id="2xmTzC2LWL2" role="3uHU7B">
             <node concept="2OqwBi" id="2xmTzC2LUQj" role="2Oq$k0">
               <node concept="1YBJjd" id="2xmTzC2LUp1" role="2Oq$k0">
@@ -1579,6 +1578,17 @@
               </node>
             </node>
             <node concept="3w_OXm" id="2xmTzC2LY6z" role="2OqNvi" />
+          </node>
+          <node concept="2OqwBi" id="72UYQRW0pEy" role="3uHU7w">
+            <node concept="2OqwBi" id="72UYQRW0nue" role="2Oq$k0">
+              <node concept="1YBJjd" id="72UYQRW0mV9" role="2Oq$k0">
+                <ref role="1YBMHb" node="6hUtorEaE9D" resolve="lcvd" />
+              </node>
+              <node concept="3TrEf2" id="72UYQRW0otO" role="2OqNvi">
+                <ref role="3Tt5mk" to="c4fa:3CmSUB7Fw7R" resolve="init" />
+              </node>
+            </node>
+            <node concept="3w_OXm" id="72UYQRW0qb3" role="2OqNvi" />
           </node>
         </node>
         <node concept="3clFbS" id="2xmTzC2LUoL" role="3clFbx">
@@ -1769,7 +1779,7 @@
               <ref role="1YBMHb" node="5i01kANrE35" resolve="classDeclaration" />
             </node>
             <node concept="2qgKlT" id="nGa9qSZb6X" role="2OqNvi">
-              <ref role="37wK5l" to="kntn:2xmTzC2MHBB" resolve="getAllLocalConstructors" />
+              <ref role="37wK5l" to="kntn:2xmTzC2MHBB" resolve="allLocalConstructors" />
             </node>
           </node>
           <node concept="1v1jN8" id="nGa9qSZckM" role="2OqNvi" />
@@ -4651,8 +4661,70 @@
     </node>
   </node>
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 857aa482f2... Replaced IAccessStatisClassVar for ClassStaticVarRef
 =======
+=======
+  <node concept="1YbPZF" id="3p40HKhxE68">
+    <property role="3GE5qa" value="class" />
+    <property role="TrG5h" value="typeof_InheritanceNameCollision" />
+    <node concept="3clFbS" id="3p40HKhxE69" role="18ibNy">
+      <node concept="3SKdUt" id="3p40HKhxJxb" role="3cqZAp">
+        <node concept="3SKdUq" id="3p40HKhxJxc" role="3SKWNk">
+          <property role="3SKdUp" value="Checks for name collisions in inherited classes." />
+        </node>
+      </node>
+      <node concept="3SKdUt" id="c7Kd0eKVcE" role="3cqZAp">
+        <node concept="3SKdUq" id="c7Kd0eKVcG" role="3SKWNk">
+          <property role="3SKdUp" value="Note: This check is not robust for templated types." />
+        </node>
+      </node>
+      <node concept="3cpWs8" id="3p40HKhxJxs" role="3cqZAp">
+        <node concept="3cpWsn" id="3p40HKhxJxv" role="3cpWs9">
+          <property role="TrG5h" value="usedAttributeNames" />
+          <node concept="_YKpA" id="3p40HKhxJxo" role="1tU5fm">
+            <node concept="17QB3L" id="3p40HKhxJxM" role="_ZDj9" />
+          </node>
+          <node concept="2ShNRf" id="3p40HKhxJyj" role="33vP2m">
+            <node concept="Tc6Ow" id="3p40HKhxJy8" role="2ShVmc">
+              <node concept="17QB3L" id="3p40HKhxJy9" role="HW$YZ" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3cpWs8" id="3p40HKhxJzd" role="3cqZAp">
+        <node concept="3cpWsn" id="3p40HKhxJzg" role="3cpWs9">
+          <property role="TrG5h" value="usedMethodNames" />
+          <node concept="_YKpA" id="3p40HKhxJz9" role="1tU5fm">
+            <node concept="17QB3L" id="3p40HKhxJzL" role="_ZDj9" />
+          </node>
+          <node concept="2ShNRf" id="3p40HKhxJ$X" role="33vP2m">
+            <node concept="Tc6Ow" id="3p40HKhxJ$M" role="2ShVmc">
+              <node concept="17QB3L" id="3p40HKhxJ$N" role="HW$YZ" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3cpWs8" id="3p40HKhxKrz" role="3cqZAp">
+        <node concept="3cpWsn" id="3p40HKhxKrA" role="3cpWs9">
+          <property role="TrG5h" value="actualClass" />
+          <node concept="3Tqbb2" id="3p40HKhxKrx" role="1tU5fm">
+            <ref role="ehGHo" to="wnzg:4o2nsMgBpPQ" resolve="ClassDeclaration" />
+          </node>
+          <node concept="2OqwBi" id="3p40HKhxK_z" role="33vP2m">
+            <node concept="1YBJjd" id="3p40HKhxKsJ" role="2Oq$k0">
+              <ref role="1YBMHb" node="3p40HKhxJwY" resolve="ii" />
+            </node>
+            <node concept="2Xjw5R" id="3p40HKhxKIe" role="2OqNvi">
+              <node concept="1xMEDy" id="3p40HKhxKIg" role="1xVPHs">
+                <node concept="chp4Y" id="3p40HKhxKKi" role="ri$Ld">
+                  <ref role="cht4Q" to="wnzg:4o2nsMgBpPQ" resolve="ClassDeclaration" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+>>>>>>> 128a1aeb4d... Consistentified(?) the class package.
       </node>
       <node concept="3clFbH" id="3p40HKhxJ_u" role="3cqZAp" />
       <node concept="2Gpval" id="3p40HKhxK3U" role="3cqZAp">
@@ -4887,10 +4959,30 @@
                       <ref role="37wK5l" to="kntn:r2pGcfLSmw" resolve="getFunctionStatements" />
                     </node>
                   </node>
+<<<<<<< HEAD
                   <node concept="2WmjW8" id="mwDIXwOc$h" role="2OqNvi">
                     <node concept="2OqwBi" id="mwDIXwOdu3" role="25WWJ7">
                       <node concept="1YBJjd" id="mwDIXwOd0c" role="2Oq$k0">
                         <ref role="1YBMHb" node="mwDIXwFf6b" resolve="nsar" />
+=======
+                  <node concept="X8dFx" id="7SgJHc7y40v" role="2OqNvi">
+                    <node concept="2OqwBi" id="7SgJHc7zxaz" role="25WWJ7">
+                      <node concept="2OqwBi" id="7SgJHc7yzS6" role="2Oq$k0">
+                        <node concept="2OqwBi" id="7SgJHc7yuY4" role="2Oq$k0">
+                          <node concept="Jnkvi" id="7SgJHc7yuz7" role="2Oq$k0">
+                            <ref role="1M0zk5" node="7SgJHc7xv3Y" resolve="ct" />
+                          </node>
+                          <node concept="3TrEf2" id="7SgJHc7yxg6" role="2OqNvi">
+                            <ref role="3Tt5mk" to="wnzg:4o2nsMgBEtY" resolve="class" />
+                          </node>
+                        </node>
+                        <node concept="2qgKlT" id="7SgJHc7yBng" role="2OqNvi">
+                          <ref role="37wK5l" to="kntn:4Mb2ywHsl_A" resolve="availableParentsForChild" />
+                          <node concept="3clFbT" id="7SgJHc7yCN_" role="37wK5m">
+                            <property role="3clFbU" value="true" />
+                          </node>
+                        </node>
+>>>>>>> 128a1aeb4d... Consistentified(?) the class package.
                       </node>
                       <node concept="2Xjw5R" id="mwDIXwOeki" role="2OqNvi">
                         <node concept="1xMEDy" id="mwDIXwOekk" role="1xVPHs">
@@ -4930,10 +5022,64 @@
             <node concept="1YBJjd" id="3p40HKhGUqZ" role="2Oq$k0">
               <ref role="1YBMHb" node="3p40HKhGUqD" resolve="iaci" />
             </node>
+<<<<<<< HEAD
             <node concept="2Xjw5R" id="3p40HKhGUG2" role="2OqNvi">
               <node concept="1xMEDy" id="3p40HKhGUG4" role="1xVPHs">
                 <node concept="chp4Y" id="3p40HKhGUI4" role="ri$Ld">
                   <ref role="cht4Q" to="wnzg:6NtgknWJ20B" resolve="ClassConstructorDeclaration" />
+=======
+            <node concept="9aQIb" id="7SgJHc7xWtL" role="9aQIa">
+              <node concept="3clFbS" id="7SgJHc7xWtM" role="9aQI4">
+                <node concept="3clFbF" id="7SgJHc7$a__" role="3cqZAp">
+                  <node concept="2OqwBi" id="7SgJHc7$a_B" role="3clFbG">
+                    <node concept="37vLTw" id="7SgJHc7$a_C" role="2Oq$k0">
+                      <ref role="3cqZAo" node="7SgJHc7xva8" resolve="supertypes" />
+                    </node>
+                    <node concept="X8dFx" id="7SgJHc7$a_D" role="2OqNvi">
+                      <node concept="2OqwBi" id="7SgJHc7$a_E" role="25WWJ7">
+                        <node concept="2OqwBi" id="7SgJHc7$a_F" role="2Oq$k0">
+                          <node concept="2OqwBi" id="7SgJHc7$a_G" role="2Oq$k0">
+                            <node concept="Jnkvi" id="7SgJHc7$a_H" role="2Oq$k0">
+                              <ref role="1M0zk5" node="7SgJHc7xv3Y" resolve="ct" />
+                            </node>
+                            <node concept="3TrEf2" id="7SgJHc7$a_I" role="2OqNvi">
+                              <ref role="3Tt5mk" to="wnzg:4o2nsMgBEtY" resolve="class" />
+                            </node>
+                          </node>
+                          <node concept="2qgKlT" id="7SgJHc7$a_J" role="2OqNvi">
+                            <ref role="37wK5l" to="kntn:4Mb2ywHsl_A" resolve="availableParentsForChild" />
+                            <node concept="3clFbT" id="7SgJHc7$a_K" role="37wK5m" />
+                          </node>
+                        </node>
+                        <node concept="3$u5V9" id="7SgJHc7$a_L" role="2OqNvi">
+                          <node concept="1bVj0M" id="7SgJHc7$a_M" role="23t8la">
+                            <node concept="3clFbS" id="7SgJHc7$a_N" role="1bW5cS">
+                              <node concept="3clFbF" id="7SgJHc7$a_O" role="3cqZAp">
+                                <node concept="2pJPEk" id="7SgJHc7$a_P" role="3clFbG">
+                                  <node concept="2pJPED" id="7SgJHc7$a_Q" role="2pJPEn">
+                                    <ref role="2pJxaS" to="yq40:fwMInzpHoK" resolve="PointerType" />
+                                    <node concept="2pIpSj" id="7SgJHc7$a_R" role="2pJxcM">
+                                      <ref role="2pIpSl" to="c4fa:6IWRcVPT6tm" resolve="baseType" />
+                                      <node concept="36biLy" id="7SgJHc7$a_S" role="2pJxcZ">
+                                        <node concept="37vLTw" id="7SgJHc7$a_T" role="36biLW">
+                                          <ref role="3cqZAo" node="7SgJHc7$a_U" resolve="it" />
+                                        </node>
+                                      </node>
+                                    </node>
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                            <node concept="Rh6nW" id="7SgJHc7$a_U" role="1bW2Oz">
+                              <property role="TrG5h" value="it" />
+                              <node concept="2jxLKc" id="7SgJHc7$a_V" role="1tU5fm" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+>>>>>>> 128a1aeb4d... Consistentified(?) the class package.
                 </node>
               </node>
               <node concept="1xIGOp" id="3p40HKhGUOc" role="1xVPHs" />
@@ -5518,6 +5664,11 @@
     <node concept="3clFbS" id="72UYQRWvwJm" role="18ibNy">
       <node concept="3clFbJ" id="72UYQRWvzhx" role="3cqZAp">
         <node concept="3clFbS" id="72UYQRWvzhz" role="3clFbx">
+          <node concept="3SKdUt" id="c7Kd0eKNZN" role="3cqZAp">
+            <node concept="3SKdUq" id="c7Kd0eKNZP" role="3SKWNk">
+              <property role="3SKdUp" value="Only allow pointers to be given to a delete expression" />
+            </node>
+          </node>
           <node concept="2MkqsV" id="72UYQRWv_X7" role="3cqZAp">
             <node concept="3cpWs3" id="72UYQRW$9h4" role="2MkJ7o">
               <node concept="3cpWs3" id="72UYQRW$8ic" role="3uHU7B">
@@ -6844,6 +6995,11 @@
     <property role="TrG5h" value="check_ClassType" />
     <property role="3GE5qa" value="class" />
     <node concept="3clFbS" id="2j_NnBnvkp7" role="18ibNy">
+      <node concept="3SKdUt" id="c7Kd0d3b8N" role="3cqZAp">
+        <node concept="3SKdUq" id="c7Kd0d3b8P" role="3SKWNk">
+          <property role="3SKdUp" value="Disallow classes containing themselves, excluding when they are parameters to a function or attribute" />
+        </node>
+      </node>
       <node concept="3clFbJ" id="2j_NnBnvmHd" role="3cqZAp">
         <node concept="1Wc70l" id="2H8o8lwLqOW" role="3clFbw">
           <node concept="2OqwBi" id="32KsbhT14iH" role="3uHU7w">
@@ -6880,7 +7036,7 @@
                   <ref role="1YBMHb" node="2j_NnBnvkp9" resolve="classType" />
                 </node>
                 <node concept="3TrEf2" id="2j_NnBnvqh$" role="2OqNvi">
-                  <ref role="3Tt5mk" to="wnzg:4o2nsMgBEtY" resolve="clazz" />
+                  <ref role="3Tt5mk" to="wnzg:4o2nsMgBEtY" resolve="class" />
                 </node>
               </node>
             </node>
@@ -6913,6 +7069,11 @@
         </node>
       </node>
       <node concept="3clFbH" id="32KsbhT0XQl" role="3cqZAp" />
+      <node concept="3SKdUt" id="c7Kd0d3bdP" role="3cqZAp">
+        <node concept="3SKdUq" id="c7Kd0d3bdR" role="3SKWNk">
+          <property role="3SKdUp" value="Prevents a class from trying to use the type of a class that it is nested inside." />
+        </node>
+      </node>
       <node concept="3clFbJ" id="2j_NnBnxFcB" role="3cqZAp">
         <node concept="3clFbS" id="2j_NnBnxFcD" role="3clFbx">
           <node concept="3clFbJ" id="2j_NnBnyvu3" role="3cqZAp">
@@ -6956,7 +7117,7 @@
                       <ref role="1YBMHb" node="2j_NnBnvkp9" resolve="classType" />
                     </node>
                     <node concept="3TrEf2" id="2j_NnBnyBZR" role="2OqNvi">
-                      <ref role="3Tt5mk" to="wnzg:4o2nsMgBEtY" resolve="clazz" />
+                      <ref role="3Tt5mk" to="wnzg:4o2nsMgBEtY" resolve="class" />
                     </node>
                   </node>
 >>>>>>> 8cdf9d8629... Added typesystem checks for nesting
@@ -7019,7 +7180,7 @@
                     <ref role="1YBMHb" node="2j_NnBnvkp9" resolve="classType" />
                   </node>
                   <node concept="3TrEf2" id="2j_NnBnxGcu" role="2OqNvi">
-                    <ref role="3Tt5mk" to="wnzg:4o2nsMgBEtY" resolve="clazz" />
+                    <ref role="3Tt5mk" to="wnzg:4o2nsMgBEtY" resolve="class" />
                   </node>
                 </node>
                 <node concept="2Xjw5R" id="2j_NnBnxHEi" role="2OqNvi">
@@ -8796,7 +8957,7 @@
                         </node>
                       </node>
                       <node concept="3TrEf2" id="4lmr4L5uYla" role="2OqNvi">
-                        <ref role="3Tt5mk" to="wnzg:4o2nsMgBEtY" resolve="clazz" />
+                        <ref role="3Tt5mk" to="wnzg:4o2nsMgBEtY" resolve="class" />
                       </node>
                     </node>
                     <node concept="2qgKlT" id="4lmr4L5v2h3" role="2OqNvi">
@@ -8830,7 +8991,7 @@
                         <ref role="1M0zk5" node="4lmr4L5lumh" resolve="ct" />
                       </node>
                       <node concept="3TrEf2" id="4lmr4L5w7KZ" role="2OqNvi">
-                        <ref role="3Tt5mk" to="wnzg:4o2nsMgBEtY" resolve="clazz" />
+                        <ref role="3Tt5mk" to="wnzg:4o2nsMgBEtY" resolve="class" />
                       </node>
                     </node>
                     <node concept="2qgKlT" id="4lmr4L5waqJ" role="2OqNvi">
@@ -8867,7 +9028,7 @@
                       </node>
                     </node>
                     <node concept="3TrEf2" id="4lmr4L5sAeL" role="2OqNvi">
-                      <ref role="3Tt5mk" to="wnzg:4o2nsMgBEtY" resolve="clazz" />
+                      <ref role="3Tt5mk" to="wnzg:4o2nsMgBEtY" resolve="class" />
                     </node>
                   </node>
                   <node concept="2qgKlT" id="4lmr4L5sBF1" role="2OqNvi">
@@ -8887,7 +9048,7 @@
                               <ref role="1M0zk5" node="4lmr4L5lumh" resolve="ct" />
                             </node>
                             <node concept="3TrEf2" id="4lmr4L5yy8u" role="2OqNvi">
-                              <ref role="3Tt5mk" to="wnzg:4o2nsMgBEtY" resolve="clazz" />
+                              <ref role="3Tt5mk" to="wnzg:4o2nsMgBEtY" resolve="class" />
                             </node>
                           </node>
                           <node concept="2OqwBi" id="4lmr4L5ypCG" role="3uHU7B">
@@ -8895,7 +9056,7 @@
                               <ref role="3cqZAo" node="4lmr4L5xfLx" resolve="it" />
                             </node>
                             <node concept="3TrEf2" id="4lmr4L5yqRE" role="2OqNvi">
-                              <ref role="3Tt5mk" to="wnzg:4o2nsMgBEtY" resolve="clazz" />
+                              <ref role="3Tt5mk" to="wnzg:4o2nsMgBEtY" resolve="class" />
                             </node>
                           </node>
                         </node>

@@ -556,6 +556,7 @@
                         </node>
 <<<<<<< HEAD
                         <node concept="2qgKlT" id="6_kdBKMWMqE" role="2OqNvi">
+<<<<<<< HEAD
                           <ref role="37wK5l" to="kntn:2xmTzC2MHBB" resolve="getAllLocalConstructors" />
 =======
   <node concept="1M2fIO" id="ZKpU3C45zg">
@@ -582,11 +583,16 @@
                       </node>
                       <node concept="3TrcHB" id="7RFM8R0YLmg" role="2OqNvi">
                         <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+=======
+                          <ref role="37wK5l" to="kntn:2xmTzC2MHBB" resolve="allLocalConstructors" />
+                        </node>
+>>>>>>> 128a1aeb4d... Consistentified(?) the class package.
                       </node>
                     </node>
                   </node>
                 </node>
               </node>
+<<<<<<< HEAD
               <node concept="2OqwBi" id="7RFM8R0Rvpx" role="37vLTJ">
                 <node concept="EsrRn" id="7RFM8R0Rvpy" role="2Oq$k0" />
                 <node concept="3TrcHB" id="7RFM8R0Rvpz" role="2OqNvi">
@@ -616,6 +622,27 @@
                   <node concept="EsrRn" id="6gFj6gpNab7" role="2Oq$k0" />
                   <node concept="3TrEf2" id="6gFj6gpNb4L" role="2OqNvi">
                     <ref role="3Tt5mk" to="wnzg:6gFj6gpBJF$" resolve="namespace" />
+=======
+              <node concept="3clFbF" id="2xmTzC2NJmu" role="3cqZAp">
+                <node concept="2OqwBi" id="2xmTzC2NJ$W" role="3clFbG">
+                  <node concept="37vLTw" id="2xmTzC2NJms" role="2Oq$k0">
+                    <ref role="3cqZAo" node="6hUtorEuXyd" resolve="cScope" />
+                  </node>
+                  <node concept="liA8E" id="2xmTzC2NJNV" role="2OqNvi">
+                    <ref role="37wK5l" to="o8zo:7ipADkTevN6" resolve="addScope" />
+                    <node concept="2YIFZM" id="2xmTzC2NKTg" role="37wK5m">
+                      <ref role="37wK5l" to="o8zo:3jEbQoczdCs" resolve="forResolvableElements" />
+                      <ref role="1Pybhc" to="o8zo:4IP40Bi3e_R" resolve="ListScope" />
+                      <node concept="2OqwBi" id="6_kdBKMWO5z" role="37wK5m">
+                        <node concept="37vLTw" id="2xmTzC2NLq3" role="2Oq$k0">
+                          <ref role="3cqZAo" node="2xmTzC2MgH2" resolve="pClass" />
+                        </node>
+                        <node concept="2qgKlT" id="6_kdBKMWPSg" role="2OqNvi">
+                          <ref role="37wK5l" to="kntn:2xmTzC2MVik" resolve="allInheritedConstructors" />
+                        </node>
+                      </node>
+                    </node>
+>>>>>>> 128a1aeb4d... Consistentified(?) the class package.
                   </node>
                 </node>
                 <node concept="3TrcHB" id="6gFj6gpNcrF" role="2OqNvi">
@@ -645,6 +672,12 @@
                     <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
                   </node>
                 </node>
+<<<<<<< HEAD
+=======
+                <node concept="3TrEf2" id="2xmTzC2P5$g" role="2OqNvi">
+                  <ref role="3Tt5mk" to="wnzg:4o2nsMgBEtY" resolve="class" />
+                </node>
+>>>>>>> 128a1aeb4d... Consistentified(?) the class package.
               </node>
               <node concept="2OqwBi" id="6gFj6gpPl5r" role="37vLTJ">
                 <node concept="EsrRn" id="6gFj6gpPkS5" role="2Oq$k0" />
@@ -930,11 +963,11 @@
                                 </node>
                               </node>
                               <node concept="3TrEf2" id="3n$8_XbdLLr" role="2OqNvi">
-                                <ref role="3Tt5mk" to="wnzg:4o2nsMgBEtY" resolve="clazz" />
+                                <ref role="3Tt5mk" to="wnzg:4o2nsMgBEtY" resolve="class" />
                               </node>
                             </node>
                             <node concept="2qgKlT" id="3n$8_XbdOlk" role="2OqNvi">
-                              <ref role="37wK5l" to="kntn:2xmTzC2MHBB" resolve="getAllLocalConstructors" />
+                              <ref role="37wK5l" to="kntn:2xmTzC2MHBB" resolve="allLocalConstructors" />
                             </node>
                           </node>
                           <node concept="3zZkjj" id="3n$8_XbdPYN" role="2OqNvi">
@@ -1413,10 +1446,13 @@
     </node>
   </node>
 <<<<<<< HEAD
+<<<<<<< HEAD
   <node concept="1M2fIO" id="6hUtorEt3FS">
     <property role="3GE5qa" value="class" />
     <ref role="1M2myG" to="wnzg:6hUtorE0jsx" resolve="IClassTyped" />
   </node>
+=======
+>>>>>>> 128a1aeb4d... Consistentified(?) the class package.
   <node concept="1M2fIO" id="7DDmkyXkvJ">
     <property role="3GE5qa" value="method.constructor" />
     <ref role="1M2myG" to="wnzg:7DDmkyVr_r" resolve="ConstructorInitializedAttribute" />
@@ -1662,7 +1698,7 @@
                         <ref role="3cqZAo" node="7DDmkza_SX" resolve="pClass" />
                       </node>
                       <node concept="2qgKlT" id="7DDmkzaChT" role="2OqNvi">
-                        <ref role="37wK5l" to="kntn:2xmTzC2MHBB" resolve="getAllLocalConstructors" />
+                        <ref role="37wK5l" to="kntn:2xmTzC2MHBB" resolve="allLocalConstructors" />
                       </node>
                     </node>
                     <node concept="3zZkjj" id="7DDmkzaCVG" role="2OqNvi">
@@ -1799,6 +1835,7 @@
                       <ref role="3cqZAo" node="7DDmkza_SX" resolve="pClass" />
                     </node>
                     <node concept="2qgKlT" id="7DDmkzaWIX" role="2OqNvi">
+<<<<<<< HEAD
                       <ref role="37wK5l" to="kntn:2xmTzC2MVik" resolve="getInheritedConstructors" />
 =======
                     <node concept="Rh6nW" id="ZKpU3C5god" role="1bW2Oz">
@@ -1811,6 +1848,9 @@
                         <node concept="2jxLKc" id="64ejoCJVXHR" role="1tU5fm" />
                       </node>
 >>>>>>> 5fffaff81e... added broken scoping
+=======
+                      <ref role="37wK5l" to="kntn:2xmTzC2MVik" resolve="allInheritedConstructors" />
+>>>>>>> 128a1aeb4d... Consistentified(?) the class package.
                     </node>
                   </node>
                 </node>
@@ -2815,11 +2855,11 @@
                       <ref role="3cqZAo" node="b637l2blq5" resolve="pClass" />
                     </node>
                     <node concept="3TrEf2" id="7SgJHc7HK6E" role="2OqNvi">
-                      <ref role="3Tt5mk" to="wnzg:4o2nsMgBEtY" resolve="clazz" />
+                      <ref role="3Tt5mk" to="wnzg:4o2nsMgBEtY" resolve="class" />
                     </node>
                   </node>
                   <node concept="2qgKlT" id="7SgJHc7HMFT" role="2OqNvi">
-                    <ref role="37wK5l" to="kntn:2xmTzC2MHBB" resolve="getAllLocalConstructors" />
+                    <ref role="37wK5l" to="kntn:2xmTzC2MHBB" resolve="allLocalConstructors" />
                   </node>
                 </node>
                 <node concept="3zZkjj" id="7SgJHc7HOlw" role="2OqNvi">
@@ -2874,7 +2914,7 @@
     <property role="3GE5qa" value="class" />
     <ref role="1M2myG" to="wnzg:1yn8PkxYuRh" resolve="InnerClassType" />
     <node concept="1N5Pfh" id="1yn8PkxYBnr" role="1Mr941">
-      <ref role="1N5Vy1" to="wnzg:4o2nsMgBEtY" resolve="clazz" />
+      <ref role="1N5Vy1" to="wnzg:4o2nsMgBEtY" resolve="class" />
       <node concept="3dgokm" id="1yn8PkxYBww" role="1N6uqs">
         <node concept="3clFbS" id="1yn8PkxYBwy" role="2VODD2">
           <node concept="3clFbF" id="1yn8PkxYBz$" role="3cqZAp">
@@ -2886,11 +2926,11 @@
                   <node concept="2OqwBi" id="1yn8PkxYC7M" role="2Oq$k0">
                     <node concept="3kakTB" id="1yn8PkxYBPu" role="2Oq$k0" />
                     <node concept="3TrEf2" id="1yn8PkxYCRB" role="2OqNvi">
-                      <ref role="3Tt5mk" to="wnzg:1yn8PkxYuRi" resolve="outerclassType" />
+                      <ref role="3Tt5mk" to="wnzg:1yn8PkxYuRi" resolve="outerClassType" />
                     </node>
                   </node>
                   <node concept="3TrEf2" id="1yn8PkxYEmP" role="2OqNvi">
-                    <ref role="3Tt5mk" to="wnzg:4o2nsMgBEtY" resolve="clazz" />
+                    <ref role="3Tt5mk" to="wnzg:4o2nsMgBEtY" resolve="class" />
                   </node>
                 </node>
                 <node concept="2qgKlT" id="1yn8PkxZrA1" role="2OqNvi">
@@ -2907,9 +2947,14 @@
     <property role="3GE5qa" value="class" />
     <ref role="1M2myG" to="wnzg:4o2nsMgBEtu" resolve="ClassType" />
     <node concept="1N5Pfh" id="ZKpU3C50EV" role="1Mr941">
-      <ref role="1N5Vy1" to="wnzg:4o2nsMgBEtY" resolve="clazz" />
+      <ref role="1N5Vy1" to="wnzg:4o2nsMgBEtY" resolve="class" />
       <node concept="3dgokm" id="ZKpU3C50EY" role="1N6uqs">
         <node concept="3clFbS" id="ZKpU3C50EZ" role="2VODD2">
+          <node concept="3SKdUt" id="c7Kd0d39Ib" role="3cqZAp">
+            <node concept="3SKdUq" id="c7Kd0d39Id" role="3SKWNk">
+              <property role="3SKdUp" value="Retrieves all non-template classes." />
+            </node>
+          </node>
           <node concept="3clFbF" id="ZKpU3C51uD" role="3cqZAp">
             <node concept="2YIFZM" id="ZKpU3C53dL" role="3clFbG">
               <ref role="1Pybhc" to="o8zo:4IP40Bi3e_R" resolve="ListScope" />
@@ -2966,5 +3011,4 @@
     </node>
   </node>
 </model>
-
 

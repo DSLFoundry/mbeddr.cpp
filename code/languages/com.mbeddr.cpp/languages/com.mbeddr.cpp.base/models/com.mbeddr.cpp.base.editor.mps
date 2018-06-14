@@ -90,6 +90,7 @@
       <concept id="1597643335227097138" name="jetbrains.mps.lang.editor.structure.QueryFunctionParameter_TransformationMenu_node" flags="ng" index="7Obwk" />
       <concept id="6516520003787916624" name="jetbrains.mps.lang.editor.structure.QueryFunction_TransformationMenu_Condition" flags="ig" index="27VH4U" />
 <<<<<<< HEAD
+<<<<<<< HEAD
       <concept id="7429591467341004871" name="jetbrains.mps.lang.editor.structure.TransformationMenuPart_Group" flags="ng" index="aenpk">
         <child id="7429591467341004877" name="condition" index="aenpu" />
       </concept>
@@ -97,6 +98,8 @@
 >>>>>>> 8526e6c0af... Finished the other using statements, only TextGen left.
 =======
 >>>>>>> 09067ffb17... Added support for the global Namespace Declaration.
+=======
+>>>>>>> 128a1aeb4d... Consistentified(?) the class package.
       <concept id="1140524381322" name="jetbrains.mps.lang.editor.structure.CellModel_ListWithRole" flags="ng" index="2czfm3">
         <property id="1140524450557" name="separatorText" index="2czwfO" />
         <child id="1176897874615" name="nodeFactory" index="4_6I_" />
@@ -218,7 +221,6 @@
       <concept id="2896773699153795590" name="jetbrains.mps.lang.editor.structure.TransformationLocation_SideTransform" flags="ng" index="3cWJ9i">
         <child id="3473224453637651919" name="placeInCell" index="CtIbM" />
       </concept>
-      <concept id="7342352913006985500" name="jetbrains.mps.lang.editor.structure.TransformationLocation_Completion" flags="ng" index="3eGOoe" />
       <concept id="1139535219966" name="jetbrains.mps.lang.editor.structure.CellActionMapDeclaration" flags="ig" index="1h_SRR">
         <reference id="1139535219968" name="applicableConcept" index="1h_SK9" />
         <child id="1139535219969" name="item" index="1h_SK8" />
@@ -295,7 +297,10 @@
       </concept>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       <concept id="7985135009827365938" name="jetbrains.mps.lang.editor.structure.TransformationMenuPart_Placeholder" flags="ng" index="1IAO7e" />
+=======
+>>>>>>> 128a1aeb4d... Consistentified(?) the class package.
       <concept id="5624877018226904808" name="jetbrains.mps.lang.editor.structure.TransformationMenu_Named" flags="ng" index="3ICXOK" />
       <concept id="5624877018228267058" name="jetbrains.mps.lang.editor.structure.ITransformationMenu" flags="ng" index="3INCJE">
         <child id="1638911550608572412" name="sections" index="IW6Ez" />
@@ -1004,7 +1009,14 @@
     <property role="3GE5qa" value="class" />
     <ref role="1XX52x" to="wnzg:4o2nsMgBEtu" resolve="ClassType" />
     <node concept="1iCGBv" id="4o2nsMgBEuj" role="2wV5jI">
+<<<<<<< HEAD
       <ref role="1NtTu8" to="wnzg:4o2nsMgBEtY" resolve="clazz" />
+=======
+      <ref role="1NtTu8" to="wnzg:4o2nsMgBEtY" resolve="class" />
+      <node concept="A1WHr" id="6oRbCP61u9n" role="3vIgyS">
+        <ref role="2ZyFGn" to="wnzg:4o2nsMgBEtu" resolve="ClassType" />
+      </node>
+>>>>>>> 128a1aeb4d... Consistentified(?) the class package.
       <node concept="1sVBvm" id="4o2nsMgBEul" role="1sWHZn">
         <node concept="3F0A7n" id="4o2nsMgBEuF" role="2wV5jI">
           <property role="1Intyy" value="true" />
@@ -1493,6 +1505,7 @@
   <node concept="IW6AY" id="6e$PORhMQc$">
     <property role="3GE5qa" value="class" />
     <ref role="aqKnT" to="wnzg:3UsoL$l5qkL" resolve="InheritanceInstance" />
+<<<<<<< HEAD
     <node concept="1Qtc8_" id="6e$PORhMQc_" role="IW6Ez">
       <node concept="3eGOoe" id="6e$PORhMQcF" role="1Qtc8$" />
       <node concept="aenpk" id="6e$PORhMQcJ" role="1Qtc8A">
@@ -1542,6 +1555,118 @@
             <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
           </node>
         </node>
+=======
+    <node concept="1Qtc8_" id="1N32NMNSrbD" role="IW6Ez">
+      <node concept="IWgqT" id="1N32NMNSrcd" role="1Qtc8A">
+        <node concept="1hCUdq" id="1N32NMNSrcf" role="1hCUd6">
+          <node concept="3clFbS" id="1N32NMNSrch" role="2VODD2">
+            <node concept="3clFbF" id="1N32NMNSrld" role="3cqZAp">
+              <node concept="Xl_RD" id="1N32NMNSrlc" role="3clFbG">
+                <property role="Xl_RC" value="&lt;" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="IWg2L" id="1N32NMNSrcj" role="IWgqQ">
+          <node concept="3clFbS" id="1N32NMNSrcl" role="2VODD2">
+            <node concept="3SKdUt" id="c7Kd0eKRM9" role="3cqZAp">
+              <node concept="3SKdUq" id="c7Kd0eKRMb" role="3SKWNk">
+                <property role="3SKdUp" value="Tranform this instance into a templated version" />
+              </node>
+            </node>
+            <node concept="3cpWs8" id="1N32NMNSs9r" role="3cqZAp">
+              <node concept="3cpWsn" id="1N32NMNSs9u" role="3cpWs9">
+                <property role="TrG5h" value="templated" />
+                <node concept="3Tqbb2" id="1N32NMNSs9p" role="1tU5fm">
+                  <ref role="ehGHo" to="1yyn:1N32NMNMKsa" resolve="TemplateInheritanceInstance" />
+                </node>
+                <node concept="2ShNRf" id="1N32NMNSscA" role="33vP2m">
+                  <node concept="3zrR0B" id="1N32NMNSsc$" role="2ShVmc">
+                    <node concept="3Tqbb2" id="1N32NMNSsc_" role="3zrR0E">
+                      <ref role="ehGHo" to="1yyn:1N32NMNMKsa" resolve="TemplateInheritanceInstance" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3SKdUt" id="c7Kd0eKRUC" role="3cqZAp">
+              <node concept="3SKdUq" id="c7Kd0eKRUE" role="3SKWNk">
+                <property role="3SKdUp" value="Keep the class and visibility" />
+              </node>
+            </node>
+            <node concept="3clFbF" id="1N32NMNSsdM" role="3cqZAp">
+              <node concept="37vLTI" id="1N32NMNStvR" role="3clFbG">
+                <node concept="2OqwBi" id="1N32NMNStPV" role="37vLTx">
+                  <node concept="7Obwk" id="1N32NMNStEP" role="2Oq$k0" />
+                  <node concept="3TrcHB" id="1N32NMNSucA" role="2OqNvi">
+                    <ref role="3TsBF5" to="wnzg:3UsoL$l5qkP" resolve="visibility" />
+                  </node>
+                </node>
+                <node concept="2OqwBi" id="1N32NMNSsmC" role="37vLTJ">
+                  <node concept="37vLTw" id="1N32NMNSsdK" role="2Oq$k0">
+                    <ref role="3cqZAo" node="1N32NMNSs9u" resolve="templated" />
+                  </node>
+                  <node concept="3TrcHB" id="1N32NMNSsH$" role="2OqNvi">
+                    <ref role="3TsBF5" to="wnzg:3UsoL$l5qkP" resolve="visibility" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="1N32NMNSulC" role="3cqZAp">
+              <node concept="37vLTI" id="1N32NMNSvIx" role="3clFbG">
+                <node concept="2OqwBi" id="1N32NMNSvTz" role="37vLTx">
+                  <node concept="7Obwk" id="1N32NMNSvJ4" role="2Oq$k0" />
+                  <node concept="3TrEf2" id="1N32NMNSwjp" role="2OqNvi">
+                    <ref role="3Tt5mk" to="wnzg:3UsoL$l5qkM" resolve="parentClass" />
+                  </node>
+                </node>
+                <node concept="2OqwBi" id="1N32NMNSuGZ" role="37vLTJ">
+                  <node concept="37vLTw" id="1N32NMNSulA" role="2Oq$k0">
+                    <ref role="3cqZAo" node="1N32NMNSs9u" resolve="templated" />
+                  </node>
+                  <node concept="3TrEf2" id="1N32NMNSv8M" role="2OqNvi">
+                    <ref role="3Tt5mk" to="wnzg:3UsoL$l5qkM" resolve="parentClass" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="1N32NMNSrEU" role="3cqZAp">
+              <node concept="2OqwBi" id="1N32NMNSrMa" role="3clFbG">
+                <node concept="7Obwk" id="1N32NMNSrET" role="2Oq$k0" />
+                <node concept="1P9Npp" id="1N32NMNSs6E" role="2OqNvi">
+                  <node concept="37vLTw" id="1N32NMNSwp5" role="1P9ThW">
+                    <ref role="3cqZAo" node="1N32NMNSs9u" resolve="templated" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="27VH4U" id="1N32NMNSwvU" role="2jiSrf">
+          <node concept="3clFbS" id="1N32NMNSwvV" role="2VODD2">
+            <node concept="3clFbF" id="1N32NMNSwFM" role="3cqZAp">
+              <node concept="2OqwBi" id="1N32NMNSxJw" role="3clFbG">
+                <node concept="2OqwBi" id="1N32NMNSwSe" role="2Oq$k0">
+                  <node concept="7Obwk" id="1N32NMNSwFL" role="2Oq$k0" />
+                  <node concept="3TrEf2" id="1N32NMNSxa1" role="2OqNvi">
+                    <ref role="3Tt5mk" to="wnzg:3UsoL$l5qkM" resolve="parentClass" />
+                  </node>
+                </node>
+                <node concept="1mIQ4w" id="1N32NMNSyry" role="2OqNvi">
+                  <node concept="chp4Y" id="1N32NMNSyFW" role="cj9EA">
+                    <ref role="cht4Q" to="1yyn:ZKpU3C3Nka" resolve="TemplateClassDeclaration" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3cWJ9i" id="1N32NMNSrc2" role="1Qtc8$">
+        <node concept="CtIbL" id="1N32NMNSrc4" role="CtIbM">
+          <property role="CtIbK" value="RIGHT" />
+        </node>
+>>>>>>> 128a1aeb4d... Consistentified(?) the class package.
       </node>
       <node concept="2iRfu4" id="6oRbCP62xl9" role="2iSdaV" />
     </node>
@@ -1911,6 +2036,7 @@
     </node>
     <node concept="1hA7zw" id="6hUtorEg0J$" role="1h_SK8">
       <property role="1hAc7j" value="delete_action_id" />
+      <property role="1hHO97" value="Removes the current selected class constructor selection" />
       <node concept="1hAIg9" id="6hUtorEg0J_" role="1hA7z_">
         <node concept="3clFbS" id="6hUtorEg0JA" role="2VODD2">
           <node concept="3clFbF" id="6hUtorEg11v" role="3cqZAp">
@@ -1922,6 +2048,21 @@
                   <ref role="3Tt5mk" to="wnzg:6hUtorE26va" resolve="constructor" />
                 </node>
               </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="jK8Ss" id="c7Kd0eKWr0" role="jK8aL">
+        <node concept="3clFbS" id="c7Kd0eKWr1" role="2VODD2">
+          <node concept="3clFbF" id="c7Kd0eKWr2" role="3cqZAp">
+            <node concept="2OqwBi" id="c7Kd0eKWr3" role="3clFbG">
+              <node concept="2OqwBi" id="c7Kd0eKWr4" role="2Oq$k0">
+                <node concept="0IXxy" id="c7Kd0eKWr5" role="2Oq$k0" />
+                <node concept="3TrEf2" id="c7Kd0eKWr6" role="2OqNvi">
+                  <ref role="3Tt5mk" to="wnzg:6hUtorE26va" resolve="constructor" />
+                </node>
+              </node>
+              <node concept="3x8VRR" id="c7Kd0eKWr7" role="2OqNvi" />
             </node>
           </node>
         </node>
@@ -2315,10 +2456,38 @@
               <ref role="1NtTu8" to="wnzg:6hUtorE99Pe" resolve="constructor_arg_actuals" />
               <ref role="1ERwB7" node="6hUtorEdeMU" resolve="DeleteCurrentConstructorSelection" />
             </node>
+<<<<<<< HEAD
             <node concept="3F0ifn" id="6hUtorEaE8M" role="3EZMnx">
               <property role="3F0ifm" value=")" />
               <node concept="11LMrY" id="6hUtorEaE8U" role="3F10Kt">
                 <property role="VOm3f" value="true" />
+=======
+            <node concept="3EZMnI" id="6hUtorEaDRF" role="1QoVPY">
+              <node concept="3F0ifn" id="6hUtorEaDRH" role="3EZMnx">
+                <property role="3F0ifm" value="(" />
+                <ref role="1ERwB7" node="6hUtorEdeMU" resolve="DeleteCurrentConstructorSelection" />
+                <node concept="11LMrY" id="6hUtorEaE9e" role="3F10Kt">
+                  <property role="VOm3f" value="true" />
+                </node>
+                <node concept="11L4FC" id="6hUtorEaE9n" role="3F10Kt">
+                  <property role="VOm3f" value="true" />
+                </node>
+              </node>
+              <node concept="3F2HdR" id="6hUtorE9cJd" role="3EZMnx">
+                <property role="2czwfO" value="," />
+                <property role="1cu_pB" value="1" />
+                <ref role="1NtTu8" to="wnzg:6hUtorE99Pe" resolve="constructorArgActuals" />
+                <ref role="1ERwB7" node="6hUtorEdeMU" resolve="DeleteCurrentConstructorSelection" />
+              </node>
+              <node concept="3F0ifn" id="6hUtorEaE8M" role="3EZMnx">
+                <property role="3F0ifm" value=")" />
+                <node concept="11LMrY" id="6hUtorEaE8U" role="3F10Kt">
+                  <property role="VOm3f" value="true" />
+                </node>
+                <node concept="11L4FC" id="6hUtorEaE92" role="3F10Kt">
+                  <property role="VOm3f" value="true" />
+                </node>
+>>>>>>> 128a1aeb4d... Consistentified(?) the class package.
               </node>
               <node concept="11L4FC" id="6hUtorEaE92" role="3F10Kt">
                 <property role="VOm3f" value="true" />
@@ -5521,7 +5690,7 @@
     <node concept="3EZMnI" id="1yn8PkxYwP_" role="2wV5jI">
       <node concept="1kIj98" id="1yn8PkxYwPM" role="3EZMnx">
         <node concept="3F1sOY" id="1yn8PkxYwPW" role="1kIj9b">
-          <ref role="1NtTu8" to="wnzg:1yn8PkxYuRi" resolve="outerclassType" />
+          <ref role="1NtTu8" to="wnzg:1yn8PkxYuRi" resolve="outerClassType" />
         </node>
       </node>
       <node concept="3F0ifn" id="1yn8PkxYwQb" role="3EZMnx">
@@ -5534,7 +5703,7 @@
         </node>
       </node>
       <node concept="1iCGBv" id="1yn8PkxYwQW" role="3EZMnx">
-        <ref role="1NtTu8" to="wnzg:4o2nsMgBEtY" resolve="clazz" />
+        <ref role="1NtTu8" to="wnzg:4o2nsMgBEtY" resolve="class" />
         <node concept="1sVBvm" id="1yn8PkxYwQY" role="1sWHZn">
           <node concept="3F0A7n" id="1yn8PkxYwRq" role="2wV5jI">
             <property role="1Intyy" value="true" />
