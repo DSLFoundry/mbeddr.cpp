@@ -37,6 +37,7 @@
 =======
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
 <<<<<<< HEAD
+<<<<<<< HEAD
     <import index="c4fa" ref="r:9f0e84b6-2ec7-4f9e-83e0-feedc77b63a3(com.mbeddr.core.statements.structure)" implicit="true" />
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -48,9 +49,13 @@
 >>>>>>> f6a9ef0714... Fix TextGen for arrays in classes, add type and size checking
 =======
 >>>>>>> 546a94c71c... Auto type scope fixed
+=======
+    <import index="c4fa" ref="r:9f0e84b6-2ec7-4f9e-83e0-feedc77b63a3(com.mbeddr.core.statements.structure)" implicit="true" />
+>>>>>>> 5c976ae824... Fix constraints being gone and typesystem test
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
+      <concept id="1080223426719" name="jetbrains.mps.baseLanguage.structure.OrExpression" flags="nn" index="22lmx$" />
       <concept id="1082485599095" name="jetbrains.mps.baseLanguage.structure.BlockStatement" flags="nn" index="9aQIb">
         <child id="1082485599096" name="statements" index="9aQI4" />
       </concept>
@@ -222,6 +227,8 @@
 >>>>>>> b70d14e537... loads of stuff
     </language>
     <language id="3f4bc5f5-c6c1-4a28-8b10-c83066ffa4a1" name="jetbrains.mps.lang.constraints">
+      <concept id="6702802731807351367" name="jetbrains.mps.lang.constraints.structure.ConstraintFunction_CanBeAChild" flags="in" index="9S07l" />
+      <concept id="1202989658459" name="jetbrains.mps.lang.constraints.structure.ConstraintFunctionParameter_parentNode" flags="nn" index="nLn13" />
       <concept id="8966504967485224688" name="jetbrains.mps.lang.constraints.structure.ConstraintFunctionParameter_contextNode" flags="nn" index="2rP1CM" />
       <concept id="5564765827938091039" name="jetbrains.mps.lang.constraints.structure.ConstraintFunction_ReferentSearchScope_Scope" flags="ig" index="3dgokm" />
 =======
@@ -250,6 +257,7 @@
 >>>>>>> 09067ffb17... Added support for the global Namespace Declaration.
       <concept id="1213093968558" name="jetbrains.mps.lang.constraints.structure.ConceptConstraints" flags="ng" index="1M2fIO">
         <reference id="1213093996982" name="concept" index="1M2myG" />
+        <child id="6702802731807737306" name="canBeChild" index="9Vyp8" />
         <child id="1213098023997" name="property" index="1MhHOB" />
         <child id="1213100494875" name="referent" index="1Mr941" />
       </concept>
@@ -298,12 +306,18 @@
         <reference id="2644386474301421079" name="linkDeclaration" index="359W_F" />
       </concept>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <concept id="1139621453865" name="jetbrains.mps.lang.smodel.structure.Node_IsInstanceOfOperation" flags="nn" index="1mIQ4w">
         <child id="1177027386292" name="conceptArgument" index="cj9EA" />
       </concept>
 >>>>>>> d979bf937a... Namespace EX and TS Tests.
 =======
 >>>>>>> 546a94c71c... Auto type scope fixed
+=======
+      <concept id="1139621453865" name="jetbrains.mps.lang.smodel.structure.Node_IsInstanceOfOperation" flags="nn" index="1mIQ4w">
+        <child id="1177027386292" name="conceptArgument" index="cj9EA" />
+      </concept>
+>>>>>>> 5c976ae824... Fix constraints being gone and typesystem test
       <concept id="1146171026731" name="jetbrains.mps.lang.smodel.structure.Property_HasValue_Enum" flags="nn" index="3t7uKx">
         <child id="1146171026732" name="value" index="3t7uKA" />
       </concept>
@@ -1404,7 +1418,7 @@
     <ref role="1M2myG" to="wnzg:6hUtorE0jsx" resolve="IClassTyped" />
   </node>
   <node concept="1M2fIO" id="7DDmkyXkvJ">
-    <property role="3GE5qa" value="constructor" />
+    <property role="3GE5qa" value="method.constructor" />
     <ref role="1M2myG" to="wnzg:7DDmkyVr_r" resolve="ConstructorInitializedAttribute" />
     <node concept="1N5Pfh" id="7DDmkz1IpA" role="1Mr941">
       <ref role="1N5Vy1" to="wnzg:7DDmkz1Ipj" resolve="identity" />
@@ -1525,7 +1539,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
   <node concept="1M2fIO" id="7DDmkza$8D">
-    <property role="3GE5qa" value="constructor" />
+    <property role="3GE5qa" value="method.constructor" />
     <ref role="1M2myG" to="wnzg:7DDmkz5m05" resolve="ConstructorInitializedConstructor" />
     <node concept="1N5Pfh" id="7DDmkza$8E" role="1Mr941">
       <ref role="1N5Vy1" to="wnzg:7DDmkza$5N" resolve="identity" />
@@ -2643,6 +2657,9 @@
   <node concept="1M2fIO" id="6FZQsHt$aAc">
     <ref role="1M2myG" to="wnzg:6FZQsHt7RdA" resolve="AutoType" />
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5c976ae824... Fix constraints being gone and typesystem test
     <node concept="9S07l" id="6FZQsHt$aAd" role="9Vyp8">
       <node concept="3clFbS" id="6FZQsHt$aAe" role="2VODD2">
         <node concept="3clFbF" id="6FZQsHt$aHz" role="3cqZAp">
@@ -2670,7 +2687,10 @@
                   <node concept="chp4Y" id="6FZQsHt$feh" role="cj9EA">
                     <ref role="cht4Q" to="x27k:5IYyAOzCrre" resolve="GlobalVariableDeclaration" />
                   </node>
+<<<<<<< HEAD
 >>>>>>> f7ba0272ae... Redo auto keyword
+=======
+>>>>>>> 5c976ae824... Fix constraints being gone and typesystem test
                 </node>
               </node>
             </node>
@@ -2678,8 +2698,11 @@
         </node>
       </node>
     </node>
+<<<<<<< HEAD
 =======
 >>>>>>> 546a94c71c... Auto type scope fixed
+=======
+>>>>>>> 5c976ae824... Fix constraints being gone and typesystem test
   </node>
   <node concept="1M2fIO" id="6OyCGy9cOMX">
     <ref role="1M2myG" to="wnzg:6OyCGy9cOMO" resolve="ClassStaticVarRef" />
@@ -2943,4 +2966,5 @@
     </node>
   </node>
 </model>
+
 
