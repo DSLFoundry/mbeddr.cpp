@@ -3326,6 +3326,11 @@
       <ref role="13i0hy" to="tpcu:hEwIMiw" resolve="getPresentation" />
       <node concept="3Tm1VV" id="gWE$qaePzl" role="1B3o_S" />
       <node concept="3clFbS" id="gWE$qaeQlA" role="3clF47">
+        <node concept="3SKdUt" id="c7Kd0g7Ofk" role="3cqZAp">
+          <node concept="3SKdUq" id="c7Kd0g7Ofm" role="3SKWNk">
+            <property role="3SKdUp" value="Makes the presentation for the method with it's class and namespace if applicable." />
+          </node>
+        </node>
         <node concept="3cpWs8" id="gWE$qafCP$" role="3cqZAp">
           <node concept="3cpWsn" id="gWE$qafCP_" role="3cpWs9">
             <property role="TrG5h" value="args" />
@@ -8180,7 +8185,7 @@
                     </node>
                   </node>
                   <node concept="2qgKlT" id="r2pGcf8dlk" role="2OqNvi">
-                    <ref role="37wK5l" node="1rolTiw35sd" resolve="getAncestors" />
+                    <ref role="37wK5l" node="1rolTiw35sd" resolve="getAncestorNamespaces" />
                   </node>
                 </node>
               </node>
@@ -8306,7 +8311,7 @@
                                   </node>
                                 </node>
                                 <node concept="2qgKlT" id="7RFM8R2mmgE" role="2OqNvi">
-                                  <ref role="37wK5l" node="1rolTiw35sd" resolve="getAncestors" />
+                                  <ref role="37wK5l" node="1rolTiw35sd" resolve="getAncestorNamespaces" />
                                 </node>
                               </node>
                             </node>
@@ -8444,7 +8449,7 @@
                 </node>
               </node>
               <node concept="2qgKlT" id="r2pGcft_TQ" role="2OqNvi">
-                <ref role="37wK5l" node="1rolTiw35sd" resolve="getAncestors" />
+                <ref role="37wK5l" node="1rolTiw35sd" resolve="getAncestorNamespaces" />
               </node>
             </node>
           </node>
@@ -8564,7 +8569,7 @@
                                   </node>
                                 </node>
                                 <node concept="2qgKlT" id="7RFM8R34zMe" role="2OqNvi">
-                                  <ref role="37wK5l" node="1rolTiw35sd" resolve="getAncestors" />
+                                  <ref role="37wK5l" node="1rolTiw35sd" resolve="getAncestorNamespaces" />
                                 </node>
                               </node>
                             </node>
@@ -8665,11 +8670,17 @@
                       </node>
                     </node>
                     <node concept="2qgKlT" id="6gFj6gs5oSa" role="2OqNvi">
+<<<<<<< HEAD
                       <ref role="37wK5l" node="1rolTiw35sd" resolve="getAncestors" />
+=======
+                      <ref role="37wK5l" node="1rolTiw35sd" resolve="getAncestorNamespaces" />
+>>>>>>> 2f50f3beb8... Clean up namespaces and made composite scoping style consistent
                     </node>
                   </node>
                 </node>
               </node>
+<<<<<<< HEAD
+=======
             </node>
           </node>
         </node>
@@ -8748,6 +8759,335 @@
             <node concept="17QB3L" id="r2pGcfnHg7" role="1tU5fm" />
             <node concept="BsUDl" id="r2pGcfnHko" role="33vP2m">
               <ref role="37wK5l" node="r2pGceUPkv" resolve="getNewEditorPresentation" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="r2pGcfnHmk" role="3cqZAp">
+          <node concept="d57v9" id="r2pGcfnHBX" role="3clFbG">
+            <node concept="2OqwBi" id="r2pGcfnJhk" role="37vLTx">
+              <node concept="2OqwBi" id="r2pGcfnHWt" role="2Oq$k0">
+                <node concept="13iPFW" id="r2pGcfnHCk" role="2Oq$k0" />
+                <node concept="3TrEf2" id="r2pGcfnIr2" role="2OqNvi">
+                  <ref role="3Tt5mk" to="wnzg:383ZxwZrBkD" resolve="namespace" />
+                </node>
+              </node>
+              <node concept="3TrcHB" id="r2pGcfnKpN" role="2OqNvi">
+                <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+              </node>
+            </node>
+            <node concept="37vLTw" id="r2pGcfnHmi" role="37vLTJ">
+              <ref role="3cqZAo" node="r2pGcfnHgb" resolve="pres" />
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs6" id="r2pGcfnHlb" role="3cqZAp">
+          <node concept="37vLTw" id="r2pGcfnHll" role="3cqZAk">
+            <ref role="3cqZAo" node="r2pGcfnHgb" resolve="pres" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="13hLZK" id="383ZxwZuROG" role="13h7CW">
+      <node concept="3clFbS" id="383ZxwZuROH" role="2VODD2" />
+    </node>
+  </node>
+  <node concept="13h7C7" id="383ZxwZt1$1">
+    <property role="3GE5qa" value="namespace" />
+    <ref role="13h7C2" to="wnzg:383ZxwZqQYo" resolve="NamespaceDeclaration" />
+    <node concept="13i0hz" id="383ZxwZt1$c" role="13h7CS">
+      <property role="TrG5h" value="getMembers" />
+      <node concept="3Tm1VV" id="383ZxwZt1$d" role="1B3o_S" />
+      <node concept="2I9FWS" id="383ZxwZt1$w" role="3clF45">
+        <ref role="2I9WkF" to="wnzg:383ZxwZsgd4" resolve="INamespaceMemberDeclaration" />
+      </node>
+      <node concept="3clFbS" id="383ZxwZt1$f" role="3clF47">
+        <node concept="3clFbF" id="383ZxwZt1$X" role="3cqZAp">
+          <node concept="2OqwBi" id="383ZxwZt1Qs" role="3clFbG">
+            <node concept="13iPFW" id="383ZxwZt1$W" role="2Oq$k0" />
+            <node concept="3Tsc0h" id="383ZxwZt2NO" role="2OqNvi">
+              <ref role="3TtcxE" to="wnzg:383ZxwZsUja" resolve="members" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="13i0hz" id="383ZxwZt354" role="13h7CS">
+      <property role="TrG5h" value="getPresentation" />
+      <property role="2Ki8OM" value="false" />
+      <ref role="13i0hy" to="tpcu:hEwIMiw" resolve="getPresentation" />
+      <node concept="3clFbS" id="383ZxwZt357" role="3clF47">
+        <node concept="3clFbJ" id="383ZxwZt3dP" role="3cqZAp">
+          <node concept="3clFbS" id="383ZxwZt3dR" role="3clFbx">
+            <node concept="3cpWs6" id="383ZxwZtaa$" role="3cqZAp">
+              <node concept="2OqwBi" id="383ZxwZtat2" role="3cqZAk">
+                <node concept="13iPFW" id="383ZxwZtaaQ" role="2Oq$k0" />
+                <node concept="3TrcHB" id="383ZxwZtb3H" role="2OqNvi">
+                  <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="1Wc70l" id="383ZxwZt6Gb" role="3clFbw">
+            <node concept="2OqwBi" id="6gFj6gtelfh" role="3uHU7B">
+              <node concept="2OqwBi" id="383ZxwZt8ZO" role="2Oq$k0">
+                <node concept="2OqwBi" id="383ZxwZt3y4" role="2Oq$k0">
+                  <node concept="13iPFW" id="383ZxwZt3gA" role="2Oq$k0" />
+                  <node concept="2Xjw5R" id="383ZxwZt6l2" role="2OqNvi">
+                    <node concept="1xMEDy" id="383ZxwZt6l4" role="1xVPHs">
+                      <node concept="chp4Y" id="383ZxwZt6ny" role="ri$Ld">
+                        <ref role="cht4Q" to="wnzg:383ZxwZqQYo" resolve="NamespaceDeclaration" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3TrcHB" id="383ZxwZta2D" role="2OqNvi">
+                  <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                </node>
+              </node>
+              <node concept="17RlXB" id="6gFj6gtelOV" role="2OqNvi" />
+            </node>
+            <node concept="2OqwBi" id="6gFj6gtenI8" role="3uHU7w">
+              <node concept="2OqwBi" id="383ZxwZt7Pz" role="2Oq$k0">
+                <node concept="2OqwBi" id="383ZxwZt701" role="2Oq$k0">
+                  <node concept="13iPFW" id="383ZxwZt6Id" role="2Oq$k0" />
+                  <node concept="2Xjw5R" id="383ZxwZt7vM" role="2OqNvi">
+                    <node concept="1xMEDy" id="383ZxwZt7vO" role="1xVPHs">
+                      <node concept="chp4Y" id="383ZxwZt7yD" role="ri$Ld">
+                        <ref role="cht4Q" to="wnzg:4o2nsMgBpPQ" resolve="ClassDeclaration" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3TrcHB" id="383ZxwZt8lH" role="2OqNvi">
+                  <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                </node>
+              </node>
+              <node concept="17RlXB" id="6gFj6gteoW6" role="2OqNvi" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="383ZxwZt3eZ" role="3cqZAp">
+          <node concept="3clFbS" id="383ZxwZt3f1" role="3clFbx">
+            <node concept="3cpWs6" id="383ZxwZtf6r" role="3cqZAp">
+              <node concept="3cpWs3" id="383ZxwZtjQA" role="3cqZAk">
+                <node concept="2OqwBi" id="383ZxwZtkoL" role="3uHU7w">
+                  <node concept="13iPFW" id="383ZxwZtk4F" role="2Oq$k0" />
+                  <node concept="3TrcHB" id="383ZxwZtlyQ" role="2OqNvi">
+                    <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                  </node>
+                </node>
+                <node concept="3cpWs3" id="383ZxwZti$b" role="3uHU7B">
+                  <node concept="2OqwBi" id="383ZxwZtg_c" role="3uHU7B">
+                    <node concept="2OqwBi" id="383ZxwZtfpm" role="2Oq$k0">
+                      <node concept="13iPFW" id="383ZxwZtf6J" role="2Oq$k0" />
+                      <node concept="2Xjw5R" id="383ZxwZtg0x" role="2OqNvi">
+                        <node concept="1xMEDy" id="383ZxwZtg0z" role="1xVPHs">
+                          <node concept="chp4Y" id="383ZxwZtgaP" role="ri$Ld">
+                            <ref role="cht4Q" to="wnzg:4o2nsMgBpPQ" resolve="ClassDeclaration" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3TrcHB" id="383ZxwZthFO" role="2OqNvi">
+                      <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                    </node>
+                  </node>
+                  <node concept="Xl_RD" id="383ZxwZtiYU" role="3uHU7w">
+                    <property role="Xl_RC" value="." />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="6gFj6gteqap" role="3clFbw">
+            <node concept="2OqwBi" id="383ZxwZtcLm" role="2Oq$k0">
+              <node concept="2OqwBi" id="383ZxwZtbwM" role="2Oq$k0">
+                <node concept="13iPFW" id="383ZxwZtbfa" role="2Oq$k0" />
+                <node concept="2Xjw5R" id="383ZxwZtbZN" role="2OqNvi">
+                  <node concept="1xMEDy" id="383ZxwZtbZP" role="1xVPHs">
+                    <node concept="chp4Y" id="383ZxwZtc2l" role="ri$Ld">
+                      <ref role="cht4Q" to="wnzg:383ZxwZqQYo" resolve="NamespaceDeclaration" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3TrcHB" id="383ZxwZte9s" role="2OqNvi">
+                <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+              </node>
+            </node>
+            <node concept="17RlXB" id="6gFj6gteqFK" role="2OqNvi" />
+          </node>
+        </node>
+        <node concept="3cpWs8" id="383ZxwZtm68" role="3cqZAp">
+          <node concept="3cpWsn" id="383ZxwZtm6b" role="3cpWs9">
+            <property role="TrG5h" value="presentation" />
+            <node concept="17QB3L" id="383ZxwZtm66" role="1tU5fm" />
+            <node concept="BsUDl" id="1rolTiw4h8a" role="33vP2m">
+              <ref role="37wK5l" node="383ZxwZufXU" resolve="getEditorPresentation" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="383ZxwZudFg" role="3cqZAp">
+          <node concept="d57v9" id="383ZxwZuepR" role="3clFbG">
+            <node concept="2OqwBi" id="383ZxwZueJj" role="37vLTx">
+              <node concept="13iPFW" id="383ZxwZueqk" role="2Oq$k0" />
+              <node concept="3TrcHB" id="383ZxwZufGN" role="2OqNvi">
+                <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+              </node>
+            </node>
+            <node concept="37vLTw" id="383ZxwZudFe" role="37vLTJ">
+              <ref role="3cqZAo" node="383ZxwZtm6b" resolve="presentation" />
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs6" id="383ZxwZtmmc" role="3cqZAp">
+          <node concept="37vLTw" id="383ZxwZtm_o" role="3cqZAk">
+            <ref role="3cqZAo" node="383ZxwZtm6b" resolve="presentation" />
+          </node>
+        </node>
+      </node>
+      <node concept="17QB3L" id="383ZxwZt39x" role="3clF45" />
+      <node concept="3Tm1VV" id="383ZxwZt39y" role="1B3o_S" />
+    </node>
+    <node concept="13i0hz" id="383ZxwZufXU" role="13h7CS">
+      <property role="TrG5h" value="getEditorPresentation" />
+      <node concept="3Tm1VV" id="383ZxwZufXV" role="1B3o_S" />
+      <node concept="17QB3L" id="383ZxwZuhvX" role="3clF45" />
+      <node concept="3clFbS" id="383ZxwZufXX" role="3clF47">
+        <node concept="3cpWs8" id="383ZxwZuhwi" role="3cqZAp">
+          <node concept="3cpWsn" id="383ZxwZuhwl" role="3cpWs9">
+            <property role="TrG5h" value="editorPres" />
+            <node concept="17QB3L" id="383ZxwZuhwh" role="1tU5fm" />
+            <node concept="Xl_RD" id="383ZxwZuhx2" role="33vP2m" />
+          </node>
+        </node>
+        <node concept="3cpWs8" id="383ZxwZuibg" role="3cqZAp">
+          <node concept="3cpWsn" id="383ZxwZuibh" role="3cpWs9">
+            <property role="TrG5h" value="ancestorNodes" />
+            <node concept="2I9FWS" id="383ZxwZuibi" role="1tU5fm">
+              <ref role="2I9WkF" to="wnzg:383ZxwZqQYo" resolve="NamespaceDeclaration" />
+            </node>
+            <node concept="BsUDl" id="1rolTiw37X9" role="33vP2m">
+              <ref role="37wK5l" node="1rolTiw35sd" resolve="getAncestorNamespaces" />
+>>>>>>> 2f50f3beb8... Clean up namespaces and made composite scoping style consistent
+            </node>
+          </node>
+        </node>
+        <node concept="1Dw8fO" id="r2pGcfuWWz" role="3cqZAp">
+          <node concept="3clFbS" id="r2pGcfuWW$" role="2LFqv$">
+            <node concept="3clFbF" id="r2pGcfuWW_" role="3cqZAp">
+              <node concept="d57v9" id="r2pGcfuWWA" role="3clFbG">
+                <node concept="3cpWs3" id="r2pGcfuWWB" role="37vLTx">
+                  <node concept="Xl_RD" id="r2pGcfuWWC" role="3uHU7w">
+                    <property role="Xl_RC" value="::" />
+                  </node>
+                  <node concept="2OqwBi" id="r2pGcfuWWD" role="3uHU7B">
+                    <node concept="1y4W85" id="r2pGcfuWWE" role="2Oq$k0">
+                      <node concept="37vLTw" id="r2pGcfuWWF" role="1y58nS">
+                        <ref role="3cqZAo" node="r2pGcfuWWJ" resolve="j" />
+                      </node>
+                      <node concept="37vLTw" id="r2pGcfuWWG" role="1y566C">
+                        <ref role="3cqZAo" node="r2pGcftwCW" resolve="ancestorNodes" />
+                      </node>
+                    </node>
+                    <node concept="3TrcHB" id="r2pGcfuWWH" role="2OqNvi">
+                      <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="37vLTw" id="r2pGcfuWWI" role="37vLTJ">
+                  <ref role="3cqZAo" node="r2pGceUS2O" resolve="editorPres" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3cpWsn" id="r2pGcfuWWJ" role="1Duv9x">
+            <property role="TrG5h" value="j" />
+            <node concept="10Oyi0" id="r2pGcfuWWK" role="1tU5fm" />
+            <node concept="3cpWsd" id="r2pGcfuWWL" role="33vP2m">
+              <node concept="3cmrfG" id="r2pGcfuWWM" role="3uHU7w">
+                <property role="3cmrfH" value="1" />
+              </node>
+              <node concept="2OqwBi" id="r2pGcfuWWN" role="3uHU7B">
+                <node concept="37vLTw" id="r2pGcfuWWO" role="2Oq$k0">
+                  <ref role="3cqZAo" node="r2pGcftwCW" resolve="ancestorNodes" />
+                </node>
+                <node concept="34oBXx" id="r2pGcfuWWP" role="2OqNvi" />
+              </node>
+            </node>
+          </node>
+          <node concept="2d3UOw" id="r2pGcfuWWQ" role="1Dwp0S">
+            <node concept="3cmrfG" id="r2pGcfuWWR" role="3uHU7w">
+              <property role="3cmrfH" value="0" />
+            </node>
+            <node concept="37vLTw" id="r2pGcfuWWS" role="3uHU7B">
+              <ref role="3cqZAo" node="r2pGcfuWWJ" resolve="j" />
+            </node>
+          </node>
+          <node concept="3uO5VW" id="r2pGcfuWWT" role="1Dwrff">
+            <node concept="37vLTw" id="r2pGcfuWWU" role="2$L3a6">
+              <ref role="3cqZAo" node="r2pGcfuWWJ" resolve="j" />
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs6" id="r2pGceUS40" role="3cqZAp">
+          <node concept="37vLTw" id="r2pGceUS4$" role="3cqZAk">
+            <ref role="3cqZAo" node="r2pGceUS2O" resolve="editorPres" />
+          </node>
+        </node>
+      </node>
+    </node>
+<<<<<<< HEAD
+    <node concept="13i0hz" id="r2pGcfny46" role="13h7CS">
+      <property role="TrG5h" value="getNewPresentation" />
+      <node concept="3Tm1VV" id="r2pGcfny47" role="1B3o_S" />
+      <node concept="17QB3L" id="r2pGcfnBVI" role="3clF45" />
+      <node concept="3clFbS" id="r2pGcfny49" role="3clF47">
+        <node concept="3cpWs8" id="r2pGcfnHg8" role="3cqZAp">
+          <node concept="3cpWsn" id="r2pGcfnHgb" role="3cpWs9">
+            <property role="TrG5h" value="pres" />
+            <node concept="17QB3L" id="r2pGcfnHg7" role="1tU5fm" />
+            <node concept="BsUDl" id="r2pGcfnHko" role="33vP2m">
+              <ref role="37wK5l" node="r2pGceUPkv" resolve="getNewEditorPresentation" />
+=======
+    <node concept="13i0hz" id="1rolTiw35sd" role="13h7CS">
+      <property role="TrG5h" value="getAncestorNamespaces" />
+      <node concept="3Tm1VV" id="1rolTiw35se" role="1B3o_S" />
+      <node concept="2I9FWS" id="1rolTiw36qY" role="3clF45">
+        <ref role="2I9WkF" to="wnzg:383ZxwZqQYo" resolve="NamespaceDeclaration" />
+      </node>
+      <node concept="3clFbS" id="1rolTiw35sg" role="3clF47">
+        <node concept="3cpWs8" id="1rolTiw36Gy" role="3cqZAp">
+          <node concept="3cpWsn" id="1rolTiw36Gz" role="3cpWs9">
+            <property role="TrG5h" value="ancestorNode" />
+            <node concept="3Tqbb2" id="1rolTiw36G$" role="1tU5fm">
+              <ref role="ehGHo" to="wnzg:383ZxwZqQYo" resolve="NamespaceDeclaration" />
+            </node>
+            <node concept="2OqwBi" id="1rolTiw36G_" role="33vP2m">
+              <node concept="13iPFW" id="1rolTiw36GA" role="2Oq$k0" />
+              <node concept="2Xjw5R" id="1rolTiw36GB" role="2OqNvi">
+                <node concept="1xMEDy" id="1rolTiw36GC" role="1xVPHs">
+                  <node concept="chp4Y" id="1rolTiw36GD" role="ri$Ld">
+                    <ref role="cht4Q" to="wnzg:383ZxwZqQYo" resolve="NamespaceDeclaration" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="1rolTiw36rz" role="3cqZAp">
+          <node concept="3cpWsn" id="1rolTiw36rA" role="3cpWs9">
+            <property role="TrG5h" value="ancestorNodes" />
+            <node concept="2I9FWS" id="1rolTiw36ry" role="1tU5fm">
+              <ref role="2I9WkF" to="wnzg:383ZxwZqQYo" resolve="NamespaceDeclaration" />
+            </node>
+            <node concept="2ShNRf" id="1rolTiw36sD" role="33vP2m">
+              <node concept="Tc6Ow" id="1rolTiw36xy" role="2ShVmc">
+                <node concept="3Tqbb2" id="1rolTiw36AY" role="HW$YZ">
+                  <ref role="ehGHo" to="wnzg:383ZxwZqQYo" resolve="NamespaceDeclaration" />
+                </node>
+              </node>
+>>>>>>> 2f50f3beb8... Clean up namespaces and made composite scoping style consistent
             </node>
           </node>
         </node>
@@ -10551,7 +10891,7 @@
                     </node>
                   </node>
                   <node concept="2qgKlT" id="r2pGcfLTix" role="2OqNvi">
-                    <ref role="37wK5l" node="1rolTiw35sd" resolve="getAncestors" />
+                    <ref role="37wK5l" node="1rolTiw35sd" resolve="getAncestorNamespaces" />
                   </node>
                 </node>
               </node>
@@ -10677,7 +11017,7 @@
                                   </node>
                                 </node>
                                 <node concept="2qgKlT" id="7RFM8R3du81" role="2OqNvi">
-                                  <ref role="37wK5l" node="1rolTiw35sd" resolve="getAncestors" />
+                                  <ref role="37wK5l" node="1rolTiw35sd" resolve="getAncestorNamespaces" />
                                 </node>
                               </node>
                             </node>
@@ -10815,7 +11155,7 @@
                 </node>
               </node>
               <node concept="2qgKlT" id="r2pGcfLTk4" role="2OqNvi">
-                <ref role="37wK5l" node="1rolTiw35sd" resolve="getAncestors" />
+                <ref role="37wK5l" node="1rolTiw35sd" resolve="getAncestorNamespaces" />
               </node>
             </node>
           </node>
@@ -10936,7 +11276,7 @@
                                   </node>
                                 </node>
                                 <node concept="2qgKlT" id="7RFM8R3f6Ak" role="2OqNvi">
-                                  <ref role="37wK5l" node="1rolTiw35sd" resolve="getAncestors" />
+                                  <ref role="37wK5l" node="1rolTiw35sd" resolve="getAncestorNamespaces" />
                                 </node>
                               </node>
                             </node>
@@ -11305,8 +11645,13 @@
                         </node>
                       </node>
                     </node>
+<<<<<<< HEAD
                     <node concept="37vLTw" id="7fNEwqzHBl5" role="37vLTJ">
                       <ref role="3cqZAo" node="7RFM8R40EUn" resolve="pres" />
+=======
+                    <node concept="2qgKlT" id="6gFj6gr6a9J" role="2OqNvi">
+                      <ref role="37wK5l" node="1rolTiw35sd" resolve="getAncestorNamespaces" />
+>>>>>>> 2f50f3beb8... Clean up namespaces and made composite scoping style consistent
                     </node>
                   </node>
                 </node>
