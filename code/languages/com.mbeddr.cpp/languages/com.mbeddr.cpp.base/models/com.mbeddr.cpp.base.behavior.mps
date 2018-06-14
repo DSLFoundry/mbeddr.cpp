@@ -12609,6 +12609,7 @@
   </node>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 08c1b73e1c... Migrate types in base to separate language and add import for nullptr_t
   <node concept="13h7C7" id="6OyCGy3GPxS">
@@ -12619,6 +12620,8 @@
   </node>
 =======
 >>>>>>> 711ff01ab9... Adde documentation for some concepts and movedlang/experimental to lang.experimental
+=======
+>>>>>>> 2f70113da2... Attempt at fixing crash.
   <node concept="13h7C7" id="6OyCGy3I43h">
     <ref role="13h7C2" to="wnzg:6OyCGy3I3ZK" resolve="StaticGlobalVarDec" />
     <node concept="13hLZK" id="6OyCGy3I43i" role="13h7CW">
@@ -16194,6 +16197,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   <node concept="13h7C7" id="4WhfN3ogHJO">
     <property role="3GE5qa" value="errorhandling" />
@@ -16463,5 +16467,7 @@
     </node>
   </node>
 >>>>>>> 08c1b73e1c... Migrate types in base to separate language and add import for nullptr_t
+=======
+>>>>>>> 2f70113da2... Attempt at fixing crash.
 </model>
 
