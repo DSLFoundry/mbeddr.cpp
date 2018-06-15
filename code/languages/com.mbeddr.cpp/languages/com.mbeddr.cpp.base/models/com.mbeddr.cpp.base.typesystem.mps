@@ -2690,7 +2690,7 @@
               <property role="Xl_RC" value="Non-pure virtual method must have a body" />
             </node>
             <node concept="1YBJjd" id="2L1k$oXL3xV" role="2OEOjV">
-              <ref role="1YBMHb" node="2L1k$oXKZ8O" resolve="methodDeclaration" />
+              <ref role="1YBMHb" node="2L1k$oXKZ8O" resolve="md" />
             </node>
           </node>
         </node>
@@ -2698,7 +2698,7 @@
           <node concept="3fqX7Q" id="2L1k$oXLZpd" role="3uHU7w">
             <node concept="2OqwBi" id="2L1k$oXLZUQ" role="3fr31v">
               <node concept="1YBJjd" id="2L1k$oXLZtN" role="2Oq$k0">
-                <ref role="1YBMHb" node="2L1k$oXKZ8O" resolve="methodDeclaration" />
+                <ref role="1YBMHb" node="2L1k$oXKZ8O" resolve="md" />
               </node>
               <node concept="3TrcHB" id="2L1k$oXM0Ew" role="2OqNvi">
                 <ref role="3TsBF5" to="wnzg:2L1k$oXDqK2" resolve="isPureVirtual" />
@@ -2708,7 +2708,7 @@
           <node concept="2OqwBi" id="2L1k$oXL2T$" role="3uHU7B">
             <node concept="2OqwBi" id="2L1k$oXL1lF" role="2Oq$k0">
               <node concept="1YBJjd" id="2L1k$oXL0WV" role="2Oq$k0">
-                <ref role="1YBMHb" node="2L1k$oXKZ8O" resolve="methodDeclaration" />
+                <ref role="1YBMHb" node="2L1k$oXKZ8O" resolve="md" />
               </node>
               <node concept="3TrEf2" id="2L1k$oXL1V$" role="2OqNvi">
                 <ref role="3Tt5mk" to="wnzg:3CmSUB7Fp_k" resolve="body" />
@@ -2832,14 +2832,14 @@
               <property role="Xl_RC" value="Constant expression member can't be virtual" />
             </node>
             <node concept="1YBJjd" id="15T8UHysjGt" role="2OEOjV">
-              <ref role="1YBMHb" node="2L1k$oXKZ8O" resolve="methodDeclaration" />
+              <ref role="1YBMHb" node="2L1k$oXKZ8O" resolve="md" />
             </node>
           </node>
         </node>
         <node concept="1Wc70l" id="15T8UHyshOL" role="3clFbw">
           <node concept="2OqwBi" id="15T8UHysi$D" role="3uHU7w">
             <node concept="1YBJjd" id="15T8UHysi2j" role="2Oq$k0">
-              <ref role="1YBMHb" node="2L1k$oXKZ8O" resolve="methodDeclaration" />
+              <ref role="1YBMHb" node="2L1k$oXKZ8O" resolve="md" />
             </node>
             <node concept="3TrcHB" id="15T8UHysjv5" role="2OqNvi">
               <ref role="3TsBF5" to="wnzg:2L1k$oXxncX" resolve="isVirtual" />
@@ -2847,7 +2847,7 @@
           </node>
           <node concept="2OqwBi" id="15T8UHysdo0" role="3uHU7B">
             <node concept="1YBJjd" id="15T8UHyscWb" role="2Oq$k0">
-              <ref role="1YBMHb" node="2L1k$oXKZ8O" resolve="methodDeclaration" />
+              <ref role="1YBMHb" node="2L1k$oXKZ8O" resolve="md" />
             </node>
             <node concept="3TrcHB" id="15T8UHysfME" role="2OqNvi">
               <ref role="3TsBF5" to="wnzg:5eDFAXBRQhK" resolve="isConstExpr" />
@@ -2863,14 +2863,14 @@
               <property role="Xl_RC" value="constExpr already implicitely inlines" />
             </node>
             <node concept="1YBJjd" id="3JyuKTwhF1S" role="2OEOjV">
-              <ref role="1YBMHb" node="2L1k$oXKZ8O" resolve="methodDeclaration" />
+              <ref role="1YBMHb" node="2L1k$oXKZ8O" resolve="md" />
             </node>
           </node>
         </node>
         <node concept="1Wc70l" id="3JyuKTwhCFA" role="3clFbw">
           <node concept="2OqwBi" id="3JyuKTwhDvC" role="3uHU7w">
             <node concept="1YBJjd" id="3JyuKTwhCUk" role="2Oq$k0">
-              <ref role="1YBMHb" node="2L1k$oXKZ8O" resolve="methodDeclaration" />
+              <ref role="1YBMHb" node="2L1k$oXKZ8O" resolve="md" />
             </node>
             <node concept="3TrcHB" id="3JyuKTwhE_g" role="2OqNvi">
               <ref role="3TsBF5" to="wnzg:1Yr26itwsT0" resolve="isInlined" />
@@ -2878,7 +2878,7 @@
           </node>
           <node concept="2OqwBi" id="3JyuKTwhA2_" role="3uHU7B">
             <node concept="1YBJjd" id="3JyuKTwh_zx" role="2Oq$k0">
-              <ref role="1YBMHb" node="2L1k$oXKZ8O" resolve="methodDeclaration" />
+              <ref role="1YBMHb" node="2L1k$oXKZ8O" resolve="md" />
             </node>
             <node concept="3TrcHB" id="3JyuKTwhBYT" role="2OqNvi">
               <ref role="3TsBF5" to="wnzg:5eDFAXBRQhK" resolve="isConstExpr" />
@@ -2887,6 +2887,7 @@
         </node>
       </node>
       <node concept="3clFbH" id="5eDFAXB$S1T" role="3cqZAp" />
+<<<<<<< HEAD
       <node concept="3clFbJ" id="5eDFAXB$Ser" role="3cqZAp">
         <node concept="3clFbS" id="5eDFAXB$Set" role="3clFbx">
           <node concept="2MkqsV" id="5eDFAXB$VOf" role="3cqZAp">
@@ -3044,9 +3045,11 @@
 >>>>>>> e244fa05a3... Add method and attribute test cases
 =======
 >>>>>>> b26061a0e5... Cleanup: Removed all the warnings for the whole project structure
+=======
+>>>>>>> 1adc8a049b... Migrate static method checks that were in the non-static prule to the static one
     </node>
     <node concept="1YaCAy" id="2L1k$oXKZ8O" role="1YuTPh">
-      <property role="TrG5h" value="methodDeclaration" />
+      <property role="TrG5h" value="md" />
       <ref role="1YaFvo" to="wnzg:4o2nsMgB$VW" resolve="MethodDeclaration" />
     </node>
   </node>
@@ -5402,12 +5405,119 @@
                       <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
                     </node>
                   </node>
+<<<<<<< HEAD
                   <node concept="liA8E" id="mwDIXwFy_E" role="2OqNvi">
                     <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
                     <node concept="2OqwBi" id="mwDIXwF_3$" role="37wK5m">
                       <node concept="2OqwBi" id="mwDIXwFz7F" role="2Oq$k0">
                         <node concept="1YBJjd" id="mwDIXwFyRD" role="2Oq$k0">
                           <ref role="1YBMHb" node="mwDIXwFf6b" resolve="nsar" />
+=======
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbH" id="7POJCjfnaPd" role="3cqZAp" />
+          <node concept="3clFbJ" id="5eDFAXB$Ser" role="3cqZAp">
+            <node concept="3clFbS" id="5eDFAXB$Set" role="3clFbx">
+              <node concept="2MkqsV" id="5eDFAXB$VOf" role="3cqZAp">
+                <node concept="Xl_RD" id="5eDFAXB$VOx" role="2MkJ7o">
+                  <property role="Xl_RC" value="Static member can't be virtual" />
+                </node>
+                <node concept="1YBJjd" id="7POJCjfndfH" role="2OEOjV">
+                  <ref role="1YBMHb" node="7j9KGYMMNZI" resolve="md" />
+                </node>
+              </node>
+            </node>
+            <node concept="2OqwBi" id="5eDFAXB$SHU" role="3clFbw">
+              <node concept="1YBJjd" id="7POJCjfnd59" role="2Oq$k0">
+                <ref role="1YBMHb" node="7j9KGYMMNZI" resolve="md" />
+              </node>
+              <node concept="3TrcHB" id="5eDFAXB$Ty1" role="2OqNvi">
+                <ref role="3TsBF5" to="wnzg:2L1k$oXxncX" resolve="isVirtual" />
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbH" id="15T8UHyn9hs" role="3cqZAp" />
+          <node concept="3clFbJ" id="15T8UHyn9jl" role="3cqZAp">
+            <node concept="3clFbS" id="15T8UHyn9jn" role="3clFbx">
+              <node concept="2MkqsV" id="15T8UHynk$U" role="3cqZAp">
+                <node concept="Xl_RD" id="15T8UHynk$V" role="2MkJ7o">
+                  <property role="Xl_RC" value="Static member can't be volatile" />
+                </node>
+                <node concept="1YBJjd" id="7POJCjfndJg" role="2OEOjV">
+                  <ref role="1YBMHb" node="7j9KGYMMNZI" resolve="md" />
+                </node>
+              </node>
+            </node>
+            <node concept="2OqwBi" id="15T8UHyndUu" role="3clFbw">
+              <node concept="1YBJjd" id="7POJCjfndqi" role="2Oq$k0">
+                <ref role="1YBMHb" node="7j9KGYMMNZI" resolve="md" />
+              </node>
+              <node concept="3TrcHB" id="15T8UHynkrc" role="2OqNvi">
+                <ref role="3TsBF5" to="wnzg:5eDFAXBCpes" resolve="isVolatile" />
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbH" id="7mGKYHhk$HL" role="3cqZAp" />
+          <node concept="3clFbJ" id="7mGKYHhk$M6" role="3cqZAp">
+            <node concept="3clFbS" id="7mGKYHhk$M8" role="3clFbx">
+              <node concept="2MkqsV" id="7mGKYHhkF9y" role="3cqZAp">
+                <node concept="Xl_RD" id="7mGKYHhkF9O" role="2MkJ7o">
+                  <property role="Xl_RC" value="Static member can't be const" />
+                </node>
+                <node concept="1YBJjd" id="7POJCjfndTJ" role="2OEOjV">
+                  <ref role="1YBMHb" node="7j9KGYMMNZI" resolve="md" />
+                </node>
+              </node>
+            </node>
+            <node concept="2OqwBi" id="7mGKYHhkEpY" role="3clFbw">
+              <node concept="2OqwBi" id="7mGKYHhkBx5" role="2Oq$k0">
+                <node concept="1YBJjd" id="7POJCjfnd$M" role="2Oq$k0">
+                  <ref role="1YBMHb" node="7j9KGYMMNZI" resolve="md" />
+                </node>
+                <node concept="3TrEf2" id="7mGKYHhkDmD" role="2OqNvi">
+                  <ref role="3Tt5mk" to="mj1l:hEaDaGor64" resolve="type" />
+                </node>
+              </node>
+              <node concept="3TrcHB" id="7mGKYHhkESQ" role="2OqNvi">
+                <ref role="3TsBF5" to="mj1l:2zhwXA$N7QC" resolve="const" />
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbH" id="7POJCjfnboS" role="3cqZAp" />
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="7j9KGYMMNZI" role="1YuTPh">
+      <property role="TrG5h" value="md" />
+      <ref role="1YaFvo" to="wnzg:4o2nsMgB$VW" resolve="MethodDeclaration" />
+    </node>
+  </node>
+  <node concept="18kY7G" id="72UYQRWvwJl">
+    <property role="TrG5h" value="check_DeleteDeclaration" />
+    <property role="3GE5qa" value="class" />
+    <node concept="3clFbS" id="72UYQRWvwJm" role="18ibNy">
+      <node concept="3clFbJ" id="72UYQRWvzhx" role="3cqZAp">
+        <node concept="3clFbS" id="72UYQRWvzhz" role="3clFbx">
+          <node concept="3SKdUt" id="c7Kd0eKNZN" role="3cqZAp">
+            <node concept="3SKdUq" id="c7Kd0eKNZP" role="3SKWNk">
+              <property role="3SKdUp" value="Only allow pointers to be given to a delete expression" />
+            </node>
+          </node>
+          <node concept="2MkqsV" id="72UYQRWv_X7" role="3cqZAp">
+            <node concept="3cpWs3" id="72UYQRW$9h4" role="2MkJ7o">
+              <node concept="3cpWs3" id="72UYQRW$8ic" role="3uHU7B">
+                <node concept="3cpWs3" id="72UYQRW$51g" role="3uHU7B">
+                  <node concept="3cpWs3" id="72UYQRWzEjv" role="3uHU7B">
+                    <node concept="3cpWs3" id="72UYQRW$0R1" role="3uHU7B">
+                      <node concept="Xl_RD" id="72UYQRWzYDL" role="3uHU7B">
+                        <property role="Xl_RC" value="The type of " />
+                      </node>
+                      <node concept="2OqwBi" id="72UYQRWzEMw" role="3uHU7w">
+                        <node concept="3TrEf2" id="72UYQRWzFmV" role="2OqNvi">
+                          <ref role="3Tt5mk" to="wnzg:72UYQRW0DPK" resolve="varRef" />
+>>>>>>> 1adc8a049b... Migrate static method checks that were in the non-static prule to the static one
                         </node>
                         <node concept="3TrEf2" id="mwDIXwF$eh" role="2OqNvi">
                           <ref role="3Tt5mk" to="wnzg:383ZxwZrBkt" resolve="attribute" />
@@ -8847,11 +8957,105 @@
             </node>
           </node>
         </node>
+<<<<<<< HEAD
         <node concept="1Wc70l" id="4lmr4L5a4yE" role="3clFbw">
           <node concept="3fqX7Q" id="4lmr4L5a4FO" role="3uHU7w">
             <node concept="2OqwBi" id="4lmr4L5a4Ra" role="3fr31v">
               <node concept="1YBJjd" id="4lmr4L5a4FU" role="2Oq$k0">
                 <ref role="1YBMHb" node="1VsJb22wjAv" resolve="iinc" />
+=======
+        <node concept="3clFbS" id="4lmr4L5IUrO" role="3clFbx">
+          <node concept="2MkqsV" id="4lmr4L5IZAQ" role="3cqZAp">
+            <node concept="Xl_RD" id="4lmr4L5IZB5" role="2MkJ7o">
+              <property role="Xl_RC" value="dynamic_cast can only cast pointers" />
+            </node>
+            <node concept="1YBJjd" id="4lmr4L5IZC9" role="2OEOjV">
+              <ref role="1YBMHb" node="4lmr4L5IUrI" resolve="dc" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="4lmr4L5IUrI" role="1YuTPh">
+      <property role="TrG5h" value="dc" />
+      <ref role="1YaFvo" to="wnzg:4lmr4L5Exud" resolve="DynamicCast" />
+    </node>
+  </node>
+  <node concept="1YbPZF" id="4lmr4L5krcD">
+    <property role="TrG5h" value="typeof_ICPPCast" />
+    <property role="3GE5qa" value="cast" />
+    <node concept="3clFbS" id="4lmr4L5krcE" role="18ibNy">
+      <node concept="3SKdUt" id="7POJCjfmbRi" role="3cqZAp">
+        <node concept="3SKdUq" id="7POJCjfmbRk" role="3SKWNk">
+          <property role="3SKdUp" value="This is overridden in some cases but this is the base case." />
+        </node>
+      </node>
+      <node concept="3SKdUt" id="7POJCjfmbS0" role="3cqZAp">
+        <node concept="3SKdUq" id="7POJCjfmbS2" role="3SKWNk">
+          <property role="3SKdUp" value="The cast expression is equal to the type you're casting to." />
+        </node>
+      </node>
+      <node concept="1Z5TYs" id="4lmr4L5krkz" role="3cqZAp">
+        <node concept="mw_s8" id="4lmr4L5krkX" role="1ZfhKB">
+          <node concept="2OqwBi" id="4lmr4L5krsT" role="mwGJk">
+            <node concept="1YBJjd" id="4lmr4L5krkV" role="2Oq$k0">
+              <ref role="1YBMHb" node="4lmr4L5krcG" resolve="cppc" />
+            </node>
+            <node concept="3TrEf2" id="4lmr4L5krAm" role="2OqNvi">
+              <ref role="3Tt5mk" to="wnzg:4lmr4L5bbR1" resolve="type" />
+            </node>
+          </node>
+        </node>
+        <node concept="mw_s8" id="4lmr4L5krkA" role="1ZfhK$">
+          <node concept="1Z2H0r" id="4lmr4L5krcN" role="mwGJk">
+            <node concept="1YBJjd" id="4lmr4L5krd8" role="1Z2MuG">
+              <ref role="1YBMHb" node="4lmr4L5krcG" resolve="cppc" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="4lmr4L5krcG" role="1YuTPh">
+      <property role="TrG5h" value="cppc" />
+      <ref role="1YaFvo" to="wnzg:4lmr4L5bbIs" resolve="ICPPCast" />
+    </node>
+  </node>
+  <node concept="1YbPZF" id="4lmr4L5KcuZ">
+    <property role="TrG5h" value="typeof_ConstCast" />
+    <property role="3GE5qa" value="cast" />
+    <node concept="3clFbS" id="4lmr4L5Kcv0" role="18ibNy">
+      <node concept="3cpWs8" id="4lmr4L5Klih" role="3cqZAp">
+        <node concept="3cpWsn" id="4lmr4L5KgRt" role="3cpWs9">
+          <property role="TrG5h" value="typeToAssign" />
+          <node concept="3Tqbb2" id="4lmr4L5KgRo" role="1tU5fm">
+            <ref role="ehGHo" to="mj1l:7FQByU3CrCQ" resolve="Type" />
+          </node>
+          <node concept="2OqwBi" id="4lmr4L5KjDU" role="33vP2m">
+            <node concept="2OqwBi" id="4lmr4L5KiMu" role="2Oq$k0">
+              <node concept="1YBJjd" id="4lmr4L5KitX" role="2Oq$k0">
+                <ref role="1YBMHb" node="4lmr4L5Kcv2" resolve="cc" />
+              </node>
+              <node concept="3TrEf2" id="4lmr4L5KjaR" role="2OqNvi">
+                <ref role="3Tt5mk" to="wnzg:4lmr4L5bbR1" resolve="type" />
+              </node>
+            </node>
+            <node concept="1$rogu" id="4lmr4L5KjXG" role="2OqNvi" />
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbH" id="4lmr4L5Klhm" role="3cqZAp" />
+      <node concept="3SKdUt" id="4lmr4L5KlD8" role="3cqZAp">
+        <node concept="3SKdUq" id="4lmr4L5KlDa" role="3SKWNk">
+          <property role="3SKdUp" value="Get rid of const if it's const." />
+        </node>
+      </node>
+      <node concept="3clFbJ" id="4lmr4L5Kd3k" role="3cqZAp">
+        <node concept="3clFbS" id="4lmr4L5Kd3m" role="3clFbx">
+          <node concept="3clFbF" id="4lmr4L5Kk3U" role="3cqZAp">
+            <node concept="37vLTI" id="4lmr4L5KkXz" role="3clFbG">
+              <node concept="3clFbT" id="4lmr4L5KkY4" role="37vLTx">
+                <property role="3clFbU" value="false" />
+>>>>>>> 1adc8a049b... Migrate static method checks that were in the non-static prule to the static one
               </node>
               <node concept="1mIQ4w" id="4lmr4L5a5bn" role="2OqNvi">
                 <node concept="chp4Y" id="4lmr4L5ag5W" role="cj9EA">
