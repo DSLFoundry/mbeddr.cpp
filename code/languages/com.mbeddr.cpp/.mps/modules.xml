@@ -14,11 +14,15 @@
       <modulePath path="$PROJECT_DIR$/languages/com.mbeddr.cpp.modules/com.mbeddr.cpp.modules.mpl" folder="lang" />
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       <modulePath path="$PROJECT_DIR$/languages/com.mbeddr.cpp.operator_overload/com.mbeddr.cpp.operator_overload.mpl" folder="lang/experimental" />
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> 84bac9a971... Remove NamespaceTesting solution in the _preferences folder
+=======
+      <modulePath path="$PROJECT_DIR$/languages/com.mbeddr.cpp.operator_overload/com.mbeddr.cpp.operator_overload.mpl" folder="lang.experimental" />
+>>>>>>> 711ff01ab9... Adde documentation for some concepts and movedlang/experimental to lang.experimental
       <modulePath path="$PROJECT_DIR$/languages/com.mbeddr.cpp.templates/com.mbeddr.cpp.templates.mpl" folder="lang" />
 >>>>>>> 6f8f36150d... Initial implementation of function templates
 =======
