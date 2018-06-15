@@ -9,6 +9,7 @@
   <dependencies>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <dependency reexport="false">a2a03fd8-cc5a-4e82-b374-eb6c0f29cc9e(test.ex.com.mbeddr.cpp)</dependency>
 =======
 =======
@@ -50,6 +51,8 @@
     <dependency reexport="false">d2a9c55c-6bdc-4cc2-97e1-4ba7552f5584(com.mbeddr.core)</dependency>
 =======
 >>>>>>> 8beaacbc6c... Add languages to build
+=======
+>>>>>>> 03906900d1... Fix test build
     <dependency reexport="false">8c081446-e4ba-48b7-a7e0-3db40e2c3439(com.mbeddr.cpp.base)</dependency>
     <dependency reexport="false">6d11763d-483d-4b2b-8efc-09336c1b0001(com.mbeddr.core.modules)</dependency>
     <dependency reexport="false">2e15e1a4-8998-4f06-86b2-8d184a179e8e(com.mbeddr.cpp.exceptions)</dependency>
@@ -126,7 +129,6 @@
     <module reference="6d11763d-483d-4b2b-8efc-09336c1b0001(com.mbeddr.core.modules)" version="0" />
     <module reference="3bf5377a-e904-4ded-9754-5a516023bfaa(com.mbeddr.core.pointers)" version="0" />
     <module reference="a9d69647-0840-491e-bf39-2eb0805d2011(com.mbeddr.core.statements)" version="0" />
-    <module reference="~_PreferencesModule#com.mbeddr.cpp.__spreferences.PlatformTemplates(com.mbeddr.cpp.__spreferences.PlatformTemplates)" version="0" />
     <module reference="8c081446-e4ba-48b7-a7e0-3db40e2c3439(com.mbeddr.cpp.base)" version="0" />
 <<<<<<< HEAD
     <module reference="2e15e1a4-8998-4f06-86b2-8d184a179e8e(com.mbeddr.cpp.exceptions)" version="0" />
