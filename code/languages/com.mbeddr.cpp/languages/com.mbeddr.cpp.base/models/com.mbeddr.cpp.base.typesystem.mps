@@ -108,10 +108,13 @@
 =======
     <import index="n7pc" ref="r:1f4b6c73-0d50-4599-bc8a-9f6948adf243(com.mbeddr.core.expressions.typesystem)" />
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2cc9b19fc3... Added type checking for char16_t initialization.
 =======
     <import index="zhp8" ref="r:66d213c1-a12b-4017-8dd5-0423703c30a9(com.mbeddr.cpp.operator_overload.structure)" />
 >>>>>>> 3e9af26420... Add static_cast<T> and reinterpret_cast<T*>
+=======
+>>>>>>> 0ee1f9fd9a... Decoupled operator_overloading language from base
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" implicit="true" />
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8915,9 +8918,6 @@
             <node concept="Xl_RD" id="1VsJb22wjFX" role="2BsfMF">
               <property role="Xl_RC" value="delete" />
             </node>
-            <node concept="Xl_RD" id="1VsJb22wjHu" role="2BsfMF">
-              <property role="Xl_RC" value="operator" />
-            </node>
             <node concept="Xl_RD" id="1VsJb22xmw$" role="2BsfMF">
               <property role="Xl_RC" value="try" />
             </node>
@@ -8976,6 +8976,27 @@
         </node>
       </node>
       <node concept="3clFbJ" id="1VsJb22wjAK" role="3cqZAp">
+<<<<<<< HEAD
+=======
+        <node concept="2OqwBi" id="1VsJb22wqdM" role="3clFbw">
+          <node concept="2OqwBi" id="1VsJb22wjY7" role="2Oq$k0">
+            <node concept="37vLTw" id="1VsJb22wjKB" role="2Oq$k0">
+              <ref role="3cqZAo" node="1VsJb22wjBj" resolve="keywords" />
+            </node>
+            <node concept="39bAoz" id="1VsJb22wp9J" role="2OqNvi" />
+          </node>
+          <node concept="3JPx81" id="1VsJb22wqB7" role="2OqNvi">
+            <node concept="2OqwBi" id="1VsJb22wqM_" role="25WWJ7">
+              <node concept="1YBJjd" id="1VsJb22wqBA" role="2Oq$k0">
+                <ref role="1YBMHb" node="1VsJb22wjAv" resolve="iinc" />
+              </node>
+              <node concept="3TrcHB" id="1VsJb22wraa" role="2OqNvi">
+                <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+              </node>
+            </node>
+          </node>
+        </node>
+>>>>>>> 0ee1f9fd9a... Decoupled operator_overloading language from base
         <node concept="3clFbS" id="1VsJb22wjAM" role="3clFbx">
           <node concept="2MkqsV" id="1VsJb22wrdk" role="3cqZAp">
             <node concept="1YBJjd" id="1VsJb22wsq_" role="2OEOjV">
