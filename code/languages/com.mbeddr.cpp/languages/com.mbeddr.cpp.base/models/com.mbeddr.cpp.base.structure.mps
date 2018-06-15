@@ -1727,9 +1727,15 @@
       <ref role="20lvS9" node="4o2nsMgB$VW" resolve="MethodDeclaration" />
     </node>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <node concept="PrWs8" id="1rolTivilg$" role="PzmwI">
       <ref role="PrY4T" node="383ZxwZsgd5" resolve="INamedNamespaceMemberDeclaration" />
 =======
+=======
+    <node concept="PrWs8" id="61rdzRiP3dD" role="PzmwI">
+      <ref role="PrY4T" node="383ZxwZsgd5" resolve="INamedNamespaceMemberDeclaration" />
+    </node>
+>>>>>>> 927d6c1d7b... Adjusted namespace class calling. Added final demo module.
   </node>
   <node concept="PlHQZ" id="1Yr26itwsSZ">
     <property role="EcuMT" value="2277423264798199359" />
@@ -1777,7 +1783,34 @@
       <property role="20kJfa" value="classMethod" />
 >>>>>>> 180d6b24f4... Unify structure naming, fix dependency issue and remove unused dependencies
       <property role="20lbJX" value="1" />
+<<<<<<< HEAD
       <ref role="20lvS9" node="383ZxwZqQYo" resolve="NamespaceDeclaration" />
+=======
+      <ref role="20lvS9" node="4o2nsMgB$VW" resolve="MethodDeclaration" />
+    </node>
+    <node concept="PrWs8" id="7fNEwqBxBek" role="PzmwI">
+      <ref role="PrY4T" to="x27k:6WGVxckB05U" resolve="ICallLike" />
+    </node>
+    <node concept="PrWs8" id="61rdzRiP6uf" role="PzmwI">
+      <ref role="PrY4T" node="383ZxwZsgd5" resolve="INamedNamespaceMemberDeclaration" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7RFM8R3Me1y">
+    <property role="EcuMT" value="9073566385468661858" />
+    <property role="3GE5qa" value="namespace" />
+    <property role="TrG5h" value="NamespaceClassInstance" />
+    <property role="34LRSv" value="class instance" />
+    <property role="R4oN_" value="Create instance of namespace class" />
+    <ref role="1TJDcQ" to="mj1l:7FQByU3CrCM" resolve="Expression" />
+    <node concept="PrWs8" id="7RFM8R3Me1P" role="PzmwI">
+      <ref role="PrY4T" node="4o2nsMgBJ5Y" resolve="INamedClassMemberDeclaration" />
+    </node>
+    <node concept="PrWs8" id="61rdzRj61i7" role="PzmwI">
+      <ref role="PrY4T" node="383ZxwZsgd5" resolve="INamedNamespaceMemberDeclaration" />
+    </node>
+    <node concept="PrWs8" id="7RFM8R3Me22" role="PzmwI">
+      <ref role="PrY4T" to="x27k:5_l8w1EmTdf" resolve="IModuleContent" />
+>>>>>>> 927d6c1d7b... Adjusted namespace class calling. Added final demo module.
     </node>
     <node concept="1TJgyj" id="1$h5d7v1dEp" role="1TKVEi">
       <property role="IQ2ns" value="1806247817174637209" />
