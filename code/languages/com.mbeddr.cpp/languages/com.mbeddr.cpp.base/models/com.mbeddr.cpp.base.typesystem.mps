@@ -9020,6 +9020,7 @@
                 <property role="3SKdUp" value="Give warning if wide char uses more than 8 bits" />
               </node>
             </node>
+<<<<<<< HEAD
             <node concept="3cpWs8" id="hYHfWyav0P" role="3cqZAp">
               <node concept="3cpWsn" id="hYHfWyav0Q" role="3cpWs9">
                 <property role="TrG5h" value="init" />
@@ -9037,6 +9038,50 @@
                     <node concept="2qgKlT" id="hYHfWyav0X" role="2OqNvi">
                       <ref role="37wK5l" to="ywuz:1VQvajLb13M" resolve="renderReadable" />
                     </node>
+=======
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="1VsJb22wjAv" role="1YuTPh">
+      <property role="TrG5h" value="iinc" />
+      <ref role="1YaFvo" to="vs0r:65XyadYKJgN" resolve="IIdentifierNamedConcept" />
+    </node>
+  </node>
+  <node concept="18kY7G" id="4lmr4L5IUrF">
+    <property role="TrG5h" value="check_DynamicCast" />
+    <property role="3GE5qa" value="cast" />
+    <node concept="3clFbS" id="4lmr4L5IUrG" role="18ibNy">
+      <node concept="3clFbJ" id="4lmr4L5IUrM" role="3cqZAp">
+        <node concept="3fqX7Q" id="4lmr4L5IUs1" role="3clFbw">
+          <node concept="1eOMI4" id="4lmr4L5IUs3" role="3fr31v">
+            <node concept="22lmx$" id="4lmr4L5IX1u" role="1eOMHV">
+              <node concept="2OqwBi" id="4lmr4L5IWnD" role="3uHU7B">
+                <node concept="2OqwBi" id="4lmr4L5IV$k" role="2Oq$k0">
+                  <node concept="2OqwBi" id="4lmr4L5IUF$" role="2Oq$k0">
+                    <node concept="1YBJjd" id="4lmr4L5IUss" role="2Oq$k0">
+                      <ref role="1YBMHb" node="4lmr4L5IUrI" resolve="dc" />
+                    </node>
+                    <node concept="3TrEf2" id="3e4PW874sJX" role="2OqNvi">
+                      <ref role="3Tt5mk" to="wnzg:3e4PW874nOc" resolve="value" />
+                    </node>
+                  </node>
+                  <node concept="3JvlWi" id="4lmr4L5IVVG" role="2OqNvi" />
+                </node>
+                <node concept="1mIQ4w" id="4lmr4L5IWyn" role="2OqNvi">
+                  <node concept="chp4Y" id="4lmr4L5IWBo" role="cj9EA">
+                    <ref role="cht4Q" to="yq40:fwMInzpHoK" resolve="PointerType" />
+                  </node>
+                </node>
+              </node>
+              <node concept="2OqwBi" id="4lmr4L5IYRg" role="3uHU7w">
+                <node concept="2OqwBi" id="4lmr4L5IXue" role="2Oq$k0">
+                  <node concept="1YBJjd" id="4lmr4L5IXaX" role="2Oq$k0">
+                    <ref role="1YBMHb" node="4lmr4L5IUrI" resolve="dc" />
+                  </node>
+                  <node concept="3TrEf2" id="3e4PW874tBb" role="2OqNvi">
+                    <ref role="3Tt5mk" to="wnzg:3e4PW874nOt" resolve="type" />
+>>>>>>> 37c392409c... Fix casting to use parent textgen
                   </node>
                   <node concept="liA8E" id="hYHfWyav0Y" role="2OqNvi">
                     <ref role="37wK5l" to="wyt6:~String.trim():java.lang.String" resolve="trim" />
@@ -9089,25 +9134,25 @@
         <node concept="mw_s8" id="4lmr4L5krkX" role="1ZfhKB">
           <node concept="2OqwBi" id="4lmr4L5krsT" role="mwGJk">
             <node concept="1YBJjd" id="4lmr4L5krkV" role="2Oq$k0">
-              <ref role="1YBMHb" node="4lmr4L5krcG" resolve="cppc" />
+              <ref role="1YBMHb" node="4lmr4L5krcG" resolve="icppCast" />
             </node>
-            <node concept="3TrEf2" id="4lmr4L5krAm" role="2OqNvi">
-              <ref role="3Tt5mk" to="wnzg:4lmr4L5bbR1" resolve="type" />
+            <node concept="3TrEf2" id="3e4PW874obT" role="2OqNvi">
+              <ref role="3Tt5mk" to="wnzg:3e4PW874nOt" resolve="type" />
             </node>
           </node>
         </node>
         <node concept="mw_s8" id="4lmr4L5krkA" role="1ZfhK$">
           <node concept="1Z2H0r" id="4lmr4L5krcN" role="mwGJk">
             <node concept="1YBJjd" id="4lmr4L5krd8" role="1Z2MuG">
-              <ref role="1YBMHb" node="4lmr4L5krcG" resolve="cppc" />
+              <ref role="1YBMHb" node="4lmr4L5krcG" resolve="icppCast" />
             </node>
           </node>
         </node>
       </node>
     </node>
     <node concept="1YaCAy" id="4lmr4L5krcG" role="1YuTPh">
-      <property role="TrG5h" value="cppc" />
-      <ref role="1YaFvo" to="wnzg:4lmr4L5bbIs" resolve="ICPPCast" />
+      <property role="TrG5h" value="icppCast" />
+      <ref role="1YaFvo" to="wnzg:3e4PW874nO8" resolve="ICPPCast" />
     </node>
   </node>
   <node concept="1YbPZF" id="4lmr4L5KcuZ">
@@ -9125,8 +9170,8 @@
               <node concept="1YBJjd" id="4lmr4L5KitX" role="2Oq$k0">
                 <ref role="1YBMHb" node="4lmr4L5Kcv2" resolve="cc" />
               </node>
-              <node concept="3TrEf2" id="4lmr4L5KjaR" role="2OqNvi">
-                <ref role="3Tt5mk" to="wnzg:4lmr4L5bbR1" resolve="type" />
+              <node concept="3TrEf2" id="3e4PW874wsh" role="2OqNvi">
+                <ref role="3Tt5mk" to="wnzg:3e4PW874nOt" resolve="type" />
               </node>
             </node>
             <node concept="1$rogu" id="4lmr4L5KjXG" role="2OqNvi" />
@@ -9193,10 +9238,27 @@
             <node concept="1YBJjd" id="4lmr4L5krkV" role="2Oq$k0">
               <ref role="1YBMHb" node="4lmr4L5krcG" resolve="cppc" />
             </node>
+<<<<<<< HEAD
             <node concept="3TrEf2" id="4lmr4L5krAm" role="2OqNvi">
               <ref role="3Tt5mk" to="wnzg:4lmr4L5bbR1" resolve="type" />
             </node>
           </node>
+=======
+            <node concept="3TrEf2" id="3e4PW874wUu" role="2OqNvi">
+              <ref role="3Tt5mk" to="wnzg:3e4PW874nOt" resolve="type" />
+            </node>
+          </node>
+          <node concept="3TrcHB" id="3e4PW874xez" role="2OqNvi">
+            <ref role="3TsBF5" to="mj1l:2zhwXA$N7QC" resolve="const" />
+          </node>
+        </node>
+      </node>
+      <node concept="1Z5TYs" id="4lmr4L5KcHV" role="3cqZAp">
+        <node concept="mw_s8" id="4lmr4L5KlML" role="1ZfhKB">
+          <node concept="37vLTw" id="4lmr4L5KlMG" role="mwGJk">
+            <ref role="3cqZAo" node="4lmr4L5KgRt" resolve="typeToAssign" />
+          </node>
+>>>>>>> 37c392409c... Fix casting to use parent textgen
         </node>
         <node concept="mw_s8" id="4lmr4L5krkA" role="1ZfhK$">
           <node concept="1Z2H0r" id="4lmr4L5krcN" role="mwGJk">
@@ -9232,8 +9294,8 @@
               <node concept="1YBJjd" id="4lmr4L5lqwT" role="2Oq$k0">
                 <ref role="1YBMHb" node="4lmr4L5loLZ" resolve="sc" />
               </node>
-              <node concept="3TrEf2" id="4lmr4L5lruK" role="2OqNvi">
-                <ref role="3Tt5mk" to="wnzg:4lmr4L5bbR1" resolve="type" />
+              <node concept="3TrEf2" id="3e4PW874uQz" role="2OqNvi">
+                <ref role="3Tt5mk" to="wnzg:3e4PW874nOt" resolve="type" />
               </node>
             </node>
             <node concept="1$rogu" id="4lmr4L5lsSs" role="2OqNvi" />
@@ -9327,8 +9389,8 @@
                       <node concept="1YBJjd" id="4lmr4L5q9yG" role="2Oq$k0">
                         <ref role="1YBMHb" node="4lmr4L5loLZ" resolve="sc" />
                       </node>
-                      <node concept="3TrEf2" id="4lmr4L5qaha" role="2OqNvi">
-                        <ref role="3Tt5mk" to="wnzg:4lmr4L5bbRB" resolve="value" />
+                      <node concept="3TrEf2" id="3e4PW874vjI" role="2OqNvi">
+                        <ref role="3Tt5mk" to="wnzg:3e4PW874nOc" resolve="value" />
                       </node>
                     </node>
                     <node concept="3JvlWi" id="4lmr4L5qbi2" role="2OqNvi" />
@@ -9461,8 +9523,8 @@
                   <node concept="1YBJjd" id="4lmr4L5$NO5" role="2Oq$k0">
                     <ref role="1YBMHb" node="4lmr4L5$K1Q" resolve="rc" />
                   </node>
-                  <node concept="3TrEf2" id="4lmr4L5$OXs" role="2OqNvi">
-                    <ref role="3Tt5mk" to="wnzg:4lmr4L5bbR1" resolve="type" />
+                  <node concept="3TrEf2" id="3e4PW874qxh" role="2OqNvi">
+                    <ref role="3Tt5mk" to="wnzg:3e4PW874nOt" resolve="type" />
                   </node>
                 </node>
                 <node concept="1mIQ4w" id="4lmr4L5$Q1l" role="2OqNvi">
@@ -9477,8 +9539,8 @@
                     <node concept="1YBJjd" id="4lmr4L5$MeT" role="2Oq$k0">
                       <ref role="1YBMHb" node="4lmr4L5$K1Q" resolve="rc" />
                     </node>
-                    <node concept="3TrEf2" id="4lmr4L5$MeU" role="2OqNvi">
-                      <ref role="3Tt5mk" to="wnzg:4lmr4L5bbRB" resolve="value" />
+                    <node concept="3TrEf2" id="3e4PW874r_x" role="2OqNvi">
+                      <ref role="3Tt5mk" to="wnzg:3e4PW874nOc" resolve="value" />
                     </node>
                   </node>
                   <node concept="3JvlWi" id="4lmr4L5$MeV" role="2OqNvi" />
