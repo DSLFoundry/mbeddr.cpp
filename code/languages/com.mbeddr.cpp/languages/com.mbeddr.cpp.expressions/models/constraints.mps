@@ -316,6 +316,11 @@
                     <node concept="3TrEf2" id="4smL_2CUND5" role="2OqNvi">
 =======
           <node concept="3clFbH" id="4Mb2ywH99Se" role="3cqZAp" />
+          <node concept="3SKdUt" id="7POJCjgR6pA" role="3cqZAp">
+            <node concept="3SKdUq" id="7POJCjgR6pC" role="3SKWNk">
+              <property role="3SKdUp" value="Unwrap the first layer of the pointer if applicable" />
+            </node>
+          </node>
           <node concept="Jncv_" id="7j9KGYM_xHO" role="3cqZAp">
             <ref role="JncvD" to="yq40:fwMInzpHoK" resolve="PointerType" />
             <node concept="37vLTw" id="7j9KGYM_xYN" role="JncvB">
@@ -385,6 +390,11 @@
                             </node>
 =======
           <node concept="3clFbH" id="4Mb2ywH8EYa" role="3cqZAp" />
+          <node concept="3SKdUt" id="7POJCjgR5nd" role="3cqZAp">
+            <node concept="3SKdUq" id="7POJCjgR5nf" role="3SKWNk">
+              <property role="3SKdUp" value="Get the scope depending on if we are in a class or not" />
+            </node>
+          </node>
           <node concept="Jncv_" id="7j9KGYM_$63" role="3cqZAp">
             <ref role="JncvD" to="wnzg:4o2nsMgBEtu" resolve="ClassType" />
             <node concept="37vLTw" id="7j9KGYM_$nm" role="JncvB">
@@ -407,7 +417,7 @@
                                 <ref role="1M0zk5" node="7j9KGYM_$69" resolve="ct" />
                               </node>
                               <node concept="3TrEf2" id="4Mb2ywH7X39" role="2OqNvi">
-                                <ref role="3Tt5mk" to="wnzg:4o2nsMgBEtY" resolve="clazz" />
+                                <ref role="3Tt5mk" to="wnzg:4o2nsMgBEtY" resolve="class" />
                               </node>
                             </node>
                             <node concept="37vLTw" id="4Mb2ywH7U5n" role="3uHU7B">
@@ -527,8 +537,13 @@
                               <ref role="3Tt5mk" to="wnzg:4o2nsMgBEtY" resolve="clazz" />
                             </node>
                           </node>
+<<<<<<< HEAD
                           <node concept="2qgKlT" id="4smL_2CVhqA" role="2OqNvi">
                             <ref role="37wK5l" to="kntn:gWE$qahJwJ" resolve="allDataMembers" />
+=======
+                          <node concept="3TrEf2" id="7j9KGYM_G7L" role="2OqNvi">
+                            <ref role="3Tt5mk" to="wnzg:4o2nsMgBEtY" resolve="class" />
+>>>>>>> 30a53be084... Cleanup expressions language and remove empty test that was accidentally committed
                           </node>
                         </node>
 <<<<<<< HEAD
@@ -601,8 +616,13 @@
                                 <ref role="3Tt5mk" to="wnzg:4o2nsMgBEtY" resolve="clazz" />
                               </node>
                             </node>
+<<<<<<< HEAD
                             <node concept="2qgKlT" id="5uvgyTlbcRU" role="2OqNvi">
                               <ref role="37wK5l" to="kntn:5uvgyTlaRb3" resolve="allExternallyAccessibleFields" />
+=======
+                            <node concept="3TrEf2" id="7j9KGYM_ILw" role="2OqNvi">
+                              <ref role="3Tt5mk" to="wnzg:4o2nsMgBEtY" resolve="class" />
+>>>>>>> 30a53be084... Cleanup expressions language and remove empty test that was accidentally committed
                             </node>
                           </node>
                         </node>
@@ -638,7 +658,16 @@
 >>>>>>> efc1f3b310... Implemented this keyword and changed class member scoping
             </node>
           </node>
+<<<<<<< HEAD
           <node concept="3clFbH" id="1uKPZVPHKa9" role="3cqZAp" />
+=======
+          <node concept="3clFbH" id="7j9KGYM_Mbg" role="3cqZAp" />
+          <node concept="3SKdUt" id="7POJCjgR60r" role="3cqZAp">
+            <node concept="3SKdUq" id="7POJCjgR60t" role="3SKWNk">
+              <property role="3SKdUp" value="Dummy return, we should never get here unless the syntax tree is invalid" />
+            </node>
+          </node>
+>>>>>>> 30a53be084... Cleanup expressions language and remove empty test that was accidentally committed
           <node concept="3cpWs6" id="3v5DuFDzsdy" role="3cqZAp">
             <node concept="2ShNRf" id="3v5DuFDzt9m" role="3cqZAk">
               <node concept="1pGfFk" id="3v5DuFDztul" role="2ShVmc">
@@ -680,6 +709,7 @@
               </node>
             </node>
           </node>
+<<<<<<< HEAD
           <node concept="3cpWs8" id="6oRbCP68B3$" role="3cqZAp">
             <node concept="3cpWsn" id="6oRbCP68B3_" role="3cpWs9">
               <property role="TrG5h" value="compScope" />
@@ -691,6 +721,18 @@
                   <ref role="37wK5l" to="o8zo:7ipADkTevLv" resolve="CompositeScope" />
                 </node>
               </node>
+=======
+          <node concept="3clFbH" id="7POJCjgRhCZ" role="3cqZAp" />
+          <node concept="3SKdUt" id="7POJCjgRitc" role="3cqZAp">
+            <node concept="3SKdUq" id="7POJCjgRite" role="3SKWNk">
+              <property role="3SKdUp" value="Unwrap the pointer if applicable" />
+            </node>
+          </node>
+          <node concept="Jncv_" id="7j9KGYMnEUq" role="3cqZAp">
+            <ref role="JncvD" to="yq40:fwMInzpHoK" resolve="PointerType" />
+            <node concept="37vLTw" id="7j9KGYMnFhP" role="JncvB">
+              <ref role="3cqZAo" node="3v5DuFDzM5$" resolve="expType" />
+>>>>>>> 30a53be084... Cleanup expressions language and remove empty test that was accidentally committed
             </node>
 <<<<<<< HEAD
           </node>
@@ -759,8 +801,18 @@
               </node>
             </node>
           </node>
+<<<<<<< HEAD
           <node concept="3clFbH" id="4smL_2CVktZ" role="3cqZAp" />
           <node concept="Jncv_" id="4smL_2CVmAx" role="3cqZAp">
+=======
+          <node concept="3clFbH" id="7j9KGYMnLi$" role="3cqZAp" />
+          <node concept="3SKdUt" id="7POJCjgRjlx" role="3cqZAp">
+            <node concept="3SKdUq" id="7POJCjgRjlz" role="3SKWNk">
+              <property role="3SKdUp" value="Get the methods we can access depending on if we are in a class" />
+            </node>
+          </node>
+          <node concept="Jncv_" id="7j9KGYMnM1i" role="3cqZAp">
+>>>>>>> 30a53be084... Cleanup expressions language and remove empty test that was accidentally committed
             <ref role="JncvD" to="wnzg:4o2nsMgBEtu" resolve="ClassType" />
             <node concept="3clFbS" id="4smL_2CVmAy" role="Jncv$">
               <node concept="3cpWs8" id="4smL_2CVmAz" role="3cqZAp">
@@ -785,8 +837,13 @@
                                   <ref role="3Tt5mk" to="wnzg:4o2nsMgBEtY" resolve="clazz" />
                                 </node>
                               </node>
+<<<<<<< HEAD
                               <node concept="37vLTw" id="4smL_2CVmAM" role="3uHU7B">
                                 <ref role="3cqZAo" node="4smL_2CVmAN" resolve="it" />
+=======
+                              <node concept="3TrEf2" id="7j9KGYMnW9Z" role="2OqNvi">
+                                <ref role="3Tt5mk" to="wnzg:4o2nsMgBEtY" resolve="class" />
+>>>>>>> 30a53be084... Cleanup expressions language and remove empty test that was accidentally committed
                               </node>
                             </node>
                           </node>
@@ -977,8 +1034,13 @@
                             <node concept="Jnkvi" id="4smL_2CVmBq" role="2Oq$k0">
                               <ref role="1M0zk5" node="4smL_2CVmB_" resolve="ct" />
                             </node>
+<<<<<<< HEAD
                             <node concept="3TrEf2" id="4smL_2CVmBr" role="2OqNvi">
                               <ref role="3Tt5mk" to="wnzg:4o2nsMgBEtY" resolve="clazz" />
+=======
+                            <node concept="3TrEf2" id="7j9KGYMnZ8W" role="2OqNvi">
+                              <ref role="3Tt5mk" to="wnzg:4o2nsMgBEtY" resolve="class" />
+>>>>>>> 30a53be084... Cleanup expressions language and remove empty test that was accidentally committed
                             </node>
                           </node>
                           <node concept="2qgKlT" id="4smL_2CVs_Q" role="2OqNvi">
@@ -1032,6 +1094,7 @@
                     </node>
                   </node>
                 </node>
+<<<<<<< HEAD
               </node>
               <node concept="3cpWs6" id="ZKpU3ChfHS" role="3cqZAp">
                 <node concept="37vLTw" id="ZKpU3Chg9w" role="3cqZAk">
@@ -1099,6 +1162,22 @@
                             <node concept="2OqwBi" id="3p40HKhxeA0" role="3clFbG">
                               <node concept="37vLTw" id="3p40HKhxeA1" role="2Oq$k0">
                                 <ref role="3cqZAo" node="6oRbCP68B3_" resolve="compScope" />
+=======
+                <node concept="9aQIb" id="7j9KGYMoar9" role="9aQIa">
+                  <node concept="3clFbS" id="7j9KGYMoara" role="9aQI4">
+                    <node concept="3cpWs6" id="7j9KGYMob9I" role="3cqZAp">
+                      <node concept="2YIFZM" id="7j9KGYMob9J" role="3cqZAk">
+                        <ref role="37wK5l" to="o8zo:3jEbQoczdCs" resolve="forResolvableElements" />
+                        <ref role="1Pybhc" to="o8zo:4IP40Bi3e_R" resolve="ListScope" />
+                        <node concept="2OqwBi" id="7j9KGYMob9K" role="37wK5m">
+                          <node concept="2OqwBi" id="7j9KGYMob9L" role="2Oq$k0">
+                            <node concept="2OqwBi" id="7j9KGYMob9M" role="2Oq$k0">
+                              <node concept="Jnkvi" id="7j9KGYMob9N" role="2Oq$k0">
+                                <ref role="1M0zk5" node="7j9KGYMnM1o" resolve="ct" />
+                              </node>
+                              <node concept="3TrEf2" id="7j9KGYMob9O" role="2OqNvi">
+                                <ref role="3Tt5mk" to="wnzg:4o2nsMgBEtY" resolve="class" />
+>>>>>>> 30a53be084... Cleanup expressions language and remove empty test that was accidentally committed
                               </node>
                               <node concept="liA8E" id="3p40HKhxeA2" role="2OqNvi">
                                 <ref role="37wK5l" to="o8zo:7ipADkTevN6" resolve="addScope" />
@@ -1175,12 +1254,24 @@
               <ref role="3cqZAo" node="4smL_2CVl69" resolve="type" />
             </node>
           </node>
+<<<<<<< HEAD
           <node concept="3clFbH" id="4smL_2CVmfW" role="3cqZAp" />
           <node concept="3clFbH" id="1uKPZVPH$Sr" role="3cqZAp" />
           <node concept="3clFbH" id="1uKPZVPH$$S" role="3cqZAp" />
           <node concept="3cpWs6" id="3v5DuFDzM5W" role="3cqZAp">
             <node concept="2ShNRf" id="3v5DuFDzM5X" role="3cqZAk">
               <node concept="1pGfFk" id="3v5DuFDzM5Y" role="2ShVmc">
+=======
+          <node concept="3clFbH" id="1uKPZVPH$j$" role="3cqZAp" />
+          <node concept="3SKdUt" id="7POJCjgRjZb" role="3cqZAp">
+            <node concept="3SKdUq" id="7POJCjgRjZd" role="3SKWNk">
+              <property role="3SKdUp" value="Dummy return. Execution shouldn't get here unless the syntax tree is invalid." />
+            </node>
+          </node>
+          <node concept="3cpWs6" id="7j9KGYMol4G" role="3cqZAp">
+            <node concept="2ShNRf" id="7j9KGYMol9N" role="3cqZAk">
+              <node concept="1pGfFk" id="7j9KGYMolWA" role="2ShVmc">
+>>>>>>> 30a53be084... Cleanup expressions language and remove empty test that was accidentally committed
                 <ref role="37wK5l" to="o8zo:7ipADkTfAzT" resolve="EmptyScope" />
               </node>
             </node>
@@ -1461,6 +1552,11 @@
               </node>
             </node>
           </node>
+          <node concept="3SKdUt" id="7POJCjgR8Ig" role="3cqZAp">
+            <node concept="3SKdUq" id="7POJCjgR8Ii" role="3SKWNk">
+              <property role="3SKdUp" value="Return early if we aren't in a class - this is internal only" />
+            </node>
+          </node>
           <node concept="3clFbJ" id="6oRbCP69Z2u" role="3cqZAp">
             <node concept="3clFbS" id="6oRbCP69Z2w" role="3clFbx">
               <node concept="3cpWs6" id="6oRbCP6a05O" role="3cqZAp">
@@ -1490,6 +1586,11 @@
                   <ref role="37wK5l" to="o8zo:7ipADkTevLv" resolve="CompositeScope" />
                 </node>
               </node>
+            </node>
+          </node>
+          <node concept="3SKdUt" id="7POJCjgR8op" role="3cqZAp">
+            <node concept="3SKdUq" id="7POJCjgR8or" role="3SKWNk">
+              <property role="3SKdUp" value="Build a scope from all accessible references of the parents" />
             </node>
           </node>
           <node concept="2Gpval" id="6oRbCP6a1yW" role="3cqZAp">
@@ -1535,6 +1636,11 @@
             </node>
           </node>
           <node concept="3clFbH" id="6oRbCP6a1mN" role="3cqZAp" />
+          <node concept="3SKdUt" id="7POJCjgR98G" role="3cqZAp">
+            <node concept="3SKdUq" id="7POJCjgR98I" role="3SKWNk">
+              <property role="3SKdUp" value="Add this class's data members too" />
+            </node>
+          </node>
           <node concept="3clFbF" id="6oRbCP6a5V6" role="3cqZAp">
             <node concept="2OqwBi" id="6oRbCP6a6aj" role="3clFbG">
               <node concept="37vLTw" id="6oRbCP6a5V4" role="2Oq$k0">
@@ -1633,6 +1739,11 @@
     <ref role="1M2myG" to="3d25:3p40HKhBtQG" resolve="ArrayAttributeInitExpression" />
     <node concept="9S07l" id="3p40HKhBuaC" role="9Vyp8">
       <node concept="3clFbS" id="3p40HKhBuaD" role="2VODD2">
+        <node concept="3SKdUt" id="7POJCjgR2XM" role="3cqZAp">
+          <node concept="3SKdUq" id="7POJCjgR2XO" role="3SKWNk">
+            <property role="3SKdUp" value="Only allow it on attributes of the array type" />
+          </node>
+        </node>
         <node concept="3cpWs8" id="3p40HKh$64e" role="3cqZAp">
           <node concept="3cpWsn" id="3p40HKh$64h" role="3cpWs9">
             <property role="TrG5h" value="attrDec" />
