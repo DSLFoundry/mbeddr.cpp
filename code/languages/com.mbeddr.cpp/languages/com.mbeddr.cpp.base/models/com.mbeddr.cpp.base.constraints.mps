@@ -1491,7 +1491,11 @@
               </node>
             </node>
           </node>
-          <node concept="3clFbH" id="7DDmkz1J2H" role="3cqZAp" />
+          <node concept="3SKdUt" id="7POJCjfCdK1" role="3cqZAp">
+            <node concept="3SKdUq" id="7POJCjfCdK3" role="3SKWNk">
+              <property role="3SKdUp" value="We first need all of the current class's data members" />
+            </node>
+          </node>
           <node concept="3clFbF" id="7DDmkz1M_M" role="3cqZAp">
             <node concept="2OqwBi" id="7DDmkz1M_N" role="3clFbG">
               <node concept="37vLTw" id="7DDmkz1M_O" role="2Oq$k0">
@@ -1527,6 +1531,11 @@
               </node>
             </node>
             <node concept="3clFbS" id="7DDmkz1P_i" role="2LFqv$">
+              <node concept="3SKdUt" id="7POJCjfCery" role="3cqZAp">
+                <node concept="3SKdUq" id="7POJCjfCer$" role="3SKWNk">
+                  <property role="3SKdUp" value="Also get all of the parent class's visible members" />
+                </node>
+              </node>
               <node concept="3clFbF" id="7DDmkz1RGn" role="3cqZAp">
                 <node concept="2OqwBi" id="7DDmkz1RGo" role="3clFbG">
                   <node concept="37vLTw" id="7DDmkz1RGp" role="2Oq$k0">
@@ -1817,7 +1826,7 @@
           </node>
           <node concept="3SKdUt" id="7DDmkzaYM2" role="3cqZAp">
             <node concept="3SKdUq" id="7DDmkzaYM4" role="3SKWNk">
-              <property role="3SKdUp" value="Inherited ones" />
+              <property role="3SKdUp" value="Inherited ones from parents" />
             </node>
           </node>
           <node concept="3clFbF" id="7DDmkzaTgD" role="3cqZAp">
@@ -2897,6 +2906,11 @@
                 </node>
               </node>
               <node concept="3w_OXm" id="6OyCGy9cRuf" role="2OqNvi" />
+            </node>
+          </node>
+          <node concept="3SKdUt" id="7POJCjfChd1" role="3cqZAp">
+            <node concept="3SKdUq" id="7POJCjfChd3" role="3SKWNk">
+              <property role="3SKdUp" value="Get all of the public, static members of this class" />
             </node>
           </node>
           <node concept="3cpWs6" id="6OyCGy9cSov" role="3cqZAp">
