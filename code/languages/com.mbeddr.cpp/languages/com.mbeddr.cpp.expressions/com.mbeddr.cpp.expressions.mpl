@@ -47,7 +47,10 @@
         <module reference="6d11763d-483d-4b2b-8efc-09336c1b0001(com.mbeddr.core.modules)" version="0" />
         <module reference="3bf5377a-e904-4ded-9754-5a516023bfaa(com.mbeddr.core.pointers)" version="0" />
         <module reference="a9d69647-0840-491e-bf39-2eb0805d2011(com.mbeddr.core.statements)" version="0" />
+<<<<<<< HEAD
         <module reference="8c081446-e4ba-48b7-a7e0-3db40e2c3439(com.mbeddr.cpp.base)" version="0" />
+=======
+>>>>>>> 1628edad26... Update version in descriptors
         <module reference="b341759a-c721-4072-90cf-328bb2724684(com.mbeddr.cpp.expressions)" version="0" />
         <module reference="c793bf42-395d-405c-9666-5d828ad11638(com.mbeddr.cpp.expressions#4018800670853458017)" version="0" />
         <module reference="63e0e566-5131-447e-90e3-12ea330e1a00(com.mbeddr.mpsutil.blutil)" version="0" />
