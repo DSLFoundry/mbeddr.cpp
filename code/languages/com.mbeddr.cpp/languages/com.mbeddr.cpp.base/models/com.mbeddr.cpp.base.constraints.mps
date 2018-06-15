@@ -19,6 +19,7 @@
     <import index="rj8d" ref="r:da9fd96f-5c71-45ab-b2da-1aa6232ec67f(com.mbeddr.core.statements.behavior)" />
 =======
     <import index="x27k" ref="r:75ecab8a-8931-4140-afc6-4b46398710fc(com.mbeddr.core.modules.structure)" />
+<<<<<<< HEAD
     <import index="1yyn" ref="r:64e0a2a9-7957-424b-8102-a5e8a7a73035(com.mbeddr.cpp.templates.structure)" />
 <<<<<<< HEAD
 >>>>>>> 180d6b24f4... Unify structure naming, fix dependency issue and remove unused dependencies
@@ -29,6 +30,8 @@
 =======
     <import index="uaom" ref="r:00838eaa-3253-4491-82f7-437f360206d2(com.mbeddr.cpp.templates.behavior)" />
 >>>>>>> be2d622988... Add some tests
+=======
+>>>>>>> 8ced65fd10... Decouple templates from base
     <import index="kntn" ref="r:4090021e-0c8f-4cca-ab3f-590afb43a745(com.mbeddr.cpp.base.behavior)" implicit="true" />
 <<<<<<< HEAD
 =======
@@ -3135,16 +3138,17 @@
                   <node concept="1bVj0M" id="6ODoR9xNN7e" role="23t8la">
                     <node concept="3clFbS" id="6ODoR9xNN7f" role="1bW5cS">
                       <node concept="3clFbF" id="6ODoR9xNNkd" role="3cqZAp">
-                        <node concept="3fqX7Q" id="6ODoR9xNOkL" role="3clFbG">
-                          <node concept="2OqwBi" id="6ODoR9xNOKM" role="3fr31v">
-                            <node concept="37vLTw" id="6ODoR9xNOkU" role="2Oq$k0">
+                        <node concept="2OqwBi" id="7POJCjhkTqn" role="3clFbG">
+                          <node concept="2OqwBi" id="7POJCjharS7" role="2Oq$k0">
+                            <node concept="37vLTw" id="7POJCjharsf" role="2Oq$k0">
                               <ref role="3cqZAo" node="6ODoR9xNN7g" resolve="it" />
                             </node>
-                            <node concept="1mIQ4w" id="6ODoR9xNQSF" role="2OqNvi">
-                              <node concept="chp4Y" id="6ODoR9xNRah" role="cj9EA">
-                                <ref role="cht4Q" to="1yyn:ZKpU3C3Nka" resolve="TemplateClassDeclaration" />
-                              </node>
+                            <node concept="2qgKlT" id="7POJCjhkT7q" role="2OqNvi">
+                              <ref role="37wK5l" to="kntn:2yiFVcKzYCg" resolve="getType" />
                             </node>
+                          </node>
+                          <node concept="2qgKlT" id="7POJCjhvfCf" role="2OqNvi">
+                            <ref role="37wK5l" to="kntn:7POJCjhallK" resolve="shouldDefaultScope" />
                           </node>
                         </node>
                       </node>
