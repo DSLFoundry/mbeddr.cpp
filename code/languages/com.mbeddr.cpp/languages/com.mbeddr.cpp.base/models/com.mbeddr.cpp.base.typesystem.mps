@@ -4301,6 +4301,7 @@
       <ref role="1YaFvo" to="wnzg:6WSa0snOgvZ" resolve="NewDeclaration" />
     </node>
   </node>
+<<<<<<< HEAD
   <node concept="1YbPZF" id="7j9KGYKwWRg">
     <property role="TrG5h" value="typeof_NewObjectInitializer" />
     <node concept="bXqS6" id="72UYQRWEgvF" role="bX4a1">
@@ -4324,6 +4325,42 @@
           <node concept="2OqwBi" id="7U4vk8Q2gzN" role="33vP2m">
             <node concept="1YBJjd" id="72UYQRWEcQd" role="2Oq$k0">
               <ref role="1YBMHb" node="7j9KGYKwWRj" resolve="noi" />
+=======
+  <node concept="1YbPZF" id="6WSa0so1FHD">
+    <property role="TrG5h" value="typeof_NewDeclaration" />
+    <node concept="3clFbS" id="6WSa0so1FHE" role="18ibNy">
+      <node concept="nvevp" id="6WSa0soiKuM" role="3cqZAp">
+        <node concept="3clFbS" id="6WSa0soiKuO" role="nvhr_">
+          <node concept="3SKdUt" id="7POJCjf3tOR" role="3cqZAp">
+            <node concept="3SKdUq" id="7POJCjf3tOT" role="3SKWNk">
+              <property role="3SKdUp" value="ArrayType is already a pointer, so it would be incorrect to wrap it in another one" />
+            </node>
+          </node>
+          <node concept="3SKdUt" id="7POJCjf3tR5" role="3cqZAp">
+            <node concept="3SKdUq" id="7POJCjf3tR7" role="3SKWNk">
+              <property role="3SKdUp" value="Otherwise we do need to wrap it." />
+            </node>
+          </node>
+          <node concept="3clFbJ" id="6WSa0sojshq" role="3cqZAp">
+            <node concept="3clFbS" id="6WSa0sojshs" role="3clFbx">
+              <node concept="1Z5TYs" id="6WSa0sojxG9" role="3cqZAp">
+                <node concept="mw_s8" id="6WSa0sojxG_" role="1ZfhKB">
+                  <node concept="2OqwBi" id="6WSa0sojXLg" role="mwGJk">
+                    <node concept="2X3wrD" id="6WSa0sojXxj" role="2Oq$k0">
+                      <ref role="2X3Bk0" node="6WSa0soiKuS" resolve="toc" />
+                    </node>
+                    <node concept="1$rogu" id="6WSa0sojY6Y" role="2OqNvi" />
+                  </node>
+                </node>
+                <node concept="mw_s8" id="6WSa0sojxGc" role="1ZfhK$">
+                  <node concept="1Z2H0r" id="6WSa0sojw1S" role="mwGJk">
+                    <node concept="1YBJjd" id="6WSa0sojw2d" role="1Z2MuG">
+                      <ref role="1YBMHb" node="6WSa0so1FHG" resolve="nd" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+>>>>>>> eea05764ef... Document several concepts in base
             </node>
             <node concept="2qgKlT" id="7U4vk8Q2gzP" role="2OqNvi">
               <ref role="37wK5l" to="qd6m:6WGVxckB065" resolve="getFormals" />
@@ -4582,6 +4619,7 @@
           </node>
         </node>
       </node>
+<<<<<<< HEAD
       <node concept="3clFbH" id="6j_PPS_6E5O" role="3cqZAp" />
       <node concept="1Dw8fO" id="6j_PPS_6Elm" role="3cqZAp">
         <node concept="3clFbS" id="6j_PPS_6Eln" role="2LFqv$">
@@ -4654,6 +4692,18 @@
               </node>
             </node>
           </node>
+=======
+    </node>
+    <node concept="3clFbS" id="7j9KGYKwWRh" role="18ibNy">
+      <node concept="3SKdUt" id="7POJCjf3yR7" role="3cqZAp">
+        <node concept="3SKdUq" id="7POJCjf3yR9" role="3SKWNk">
+          <property role="3SKdUp" value="The &quot;true&quot; represents whether this node is an initializer." />
+        </node>
+      </node>
+      <node concept="3SKdUt" id="7POJCjf3$m5" role="3cqZAp">
+        <node concept="3SKdUq" id="7POJCjf3$m7" role="3SKWNk">
+          <property role="3SKdUp" value="All the argument types and counts and so forth are done in ICallLikeTypechecker." />
+>>>>>>> eea05764ef... Document several concepts in base
         </node>
         <node concept="3cpWsn" id="6j_PPS_6Emv" role="1Duv9x">
           <property role="TrG5h" value="i" />
@@ -4690,6 +4740,12 @@
             <property role="3clFbU" value="true" />
 >>>>>>> 0671c1b426... Fix typechecking on qualified method calls and migrated ICallLike typechecks to a class
           </node>
+        </node>
+      </node>
+      <node concept="3clFbH" id="7POJCjf3$sB" role="3cqZAp" />
+      <node concept="3SKdUt" id="7POJCjf3$B3" role="3cqZAp">
+        <node concept="3SKdUq" id="7POJCjf3$B5" role="3SKWNk">
+          <property role="3SKdUp" value="Final type should simply be the classtype. It will be wrapped in a pointer at a higher layer." />
         </node>
       </node>
       <node concept="1Z5TYs" id="7SgJHc7_aVQ" role="3cqZAp">
@@ -6846,6 +6902,16 @@
         <node concept="TZ5HA" id="4V1wcOaM80C" role="TZ5H$">
           <node concept="1dT_AC" id="4V1wcOaM80D" role="1dT_Ay">
             <property role="1dT_AB" value="See QualifiedMethodCall, NewObjectInitializer for examples of use." />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="7POJCjf3$je" role="TZ5H$">
+          <node concept="1dT_AC" id="7POJCjf3$jf" role="1dT_Ay">
+            <property role="1dT_AB" value="" />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="7POJCjf3$jw" role="TZ5H$">
+          <node concept="1dT_AC" id="7POJCjf3$jx" role="1dT_Ay">
+            <property role="1dT_AB" value="Note: Much of this comes from ICallLike in mbeddr.core" />
           </node>
         </node>
         <node concept="TUZQ0" id="4V1wcOaIU46" role="3nqlJM">
