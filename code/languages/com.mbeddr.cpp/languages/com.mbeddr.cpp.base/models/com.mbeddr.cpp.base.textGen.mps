@@ -762,6 +762,11 @@
             <property role="3SKdUp" value="Arrays are a special case as they come from core and don't generate correctly." />
           </node>
         </node>
+        <node concept="3SKdUt" id="7POJCje71Ts" role="3cqZAp">
+          <node concept="3SKdUq" id="7POJCje71Tu" role="3SKWNk">
+            <property role="3SKdUp" value="This also happens in other cases." />
+          </node>
+        </node>
         <node concept="3clFbJ" id="3p40HKh_bYz" role="3cqZAp">
           <node concept="3clFbS" id="3p40HKh_bY_" role="3clFbx">
             <node concept="lc7rE" id="3p40HKh_f01" role="3cqZAp">
@@ -2464,6 +2469,7 @@
       </node>
     </node>
   </node>
+<<<<<<< HEAD
   <node concept="WtQ9Q" id="7RFM8R0xVtk">
     <property role="3GE5qa" value="namespace" />
     <ref role="WuzLi" to="wnzg:7RFM8R0xwre" resolve="GlobalUsingNamespaceAttributeDeclaration" />
@@ -2509,6 +2515,16 @@
         <node concept="lc7rE" id="79L075GfowA" role="3cqZAp">
           <node concept="la8eA" id="79L075GfowB" role="lcghm">
             <property role="lacIc" value=";" />
+=======
+  <node concept="WtQ9Q" id="29cSqvdUjKq">
+    <property role="3GE5qa" value="type" />
+    <ref role="WuzLi" to="wnzg:29cSqvcoIWG" resolve="NullPointerLiteral" />
+    <node concept="11bSqf" id="29cSqvdUjKr" role="11c4hB">
+      <node concept="3clFbS" id="29cSqvdUjKs" role="2VODD2">
+        <node concept="lc7rE" id="29cSqvdUjKJ" role="3cqZAp">
+          <node concept="la8eA" id="29cSqve1vsG" role="lcghm">
+            <property role="lacIc" value="nullptr" />
+>>>>>>> 08c1b73e1c... Migrate types in base to separate language and add import for nullptr_t
           </node>
 =======
   <node concept="WtQ9Q" id="29cSqve8Gd0">
@@ -2524,6 +2540,7 @@
     </node>
   </node>
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ff7b242aec... Added auto declaration.
 =======
 >>>>>>> ecef4c91d7... Add null pointer type and null pointer literal
@@ -2531,6 +2548,16 @@
         <node concept="lc7rE" id="1rolTiuDGeq" role="3cqZAp">
           <node concept="la8eA" id="1rolTiuDGuB" role="lcghm">
             <property role="lacIc" value=")" />
+=======
+  <node concept="WtQ9Q" id="29cSqvdUjFp">
+    <property role="3GE5qa" value="type" />
+    <ref role="WuzLi" to="wnzg:29cSqvcoIWH" resolve="NullPointerType" />
+    <node concept="11bSqf" id="29cSqvdUjFq" role="11c4hB">
+      <node concept="3clFbS" id="29cSqvdUjFr" role="2VODD2">
+        <node concept="lc7rE" id="29cSqvdUjFI" role="3cqZAp">
+          <node concept="la8eA" id="29cSqve1vuw" role="lcghm">
+            <property role="lacIc" value="std::nullptr_t" />
+>>>>>>> 08c1b73e1c... Migrate types in base to separate language and add import for nullptr_t
           </node>
         </node>
       </node>
@@ -3836,6 +3863,7 @@
 >>>>>>> d72e40f1e7... Revert "Migrate error handling to cpp.base"
 =======
   <node concept="WtQ9Q" id="hYHfWq_jIc">
+    <property role="3GE5qa" value="type" />
     <ref role="WuzLi" to="wnzg:hYHfWq_jIb" resolve="Char16_tType" />
     <node concept="11bSqf" id="hYHfWq_jId" role="11c4hB">
       <node concept="3clFbS" id="hYHfWq_jIe" role="2VODD2">
@@ -3848,6 +3876,7 @@
     </node>
   </node>
   <node concept="WtQ9Q" id="hYHfWqSH0q">
+    <property role="3GE5qa" value="type" />
     <ref role="WuzLi" to="wnzg:hYHfWqSH0p" resolve="Char32_tType" />
     <node concept="11bSqf" id="hYHfWqSH0r" role="11c4hB">
       <node concept="3clFbS" id="hYHfWqSH0s" role="2VODD2">
@@ -3860,6 +3889,7 @@
     </node>
   </node>
   <node concept="WtQ9Q" id="hYHfWqSH2q">
+    <property role="3GE5qa" value="type" />
     <ref role="WuzLi" to="wnzg:hYHfWqSH2p" resolve="WChar_tType" />
     <node concept="11bSqf" id="hYHfWqSH2r" role="11c4hB">
       <node concept="3clFbS" id="hYHfWqSH2s" role="2VODD2">
