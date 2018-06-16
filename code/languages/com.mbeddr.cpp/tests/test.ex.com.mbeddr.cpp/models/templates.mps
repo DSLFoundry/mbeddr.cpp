@@ -9,6 +9,7 @@
 <<<<<<< HEAD
     <import index="ys0m" ref="r:9e71b142-f269-4237-8701-257cbfe7c45f(test.ex.com.mbeddr.cpp.exceptions)" />
     <import index="3y0n" ref="r:d4d16117-20fb-4ba8-a1b2-1598e121e1d0(com.mbeddr.core.stdlib)" />
+<<<<<<< HEAD
 =======
     <import index="3y0n" ref="r:d4d16117-20fb-4ba8-a1b2-1598e121e1d0(com.mbeddr.core.stdlib)" />
 <<<<<<< HEAD
@@ -16,6 +17,9 @@
 >>>>>>> d554cdffba... Rename exceptions -> errorhandling and nullpointer -> nullPointers
 =======
 >>>>>>> 53828d936c... Fix test issues
+=======
+    <import index="ys0m" ref="r:9e71b142-f269-4237-8701-257cbfe7c45f(test.ex.com.mbeddr.cpp.errorHandling)" />
+>>>>>>> b7ef0eb121... Revert "Fix test issues"
   </imports>
   <registry>
     <language id="a9d69647-0840-491e-bf39-2eb0805d2011" name="com.mbeddr.core.statements">
