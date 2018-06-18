@@ -946,6 +946,9 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="4o2nsMgBIrb" resolve="AttributeDeclaration" />
     </node>
+    <node concept="t5JxF" id="5xziqK_904B" role="lGtFl">
+      <property role="t5JxN" value="Concept that handles initializing class attributes before the constructor gets called" />
+    </node>
   </node>
   <node concept="1TIwiD" id="1rolTiuOPQt">
     <property role="EcuMT" value="1646161959635344797" />
@@ -1108,11 +1111,17 @@
       <ref role="20lvS9" to="mj1l:7FQByU3CrCM" resolve="Expression" />
     </node>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <node concept="1TJgyi" id="1rV7RaSNWqj" role="1TKVEl">
       <property role="IQ2nx" value="1655951865576146579" />
       <property role="TrG5h" value="real_name" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
 =======
+=======
+    <node concept="t5JxF" id="5xziqK_904$" role="lGtFl">
+      <property role="t5JxN" value="Concept that handles calls to the base class constructors" />
+    </node>
+>>>>>>> 27cc05e404... Better documentation of constructor concepts
   </node>
   <node concept="1TIwiD" id="3OWNtRXmIPi">
     <property role="EcuMT" value="4412628088238304594" />
