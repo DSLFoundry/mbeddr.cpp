@@ -2379,6 +2379,9 @@
     <node concept="PrWs8" id="7POJCjgR0nr" role="PzmwI">
       <ref role="PrY4T" node="383ZxwZsgd4" resolve="INamespaceMemberDeclaration" />
     </node>
+    <node concept="t5JxF" id="5xziqK$PuJ2" role="lGtFl">
+      <property role="t5JxN" value="Comments that can be top level elements in classes and namespaces." />
+    </node>
   </node>
 <<<<<<< HEAD
 >>>>>>> ba061b3fe5... Added ability to comment inside a class
