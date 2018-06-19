@@ -81,6 +81,11 @@
       </concept>
       <concept id="1080120340718" name="jetbrains.mps.baseLanguage.structure.AndExpression" flags="nn" index="1Wc70l" />
     </language>
+    <language id="63e0e566-5131-447e-90e3-12ea330e1a00" name="com.mbeddr.mpsutil.blutil">
+      <concept id="3693790620639876318" name="com.mbeddr.mpsutil.blutil.structure.BLDoc" flags="ng" index="2aEySx">
+        <child id="3693790620639876319" name="text" index="2aEySw" />
+      </concept>
+    </language>
     <language id="a9d69647-0840-491e-bf39-2eb0805d2011" name="com.mbeddr.core.statements">
       <concept id="7254843406768833938" name="com.mbeddr.core.statements.structure.ExpressionStatement" flags="ng" index="1_9egQ">
         <child id="7254843406768833939" name="expr" index="1_9egR" />
@@ -91,6 +96,14 @@
       </concept>
       <concept id="2093108837558113914" name="com.mbeddr.core.statements.structure.LocalVarRef" flags="ng" index="3ZVu4v">
         <reference id="2093108837558124071" name="var" index="3ZVs_2" />
+      </concept>
+    </language>
+    <language id="92d2ea16-5a42-4fdf-a676-c7604efe3504" name="de.slisson.mps.richtext">
+      <concept id="2557074442922380897" name="de.slisson.mps.richtext.structure.Text" flags="ng" index="19SGf9">
+        <child id="2557074442922392302" name="words" index="19SJt6" />
+      </concept>
+      <concept id="2557074442922438156" name="de.slisson.mps.richtext.structure.Word" flags="ng" index="19SUe$">
+        <property id="2557074442922438158" name="escapedValue" index="19SUeA" />
       </concept>
     </language>
     <language id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator">
@@ -198,10 +211,14 @@
         <child id="3883266571380204831" name="initializers" index="1YC0t0" />
       </concept>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <concept id="3188920472788366140" name="com.mbeddr.cpp.base.structure.IVirtualableConcept" flags="ng" index="hL25U">
 =======
       <concept id="3188920472788366140" name="com.mbeddr.cpp.base.structure.IVirtualFlagConcept" flags="ng" index="hL25U">
 >>>>>>> 858f7e856f... Fix tests
+=======
+      <concept id="3188920472788366140" name="com.mbeddr.cpp.base.structure.IVirtualFlag" flags="ng" index="hL25U">
+>>>>>>> 2ad53958b9... Comments and cleanup in the modules and modules.gen languages
         <property id="3188920472788366141" name="isVirtual" index="hL25V" />
       </concept>
       <concept id="137823117407795547" name="com.mbeddr.cpp.base.structure.ConstructorInitializedAttribute" flags="ng" index="z11KY">
@@ -232,7 +249,7 @@
 >>>>>>> 858f7e856f... Fix tests
 =======
       <concept id="1771923826942799313" name="com.mbeddr.cpp.base.structure.InnerClassType" flags="ng" index="TrGU4">
-        <child id="1771923826942799314" name="outerclassType" index="TrGU7" />
+        <child id="1771923826942799314" name="outerClassType" index="TrGU7" />
       </concept>
 >>>>>>> e263296733... added generators and changed acces modifier visibility
       <concept id="5044697665789382396" name="com.mbeddr.cpp.base.structure.MethodDeclaration" flags="ng" index="3mB1cK">
@@ -492,7 +509,7 @@
                   <node concept="3clFbF" id="1yn8PkyMcmT" role="3cqZAp">
                     <node concept="2OqwBi" id="1yn8PkyMcmO" role="3clFbG">
                       <node concept="3TrEf2" id="1yn8PkyMcmR" role="2OqNvi">
-                        <ref role="3Tt5mk" to="wnzg:1yn8PkxYuRi" resolve="outerclassType" />
+                        <ref role="3Tt5mk" to="wnzg:1yn8PkxYuRi" resolve="outerClassType" />
                       </node>
                       <node concept="30H73N" id="1yn8PkyMcmS" role="2Oq$k0" />
                     </node>
@@ -1596,6 +1613,7 @@
                     </node>
                   </node>
                 </node>
+<<<<<<< HEAD
                 <node concept="3zZkjj" id="2L1k$oXP0Ux" role="2OqNvi">
                   <node concept="1bVj0M" id="2L1k$oXP0Uz" role="23t8la">
                     <node concept="3clFbS" id="2L1k$oXP0U$" role="1bW5cS">
@@ -1604,6 +1622,80 @@
                           <node concept="2OqwBi" id="2L1k$oXP2wM" role="2Oq$k0">
                             <node concept="37vLTw" id="2L1k$oXP1Ha" role="2Oq$k0">
                               <ref role="3cqZAo" node="2L1k$oXP0U_" resolve="it" />
+=======
+              </node>
+              <node concept="3x8VRR" id="5HgCzLvXLq0" role="2OqNvi" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2rT7sh" id="2Ai0Gt9X68v" role="2rTMjI">
+      <property role="TrG5h" value="class2Prototype" />
+      <ref role="2rTdP9" to="wnzg:4o2nsMgBpPQ" resolve="ClassDeclaration" />
+      <ref role="2rZz_L" to="wnzg:4o2nsMgBpPQ" resolve="ClassDeclaration" />
+    </node>
+    <node concept="2rT7sh" id="2Ai0Gt9X68$" role="2rTMjI">
+      <property role="TrG5h" value="methodDecl2Signature" />
+      <ref role="2rZz_L" to="wnzg:3v5DuFDqYGC" resolve="MethodSignature" />
+      <ref role="2rTdP9" to="wnzg:3v5DuFDqYGC" resolve="MethodSignature" />
+    </node>
+    <node concept="2rT7sh" id="6ddXmWdQw5u" role="2rTMjI">
+      <property role="TrG5h" value="constructorDeclToSignature" />
+      <ref role="2rTdP9" to="wnzg:6NtgknWJ20B" resolve="ClassConstructorDeclaration" />
+      <ref role="2rZz_L" to="wnzg:6NtgknWJ20B" resolve="ClassConstructorDeclaration" />
+    </node>
+    <node concept="2rT7sh" id="3LE5RBQzmxt" role="2rTMjI">
+      <property role="TrG5h" value="operatorDeclToSignature" />
+      <ref role="2rTdP9" to="zhp8:7bt9OVZfWbc" resolve="OperatorOverloadDeclaration" />
+      <ref role="2rZz_L" to="zhp8:7bt9OVZfWbc" resolve="OperatorOverloadDeclaration" />
+    </node>
+    <node concept="2rT7sh" id="5HgCzLvQfPt" role="2rTMjI">
+      <property role="TrG5h" value="others" />
+      <ref role="2rTdP9" to="wnzg:4o2nsMgBIr5" resolve="IClassMemberDeclaration" />
+      <ref role="2rZz_L" to="wnzg:4o2nsMgBIr5" resolve="IClassMemberDeclaration" />
+    </node>
+    <node concept="3lhOvk" id="2Ai0Gt9QfTF" role="3lj3bC">
+      <property role="36QftV" value="true" />
+      <ref role="30HIoZ" to="wlyv:2Ai0Gt9PsI6" resolve="CPPImplementationModule" />
+      <ref role="3lhOvi" node="2Ai0GtaaFnn" resolve="map_CPPImplementationModule2ImplementationModule" />
+    </node>
+    <node concept="2aEySx" id="3J_5hL3KaK6" role="lGtFl">
+      <node concept="19SGf9" id="3J_5hL3KaK7" role="2aEySw">
+        <node concept="19SUe$" id="3J_5hL3KaK8" role="19SJt6">
+          <property role="19SUeA" value="Reduces several concepts to generatable templates" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1whppz" id="2Ai0GtaaFnn">
+    <property role="TrG5h" value="map_CPPImplementationModule2ImplementationModule" />
+    <node concept="1S7NMz" id="2Ai0Gta6ycx" role="N3F5h">
+      <property role="TrG5h" value="content" />
+      <node concept="26Vqqz" id="2Ai0Gta6ycv" role="2C2TGm">
+        <property role="2caQfQ" value="false" />
+        <property role="2c7vTL" value="false" />
+      </node>
+      <node concept="2b32R4" id="2Ai0Gta6yog" role="lGtFl">
+        <node concept="3JmXsc" id="2Ai0Gta6yoj" role="2P8S$">
+          <node concept="3clFbS" id="2Ai0Gta6yok" role="2VODD2">
+            <node concept="3clFbF" id="2Ai0Gta6yoq" role="3cqZAp">
+              <node concept="2OqwBi" id="2Ai0Gta6A3X" role="3clFbG">
+                <node concept="2OqwBi" id="2Ai0Gta6yol" role="2Oq$k0">
+                  <node concept="3Tsc0h" id="2Ai0Gta6yoo" role="2OqNvi">
+                    <ref role="3TtcxE" to="x27k:5_l8w1EmTdh" resolve="contents" />
+                  </node>
+                  <node concept="30H73N" id="2Ai0Gta6yop" role="2Oq$k0" />
+                </node>
+                <node concept="3zZkjj" id="2Ai0Gta9OVB" role="2OqNvi">
+                  <node concept="1bVj0M" id="2Ai0Gta9OVD" role="23t8la">
+                    <node concept="3clFbS" id="2Ai0Gta9OVE" role="1bW5cS">
+                      <node concept="3clFbF" id="2Ai0Gta9OVF" role="3cqZAp">
+                        <node concept="3fqX7Q" id="2Ai0Gta9PhY" role="3clFbG">
+                          <node concept="2OqwBi" id="2Ai0Gta9Pi0" role="3fr31v">
+                            <node concept="37vLTw" id="2Ai0Gta9Pi1" role="2Oq$k0">
+                              <ref role="3cqZAo" node="2Ai0Gta9OVK" resolve="it" />
+>>>>>>> 2ad53958b9... Comments and cleanup in the modules and modules.gen languages
                             </node>
                             <node concept="3TrEf2" id="2L1k$oXP4Z$" role="2OqNvi">
                               <ref role="3Tt5mk" to="wnzg:3CmSUB7Fp_k" resolve="body" />
@@ -2495,6 +2587,13 @@
     </node>
     <node concept="n94m4" id="2Ai0GtaaFno" role="lGtFl">
       <ref role="n9lRv" to="wlyv:2Ai0Gt9PsI6" resolve="CPPImplementationModule" />
+      <node concept="2aEySx" id="3J_5hL3KaQz" role="lGtFl">
+        <node concept="19SGf9" id="3J_5hL3KaQ$" role="2aEySw">
+          <node concept="19SUe$" id="3J_5hL3KaQ_" role="19SJt6">
+            <property role="19SUeA" value="This is the actual generation module" />
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="17Uvod" id="2Ai0GtaaG7c" role="lGtFl">
       <property role="P4ACc" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/1169194658468/1169194664001" />
@@ -5826,6 +5925,13 @@
         <ref role="2sdACS" node="2Ai0Gt9X68v" resolve="class2Prototype" />
       </node>
     </node>
+    <node concept="2aEySx" id="3J_5hL3JZj9" role="lGtFl">
+      <node concept="19SGf9" id="3J_5hL3JZja" role="2aEySw">
+        <node concept="19SUe$" id="3J_5hL3JZjb" role="19SJt6">
+          <property role="19SUeA" value="Handles normal classes with other classes/template classes nested inside of them." />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="13MO4I" id="1yn8PkyOfZN">
     <property role="TrG5h" value="TemplateClassRecursion" />
@@ -6561,6 +6667,28 @@
             <property role="2c7vTL" value="false" />
           </node>
         </node>
+<<<<<<< HEAD
+=======
+      </node>
+    </node>
+    <node concept="2aEySx" id="3J_5hL3K9x_" role="lGtFl">
+      <node concept="19SGf9" id="3J_5hL3K9xA" role="2aEySw">
+        <node concept="19SUe$" id="3J_5hL3K9xB" role="19SJt6">
+          <property role="19SUeA" value="Handles template class generation with nested classes/template classes inside" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="13MO4I" id="1yn8Pkz3zGs">
+    <property role="TrG5h" value="ClassInTemplateRecursion" />
+    <ref role="3gUMe" to="wnzg:4o2nsMgBpPQ" resolve="ClassDeclaration" />
+    <node concept="3mBW2U" id="1yn8Pkz3Oxx" role="13RCb5">
+      <property role="2OOxQR" value="true" />
+      <property role="1wg9_G" value="public" />
+      <property role="TrG5h" value="Class" />
+      <node concept="1zE6Tr" id="1yn8Pkz3Pt$" role="3mBdys">
+        <property role="1wg9_G" value="public" />
+>>>>>>> 2ad53958b9... Comments and cleanup in the modules and modules.gen languages
         <node concept="3mBW2U" id="1yn8Pkz3Pu1" role="1zE6T_">
           <property role="2OOxQR" value="true" />
           <property role="1wg9_G" value="public" />
@@ -7098,6 +7226,13 @@
       <node concept="3u$6M4" id="1yn8Pkz3RIl" role="3mBdys" />
       <node concept="raruj" id="1yn8Pkz3P5R" role="lGtFl">
         <ref role="2sdACS" node="2Ai0Gt9X68v" resolve="class2Prototype" />
+      </node>
+    </node>
+    <node concept="2aEySx" id="3J_5hL3JUAj" role="lGtFl">
+      <node concept="19SGf9" id="3J_5hL3JUAk" role="2aEySw">
+        <node concept="19SUe$" id="3J_5hL3JUAl" role="19SJt6">
+          <property role="19SUeA" value="Handles generating nested classes inside of template classes" />
+        </node>
       </node>
     </node>
   </node>

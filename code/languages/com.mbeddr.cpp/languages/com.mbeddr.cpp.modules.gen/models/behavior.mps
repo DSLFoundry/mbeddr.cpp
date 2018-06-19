@@ -3,6 +3,7 @@
   <persistence version="9" />
   <languages>
     <use id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior" version="1" />
+    <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
     <devkit ref="2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)" />
   </languages>
   <imports>
@@ -157,6 +158,18 @@
         <child id="1199569916463" name="body" index="1bW5cS" />
       </concept>
     </language>
+    <language id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc">
+      <concept id="5349172909345501395" name="jetbrains.mps.baseLanguage.javadoc.structure.BaseDocComment" flags="ng" index="P$AiS">
+        <child id="8465538089690331502" name="body" index="TZ5H$" />
+      </concept>
+      <concept id="5349172909345532724" name="jetbrains.mps.baseLanguage.javadoc.structure.MethodDocComment" flags="ng" index="P$JXv" />
+      <concept id="8465538089690331500" name="jetbrains.mps.baseLanguage.javadoc.structure.CommentLine" flags="ng" index="TZ5HA">
+        <child id="8970989240999019149" name="part" index="1dT_Ay" />
+      </concept>
+      <concept id="8970989240999019143" name="jetbrains.mps.baseLanguage.javadoc.structure.TextCommentLinePart" flags="ng" index="1dT_AC">
+        <property id="8970989240999019144" name="text" index="1dT_AB" />
+      </concept>
+    </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -236,6 +249,9 @@
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
+      </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
@@ -430,7 +446,7 @@
             </node>
             <node concept="TSZUe" id="4k76AKYlrKx" role="2OqNvi">
               <node concept="35c_gC" id="4k76AKYlrOk" role="25WWJ7">
-                <ref role="35c_gD" to="wnzg:29cSqvcoIWH" resolve="NullPointerType" />
+                <ref role="35c_gD" to="wnzg:29cSqvcoIWH" resolve="Nullptr_tType" />
               </node>
             </node>
           </node>
@@ -926,6 +942,13 @@
       <node concept="A3Dl8" id="4k76AKYmdeP" role="3clF45">
         <node concept="3Tqbb2" id="4k76AKYmdeQ" role="A3Ik2" />
       </node>
+      <node concept="P$JXv" id="3J_5hL3JN4U" role="lGtFl">
+        <node concept="TZ5HA" id="3J_5hL3JN4V" role="TZ5H$">
+          <node concept="1dT_AC" id="3J_5hL3JN4W" role="1dT_Ay">
+            <property role="1dT_AB" value="Mirrors CPPImplmentationModule#importsForHeader. See that method for detailed explanations." />
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="13i0hz" id="ZKpU3BJF3x" role="13h7CS">
       <property role="TrG5h" value="allFunctionsWithoutInlineHeaderFunctions" />
@@ -1162,6 +1185,18 @@
           </node>
         </node>
       </node>
+      <node concept="P$JXv" id="3J_5hL3JSVh" role="lGtFl">
+        <node concept="TZ5HA" id="3J_5hL3JSVi" role="TZ5H$">
+          <node concept="1dT_AC" id="3J_5hL3JSVj" role="1dT_Ay">
+            <property role="1dT_AB" value="Generates an empty initializer so that they can be included in the header where nothing is in scope for them" />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="3J_5hL3JT_s" role="TZ5H$">
+          <node concept="1dT_AC" id="3J_5hL3JT_t" role="1dT_Ay">
+            <property role="1dT_AB" value="They are invalid but they can still be generated since it's only something to wrap with a macro." />
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="13hLZK" id="27HW4imYVjd" role="13h7CW">
       <node concept="3clFbS" id="27HW4imYVje" role="2VODD2">
@@ -1217,6 +1252,11 @@
     <ref role="13h7C2" to="pmno:3LE5RBQ$srP" resolve="GenOperatorDeclaration" />
     <node concept="13hLZK" id="3LE5RBQ_bLB" role="13h7CW">
       <node concept="3clFbS" id="3LE5RBQ_bLC" role="2VODD2">
+        <node concept="3SKdUt" id="3J_5hL3JMZs" role="3cqZAp">
+          <node concept="3SKdUq" id="3J_5hL3JMZu" role="3SKWNk">
+            <property role="3SKdUp" value="Avoids a nameless error" />
+          </node>
+        </node>
         <node concept="3clFbF" id="3LE5RBQ_bLM" role="3cqZAp">
           <node concept="37vLTI" id="3LE5RBQ_e0w" role="3clFbG">
             <node concept="Xl_RD" id="3LE5RBQ_e5P" role="37vLTx">
@@ -1233,5 +1273,62 @@
       </node>
     </node>
   </node>
+<<<<<<< HEAD
+=======
+  <node concept="13h7C7" id="ZKpU3Cdh9j">
+    <ref role="13h7C2" to="pmno:2Ai0Gt9Wx2A" resolve="GenMethodDeclaration" />
+    <node concept="13hLZK" id="ZKpU3Cdh9k" role="13h7CW">
+      <node concept="3clFbS" id="ZKpU3Cdh9l" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="ZKpU3Cdh9u" role="13h7CS">
+      <property role="13i0iv" value="false" />
+      <property role="13i0it" value="false" />
+      <property role="TrG5h" value="shouldAppearInHeader" />
+      <ref role="13i0hy" to="qd6m:ZKpU3BK7B7" resolve="shouldAppearInHeader" />
+      <node concept="3Tm1VV" id="ZKpU3Cdh9v" role="1B3o_S" />
+      <node concept="3clFbS" id="ZKpU3Cdh9$" role="3clF47">
+        <node concept="3SKdUt" id="3J_5hL3JPDD" role="3cqZAp">
+          <node concept="3SKdUq" id="3J_5hL3JPDF" role="3SKWNk">
+            <property role="3SKdUp" value="Tells template class implementations to stay in the header only and not make their way into an implementation" />
+          </node>
+        </node>
+        <node concept="3cpWs6" id="ZKpU3CdhlL" role="3cqZAp">
+          <node concept="1Wc70l" id="ZKpU3Cdn9P" role="3cqZAk">
+            <node concept="2OqwBi" id="ZKpU3CdteT" role="3uHU7w">
+              <node concept="1PxgMI" id="ZKpU3Cdsni" role="2Oq$k0">
+                <node concept="chp4Y" id="ZKpU3CdsGg" role="3oSUPX">
+                  <ref role="cht4Q" to="1yyn:ZKpU3C3Nka" resolve="TemplateClassDeclaration" />
+                </node>
+                <node concept="2OqwBi" id="ZKpU3Cdo0q" role="1m5AlR">
+                  <node concept="13iPFW" id="ZKpU3CdnmX" role="2Oq$k0" />
+                  <node concept="3TrEf2" id="ZKpU3Cdp70" role="2OqNvi">
+                    <ref role="3Tt5mk" to="pmno:2Ai0Gt9Wx2B" resolve="cls" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3TrcHB" id="ZKpU3Cdu6h" role="2OqNvi">
+                <ref role="3TsBF5" to="x27k:19a6$uAA0vK" resolve="exported" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="ZKpU3CdjTx" role="3uHU7B">
+              <node concept="2OqwBi" id="ZKpU3CdhNp" role="2Oq$k0">
+                <node concept="13iPFW" id="ZKpU3Cdhmg" role="2Oq$k0" />
+                <node concept="3TrEf2" id="ZKpU3CdiHv" role="2OqNvi">
+                  <ref role="3Tt5mk" to="pmno:2Ai0Gt9Wx2B" resolve="cls" />
+                </node>
+              </node>
+              <node concept="1mIQ4w" id="ZKpU3CdkxA" role="2OqNvi">
+                <node concept="chp4Y" id="ZKpU3CdkEt" role="cj9EA">
+                  <ref role="cht4Q" to="1yyn:ZKpU3C3Nka" resolve="TemplateClassDeclaration" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="10P_77" id="ZKpU3Cdh9_" role="3clF45" />
+    </node>
+  </node>
+>>>>>>> 2ad53958b9... Comments and cleanup in the modules and modules.gen languages
 </model>
 
