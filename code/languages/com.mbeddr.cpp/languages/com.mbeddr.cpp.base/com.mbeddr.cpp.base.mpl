@@ -178,12 +178,16 @@
     <dependency reexport="false">20c6e580-bdc5-4067-8049-d7e3265a86de(jetbrains.mps.typesystemEngine)</dependency>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 0671c1b426... Fix typechecking on qualified method calls and migrated ICallLike typechecks to a class
 =======
     <dependency reexport="false">2e15e1a4-8998-4f06-86b2-8d184a179e8e(com.mbeddr.cpp.exceptions)</dependency>
 >>>>>>> 061e94da3b... Migrate error handling to cpp.base
 =======
 >>>>>>> d72e40f1e7... Revert "Migrate error handling to cpp.base"
+=======
+    <dependency reexport="false">984f0332-8a86-4f5c-9184-03eae96b5d16(com.mbeddr.core.expressions.runtime)</dependency>
+>>>>>>> 2cdef1be64... Fix textgen in the tests for casting
   </dependencies>
   <languageVersions>
     <language slang="l:223dd778-c44f-4ef3-9535-7aa7d12244a6:com.mbeddr.core.debug" version="0" />

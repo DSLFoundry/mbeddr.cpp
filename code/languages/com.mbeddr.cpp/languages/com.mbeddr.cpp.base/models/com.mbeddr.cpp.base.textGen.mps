@@ -32,7 +32,12 @@
 =======
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
     <import index="dylp" ref="r:9840bc62-cb31-4ef3-9c9b-2de91c97cc15(com.mbeddr.core.expressions.textGen)" />
+<<<<<<< HEAD
 >>>>>>> 180d6b24f4... Unify structure naming, fix dependency issue and remove unused dependencies
+=======
+    <import index="iq8l" ref="r:ffb23717-2675-4f36-b47c-a7d3b95c99a7(com.mbeddr.core.expressions.runtime.plugin)" />
+    <import index="ywuz" ref="r:c6ce92e7-5a98-4a6f-866a-ec8b9e945dd8(com.mbeddr.core.expressions.behavior)" />
+>>>>>>> 2cdef1be64... Fix textgen in the tests for casting
     <import index="wnzg" ref="r:24646c42-f8e0-499c-b639-679cfa170a2e(com.mbeddr.cpp.base.structure)" implicit="true" />
 <<<<<<< HEAD
 >>>>>>> ff7b242aec... Added auto declaration.
@@ -57,9 +62,12 @@
     <import index="kntn" ref="r:4090021e-0c8f-4cca-ab3f-590afb43a745(com.mbeddr.cpp.base.behavior)" implicit="true" />
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" implicit="true" />
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f6a9ef0714... Fix TextGen for arrays in classes, add type and size checking
 =======
     <import index="ywuz" ref="r:c6ce92e7-5a98-4a6f-866a-ec8b9e945dd8(com.mbeddr.core.expressions.behavior)" implicit="true" />
+=======
+>>>>>>> 2cdef1be64... Fix textgen in the tests for casting
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
 >>>>>>> 193f96f9fb... Add header import interface for new keyword, may be used elsewhere
   </imports>
@@ -4204,39 +4212,39 @@
     <ref role="WuzLi" to="wnzg:3e4PW874nO8" resolve="ICPPCast" />
     <node concept="11bSqf" id="4lmr4L5$JPH" role="11c4hB">
       <node concept="3clFbS" id="4lmr4L5$JPI" role="2VODD2">
-        <node concept="lc7rE" id="4lmr4L5$$Sx" role="3cqZAp">
-          <node concept="l9hG8" id="4lmr4L5$$ST" role="lcghm">
-            <node concept="2OqwBi" id="4lmr4L5$Af4" role="lb14g">
-              <node concept="2OqwBi" id="4lmr4L5$_7n" role="2Oq$k0">
-                <node concept="117lpO" id="4lmr4L5$$TN" role="2Oq$k0" />
-                <node concept="2yIwOk" id="4lmr4L5$_G3" role="2OqNvi" />
+        <node concept="lc7rE" id="3J_5hL4Yc2g" role="3cqZAp">
+          <node concept="l9hG8" id="3J_5hL50sQ$" role="lcghm">
+            <node concept="2OqwBi" id="3J_5hL50tKK" role="lb14g">
+              <node concept="2OqwBi" id="3J_5hL50tev" role="2Oq$k0">
+                <node concept="117lpO" id="3J_5hL50t1A" role="2Oq$k0" />
+                <node concept="2yIwOk" id="3J_5hL50tvP" role="2OqNvi" />
               </node>
-              <node concept="3n3YKJ" id="4lmr4L5$Aze" role="2OqNvi" />
+              <node concept="3n3YKJ" id="3J_5hL50u3D" role="2OqNvi" />
             </node>
           </node>
-          <node concept="la8eA" id="4lmr4L5$AOw" role="lcghm">
+          <node concept="la8eA" id="3J_5hL4Yc2n" role="lcghm">
             <property role="lacIc" value="&lt;" />
           </node>
-          <node concept="l9hG8" id="4lmr4L5$AT0" role="lcghm">
-            <node concept="2OqwBi" id="4lmr4L5$B9i" role="lb14g">
-              <node concept="117lpO" id="4lmr4L5$AVI" role="2Oq$k0" />
-              <node concept="3TrEf2" id="3e4PW874xKK" role="2OqNvi">
+          <node concept="l9hG8" id="3J_5hL4Yc2o" role="lcghm">
+            <node concept="2OqwBi" id="3J_5hL4Yc2q" role="lb14g">
+              <node concept="117lpO" id="3J_5hL4Yc2r" role="2Oq$k0" />
+              <node concept="3TrEf2" id="3J_5hL4Yc2s" role="2OqNvi">
                 <ref role="3Tt5mk" to="wnzg:3e4PW874nOt" resolve="type" />
               </node>
             </node>
           </node>
-          <node concept="la8eA" id="4lmr4L5$BEW" role="lcghm">
+          <node concept="la8eA" id="3J_5hL4Yc2u" role="lcghm">
             <property role="lacIc" value="&gt;(" />
           </node>
-          <node concept="l9hG8" id="4lmr4L5$BW7" role="lcghm">
-            <node concept="2OqwBi" id="4lmr4L5$ILk" role="lb14g">
-              <node concept="117lpO" id="4lmr4L5$IzI" role="2Oq$k0" />
-              <node concept="3TrEf2" id="3e4PW874y85" role="2OqNvi">
+          <node concept="l9hG8" id="3J_5hL4Yc2v" role="lcghm">
+            <node concept="2OqwBi" id="3J_5hL4Yc2w" role="lb14g">
+              <node concept="117lpO" id="3J_5hL4Yc2x" role="2Oq$k0" />
+              <node concept="3TrEf2" id="3J_5hL4Yc2y" role="2OqNvi">
                 <ref role="3Tt5mk" to="wnzg:3e4PW874nOc" resolve="value" />
               </node>
             </node>
           </node>
-          <node concept="la8eA" id="4lmr4L5$JD1" role="lcghm">
+          <node concept="la8eA" id="3J_5hL4Yc2z" role="lcghm">
             <property role="lacIc" value=")" />
           </node>
         </node>
