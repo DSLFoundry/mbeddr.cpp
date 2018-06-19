@@ -41,6 +41,7 @@
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <import index="c4fa" ref="r:9f0e84b6-2ec7-4f9e-83e0-feedc77b63a3(com.mbeddr.core.statements.structure)" implicit="true" />
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -55,10 +56,11 @@
 =======
     <import index="c4fa" ref="r:9f0e84b6-2ec7-4f9e-83e0-feedc77b63a3(com.mbeddr.core.statements.structure)" implicit="true" />
 >>>>>>> 5c976ae824... Fix constraints being gone and typesystem test
+=======
+>>>>>>> 900cef7e23... Fix auto keyword
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
-      <concept id="1080223426719" name="jetbrains.mps.baseLanguage.structure.OrExpression" flags="nn" index="22lmx$" />
       <concept id="1082485599095" name="jetbrains.mps.baseLanguage.structure.BlockStatement" flags="nn" index="9aQIb">
         <child id="1082485599096" name="statements" index="9aQI4" />
       </concept>
@@ -2834,6 +2836,7 @@
     <ref role="1M2myG" to="wnzg:6FZQsHt7RdA" resolve="AutoType" />
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5c976ae824... Fix constraints being gone and typesystem test
     <node concept="9S07l" id="6FZQsHt$aAd" role="9Vyp8">
@@ -2884,6 +2887,8 @@
 >>>>>>> 546a94c71c... Auto type scope fixed
 =======
 >>>>>>> 5c976ae824... Fix constraints being gone and typesystem test
+=======
+>>>>>>> 900cef7e23... Fix auto keyword
   </node>
   <node concept="1M2fIO" id="6OyCGy9cOMX">
     <ref role="1M2myG" to="wnzg:6OyCGy9cOMO" resolve="ClassStaticVarRef" />
