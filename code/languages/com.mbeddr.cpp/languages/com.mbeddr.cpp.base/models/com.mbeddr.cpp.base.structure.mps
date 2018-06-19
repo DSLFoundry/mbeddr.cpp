@@ -2089,6 +2089,7 @@
   </node>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5ef9af0b8a... Classes in Namespaces.
 =======
 =======
@@ -2103,6 +2104,8 @@
     </node>
   </node>
 >>>>>>> eea05764ef... Document several concepts in base
+=======
+>>>>>>> 01a375396e... Removed duplicate options from autocompletion menu.
   <node concept="1TIwiD" id="6OyCGy3FHs3">
     <property role="EcuMT" value="7864026881428739843" />
     <property role="TrG5h" value="GlobalVarDecCPP" />
