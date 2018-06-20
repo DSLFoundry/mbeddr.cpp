@@ -5921,6 +5921,7 @@
       <node concept="l2Vlx" id="6WSa0snOgwu" role="2iSdaV" />
     </node>
   </node>
+<<<<<<< HEAD
 >>>>>>> 7743891de9... Move constructor outside method virtual package
   <node concept="24kQdi" id="1yn8PkxYwAP">
     <property role="3GE5qa" value="class" />
@@ -5950,6 +5951,27 @@
         </node>
       </node>
       <node concept="2iRfu4" id="1yn8PkxYwPC" role="2iSdaV" />
+=======
+  <node concept="24kQdi" id="4lmr4L5K5Fj">
+    <property role="3GE5qa" value="cast" />
+    <ref role="1XX52x" to="wnzg:4lmr4L5K5F7" resolve="ConstCast" />
+    <node concept="PMmxH" id="4lmr4L5K5Fl" role="2wV5jI">
+      <ref role="PMmxG" node="4lmr4L5bbIq" resolve="CastEditorComponent" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="4lmr4L5AaIc">
+    <property role="3GE5qa" value="cast" />
+    <ref role="1XX52x" to="wnzg:4lmr4L5$$S8" resolve="ReinterpretCast" />
+    <node concept="PMmxH" id="4lmr4L5AaIe" role="2wV5jI">
+      <ref role="PMmxG" node="4lmr4L5bbIq" resolve="CastEditorComponent" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="4lmr4L5Exup">
+    <property role="3GE5qa" value="cast" />
+    <ref role="1XX52x" to="wnzg:4lmr4L5Exud" resolve="DynamicCast" />
+    <node concept="PMmxH" id="4lmr4L5Exur" role="2wV5jI">
+      <ref role="PMmxG" node="4lmr4L5bbIq" resolve="CastEditorComponent" />
+>>>>>>> 8926664026... Fixed innerclasstype editor
     </node>
   </node>
   <node concept="PKFIW" id="4lmr4L5bbIq">
@@ -5989,6 +6011,7 @@
       <ref role="PMmxG" node="4lmr4L5bbIq" resolve="CastEditorComponent" />
     </node>
   </node>
+<<<<<<< HEAD
 <<<<<<< HEAD
   <node concept="24kQdi" id="4lmr4L5AaIc">
     <property role="3GE5qa" value="cast" />
@@ -6035,11 +6058,36 @@
         <ref role="1NtTu8" to="wnzg:cx3$dxZGW0" resolve="method" />
         <node concept="1sVBvm" id="cx3$dxZGWn" role="1sWHZn">
           <node concept="3F0A7n" id="cx3$dxZGWo" role="2wV5jI">
+=======
+  <node concept="24kQdi" id="Chy8D$$u4P">
+    <property role="3GE5qa" value="class" />
+    <ref role="1XX52x" to="wnzg:1yn8PkxYuRh" resolve="InnerClassType" />
+    <node concept="3EZMnI" id="1yn8PkxYwP_" role="2wV5jI">
+      <node concept="1kIj98" id="1yn8PkxYwPM" role="3EZMnx">
+        <node concept="3F1sOY" id="1yn8PkxYwPW" role="1kIj9b">
+          <ref role="1NtTu8" to="wnzg:1yn8PkxYuRi" resolve="outerClassType" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="1yn8PkxYwQb" role="3EZMnx">
+        <property role="3F0ifm" value="::" />
+        <node concept="11L4FC" id="1yn8PkxYwQm" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="11LMrY" id="1yn8PkxYwQx" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="1iCGBv" id="1yn8PkxYwQW" role="3EZMnx">
+        <ref role="1NtTu8" to="wnzg:4o2nsMgBEtY" resolve="class" />
+        <node concept="1sVBvm" id="1yn8PkxYwQY" role="1sWHZn">
+          <node concept="3F0A7n" id="1yn8PkxYwRq" role="2wV5jI">
+>>>>>>> 8926664026... Fixed innerclasstype editor
             <property role="1Intyy" value="true" />
             <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
           </node>
         </node>
       </node>
+<<<<<<< HEAD
       <node concept="3F0ifn" id="cx3$dyZpkc" role="3EZMnx">
         <property role="3F0ifm" value="(" />
         <node concept="11L4FC" id="cx3$dyZp_u" role="3F10Kt">
@@ -6125,6 +6173,9 @@
       </node>
       <node concept="l2Vlx" id="cx3$dxZGWp" role="2iSdaV" />
 >>>>>>> 06a53f073f... Added reference for static class methods.
+=======
+      <node concept="2iRfu4" id="1yn8PkxYwPC" role="2iSdaV" />
+>>>>>>> 8926664026... Fixed innerclasstype editor
     </node>
   </node>
 </model>
