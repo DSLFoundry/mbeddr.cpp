@@ -159,6 +159,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> a36012117c... Fix testcases
 =======
 =======
@@ -171,6 +172,9 @@
 =======
       <concept id="3604003506923204504" name="com.mbeddr.cpp.base.structure.NamespaceDeclaration" flags="ng" index="dq960" />
 >>>>>>> a5b410c665... Fix highlighting to be consistent and make the package name lowercase
+=======
+      <concept id="7240228573262412204" name="com.mbeddr.cpp.base.structure.LocalClassVariableDeclaration" flags="ng" index="2dywKE" />
+>>>>>>> 39a1d09c6b... Migrate constructor executable test cases outside classes model
       <concept id="7240228573260630076" name="com.mbeddr.cpp.base.structure.ConstructorVoidType" flags="ng" index="2dFNQU" />
       <concept id="7844497894798008401" name="com.mbeddr.cpp.base.structure.ClassConstructorSignature" flags="ng" index="2gom4k">
         <property id="6088872510303555204" name="isDestructor" index="3BMcJd" />
@@ -290,6 +294,7 @@
         <property id="4511589886097466677" name="visibility" index="FysoG" />
         <reference id="4511589886097466674" name="parentClass" index="FysoF" />
       </concept>
+<<<<<<< HEAD
       <concept id="6028541369719415919" name="com.mbeddr.cpp.base.structure.IConstExprFlag" flags="ng" index="OtGC0">
         <property id="6028541369719415920" name="isConstExpr" index="OtGCv" />
       </concept>
@@ -299,6 +304,8 @@
 =======
 >>>>>>> e6791fc3a8... Cleaned up the executable tests and made sure there weren't snytax errors. Many still have build problems due to UnitTestHelper.h
 =======
+=======
+>>>>>>> 39a1d09c6b... Migrate constructor executable test cases outside classes model
       <concept id="1771923826942799313" name="com.mbeddr.cpp.base.structure.InnerClassType" flags="ng" index="TrGU4">
         <child id="1771923826942799314" name="outerClassType" index="TrGU7" />
       </concept>
@@ -1245,9 +1252,6 @@
       <node concept="3cM6IN" id="7SgJHc9Iar5" role="lIfQt">
         <ref role="3cM6IK" node="4Mb2ywHWU4q" resolve="poly_external" />
       </node>
-      <node concept="3cM6IN" id="7POJCjgRnQX" role="lIfQt">
-        <ref role="3cM6IK" node="72UYQRWMsqO" resolve="constructorTC1" />
-      </node>
     </node>
     <node concept="2NXPZ9" id="3OWNtRXpWBc" role="N3F5h">
       <property role="TrG5h" value="empty_1526980563744_98" />
@@ -1258,6 +1262,7 @@
     <node concept="3GEVxB" id="7YG4fz8gm$n" role="2OODSX">
       <ref role="3GEb4d" node="nbE_$_7VLA" resolve="Extension" />
     </node>
+<<<<<<< HEAD
 <<<<<<< HEAD
     <node concept="3GEVxB" id="4smL_2D2PAH" role="2OODSX">
       <ref role="3GEb4d" node="2yiFVcKEIWv" resolve="This" />
@@ -1272,6 +1277,8 @@
       <ref role="3GEb4d" node="1yn8PkybQJK" resolve="Nesting" />
 >>>>>>> 363789fa02... added testing module
     </node>
+=======
+>>>>>>> 39a1d09c6b... Migrate constructor executable test cases outside classes model
     <node concept="3GEVxB" id="7SgJHc9sIbm" role="2OODSX">
       <ref role="3GEb4d" node="1yn8PkybQJK" resolve="Nesting" />
     </node>
@@ -2030,6 +2037,7 @@
       </node>
     </node>
   </node>
+<<<<<<< HEAD
   <node concept="1whW_1" id="6KmaLbDZjG7">
     <property role="TrG5h" value="Constructor" />
     <node concept="3mBW2U" id="6KmaLbDZm15" role="N3F5h">
@@ -2613,6 +2621,8 @@
 =======
 =======
 >>>>>>> d16f2d8d2e... Put thisPointer executable test outside classes
+=======
+>>>>>>> 39a1d09c6b... Migrate constructor executable test cases outside classes model
   <node concept="1whW_1" id="1yn8PkybQJK">
     <property role="TrG5h" value="Nesting" />
     <node concept="3mBW2U" id="1yn8Pkyc1xp" role="N3F5h">
