@@ -10,10 +10,6 @@
   </imports>
   <registry>
     <language id="a9d69647-0840-491e-bf39-2eb0805d2011" name="com.mbeddr.core.statements">
-      <concept id="8441331188640771826" name="com.mbeddr.core.statements.structure.WhileStatement" flags="ng" index="27v$Wf">
-        <child id="8441331188640771828" name="body" index="27v$W9" />
-        <child id="8441331188640771827" name="condition" index="27v$We" />
-      </concept>
       <concept id="7763322639126652757" name="com.mbeddr.core.statements.structure.ITypeContainingType" flags="ng" index="2umbIr">
         <child id="7763322639126652758" name="baseType" index="2umbIo" />
       </concept>
@@ -91,10 +87,13 @@
       </concept>
     </language>
     <language id="3bf5377a-e904-4ded-9754-5a516023bfaa" name="com.mbeddr.core.pointers">
+<<<<<<< HEAD
       <concept id="5308710777891643206" name="com.mbeddr.core.pointers.structure.NullExpression" flags="ng" index="Ea8Gl" />
 <<<<<<< HEAD
       <concept id="6113173064528067332" name="com.mbeddr.core.pointers.structure.StringType" flags="ng" index="Pu267" />
 <<<<<<< HEAD
+=======
+>>>>>>> d16f2d8d2e... Put thisPointer executable test outside classes
       <concept id="279446265608459824" name="com.mbeddr.core.pointers.structure.PointerType" flags="ng" index="3wxxNl" />
       <concept id="5679441017214012545" name="com.mbeddr.core.pointers.structure.ArrayType" flags="ng" index="3J0A42" />
 =======
@@ -380,23 +379,6 @@
         <reference id="2093108837558505659" name="arg" index="3ZUYvu" />
       </concept>
     </language>
-    <language id="5e6018dc-dc26-4070-9526-663fdbfe4c10" name="com.mbeddr.cpp.templates">
-      <concept id="1148531845765298629" name="com.mbeddr.cpp.templates.structure.TemplateClassType" flags="ng" index="3BS1T_" />
-      <concept id="1148531845765298630" name="com.mbeddr.cpp.templates.structure.ITemplateImpl" flags="ng" index="3BS1TA">
-        <child id="1148531845765298631" name="types" index="3BS1TB" />
-      </concept>
-      <concept id="1148531845765215498" name="com.mbeddr.cpp.templates.structure.TemplateClassDeclaration" flags="ng" index="3BZPaE" />
-      <concept id="1495115451833703165" name="com.mbeddr.cpp.templates.structure.TypeTemplateArg" flags="ng" index="3C0mPD">
-        <child id="1495115451833703169" name="type" index="3C0mMl" />
-      </concept>
-      <concept id="1148531845755708899" name="com.mbeddr.cpp.templates.structure.ITemplate" flags="ng" index="3Cz$93">
-        <child id="1148531845755708903" name="types" index="3Cz$97" />
-      </concept>
-      <concept id="2978375990122038559" name="com.mbeddr.cpp.templates.structure.TemplateTypeDef" flags="ng" index="3V$TgL" />
-      <concept id="2978375990143248022" name="com.mbeddr.cpp.templates.structure.TemplateTypeRef" flags="ng" index="3XnNuS">
-        <reference id="2978375990143248023" name="def" index="3XnNuT" />
-      </concept>
-    </language>
     <language id="06d68b77-b699-4918-83b8-857e63787800" name="com.mbeddr.core.unittest">
       <concept id="6275792049641586523" name="com.mbeddr.core.unittest.structure.TestCase" flags="ng" index="c0Qz5">
         <child id="6275792049641586525" name="body" index="c0Qz3" />
@@ -423,8 +405,11 @@
     </language>
     <language id="b341759a-c721-4072-90cf-328bb2724684" name="com.mbeddr.cpp.expressions">
 <<<<<<< HEAD
+<<<<<<< HEAD
       <concept id="2923592292267370217" name="com.mbeddr.cpp.expressions.structure.This" flags="ng" index="oe0_q" />
 =======
+=======
+>>>>>>> d16f2d8d2e... Put thisPointer executable test outside classes
       <concept id="3910253520676052396" name="com.mbeddr.cpp.expressions.structure.ArrayAttributeInitExpression" flags="ng" index="BQtXK" />
 >>>>>>> f6a9ef0714... Fix TextGen for arrays in classes, add type and size checking
       <concept id="5044697665789421241" name="com.mbeddr.cpp.expressions.structure.QualifiedMethodCall" flags="ng" index="3mBbHP">
@@ -462,7 +447,6 @@
       <concept id="2995459757115296646" name="com.mbeddr.cpp.modules.structure.CPPImplementationModule" flags="ng" index="1whW_1" />
     </language>
     <language id="61c69711-ed61-4850-81d9-7714ff227fb0" name="com.mbeddr.core.expressions">
-      <concept id="7615572890648529894" name="com.mbeddr.core.expressions.structure.NotEqualsExpression" flags="ng" index="25Bbzn" />
       <concept id="8463282783691618440" name="com.mbeddr.core.expressions.structure.Int32tType" flags="ng" index="26Vqph" />
       <concept id="8463282783691618426" name="com.mbeddr.core.expressions.structure.Int8tType" flags="ng" index="26Vqqz" />
       <concept id="3005510381523579442" name="com.mbeddr.core.expressions.structure.UnaryExpression" flags="ng" index="2aKSnQ">
@@ -561,9 +545,6 @@
       <node concept="2v9HqM" id="7pvqO1NPnkY" role="2eOfOg">
         <ref role="2v9HqP" node="4Mb2ywHr281" resolve="Polymorphism" />
 >>>>>>> e6ce50a6a5... Fix new constructors not having textgen after change, fix double entrypoint
-      </node>
-      <node concept="2v9HqM" id="4smL_2CVI0S" role="2eOfOg">
-        <ref role="2v9HqP" node="2yiFVcKEIWv" resolve="This" />
       </node>
     </node>
     <node concept="2Q9Fgs" id="3v5DuFDtvd1" role="2Q9xDr">
@@ -1247,6 +1228,7 @@
       <node concept="3cM6IN" id="7YG4fz8gm$q" role="lIfQt">
         <ref role="3cM6IK" node="nbE_$_7Waj" resolve="extensionTC1" />
       </node>
+<<<<<<< HEAD
       <node concept="3cM6IN" id="4smL_2D2PAR" role="lIfQt">
         <ref role="3cM6IK" node="2yiFVcKEJzr" resolve="thisTC1" />
       </node>
@@ -1254,6 +1236,8 @@
       <node concept="3cM6IN" id="72UYQRXRXgQ" role="lIfQt">
         <ref role="3cM6IK" node="72UYQRWMsqO" resolve="constructorTC1" />
 =======
+=======
+>>>>>>> d16f2d8d2e... Put thisPointer executable test outside classes
       <node concept="3cM6IN" id="1yn8Pkyc0C$" role="lIfQt">
         <ref role="3cM6IK" node="1yn8PkybR6C" resolve="nestingTC1" />
 >>>>>>> 363789fa02... added testing module
@@ -1274,10 +1258,13 @@
     <node concept="3GEVxB" id="7YG4fz8gm$n" role="2OODSX">
       <ref role="3GEb4d" node="nbE_$_7VLA" resolve="Extension" />
     </node>
+<<<<<<< HEAD
     <node concept="3GEVxB" id="4smL_2D2PAH" role="2OODSX">
       <ref role="3GEb4d" node="2yiFVcKEIWv" resolve="This" />
     </node>
 <<<<<<< HEAD
+=======
+>>>>>>> d16f2d8d2e... Put thisPointer executable test outside classes
     <node concept="3GEVxB" id="72UYQRXRXgI" role="2OODSX">
       <ref role="3GEb4d" node="6KmaLbDZjG7" resolve="Constructor" />
 =======
@@ -2291,6 +2278,7 @@
       <ref role="3GEb4d" node="45rBLTDXEQn" resolve="ImportedModule" />
     </node>
   </node>
+<<<<<<< HEAD
   <node concept="1whW_1" id="2yiFVcKEIWv">
     <property role="TrG5h" value="This" />
     <node concept="3mBW2U" id="2yiFVcKEJMS" role="N3F5h">
@@ -2623,6 +2611,8 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> d16f2d8d2e... Put thisPointer executable test outside classes
   <node concept="1whW_1" id="1yn8PkybQJK">
     <property role="TrG5h" value="Nesting" />
     <node concept="3mBW2U" id="1yn8Pkyc1xp" role="N3F5h">
