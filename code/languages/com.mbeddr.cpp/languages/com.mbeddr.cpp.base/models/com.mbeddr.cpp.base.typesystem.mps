@@ -8547,6 +8547,7 @@
     </node>
   </node>
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 3e9af26420... Add static_cast<T> and reinterpret_cast<T*>
 =======
   <node concept="18kY7G" id="4lmr4L5IUrF">
@@ -8666,10 +8667,33 @@
               <node concept="1Z2H0r" id="4lmr4L5Ke$v" role="mwGJk">
                 <node concept="1YBJjd" id="4lmr4L5Ke$O" role="1Z2MuG">
                   <ref role="1YBMHb" node="4lmr4L5Kcv2" resolve="cc" />
+=======
+  <node concept="1YbPZF" id="cx3$dxZHt2">
+    <property role="TrG5h" value="typeof_ClassStaticMethodRef" />
+    <node concept="3clFbS" id="cx3$dxZHt3" role="18ibNy">
+      <node concept="3SKdUt" id="cx3$dxZHt9" role="3cqZAp">
+        <node concept="3SKdUq" id="cx3$dxZHta" role="3SKWNk">
+          <property role="3SKdUp" value="Type of the reference should match the type of the declaration." />
+        </node>
+      </node>
+      <node concept="nvevp" id="cx3$dxZHtb" role="3cqZAp">
+        <node concept="3clFbS" id="cx3$dxZHtc" role="nvhr_">
+          <node concept="1Z5TYs" id="cx3$dxZHtd" role="3cqZAp">
+            <node concept="mw_s8" id="cx3$dxZHte" role="1ZfhKB">
+              <node concept="2X3wrD" id="cx3$dxZHtf" role="mwGJk">
+                <ref role="2X3Bk0" node="cx3$dxZHtn" resolve="type" />
+              </node>
+            </node>
+            <node concept="mw_s8" id="cx3$dxZHtg" role="1ZfhK$">
+              <node concept="1Z2H0r" id="cx3$dxZHth" role="mwGJk">
+                <node concept="1YBJjd" id="cx3$dxZHZW" role="1Z2MuG">
+                  <ref role="1YBMHb" node="cx3$dxZHt5" resolve="classStaticMethodRef" />
+>>>>>>> 06a53f073f... Added reference for static class methods.
                 </node>
               </node>
             </node>
           </node>
+<<<<<<< HEAD
           <node concept="3clFbH" id="4lmr4L5KlBw" role="3cqZAp" />
         </node>
         <node concept="2OqwBi" id="4lmr4L5KebR" role="3clFbw">
@@ -8716,5 +8740,29 @@
     </node>
   </node>
 >>>>>>> 632c9cf47b... Add const_cast<T> and dynamic_cast<T*>
+=======
+        </node>
+        <node concept="1Z2H0r" id="cx3$dxZHtj" role="nvjzm">
+          <node concept="2OqwBi" id="cx3$dxZHtk" role="1Z2MuG">
+            <node concept="1YBJjd" id="cx3$dxZHzv" role="2Oq$k0">
+              <ref role="1YBMHb" node="cx3$dxZHt5" resolve="classStaticMethodRef" />
+            </node>
+            <node concept="3TrEf2" id="cx3$dxZHVA" role="2OqNvi">
+              <ref role="3Tt5mk" to="wnzg:cx3$dxZGW0" resolve="method" />
+            </node>
+          </node>
+        </node>
+        <node concept="2X1qdy" id="cx3$dxZHtn" role="2X0Ygz">
+          <property role="TrG5h" value="type" />
+          <node concept="2jxLKc" id="cx3$dxZHto" role="1tU5fm" />
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="cx3$dxZHt5" role="1YuTPh">
+      <property role="TrG5h" value="classStaticMethodRef" />
+      <ref role="1YaFvo" to="wnzg:cx3$dxZGVV" resolve="ClassStaticMethodRef" />
+    </node>
+  </node>
+>>>>>>> 06a53f073f... Added reference for static class methods.
 </model>
 
