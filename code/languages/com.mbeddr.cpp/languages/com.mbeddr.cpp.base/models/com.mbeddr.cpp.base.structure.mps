@@ -2140,15 +2140,6 @@
     <property role="EcuMT" value="7864026881521306804" />
     <property role="TrG5h" value="ClassStaticVarRef" />
     <property role="R4oN_" value="Reference a static variable from a class" />
-    <property role="34LRSv" value="::" />
-    <ref role="1TJDcQ" to="mj1l:7FQByU3CrCM" resolve="Expression" />
-    <node concept="1TJgyj" id="6OyCGy9cOMP" role="1TKVEi">
-      <property role="IQ2ns" value="7864026881521306805" />
-      <property role="20lmBu" value="reference" />
-      <property role="20kJfa" value="class" />
-      <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="4o2nsMgBpPQ" resolve="ClassDeclaration" />
-    </node>
     <node concept="1TJgyj" id="6OyCGy9cOMS" role="1TKVEi">
       <property role="IQ2ns" value="7864026881521306808" />
       <property role="20lmBu" value="reference" />
@@ -2158,6 +2149,9 @@
     </node>
     <node concept="t5JxF" id="7POJCjeKIEh" role="lGtFl">
       <property role="t5JxN" value="For accessing static members of classes with ClassName::member" />
+    </node>
+    <node concept="PrWs8" id="3L3ootSazOf" role="PzmwI">
+      <ref role="PrY4T" node="3L3ootRECAl" resolve="IClassStaticRefTarget" />
     </node>
   </node>
 <<<<<<< HEAD
@@ -2558,21 +2552,12 @@
     <property role="EcuMT" value="225477138914922235" />
     <property role="TrG5h" value="ClassStaticMethodRef" />
     <property role="R4oN_" value="Reference a static method from a class" />
-    <property role="34LRSv" value="::" />
-    <ref role="1TJDcQ" to="mj1l:7FQByU3CrCM" resolve="Expression" />
     <node concept="1TJgyj" id="cx3$dyfIIg" role="1TKVEi">
       <property role="IQ2ns" value="225477138919123856" />
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="actual_arguments" />
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" to="mj1l:7FQByU3CrCM" resolve="Expression" />
-    </node>
-    <node concept="1TJgyj" id="cx3$dxZGVZ" role="1TKVEi">
-      <property role="IQ2ns" value="225477138914922239" />
-      <property role="20lmBu" value="reference" />
-      <property role="20kJfa" value="class" />
-      <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="4o2nsMgBpPQ" resolve="ClassDeclaration" />
     </node>
     <node concept="1TJgyj" id="cx3$dxZGW0" role="1TKVEi">
       <property role="IQ2ns" value="225477138914922240" />
@@ -2584,6 +2569,33 @@
     <node concept="PrWs8" id="cx3$dyfIId" role="PzmwI">
       <ref role="PrY4T" to="x27k:6WGVxckB05U" resolve="ICallLike" />
     </node>
+    <node concept="PrWs8" id="3L3ootSaqiw" role="PzmwI">
+      <ref role="PrY4T" node="3L3ootRECAl" resolve="IClassStaticRefTarget" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3L3ootRECAk">
+    <property role="EcuMT" value="4342421700171434388" />
+    <property role="TrG5h" value="ClassStaticRef" />
+    <property role="R4oN_" value="Static reference" />
+    <ref role="1TJDcQ" to="mj1l:7FQByU3CrCM" resolve="Expression" />
+    <node concept="1TJgyj" id="3L3ootRECAm" role="1TKVEi">
+      <property role="IQ2ns" value="4342421700171434390" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="class" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="4o2nsMgBpPQ" resolve="ClassDeclaration" />
+    </node>
+    <node concept="1TJgyj" id="3L3ootRECAp" role="1TKVEi">
+      <property role="IQ2ns" value="4342421700171434393" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="target" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="3L3ootRECAl" resolve="IClassStaticRefTarget" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="3L3ootRECAl">
+    <property role="EcuMT" value="4342421700171434389" />
+    <property role="TrG5h" value="IClassStaticRefTarget" />
   </node>
 >>>>>>> 06a53f073f... Added reference for static class methods.
 </model>
