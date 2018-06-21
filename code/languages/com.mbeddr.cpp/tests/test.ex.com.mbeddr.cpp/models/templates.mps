@@ -5,6 +5,7 @@
     <engage id="236f3e56-2360-4657-9b9d-0cb84f56784d" name="com.mbeddr.cpp.modules.gen" />
     <devkit ref="bdd1ab49-ce55-4bff-86d1-5394fa0aa930(com.mbeddr.cpp)" />
   </languages>
+<<<<<<< HEAD
   <imports>
 <<<<<<< HEAD
     <import index="ys0m" ref="r:9e71b142-f269-4237-8701-257cbfe7c45f(test.ex.com.mbeddr.cpp.exceptions)" />
@@ -24,6 +25,9 @@
 =======
 >>>>>>> 13c574e730... Fix broken template executable test
   </imports>
+=======
+  <imports />
+>>>>>>> 141649c5ba... Clean up dependencies
   <registry>
     <language id="a9d69647-0840-491e-bf39-2eb0805d2011" name="com.mbeddr.core.statements">
       <concept id="8441331188640771826" name="com.mbeddr.core.statements.structure.WhileStatement" flags="ng" index="27v$Wf">
