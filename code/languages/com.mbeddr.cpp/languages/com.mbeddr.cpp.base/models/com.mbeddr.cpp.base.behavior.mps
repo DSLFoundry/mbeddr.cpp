@@ -9138,6 +9138,7 @@
         </node>
       </node>
     </node>
+<<<<<<< HEAD
     <node concept="13i0hz" id="r2pGcfny46" role="13h7CS">
       <property role="TrG5h" value="getNewPresentation" />
       <node concept="3Tm1VV" id="r2pGcfny47" role="1B3o_S" />
@@ -9146,6 +9147,45 @@
         <node concept="3SKdUt" id="61rdzRiro6T" role="3cqZAp">
           <node concept="3SKdUq" id="61rdzRiro6U" role="3SKWNk">
             <property role="3SKdUp" value="Uses the presentation created in getNewEditorPresentation(), plus the name of the selected namespace," />
+=======
+    <node concept="13i0hz" id="2q0dGTvdvr9" role="13h7CS">
+      <property role="TrG5h" value="getPresentation" />
+      <property role="2Ki8OM" value="false" />
+      <ref role="13i0hy" to="tpcu:hEwIMiw" resolve="getPresentation" />
+      <node concept="3clFbS" id="2q0dGTvdvrc" role="3clF47">
+        <node concept="3cpWs6" id="2q0dGTvdwoh" role="3cqZAp">
+          <node concept="3cpWs3" id="2q0dGTvdwVx" role="3cqZAk">
+            <node concept="2OqwBi" id="2q0dGTvdxf_" role="3uHU7w">
+              <node concept="13iPFW" id="2q0dGTvdwW9" role="2Oq$k0" />
+              <node concept="3TrcHB" id="2q0dGTvdxNE" role="2OqNvi">
+                <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+              </node>
+            </node>
+            <node concept="BsUDl" id="2q0dGTvdwoK" role="3uHU7B">
+              <ref role="37wK5l" node="383ZxwZufXU" resolve="getEditorPresentation" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="17QB3L" id="2q0dGTvdw3C" role="3clF45" />
+      <node concept="3Tm1VV" id="2q0dGTvdw3D" role="1B3o_S" />
+    </node>
+    <node concept="13hLZK" id="383ZxwZt1$2" role="13h7CW">
+      <node concept="3clFbS" id="383ZxwZt1$3" role="2VODD2" />
+    </node>
+  </node>
+  <node concept="13h7C7" id="r2pGcfLDuM">
+    <property role="3GE5qa" value="namespace" />
+    <ref role="13h7C2" to="wnzg:383ZxwZrBkp" resolve="NamespaceAttributeRef" />
+    <node concept="13i0hz" id="r2pGcfLSaj" role="13h7CS">
+      <property role="TrG5h" value="isDistantAncestorOf" />
+      <node concept="3Tm1VV" id="r2pGcfLSak" role="1B3o_S" />
+      <node concept="10P_77" id="r2pGcfLSal" role="3clF45" />
+      <node concept="3clFbS" id="r2pGcfLSam" role="3clF47">
+        <node concept="3SKdUt" id="61rdzRironJ" role="3cqZAp">
+          <node concept="3SKdUq" id="61rdzRironK" role="3SKWNk">
+            <property role="3SKdUp" value="Iterate through all ancestor nodes of thisNode to find ancestorNode, else false" />
+>>>>>>> 44a16176b4... Fix TextGen issues for NamespaceAttributeRef and NamespaceMethodCall.
           </node>
         </node>
         <node concept="3SKdUt" id="61rdzRiro6V" role="3cqZAp">
@@ -10612,6 +10652,7 @@
                 </node>
               </node>
             </node>
+<<<<<<< HEAD
             <node concept="2Gpval" id="6gFj6gtc1h5" role="3cqZAp">
               <node concept="2GrKxI" id="6gFj6gtc1h6" role="2Gsz3X">
                 <property role="TrG5h" value="usingAttDec" />
@@ -10626,6 +10667,18 @@
                 <node concept="v3k3i" id="6gFj6gtc1hb" role="2OqNvi">
                   <node concept="chp4Y" id="6gFj6gtc1hc" role="v3oSu">
                     <ref role="cht4Q" to="wnzg:1$h5d7v1dEb" resolve="UsingNamespaceAttributeDeclaration" />
+=======
+            <node concept="3clFbH" id="2q0dGTuIvnN" role="3cqZAp" />
+            <node concept="3clFbH" id="2q0dGTuIvpA" role="3cqZAp" />
+          </node>
+          <node concept="2OqwBi" id="r2pGcfNm6d" role="3clFbw">
+            <node concept="2OqwBi" id="r2pGcfNm6e" role="2Oq$k0">
+              <node concept="13iPFW" id="r2pGcfNm6f" role="2Oq$k0" />
+              <node concept="2Xjw5R" id="r2pGcfNm6g" role="2OqNvi">
+                <node concept="1xMEDy" id="r2pGcfNm6h" role="1xVPHs">
+                  <node concept="chp4Y" id="r2pGcfNm6i" role="ri$Ld">
+                    <ref role="cht4Q" to="wnzg:383ZxwZqQYo" resolve="NamespaceDeclaration" />
+>>>>>>> 44a16176b4... Fix TextGen issues for NamespaceAttributeRef and NamespaceMethodCall.
                   </node>
                 </node>
               </node>
@@ -12860,6 +12913,15 @@
                   </node>
                 </node>
               </node>
+<<<<<<< HEAD
+=======
+              <node concept="2qgKlT" id="2q0dGTuVF_3" role="2OqNvi">
+                <ref role="37wK5l" to="tpcu:hEwIMiw" resolve="getPresentation" />
+              </node>
+            </node>
+            <node concept="37vLTw" id="r2pGcfMQ$K" role="37vLTJ">
+              <ref role="3cqZAo" node="r2pGcfMQ$A" resolve="pres" />
+>>>>>>> 44a16176b4... Fix TextGen issues for NamespaceAttributeRef and NamespaceMethodCall.
             </node>
           </node>
         </node>
