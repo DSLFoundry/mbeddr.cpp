@@ -581,7 +581,9 @@
         <child id="1984422498402083610" name="sideTransformationCondition" index="2e1Fq_" />
         <child id="9045197572108401836" name="sideTransformRemovals" index="3desfC" />
         <child id="7363578995839435358" name="wrapped" index="1kIj9b" />
+        <child id="7463174232466963375" name="descriptionText" index="1oA3V3" />
       </concept>
+      <concept id="7463174232466929580" name="com.mbeddr.mpsutil.grammarcells.structure.WrapperCell_DescriptionText" flags="ig" index="1oAbb0" />
       <concept id="2862331529394480355" name="com.mbeddr.mpsutil.grammarcells.structure.Parameter_SubConcept" flags="ng" index="1Lj6YZ" />
       <concept id="6349233906483558394" name="com.mbeddr.mpsutil.grammarcells.structure.Parameter_wrappedConcept" flags="ng" index="1ZN7lz" />
 =======
@@ -2386,6 +2388,7 @@
           </node>
         </node>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         <node concept="11L4FC" id="1$h5d7wJyQu" role="3F10Kt">
           <property role="VOm3f" value="true" />
@@ -2402,6 +2405,17 @@
         <property role="3F0ifm" value="using" />
         <ref role="1k5W1q" to="r4b4:2CEi94dgHKA" resolve="KW" />
 >>>>>>> a5b410c665... Fix highlighting to be consistent and make the package name lowercase
+=======
+        <node concept="1oAbb0" id="7AYxXU4oU89" role="1oA3V3">
+          <node concept="3clFbS" id="7AYxXU4oU8a" role="2VODD2">
+            <node concept="3clFbF" id="7AYxXU4oUNC" role="3cqZAp">
+              <node concept="Xl_RD" id="7AYxXU4oUNB" role="3clFbG">
+                <property role="Xl_RC" value=" with constructor" />
+              </node>
+            </node>
+          </node>
+        </node>
+>>>>>>> 13c86a7339... Added label for objects with constructor in the menu
       </node>
       <node concept="3EZMnI" id="17yeYAhLPYR" role="3EZMnx">
         <node concept="VPM3Z" id="17yeYAhLPYT" role="3F10Kt">
