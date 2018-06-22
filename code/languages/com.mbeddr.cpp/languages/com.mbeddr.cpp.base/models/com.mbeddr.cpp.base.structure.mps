@@ -2597,6 +2597,21 @@
     <property role="EcuMT" value="4342421700171434389" />
     <property role="TrG5h" value="IClassStaticRefTarget" />
   </node>
+<<<<<<< HEAD
 >>>>>>> 06a53f073f... Added reference for static class methods.
+=======
+  <node concept="1TIwiD" id="3R7yI4PogpJ">
+    <property role="EcuMT" value="4451679456546850415" />
+    <property role="3GE5qa" value="namespace" />
+    <property role="TrG5h" value="EmptyNamespaceContent" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="3R7yI4Pogq0" role="PzmwI">
+      <ref role="PrY4T" node="383ZxwZsgd4" resolve="INamespaceMemberDeclaration" />
+    </node>
+    <node concept="t5JxF" id="3R7yI4PogrO" role="lGtFl">
+      <property role="t5JxN" value="This represents newlines in a namespace at the top level." />
+    </node>
+  </node>
+>>>>>>> ae9eeb1884... Added EmptyClassContent (blank lines) but for Namespaces.
 </model>
 

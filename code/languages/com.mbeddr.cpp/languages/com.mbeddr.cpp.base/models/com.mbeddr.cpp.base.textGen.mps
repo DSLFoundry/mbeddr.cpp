@@ -4287,7 +4287,21 @@
       </node>
     </node>
   </node>
+<<<<<<< HEAD
 >>>>>>> cbe08163b1... Fix static so that you can just type the classname first
+=======
+  <node concept="WtQ9Q" id="3R7yI4Pogqx">
+    <property role="3GE5qa" value="namespace" />
+    <ref role="WuzLi" to="wnzg:3R7yI4PogpJ" resolve="EmptyNamespaceContent" />
+    <node concept="11bSqf" id="3R7yI4Pogqy" role="11c4hB">
+      <node concept="3clFbS" id="3R7yI4Pogqz" role="2VODD2">
+        <node concept="lc7rE" id="3R7yI4Pogr6" role="3cqZAp">
+          <node concept="l8MVK" id="3R7yI4Pogru" role="lcghm" />
+        </node>
+      </node>
+    </node>
+  </node>
+>>>>>>> ae9eeb1884... Added EmptyClassContent (blank lines) but for Namespaces.
 </model>
 
 =======
