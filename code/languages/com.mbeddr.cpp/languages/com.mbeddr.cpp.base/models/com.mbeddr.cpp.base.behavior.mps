@@ -662,6 +662,7 @@
       <concept id="1202120902084" name="jetbrains.mps.baseLanguage.collections.structure.WhereOperation" flags="nn" index="3zZkjj" />
       <concept id="1202128969694" name="jetbrains.mps.baseLanguage.collections.structure.SelectOperation" flags="nn" index="3$u5V9" />
       <concept id="1176501494711" name="jetbrains.mps.baseLanguage.collections.structure.IsNotEmptyOperation" flags="nn" index="3GX2aA" />
+      <concept id="1172254888721" name="jetbrains.mps.baseLanguage.collections.structure.ContainsOperation" flags="nn" index="3JPx81" />
       <concept id="1522217801069396578" name="jetbrains.mps.baseLanguage.collections.structure.FoldLeftOperation" flags="nn" index="1MD8d$">
         <child id="1522217801069421796" name="seed" index="1MDeny" />
       </concept>
@@ -8404,6 +8405,7 @@
                           </node>
                         </node>
                       </node>
+<<<<<<< HEAD
                       <node concept="3y3z36" id="r2pGcfF2y0" role="3uHU7w">
                         <node concept="2OqwBi" id="r2pGcfEo8c" role="3uHU7B">
                           <node concept="2GrUjf" id="r2pGcfEo8d" role="2Oq$k0">
@@ -8418,6 +8420,55 @@
                           <node concept="3TrEf2" id="r2pGcfF4Lc" role="2OqNvi">
                             <ref role="3Tt5mk" to="wnzg:383ZxwZrBkD" resolve="namespace" />
                           </node>
+=======
+                    </node>
+                  </node>
+                </node>
+                <node concept="3clFbJ" id="2q0dGTvNfUZ" role="3cqZAp">
+                  <node concept="3clFbS" id="2q0dGTvNfV0" role="3clFbx">
+                    <node concept="3clFbF" id="2q0dGTvNfV1" role="3cqZAp">
+                      <node concept="2OqwBi" id="2q0dGTvNfV2" role="3clFbG">
+                        <node concept="37vLTw" id="2q0dGTvNfV3" role="2Oq$k0">
+                          <ref role="3cqZAo" node="r2pGcf8dle" resolve="ancestorNodes" />
+                        </node>
+                        <node concept="1kEaZ2" id="2q0dGTvNfV4" role="2OqNvi">
+                          <node concept="2OqwBi" id="2q0dGTvNfV5" role="25WWJ7">
+                            <node concept="2OqwBi" id="2q0dGTvNfV6" role="2Oq$k0">
+                              <node concept="2GrUjf" id="2q0dGTvNfV7" role="2Oq$k0">
+                                <ref role="2Gs0qQ" node="61rdzRik92K" resolve="globalUsing" />
+                              </node>
+                              <node concept="3TrEf2" id="2q0dGTvNfV8" role="2OqNvi">
+                                <ref role="3Tt5mk" to="wnzg:6gFj6gpBJF$" resolve="namespace" />
+                              </node>
+                            </node>
+                            <node concept="2qgKlT" id="2q0dGTvNfV9" role="2OqNvi">
+                              <ref role="37wK5l" node="1rolTiw35sd" resolve="getAncestorNamespaces" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="2OqwBi" id="2q0dGTvNfVa" role="3clFbw">
+                    <node concept="2OqwBi" id="2q0dGTvNfVb" role="2Oq$k0">
+                      <node concept="2OqwBi" id="2q0dGTvNfVc" role="2Oq$k0">
+                        <node concept="13iPFW" id="2q0dGTvNfVd" role="2Oq$k0" />
+                        <node concept="3TrEf2" id="2q0dGTvNfVe" role="2OqNvi">
+                          <ref role="3Tt5mk" to="wnzg:383ZxwZrBkD" resolve="namespace" />
+                        </node>
+                      </node>
+                      <node concept="2qgKlT" id="2q0dGTvNfVf" role="2OqNvi">
+                        <ref role="37wK5l" node="1rolTiw35sd" resolve="getAncestorNamespaces" />
+                      </node>
+                    </node>
+                    <node concept="3JPx81" id="2q0dGTvNfVg" role="2OqNvi">
+                      <node concept="2OqwBi" id="2q0dGTvNfVh" role="25WWJ7">
+                        <node concept="2GrUjf" id="2q0dGTvNfVi" role="2Oq$k0">
+                          <ref role="2Gs0qQ" node="61rdzRik92K" resolve="globalUsing" />
+                        </node>
+                        <node concept="3TrEf2" id="2q0dGTvNfVj" role="2OqNvi">
+                          <ref role="3Tt5mk" to="wnzg:6gFj6gpBJF$" resolve="namespace" />
+>>>>>>> fb608bfbb3... Fix GlobalUsingGeneralNamespaceDeclaration.
                         </node>
                       </node>
                     </node>
@@ -8721,6 +8772,7 @@
                 </node>
               </node>
             </node>
+<<<<<<< HEAD
             <node concept="3SKdUt" id="61rdzRikTPs" role="3cqZAp">
               <node concept="3SKdUq" id="61rdzRikTPt" role="3SKWNk">
                 <property role="3SKdUp" value="Creates the presentation." />
@@ -8750,6 +8802,52 @@
                     </node>
                     <node concept="37vLTw" id="r2pGcf8t9v" role="37vLTJ">
                       <ref role="3cqZAo" node="r2pGceUS2O" resolve="editorPres" />
+=======
+            <node concept="3clFbJ" id="2q0dGTvNZla" role="3cqZAp">
+              <node concept="3clFbS" id="2q0dGTvNZlb" role="3clFbx">
+                <node concept="3clFbF" id="2q0dGTvNZlc" role="3cqZAp">
+                  <node concept="2OqwBi" id="2q0dGTvNZld" role="3clFbG">
+                    <node concept="37vLTw" id="2q0dGTvNZle" role="2Oq$k0">
+                      <ref role="3cqZAo" node="r2pGcftwCW" resolve="ancestorNodes" />
+                    </node>
+                    <node concept="1kEaZ2" id="2q0dGTvNZlf" role="2OqNvi">
+                      <node concept="2OqwBi" id="2q0dGTvNZlg" role="25WWJ7">
+                        <node concept="2OqwBi" id="2q0dGTvNZlh" role="2Oq$k0">
+                          <node concept="2GrUjf" id="2q0dGTvNZli" role="2Oq$k0">
+                            <ref role="2Gs0qQ" node="6gFj6gs45$Y" resolve="globalUsing" />
+                          </node>
+                          <node concept="3TrEf2" id="2q0dGTvNZlj" role="2OqNvi">
+                            <ref role="3Tt5mk" to="wnzg:6gFj6gpBJF$" resolve="namespace" />
+                          </node>
+                        </node>
+                        <node concept="2qgKlT" id="2q0dGTvNZlk" role="2OqNvi">
+                          <ref role="37wK5l" node="1rolTiw35sd" resolve="getAncestorNamespaces" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="2OqwBi" id="2q0dGTvNZll" role="3clFbw">
+                <node concept="2OqwBi" id="2q0dGTvNZlm" role="2Oq$k0">
+                  <node concept="2OqwBi" id="2q0dGTvNZln" role="2Oq$k0">
+                    <node concept="13iPFW" id="2q0dGTvNZlo" role="2Oq$k0" />
+                    <node concept="3TrEf2" id="2q0dGTvNZlp" role="2OqNvi">
+                      <ref role="3Tt5mk" to="wnzg:383ZxwZrBkD" resolve="namespace" />
+                    </node>
+                  </node>
+                  <node concept="2qgKlT" id="2q0dGTvNZlq" role="2OqNvi">
+                    <ref role="37wK5l" node="1rolTiw35sd" resolve="getAncestorNamespaces" />
+                  </node>
+                </node>
+                <node concept="3JPx81" id="2q0dGTvNZlr" role="2OqNvi">
+                  <node concept="2OqwBi" id="2q0dGTvNZls" role="25WWJ7">
+                    <node concept="2GrUjf" id="2q0dGTvNZlt" role="2Oq$k0">
+                      <ref role="2Gs0qQ" node="6gFj6gs45$Y" resolve="globalUsing" />
+                    </node>
+                    <node concept="3TrEf2" id="2q0dGTvNZlu" role="2OqNvi">
+                      <ref role="3Tt5mk" to="wnzg:6gFj6gpBJF$" resolve="namespace" />
+>>>>>>> fb608bfbb3... Fix GlobalUsingGeneralNamespaceDeclaration.
                     </node>
                   </node>
                 </node>
@@ -12392,6 +12490,7 @@
                     <property role="3clFbU" value="true" />
                   </node>
                 </node>
+<<<<<<< HEAD
               </node>
               <node concept="9aQIb" id="7RFM8R41dVE" role="9aQIa">
                 <node concept="3clFbS" id="7RFM8R41dVF" role="9aQI4">
@@ -12400,6 +12499,52 @@
                       <node concept="2OqwBi" id="7RFM8R41dVI" role="37vLTx">
                         <node concept="37vLTw" id="7RFM8R41dVJ" role="2Oq$k0">
                           <ref role="3cqZAo" node="7RFM8R41dVs" resolve="usedNode" />
+=======
+                <node concept="3clFbJ" id="2q0dGTvJGov" role="3cqZAp">
+                  <node concept="3clFbS" id="2q0dGTvJGow" role="3clFbx">
+                    <node concept="3clFbF" id="2q0dGTvJGox" role="3cqZAp">
+                      <node concept="2OqwBi" id="2q0dGTvJGoy" role="3clFbG">
+                        <node concept="37vLTw" id="2q0dGTvJGoz" role="2Oq$k0">
+                          <ref role="3cqZAo" node="r2pGcfLTir" resolve="ancestorNodes" />
+                        </node>
+                        <node concept="1kEaZ2" id="2q0dGTvJGo$" role="2OqNvi">
+                          <node concept="2OqwBi" id="2q0dGTvJGo_" role="25WWJ7">
+                            <node concept="2OqwBi" id="2q0dGTvJGoA" role="2Oq$k0">
+                              <node concept="2GrUjf" id="2q0dGTvJGoB" role="2Oq$k0">
+                                <ref role="2Gs0qQ" node="61rdzRhZH3T" resolve="globalUsing" />
+                              </node>
+                              <node concept="3TrEf2" id="2q0dGTvJGoC" role="2OqNvi">
+                                <ref role="3Tt5mk" to="wnzg:6gFj6gpBJF$" resolve="namespace" />
+                              </node>
+                            </node>
+                            <node concept="2qgKlT" id="2q0dGTvJGoD" role="2OqNvi">
+                              <ref role="37wK5l" node="1rolTiw35sd" resolve="getAncestorNamespaces" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="2OqwBi" id="2q0dGTvJGoE" role="3clFbw">
+                    <node concept="2OqwBi" id="2q0dGTvJGoF" role="2Oq$k0">
+                      <node concept="2OqwBi" id="2q0dGTvJGoG" role="2Oq$k0">
+                        <node concept="13iPFW" id="2q0dGTvJGoH" role="2Oq$k0" />
+                        <node concept="3TrEf2" id="2q0dGTvJGoI" role="2OqNvi">
+                          <ref role="3Tt5mk" to="wnzg:383ZxwZrBkq" resolve="namespace" />
+                        </node>
+                      </node>
+                      <node concept="2qgKlT" id="2q0dGTvJGoJ" role="2OqNvi">
+                        <ref role="37wK5l" node="1rolTiw35sd" resolve="getAncestorNamespaces" />
+                      </node>
+                    </node>
+                    <node concept="3JPx81" id="2q0dGTvJGoK" role="2OqNvi">
+                      <node concept="2OqwBi" id="2q0dGTvJGoL" role="25WWJ7">
+                        <node concept="2GrUjf" id="2q0dGTvJGoM" role="2Oq$k0">
+                          <ref role="2Gs0qQ" node="61rdzRhZH3T" resolve="globalUsing" />
+                        </node>
+                        <node concept="3TrEf2" id="2q0dGTvJGoN" role="2OqNvi">
+                          <ref role="3Tt5mk" to="wnzg:6gFj6gpBJF$" resolve="namespace" />
+>>>>>>> fb608bfbb3... Fix GlobalUsingGeneralNamespaceDeclaration.
                         </node>
                         <node concept="1mfA1w" id="7RFM8R41dVK" role="2OqNvi" />
                       </node>
@@ -12836,8 +12981,59 @@
                   <node concept="37vLTw" id="b637l21mgE" role="2Oq$k0">
                     <ref role="3cqZAo" node="b637l21mgg" resolve="resolvedArg" />
                   </node>
+<<<<<<< HEAD
                   <node concept="3TrEf2" id="b637l21mgF" role="2OqNvi">
                     <ref role="3Tt5mk" to="mj1l:hEaDaGor64" resolve="type" />
+=======
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbJ" id="2q0dGTvsqnL" role="3cqZAp">
+              <node concept="3clFbS" id="2q0dGTvsqnN" role="3clFbx">
+                <node concept="3clFbF" id="2q0dGTvtJVk" role="3cqZAp">
+                  <node concept="2OqwBi" id="2q0dGTvtJVl" role="3clFbG">
+                    <node concept="37vLTw" id="2q0dGTvtJVm" role="2Oq$k0">
+                      <ref role="3cqZAo" node="r2pGcfLTjY" resolve="ancestorNodes" />
+                    </node>
+                    <node concept="1kEaZ2" id="2q0dGTvtJVn" role="2OqNvi">
+                      <node concept="2OqwBi" id="2q0dGTvtJVo" role="25WWJ7">
+                        <node concept="2OqwBi" id="2q0dGTvtJVp" role="2Oq$k0">
+                          <node concept="2GrUjf" id="2q0dGTvtJVq" role="2Oq$k0">
+                            <ref role="2Gs0qQ" node="6gFj6gqJsUp" resolve="globalUsing" />
+                          </node>
+                          <node concept="3TrEf2" id="2q0dGTvtJVr" role="2OqNvi">
+                            <ref role="3Tt5mk" to="wnzg:6gFj6gpBJF$" resolve="namespace" />
+                          </node>
+                        </node>
+                        <node concept="2qgKlT" id="2q0dGTvtJVs" role="2OqNvi">
+                          <ref role="37wK5l" node="1rolTiw35sd" resolve="getAncestorNamespaces" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="2OqwBi" id="2q0dGTvthIc" role="3clFbw">
+                <node concept="2OqwBi" id="2q0dGTvsLZC" role="2Oq$k0">
+                  <node concept="2OqwBi" id="2q0dGTvssC_" role="2Oq$k0">
+                    <node concept="13iPFW" id="2q0dGTvzYwf" role="2Oq$k0" />
+                    <node concept="3TrEf2" id="2q0dGTvE0HM" role="2OqNvi">
+                      <ref role="3Tt5mk" to="wnzg:383ZxwZrBkq" resolve="namespace" />
+                    </node>
+                  </node>
+                  <node concept="2qgKlT" id="2q0dGTvE2fL" role="2OqNvi">
+                    <ref role="37wK5l" node="1rolTiw35sd" resolve="getAncestorNamespaces" />
+                  </node>
+                </node>
+                <node concept="3JPx81" id="2q0dGTvtIDr" role="2OqNvi">
+                  <node concept="2OqwBi" id="2q0dGTvtJ3Y" role="25WWJ7">
+                    <node concept="2GrUjf" id="2q0dGTv$n8a" role="2Oq$k0">
+                      <ref role="2Gs0qQ" node="6gFj6gqJsUp" resolve="globalUsing" />
+                    </node>
+                    <node concept="3TrEf2" id="2q0dGTvE1r7" role="2OqNvi">
+                      <ref role="3Tt5mk" to="wnzg:6gFj6gpBJF$" resolve="namespace" />
+                    </node>
+>>>>>>> fb608bfbb3... Fix GlobalUsingGeneralNamespaceDeclaration.
                   </node>
                 </node>
                 <node concept="2OqwBi" id="6ODoR9yz5uK" role="37vLTx">
