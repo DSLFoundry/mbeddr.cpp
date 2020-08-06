@@ -155,13 +155,10 @@
       </concept>
       <concept id="7755897872837082045" name="com.mbeddr.core.unittest.structure.AssertEquals" flags="ng" index="2N2KuS" />
       <concept id="7755897872837262967" name="com.mbeddr.core.unittest.structure.AssertNotEquals" flags="ng" index="2N3$9M" />
-      <concept id="8610007178384196427" name="com.mbeddr.core.unittest.structure.TestCaseConfigItem" flags="ng" index="12mU2y">
-        <child id="842732463503928104" name="testStrategy" index="3GpDut" />
-      </concept>
+      <concept id="8610007178384196427" name="com.mbeddr.core.unittest.structure.TestCaseConfigItem" flags="ng" index="12mU2y" />
       <concept id="5686538669182340985" name="com.mbeddr.core.unittest.structure.TestCaseRef" flags="ng" index="3cM6IN">
         <reference id="5686538669182340986" name="testcase" index="3cM6IK" />
       </concept>
-      <concept id="842732463503928106" name="com.mbeddr.core.unittest.structure.NoTestIsolationStrategy" flags="ng" index="3GpDuv" />
     </language>
     <language id="b341759a-c721-4072-90cf-328bb2724684" name="com.mbeddr.cpp.expressions">
       <concept id="5044697665789435301" name="com.mbeddr.cpp.expressions.structure.AttributeRef" flags="ng" index="3mBk1D">
@@ -227,9 +224,7 @@
     <node concept="2Q9Fgs" id="6WSa0snB9z3" role="2Q9xDr">
       <node concept="2Q9FjX" id="6WSa0snB9z4" role="2Q9FjI" />
     </node>
-    <node concept="12mU2y" id="6WSa0snB9zg" role="2Q9xDr">
-      <node concept="3GpDuv" id="6WSa0snB9zr" role="3GpDut" />
-    </node>
+    <node concept="12mU2y" id="6WSa0snB9zg" role="2Q9xDr" />
     <node concept="2eOfOl" id="6WSa0snB9zv" role="2ePNbc">
       <property role="iO3LB" value="true" />
       <property role="TrG5h" value="New_Delete_Tests" />
