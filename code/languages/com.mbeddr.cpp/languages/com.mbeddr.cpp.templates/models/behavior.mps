@@ -1739,7 +1739,6 @@
       <property role="13i0iv" value="false" />
       <property role="13i0it" value="false" />
       <property role="TrG5h" value="shouldAppearInHeader" />
-      <ref role="13i0hy" to="qd6m:ZKpU3BK7B7" resolve="shouldAppearInHeader" />
       <node concept="3Tm1VV" id="ZKpU3C719a" role="1B3o_S" />
       <node concept="3clFbS" id="ZKpU3C719f" role="3clF47">
         <node concept="3clFbF" id="ZKpU3C71lt" role="3cqZAp">
