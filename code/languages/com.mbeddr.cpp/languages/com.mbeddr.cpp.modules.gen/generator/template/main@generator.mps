@@ -6,9 +6,9 @@
     <use id="8c081446-e4ba-48b7-a7e0-3db40e2c3439" name="com.mbeddr.cpp.base" version="0" />
     <use id="a9d69647-0840-491e-bf39-2eb0805d2011" name="com.mbeddr.core.statements" version="2" />
     <use id="6d11763d-483d-4b2b-8efc-09336c1b0001" name="com.mbeddr.core.modules" version="5" />
-    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="6" />
+    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="7" />
     <use id="d4280a54-f6df-4383-aa41-d1b2bffa7eb1" name="com.mbeddr.core.base" version="5" />
-    <use id="61c69711-ed61-4850-81d9-7714ff227fb0" name="com.mbeddr.core.expressions" version="4" />
+    <use id="61c69711-ed61-4850-81d9-7714ff227fb0" name="com.mbeddr.core.expressions" version="5" />
     <use id="b341759a-c721-4072-90cf-328bb2724684" name="com.mbeddr.cpp.expressions" version="0" />
     <use id="5e6018dc-dc26-4070-9526-663fdbfe4c10" name="com.mbeddr.cpp.templates" version="-1" />
     <devkit ref="a2eb3a43-fcc2-4200-80dc-c60110c4862d(jetbrains.mps.devkit.templates)" />
@@ -112,6 +112,7 @@
       </concept>
     </language>
     <language id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator">
+      <concept id="1510949579266781519" name="jetbrains.mps.lang.generator.structure.TemplateCallMacro" flags="ln" index="5jKBG" />
       <concept id="1114706874351" name="jetbrains.mps.lang.generator.structure.CopySrcNodeMacro" flags="ln" index="29HgVG">
         <child id="1168024447342" name="sourceNodeQuery" index="3NFExx" />
       </concept>
@@ -136,8 +137,8 @@
         <reference id="1200911342686" name="sourceConcept" index="2rTdP9" />
         <reference id="1200913004646" name="targetConcept" index="2rZz_L" />
       </concept>
-      <concept id="1194565793557" name="jetbrains.mps.lang.generator.structure.IncludeMacro" flags="ln" index="xERo3">
-        <reference id="1194566366375" name="includeTemplate" index="xH3mL" />
+      <concept id="1722980698497626400" name="jetbrains.mps.lang.generator.structure.ITemplateCall" flags="ng" index="v9R3L">
+        <reference id="1722980698497626483" name="template" index="v9R2y" />
       </concept>
       <concept id="1167168920554" name="jetbrains.mps.lang.generator.structure.BaseMappingRule_Condition" flags="in" index="30G5F_" />
       <concept id="1167169188348" name="jetbrains.mps.lang.generator.structure.TemplateFunctionParameter_sourceNode" flags="nn" index="30H73N" />
@@ -356,11 +357,11 @@
         <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
       </concept>
       <concept id="3364660638048049750" name="jetbrains.mps.lang.core.structure.PropertyAttribute" flags="ng" index="A9Btg">
-        <property id="1757699476691236117" name="propertyName" index="2qtEX9" />
+        <property id="1757699476691236117" name="name_DebugInfo" index="2qtEX9" />
         <property id="1341860900487648621" name="propertyId" index="P4ACc" />
       </concept>
       <concept id="3364660638048049745" name="jetbrains.mps.lang.core.structure.LinkAttribute" flags="ng" index="A9Btn">
-        <property id="1757699476691236116" name="linkRole" index="2qtEX8" />
+        <property id="1757699476691236116" name="role_DebugInfo" index="2qtEX8" />
         <property id="1341860900488019036" name="linkId" index="P3scX" />
       </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
@@ -1707,8 +1708,8 @@
           </node>
         </node>
       </node>
-      <node concept="xERo3" id="5jEOlMMyLbh" role="lGtFl">
-        <ref role="xH3mL" node="5jEOlMMxhxk" resolve="NamespaceRecursion" />
+      <node concept="5jKBG" id="2OCJl3LjdhN" role="lGtFl">
+        <ref role="v9R2y" node="5jEOlMMxhxk" resolve="NamespaceRecursion" />
       </node>
     </node>
     <node concept="3mBW2U" id="1yn8Pkz5sNr" role="N3F5h">
@@ -1762,8 +1763,8 @@
           </node>
         </node>
       </node>
-      <node concept="xERo3" id="1yn8Pkz5v38" role="lGtFl">
-        <ref role="xH3mL" node="1yn8PkyMFsg" resolve="ClassRecursion" />
+      <node concept="5jKBG" id="2OCJl3LjdhO" role="lGtFl">
+        <ref role="v9R2y" node="1yn8PkyMFsg" resolve="ClassRecursion" />
       </node>
     </node>
     <node concept="3BZPaE" id="1yn8Pkz5Imd" role="N3F5h">
@@ -1794,8 +1795,8 @@
           </node>
         </node>
       </node>
-      <node concept="xERo3" id="1yn8Pkz5KFp" role="lGtFl">
-        <ref role="xH3mL" node="1yn8PkyOfZN" resolve="TemplateClassRecursion" />
+      <node concept="5jKBG" id="2OCJl3LjdhP" role="lGtFl">
+        <ref role="v9R2y" node="1yn8PkyOfZN" resolve="TemplateClassRecursion" />
       </node>
     </node>
     <node concept="1wo19x" id="2Ai0Gta7Wua" role="N3F5h">
@@ -2681,8 +2682,8 @@
               </node>
             </node>
           </node>
-          <node concept="xERo3" id="1yn8PkyXPRT" role="lGtFl">
-            <ref role="xH3mL" node="1yn8PkyMFsg" resolve="ClassRecursion" />
+          <node concept="5jKBG" id="2OCJl3LjdhQ" role="lGtFl">
+            <ref role="v9R2y" node="1yn8PkyMFsg" resolve="ClassRecursion" />
           </node>
         </node>
         <node concept="3BZPaE" id="1yn8PkyYui9" role="1zE6T_">
@@ -2742,8 +2743,8 @@
               </node>
             </node>
           </node>
-          <node concept="xERo3" id="1yn8PkyYvWP" role="lGtFl">
-            <ref role="xH3mL" node="1yn8PkyOfZN" resolve="TemplateClassRecursion" />
+          <node concept="5jKBG" id="2OCJl3LjdhR" role="lGtFl">
+            <ref role="v9R2y" node="1yn8PkyOfZN" resolve="TemplateClassRecursion" />
           </node>
         </node>
         <node concept="3mBbG7" id="1yn8PkyWD7N" role="1zE6T_">
@@ -3392,8 +3393,8 @@
               </node>
             </node>
           </node>
-          <node concept="xERo3" id="1yn8PkyYdta" role="lGtFl">
-            <ref role="xH3mL" node="1yn8PkyMFsg" resolve="ClassRecursion" />
+          <node concept="5jKBG" id="2OCJl3LjdhS" role="lGtFl">
+            <ref role="v9R2y" node="1yn8PkyMFsg" resolve="ClassRecursion" />
           </node>
         </node>
         <node concept="3BZPaE" id="1yn8PkyYOEf" role="1zE6T_">
@@ -3453,8 +3454,8 @@
               </node>
             </node>
           </node>
-          <node concept="xERo3" id="1yn8PkyYOEC" role="lGtFl">
-            <ref role="xH3mL" node="1yn8PkyOfZN" resolve="TemplateClassRecursion" />
+          <node concept="5jKBG" id="2OCJl3LjdhT" role="lGtFl">
+            <ref role="v9R2y" node="1yn8PkyOfZN" resolve="TemplateClassRecursion" />
           </node>
         </node>
         <node concept="3mBbG7" id="1yn8PkyWDbd" role="1zE6T_">
@@ -4101,8 +4102,8 @@
               </node>
             </node>
           </node>
-          <node concept="xERo3" id="1yn8PkyYfkb" role="lGtFl">
-            <ref role="xH3mL" node="1yn8PkyMFsg" resolve="ClassRecursion" />
+          <node concept="5jKBG" id="2OCJl3LjdhU" role="lGtFl">
+            <ref role="v9R2y" node="1yn8PkyMFsg" resolve="ClassRecursion" />
           </node>
         </node>
         <node concept="3BZPaE" id="1yn8PkyZqS$" role="1zE6T_">
@@ -4162,8 +4163,8 @@
               </node>
             </node>
           </node>
-          <node concept="xERo3" id="1yn8PkyZqSX" role="lGtFl">
-            <ref role="xH3mL" node="1yn8PkyOfZN" resolve="TemplateClassRecursion" />
+          <node concept="5jKBG" id="2OCJl3LjdhV" role="lGtFl">
+            <ref role="v9R2y" node="1yn8PkyOfZN" resolve="TemplateClassRecursion" />
           </node>
         </node>
         <node concept="3mBbG7" id="1yn8PkyWDeB" role="1zE6T_">
@@ -4846,8 +4847,8 @@
               </node>
             </node>
           </node>
-          <node concept="xERo3" id="1yn8Pkz3e6F" role="lGtFl">
-            <ref role="xH3mL" node="1yn8Pkz3zGs" resolve="ClassInTemplateRecursion" />
+          <node concept="5jKBG" id="2OCJl3LjdhW" role="lGtFl">
+            <ref role="v9R2y" node="1yn8Pkz3zGs" resolve="ClassInTemplateRecursion" />
           </node>
         </node>
         <node concept="3BZPaE" id="1yn8Pkz3e6G" role="1zE6T_">
@@ -4907,8 +4908,8 @@
               </node>
             </node>
           </node>
-          <node concept="xERo3" id="1yn8Pkz3e75" role="lGtFl">
-            <ref role="xH3mL" node="1yn8PkyOfZN" resolve="TemplateClassRecursion" />
+          <node concept="5jKBG" id="2OCJl3LjdhX" role="lGtFl">
+            <ref role="v9R2y" node="1yn8PkyOfZN" resolve="TemplateClassRecursion" />
           </node>
         </node>
         <node concept="3mBbG7" id="1yn8Pkz3e2j" role="1zE6T_">
@@ -5047,8 +5048,8 @@
               </node>
             </node>
           </node>
-          <node concept="xERo3" id="1yn8Pkz3_Lo" role="lGtFl">
-            <ref role="xH3mL" node="1yn8Pkz3zGs" resolve="ClassInTemplateRecursion" />
+          <node concept="5jKBG" id="2OCJl3LjdhY" role="lGtFl">
+            <ref role="v9R2y" node="1yn8Pkz3zGs" resolve="ClassInTemplateRecursion" />
           </node>
         </node>
         <node concept="3BZPaE" id="1yn8Pkz3_Lp" role="1zE6T_">
@@ -5108,8 +5109,8 @@
               </node>
             </node>
           </node>
-          <node concept="xERo3" id="1yn8Pkz3_LM" role="lGtFl">
-            <ref role="xH3mL" node="1yn8PkyOfZN" resolve="TemplateClassRecursion" />
+          <node concept="5jKBG" id="2OCJl3LjdhZ" role="lGtFl">
+            <ref role="v9R2y" node="1yn8PkyOfZN" resolve="TemplateClassRecursion" />
           </node>
         </node>
         <node concept="3mBbG7" id="1yn8Pkz3_Ku" role="1zE6T_">
@@ -5248,8 +5249,8 @@
               </node>
             </node>
           </node>
-          <node concept="xERo3" id="1yn8Pkz3Knv" role="lGtFl">
-            <ref role="xH3mL" node="1yn8Pkz3zGs" resolve="ClassInTemplateRecursion" />
+          <node concept="5jKBG" id="2OCJl3Ljdi0" role="lGtFl">
+            <ref role="v9R2y" node="1yn8Pkz3zGs" resolve="ClassInTemplateRecursion" />
           </node>
         </node>
         <node concept="3BZPaE" id="1yn8Pkz3Knw" role="1zE6T_">
@@ -5309,8 +5310,8 @@
               </node>
             </node>
           </node>
-          <node concept="xERo3" id="1yn8Pkz3KnT" role="lGtFl">
-            <ref role="xH3mL" node="1yn8PkyOfZN" resolve="TemplateClassRecursion" />
+          <node concept="5jKBG" id="2OCJl3Ljdi1" role="lGtFl">
+            <ref role="v9R2y" node="1yn8PkyOfZN" resolve="TemplateClassRecursion" />
           </node>
         </node>
         <node concept="3mBbG7" id="1yn8Pkz3Km_" role="1zE6T_">
@@ -5518,8 +5519,8 @@
               </node>
             </node>
           </node>
-          <node concept="xERo3" id="1yn8Pkz3Puv" role="lGtFl">
-            <ref role="xH3mL" node="1yn8Pkz3zGs" resolve="ClassInTemplateRecursion" />
+          <node concept="5jKBG" id="2OCJl3Ljdi2" role="lGtFl">
+            <ref role="v9R2y" node="1yn8Pkz3zGs" resolve="ClassInTemplateRecursion" />
           </node>
         </node>
         <node concept="3BZPaE" id="1yn8Pkz3Puw" role="1zE6T_">
@@ -5579,8 +5580,8 @@
               </node>
             </node>
           </node>
-          <node concept="xERo3" id="1yn8Pkz3PuT" role="lGtFl">
-            <ref role="xH3mL" node="1yn8PkyOfZN" resolve="TemplateClassRecursion" />
+          <node concept="5jKBG" id="2OCJl3Ljdi3" role="lGtFl">
+            <ref role="v9R2y" node="1yn8PkyOfZN" resolve="TemplateClassRecursion" />
           </node>
         </node>
         <node concept="3mBbG7" id="1yn8Pkz3Pt_" role="1zE6T_">
@@ -5719,8 +5720,8 @@
               </node>
             </node>
           </node>
-          <node concept="xERo3" id="1yn8Pkz3SkR" role="lGtFl">
-            <ref role="xH3mL" node="1yn8Pkz3zGs" resolve="ClassInTemplateRecursion" />
+          <node concept="5jKBG" id="2OCJl3Ljdi4" role="lGtFl">
+            <ref role="v9R2y" node="1yn8Pkz3zGs" resolve="ClassInTemplateRecursion" />
           </node>
         </node>
         <node concept="3BZPaE" id="1yn8Pkz3SkS" role="1zE6T_">
@@ -5780,8 +5781,8 @@
               </node>
             </node>
           </node>
-          <node concept="xERo3" id="1yn8Pkz3Slh" role="lGtFl">
-            <ref role="xH3mL" node="1yn8PkyOfZN" resolve="TemplateClassRecursion" />
+          <node concept="5jKBG" id="2OCJl3Ljdi5" role="lGtFl">
+            <ref role="v9R2y" node="1yn8PkyOfZN" resolve="TemplateClassRecursion" />
           </node>
         </node>
         <node concept="3mBbG7" id="1yn8Pkz3SjX" role="1zE6T_">
@@ -5919,8 +5920,8 @@
               </node>
             </node>
           </node>
-          <node concept="xERo3" id="1yn8Pkz3TEl" role="lGtFl">
-            <ref role="xH3mL" node="1yn8Pkz3zGs" resolve="ClassInTemplateRecursion" />
+          <node concept="5jKBG" id="2OCJl3Ljdi6" role="lGtFl">
+            <ref role="v9R2y" node="1yn8Pkz3zGs" resolve="ClassInTemplateRecursion" />
           </node>
         </node>
         <node concept="3BZPaE" id="1yn8Pkz3TEm" role="1zE6T_">
@@ -5980,8 +5981,8 @@
               </node>
             </node>
           </node>
-          <node concept="xERo3" id="1yn8Pkz3TEJ" role="lGtFl">
-            <ref role="xH3mL" node="1yn8PkyOfZN" resolve="TemplateClassRecursion" />
+          <node concept="5jKBG" id="2OCJl3Ljdi7" role="lGtFl">
+            <ref role="v9R2y" node="1yn8PkyOfZN" resolve="TemplateClassRecursion" />
           </node>
         </node>
         <node concept="3mBbG7" id="1yn8Pkz3TDr" role="1zE6T_">
@@ -6172,8 +6173,8 @@
             </node>
           </node>
         </node>
-        <node concept="xERo3" id="5jEOlMMxvy$" role="lGtFl">
-          <ref role="xH3mL" node="5jEOlMMxhxk" resolve="NamespaceRecursion" />
+        <node concept="5jKBG" id="2OCJl3Ljdi8" role="lGtFl">
+          <ref role="v9R2y" node="5jEOlMMxhxk" resolve="NamespaceRecursion" />
         </node>
       </node>
       <node concept="3mBbG7" id="5jEOlMMxjU$" role="ds5Fi">
@@ -6229,8 +6230,8 @@
             </node>
           </node>
         </node>
-        <node concept="xERo3" id="5jEOlMMxIOd" role="lGtFl">
-          <ref role="xH3mL" node="1yn8PkyMFsg" resolve="ClassRecursion" />
+        <node concept="5jKBG" id="2OCJl3Ljdi9" role="lGtFl">
+          <ref role="v9R2y" node="1yn8PkyMFsg" resolve="ClassRecursion" />
         </node>
       </node>
       <node concept="3mBbG7" id="5jEOlMMxkjM" role="ds5Fi">
@@ -6260,8 +6261,8 @@
             </node>
           </node>
         </node>
-        <node concept="xERo3" id="5jEOlMMxJJJ" role="lGtFl">
-          <ref role="xH3mL" node="1yn8PkyOfZN" resolve="TemplateClassRecursion" />
+        <node concept="5jKBG" id="2OCJl3Ljdia" role="lGtFl">
+          <ref role="v9R2y" node="1yn8PkyOfZN" resolve="TemplateClassRecursion" />
         </node>
       </node>
     </node>
