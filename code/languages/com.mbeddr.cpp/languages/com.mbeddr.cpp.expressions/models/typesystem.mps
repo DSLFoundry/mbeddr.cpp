@@ -1174,7 +1174,7 @@
               <node concept="10Oyi0" id="3p40HKhC3xC" role="1tU5fm" />
               <node concept="2YIFZM" id="3p40HKhC3F8" role="33vP2m">
                 <ref role="1Pybhc" to="wyt6:~Integer" resolve="Integer" />
-                <ref role="37wK5l" to="wyt6:~Integer.parseInt(java.lang.String):int" resolve="parseInt" />
+                <ref role="37wK5l" to="wyt6:~Integer.parseInt(java.lang.String)" resolve="parseInt" />
                 <node concept="2OqwBi" id="3p40HKhC5W0" role="37wK5m">
                   <node concept="2OqwBi" id="3p40HKhC54n" role="2Oq$k0">
                     <node concept="2OqwBi" id="3p40HKhC3Z0" role="2Oq$k0">
@@ -1190,7 +1190,7 @@
                     </node>
                   </node>
                   <node concept="liA8E" id="3p40HKhC5ZT" role="2OqNvi">
-                    <ref role="37wK5l" to="wyt6:~Object.toString():java.lang.String" resolve="toString" />
+                    <ref role="37wK5l" to="wyt6:~Object.toString()" resolve="toString" />
                   </node>
                 </node>
               </node>

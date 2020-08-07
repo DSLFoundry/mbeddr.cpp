@@ -633,7 +633,7 @@
                 </node>
               </node>
               <node concept="liA8E" id="4K6s$_sIpcT" role="2OqNvi">
-                <ref role="37wK5l" to="33ny:~Set.contains(java.lang.Object):boolean" resolve="contains" />
+                <ref role="37wK5l" to="33ny:~Set.contains(java.lang.Object)" resolve="contains" />
                 <node concept="37vLTw" id="4K6s$_sIpcU" role="37wK5m">
                   <ref role="3cqZAo" node="4K6s$_sI1yj" resolve="parentClassModule" />
                 </node>
@@ -4414,7 +4414,7 @@
                     </node>
                   </node>
                   <node concept="liA8E" id="mwDIXwFy_E" role="2OqNvi">
-                    <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                    <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
                     <node concept="2OqwBi" id="mwDIXwF_3$" role="37wK5m">
                       <node concept="2OqwBi" id="mwDIXwFz7F" role="2Oq$k0">
                         <node concept="1YBJjd" id="mwDIXwFyRD" role="2Oq$k0">
@@ -4597,7 +4597,7 @@
                   <node concept="10Oyi0" id="3waR2SuHWw3" role="1tU5fm" />
                   <node concept="2YIFZM" id="3waR2SuHWwa" role="33vP2m">
                     <ref role="1Pybhc" to="wyt6:~Math" resolve="Math" />
-                    <ref role="37wK5l" to="wyt6:~Math.min(int,int):int" resolve="min" />
+                    <ref role="37wK5l" to="wyt6:~Math.min(int,int)" resolve="min" />
                     <node concept="37vLTw" id="brG9xonYes" role="37wK5m">
                       <ref role="3cqZAo" node="4V1wcOaIIdg" resolve="actualCount" />
                     </node>
@@ -5420,7 +5420,7 @@
           <property role="TrG5h" value="initParsed" />
           <node concept="10Oyi0" id="3J_5hL4mUox" role="1tU5fm" />
           <node concept="2YIFZM" id="3J_5hL4n5HJ" role="33vP2m">
-            <ref role="37wK5l" to="wyt6:~Integer.parseInt(java.lang.String):int" resolve="parseInt" />
+            <ref role="37wK5l" to="wyt6:~Integer.parseInt(java.lang.String)" resolve="parseInt" />
             <ref role="1Pybhc" to="wyt6:~Integer" resolve="Integer" />
             <node concept="2OqwBi" id="3J_5hL4nKBx" role="37wK5m">
               <node concept="2OqwBi" id="3J_5hL4nIjj" role="2Oq$k0">
@@ -5433,11 +5433,11 @@
                   </node>
                 </node>
                 <node concept="2qgKlT" id="3J_5hL4nJ_m" role="2OqNvi">
-                  <ref role="37wK5l" to="ywuz:1VQvajLb13M" resolve="renderReadable" />
+                  <ref role="37wK5l" to="ywuz:1VQvajLb13M" resolve="renderReadabxle" />
                 </node>
               </node>
               <node concept="liA8E" id="3J_5hL4nLQk" role="2OqNvi">
-                <ref role="37wK5l" to="wyt6:~String.trim():java.lang.String" resolve="trim" />
+                <ref role="37wK5l" to="wyt6:~String.trim()" resolve="trim" />
               </node>
             </node>
           </node>

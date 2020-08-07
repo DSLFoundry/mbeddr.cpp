@@ -792,7 +792,7 @@
                             </node>
                           </node>
                           <node concept="liA8E" id="7mGKYHi735P" role="2OqNvi">
-                            <ref role="37wK5l" to="wyt6:~String.toString():java.lang.String" resolve="toString" />
+                            <ref role="37wK5l" to="wyt6:~String.toString()" resolve="toString" />
                           </node>
                         </node>
                         <node concept="2OqwBi" id="7mGKYHi6Zid" role="37vLTJ">

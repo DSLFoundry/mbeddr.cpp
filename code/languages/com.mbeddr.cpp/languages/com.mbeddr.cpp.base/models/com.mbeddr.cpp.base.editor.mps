@@ -524,7 +524,7 @@
                       </node>
                     </node>
                     <node concept="liA8E" id="3UsoL$l5D2b" role="2OqNvi">
-                      <ref role="37wK5l" to="33ny:~List.size():int" resolve="size" />
+                      <ref role="37wK5l" to="33ny:~List.size()" resolve="size" />
                     </node>
                   </node>
                 </node>
@@ -886,7 +886,7 @@
                     </node>
                   </node>
                   <node concept="liA8E" id="3UsoL$l5WfQ" role="2OqNvi">
-                    <ref role="37wK5l" to="33ny:~List.size():int" resolve="size" />
+                    <ref role="37wK5l" to="33ny:~List.size()" resolve="size" />
                   </node>
                 </node>
                 <node concept="3cmrfG" id="3UsoL$l5YS9" role="3uHU7w">
@@ -3069,7 +3069,7 @@
                     <node concept="2OqwBi" id="7bCENxTSHEk" role="1m5AlR">
                       <node concept="2kS8pE" id="7bCENxTSHEl" role="2Oq$k0" />
                       <node concept="liA8E" id="7bCENxTSHEm" role="2OqNvi">
-                        <ref role="37wK5l" to="uddc:~TransformationMenuContext.getNode():org.jetbrains.mps.openapi.model.SNode" resolve="getNode" />
+                        <ref role="37wK5l" to="uddc:~TransformationMenuContext.getNode()" resolve="getNode" />
                       </node>
                     </node>
                   </node>

@@ -1232,7 +1232,7 @@
                 </node>
               </node>
               <node concept="liA8E" id="17yeYAhYvGG" role="2OqNvi">
-                <ref role="37wK5l" to="33ny:~List.size():int" resolve="size" />
+                <ref role="37wK5l" to="33ny:~List.size()" resolve="size" />
               </node>
             </node>
           </node>
@@ -2525,7 +2525,7 @@
                               </node>
                             </node>
                             <node concept="liA8E" id="7mGKYHhC4D2" role="2OqNvi">
-                              <ref role="37wK5l" to="wyt6:~Object.toString():java.lang.String" resolve="toString" />
+                              <ref role="37wK5l" to="wyt6:~Object.toString()" resolve="toString" />
                             </node>
                           </node>
                         </node>
