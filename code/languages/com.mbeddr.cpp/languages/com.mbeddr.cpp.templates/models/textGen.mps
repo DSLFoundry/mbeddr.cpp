@@ -557,7 +557,7 @@
               <node concept="2OqwBi" id="ZKpU3C6B0j" role="2Oq$k0">
                 <node concept="117lpO" id="ZKpU3C6ANi" role="2Oq$k0" />
                 <node concept="3TrEf2" id="ZKpU3C6Bjg" role="2OqNvi">
-                  <ref role="3Tt5mk" to="wnzg:4o2nsMgBEtY" resolve="clazz" />
+                  <ref role="3Tt5mk" to="wnzg:4o2nsMgBEtY" resolve="class" />
                 </node>
               </node>
               <node concept="3TrcHB" id="ZKpU3C6CJh" role="2OqNvi">
