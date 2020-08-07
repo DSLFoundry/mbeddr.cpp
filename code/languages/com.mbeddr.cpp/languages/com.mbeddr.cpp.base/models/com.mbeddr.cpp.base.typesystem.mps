@@ -6,6 +6,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="1" />
 =======
     <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="-1" />
@@ -21,6 +22,9 @@
 >>>>>>> c379e8e493... Added namespace name check warning. Adjusted namespace tests.
 =======
     <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="4" />
+=======
+    <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="5" />
+>>>>>>> 4e2541f81a... migrated to 2019.3
     <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="-1" />
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="9" />
 >>>>>>> cc021cd381... migrated to 2019.2
@@ -496,11 +500,14 @@
       <concept id="1175517767210" name="jetbrains.mps.lang.typesystem.structure.ReportErrorStatement" flags="nn" index="2MkqsV">
         <child id="1175517851849" name="errorString" index="2MkJ7o" />
       </concept>
+<<<<<<< HEAD
       <concept id="1227096774658" name="jetbrains.mps.lang.typesystem.structure.MessageStatement" flags="ng" index="2OEH$v">
 <<<<<<< HEAD
         <child id="1227096802791" name="helginsIntention" index="2OEOjU" />
         <child id="1227096802790" name="nodeToReport" index="2OEOjV" />
       </concept>
+=======
+>>>>>>> 4e2541f81a... migrated to 2019.3
       <concept id="1216383170661" name="jetbrains.mps.lang.typesystem.structure.TypesystemQuickFix" flags="ng" index="Q5z_Y">
         <child id="1216383424566" name="executeBlock" index="Q6x$H" />
         <child id="1216391046856" name="descriptionBlock" index="QzAvj" />
@@ -535,6 +542,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+      <concept id="3937244445246642777" name="jetbrains.mps.lang.typesystem.structure.AbstractReportStatement" flags="ng" index="1urrMJ">
+        <child id="3937244445246643221" name="helginsIntention" index="1urrFz" />
+        <child id="3937244445246642781" name="nodeToReport" index="1urrMF" />
+      </concept>
+>>>>>>> 4e2541f81a... migrated to 2019.3
       <concept id="1210784285454" name="jetbrains.mps.lang.typesystem.structure.TypesystemIntention" flags="ng" index="3Cnw8n">
         <property id="1216127910019" name="applyImmediately" index="ARO6o" />
         <reference id="1216388525179" name="quickFix" index="QpYPw" />
@@ -856,7 +870,7 @@
             <node concept="Xl_RD" id="4K6s$_sMeUr" role="2MkJ7o">
               <property role="Xl_RC" value="a class cannot extend itself" />
             </node>
-            <node concept="1YBJjd" id="4K6s$_sMeVa" role="2OEOjV">
+            <node concept="1YBJjd" id="4K6s$_sMeVa" role="1urrMF">
               <ref role="1YBMHb" node="4K6s$_rq5Gi" resolve="inheritanceInstance" />
 =======
   <node concept="1YbPZF" id="383ZxwZuZXy">
@@ -1100,11 +1114,11 @@
         </node>
         <node concept="3clFbS" id="4K6s$_rq5Gu" role="3clFbx">
           <node concept="2MkqsV" id="4K6s$_rqa8E" role="3cqZAp">
-            <node concept="1YBJjd" id="4K6s$_rqak8" role="2OEOjV">
-              <ref role="1YBMHb" node="4K6s$_rq5Gi" resolve="inheritanceInstance" />
-            </node>
             <node concept="Xl_RD" id="4K6s$_rqajb" role="2MkJ7o">
               <property role="Xl_RC" value="you can't extend an unexported class from another module" />
+            </node>
+            <node concept="1YBJjd" id="4K6s$_rqak8" role="1urrMF">
+              <ref role="1YBMHb" node="4K6s$_rq5Gi" resolve="inheritanceInstance" />
             </node>
           </node>
         </node>
@@ -1245,7 +1259,7 @@
             <node concept="37vLTw" id="4K6s$_sIKoq" role="2MkJ7o">
               <ref role="3cqZAo" node="4K6s$_sIFAc" resolve="modules" />
             </node>
-            <node concept="1YBJjd" id="4K6s$_sIKoA" role="2OEOjV">
+            <node concept="1YBJjd" id="4K6s$_sIKoA" role="1urrMF">
               <ref role="1YBMHb" node="4K6s$_rq5Gi" resolve="inheritanceInstance" />
             </node>
           </node>
@@ -1258,10 +1272,10 @@
                 <ref role="3cqZAo" node="4K6s$_sI1yj" resolve="parentClassModule" />
               </node>
             </node>
-            <node concept="1YBJjd" id="4K6s$_sIa8m" role="2OEOjV">
+            <node concept="1YBJjd" id="4K6s$_sIa8m" role="1urrMF">
               <ref role="1YBMHb" node="4K6s$_rq5Gi" resolve="inheritanceInstance" />
             </node>
-            <node concept="3Cnw8n" id="4K6s$_sJn7F" role="2OEOjU">
+            <node concept="3Cnw8n" id="4K6s$_sJn7F" role="1urrFz">
               <ref role="QpYPw" node="4K6s$_sJmpq" resolve="ImportRequiredModuleForExtension" />
             </node>
           </node>
@@ -1339,7 +1353,7 @@
             <node concept="Xl_RD" id="1N32NMNTZAj" role="2MkJ7o">
               <property role="Xl_RC" value="template class type without template specifiers (alt+enter to fix)" />
             </node>
-            <node concept="1YBJjd" id="1N32NMNTZAO" role="2OEOjV">
+            <node concept="1YBJjd" id="1N32NMNTZAO" role="1urrMF">
               <ref role="1YBMHb" node="4K6s$_rq5Gi" resolve="inheritanceInstance" />
             </node>
           </node>
@@ -1752,7 +1766,7 @@
                 </node>
               </node>
             </node>
-            <node concept="1YBJjd" id="6oRbCP6zVA6" role="2OEOjV">
+            <node concept="1YBJjd" id="6oRbCP6zVA6" role="1urrMF">
               <ref role="1YBMHb" node="4K6s$_sNy9d" resolve="qualifiedMethodCall" />
             </node>
           </node>
@@ -1856,8 +1870,12 @@
 >>>>>>> 0865682751... Migrate all errors in base language to begin with a lower case letter
             </node>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             <node concept="1YBJjd" id="2xmTzC2LYd7" role="2OEOjV">
+=======
+            <node concept="1YBJjd" id="2xmTzC2LYd7" role="1urrMF">
+>>>>>>> 4e2541f81a... migrated to 2019.3
               <ref role="1YBMHb" node="6hUtorEaE9D" resolve="lcvd" />
             </node>
           </node>
@@ -1947,7 +1965,7 @@
                 <ref role="3cqZAo" node="5i01kANrOPI" resolve="numDestructors" />
               </node>
             </node>
-            <node concept="1YBJjd" id="5i01kANrTFR" role="2OEOjV">
+            <node concept="1YBJjd" id="5i01kANrTFR" role="1urrMF">
               <ref role="1YBMHb" node="5i01kANrE35" resolve="classDeclaration" />
             </node>
           </node>
@@ -2029,7 +2047,7 @@
                     <property role="Xl_RC" value="default constructor must explicitly initialize base class " />
                   </node>
                 </node>
-                <node concept="1YBJjd" id="nGa9qSZGLF" role="2OEOjV">
+                <node concept="1YBJjd" id="nGa9qSZGLF" role="1urrMF">
                   <ref role="1YBMHb" node="5i01kANrE35" resolve="classDeclaration" />
                 </node>
               </node>
@@ -2128,7 +2146,7 @@
                 <property role="Xl_RC" value="must be an instance of ClassType but is " />
               </node>
             </node>
-            <node concept="1YBJjd" id="6hUtorEt48x" role="2OEOjV">
+            <node concept="1YBJjd" id="6hUtorEt48x" role="1urrMF">
               <ref role="1YBMHb" node="6hUtorEt3G2" resolve="iClassTyped" />
             </node>
           </node>
@@ -2222,7 +2240,7 @@
                 <property role="Xl_RC" value="may not have a constructor for a class other than " />
               </node>
             </node>
-            <node concept="1YBJjd" id="3Mwr0rVBETv" role="2OEOjV">
+            <node concept="1YBJjd" id="3Mwr0rVBETv" role="1urrMF">
               <ref role="1YBMHb" node="6ddXmWdG7bc" resolve="classConstructor" />
             </node>
           </node>
@@ -2297,7 +2315,7 @@
                 <property role="Xl_RC" value="may not have a destructor for a class other than " />
               </node>
             </node>
-            <node concept="1YBJjd" id="3Mwr0rVIGkD" role="2OEOjV">
+            <node concept="1YBJjd" id="3Mwr0rVIGkD" role="1urrMF">
               <ref role="1YBMHb" node="6ddXmWdG7bc" resolve="classConstructor" />
             </node>
           </node>
@@ -2341,8 +2359,12 @@
             <node concept="Xl_RD" id="5i01kANshj1" role="2MkJ7o">
               <property role="Xl_RC" value="destructors may not have arguments" />
             </node>
+<<<<<<< HEAD
             <node concept="1YBJjd" id="5i01kANshk5" role="2OEOjV">
 >>>>>>> c9601ef09e... Add constructor wrong class error and improve testcase
+=======
+            <node concept="1YBJjd" id="5i01kANshk5" role="1urrMF">
+>>>>>>> 4e2541f81a... migrated to 2019.3
               <ref role="1YBMHb" node="6ddXmWdG7bc" resolve="classConstructor" />
             </node>
 >>>>>>> b0d1d327f3... Add contexpr to constructors
@@ -2489,7 +2511,7 @@
             <node concept="Xl_RD" id="1D2kn99BFL_" role="2MkJ7o">
               <property role="Xl_RC" value="destructors may not be constant expressions" />
             </node>
-            <node concept="1YBJjd" id="1D2kn99BFMk" role="2OEOjV">
+            <node concept="1YBJjd" id="1D2kn99BFMk" role="1urrMF">
               <ref role="1YBMHb" node="6ddXmWdG7bc" resolve="classConstructor" />
             </node>
           </node>
@@ -2520,7 +2542,7 @@
             <node concept="Xl_RD" id="1D2kn99Lzf8" role="2MkJ7o">
               <property role="Xl_RC" value="constant expression member must not be virtual" />
             </node>
-            <node concept="1YBJjd" id="1D2kn99LzJa" role="2OEOjV">
+            <node concept="1YBJjd" id="1D2kn99LzJa" role="1urrMF">
               <ref role="1YBMHb" node="6ddXmWdG7bc" resolve="classConstructor" />
             </node>
           </node>
@@ -2683,7 +2705,7 @@
                         <property role="Xl_RC" value="constructor must explicitly initialize base class " />
                       </node>
                     </node>
-                    <node concept="1YBJjd" id="nGa9qSZ1hG" role="2OEOjV">
+                    <node concept="1YBJjd" id="nGa9qSZ1hG" role="1urrMF">
                       <ref role="1YBMHb" node="6ddXmWdG7bc" resolve="classConstructor" />
                     </node>
                   </node>
@@ -3211,10 +3233,10 @@
             <node concept="Xl_RD" id="1rV7RaURv2C" role="2MkJ7o">
               <property role="Xl_RC" value="real_name empty" />
             </node>
-            <node concept="1YBJjd" id="1rV7RaURv39" role="2OEOjV">
+            <node concept="1YBJjd" id="1rV7RaURv39" role="1urrMF">
               <ref role="1YBMHb" node="4KyQ_QhNKG1" resolve="cic" />
             </node>
-            <node concept="3Cnw8n" id="1rV7RaURveF" role="2OEOjU">
+            <node concept="3Cnw8n" id="1rV7RaURveF" role="1urrFz">
               <property role="ARO6o" value="true" />
               <ref role="QpYPw" node="1rV7RaURv92" resolve="fix_cic_real_name" />
             </node>
@@ -3298,7 +3320,7 @@
             <node concept="Xl_RD" id="2L1k$oXFkHA" role="2MkJ7o">
               <property role="Xl_RC" value="non-virtual method must not be pure" />
             </node>
-            <node concept="1YBJjd" id="2L1k$oXFkHT" role="2OEOjV">
+            <node concept="1YBJjd" id="2L1k$oXFkHT" role="1urrMF">
               <ref role="1YBMHb" node="2L1k$oXFje2" resolve="iPureVirtualisable" />
             </node>
           </node>
@@ -3321,7 +3343,7 @@
             <node concept="Xl_RD" id="2L1k$oXL3xC" role="2MkJ7o">
               <property role="Xl_RC" value="non-pure virtual method must have a body" />
             </node>
-            <node concept="1YBJjd" id="2L1k$oXL3xV" role="2OEOjV">
+            <node concept="1YBJjd" id="2L1k$oXL3xV" role="1urrMF">
               <ref role="1YBMHb" node="2L1k$oXKZ8O" resolve="md" />
             </node>
           </node>
@@ -3463,7 +3485,7 @@
             <node concept="Xl_RD" id="15T8UHysjGs" role="2MkJ7o">
               <property role="Xl_RC" value="constexpr member can't be virtual" />
             </node>
-            <node concept="1YBJjd" id="15T8UHysjGt" role="2OEOjV">
+            <node concept="1YBJjd" id="15T8UHysjGt" role="1urrMF">
               <ref role="1YBMHb" node="2L1k$oXKZ8O" resolve="md" />
             </node>
           </node>
@@ -3494,7 +3516,7 @@
             <node concept="Xl_RD" id="3JyuKTwhEZH" role="a7wSD">
               <property role="Xl_RC" value="constexpr already implicitely inlines" />
             </node>
-            <node concept="1YBJjd" id="3JyuKTwhF1S" role="2OEOjV">
+            <node concept="1YBJjd" id="3JyuKTwhF1S" role="1urrMF">
               <ref role="1YBMHb" node="2L1k$oXKZ8O" resolve="md" />
             </node>
           </node>
@@ -3821,7 +3843,7 @@
             <node concept="Xl_RD" id="5eDFAXBRVBu" role="a7wSD">
               <property role="Xl_RC" value="use of inline not necessary; constExpr already implicitely inlines" />
             </node>
-            <node concept="1YBJjd" id="5eDFAXBRVE6" role="2OEOjV">
+            <node concept="1YBJjd" id="5eDFAXBRVE6" role="1urrMF">
               <ref role="1YBMHb" node="5eDFAXBGiPD" resolve="ad" />
             </node>
           </node>
@@ -3865,7 +3887,7 @@
             <node concept="Xl_RD" id="15T8UHynAmt" role="2MkJ7o">
               <property role="Xl_RC" value="constant data member must be initialized" />
             </node>
-            <node concept="1YBJjd" id="15T8UHys8Ms" role="2OEOjV">
+            <node concept="1YBJjd" id="15T8UHys8Ms" role="1urrMF">
               <ref role="1YBMHb" node="5eDFAXBGiPD" resolve="ad" />
             </node>
           </node>
@@ -3992,7 +4014,7 @@
                 <node concept="Xl_RD" id="15T8UHynumU" role="2MkJ7o">
                   <property role="Xl_RC" value="static data member must not be mutable" />
                 </node>
-                <node concept="1YBJjd" id="15T8UHys8Po" role="2OEOjV">
+                <node concept="1YBJjd" id="15T8UHys8Po" role="1urrMF">
                   <ref role="1YBMHb" node="5eDFAXBGiPD" resolve="ad" />
                 </node>
               </node>
@@ -4109,7 +4131,7 @@
                         </node>
                       </node>
                     </node>
-                    <node concept="1YBJjd" id="7j9KGYMO2u8" role="2OEOjV">
+                    <node concept="1YBJjd" id="7j9KGYMO2u8" role="1urrMF">
                       <ref role="1YBMHb" node="5eDFAXBGiPD" resolve="ad" />
                     </node>
                   </node>
@@ -4408,7 +4430,7 @@
                 <node concept="Xl_RD" id="7WruJM_tfhx" role="2MkJ7o">
                   <property role="Xl_RC" value="auto type can only be used in static const attributes" />
                 </node>
-                <node concept="2OqwBi" id="7WruJM_tfuL" role="2OEOjV">
+                <node concept="2OqwBi" id="7WruJM_tfuL" role="1urrMF">
                   <node concept="1YBJjd" id="7WruJM_tfhO" role="2Oq$k0">
                     <ref role="1YBMHb" node="6FZQsHtqxSM" resolve="autoType" />
                   </node>
@@ -4537,7 +4559,7 @@
             <node concept="Xl_RD" id="8CgsWn8WpS" role="2MkJ7o">
               <property role="Xl_RC" value="auto type can only be used in a variable declaration" />
             </node>
-            <node concept="1YBJjd" id="8CgsWn8WpU" role="2OEOjV">
+            <node concept="1YBJjd" id="8CgsWn8WpU" role="1urrMF">
               <ref role="1YBMHb" node="6FZQsHtqxSM" resolve="autoType" />
             </node>
           </node>
@@ -4584,7 +4606,7 @@
               <node concept="Xl_RD" id="6FZQsHtT3uT" role="2MkJ7o">
                 <property role="Xl_RC" value="variable declaration with auto type must have initializer" />
               </node>
-              <node concept="2OqwBi" id="6FZQsHtT3Fz" role="2OEOjV">
+              <node concept="2OqwBi" id="6FZQsHtT3Fz" role="1urrMF">
                 <node concept="1YBJjd" id="6FZQsHtT3vj" role="2Oq$k0">
                   <ref role="1YBMHb" node="6FZQsHtqxSM" resolve="autoType" />
                 </node>
@@ -5244,7 +5266,7 @@
             <node concept="Xl_RD" id="3p40HKhGW3c" role="2MkJ7o">
               <property role="Xl_RC" value="initializers are not allowed on destructors" />
             </node>
-            <node concept="1YBJjd" id="3p40HKhGW3A" role="2OEOjV">
+            <node concept="1YBJjd" id="3p40HKhGW3A" role="1urrMF">
               <ref role="1YBMHb" node="3p40HKhGUqD" resolve="iaci" />
 >>>>>>> 12675a6d36... Add static context checks
             </node>
@@ -6164,7 +6186,7 @@
                         </node>
                       </node>
                     </node>
-                    <node concept="1YBJjd" id="3p40HKhxWNQ" role="2OEOjV">
+                    <node concept="1YBJjd" id="3p40HKhxWNQ" role="1urrMF">
                       <ref role="1YBMHb" node="3p40HKhxJwY" resolve="ii" />
                     </node>
                   </node>
@@ -6277,7 +6299,7 @@
                         </node>
                       </node>
                     </node>
-                    <node concept="1YBJjd" id="3p40HKhyb1K" role="2OEOjV">
+                    <node concept="1YBJjd" id="3p40HKhyb1K" role="1urrMF">
                       <ref role="1YBMHb" node="3p40HKhxJwY" resolve="ii" />
                     </node>
                   </node>
@@ -6781,7 +6803,7 @@
                     <node concept="Xl_RD" id="7j9KGYMN76i" role="2MkJ7o">
                       <property role="Xl_RC" value="non-static attribute reference in static context" />
                     </node>
-                    <node concept="2GrUjf" id="7j9KGYMN778" role="2OEOjV">
+                    <node concept="2GrUjf" id="7j9KGYMN778" role="1urrMF">
                       <ref role="2Gs0qQ" node="7j9KGYMMQaV" resolve="child" />
 =======
                 <node concept="2OqwBi" id="mwDIXwO6$p" role="3uHU7B">
@@ -6822,7 +6844,7 @@
                     <node concept="Xl_RD" id="7j9KGYMNooZ" role="2MkJ7o">
                       <property role="Xl_RC" value="non-static method call in static context" />
                     </node>
-                    <node concept="2GrUjf" id="7j9KGYMNopw" role="2OEOjV">
+                    <node concept="2GrUjf" id="7j9KGYMNopw" role="1urrMF">
                       <ref role="2Gs0qQ" node="7j9KGYMMQaV" resolve="child" />
                     </node>
                   </node>
@@ -6903,7 +6925,7 @@
                 <node concept="Xl_RD" id="5eDFAXB$VOx" role="2MkJ7o">
                   <property role="Xl_RC" value="static member may not be virtual" />
                 </node>
-                <node concept="1YBJjd" id="7POJCjfndfH" role="2OEOjV">
+                <node concept="1YBJjd" id="7POJCjfndfH" role="1urrMF">
                   <ref role="1YBMHb" node="7j9KGYMMNZI" resolve="md" />
                 </node>
               </node>
@@ -6924,7 +6946,7 @@
                 <node concept="Xl_RD" id="15T8UHynk$V" role="2MkJ7o">
                   <property role="Xl_RC" value="static member may not be volatile" />
                 </node>
-                <node concept="1YBJjd" id="7POJCjfndJg" role="2OEOjV">
+                <node concept="1YBJjd" id="7POJCjfndJg" role="1urrMF">
                   <ref role="1YBMHb" node="7j9KGYMMNZI" resolve="md" />
                 </node>
               </node>
@@ -6945,7 +6967,7 @@
                 <node concept="Xl_RD" id="7mGKYHhkF9O" role="2MkJ7o">
                   <property role="Xl_RC" value="static member may not be const" />
                 </node>
-                <node concept="1YBJjd" id="7POJCjfndTJ" role="2OEOjV">
+                <node concept="1YBJjd" id="7POJCjfndTJ" role="1urrMF">
                   <ref role="1YBMHb" node="7j9KGYMMNZI" resolve="md" />
                 </node>
               </node>
@@ -7452,7 +7474,7 @@
                 <property role="Xl_RC" value=" is not a pointer; only variables of type pointer can be deleted." />
               </node>
             </node>
-            <node concept="1YBJjd" id="72UYQRWv_XN" role="2OEOjV">
+            <node concept="1YBJjd" id="72UYQRWv_XN" role="1urrMF">
               <ref role="1YBMHb" node="72UYQRWvwJo" resolve="dd" />
             </node>
           </node>
@@ -7722,7 +7744,7 @@
                 <node concept="Xl_RD" id="3SNFZ61xp2B" role="2MkJ7o">
                   <property role="Xl_RC" value="attribute does not exist within given namespace" />
                 </node>
-                <node concept="1YBJjd" id="3SNFZ61xp2C" role="2OEOjV">
+                <node concept="1YBJjd" id="3SNFZ61xp2C" role="1urrMF">
                   <ref role="1YBMHb" node="3SNFZ61r5Lu" resolve="guNSad" />
                 </node>
               </node>
@@ -7867,7 +7889,7 @@
                 <node concept="Xl_RD" id="7G1ZeMQsyln" role="2MkJ7o">
                   <property role="Xl_RC" value="method does not exist within given namespace" />
                 </node>
-                <node concept="1YBJjd" id="7G1ZeMQsylS" role="2OEOjV">
+                <node concept="1YBJjd" id="7G1ZeMQsylS" role="1urrMF">
                   <ref role="1YBMHb" node="7G1ZeMQsojw" resolve="guNSmd" />
                 </node>
               </node>
@@ -7919,7 +7941,7 @@
                 <node concept="Xl_RD" id="mwDIXwNp91" role="2MkJ7o">
                   <property role="Xl_RC" value="attribute references to local variable instead of namespace member" />
                 </node>
-                <node concept="1YBJjd" id="mwDIXwNpuy" role="2OEOjV">
+                <node concept="1YBJjd" id="mwDIXwNpuy" role="1urrMF">
                   <ref role="1YBMHb" node="mwDIXwFf6b" resolve="nsar" />
                 </node>
               </node>
@@ -8085,9 +8107,6 @@
         <node concept="3clFbJ" id="2Xknsxco2yW" role="3cqZAp">
           <node concept="3clFbS" id="2Xknsxco2yZ" role="3clFbx">
             <node concept="2MkqsV" id="4V1wcOaIIdl" role="3cqZAp">
-              <node concept="37vLTw" id="4V1wcOaINXf" role="2OEOjV">
-                <ref role="3cqZAo" node="4V1wcOaIyu_" resolve="call" />
-              </node>
               <node concept="3cpWs3" id="4V1wcOaIIdm" role="2MkJ7o">
                 <node concept="2OqwBi" id="4V1wcOaIIdn" role="3uHU7w">
                   <node concept="2OqwBi" id="4V1wcOaIIdo" role="2Oq$k0">
@@ -8105,6 +8124,9 @@
                 <node concept="Xl_RD" id="4V1wcOaIIdr" role="3uHU7B">
                   <property role="Xl_RC" value="wrong number of arguments. Expected: " />
                 </node>
+              </node>
+              <node concept="37vLTw" id="4V1wcOaINXf" role="1urrMF">
+                <ref role="3cqZAo" node="4V1wcOaIyu_" resolve="call" />
               </node>
             </node>
           </node>
@@ -8654,7 +8676,7 @@
                 <node concept="Xl_RD" id="6zyIeiaAZZX" role="a7wSD">
                   <property role="Xl_RC" value="duplicate names may make variables ambiguous" />
                 </node>
-                <node concept="1YBJjd" id="6zyIeiaAZZY" role="2OEOjV">
+                <node concept="1YBJjd" id="6zyIeiaAZZY" role="1urrMF">
                   <ref role="1YBMHb" node="6zyIeiaAPTf" resolve="nsD" />
                 </node>
               </node>
@@ -8961,7 +8983,7 @@
                 <node concept="Xl_RD" id="2j_NnBnvqso" role="2MkJ7o">
                   <property role="Xl_RC" value="class may not contain instance of itself" />
                 </node>
-                <node concept="1YBJjd" id="2j_NnBnvqsL" role="2OEOjV">
+                <node concept="1YBJjd" id="2j_NnBnvqsL" role="1urrMF">
                   <ref role="1YBMHb" node="2j_NnBnvkp9" resolve="classType" />
                 </node>
               </node>
@@ -9032,7 +9054,7 @@
                 <node concept="Xl_RD" id="2j_NnBnxNjm" role="2MkJ7o">
                   <property role="Xl_RC" value="can't reference inner class without outer class" />
                 </node>
-                <node concept="1YBJjd" id="2j_NnBnxNkB" role="2OEOjV">
+                <node concept="1YBJjd" id="2j_NnBnxNkB" role="1urrMF">
                   <ref role="1YBMHb" node="2j_NnBnvkp9" resolve="classType" />
                 </node>
               </node>
@@ -9222,7 +9244,7 @@
             <node concept="Xl_RD" id="6T3uXzTgSVM" role="2MkJ7o">
               <property role="Xl_RC" value="variable declaration may not be both thread_local and register" />
             </node>
-            <node concept="1YBJjd" id="3VWY4WWhRrp" role="2OEOjV">
+            <node concept="1YBJjd" id="3VWY4WWhRrp" role="1urrMF">
               <ref role="1YBMHb" node="hYHfWv9gSc" resolve="vardec" />
             </node>
           </node>
@@ -9287,7 +9309,7 @@
                   </node>
                 </node>
                 <node concept="2qgKlT" id="3J_5hL4nJ_m" role="2OqNvi">
-                  <ref role="37wK5l" to="ywuz:1VQvajLb13M" resolve="renderReadabxle" />
+                  <ref role="37wK5l" to="ywuz:1VQvajLb13M" resolve="renderReadable" />
                 </node>
               </node>
               <node concept="liA8E" id="3J_5hL4nLQk" role="2OqNvi">
@@ -9355,7 +9377,7 @@
                 <node concept="Xl_RD" id="hYHfWvAZVW" role="2MkJ7o">
                   <property role="Xl_RC" value="char16_t must not be assigned negative numbers" />
                 </node>
-                <node concept="2OqwBi" id="hYHfWxH85z" role="2OEOjV">
+                <node concept="2OqwBi" id="hYHfWxH85z" role="1urrMF">
                   <node concept="1YBJjd" id="hYHfWxH69g" role="2Oq$k0">
                     <ref role="1YBMHb" node="hYHfWv9gSc" resolve="vardec" />
                   </node>
@@ -9382,7 +9404,7 @@
                 <node concept="Xl_RD" id="hYHfWvAZW6" role="2MkJ7o">
                   <property role="Xl_RC" value="char16_t must be between 0 and 65535" />
                 </node>
-                <node concept="2OqwBi" id="hYHfWxVsYN" role="2OEOjV">
+                <node concept="2OqwBi" id="hYHfWxVsYN" role="1urrMF">
                   <node concept="1YBJjd" id="hYHfWxVsYO" role="2Oq$k0">
                     <ref role="1YBMHb" node="hYHfWv9gSc" resolve="vardec" />
                   </node>
@@ -9446,7 +9468,7 @@
                   <node concept="Xl_RD" id="7POJCjfDTsP" role="2MkJ7o">
                     <property role="Xl_RC" value="char32_t must not be assigned negative numbers" />
                   </node>
-                  <node concept="2OqwBi" id="7POJCjfDTsQ" role="2OEOjV">
+                  <node concept="2OqwBi" id="7POJCjfDTsQ" role="1urrMF">
                     <node concept="1YBJjd" id="7POJCjfDTsR" role="2Oq$k0">
                       <ref role="1YBMHb" node="hYHfWv9gSc" resolve="vardec" />
                     </node>
@@ -9472,7 +9494,7 @@
                   <node concept="Xl_RD" id="hYHfWxqb3U" role="2MkJ7o">
                     <property role="Xl_RC" value="char32_t must be between 0 and 1114111" />
                   </node>
-                  <node concept="2OqwBi" id="hYHfWxVxLz" role="2OEOjV">
+                  <node concept="2OqwBi" id="hYHfWxVxLz" role="1urrMF">
                     <node concept="1YBJjd" id="hYHfWxVxL$" role="2Oq$k0">
                       <ref role="1YBMHb" node="hYHfWv9gSc" resolve="vardec" />
                     </node>
@@ -9582,7 +9604,7 @@
                   <node concept="Xl_RD" id="7POJCjfE0ss" role="2MkJ7o">
                     <property role="Xl_RC" value="wchar_t must not be assigned negative numbers" />
                   </node>
-                  <node concept="2OqwBi" id="7POJCjfE0st" role="2OEOjV">
+                  <node concept="2OqwBi" id="7POJCjfE0st" role="1urrMF">
                     <node concept="1YBJjd" id="7POJCjfE0su" role="2Oq$k0">
                       <ref role="1YBMHb" node="hYHfWv9gSc" resolve="vardec" />
                     </node>
@@ -9616,7 +9638,7 @@
                   <node concept="Xl_RD" id="hYHfWyaB2L" role="a7wSD">
                     <property role="Xl_RC" value="assigned value more than 8 bits wide; some c++ compilers may give errors" />
                   </node>
-                  <node concept="2OqwBi" id="hYHfWya$Dd" role="2OEOjV">
+                  <node concept="2OqwBi" id="hYHfWya$Dd" role="1urrMF">
                     <node concept="1YBJjd" id="hYHfWya$c8" role="2Oq$k0">
                       <ref role="1YBMHb" node="hYHfWv9gSc" resolve="vardec" />
                     </node>
@@ -9785,9 +9807,6 @@
 >>>>>>> 0ee1f9fd9a... Decoupled operator_overloading language from base
         <node concept="3clFbS" id="1VsJb22wjAM" role="3clFbx">
           <node concept="2MkqsV" id="1VsJb22wrdk" role="3cqZAp">
-            <node concept="1YBJjd" id="1VsJb22wsq_" role="2OEOjV">
-              <ref role="1YBMHb" node="1VsJb22wjAv" resolve="iinc" />
-            </node>
             <node concept="3cpWs3" id="1VsJb22ws3r" role="2MkJ7o">
               <node concept="Xl_RD" id="1VsJb22ws72" role="3uHU7w">
                 <property role="Xl_RC" value=" is a reserved keyword" />
@@ -9798,6 +9817,7 @@
                 </node>
                 <node concept="3TrcHB" id="1VsJb22wrAP" role="2OqNvi">
                   <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+<<<<<<< HEAD
 =======
         <node concept="3eNFk2" id="hYHfWxuxml" role="3eNLev">
           <node concept="3clFbS" id="hYHfWxuxmm" role="3eOfB_">
@@ -9825,6 +9845,14 @@
                       <ref role="37wK5l" to="ywuz:1VQvajLb13M" resolve="renderReadable" />
                     </node>
 =======
+=======
+                </node>
+              </node>
+            </node>
+            <node concept="1YBJjd" id="1VsJb22wsq_" role="1urrMF">
+              <ref role="1YBMHb" node="1VsJb22wjAv" resolve="iinc" />
+            </node>
+>>>>>>> 4e2541f81a... migrated to 2019.3
           </node>
         </node>
       </node>
@@ -9890,7 +9918,7 @@
             <node concept="Xl_RD" id="4lmr4L5IZB5" role="2MkJ7o">
               <property role="Xl_RC" value="dynamic_cast can only cast pointers" />
             </node>
-            <node concept="1YBJjd" id="4lmr4L5IZC9" role="2OEOjV">
+            <node concept="1YBJjd" id="4lmr4L5IZC9" role="1urrMF">
               <ref role="1YBMHb" node="4lmr4L5IUrI" resolve="dc" />
             </node>
           </node>
@@ -10405,11 +10433,11 @@
           <node concept="3clFbJ" id="4lmr4L5syZ3" role="3cqZAp">
             <node concept="3clFbS" id="4lmr4L5syZ5" role="3clFbx">
               <node concept="2MkqsV" id="4lmr4L5lQTr" role="3cqZAp">
-                <node concept="1YBJjd" id="4lmr4L5lRsC" role="2OEOjV">
-                  <ref role="1YBMHb" node="4lmr4L5loLZ" resolve="sc" />
-                </node>
                 <node concept="Xl_RD" id="4lmr4L5lR56" role="2MkJ7o">
                   <property role="Xl_RC" value="static_cast can only cast class pointers to accessible parents" />
+                </node>
+                <node concept="1YBJjd" id="4lmr4L5lRsC" role="1urrMF">
+                  <ref role="1YBMHb" node="4lmr4L5loLZ" resolve="sc" />
                 </node>
               </node>
             </node>
@@ -10533,7 +10561,7 @@
             <node concept="Xl_RD" id="4lmr4L5$QrQ" role="2MkJ7o">
               <property role="Xl_RC" value="reinterpret_cast can only cast pointer types" />
             </node>
-            <node concept="1YBJjd" id="4lmr4L5$Qs9" role="2OEOjV">
+            <node concept="1YBJjd" id="4lmr4L5$Qs9" role="1urrMF">
               <ref role="1YBMHb" node="4lmr4L5$K1Q" resolve="rc" />
             </node>
           </node>

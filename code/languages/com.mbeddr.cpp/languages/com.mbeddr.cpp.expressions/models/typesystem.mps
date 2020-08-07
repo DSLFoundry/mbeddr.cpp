@@ -3,9 +3,13 @@
   <persistence version="9" />
   <languages>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="1" />
 =======
     <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="4" />
+=======
+    <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="5" />
+>>>>>>> 4e2541f81a... migrated to 2019.3
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="9" />
 >>>>>>> cc021cd381... migrated to 2019.2
     <devkit ref="00000000-0000-4000-0000-1de82b3a4936(jetbrains.mps.devkit.aspect.typesystem)" />
@@ -154,9 +158,6 @@
       <concept id="1175517767210" name="jetbrains.mps.lang.typesystem.structure.ReportErrorStatement" flags="nn" index="2MkqsV">
         <child id="1175517851849" name="errorString" index="2MkJ7o" />
       </concept>
-      <concept id="1227096774658" name="jetbrains.mps.lang.typesystem.structure.MessageStatement" flags="ng" index="2OEH$v">
-        <child id="1227096802790" name="nodeToReport" index="2OEOjV" />
-      </concept>
       <concept id="1205762105978" name="jetbrains.mps.lang.typesystem.structure.WhenConcreteVariableDeclaration" flags="ng" index="2X1qdy" />
       <concept id="1205762656241" name="jetbrains.mps.lang.typesystem.structure.WhenConcreteVariableReference" flags="nn" index="2X3wrD">
         <reference id="1205762683928" name="whenConcreteVar" index="2X3Bk0" />
@@ -166,6 +167,9 @@
       </concept>
       <concept id="1195214364922" name="jetbrains.mps.lang.typesystem.structure.NonTypesystemRule" flags="ig" index="18kY7G">
         <child id="2329696648448631592" name="overridenRules" index="dp_RE" />
+      </concept>
+      <concept id="3937244445246642777" name="jetbrains.mps.lang.typesystem.structure.AbstractReportStatement" flags="ng" index="1urrMJ">
+        <child id="3937244445246642781" name="nodeToReport" index="1urrMF" />
       </concept>
       <concept id="1176544042499" name="jetbrains.mps.lang.typesystem.structure.Node_TypeOperation" flags="nn" index="3JvlWi" />
       <concept id="1174642788531" name="jetbrains.mps.lang.typesystem.structure.ConceptReference" flags="ig" index="1YaCAy">
@@ -1457,7 +1461,7 @@
                         </node>
                       </node>
                     </node>
-                    <node concept="2GrUjf" id="3p40HKhESRR" role="2OEOjV">
+                    <node concept="2GrUjf" id="3p40HKhESRR" role="1urrMF">
                       <ref role="2Gs0qQ" node="3p40HKhBBbJ" resolve="elem" />
                     </node>
                   </node>
@@ -1559,7 +1563,7 @@
                       </node>
                     </node>
                   </node>
-                  <node concept="2GrUjf" id="3p40HKhBOtk" role="2OEOjV">
+                  <node concept="2GrUjf" id="3p40HKhBOtk" role="1urrMF">
                     <ref role="2Gs0qQ" node="3p40HKhBBbJ" resolve="elem" />
                   </node>
                 </node>
@@ -1771,7 +1775,7 @@
                     </node>
                   </node>
                 </node>
-                <node concept="1YBJjd" id="3p40HKhCwSS" role="2OEOjV">
+                <node concept="1YBJjd" id="3p40HKhCwSS" role="1urrMF">
                   <ref role="1YBMHb" node="3p40HKhBylm" resolve="aaie" />
                 </node>
               </node>
@@ -1952,7 +1956,7 @@
                 <node concept="Xl_RD" id="2w1tz7c4NYf" role="2MkJ7o">
                   <property role="Xl_RC" value="can't use 'this' in static context" />
                 </node>
-                <node concept="1YBJjd" id="2w1tz7c4NOQ" role="2OEOjV">
+                <node concept="1YBJjd" id="2w1tz7c4NOQ" role="1urrMF">
                   <ref role="1YBMHb" node="2w1tz7c4I72" resolve="thisPtr" />
                 </node>
               </node>
