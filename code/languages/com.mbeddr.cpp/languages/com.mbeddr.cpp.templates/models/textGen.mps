@@ -3,6 +3,7 @@
   <persistence version="9" />
   <languages>
     <use id="b83431fe-5c8f-40bc-8a36-65e25f4dd253" name="jetbrains.mps.lang.textGen" version="1" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="9" />
     <devkit ref="fa73d85a-ac7f-447b-846c-fcdc41caa600(jetbrains.mps.devkit.aspect.textgen)" />
   </languages>
   <imports>
@@ -73,11 +74,8 @@
         <child id="1081773367580" name="leftExpression" index="3uHU7B" />
       </concept>
       <concept id="1073239437375" name="jetbrains.mps.baseLanguage.structure.NotEqualsExpression" flags="nn" index="3y3z36" />
-      <concept id="6329021646629104957" name="jetbrains.mps.baseLanguage.structure.TextCommentPart" flags="nn" index="3SKdUq">
-        <property id="6329021646629104958" name="text" index="3SKdUp" />
-      </concept>
       <concept id="6329021646629104954" name="jetbrains.mps.baseLanguage.structure.SingleLineComment" flags="nn" index="3SKdUt">
-        <child id="6329021646629175155" name="commentPart" index="3SKWNk" />
+        <child id="1350122676458893092" name="text" index="3ndbpf" />
       </concept>
       <concept id="1080120340718" name="jetbrains.mps.baseLanguage.structure.AndExpression" flags="nn" index="1Wc70l" />
     </language>
@@ -118,6 +116,7 @@
       </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
+      <concept id="1966870290083281362" name="jetbrains.mps.lang.smodel.structure.EnumMember_NameOperation" flags="ng" index="24Tkf9" />
       <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
       <concept id="1171999116870" name="jetbrains.mps.lang.smodel.structure.Node_IsNullOperation" flags="nn" index="3w_OXm" />
       <concept id="6407023681583036853" name="jetbrains.mps.lang.smodel.structure.NodeAttributeQualifier" flags="ng" index="3CFYIy">
@@ -142,6 +141,14 @@
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+    </language>
+    <language id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text">
+      <concept id="155656958578482948" name="jetbrains.mps.lang.text.structure.Word" flags="ng" index="3oM_SD">
+        <property id="155656958578482949" name="value" index="3oM_SC" />
+      </concept>
+      <concept id="2535923850359271782" name="jetbrains.mps.lang.text.structure.Line" flags="ng" index="1PaTwC">
+        <child id="2535923850359271783" name="elements" index="1PaTwD" />
       </concept>
     </language>
     <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
@@ -213,7 +220,7 @@
                 </node>
               </node>
               <node concept="2qgKlT" id="2_lkiVk9qIE" role="2OqNvi">
-                <ref role="37wK5l" to="qd6m:19a6$uAAq0e" resolve="mangledName" />
+                <ref role="37wK5l" to="qd6m:19a6$uAAq0e" resolve="getMangledName" />
               </node>
             </node>
           </node>
@@ -435,7 +442,7 @@
             <node concept="2OqwBi" id="3CmSUB7FmNC" role="lb14g">
               <node concept="117lpO" id="3CmSUB7FmND" role="2Oq$k0" />
               <node concept="2qgKlT" id="19a6$uAAq0C" role="2OqNvi">
-                <ref role="37wK5l" to="qd6m:19a6$uAAq0e" resolve="mangledName" />
+                <ref role="37wK5l" to="qd6m:19a6$uAAq0e" resolve="getMangledName" />
               </node>
             </node>
           </node>
@@ -604,8 +611,13 @@
         </node>
         <node concept="3clFbH" id="3UsoL$l8YDu" role="3cqZAp" />
         <node concept="3SKdUt" id="3UsoL$l8UWc" role="3cqZAp">
-          <node concept="3SKdUq" id="3UsoL$l8UWe" role="3SKWNk">
-            <property role="3SKdUp" value="Ancestor classes" />
+          <node concept="1PaTwC" id="7jWRS$D_1s3" role="3ndbpf">
+            <node concept="3oM_SD" id="7jWRS$D_1s4" role="1PaTwD">
+              <property role="3oM_SC" value="Ancestor" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_1s5" role="1PaTwD">
+              <property role="3oM_SC" value="classes" />
+            </node>
           </node>
         </node>
         <node concept="3clFbJ" id="3UsoL$lgtUy" role="3cqZAp">
@@ -709,10 +721,13 @@
       <node concept="3clFbS" id="3UsoL$lb1lP" role="2VODD2">
         <node concept="lc7rE" id="3UsoL$lb1m8" role="3cqZAp">
           <node concept="l9hG8" id="3UsoL$lb1mw" role="lcghm">
-            <node concept="2OqwBi" id="3UsoL$lb1vH" role="lb14g">
-              <node concept="117lpO" id="3UsoL$lb1nq" role="2Oq$k0" />
-              <node concept="3TrcHB" id="3UsoL$lb1Bi" role="2OqNvi">
-                <ref role="3TsBF5" to="wnzg:3UsoL$l5qkP" resolve="visibility" />
+            <node concept="2OqwBi" id="7jWRS$D_08C" role="lb14g">
+              <node concept="24Tkf9" id="7jWRS$D_08E" role="2OqNvi" />
+              <node concept="2OqwBi" id="3UsoL$lb1vH" role="2Oq$k0">
+                <node concept="117lpO" id="3UsoL$lb1nq" role="2Oq$k0" />
+                <node concept="3TrcHB" id="3UsoL$lb1Bi" role="2OqNvi">
+                  <ref role="3TsBF5" to="wnzg:7jWRS$D$ZDE" resolve="visibility" />
+                </node>
               </node>
             </node>
           </node>

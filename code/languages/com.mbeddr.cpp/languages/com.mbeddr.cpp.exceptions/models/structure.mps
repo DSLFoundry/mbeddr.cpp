@@ -4,6 +4,7 @@
   <languages>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="6" />
 =======
     <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="-1" />
@@ -11,6 +12,9 @@
 =======
     <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="7" />
 >>>>>>> 635c84c995... migrated to 2018.3
+=======
+    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="9" />
+>>>>>>> cc021cd381... migrated to 2019.2
     <devkit ref="78434eb8-b0e5-444b-850d-e7c4ad2da9ab(jetbrains.mps.devkit.aspect.structure)" />
   </languages>
   <imports>
@@ -60,7 +64,7 @@
     <ref role="1TJDcQ" to="c4fa:3CmSUB7FmO3" resolve="Statement" />
     <node concept="1TJgyj" id="4WhfN3ocFjQ" role="1TKVEi">
       <property role="IQ2ns" value="5697404482618569974" />
-      <property role="20lmBu" value="aggregation" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="value" />
       <ref role="20lvS9" to="mj1l:7FQByU3CrCM" resolve="Expression" />
     </node>
@@ -75,9 +79,9 @@
     <ref role="1TJDcQ" to="c4fa:3CmSUB7FmO3" resolve="Statement" />
     <node concept="1TJgyj" id="4WhfN3oe7VN" role="1TKVEi">
       <property role="IQ2ns" value="5697404482618949363" />
-      <property role="20lmBu" value="aggregation" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="body" />
-      <property role="20lbJX" value="1" />
+      <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" to="c4fa:3CmSUB7Fp_l" resolve="StatementList" />
       <node concept="t5JxF" id="7POJCjgfTD5" role="lGtFl">
         <property role="t5JxN" value="The body of the try{} section" />
@@ -85,9 +89,9 @@
     </node>
     <node concept="1TJgyj" id="4WhfN3oe7VQ" role="1TKVEi">
       <property role="IQ2ns" value="5697404482618949366" />
-      <property role="20lmBu" value="aggregation" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="catches" />
-      <property role="20lbJX" value="1..n" />
+      <property role="20lbJX" value="fLJekj6/_1__n" />
       <ref role="20lvS9" node="4WhfN3oe7VM" resolve="CatchBlock" />
       <node concept="t5JxF" id="7POJCjgfTCU" role="lGtFl">
         <property role="t5JxN" value="The catch(){} blocks" />
@@ -101,9 +105,9 @@
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="4WhfN3oe7XA" role="1TKVEi">
       <property role="IQ2ns" value="5697404482618949478" />
-      <property role="20lmBu" value="aggregation" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="catch" />
-      <property role="20lbJX" value="1" />
+      <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="4WhfN3oe7Xr" resolve="ICatchable" />
       <node concept="t5JxF" id="7POJCjg$4$M" role="lGtFl">
         <property role="t5JxN" value="The expression inside of the catch" />
@@ -111,9 +115,9 @@
     </node>
     <node concept="1TJgyj" id="4WhfN3oe7XD" role="1TKVEi">
       <property role="IQ2ns" value="5697404482618949481" />
-      <property role="20lmBu" value="aggregation" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="body" />
-      <property role="20lbJX" value="1" />
+      <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" to="c4fa:3CmSUB7Fp_l" resolve="StatementList" />
       <node concept="t5JxF" id="7POJCjg$4$P" role="lGtFl">
         <property role="t5JxN" value="The executable part of the catch" />

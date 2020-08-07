@@ -3,10 +3,14 @@
   <persistence version="9" />
   <languages>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="6" />
 =======
     <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="7" />
 >>>>>>> 635c84c995... migrated to 2018.3
+=======
+    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="9" />
+>>>>>>> cc021cd381... migrated to 2019.2
     <devkit ref="78434eb8-b0e5-444b-850d-e7c4ad2da9ab(jetbrains.mps.devkit.aspect.structure)" />
   </languages>
   <imports>
@@ -33,15 +37,34 @@
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
+      <concept id="3348158742936976480" name="jetbrains.mps.lang.structure.structure.EnumerationMemberDeclaration" flags="ng" index="25R33">
+        <property id="1421157252384165432" name="memberId" index="3tVfz5" />
+        <reference id="899069222106091871" name="oldMember" index="2wpffI" />
+      </concept>
+      <concept id="3348158742936976479" name="jetbrains.mps.lang.structure.structure.EnumerationDeclaration" flags="ng" index="25R3W">
+        <reference id="1075010451642646892" name="defaultMember" index="1H5jkz" />
+        <child id="3348158742936976577" name="members" index="25R1y" />
+      </concept>
+      <concept id="6491077959632463275" name="jetbrains.mps.lang.structure.structure.EnumPropertyMigrationInfo" flags="ng" index="3l_iC">
+        <child id="6491077959632463286" name="oldProperty" index="3l_iP" />
+      </concept>
       <concept id="7862711839422615209" name="jetbrains.mps.lang.structure.structure.DocumentedNodeAnnotation" flags="ng" index="t5JxF">
         <property id="7862711839422615217" name="text" index="t5JxN" />
       </concept>
-      <concept id="1082978164219" name="jetbrains.mps.lang.structure.structure.EnumerationDataTypeDeclaration" flags="ng" index="AxPO7">
+      <concept id="1082978164218" name="jetbrains.mps.lang.structure.structure.DataTypeDeclaration" flags="ng" index="AxPO6">
+        <property id="7791109065626895363" name="datatypeId" index="3F6X1D" />
+      </concept>
+      <concept id="1082978164219" name="jetbrains.mps.lang.structure.structure.EnumerationDataTypeDeclaration_Old" flags="ng" index="AxPO7">
         <property id="1212080844762" name="hasNoDefaultMember" index="PDuV0" />
         <reference id="1083171729157" name="memberDataType" index="M4eZT" />
         <child id="1083172003582" name="member" index="M5hS2" />
       </concept>
-      <concept id="1083171877298" name="jetbrains.mps.lang.structure.structure.EnumerationMemberDeclaration" flags="ig" index="M4N5e">
+      <concept id="1588368162884797030" name="jetbrains.mps.lang.structure.structure.EnumMigrationInfo" flags="ng" index="2JgGob">
+        <property id="6491077959634662372" name="valueOpMigration" index="3scbB" />
+        <property id="6491077959634650670" name="nameOpMigration" index="3sfsH" />
+        <child id="6491077959632451996" name="oldEnum" index="3lCyv" />
+      </concept>
+      <concept id="1083171877298" name="jetbrains.mps.lang.structure.structure.EnumerationMemberDeclaration_Old" flags="ig" index="M4N5e">
         <property id="1083923523172" name="externalValue" index="1uS6qo" />
         <property id="1083923523171" name="internalValue" index="1uS6qv" />
       </concept>
@@ -98,16 +121,16 @@
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="4o2nsMgBClg" role="1TKVEi">
       <property role="IQ2ns" value="5044697665789396304" />
-      <property role="20lmBu" value="aggregation" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="members" />
-      <property role="20lbJX" value="0..n" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="4o2nsMgBIr5" resolve="IClassMemberDeclaration" />
     </node>
     <node concept="1TJgyj" id="3UsoL$l5qj8" role="1TKVEi">
       <property role="IQ2ns" value="4511589886097466568" />
-      <property role="20lmBu" value="aggregation" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="ancestors" />
-      <property role="20lbJX" value="0..n" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="3UsoL$l5qkL" resolve="InheritanceInstance" />
     </node>
     <node concept="PrWs8" id="1rolTivmV0V" role="PzmwI">
@@ -205,9 +228,8 @@
       <ref role="PrY4T" node="5eDFAXBRQhJ" resolve="IConstExprFlag" />
     </node>
     <node concept="1TJgyj" id="3CmSUB7Fp_k" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="body" />
-      <property role="20lbJX" value="0..1" />
       <property role="IQ2ns" value="4185783222026475860" />
       <ref role="20lvS9" to="c4fa:3CmSUB7Fp_l" resolve="StatementList" />
 >>>>>>> be102f3fab... Make naming of flag concepts consistent and shorter
@@ -220,9 +242,8 @@
     <ref role="1TJDcQ" to="x27k:59zzgFRcVlI" resolve="TypeWithDeclaration" />
     <node concept="1TJgyj" id="4o2nsMgBEtY" role="1TKVEi">
       <property role="IQ2ns" value="5044697665789405054" />
-      <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="class" />
-      <property role="20lbJX" value="1" />
+      <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="4o2nsMgBpPQ" resolve="ClassDeclaration" />
     </node>
     <node concept="PrWs8" id="6nKEiAiyM9j" role="PzmwI">
@@ -239,6 +260,7 @@
     <node concept="PrWs8" id="5eDFAXBm97W" role="PrDN$">
       <ref role="PrY4T" node="1Yr26itwx8u" resolve="IStaticFlag" />
     </node>
+<<<<<<< HEAD
 >>>>>>> be102f3fab... Make naming of flag concepts consistent and shorter
     <node concept="1TJgyi" id="2Ai0Gt9ODIG" role="1TKVEl">
       <property role="IQ2nx" value="2995459757115087788" />
@@ -255,6 +277,19 @@
 >>>>>>> 1494c628ee... Major refactoring of flags
 =======
 >>>>>>> 180d6b24f4... Unify structure naming, fix dependency issue and remove unused dependencies
+=======
+    <node concept="1TJgyi" id="7jWRS$D$ZDC" role="1TKVEl">
+      <property role="TrG5h" value="visibility" />
+      <property role="IQ2nx" value="2995459757115087788" />
+      <ref role="AX2Wp" node="7jWRS$D$ZCT" resolve="EClassMemberVisibility" />
+      <node concept="3l_iC" id="7jWRS$D$ZDD" role="lGtFl">
+        <node concept="1TJgyi" id="2Ai0Gt9ODIG" role="3l_iP">
+          <property role="IQ2nx" value="2995459757115087788" />
+          <property role="TrG5h" value="visibility" />
+          <ref role="AX2Wp" node="2Ai0Gt9ODIr" resolve="EClassMemberVisibility" />
+        </node>
+      </node>
+>>>>>>> cc021cd381... migrated to 2019.2
     </node>
     <node concept="t5JxF" id="c7Kd0eKO3b" role="lGtFl">
       <property role="t5JxN" value="Interface that joins all top-level members classes can contain" />
@@ -267,10 +302,13 @@
     <property role="R4oN_" value="public &lt;type&gt; &lt;name&gt; = &lt;init&gt;" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="3CmSUB7Fw7R" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="init" />
       <property role="IQ2ns" value="4185783222026502647" />
+<<<<<<< HEAD
       <property role="20lbJX" value="1" />
+=======
+>>>>>>> cc021cd381... migrated to 2019.2
       <ref role="20lvS9" to="mj1l:7FQByU3CrCM" resolve="Expression" />
     </node>
     <node concept="PrWs8" id="4o2nsMgBJ6a" role="PzmwI">
@@ -319,24 +357,6 @@
     </node>
     <node concept="PrWs8" id="4o2nsMgBJF9" role="PrDN$">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
-    </node>
-  </node>
-  <node concept="AxPO7" id="2Ai0Gt9ODIr">
-    <property role="TrG5h" value="EClassMemberVisibility" />
-    <property role="PDuV0" value="false" />
-    <property role="3GE5qa" value="class" />
-    <ref role="M4eZT" to="tpck:fKAOsGN" resolve="string" />
-    <node concept="M4N5e" id="2Ai0Gt9ODIt" role="M5hS2">
-      <property role="1uS6qo" value="private" />
-      <property role="1uS6qv" value="private" />
-    </node>
-    <node concept="M4N5e" id="2Ai0Gt9ODIw" role="M5hS2">
-      <property role="1uS6qo" value="protected" />
-      <property role="1uS6qv" value="protected" />
-    </node>
-    <node concept="M4N5e" id="2Ai0Gt9ODIs" role="M5hS2">
-      <property role="1uS6qo" value="public" />
-      <property role="1uS6qv" value="public" />
     </node>
   </node>
   <node concept="1TIwiD" id="2Ai0Gt9WczV">
@@ -436,17 +456,22 @@
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="3UsoL$l5qkM" role="1TKVEi">
       <property role="IQ2ns" value="4511589886097466674" />
+<<<<<<< HEAD
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="parent_class" />
       <property role="20lbJX" value="1" />
+=======
+      <property role="20kJfa" value="parentClass" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+>>>>>>> cc021cd381... migrated to 2019.2
       <ref role="20lvS9" node="4o2nsMgBpPQ" resolve="ClassDeclaration" />
       <node concept="t5JxF" id="c7Kd0eKQPr" role="lGtFl">
         <property role="t5JxN" value="The class that this instance is representing inheritance from" />
       </node>
     </node>
-    <node concept="1TJgyi" id="3UsoL$l5qkP" role="1TKVEl">
-      <property role="IQ2nx" value="4511589886097466677" />
+    <node concept="1TJgyi" id="7jWRS$D$ZDE" role="1TKVEl">
       <property role="TrG5h" value="visibility" />
+<<<<<<< HEAD
       <ref role="AX2Wp" node="2Ai0Gt9ODIr" resolve="EClassMemberVisibility" />
 =======
   <node concept="PlHQZ" id="2L1k$oXxncW">
@@ -494,6 +519,17 @@
       <property role="IQ2nx" value="4227093647205103695" />
       <property role="TrG5h" value="expression" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+=======
+      <property role="IQ2nx" value="4511589886097466677" />
+      <ref role="AX2Wp" node="7jWRS$D$ZCT" resolve="EClassMemberVisibility" />
+      <node concept="3l_iC" id="7jWRS$D$ZDF" role="lGtFl">
+        <node concept="1TJgyi" id="3UsoL$l5qkP" role="3l_iP">
+          <property role="IQ2nx" value="4511589886097466677" />
+          <property role="TrG5h" value="visibility" />
+          <ref role="AX2Wp" node="2Ai0Gt9ODIr" resolve="EClassMemberVisibility" />
+        </node>
+      </node>
+>>>>>>> cc021cd381... migrated to 2019.2
     </node>
   </node>
 >>>>>>> 8ebf22174f... Refactor and sort com.mbeddr.cpp
@@ -511,9 +547,9 @@
     <ref role="1TJDcQ" to="c4fa:3CmSUB7FmO3" resolve="Statement" />
     <node concept="1TJgyj" id="72UYQRW0DPK" role="1TKVEi">
       <property role="IQ2ns" value="8123081327714147696" />
-      <property role="20lmBu" value="aggregation" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="varRef" />
-      <property role="20lbJX" value="1" />
+      <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" to="c4fa:1OcdQnyStpU" resolve="LocalVarRef" />
     </node>
     <node concept="1TJgyi" id="72UYQRWwqOq" role="1TKVEl">
@@ -585,6 +621,7 @@
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="6oRbCP62xkT" role="1TKVEi">
       <property role="IQ2ns" value="7365406899888067897" />
+<<<<<<< HEAD
       <property role="20lmBu" value="reference" />
 <<<<<<< HEAD
       <property role="20kJfa" value="class" />
@@ -592,6 +629,10 @@
       <property role="20kJfa" value="parentClass" />
 >>>>>>> a12a984071... Fix style issues
       <property role="20lbJX" value="1" />
+=======
+      <property role="20kJfa" value="class" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+>>>>>>> cc021cd381... migrated to 2019.2
       <ref role="20lvS9" node="4o2nsMgBpPQ" resolve="ClassDeclaration" />
 >>>>>>> 65ef5d08b6... Fix name of ClassTypeAccessor
     </node>
@@ -606,7 +647,6 @@
     <ref role="1TJDcQ" to="c4fa:3CmSUB7FprA" resolve="LocalVariableDeclaration" />
     <node concept="1TJgyj" id="6hUtorE26va" role="1TKVEi">
       <property role="IQ2ns" value="7240228573263980490" />
-      <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="constructor" />
       <ref role="20lvS9" node="6NtgknWJ20B" resolve="ClassConstructorDeclaration" />
     </node>
@@ -618,9 +658,9 @@
     </node>
     <node concept="1TJgyj" id="6hUtorE99Pe" role="1TKVEi">
       <property role="IQ2ns" value="7240228573265829198" />
-      <property role="20lmBu" value="aggregation" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="constructorArgActuals" />
-      <property role="20lbJX" value="0..n" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" to="mj1l:7FQByU3CrCM" resolve="Expression" />
     </node>
     <node concept="t5JxF" id="c7Kd0eKW7o" role="lGtFl">
@@ -723,9 +763,8 @@
     </node>
     <node concept="1TJgyj" id="6NtgknWJ214" role="1TKVEi">
       <property role="IQ2ns" value="7844497894798008388" />
-      <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="parentClass" />
-      <property role="20lbJX" value="1" />
+      <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="4o2nsMgBpPQ" resolve="ClassDeclaration" />
       <node concept="t5JxF" id="c7Kd0fkpIE" role="lGtFl">
         <property role="t5JxN" value="This is used for naming and maintaining the correct name if the class name changes" />
@@ -824,10 +863,14 @@
     </node>
     <node concept="1TJgyj" id="6ddXmWdC9sl" role="1TKVEi">
       <property role="IQ2ns" value="7155645240280389397" />
+<<<<<<< HEAD
       <property role="20lmBu" value="aggregation" />
 <<<<<<< HEAD
+=======
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+>>>>>>> cc021cd381... migrated to 2019.2
       <property role="20kJfa" value="body" />
-      <property role="20lbJX" value="1" />
+      <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" to="c4fa:3CmSUB7Fp_l" resolve="StatementList" />
 =======
       <property role="20kJfa" value="members" />
@@ -851,10 +894,14 @@
     </node>
     <node concept="1TJgyj" id="3n$8_Xbh2kv" role="1TKVEi">
       <property role="IQ2ns" value="3883266571380204831" />
-      <property role="20lmBu" value="aggregation" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="initializers" />
+<<<<<<< HEAD
       <property role="20lbJX" value="0..n" />
 <<<<<<< HEAD
+=======
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+>>>>>>> cc021cd381... migrated to 2019.2
       <ref role="20lvS9" node="3n$8_Xbpg8r" resolve="IAmConstructorInitializable" />
 <<<<<<< HEAD
 =======
@@ -922,6 +969,7 @@
       <ref role="PrY4T" node="3n$8_Xbpg8r" resolve="IAmConstructorInitializable" />
 >>>>>>> 7743891de9... Move constructor outside method virtual package
     </node>
+<<<<<<< HEAD
     <node concept="PrWs8" id="1$h5d7wl4VS" role="PzmwI">
       <ref role="PrY4T" node="383ZxwZsgd5" resolve="INamedNamespaceMemberDeclaration" />
     </node>
@@ -948,6 +996,19 @@
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="attribute" />
       <property role="20lbJX" value="1" />
+=======
+    <node concept="1TJgyj" id="7DDmkz0vm1" role="1TKVEi">
+      <property role="IQ2ns" value="137823117409121665" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="init" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="mj1l:7FQByU3CrCM" resolve="Expression" />
+    </node>
+    <node concept="1TJgyj" id="7DDmkz1Ipj" role="1TKVEi">
+      <property role="IQ2ns" value="137823117409445459" />
+      <property role="20kJfa" value="identity" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+>>>>>>> cc021cd381... migrated to 2019.2
       <ref role="20lvS9" node="4o2nsMgBIrb" resolve="AttributeDeclaration" />
     </node>
     <node concept="t5JxF" id="5xziqK_904B" role="lGtFl">
@@ -1102,16 +1163,15 @@
     </node>
     <node concept="1TJgyj" id="7DDmkza$5N" role="1TKVEi">
       <property role="IQ2ns" value="137823117411762547" />
-      <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="identity" />
-      <property role="20lbJX" value="1" />
+      <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="6NtgknWJ20B" resolve="ClassConstructorDeclaration" />
     </node>
     <node concept="1TJgyj" id="7DDmkza$7B" role="1TKVEi">
       <property role="IQ2ns" value="137823117411762663" />
-      <property role="20lmBu" value="aggregation" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="actual_arguments" />
-      <property role="20lbJX" value="0..n" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" to="mj1l:7FQByU3CrCM" resolve="Expression" />
     </node>
 <<<<<<< HEAD
@@ -1404,15 +1464,15 @@
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="6gFj6gpBJF$" role="1TKVEi">
       <property role="IQ2ns" value="7217946820601641700" />
-      <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="namespace" />
-      <property role="20lbJX" value="1" />
+      <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="383ZxwZqQYo" resolve="NamespaceDeclaration" />
     </node>
     <node concept="PrWs8" id="6gFj6gpBJFh" role="PzmwI">
 >>>>>>> e244fa05a3... Add method and attribute test cases
       <ref role="PrY4T" to="x27k:5_l8w1EmTdf" resolve="IModuleContent" />
     </node>
+<<<<<<< HEAD
     <node concept="PrWs8" id="2O2YBLCktFw" role="PzmwI">
       <ref role="PrY4T" node="4o2nsMgBJ5Y" resolve="INamedClassMemberDeclaration" />
     </node>
@@ -1464,6 +1524,27 @@
       <property role="20kJfa" value="initialize" />
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" to="mj1l:7FQByU3CrCM" resolve="Expression" />
+=======
+  </node>
+  <node concept="1TIwiD" id="1rolTiuOPQt">
+    <property role="EcuMT" value="1646161959635344797" />
+    <property role="3GE5qa" value="namespace" />
+    <property role="TrG5h" value="UsingNamespaceMethodDeclaration" />
+    <property role="34LRSv" value="using" />
+    <property role="R4oN_" value="Using a namespace method" />
+    <ref role="1TJDcQ" to="mj1l:7FQByU3CrCM" resolve="Expression" />
+    <node concept="1TJgyj" id="1rolTiuRvvJ" role="1TKVEi">
+      <property role="IQ2ns" value="1646161959636039663" />
+      <property role="20kJfa" value="namespace" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="383ZxwZqQYo" resolve="NamespaceDeclaration" />
+    </node>
+    <node concept="1TJgyj" id="1rolTiuOPRl" role="1TKVEi">
+      <property role="IQ2ns" value="1646161959635344853" />
+      <property role="20kJfa" value="method" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="4o2nsMgB$VW" resolve="MethodDeclaration" />
+>>>>>>> cc021cd381... migrated to 2019.2
     </node>
   </node>
 =======
@@ -1611,6 +1692,7 @@
     <property role="R4oN_" value="New namespace" />
     <property role="3GE5qa" value="Namespace" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+<<<<<<< HEAD
     <node concept="PrWs8" id="383ZxwZrBkm" role="PzmwI">
       <ref role="PrY4T" to="x27k:5_l8w1EmTdf" resolve="IModuleContent" />
     </node>
@@ -1638,15 +1720,24 @@
     <node concept="1TJgyj" id="383ZxwZrBkq" role="1TKVEi">
       <property role="IQ2ns" value="3604003506923402522" />
       <property role="20lmBu" value="reference" />
+=======
+    <node concept="1TJgyj" id="7RFM8R0xwrf" role="1TKVEi">
+      <property role="IQ2ns" value="9073566385413949135" />
+>>>>>>> cc021cd381... migrated to 2019.2
       <property role="20kJfa" value="namespace" />
-      <property role="20lbJX" value="1" />
+      <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="383ZxwZqQYo" resolve="NamespaceDeclaration" />
     </node>
+<<<<<<< HEAD
     <node concept="1TJgyj" id="383ZxwZrBkt" role="1TKVEi">
       <property role="IQ2ns" value="3604003506923402525" />
       <property role="20lmBu" value="reference" />
+=======
+    <node concept="1TJgyj" id="7RFM8R0xwrs" role="1TKVEi">
+      <property role="IQ2ns" value="9073566385413949148" />
+>>>>>>> cc021cd381... migrated to 2019.2
       <property role="20kJfa" value="attribute" />
-      <property role="20lbJX" value="1" />
+      <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="4o2nsMgBIrb" resolve="AttributeDeclaration" />
     </node>
     <node concept="PrWs8" id="1rolTiuGebY" role="PzmwI">
@@ -1717,6 +1808,7 @@
     <property role="34LRSv" value="using" />
     <property role="R4oN_" value="Using a namespace method" />
     <ref role="1TJDcQ" to="mj1l:7FQByU3CrCM" resolve="Expression" />
+<<<<<<< HEAD
     <node concept="1TJgyj" id="1rolTiuRvvJ" role="1TKVEi">
       <property role="IQ2ns" value="1646161959636039663" />
       <property role="20lmBu" value="reference" />
@@ -1738,6 +1830,19 @@
 >>>>>>> 180d6b24f4... Unify structure naming, fix dependency issue and remove unused dependencies
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="4o2nsMgB$VW" resolve="MethodDeclaration" />
+=======
+    <node concept="1TJgyj" id="7fNEwq_6ZJT" role="1TKVEi">
+      <property role="IQ2ns" value="8355208679219002361" />
+      <property role="20kJfa" value="classInstance" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="7RFM8R3Me1y" resolve="NamespaceClassInstance" />
+    </node>
+    <node concept="1TJgyj" id="7fNEwq_6ZLT" role="1TKVEi">
+      <property role="IQ2ns" value="8355208679219002489" />
+      <property role="20kJfa" value="classAttribute" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="4o2nsMgBIrb" resolve="AttributeDeclaration" />
+>>>>>>> cc021cd381... migrated to 2019.2
     </node>
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1774,19 +1879,19 @@
 =======
     <node concept="1TJgyj" id="7fNEwqBxBea" role="1TKVEi">
       <property role="IQ2ns" value="8355208679259534218" />
-      <property role="20lmBu" value="aggregation" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="actuals" />
-      <property role="20lbJX" value="0..n" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" to="mj1l:7FQByU3CrCM" resolve="Expression" />
     </node>
     <node concept="1TJgyj" id="7fNEwqBx$6T" role="1TKVEi">
       <property role="IQ2ns" value="8355208679259521465" />
-      <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="classInstance" />
-      <property role="20lbJX" value="1" />
+      <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="7RFM8R3Me1y" resolve="NamespaceClassInstance" />
 >>>>>>> 180d6b24f4... Unify structure naming, fix dependency issue and remove unused dependencies
     </node>
+<<<<<<< HEAD
     <node concept="1TJgyj" id="1$h5d7v1dEf" role="1TKVEi">
       <property role="IQ2ns" value="1806247817174637199" />
       <property role="20lmBu" value="reference" />
@@ -1799,6 +1904,12 @@
 <<<<<<< HEAD
       <ref role="20lvS9" node="383ZxwZqQYo" resolve="NamespaceDeclaration" />
 =======
+=======
+    <node concept="1TJgyj" id="7fNEwqBx$6W" role="1TKVEi">
+      <property role="IQ2ns" value="8355208679259521468" />
+      <property role="20kJfa" value="classMethod" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+>>>>>>> cc021cd381... migrated to 2019.2
       <ref role="20lvS9" node="4o2nsMgB$VW" resolve="MethodDeclaration" />
     </node>
     <node concept="PrWs8" id="7fNEwqBxBek" role="PzmwI">
@@ -1825,12 +1936,20 @@
       <ref role="PrY4T" to="x27k:5_l8w1EmTdf" resolve="IModuleContent" />
 >>>>>>> 927d6c1d7b... Adjusted namespace class calling. Added final demo module.
     </node>
+<<<<<<< HEAD
     <node concept="1TJgyj" id="1$h5d7v1dEp" role="1TKVEi">
       <property role="IQ2ns" value="1806247817174637209" />
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="attribute" />
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="4o2nsMgBIrb" resolve="AttributeDeclaration" />
+=======
+    <node concept="1TJgyj" id="7RFM8R3Me2a" role="1TKVEi">
+      <property role="IQ2ns" value="9073566385468661898" />
+      <property role="20kJfa" value="class" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="4o2nsMgBpPQ" resolve="ClassDeclaration" />
+>>>>>>> cc021cd381... migrated to 2019.2
     </node>
   </node>
   <node concept="1TIwiD" id="1$h5d7wdNkU">
@@ -1842,9 +1961,8 @@
     <ref role="1TJDcQ" to="mj1l:7FQByU3CrCM" resolve="Expression" />
     <node concept="1TJgyj" id="1$h5d7wk3lQ" role="1TKVEi">
       <property role="IQ2ns" value="1806247817196352886" />
-      <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="namespace" />
-      <property role="20lbJX" value="1" />
+      <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="383ZxwZqQYo" resolve="NamespaceDeclaration" />
     </node>
     <node concept="PrWs8" id="1$h5d7wl4VS" role="PzmwI">
@@ -1876,15 +1994,26 @@
     <property role="TrG5h" value="UsingNamespaceAttributeDeclaration" />
 >>>>>>> be102f3fab... Make naming of flag concepts consistent and shorter
     <property role="34LRSv" value="using" />
+<<<<<<< HEAD
     <property role="R4oN_" value="Using namespace &lt;...&gt;" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="6gFj6gpBJF$" role="1TKVEi">
       <property role="IQ2ns" value="7217946820601641700" />
       <property role="20lmBu" value="reference" />
+=======
+    <property role="R4oN_" value="Using a namespace attribute" />
+    <ref role="1TJDcQ" to="mj1l:7FQByU3CrCM" resolve="Expression" />
+    <node concept="PrWs8" id="1$h5d7v1dEc" role="PzmwI">
+      <ref role="PrY4T" node="383ZxwZsgd5" resolve="INamedNamespaceMemberDeclaration" />
+    </node>
+    <node concept="1TJgyj" id="1$h5d7v1dEf" role="1TKVEi">
+      <property role="IQ2ns" value="1806247817174637199" />
+>>>>>>> cc021cd381... migrated to 2019.2
       <property role="20kJfa" value="namespace" />
-      <property role="20lbJX" value="1" />
+      <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="383ZxwZqQYo" resolve="NamespaceDeclaration" />
     </node>
+<<<<<<< HEAD
     <node concept="PrWs8" id="6gFj6gpBJFh" role="PzmwI">
       <ref role="PrY4T" to="x27k:5_l8w1EmTdf" resolve="IModuleContent" />
     </node>
@@ -1902,10 +2031,42 @@
     <node concept="1TJgyj" id="7RFM8R0xwrf" role="1TKVEi">
       <property role="IQ2ns" value="9073566385413949135" />
       <property role="20lmBu" value="reference" />
+=======
+    <node concept="1TJgyj" id="1$h5d7v1dEp" role="1TKVEi">
+      <property role="IQ2ns" value="1806247817174637209" />
+      <property role="20kJfa" value="attribute" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="4o2nsMgBIrb" resolve="AttributeDeclaration" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="383ZxwZrBky">
+    <property role="EcuMT" value="3604003506923402530" />
+    <property role="3GE5qa" value="namespace" />
+    <property role="TrG5h" value="NamespaceMethodCall" />
+    <property role="34LRSv" value="::" />
+    <property role="R4oN_" value="Call a namespace method" />
+    <ref role="1TJDcQ" to="mj1l:7FQByU3CrCM" resolve="Expression" />
+    <node concept="PrWs8" id="383ZxwZrBkz" role="PzmwI">
+      <ref role="PrY4T" to="x27k:6WGVxckB05U" resolve="ICallLike" />
+    </node>
+    <node concept="PrWs8" id="1rolTiuGgp_" role="PzmwI">
+      <ref role="PrY4T" node="4o2nsMgBJ5Y" resolve="INamedClassMemberDeclaration" />
+    </node>
+    <node concept="1TJgyj" id="383ZxwZrBkA" role="1TKVEi">
+      <property role="IQ2ns" value="3604003506923402534" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="actuals" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" to="mj1l:7FQByU3CrCM" resolve="Expression" />
+    </node>
+    <node concept="1TJgyj" id="383ZxwZrBkD" role="1TKVEi">
+      <property role="IQ2ns" value="3604003506923402537" />
+>>>>>>> cc021cd381... migrated to 2019.2
       <property role="20kJfa" value="namespace" />
-      <property role="20lbJX" value="1" />
+      <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="383ZxwZqQYo" resolve="NamespaceDeclaration" />
     </node>
+<<<<<<< HEAD
     <node concept="1TJgyj" id="7RFM8R0xwrs" role="1TKVEi">
       <property role="IQ2ns" value="9073566385413949148" />
       <property role="20lmBu" value="reference" />
@@ -1915,6 +2076,13 @@
     </node>
     <node concept="PrWs8" id="7RFM8R0xwrg" role="PzmwI">
       <ref role="PrY4T" to="x27k:5_l8w1EmTdf" resolve="IModuleContent" />
+=======
+    <node concept="1TJgyj" id="383ZxwZrBkI" role="1TKVEi">
+      <property role="IQ2ns" value="3604003506923402542" />
+      <property role="20kJfa" value="method" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="4o2nsMgB$VW" resolve="MethodDeclaration" />
+>>>>>>> cc021cd381... migrated to 2019.2
     </node>
   </node>
   <node concept="1TIwiD" id="7RFM8R0Rm5q">
@@ -1926,16 +2094,14 @@
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="7RFM8R0Rm5r" role="1TKVEi">
       <property role="IQ2ns" value="9073566385419673947" />
-      <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="namespace" />
-      <property role="20lbJX" value="1" />
+      <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="383ZxwZqQYo" resolve="NamespaceDeclaration" />
     </node>
     <node concept="1TJgyj" id="7RFM8R0Rm5s" role="1TKVEi">
       <property role="IQ2ns" value="9073566385419673948" />
-      <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="method" />
-      <property role="20lbJX" value="1" />
+      <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="4o2nsMgB$VW" resolve="MethodDeclaration" />
     </node>
     <node concept="PrWs8" id="7RFM8R0Rm5t" role="PzmwI">
@@ -1989,12 +2155,27 @@
 >>>>>>> e244fa05a3... Add method and attribute test cases
       <ref role="PrY4T" to="x27k:5_l8w1EmTdf" resolve="IModuleContent" />
     </node>
+<<<<<<< HEAD
     <node concept="1TJgyj" id="7RFM8R3Me2a" role="1TKVEi">
       <property role="IQ2ns" value="9073566385468661898" />
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="class" />
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="4o2nsMgBpPQ" resolve="ClassDeclaration" />
+=======
+    <node concept="PrWs8" id="383ZxwZsgdB" role="PzmwI">
+      <ref role="PrY4T" node="383ZxwZsgd5" resolve="INamedNamespaceMemberDeclaration" />
+    </node>
+    <node concept="PrWs8" id="1Grcmddq$9_" role="PzmwI">
+      <ref role="PrY4T" to="mj1l:6mfXVgRsmwb" resolve="IVoidTypeContainer" />
+    </node>
+    <node concept="1TJgyj" id="383ZxwZsUja" role="1TKVEi">
+      <property role="IQ2ns" value="3604003506923742410" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="members" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="383ZxwZsgd4" resolve="INamespaceMemberDeclaration" />
+>>>>>>> cc021cd381... migrated to 2019.2
     </node>
   </node>
   <node concept="1TIwiD" id="7fNEwq_6ZJn">
@@ -2004,6 +2185,7 @@
     <property role="R4oN_" value="Refer to namespace class attribute" />
     <property role="34LRSv" value="." />
     <ref role="1TJDcQ" to="mj1l:7FQByU3CrCM" resolve="Expression" />
+<<<<<<< HEAD
     <node concept="1TJgyj" id="7fNEwq_6ZJT" role="1TKVEi">
       <property role="IQ2ns" value="8355208679219002361" />
       <property role="20lmBu" value="reference" />
@@ -2016,6 +2198,18 @@
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="class_attribute" />
       <property role="20lbJX" value="1" />
+=======
+    <node concept="1TJgyj" id="383ZxwZrBkq" role="1TKVEi">
+      <property role="IQ2ns" value="3604003506923402522" />
+      <property role="20kJfa" value="namespace" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="383ZxwZqQYo" resolve="NamespaceDeclaration" />
+    </node>
+    <node concept="1TJgyj" id="383ZxwZrBkt" role="1TKVEi">
+      <property role="IQ2ns" value="3604003506923402525" />
+      <property role="20kJfa" value="attribute" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+>>>>>>> cc021cd381... migrated to 2019.2
       <ref role="20lvS9" node="4o2nsMgBIrb" resolve="AttributeDeclaration" />
     </node>
   </node>
@@ -2146,9 +2340,8 @@
     <property role="R4oN_" value="Reference a static variable from a class" />
     <node concept="1TJgyj" id="6OyCGy9cOMS" role="1TKVEi">
       <property role="IQ2ns" value="7864026881521306808" />
-      <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="attribute" />
-      <property role="20lbJX" value="1" />
+      <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="4o2nsMgBIrb" resolve="AttributeDeclaration" />
     </node>
     <node concept="t5JxF" id="7POJCjeKIEh" role="lGtFl">
@@ -2204,9 +2397,9 @@
     </node>
     <node concept="1TJgyj" id="6WSa0so1IOP" role="1TKVEi">
       <property role="IQ2ns" value="8014199547838786869" />
-      <property role="20lmBu" value="aggregation" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="typeOrConstructor" />
-      <property role="20lbJX" value="1" />
+      <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" to="mj1l:7FQByU3CrCQ" resolve="Type" />
       <node concept="t5JxF" id="7POJCjf3lXe" role="lGtFl">
         <property role="t5JxN" value="Represents either a normal type or a class type with its constructor (= new ClassType(arg1, arg2))" />
@@ -2225,9 +2418,9 @@
     <ref role="1TJDcQ" to="mj1l:7FQByU3CrCQ" resolve="Type" />
     <node concept="1TJgyj" id="4KCRVMvtPxG" role="1TKVEi">
       <property role="IQ2ns" value="5487882147173193836" />
-      <property role="20lmBu" value="aggregation" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="actuals" />
-      <property role="20lbJX" value="0..n" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" to="mj1l:7FQByU3CrCM" resolve="Expression" />
       <node concept="t5JxF" id="7POJCjf3wd4" role="lGtFl">
         <property role="t5JxN" value="The arguments in the constructor" />
@@ -2235,9 +2428,9 @@
     </node>
     <node concept="1TJgyj" id="7SgJHc8K2Wu" role="1TKVEi">
       <property role="IQ2ns" value="9083970262000480030" />
-      <property role="20lmBu" value="aggregation" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="classType" />
-      <property role="20lbJX" value="1" />
+      <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="4o2nsMgBEtu" resolve="ClassType" />
       <node concept="t5JxF" id="7POJCjf3wd7" role="lGtFl">
         <property role="t5JxN" value="The type of the class in the constructor" />
@@ -2248,9 +2441,8 @@
     </node>
     <node concept="1TJgyj" id="4KCRVMvtPxJ" role="1TKVEi">
       <property role="IQ2ns" value="5487882147173193839" />
-      <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="identity" />
-      <property role="20lbJX" value="1" />
+      <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="6NtgknWJ20B" resolve="ClassConstructorDeclaration" />
       <node concept="t5JxF" id="7POJCjf3wdd" role="lGtFl">
         <property role="t5JxN" value="The constructor this initializer is calling" />
@@ -2269,9 +2461,9 @@
     <ref role="1TJDcQ" node="4o2nsMgBEtu" resolve="ClassType" />
     <node concept="1TJgyj" id="1yn8PkxYuRi" role="1TKVEi">
       <property role="IQ2ns" value="1771923826942799314" />
-      <property role="20lmBu" value="aggregation" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="outerClassType" />
-      <property role="20lbJX" value="1" />
+      <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="4o2nsMgBEtu" resolve="ClassType" />
     </node>
     <node concept="t5JxF" id="c7Kd0eKW3_" role="lGtFl">
@@ -2483,9 +2675,9 @@
     <ref role="1TJDcQ" to="mj1l:7FQByU3CrCM" resolve="Expression" />
     <node concept="1TJgyj" id="3e4PW874nOt" role="1TKVEi">
       <property role="IQ2ns" value="3712329221202345245" />
-      <property role="20lmBu" value="aggregation" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="type" />
-      <property role="20lbJX" value="1" />
+      <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" to="mj1l:7FQByU3CrCQ" resolve="Type" />
       <node concept="t5JxF" id="3e4PW874nOu" role="lGtFl">
         <property role="t5JxN" value="The type inside of the &lt; and &gt;" />
@@ -2493,9 +2685,9 @@
     </node>
     <node concept="1TJgyj" id="3e4PW874nOc" role="1TKVEi">
       <property role="IQ2ns" value="3712329221202345228" />
-      <property role="20lmBu" value="aggregation" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="value" />
-      <property role="20lbJX" value="1" />
+      <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" to="mj1l:7FQByU3CrCM" resolve="Expression" />
       <node concept="t5JxF" id="3e4PW874nOd" role="lGtFl">
         <property role="t5JxN" value="The expression being casted inside ( and )" />
@@ -2558,16 +2750,15 @@
     <property role="R4oN_" value="Reference a static method from a class" />
     <node concept="1TJgyj" id="cx3$dyfIIg" role="1TKVEi">
       <property role="IQ2ns" value="225477138919123856" />
-      <property role="20lmBu" value="aggregation" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="actual_arguments" />
-      <property role="20lbJX" value="0..n" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" to="mj1l:7FQByU3CrCM" resolve="Expression" />
     </node>
     <node concept="1TJgyj" id="cx3$dxZGW0" role="1TKVEi">
       <property role="IQ2ns" value="225477138914922240" />
-      <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="method" />
-      <property role="20lbJX" value="1" />
+      <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="4o2nsMgB$VW" resolve="MethodDeclaration" />
     </node>
     <node concept="PrWs8" id="cx3$dyfIId" role="PzmwI">
@@ -2584,16 +2775,15 @@
     <ref role="1TJDcQ" to="mj1l:7FQByU3CrCM" resolve="Expression" />
     <node concept="1TJgyj" id="3L3ootRECAm" role="1TKVEi">
       <property role="IQ2ns" value="4342421700171434390" />
-      <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="class" />
-      <property role="20lbJX" value="1" />
+      <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="4o2nsMgBpPQ" resolve="ClassDeclaration" />
     </node>
     <node concept="1TJgyj" id="3L3ootRECAp" role="1TKVEi">
       <property role="IQ2ns" value="4342421700171434393" />
-      <property role="20lmBu" value="aggregation" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="target" />
-      <property role="20lbJX" value="1" />
+      <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="3L3ootRECAl" resolve="IClassStaticRefTarget" />
     </node>
   </node>
@@ -2616,6 +2806,53 @@
       <property role="t5JxN" value="This represents newlines in a namespace at the top level." />
     </node>
   </node>
+<<<<<<< HEAD
 >>>>>>> ae9eeb1884... Added EmptyClassContent (blank lines) but for Namespaces.
+=======
+  <node concept="25R3W" id="7jWRS$D$ZCT">
+    <property role="TrG5h" value="EClassMemberVisibility" />
+    <property role="3GE5qa" value="class" />
+    <property role="3F6X1D" value="2995459757115087771" />
+    <ref role="1H5jkz" node="7jWRS$D$ZCV" resolve="private" />
+    <node concept="2JgGob" id="7jWRS$D$ZCU" role="lGtFl">
+      <property role="3scbB" value="5CkWgdpp3eY/string_name" />
+      <property role="3sfsH" value="5CkWgdpp0p1/by_name" />
+      <node concept="AxPO7" id="2Ai0Gt9ODIr" role="3lCyv">
+        <property role="TrG5h" value="EClassMemberVisibility" />
+        <property role="PDuV0" value="false" />
+        <property role="3GE5qa" value="class" />
+        <property role="3F6X1D" value="2995459757115087771" />
+        <ref role="M4eZT" to="tpck:fKAOsGN" resolve="string" />
+        <node concept="M4N5e" id="2Ai0Gt9ODIt" role="M5hS2">
+          <property role="1uS6qo" value="private" />
+          <property role="1uS6qv" value="private" />
+        </node>
+        <node concept="M4N5e" id="2Ai0Gt9ODIw" role="M5hS2">
+          <property role="1uS6qo" value="protected" />
+          <property role="1uS6qv" value="protected" />
+        </node>
+        <node concept="M4N5e" id="2Ai0Gt9ODIs" role="M5hS2">
+          <property role="1uS6qo" value="public" />
+          <property role="1uS6qv" value="public" />
+        </node>
+      </node>
+    </node>
+    <node concept="25R33" id="7jWRS$D$ZCV" role="25R1y">
+      <property role="TrG5h" value="private" />
+      <property role="3tVfz5" value="2995459757115087773" />
+      <ref role="2wpffI" node="2Ai0Gt9ODIt" />
+    </node>
+    <node concept="25R33" id="7jWRS$D$ZCW" role="25R1y">
+      <property role="TrG5h" value="protected" />
+      <property role="3tVfz5" value="2995459757115087776" />
+      <ref role="2wpffI" node="2Ai0Gt9ODIw" />
+    </node>
+    <node concept="25R33" id="7jWRS$D$ZCX" role="25R1y">
+      <property role="TrG5h" value="public" />
+      <property role="3tVfz5" value="2995459757115087772" />
+      <ref role="2wpffI" node="2Ai0Gt9ODIs" />
+    </node>
+  </node>
+>>>>>>> cc021cd381... migrated to 2019.2
 </model>
 

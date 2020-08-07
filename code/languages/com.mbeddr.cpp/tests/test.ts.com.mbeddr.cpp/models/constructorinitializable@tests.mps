@@ -2,9 +2,9 @@
 <model ref="r:9d8e1488-242e-4bdf-9d09-a3dd2671a301(test.ts.com.mbeddr.cpp.constructorinitializable@tests)">
   <persistence version="9" />
   <languages>
-    <use id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test" version="2" />
+    <use id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test" version="5" />
     <use id="8c081446-e4ba-48b7-a7e0-3db40e2c3439" name="com.mbeddr.cpp.base" version="0" />
-    <use id="2d7fadf5-33f6-4e80-a78f-0f739add2bde" name="com.mbeddr.core.buildconfig" version="6" />
+    <use id="2d7fadf5-33f6-4e80-a78f-0f739add2bde" name="com.mbeddr.core.buildconfig" version="9" />
     <use id="dd4979e3-3be6-46b3-9e1e-c36309e30758" name="com.mbeddr.cpp.modules" version="0" />
     <use id="2693fc71-9b0e-4b05-ab13-f57227d675f2" name="com.mbeddr.core.util" version="0" />
     <use id="783af01f-87a7-412c-be99-293a162652b5" name="com.mbeddr.core.embedded" version="1" />
@@ -21,7 +21,9 @@
       <concept id="1215603922101" name="jetbrains.mps.lang.test.structure.NodeOperationsContainer" flags="ng" index="7CXmI">
         <child id="1215604436604" name="nodeOperations" index="7EUXB" />
       </concept>
-      <concept id="1215607067978" name="jetbrains.mps.lang.test.structure.CheckNodeForErrorMessagesOperation" flags="ng" index="7OXhh" />
+      <concept id="1215607067978" name="jetbrains.mps.lang.test.structure.CheckNodeForErrorMessagesOperation" flags="ng" index="7OXhh">
+        <property id="3743352646565420194" name="includeSelf" index="GvXf4" />
+      </concept>
       <concept id="7691029917083872157" name="jetbrains.mps.lang.test.structure.IRuleReference" flags="ng" index="2u4UPC">
         <reference id="8333855927540250453" name="declaration" index="39XzEq" />
       </concept>
@@ -42,7 +44,7 @@
     </language>
     <language id="2d7fadf5-33f6-4e80-a78f-0f739add2bde" name="com.mbeddr.core.buildconfig">
       <concept id="7717755763392524104" name="com.mbeddr.core.buildconfig.structure.BuildConfiguration" flags="ng" index="2v9HqL">
-        <child id="5323740605968447026" name="target" index="2AWWZH" />
+        <child id="5323740605968447026" name="platform" index="2AWWZH" />
       </concept>
       <concept id="8719112291175211294" name="com.mbeddr.core.buildconfig.structure.PlatformReference" flags="ng" index="2xfidK">
         <reference id="8719112291175211414" name="template" index="2xfifS" />
@@ -130,11 +132,11 @@
         <property role="TrG5h" value="ConstructorInitializable" />
         <node concept="3mBW2U" id="1GY6W8WOY4D" role="N3F5h">
           <property role="2OOxQR" value="false" />
-          <property role="1wg9_F" value="public" />
+          <property role="1wg9_F" value="2Ai0Gt9ODIs/public" />
           <property role="TrG5h" value="CI" />
           <node concept="2gom5y" id="1GY6W8WOY4I" role="3mBdys">
             <property role="3BMcJd" value="false" />
-            <property role="1wg9_F" value="public" />
+            <property role="1wg9_F" value="2Ai0Gt9ODIs/public" />
             <property role="TrG5h" value="cI" />
             <ref role="2gom41" node="1GY6W8WOY4D" resolve="CI" />
             <node concept="3XIRFW" id="1GY6W8WOY4J" role="1IVm9U" />
@@ -145,7 +147,7 @@
           </node>
           <node concept="2gom5y" id="1GY6W8WOY57" role="3mBdys">
             <property role="3BMcJd" value="true" />
-            <property role="1wg9_F" value="public" />
+            <property role="1wg9_F" value="2Ai0Gt9ODIs/public" />
             <property role="TrG5h" value="cI" />
             <ref role="2gom41" node="1GY6W8WOY4D" resolve="CI" />
             <node concept="3XIRFW" id="1GY6W8WOY58" role="1IVm9U" />
@@ -166,9 +168,11 @@
             </node>
           </node>
         </node>
-      </node>
-      <node concept="7CXmI" id="32KsbhSQC1g" role="lGtFl">
-        <node concept="7OXhh" id="32KsbhSQC1x" role="7EUXB" />
+        <node concept="7CXmI" id="32KsbhSQC1g" role="lGtFl">
+          <node concept="7OXhh" id="32KsbhSQC1x" role="7EUXB">
+            <property role="GvXf4" value="true" />
+          </node>
+        </node>
       </node>
     </node>
   </node>

@@ -2,7 +2,7 @@
 <model ref="r:7f7992cb-76da-4141-bcff-5aafd03c9835(test.ts.com.mbeddr.cpp.thisPointer@tests)">
   <persistence version="9" />
   <languages>
-    <use id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test" version="2" />
+    <use id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test" version="5" />
     <use id="8c081446-e4ba-48b7-a7e0-3db40e2c3439" name="com.mbeddr.cpp.base" version="0" />
     <use id="dd4979e3-3be6-46b3-9e1e-c36309e30758" name="com.mbeddr.cpp.modules" version="0" />
     <devkit ref="bdd1ab49-ce55-4bff-86d1-5394fa0aa930(com.mbeddr.cpp)" />
@@ -13,7 +13,9 @@
       <concept id="1215603922101" name="jetbrains.mps.lang.test.structure.NodeOperationsContainer" flags="ng" index="7CXmI">
         <child id="1215604436604" name="nodeOperations" index="7EUXB" />
       </concept>
-      <concept id="1215607067978" name="jetbrains.mps.lang.test.structure.CheckNodeForErrorMessagesOperation" flags="ng" index="7OXhh" />
+      <concept id="1215607067978" name="jetbrains.mps.lang.test.structure.CheckNodeForErrorMessagesOperation" flags="ng" index="7OXhh">
+        <property id="3743352646565420194" name="includeSelf" index="GvXf4" />
+      </concept>
       <concept id="428590876651279930" name="jetbrains.mps.lang.test.structure.NodeTypeSystemErrorCheckOperation" flags="ng" index="2DdRWr" />
       <concept id="5097124989038916362" name="jetbrains.mps.lang.test.structure.TestInfo" flags="ng" index="2XOHcx">
         <property id="5097124989038916363" name="projectPath" index="2XOHcw" />
@@ -117,11 +119,11 @@
         <property role="TrG5h" value="This_Keyword" />
         <node concept="3mBW2U" id="2A9472yQXfP" role="N3F5h">
           <property role="2OOxQR" value="true" />
-          <property role="1wg9_F" value="public" />
+          <property role="1wg9_F" value="2Ai0Gt9ODIs/public" />
           <property role="TrG5h" value="A" />
           <node concept="3mBW2U" id="2A9472yQZ5K" role="3mBdys">
             <property role="2OOxQR" value="true" />
-            <property role="1wg9_F" value="public" />
+            <property role="1wg9_F" value="2Ai0Gt9ODIs/public" />
             <property role="TrG5h" value="B" />
             <node concept="3mBbG7" id="2A9472yQZ7_" role="3mBdys">
               <property role="TrG5h" value="a" />
@@ -133,7 +135,7 @@
             </node>
             <node concept="2gom5y" id="2A9472yQZ6j" role="3mBdys">
               <property role="3BMcJd" value="false" />
-              <property role="1wg9_F" value="public" />
+              <property role="1wg9_F" value="2Ai0Gt9ODIs/public" />
               <property role="TrG5h" value="B" />
               <ref role="2gom41" node="2A9472yQZ5K" resolve="B" />
               <node concept="3XIRFW" id="2A9472yQZ6k" role="1IVm9U">
@@ -170,7 +172,7 @@
             <node concept="3u$6M4" id="2A9472yQZfb" role="3mBdys" />
             <node concept="3mBW2U" id="2A9472yQZcN" role="3mBdys">
               <property role="2OOxQR" value="true" />
-              <property role="1wg9_F" value="public" />
+              <property role="1wg9_F" value="2Ai0Gt9ODIs/public" />
               <property role="TrG5h" value="C" />
             </node>
             <node concept="3u$6M4" id="2A9472yQZf$" role="3mBdys" />
@@ -183,9 +185,11 @@
         <node concept="2NXPZ9" id="2A9472yQXst" role="N3F5h">
           <property role="TrG5h" value="empty_1528959327027_2" />
         </node>
-      </node>
-      <node concept="7CXmI" id="2A9472yQUNF" role="lGtFl">
-        <node concept="7OXhh" id="2A9472yQUNI" role="7EUXB" />
+        <node concept="7CXmI" id="2A9472yQUNF" role="lGtFl">
+          <node concept="7OXhh" id="2A9472yQUNI" role="7EUXB">
+            <property role="GvXf4" value="true" />
+          </node>
+        </node>
       </node>
     </node>
   </node>

@@ -7,8 +7,12 @@
     <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="11" />
 =======
     <use id="b83431fe-5c8f-40bc-8a36-65e25f4dd253" name="jetbrains.mps.lang.textGen" version="-1" />
+<<<<<<< HEAD
     <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="13" />
 >>>>>>> 635c84c995... migrated to 2018.3
+=======
+    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="17" />
+>>>>>>> cc021cd381... migrated to 2019.2
   </languages>
   <imports>
     <import index="yz0i" ref="r:0777b219-94ea-49d2-8175-d5f018f3e7f9(com.mbeddr.cpp.base.textGen)" />
@@ -85,6 +89,7 @@
       </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
+      <concept id="1966870290083281362" name="jetbrains.mps.lang.smodel.structure.EnumMember_NameOperation" flags="ng" index="24Tkf9" />
       <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
       <concept id="1138056022639" name="jetbrains.mps.lang.smodel.structure.SPropertyAccess" flags="nn" index="3TrcHB">
         <reference id="1138056395725" name="property" index="3TsBF5" />
@@ -95,6 +100,7 @@
       <concept id="1138056282393" name="jetbrains.mps.lang.smodel.structure.SLinkListAccess" flags="nn" index="3Tsc0h">
         <reference id="1138056546658" name="link" index="3TtcxE" />
       </concept>
+      <concept id="5779574625832259537" name="jetbrains.mps.lang.smodel.structure.EnumMember_PresentationOperation" flags="ng" index="1XCIdh" />
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
@@ -189,10 +195,20 @@
         <node concept="lc7rE" id="2Ai0GtaeGWh" role="3cqZAp">
           <node concept="1bDJIP" id="2Ai0GtaeGWL" role="lcghm">
             <ref role="1rvKf6" to="yz0i:2Ai0GtaeCGJ" resolve="generateVisibilityInfo" />
+<<<<<<< HEAD
             <node concept="2OqwBi" id="2Ai0GtaeH4R" role="1ryhcI">
               <node concept="117lpO" id="2Ai0GtaeGX9" role="2Oq$k0" />
               <node concept="3TrcHB" id="3LE5RBQo1ll" role="2OqNvi">
                 <ref role="3TsBF5" to="wnzg:2Ai0Gt9ODIG" resolve="visibility" />
+=======
+            <node concept="2OqwBi" id="7jWRS$D$ZJy" role="1ryhcI">
+              <node concept="24Tkf9" id="7jWRS$D$ZJ$" role="2OqNvi" />
+              <node concept="2OqwBi" id="2Ai0GtaeH4R" role="2Oq$k0">
+                <node concept="3TrcHB" id="3LE5RBQo1ll" role="2OqNvi">
+                  <ref role="3TsBF5" to="wnzg:7jWRS$D$ZDC" resolve="visibility" />
+                </node>
+                <node concept="117lpO" id="2Ai0GtaeGX9" role="2Oq$k0" />
+>>>>>>> cc021cd381... migrated to 2019.2
               </node>
             </node>
           </node>
@@ -295,10 +311,13 @@
             <property role="lacIc" value="::operator" />
           </node>
           <node concept="l9hG8" id="3LE5RBQ$xXA" role="lcghm">
-            <node concept="2OqwBi" id="3LE5RBQ$ysQ" role="lb14g">
-              <node concept="117lpO" id="3LE5RBQ$ya1" role="2Oq$k0" />
-              <node concept="3TrcHB" id="6FnHX$GP6I$" role="2OqNvi">
-                <ref role="3TsBF5" to="zhp8:7bt9OVZg7LQ" resolve="operator" />
+            <node concept="2OqwBi" id="7jWRS$D$ZJ_" role="lb14g">
+              <node concept="1XCIdh" id="7jWRS$D$ZJB" role="2OqNvi" />
+              <node concept="2OqwBi" id="3LE5RBQ$ysQ" role="2Oq$k0">
+                <node concept="117lpO" id="3LE5RBQ$ya1" role="2Oq$k0" />
+                <node concept="3TrcHB" id="6FnHX$GP6I$" role="2OqNvi">
+                  <ref role="3TsBF5" to="zhp8:7jWRS$D$ZDG" resolve="operator" />
+                </node>
               </node>
             </node>
           </node>

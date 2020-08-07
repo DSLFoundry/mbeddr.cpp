@@ -2,7 +2,7 @@
 <model ref="r:9b2f938e-ae5e-4c45-ab5a-89ecc86b9fb0(test.ts.com.mbeddr.cpp.classnesting@tests)">
   <persistence version="9" />
   <languages>
-    <use id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test" version="2" />
+    <use id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test" version="5" />
     <devkit ref="bdd1ab49-ce55-4bff-86d1-5394fa0aa930(com.mbeddr.cpp)" />
   </languages>
   <imports>
@@ -17,7 +17,9 @@
       <concept id="1215603922101" name="jetbrains.mps.lang.test.structure.NodeOperationsContainer" flags="ng" index="7CXmI">
         <child id="1215604436604" name="nodeOperations" index="7EUXB" />
       </concept>
-      <concept id="1215607067978" name="jetbrains.mps.lang.test.structure.CheckNodeForErrorMessagesOperation" flags="ng" index="7OXhh" />
+      <concept id="1215607067978" name="jetbrains.mps.lang.test.structure.CheckNodeForErrorMessagesOperation" flags="ng" index="7OXhh">
+        <property id="3743352646565420194" name="includeSelf" index="GvXf4" />
+      </concept>
       <concept id="7691029917083872157" name="jetbrains.mps.lang.test.structure.IRuleReference" flags="ng" index="2u4UPC">
         <reference id="8333855927540250453" name="declaration" index="39XzEq" />
       </concept>
@@ -40,7 +42,7 @@
     </language>
     <language id="2d7fadf5-33f6-4e80-a78f-0f739add2bde" name="com.mbeddr.core.buildconfig">
       <concept id="7717755763392524104" name="com.mbeddr.core.buildconfig.structure.BuildConfiguration" flags="ng" index="2v9HqL">
-        <child id="5323740605968447026" name="target" index="2AWWZH" />
+        <child id="5323740605968447026" name="platform" index="2AWWZH" />
       </concept>
       <concept id="8719112291175211294" name="com.mbeddr.core.buildconfig.structure.PlatformReference" flags="ng" index="2xfidK">
         <reference id="8719112291175211414" name="template" index="2xfifS" />
@@ -140,11 +142,11 @@
         <property role="TrG5h" value="ClassNesting" />
         <node concept="3mBW2U" id="3M9Tj7YzH8W" role="N3F5h">
           <property role="2OOxQR" value="true" />
-          <property role="1wg9_F" value="public" />
+          <property role="1wg9_F" value="2Ai0Gt9ODIs/public" />
           <property role="TrG5h" value="A" />
           <node concept="3mBW2U" id="3M9Tj7YzHeq" role="3mBdys">
             <property role="2OOxQR" value="true" />
-            <property role="1wg9_F" value="public" />
+            <property role="1wg9_F" value="2Ai0Gt9ODIs/public" />
             <property role="TrG5h" value="B" />
             <node concept="3mBbG7" id="3M9Tj7YzHey" role="3mBdys">
               <property role="TrG5h" value="b1" />
@@ -199,7 +201,6 @@
           </node>
           <node concept="3mBW2U" id="3M9Tj7YzI7Z" role="3mBdys">
             <property role="2OOxQR" value="true" />
-            <property role="1wg9_F" value="private" />
             <property role="TrG5h" value="C" />
             <node concept="3mBbG7" id="3M9Tj7YzIgl" role="3mBdys">
               <property role="TrG5h" value="b" />
@@ -247,9 +248,11 @@
         <node concept="2NXPZ9" id="3p40HKhyECS" role="N3F5h">
           <property role="TrG5h" value="empty_1528186578890_2" />
         </node>
-      </node>
-      <node concept="7CXmI" id="32KsbhSQE2o" role="lGtFl">
-        <node concept="7OXhh" id="32KsbhSQE6f" role="7EUXB" />
+        <node concept="7CXmI" id="32KsbhSQE2o" role="lGtFl">
+          <node concept="7OXhh" id="32KsbhSQE6f" role="7EUXB">
+            <property role="GvXf4" value="true" />
+          </node>
+        </node>
       </node>
     </node>
   </node>

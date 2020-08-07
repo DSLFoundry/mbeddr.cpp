@@ -2,8 +2,8 @@
 <model ref="r:00615956-ef9f-419d-8ba0-5cec926697ac(test.ts.com.mbeddr.cpp.namespace@tests)">
   <persistence version="9" />
   <languages>
-    <use id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test" version="2" />
-    <use id="2d7fadf5-33f6-4e80-a78f-0f739add2bde" name="com.mbeddr.core.buildconfig" version="6" />
+    <use id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test" version="5" />
+    <use id="2d7fadf5-33f6-4e80-a78f-0f739add2bde" name="com.mbeddr.core.buildconfig" version="9" />
     <use id="2693fc71-9b0e-4b05-ab13-f57227d675f2" name="com.mbeddr.core.util" version="0" />
     <use id="783af01f-87a7-412c-be99-293a162652b5" name="com.mbeddr.core.embedded" version="1" />
     <use id="dd4979e3-3be6-46b3-9e1e-c36309e30758" name="com.mbeddr.cpp.modules" version="0" />
@@ -68,7 +68,7 @@
     </language>
     <language id="2d7fadf5-33f6-4e80-a78f-0f739add2bde" name="com.mbeddr.core.buildconfig">
       <concept id="7717755763392524104" name="com.mbeddr.core.buildconfig.structure.BuildConfiguration" flags="ng" index="2v9HqL">
-        <child id="5323740605968447026" name="target" index="2AWWZH" />
+        <child id="5323740605968447026" name="platform" index="2AWWZH" />
       </concept>
       <concept id="8719112291175211294" name="com.mbeddr.core.buildconfig.structure.PlatformReference" flags="ng" index="2xfidK">
         <reference id="8719112291175211414" name="template" index="2xfifS" />
@@ -252,7 +252,6 @@
             </node>
           </node>
           <node concept="3mB1cK" id="mwDIXwE$6l" role="ds5Fi">
-            <property role="1wg9_F" value="private" />
             <property role="TrG5h" value="aBool" />
             <node concept="19RgSI" id="mwDIXwE$74" role="1UOdpc">
               <property role="TrG5h" value="x" />
@@ -277,7 +276,7 @@
             <property role="2OOxQR" value="false" />
             <property role="TrG5h" value="AClass" />
             <node concept="3mBbG7" id="mwDIXwE$cj" role="3mBdys">
-              <property role="1wg9_F" value="public" />
+              <property role="1wg9_F" value="2Ai0Gt9ODIs/public" />
               <property role="TrG5h" value="aClassInt" />
               <node concept="26Vqph" id="mwDIXwE$cz" role="2C2TGm">
                 <property role="2caQfQ" value="false" />
@@ -285,7 +284,7 @@
               </node>
             </node>
             <node concept="3mB1cK" id="mwDIXwF0Vb" role="3mBdys">
-              <property role="1wg9_F" value="public" />
+              <property role="1wg9_F" value="2Ai0Gt9ODIs/public" />
               <property role="TrG5h" value="aClassVoid" />
               <node concept="19Rifw" id="mwDIXwF0Vc" role="2C2TGm">
                 <property role="2caQfQ" value="false" />
@@ -304,7 +303,6 @@
               </node>
             </node>
             <node concept="3mB1cK" id="mwDIXwE$fx" role="ds5Fi">
-              <property role="1wg9_F" value="private" />
               <property role="TrG5h" value="bBool" />
               <node concept="19RgSI" id="mwDIXwE$gb" role="1UOdpc">
                 <property role="TrG5h" value="y" />
@@ -346,7 +344,6 @@
               </node>
             </node>
             <node concept="3mB1cK" id="3SNFZ61sb9k" role="ds5Fi">
-              <property role="1wg9_F" value="private" />
               <property role="TrG5h" value="bVoid" />
               <property role="226hDV" value="true" />
               <node concept="19Rifw" id="3SNFZ61sb9V" role="2C2TGm">
@@ -686,7 +683,6 @@
             </node>
           </node>
           <node concept="3mB1cK" id="mwDIXx5ZId" role="ds5Fi">
-            <property role="1wg9_F" value="private" />
             <property role="TrG5h" value="dBool" />
             <node concept="19RgSI" id="mwDIXx5ZIW" role="1UOdpc">
               <property role="TrG5h" value="d" />
@@ -717,7 +713,6 @@
               </node>
             </node>
             <node concept="3mB1cK" id="mwDIXx6o8m" role="ds5Fi">
-              <property role="1wg9_F" value="private" />
               <property role="TrG5h" value="eBool" />
               <node concept="3TlMgk" id="mwDIXx6o8B" role="2C2TGm">
                 <property role="2caQfQ" value="false" />
@@ -743,7 +738,6 @@
               </node>
             </node>
             <node concept="3mB1cK" id="3SNFZ61qLx$" role="ds5Fi">
-              <property role="1wg9_F" value="private" />
               <property role="TrG5h" value="fBool" />
               <node concept="3TlMgk" id="3SNFZ61qLxP" role="2C2TGm">
                 <property role="2caQfQ" value="false" />

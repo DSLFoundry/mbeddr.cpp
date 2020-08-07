@@ -6,7 +6,11 @@
 >>>>>>> 67bc8da713... Rename simple_classes model to scope:code/languages/com.mbeddr.cpp/tests/test.ts.com.mbeddr.cpp/models/scope@tests.mps
   <persistence version="9" />
   <languages>
+<<<<<<< HEAD
     <use id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test" version="2" />
+=======
+    <use id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test" version="5" />
+>>>>>>> cc021cd381... migrated to 2019.2
     <devkit ref="bdd1ab49-ce55-4bff-86d1-5394fa0aa930(com.mbeddr.cpp)" />
   </languages>
   <imports>
@@ -38,7 +42,9 @@
       <concept id="1215603922101" name="jetbrains.mps.lang.test.structure.NodeOperationsContainer" flags="ng" index="7CXmI">
         <child id="1215604436604" name="nodeOperations" index="7EUXB" />
       </concept>
-      <concept id="1215607067978" name="jetbrains.mps.lang.test.structure.CheckNodeForErrorMessagesOperation" flags="ng" index="7OXhh" />
+      <concept id="1215607067978" name="jetbrains.mps.lang.test.structure.CheckNodeForErrorMessagesOperation" flags="ng" index="7OXhh">
+        <property id="3743352646565420194" name="includeSelf" index="GvXf4" />
+      </concept>
       <concept id="7691029917083872157" name="jetbrains.mps.lang.test.structure.IRuleReference" flags="ng" index="2u4UPC">
         <reference id="8333855927540250453" name="declaration" index="39XzEq" />
       </concept>
@@ -80,7 +86,7 @@
     </language>
     <language id="2d7fadf5-33f6-4e80-a78f-0f739add2bde" name="com.mbeddr.core.buildconfig">
       <concept id="7717755763392524104" name="com.mbeddr.core.buildconfig.structure.BuildConfiguration" flags="ng" index="2v9HqL">
-        <child id="5323740605968447026" name="target" index="2AWWZH" />
+        <child id="5323740605968447026" name="platform" index="2AWWZH" />
       </concept>
       <concept id="8719112291175211294" name="com.mbeddr.core.buildconfig.structure.PlatformReference" flags="ng" index="2xfidK">
         <reference id="8719112291175211414" name="template" index="2xfifS" />
@@ -599,8 +605,12 @@
             <property role="TrG5h" value="publicMethodPublicClass" />
 =======
             <property role="TrG5h" value="publicMethodPublicClass" />
+<<<<<<< HEAD
             <property role="1wg9_F" value="public" />
 >>>>>>> ad56adfaea... Fix typesystem test cases
+=======
+            <property role="1wg9_F" value="2Ai0Gt9ODIs/public" />
+>>>>>>> cc021cd381... migrated to 2019.2
             <node concept="3XIRFW" id="6oRbCP68kRO" role="3XIRFX" />
             <node concept="19Rifw" id="1gzloVU$YOL" role="2C2TGm">
               <property role="2caQfQ" value="false" />
@@ -611,9 +621,13 @@
           <node concept="3mB1cK" id="688xTXtQiNN" role="3mBdys">
             <property role="TrG5h" value="protectedMethodPublicClass" />
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             <property role="1wg9_F" value="protected" />
 >>>>>>> ad56adfaea... Fix typesystem test cases
+=======
+            <property role="1wg9_F" value="2Ai0Gt9ODIw/protected" />
+>>>>>>> cc021cd381... migrated to 2019.2
             <node concept="19Rifw" id="1gzloVU$YUC" role="2C2TGm">
               <property role="2caQfQ" value="false" />
               <property role="2c7vTL" value="false" />
@@ -649,7 +663,7 @@
           <property role="TrG5h" value="ProtectedParentClass" />
           <node concept="3mB1cK" id="1gzloVU$Z1Q" role="3mBdys">
             <property role="TrG5h" value="publicMethodProtectedClass" />
-            <property role="1wg9_F" value="public" />
+            <property role="1wg9_F" value="2Ai0Gt9ODIs/public" />
             <node concept="3XIRFW" id="1gzloVU$Z1R" role="3XIRFX" />
             <node concept="19Rifw" id="1gzloVU$Z1S" role="2C2TGm">
               <property role="2caQfQ" value="false" />
@@ -658,7 +672,7 @@
           </node>
           <node concept="3mB1cK" id="1gzloVU$Z1T" role="3mBdys">
             <property role="TrG5h" value="protectedMethodProtectedClass" />
-            <property role="1wg9_F" value="protected" />
+            <property role="1wg9_F" value="2Ai0Gt9ODIw/protected" />
             <node concept="19Rifw" id="1gzloVU$Z1U" role="2C2TGm">
               <property role="2caQfQ" value="false" />
               <property role="2c7vTL" value="false" />
@@ -682,7 +696,7 @@
           <property role="TrG5h" value="PrivateParentClass" />
           <node concept="3mB1cK" id="1gzloVU$Z8t" role="3mBdys">
             <property role="TrG5h" value="publicMethodPrivateClass" />
-            <property role="1wg9_F" value="public" />
+            <property role="1wg9_F" value="2Ai0Gt9ODIs/public" />
             <node concept="3XIRFW" id="1gzloVU$Z8u" role="3XIRFX" />
             <node concept="19Rifw" id="1gzloVU$Z8v" role="2C2TGm">
               <property role="2caQfQ" value="false" />
@@ -691,7 +705,7 @@
           </node>
           <node concept="3mB1cK" id="1gzloVU$Z8w" role="3mBdys">
             <property role="TrG5h" value="protectedMethodPrivateClass" />
-            <property role="1wg9_F" value="protected" />
+            <property role="1wg9_F" value="2Ai0Gt9ODIw/protected" />
             <node concept="19Rifw" id="1gzloVU$Z8x" role="2C2TGm">
               <property role="2caQfQ" value="false" />
               <property role="2c7vTL" value="false" />
@@ -717,11 +731,11 @@
             <ref role="FysoF" node="1gzloVU$Z8s" resolve="PrivateParentClass" />
           </node>
           <node concept="FysoC" id="1gzloVU$Zim" role="Fysvh">
-            <property role="FysoG" value="protected" />
+            <property role="FysoG" value="2Ai0Gt9ODIw/protected" />
             <ref role="FysoF" node="1gzloVU$Z1P" resolve="ProtectedParentClass" />
           </node>
           <node concept="FysoC" id="1gzloVU$Zir" role="Fysvh">
-            <property role="FysoG" value="public" />
+            <property role="FysoG" value="2Ai0Gt9ODIs/public" />
             <ref role="FysoF" node="nbE_$_7VLV" resolve="PublicParentClass" />
           </node>
           <node concept="3mB1cK" id="1gzloVU_6LT" role="3mBdys">
@@ -825,7 +839,7 @@
           <property role="2OOxQR" value="false" />
           <property role="TrG5h" value="BaseBaseClass" />
           <node concept="FysoC" id="1gzloVU_6LQ" role="Fysvh">
-            <property role="FysoG" value="public" />
+            <property role="FysoG" value="2Ai0Gt9ODIs/public" />
             <ref role="FysoF" node="1gzloVU$ZfR" resolve="BaseClass" />
           </node>
 <<<<<<< HEAD
@@ -1117,6 +1131,7 @@
           <property role="TrG5h" value="empty_1527075986336_9" />
         </node>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <node concept="7CXmI" id="688xTXtQgt9" role="lGtFl">
           <node concept="7OXhh" id="688xTXtQgta" role="7EUXB" />
         </node>
@@ -1201,6 +1216,13 @@
       <node concept="7CXmI" id="32KsbhSQDSf" role="lGtFl">
         <node concept="7OXhh" id="32KsbhSQDSn" role="7EUXB" />
 >>>>>>> bea069b6eb... Add type checks to some typesystem tests and make check for error messages consistent
+=======
+        <node concept="7CXmI" id="32KsbhSQDSf" role="lGtFl">
+          <node concept="7OXhh" id="32KsbhSQDSn" role="7EUXB">
+            <property role="GvXf4" value="true" />
+          </node>
+        </node>
+>>>>>>> cc021cd381... migrated to 2019.2
       </node>
     </node>
   </node>
@@ -1215,7 +1237,7 @@
           <property role="TrG5h" value="SomeClass" />
           <node concept="3mBbG7" id="1gzloVU_9IX" role="3mBdys">
             <property role="TrG5h" value="publicAttribute" />
-            <property role="1wg9_F" value="public" />
+            <property role="1wg9_F" value="2Ai0Gt9ODIs/public" />
             <node concept="26Vqph" id="1gzloVU_9IY" role="2C2TGm">
               <property role="2caQfQ" value="false" />
               <property role="2c7vTL" value="false" />
@@ -1223,7 +1245,7 @@
           </node>
           <node concept="3mBbG7" id="1gzloVU_9IZ" role="3mBdys">
             <property role="TrG5h" value="protectedAttribute" />
-            <property role="1wg9_F" value="protected" />
+            <property role="1wg9_F" value="2Ai0Gt9ODIw/protected" />
             <node concept="26Vqph" id="1gzloVU_9J0" role="2C2TGm">
               <property role="2caQfQ" value="false" />
               <property role="2c7vTL" value="false" />
@@ -1238,7 +1260,7 @@
           </node>
           <node concept="3mB1cK" id="1gzloVU_9J3" role="3mBdys">
             <property role="TrG5h" value="publicMethod" />
-            <property role="1wg9_F" value="public" />
+            <property role="1wg9_F" value="2Ai0Gt9ODIs/public" />
             <node concept="3XIRFW" id="1gzloVU_9J4" role="3XIRFX" />
             <node concept="19Rifw" id="1gzloVU_9J5" role="2C2TGm">
               <property role="2caQfQ" value="false" />
@@ -1247,7 +1269,7 @@
           </node>
           <node concept="3mB1cK" id="1gzloVU_9J6" role="3mBdys">
             <property role="TrG5h" value="protectedMethod" />
-            <property role="1wg9_F" value="protected" />
+            <property role="1wg9_F" value="2Ai0Gt9ODIw/protected" />
             <node concept="3XIRFW" id="1gzloVU_9J7" role="3XIRFX" />
             <node concept="19Rifw" id="1gzloVU_9J8" role="2C2TGm">
               <property role="2caQfQ" value="false" />
@@ -1363,9 +1385,11 @@
             <property role="2c7vTL" value="false" />
           </node>
         </node>
-      </node>
-      <node concept="7CXmI" id="32KsbhSQDFs" role="lGtFl">
-        <node concept="7OXhh" id="32KsbhSQDF$" role="7EUXB" />
+        <node concept="7CXmI" id="32KsbhSQDFs" role="lGtFl">
+          <node concept="7OXhh" id="32KsbhSQDF$" role="7EUXB">
+            <property role="GvXf4" value="true" />
+          </node>
+        </node>
       </node>
     </node>
   </node>
@@ -1378,7 +1402,7 @@
           <property role="2OOxQR" value="true" />
           <property role="TrG5h" value="BaseOne" />
           <node concept="3mBbG7" id="3p40HKhyEEx" role="3mBdys">
-            <property role="1wg9_F" value="public" />
+            <property role="1wg9_F" value="2Ai0Gt9ODIs/public" />
             <property role="TrG5h" value="thisField" />
             <node concept="26Vqqz" id="3p40HKhyEEy" role="2C2TGm">
               <property role="2caQfQ" value="false" />
@@ -1396,7 +1420,7 @@
           <property role="2OOxQR" value="true" />
           <property role="TrG5h" value="BaseTwo" />
           <node concept="3mBbG7" id="3p40HKhyEDt" role="3mBdys">
-            <property role="1wg9_F" value="public" />
+            <property role="1wg9_F" value="2Ai0Gt9ODIs/public" />
             <property role="TrG5h" value="thisField" />
             <node concept="26Vqqz" id="3p40HKhyEDH" role="2C2TGm">
               <property role="2caQfQ" value="false" />
@@ -1407,7 +1431,7 @@
             </node>
           </node>
           <node concept="3mB1cK" id="3p40HKhyF6l" role="3mBdys">
-            <property role="1wg9_F" value="public" />
+            <property role="1wg9_F" value="2Ai0Gt9ODIs/public" />
             <property role="TrG5h" value="thisMethod" />
             <node concept="26Vqqz" id="3p40HKhyF6H" role="2C2TGm">
               <property role="2caQfQ" value="false" />
@@ -1429,7 +1453,7 @@
           <property role="2OOxQR" value="true" />
           <property role="TrG5h" value="BaseThree" />
           <node concept="3mB1cK" id="3p40HKhyFb_" role="3mBdys">
-            <property role="1wg9_F" value="public" />
+            <property role="1wg9_F" value="2Ai0Gt9ODIs/public" />
             <property role="TrG5h" value="thisMethod" />
             <node concept="26Vqqz" id="3p40HKhyFbA" role="2C2TGm">
               <property role="2caQfQ" value="false" />
@@ -1451,7 +1475,7 @@
           <property role="2OOxQR" value="true" />
           <property role="TrG5h" value="ChildClass" />
           <node concept="FysoC" id="3p40HKhyEGF" role="Fysvh">
-            <property role="FysoG" value="public" />
+            <property role="FysoG" value="2Ai0Gt9ODIs/public" />
             <ref role="FysoF" node="3p40HKhyECX" resolve="BaseOne" />
             <node concept="7CXmI" id="3p40HKhyIwi" role="lGtFl">
               <node concept="1TM$A" id="3p40HKhyIwj" role="7EUXB">
@@ -1462,7 +1486,7 @@
             </node>
           </node>
           <node concept="FysoC" id="3p40HKhyEGI" role="Fysvh">
-            <property role="FysoG" value="public" />
+            <property role="FysoG" value="2Ai0Gt9ODIs/public" />
             <ref role="FysoF" node="3p40HKhyEDj" resolve="BaseTwo" />
             <node concept="7CXmI" id="3p40HKhyIrJ" role="lGtFl">
               <node concept="1TM$A" id="3p40HKhyIrK" role="7EUXB">
@@ -1481,7 +1505,7 @@
           <property role="2OOxQR" value="true" />
           <property role="TrG5h" value="ChildClassTwo" />
           <node concept="FysoC" id="3p40HKhyFrI" role="Fysvh">
-            <property role="FysoG" value="public" />
+            <property role="FysoG" value="2Ai0Gt9ODIs/public" />
             <ref role="FysoF" node="3p40HKhyEDj" resolve="BaseTwo" />
             <node concept="7CXmI" id="3p40HKhzpI2" role="lGtFl">
               <node concept="1TM$A" id="3p40HKhzpI3" role="7EUXB">
@@ -1492,7 +1516,7 @@
             </node>
           </node>
           <node concept="FysoC" id="3p40HKhyFrL" role="Fysvh">
-            <property role="FysoG" value="public" />
+            <property role="FysoG" value="2Ai0Gt9ODIs/public" />
             <ref role="FysoF" node="3p40HKhyF5b" resolve="BaseThree" />
             <node concept="7CXmI" id="3p40HKhzpMC" role="lGtFl">
               <node concept="1TM$A" id="3p40HKhzpMD" role="7EUXB">
@@ -1504,9 +1528,11 @@
           </node>
           <node concept="7CXmI" id="3p40HKhyFwh" role="lGtFl" />
         </node>
-      </node>
-      <node concept="7CXmI" id="32KsbhSQE2o" role="lGtFl">
-        <node concept="7OXhh" id="32KsbhSQE6f" role="7EUXB" />
+        <node concept="7CXmI" id="32KsbhSQE2o" role="lGtFl">
+          <node concept="7OXhh" id="32KsbhSQE6f" role="7EUXB">
+            <property role="GvXf4" value="true" />
+          </node>
+        </node>
       </node>
     </node>
   </node>

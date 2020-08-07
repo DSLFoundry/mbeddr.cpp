@@ -3,6 +3,7 @@
   <persistence version="9" />
   <languages>
     <use id="7fa12e9c-b949-4976-b4fa-19accbc320b4" name="jetbrains.mps.lang.dataFlow" version="1" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="9" />
     <devkit ref="00000000-0000-4000-0000-443879f56b80(jetbrains.mps.devkit.aspect.dataflow)" />
   </languages>
   <imports>
@@ -36,11 +37,8 @@
       <concept id="5497648299878491908" name="jetbrains.mps.baseLanguage.structure.BaseVariableReference" flags="nn" index="1M0zk4">
         <reference id="5497648299878491909" name="baseVariableDeclaration" index="1M0zk5" />
       </concept>
-      <concept id="6329021646629104957" name="jetbrains.mps.baseLanguage.structure.TextCommentPart" flags="nn" index="3SKdUq">
-        <property id="6329021646629104958" name="text" index="3SKdUp" />
-      </concept>
       <concept id="6329021646629104954" name="jetbrains.mps.baseLanguage.structure.SingleLineComment" flags="nn" index="3SKdUt">
-        <child id="6329021646629175155" name="commentPart" index="3SKWNk" />
+        <child id="1350122676458893092" name="text" index="3ndbpf" />
       </concept>
     </language>
     <language id="7fa12e9c-b949-4976-b4fa-19accbc320b4" name="jetbrains.mps.lang.dataFlow">
@@ -76,6 +74,14 @@
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
     </language>
+    <language id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text">
+      <concept id="155656958578482948" name="jetbrains.mps.lang.text.structure.Word" flags="ng" index="3oM_SD">
+        <property id="155656958578482949" name="value" index="3oM_SC" />
+      </concept>
+      <concept id="2535923850359271782" name="jetbrains.mps.lang.text.structure.Line" flags="ng" index="1PaTwC">
+        <child id="2535923850359271783" name="elements" index="1PaTwD" />
+      </concept>
+    </language>
   </registry>
   <node concept="3_zdsH" id="3v5DuFDyVp3">
     <property role="3GE5qa" value="class" />
@@ -83,8 +89,31 @@
     <node concept="3__wT9" id="3v5DuFDyVp4" role="3_A6iZ">
       <node concept="3clFbS" id="3v5DuFDyVp5" role="2VODD2">
         <node concept="3SKdUt" id="3v5DuFDz1v3" role="3cqZAp">
-          <node concept="3SKdUq" id="3v5DuFDz1v5" role="3SKWNk">
-            <property role="3SKdUp" value="default initialization in C++ for variables with class-type" />
+          <node concept="1PaTwC" id="7jWRS$D_0XS" role="3ndbpf">
+            <node concept="3oM_SD" id="7jWRS$D_0XT" role="1PaTwD">
+              <property role="3oM_SC" value="default" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0XU" role="1PaTwD">
+              <property role="3oM_SC" value="initialization" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0XV" role="1PaTwD">
+              <property role="3oM_SC" value="in" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0XW" role="1PaTwD">
+              <property role="3oM_SC" value="C++" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0XX" role="1PaTwD">
+              <property role="3oM_SC" value="for" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0XY" role="1PaTwD">
+              <property role="3oM_SC" value="variables" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0XZ" role="1PaTwD">
+              <property role="3oM_SC" value="with" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0Y0" role="1PaTwD">
+              <property role="3oM_SC" value="class-type" />
+            </node>
           </node>
         </node>
         <node concept="Jncv_" id="3v5DuFDyXwl" role="3cqZAp">

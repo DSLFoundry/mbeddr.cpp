@@ -2,8 +2,8 @@
 <model ref="r:b61efb60-f450-4da1-a0d8-82002b4d8dd7(test.ts.com.mbeddr.cpp.casting@tests)">
   <persistence version="9" />
   <languages>
-    <use id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test" version="2" />
-    <use id="2d7fadf5-33f6-4e80-a78f-0f739add2bde" name="com.mbeddr.core.buildconfig" version="6" />
+    <use id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test" version="5" />
+    <use id="2d7fadf5-33f6-4e80-a78f-0f739add2bde" name="com.mbeddr.core.buildconfig" version="9" />
     <use id="2693fc71-9b0e-4b05-ab13-f57227d675f2" name="com.mbeddr.core.util" version="0" />
     <use id="783af01f-87a7-412c-be99-293a162652b5" name="com.mbeddr.core.embedded" version="1" />
     <use id="8c081446-e4ba-48b7-a7e0-3db40e2c3439" name="com.mbeddr.cpp.base" version="0" />
@@ -75,7 +75,7 @@
     </language>
     <language id="2d7fadf5-33f6-4e80-a78f-0f739add2bde" name="com.mbeddr.core.buildconfig">
       <concept id="7717755763392524104" name="com.mbeddr.core.buildconfig.structure.BuildConfiguration" flags="ng" index="2v9HqL">
-        <child id="5323740605968447026" name="target" index="2AWWZH" />
+        <child id="5323740605968447026" name="platform" index="2AWWZH" />
       </concept>
       <concept id="8719112291175211294" name="com.mbeddr.core.buildconfig.structure.PlatformReference" flags="ng" index="2xfidK">
         <reference id="8719112291175211414" name="template" index="2xfifS" />
@@ -216,10 +216,10 @@
         </node>
         <node concept="3mBW2U" id="4lmr4L5mZSX" role="N3F5h">
           <property role="2OOxQR" value="true" />
-          <property role="1wg9_F" value="public" />
+          <property role="1wg9_F" value="2Ai0Gt9ODIs/public" />
           <property role="TrG5h" value="OtherClass" />
           <node concept="FysoC" id="4lmr4L5mZTb" role="Fysvh">
-            <property role="FysoG" value="public" />
+            <property role="FysoG" value="2Ai0Gt9ODIs/public" />
             <ref role="FysoF" node="4lmr4L5mZQU" resolve="SomeClass" />
           </node>
         </node>
@@ -228,7 +228,7 @@
         </node>
         <node concept="3mBW2U" id="4lmr4L5mZTE" role="N3F5h">
           <property role="2OOxQR" value="true" />
-          <property role="1wg9_F" value="public" />
+          <property role="1wg9_F" value="2Ai0Gt9ODIs/public" />
           <property role="TrG5h" value="PrivateOtherClass" />
           <node concept="FysoC" id="4lmr4L5mZTV" role="Fysvh">
             <ref role="FysoF" node="4lmr4L5mZQU" resolve="SomeClass" />
@@ -529,8 +529,8 @@
         <node concept="2NXPZ9" id="4lmr4L5mZQV" role="N3F5h">
           <property role="TrG5h" value="empty_1504854840309_9" />
         </node>
+        <node concept="7CXmI" id="7jWRS$D_2m5" role="lGtFl" />
       </node>
-      <node concept="7CXmI" id="4lmr4L5mZQT" role="lGtFl" />
     </node>
   </node>
 </model>

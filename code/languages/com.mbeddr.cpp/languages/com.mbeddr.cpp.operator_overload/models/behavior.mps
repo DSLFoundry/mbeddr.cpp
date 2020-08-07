@@ -80,6 +80,7 @@
       <concept id="1138056143562" name="jetbrains.mps.lang.smodel.structure.SLinkAccess" flags="nn" index="3TrEf2">
         <reference id="1138056516764" name="link" index="3Tt5mk" />
       </concept>
+      <concept id="5779574625832259537" name="jetbrains.mps.lang.smodel.structure.EnumMember_PresentationOperation" flags="ng" index="1XCIdh" />
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
@@ -152,10 +153,13 @@
       <node concept="3Tm1VV" id="3tvQSYcr5JX" role="1B3o_S" />
       <node concept="3clFbS" id="3tvQSYcr5JY" role="3clF47">
         <node concept="3clFbF" id="3tvQSYcr65Z" role="3cqZAp">
-          <node concept="2OqwBi" id="3tvQSYcr6rh" role="3clFbG">
-            <node concept="13iPFW" id="3tvQSYcr65Y" role="2Oq$k0" />
-            <node concept="3TrcHB" id="3tvQSYcr732" role="2OqNvi">
-              <ref role="3TsBF5" to="zhp8:7bt9OVZg7LQ" resolve="operator" />
+          <node concept="2OqwBi" id="7jWRS$D$ZT7" role="3clFbG">
+            <node concept="1XCIdh" id="7jWRS$D$ZT9" role="2OqNvi" />
+            <node concept="2OqwBi" id="3tvQSYcr6rh" role="2Oq$k0">
+              <node concept="13iPFW" id="3tvQSYcr65Y" role="2Oq$k0" />
+              <node concept="3TrcHB" id="3tvQSYcr732" role="2OqNvi">
+                <ref role="3TsBF5" to="zhp8:7jWRS$D$ZDG" resolve="operator" />
+              </node>
             </node>
           </node>
         </node>
