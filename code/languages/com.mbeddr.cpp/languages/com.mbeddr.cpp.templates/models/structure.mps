@@ -92,8 +92,8 @@
     <node concept="PrWs8" id="2_lkiVk4rls" role="PzmwI">
       <ref role="PrY4T" to="mj1l:4ZVDCZCaQ86" resolve="INumber" />
     </node>
-    <node concept="PrWs8" id="2_lkiVk4kts" role="PzmwI">
-      <ref role="PrY4T" to="mj1l:40yNm6PHNqq" resolve="IPrintable" />
+    <node concept="PrWs8" id="mhE46jLPSK" role="PzmwI">
+      <ref role="PrY4T" to="mj1l:4zXqh6TNW6K" resolve="IPrintable" />
     </node>
     <node concept="t5JxF" id="3J_5hL3LcKJ" role="lGtFl">
       <property role="t5JxN" value="References to types in templates" />
