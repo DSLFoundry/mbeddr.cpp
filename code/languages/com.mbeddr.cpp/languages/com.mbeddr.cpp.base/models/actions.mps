@@ -3,6 +3,7 @@
   <persistence version="9" />
   <languages>
     <use id="aee9cad2-acd4-4608-aef2-0004f6a1cdbd" name="jetbrains.mps.lang.actions" version="-1" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="9" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -38,11 +39,8 @@
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
-      <concept id="6329021646629104957" name="jetbrains.mps.baseLanguage.structure.TextCommentPart" flags="nn" index="3SKdUq">
-        <property id="6329021646629104958" name="text" index="3SKdUp" />
-      </concept>
       <concept id="6329021646629104954" name="jetbrains.mps.baseLanguage.structure.SingleLineComment" flags="nn" index="3SKdUt">
-        <child id="6329021646629175155" name="commentPart" index="3SKWNk" />
+        <child id="1350122676458893092" name="text" index="3ndbpf" />
       </concept>
     </language>
     <language id="aee9cad2-acd4-4608-aef2-0004f6a1cdbd" name="jetbrains.mps.lang.actions">
@@ -89,6 +87,14 @@
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
     </language>
+    <language id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text">
+      <concept id="155656958578482948" name="jetbrains.mps.lang.text.structure.Word" flags="ng" index="3oM_SD">
+        <property id="155656958578482949" name="value" index="3oM_SC" />
+      </concept>
+      <concept id="2535923850359271782" name="jetbrains.mps.lang.text.structure.Line" flags="ng" index="1PaTwC">
+        <child id="2535923850359271783" name="elements" index="1PaTwD" />
+      </concept>
+    </language>
     <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
       <concept id="1165525191778" name="jetbrains.mps.baseLanguage.collections.structure.GetFirstOperation" flags="nn" index="1uHKPH" />
     </language>
@@ -102,18 +108,81 @@
       <node concept="37Y9Zx" id="6ddXmWdF5A$" role="37ZfLb">
         <node concept="3clFbS" id="6ddXmWdF5A_" role="2VODD2">
           <node concept="3SKdUt" id="6ddXmWdFe0h" role="3cqZAp">
-            <node concept="3SKdUq" id="6ddXmWdFe0j" role="3SKWNk">
-              <property role="3SKdUp" value="It seems like the enclosing node should be a StatementList," />
+            <node concept="1PaTwC" id="7jWRS$D_0yq" role="3ndbpf">
+              <node concept="3oM_SD" id="7jWRS$D_0yr" role="1PaTwD">
+                <property role="3oM_SC" value="It" />
+              </node>
+              <node concept="3oM_SD" id="7jWRS$D_0ys" role="1PaTwD">
+                <property role="3oM_SC" value="seems" />
+              </node>
+              <node concept="3oM_SD" id="7jWRS$D_0yt" role="1PaTwD">
+                <property role="3oM_SC" value="like" />
+              </node>
+              <node concept="3oM_SD" id="7jWRS$D_0yu" role="1PaTwD">
+                <property role="3oM_SC" value="the" />
+              </node>
+              <node concept="3oM_SD" id="7jWRS$D_0yv" role="1PaTwD">
+                <property role="3oM_SC" value="enclosing" />
+              </node>
+              <node concept="3oM_SD" id="7jWRS$D_0yw" role="1PaTwD">
+                <property role="3oM_SC" value="node" />
+              </node>
+              <node concept="3oM_SD" id="7jWRS$D_0yx" role="1PaTwD">
+                <property role="3oM_SC" value="should" />
+              </node>
+              <node concept="3oM_SD" id="7jWRS$D_0yy" role="1PaTwD">
+                <property role="3oM_SC" value="be" />
+              </node>
+              <node concept="3oM_SD" id="7jWRS$D_0yz" role="1PaTwD">
+                <property role="3oM_SC" value="a" />
+              </node>
+              <node concept="3oM_SD" id="7jWRS$D_0y$" role="1PaTwD">
+                <property role="3oM_SC" value="StatementList," />
+              </node>
             </node>
           </node>
           <node concept="3SKdUt" id="6ddXmWdFeah" role="3cqZAp">
-            <node concept="3SKdUq" id="6ddXmWdFeaj" role="3SKWNk">
-              <property role="3SKdUp" value="but apparently this isn't the case. Simply filling in the" />
+            <node concept="1PaTwC" id="7jWRS$D_0y_" role="3ndbpf">
+              <node concept="3oM_SD" id="7jWRS$D_0yA" role="1PaTwD">
+                <property role="3oM_SC" value="but" />
+              </node>
+              <node concept="3oM_SD" id="7jWRS$D_0yB" role="1PaTwD">
+                <property role="3oM_SC" value="apparently" />
+              </node>
+              <node concept="3oM_SD" id="7jWRS$D_0yC" role="1PaTwD">
+                <property role="3oM_SC" value="this" />
+              </node>
+              <node concept="3oM_SD" id="7jWRS$D_0yD" role="1PaTwD">
+                <property role="3oM_SC" value="isn't" />
+              </node>
+              <node concept="3oM_SD" id="7jWRS$D_0yE" role="1PaTwD">
+                <property role="3oM_SC" value="the" />
+              </node>
+              <node concept="3oM_SD" id="7jWRS$D_0yF" role="1PaTwD">
+                <property role="3oM_SC" value="case." />
+              </node>
+              <node concept="3oM_SD" id="7jWRS$D_0yG" role="1PaTwD">
+                <property role="3oM_SC" value="Simply" />
+              </node>
+              <node concept="3oM_SD" id="7jWRS$D_0yH" role="1PaTwD">
+                <property role="3oM_SC" value="filling" />
+              </node>
+              <node concept="3oM_SD" id="7jWRS$D_0yI" role="1PaTwD">
+                <property role="3oM_SC" value="in" />
+              </node>
+              <node concept="3oM_SD" id="7jWRS$D_0yJ" role="1PaTwD">
+                <property role="3oM_SC" value="the" />
+              </node>
             </node>
           </node>
           <node concept="3SKdUt" id="6ddXmWdFekp" role="3cqZAp">
-            <node concept="3SKdUq" id="6ddXmWdFekr" role="3SKWNk">
-              <property role="3SKdUp" value="reference here." />
+            <node concept="1PaTwC" id="7jWRS$D_0yK" role="3ndbpf">
+              <node concept="3oM_SD" id="7jWRS$D_0yL" role="1PaTwD">
+                <property role="3oM_SC" value="reference" />
+              </node>
+              <node concept="3oM_SD" id="7jWRS$D_0yM" role="1PaTwD">
+                <property role="3oM_SC" value="here." />
+              </node>
             </node>
           </node>
           <node concept="3clFbJ" id="27HW4imQVkb" role="3cqZAp">
@@ -146,8 +215,34 @@
             <node concept="9aQIb" id="27HW4imXc6Y" role="9aQIa">
               <node concept="3clFbS" id="27HW4imXc6Z" role="9aQI4">
                 <node concept="3SKdUt" id="27HW4imXcgn" role="3cqZAp">
-                  <node concept="3SKdUq" id="27HW4imXcgo" role="3SKWNk">
-                    <property role="3SKdUp" value="We are probably in a generator, find a sibling" />
+                  <node concept="1PaTwC" id="7jWRS$D_0yN" role="3ndbpf">
+                    <node concept="3oM_SD" id="7jWRS$D_0yO" role="1PaTwD">
+                      <property role="3oM_SC" value="We" />
+                    </node>
+                    <node concept="3oM_SD" id="7jWRS$D_0yP" role="1PaTwD">
+                      <property role="3oM_SC" value="are" />
+                    </node>
+                    <node concept="3oM_SD" id="7jWRS$D_0yQ" role="1PaTwD">
+                      <property role="3oM_SC" value="probably" />
+                    </node>
+                    <node concept="3oM_SD" id="7jWRS$D_0yR" role="1PaTwD">
+                      <property role="3oM_SC" value="in" />
+                    </node>
+                    <node concept="3oM_SD" id="7jWRS$D_0yS" role="1PaTwD">
+                      <property role="3oM_SC" value="a" />
+                    </node>
+                    <node concept="3oM_SD" id="7jWRS$D_0yT" role="1PaTwD">
+                      <property role="3oM_SC" value="generator," />
+                    </node>
+                    <node concept="3oM_SD" id="7jWRS$D_0yU" role="1PaTwD">
+                      <property role="3oM_SC" value="find" />
+                    </node>
+                    <node concept="3oM_SD" id="7jWRS$D_0yV" role="1PaTwD">
+                      <property role="3oM_SC" value="a" />
+                    </node>
+                    <node concept="3oM_SD" id="7jWRS$D_0yW" role="1PaTwD">
+                      <property role="3oM_SC" value="sibling" />
+                    </node>
                   </node>
                 </node>
                 <node concept="3clFbF" id="27HW4imXcgQ" role="3cqZAp">
@@ -179,8 +274,22 @@
           </node>
           <node concept="3clFbH" id="6hUtorDPOjy" role="3cqZAp" />
           <node concept="3SKdUt" id="6hUtorDPOyT" role="3cqZAp">
-            <node concept="3SKdUq" id="6hUtorDPOyV" role="3SKWNk">
-              <property role="3SKdUp" value="Give it an internal name" />
+            <node concept="1PaTwC" id="7jWRS$D_0yX" role="3ndbpf">
+              <node concept="3oM_SD" id="7jWRS$D_0yY" role="1PaTwD">
+                <property role="3oM_SC" value="Give" />
+              </node>
+              <node concept="3oM_SD" id="7jWRS$D_0yZ" role="1PaTwD">
+                <property role="3oM_SC" value="it" />
+              </node>
+              <node concept="3oM_SD" id="7jWRS$D_0z0" role="1PaTwD">
+                <property role="3oM_SC" value="an" />
+              </node>
+              <node concept="3oM_SD" id="7jWRS$D_0z1" role="1PaTwD">
+                <property role="3oM_SC" value="internal" />
+              </node>
+              <node concept="3oM_SD" id="7jWRS$D_0z2" role="1PaTwD">
+                <property role="3oM_SC" value="name" />
+              </node>
             </node>
           </node>
           <node concept="3clFbF" id="6hUtorDLTKw" role="3cqZAp">

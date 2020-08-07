@@ -2,8 +2,9 @@
 <model ref="r:2c7fe9e9-a5c4-45c8-9618-d3864c4dd4d5(com.mbeddr.cpp.exceptions.editor)">
   <persistence version="9" />
   <languages>
-    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="12" />
+    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="13" />
     <use id="9d69e719-78c8-4286-90db-fb19c107d049" name="com.mbeddr.mpsutil.grammarcells" version="0" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="9" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -180,11 +181,8 @@
         <child id="1144231399730" name="condition" index="1Dwp0S" />
         <child id="1144231408325" name="iteration" index="1Dwrff" />
       </concept>
-      <concept id="6329021646629104957" name="jetbrains.mps.baseLanguage.structure.TextCommentPart" flags="nn" index="3SKdUq">
-        <property id="6329021646629104958" name="text" index="3SKdUp" />
-      </concept>
       <concept id="6329021646629104954" name="jetbrains.mps.baseLanguage.structure.SingleLineComment" flags="nn" index="3SKdUt">
-        <child id="6329021646629175155" name="commentPart" index="3SKWNk" />
+        <child id="1350122676458893092" name="text" index="3ndbpf" />
       </concept>
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
     </language>
@@ -232,6 +230,14 @@
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+    </language>
+    <language id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text">
+      <concept id="155656958578482948" name="jetbrains.mps.lang.text.structure.Word" flags="ng" index="3oM_SD">
+        <property id="155656958578482949" name="value" index="3oM_SC" />
+      </concept>
+      <concept id="2535923850359271782" name="jetbrains.mps.lang.text.structure.Line" flags="ng" index="1PaTwC">
+        <child id="2535923850359271783" name="elements" index="1PaTwD" />
       </concept>
     </language>
     <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
@@ -339,7 +345,7 @@
     <property role="TrG5h" value="TryCatchActionMap" />
     <ref role="1h_SK9" to="zyto:4WhfN3oe7VL" resolve="TryCatchStatement" />
     <node concept="1hA7zw" id="yiv0byOVAG" role="1h_SK8">
-      <property role="1hAc7j" value="insert_action_id" />
+      <property role="1hAc7j" value="13S4mXuSN7V/insert_action_id" />
       <property role="1hHO97" value="Prevents enter from inserting a new catch block" />
       <node concept="1hAIg9" id="yiv0byOVAH" role="1hA7z_">
         <node concept="3clFbS" id="yiv0byOVAI" role="2VODD2">
@@ -359,7 +365,7 @@
       </node>
     </node>
     <node concept="1hA7zw" id="1WeSXjcqM7Y" role="1h_SK8">
-      <property role="1hAc7j" value="insert_before_action_id" />
+      <property role="1hAc7j" value="13S4mXuSN7W/insert_before_action_id" />
       <property role="1hHO97" value="Prevents enter from inserting a new catch block" />
       <node concept="1hAIg9" id="1WeSXjcqM7Z" role="1hA7z_">
         <node concept="3clFbS" id="1WeSXjcqM80" role="2VODD2">
@@ -426,8 +432,46 @@
         </node>
         <node concept="3clFbH" id="7POJCjggmnt" role="3cqZAp" />
         <node concept="3SKdUt" id="7POJCjggmnu" role="3cqZAp">
-          <node concept="3SKdUq" id="7POJCjggmnv" role="3SKWNk">
-            <property role="3SKdUp" value="This will be the replacement that fixes the new catch by replacing everything" />
+          <node concept="1PaTwC" id="7jWRS$D_1dk" role="3ndbpf">
+            <node concept="3oM_SD" id="7jWRS$D_1dl" role="1PaTwD">
+              <property role="3oM_SC" value="This" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_1dm" role="1PaTwD">
+              <property role="3oM_SC" value="will" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_1dn" role="1PaTwD">
+              <property role="3oM_SC" value="be" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_1do" role="1PaTwD">
+              <property role="3oM_SC" value="the" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_1dp" role="1PaTwD">
+              <property role="3oM_SC" value="replacement" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_1dq" role="1PaTwD">
+              <property role="3oM_SC" value="that" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_1dr" role="1PaTwD">
+              <property role="3oM_SC" value="fixes" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_1ds" role="1PaTwD">
+              <property role="3oM_SC" value="the" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_1dt" role="1PaTwD">
+              <property role="3oM_SC" value="new" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_1du" role="1PaTwD">
+              <property role="3oM_SC" value="catch" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_1dv" role="1PaTwD">
+              <property role="3oM_SC" value="by" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_1dw" role="1PaTwD">
+              <property role="3oM_SC" value="replacing" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_1dx" role="1PaTwD">
+              <property role="3oM_SC" value="everything" />
+            </node>
           </node>
         </node>
         <node concept="3cpWs8" id="7POJCjggmnw" role="3cqZAp">
@@ -447,8 +491,22 @@
         </node>
         <node concept="3clFbH" id="7POJCjggmnA" role="3cqZAp" />
         <node concept="3SKdUt" id="7POJCjggmnB" role="3cqZAp">
-          <node concept="3SKdUq" id="7POJCjggmnC" role="3SKWNk">
-            <property role="3SKdUp" value="Iterate over all sibling statements" />
+          <node concept="1PaTwC" id="7jWRS$D_1dy" role="3ndbpf">
+            <node concept="3oM_SD" id="7jWRS$D_1dz" role="1PaTwD">
+              <property role="3oM_SC" value="Iterate" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_1d$" role="1PaTwD">
+              <property role="3oM_SC" value="over" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_1d_" role="1PaTwD">
+              <property role="3oM_SC" value="all" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_1dA" role="1PaTwD">
+              <property role="3oM_SC" value="sibling" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_1dB" role="1PaTwD">
+              <property role="3oM_SC" value="statements" />
+            </node>
           </node>
         </node>
         <node concept="1Dw8fO" id="7POJCjggmnD" role="3cqZAp">
@@ -480,8 +538,31 @@
             </node>
             <node concept="3clFbH" id="7POJCjggmnS" role="3cqZAp" />
             <node concept="3SKdUt" id="7POJCjggmnT" role="3cqZAp">
-              <node concept="3SKdUq" id="7POJCjggmnU" role="3SKWNk">
-                <property role="3SKdUp" value="If there are variable references, copy them over" />
+              <node concept="1PaTwC" id="7jWRS$D_1dC" role="3ndbpf">
+                <node concept="3oM_SD" id="7jWRS$D_1dD" role="1PaTwD">
+                  <property role="3oM_SC" value="If" />
+                </node>
+                <node concept="3oM_SD" id="7jWRS$D_1dE" role="1PaTwD">
+                  <property role="3oM_SC" value="there" />
+                </node>
+                <node concept="3oM_SD" id="7jWRS$D_1dF" role="1PaTwD">
+                  <property role="3oM_SC" value="are" />
+                </node>
+                <node concept="3oM_SD" id="7jWRS$D_1dG" role="1PaTwD">
+                  <property role="3oM_SC" value="variable" />
+                </node>
+                <node concept="3oM_SD" id="7jWRS$D_1dH" role="1PaTwD">
+                  <property role="3oM_SC" value="references," />
+                </node>
+                <node concept="3oM_SD" id="7jWRS$D_1dI" role="1PaTwD">
+                  <property role="3oM_SC" value="copy" />
+                </node>
+                <node concept="3oM_SD" id="7jWRS$D_1dJ" role="1PaTwD">
+                  <property role="3oM_SC" value="them" />
+                </node>
+                <node concept="3oM_SD" id="7jWRS$D_1dK" role="1PaTwD">
+                  <property role="3oM_SC" value="over" />
+                </node>
               </node>
             </node>
             <node concept="3clFbJ" id="7POJCjggmnV" role="3cqZAp">

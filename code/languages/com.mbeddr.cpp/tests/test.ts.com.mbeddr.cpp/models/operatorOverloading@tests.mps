@@ -2,8 +2,8 @@
 <model ref="r:c3746bc6-a37f-425d-aa06-0fca51eac470(test.ts.com.mbeddr.cpp.operatorOverloading@tests)">
   <persistence version="9" />
   <languages>
-    <use id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test" version="2" />
-    <use id="2d7fadf5-33f6-4e80-a78f-0f739add2bde" name="com.mbeddr.core.buildconfig" version="6" />
+    <use id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test" version="5" />
+    <use id="2d7fadf5-33f6-4e80-a78f-0f739add2bde" name="com.mbeddr.core.buildconfig" version="9" />
     <use id="2693fc71-9b0e-4b05-ab13-f57227d675f2" name="com.mbeddr.core.util" version="0" />
     <use id="783af01f-87a7-412c-be99-293a162652b5" name="com.mbeddr.core.embedded" version="1" />
     <use id="8c081446-e4ba-48b7-a7e0-3db40e2c3439" name="com.mbeddr.cpp.base" version="0" />
@@ -71,7 +71,7 @@
     </language>
     <language id="2d7fadf5-33f6-4e80-a78f-0f739add2bde" name="com.mbeddr.core.buildconfig">
       <concept id="7717755763392524104" name="com.mbeddr.core.buildconfig.structure.BuildConfiguration" flags="ng" index="2v9HqL">
-        <child id="5323740605968447026" name="target" index="2AWWZH" />
+        <child id="5323740605968447026" name="platform" index="2AWWZH" />
       </concept>
       <concept id="8719112291175211294" name="com.mbeddr.core.buildconfig.structure.PlatformReference" flags="ng" index="2xfidK">
         <reference id="8719112291175211414" name="template" index="2xfifS" />
@@ -246,7 +246,7 @@
           <property role="TrG5h" value="OverloadOperators" />
           <node concept="2gom5y" id="32KsbhSQye6" role="3mBdys">
             <property role="3BMcJd" value="false" />
-            <property role="1wg9_F" value="public" />
+            <property role="1wg9_F" value="2Ai0Gt9ODIs/public" />
             <property role="TrG5h" value="OverloadOperators" />
             <ref role="2gom41" node="7SgJHc9swAT" resolve="OverloadOperators" />
             <node concept="3XIRFW" id="32KsbhSQye7" role="1IVm9U" />
@@ -257,8 +257,8 @@
           </node>
           <node concept="2dSIm2" id="7SgJHc9sAK1" role="3mBdys">
             <property role="TrG5h" value="operator" />
-            <property role="1wg9_F" value="public" />
-            <property role="2dBlGS" value="+" />
+            <property role="1wg9_F" value="2Ai0Gt9ODIs/public" />
+            <property role="2dBlGS" value="45rBLTH8Vrd/+" />
             <node concept="19RgSI" id="7SgJHc9sAK2" role="1UOdpc">
               <property role="TrG5h" value="a" />
               <node concept="3mBfEi" id="7SgJHc9sAK3" role="2C2TGm">
@@ -291,8 +291,8 @@
           <node concept="3u$6M4" id="7SgJHc9sB1k" role="3mBdys" />
           <node concept="2dSIm2" id="7SgJHc9s$AJ" role="3mBdys">
             <property role="TrG5h" value="operator" />
-            <property role="1wg9_F" value="public" />
-            <property role="2dBlGS" value="+" />
+            <property role="1wg9_F" value="2Ai0Gt9ODIs/public" />
+            <property role="2dBlGS" value="45rBLTH8Vrd/+" />
             <node concept="19RgSI" id="7SgJHc9s$AK" role="1UOdpc">
               <property role="TrG5h" value="a" />
               <node concept="3mBfEi" id="7SgJHc9s$AL" role="2C2TGm">
@@ -324,8 +324,8 @@
           <node concept="3u$6M4" id="7SgJHc9s$Ne" role="3mBdys" />
           <node concept="2dSIm2" id="7SgJHc9szRu" role="3mBdys">
             <property role="TrG5h" value="operator" />
-            <property role="1wg9_F" value="public" />
-            <property role="2dBlGS" value="*" />
+            <property role="1wg9_F" value="2Ai0Gt9ODIs/public" />
+            <property role="2dBlGS" value="45rBLTH8Vsp/*" />
             <node concept="19RgSI" id="7SgJHc9szSa" role="1UOdpc">
               <property role="TrG5h" value="a" />
               <node concept="3mBfEi" id="7SgJHc9szS8" role="2C2TGm">
@@ -358,8 +358,8 @@
           </node>
           <node concept="2dSIm2" id="7SgJHc9s$Ek" role="3mBdys">
             <property role="TrG5h" value="operator" />
-            <property role="1wg9_F" value="public" />
-            <property role="2dBlGS" value="+=" />
+            <property role="1wg9_F" value="2Ai0Gt9ODIs/public" />
+            <property role="2dBlGS" value="45rBLTHEKZ4/+=" />
             <node concept="19RgSI" id="7SgJHc9s$El" role="1UOdpc">
               <property role="TrG5h" value="a" />
               <node concept="3mBfEi" id="7SgJHc9s$Em" role="2C2TGm">
@@ -392,8 +392,8 @@
           <node concept="3u$6M4" id="7SgJHc9s$SF" role="3mBdys" />
           <node concept="2dSIm2" id="7SgJHc9s$Fl" role="3mBdys">
             <property role="TrG5h" value="operator" />
-            <property role="1wg9_F" value="public" />
-            <property role="2dBlGS" value="[]" />
+            <property role="1wg9_F" value="2Ai0Gt9ODIs/public" />
+            <property role="2dBlGS" value="45rBLTHELAO/[]" />
             <node concept="19RgSI" id="7SgJHc9s$Fo" role="1UOdpc">
               <property role="TrG5h" value="index" />
               <node concept="26Vqqz" id="7SgJHc9s__y" role="2C2TGm">
@@ -410,8 +410,8 @@
           <node concept="3u$6M4" id="7SgJHc9s$XK" role="3mBdys" />
           <node concept="2dSIm2" id="7SgJHc9s$HP" role="3mBdys">
             <property role="TrG5h" value="operator" />
-            <property role="1wg9_F" value="public" />
-            <property role="2dBlGS" value="&gt;=" />
+            <property role="1wg9_F" value="2Ai0Gt9ODIs/public" />
+            <property role="2dBlGS" value="45rBLTHEKY_/&gt;=" />
             <node concept="19RgSI" id="7SgJHc9s$HQ" role="1UOdpc">
               <property role="TrG5h" value="a" />
               <node concept="3mBfEi" id="7SgJHc9s$HR" role="2C2TGm">
@@ -440,7 +440,7 @@
           </node>
           <node concept="3u$6M4" id="7SgJHc9s$C7" role="3mBdys" />
           <node concept="3mB1cK" id="7SgJHc9sCIg" role="3mBdys">
-            <property role="1wg9_F" value="public" />
+            <property role="1wg9_F" value="2Ai0Gt9ODIs/public" />
             <property role="TrG5h" value="takesObject" />
             <node concept="19RgSI" id="7SgJHc9sCIh" role="1UOdpc">
               <property role="TrG5h" value="input" />
@@ -457,7 +457,7 @@
             <node concept="3XIRFW" id="7SgJHc9sCIk" role="3XIRFX" />
           </node>
           <node concept="3mB1cK" id="7SgJHc9sBXy" role="3mBdys">
-            <property role="1wg9_F" value="public" />
+            <property role="1wg9_F" value="2Ai0Gt9ODIs/public" />
             <property role="TrG5h" value="takesInt" />
             <node concept="19RgSI" id="7SgJHc9sCyJ" role="1UOdpc">
               <property role="TrG5h" value="input" />
@@ -698,8 +698,8 @@
             <property role="2c7vTL" value="false" />
           </node>
         </node>
+        <node concept="7CXmI" id="7jWRS$D_4a1" role="lGtFl" />
       </node>
-      <node concept="7CXmI" id="32KsbhSQyrs" role="lGtFl" />
     </node>
   </node>
 </model>

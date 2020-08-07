@@ -2,8 +2,8 @@
 <model ref="r:7e53cc8e-f5be-42c2-a709-827e24470e4e(test.ts.com.mbeddr.cpp.method@tests)">
   <persistence version="9" />
   <languages>
-    <use id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test" version="2" />
-    <use id="2d7fadf5-33f6-4e80-a78f-0f739add2bde" name="com.mbeddr.core.buildconfig" version="6" />
+    <use id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test" version="5" />
+    <use id="2d7fadf5-33f6-4e80-a78f-0f739add2bde" name="com.mbeddr.core.buildconfig" version="9" />
     <use id="2693fc71-9b0e-4b05-ab13-f57227d675f2" name="com.mbeddr.core.util" version="0" />
     <use id="783af01f-87a7-412c-be99-293a162652b5" name="com.mbeddr.core.embedded" version="1" />
     <use id="8c081446-e4ba-48b7-a7e0-3db40e2c3439" name="com.mbeddr.cpp.base" version="0" />
@@ -45,7 +45,7 @@
     </language>
     <language id="2d7fadf5-33f6-4e80-a78f-0f739add2bde" name="com.mbeddr.core.buildconfig">
       <concept id="7717755763392524104" name="com.mbeddr.core.buildconfig.structure.BuildConfiguration" flags="ng" index="2v9HqL">
-        <child id="5323740605968447026" name="target" index="2AWWZH" />
+        <child id="5323740605968447026" name="platform" index="2AWWZH" />
       </concept>
       <concept id="8719112291175211294" name="com.mbeddr.core.buildconfig.structure.PlatformReference" flags="ng" index="2xfidK">
         <reference id="8719112291175211414" name="template" index="2xfifS" />
@@ -83,9 +83,6 @@
       </concept>
       <concept id="5044697665789382396" name="com.mbeddr.cpp.base.structure.MethodDeclaration" flags="ng" index="3mB1cK">
         <child id="4185783222026475860" name="body" index="3XIRFX" />
-      </concept>
-      <concept id="5044697665789421253" name="com.mbeddr.cpp.base.structure.IClassMemberDeclaration" flags="ng" index="3mBbG9">
-        <property id="2995459757115087788" name="visibility" index="1wg9_F" />
       </concept>
       <concept id="5044697665789405022" name="com.mbeddr.cpp.base.structure.ClassType" flags="ng" index="3mBfEi">
         <reference id="5044697665789405054" name="class" index="3mBfEM" />
@@ -163,7 +160,6 @@
           <property role="2OOxQR" value="false" />
           <property role="TrG5h" value="SomeClass" />
           <node concept="3mB1cK" id="48nd0xvgHE" role="3mBdys">
-            <property role="1wg9_F" value="private" />
             <property role="TrG5h" value="nonVirtual" />
             <node concept="19Rifw" id="48nd0xvgJ4" role="2C2TGm">
               <property role="2caQfQ" value="false" />
@@ -178,7 +174,6 @@
             </node>
           </node>
           <node concept="3mB1cK" id="48nd0xcJv4" role="3mBdys">
-            <property role="1wg9_F" value="private" />
             <property role="TrG5h" value="virtualConstexprMethod" />
             <property role="hL25V" value="true" />
             <property role="OtGCv" value="true" />
@@ -196,7 +191,6 @@
             </node>
           </node>
           <node concept="3mB1cK" id="48nd0xjJS8" role="3mBdys">
-            <property role="1wg9_F" value="private" />
             <property role="TrG5h" value="inlineConstexprMethod" />
             <property role="226Go$" value="true" />
             <property role="OtGCv" value="true" />
@@ -215,7 +209,6 @@
             </node>
           </node>
           <node concept="3mB1cK" id="48nd0xjJVf" role="3mBdys">
-            <property role="1wg9_F" value="private" />
             <property role="TrG5h" value="staticVirtualMethod" />
             <property role="226hDV" value="true" />
             <property role="hL25V" value="true" />
@@ -233,7 +226,6 @@
             </node>
           </node>
           <node concept="3mB1cK" id="48nd0xjKvN" role="3mBdys">
-            <property role="1wg9_F" value="private" />
             <property role="TrG5h" value="staticVolatileMethod" />
             <property role="226hDV" value="true" />
             <property role="O23RN" value="true" />
@@ -251,7 +243,6 @@
             </node>
           </node>
           <node concept="3mB1cK" id="48nd0xpZiY" role="3mBdys">
-            <property role="1wg9_F" value="private" />
             <property role="TrG5h" value="staticConstMethod" />
             <property role="226hDV" value="true" />
             <node concept="19Rifw" id="48nd0xpZk0" role="2C2TGm">
@@ -269,7 +260,6 @@
           </node>
           <node concept="3u$6M4" id="48nd0xvgvz" role="3mBdys" />
           <node concept="3mB1cK" id="48nd0xvgBP" role="3mBdys">
-            <property role="1wg9_F" value="private" />
             <property role="TrG5h" value="pureNoVirtualMethod" />
             <property role="hTfT4" value="true" />
             <node concept="19Rifw" id="48nd0xvgD3" role="2C2TGm">
@@ -289,8 +279,8 @@
         <node concept="2NXPZ9" id="1gzloVU_9Jc" role="N3F5h">
           <property role="TrG5h" value="empty_1504854840309_9" />
         </node>
+        <node concept="7CXmI" id="7jWRS$D_3w4" role="lGtFl" />
       </node>
-      <node concept="7CXmI" id="32KsbhSQBHk" role="lGtFl" />
     </node>
   </node>
 </model>

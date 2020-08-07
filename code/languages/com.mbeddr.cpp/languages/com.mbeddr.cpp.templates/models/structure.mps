@@ -2,7 +2,7 @@
 <model ref="r:64e0a2a9-7957-424b-8102-a5e8a7a73035(com.mbeddr.cpp.templates.structure)">
   <persistence version="9" />
   <languages>
-    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="7" />
+    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="9" />
     <devkit ref="78434eb8-b0e5-444b-850d-e7c4ad2da9ab(jetbrains.mps.devkit.aspect.structure)" />
   </languages>
   <imports>
@@ -82,9 +82,8 @@
     <ref role="1TJDcQ" to="mj1l:7FQByU3CrCQ" resolve="Type" />
     <node concept="1TJgyj" id="2_lkiVk2Aqn" role="1TKVEi">
       <property role="IQ2ns" value="2978375990143248023" />
-      <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="def" />
-      <property role="20lbJX" value="1" />
+      <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="2_lkiViLGkv" resolve="TemplateTypeDef" />
       <node concept="t5JxF" id="3J_5hL3LcKM" role="lGtFl">
         <property role="t5JxN" value="The type we're referencing" />
@@ -116,9 +115,9 @@
     <property role="TrG5h" value="ITemplate" />
     <node concept="1TJgyj" id="ZKpU3BvynB" role="1TKVEi">
       <property role="IQ2ns" value="1148531845755708903" />
-      <property role="20lmBu" value="aggregation" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="types" />
-      <property role="20lbJX" value="1..n" />
+      <property role="20lbJX" value="fLJekj6/_1__n" />
       <ref role="20lvS9" node="1iZHTjWJh0D" resolve="ITemplateParam" />
       <node concept="t5JxF" id="3J_5hL3KfGu" role="lGtFl">
         <property role="t5JxN" value="The list of template types inside the definition" />
@@ -163,9 +162,9 @@
     <property role="TrG5h" value="ITemplateImpl" />
     <node concept="1TJgyj" id="ZKpU3C47B7" role="1TKVEi">
       <property role="IQ2ns" value="1148531845765298631" />
-      <property role="20lmBu" value="aggregation" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="types" />
-      <property role="20lbJX" value="0..n" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="1iZHTjWJijg" resolve="ITemplateArg" />
       <node concept="t5JxF" id="3J_5hL3KfXy" role="lGtFl">
         <property role="t5JxN" value="The arguments in the template" />
@@ -223,9 +222,9 @@
     </node>
     <node concept="1TJgyj" id="1iZHTjWJHG1" role="1TKVEi">
       <property role="IQ2ns" value="1495115451833703169" />
-      <property role="20lmBu" value="aggregation" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="type" />
-      <property role="20lbJX" value="1" />
+      <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" to="mj1l:7FQByU3CrCQ" resolve="Type" />
       <node concept="t5JxF" id="3J_5hL3Lhwm" role="lGtFl">
         <property role="t5JxN" value="The type being defined" />
@@ -263,9 +262,9 @@
     </node>
     <node concept="1TJgyj" id="1iZHTjWMS$t" role="1TKVEi">
       <property role="IQ2ns" value="1495115451834534173" />
-      <property role="20lmBu" value="aggregation" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="expression" />
-      <property role="20lbJX" value="1" />
+      <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" to="mj1l:7FQByU3CrCM" resolve="Expression" />
     </node>
     <node concept="t5JxF" id="3J_5hL3LflP" role="lGtFl">
@@ -278,9 +277,8 @@
     <ref role="1TJDcQ" to="mj1l:7FQByU3CrCM" resolve="Expression" />
     <node concept="1TJgyj" id="1iZHTjWNhki" role="1TKVEi">
       <property role="IQ2ns" value="1495115451834635538" />
-      <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="param" />
-      <property role="20lbJX" value="1" />
+      <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="1iZHTjWMvf4" resolve="TemplateValueParam" />
       <node concept="t5JxF" id="3J_5hL3Lfm4" role="lGtFl">
         <property role="t5JxN" value="The declaration of the value param" />
@@ -306,9 +304,9 @@
     </node>
     <node concept="1TJgyj" id="1iZHTjWSdil" role="1TKVEi">
       <property role="IQ2ns" value="1495115451835929749" />
-      <property role="20lmBu" value="aggregation" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="expression" />
-      <property role="20lbJX" value="1" />
+      <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" to="mj1l:7FQByU3CrCM" resolve="Expression" />
     </node>
     <node concept="t5JxF" id="3J_5hL3LflY" role="lGtFl">
@@ -324,9 +322,9 @@
     </node>
     <node concept="1TJgyj" id="1iZHTjWSdj6" role="1TKVEi">
       <property role="IQ2ns" value="1495115451835929798" />
-      <property role="20lmBu" value="aggregation" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="type" />
-      <property role="20lbJX" value="1" />
+      <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" to="mj1l:7FQByU3CrCQ" resolve="Type" />
       <node concept="t5JxF" id="3J_5hL3LcKP" role="lGtFl">
         <property role="t5JxN" value="The default type." />

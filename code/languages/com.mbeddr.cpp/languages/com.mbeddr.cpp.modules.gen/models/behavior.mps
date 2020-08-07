@@ -4,6 +4,7 @@
   <languages>
     <use id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior" version="2" />
     <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="9" />
     <devkit ref="2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)" />
   </languages>
   <imports>
@@ -115,11 +116,8 @@
       <concept id="1178549954367" name="jetbrains.mps.baseLanguage.structure.IVisible" flags="ng" index="1B3ioH">
         <child id="1178549979242" name="visibility" index="1B3o_S" />
       </concept>
-      <concept id="6329021646629104957" name="jetbrains.mps.baseLanguage.structure.TextCommentPart" flags="nn" index="3SKdUq">
-        <property id="6329021646629104958" name="text" index="3SKdUp" />
-      </concept>
       <concept id="6329021646629104954" name="jetbrains.mps.baseLanguage.structure.SingleLineComment" flags="nn" index="3SKdUt">
-        <child id="6329021646629175155" name="commentPart" index="3SKWNk" />
+        <child id="1350122676458893092" name="text" index="3ndbpf" />
       </concept>
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
       <concept id="1080120340718" name="jetbrains.mps.baseLanguage.structure.AndExpression" flags="nn" index="1Wc70l" />
@@ -198,6 +196,14 @@
       </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+    </language>
+    <language id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text">
+      <concept id="155656958578482948" name="jetbrains.mps.lang.text.structure.Word" flags="ng" index="3oM_SD">
+        <property id="155656958578482949" name="value" index="3oM_SC" />
+      </concept>
+      <concept id="2535923850359271782" name="jetbrains.mps.lang.text.structure.Line" flags="ng" index="1PaTwC">
+        <child id="2535923850359271783" name="elements" index="1PaTwD" />
       </concept>
     </language>
     <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
@@ -669,8 +675,37 @@
         </node>
         <node concept="3clFbH" id="7iR9kVxYgsx" role="3cqZAp" />
         <node concept="3SKdUt" id="7mGKYHhD6Eh" role="3cqZAp">
-          <node concept="3SKdUq" id="7mGKYHhD6Ej" role="3SKWNk">
-            <property role="3SKdUp" value="Check for IUsageRequiresStdImport and add all the headers from that." />
+          <node concept="1PaTwC" id="7jWRS$D_1iA" role="3ndbpf">
+            <node concept="3oM_SD" id="7jWRS$D_1iB" role="1PaTwD">
+              <property role="3oM_SC" value="Check" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_1iC" role="1PaTwD">
+              <property role="3oM_SC" value="for" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_1iD" role="1PaTwD">
+              <property role="3oM_SC" value="IUsageRequiresStdImport" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_1iE" role="1PaTwD">
+              <property role="3oM_SC" value="and" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_1iF" role="1PaTwD">
+              <property role="3oM_SC" value="add" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_1iG" role="1PaTwD">
+              <property role="3oM_SC" value="all" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_1iH" role="1PaTwD">
+              <property role="3oM_SC" value="the" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_1iI" role="1PaTwD">
+              <property role="3oM_SC" value="headers" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_1iJ" role="1PaTwD">
+              <property role="3oM_SC" value="from" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_1iK" role="1PaTwD">
+              <property role="3oM_SC" value="that." />
+            </node>
           </node>
         </node>
         <node concept="2Gpval" id="7mGKYHhD7v6" role="3cqZAp">
@@ -713,8 +748,46 @@
               </node>
               <node concept="3clFbS" id="7mGKYHhDXi7" role="2LFqv$">
                 <node concept="3SKdUt" id="7mGKYHhDWqo" role="3cqZAp">
-                  <node concept="3SKdUq" id="7mGKYHhDWqq" role="3SKWNk">
-                    <property role="3SKdUp" value="If this import is not already in the list of imports, add it" />
+                  <node concept="1PaTwC" id="7jWRS$D_1iL" role="3ndbpf">
+                    <node concept="3oM_SD" id="7jWRS$D_1iM" role="1PaTwD">
+                      <property role="3oM_SC" value="If" />
+                    </node>
+                    <node concept="3oM_SD" id="7jWRS$D_1iN" role="1PaTwD">
+                      <property role="3oM_SC" value="this" />
+                    </node>
+                    <node concept="3oM_SD" id="7jWRS$D_1iO" role="1PaTwD">
+                      <property role="3oM_SC" value="import" />
+                    </node>
+                    <node concept="3oM_SD" id="7jWRS$D_1iP" role="1PaTwD">
+                      <property role="3oM_SC" value="is" />
+                    </node>
+                    <node concept="3oM_SD" id="7jWRS$D_1iQ" role="1PaTwD">
+                      <property role="3oM_SC" value="not" />
+                    </node>
+                    <node concept="3oM_SD" id="7jWRS$D_1iR" role="1PaTwD">
+                      <property role="3oM_SC" value="already" />
+                    </node>
+                    <node concept="3oM_SD" id="7jWRS$D_1iS" role="1PaTwD">
+                      <property role="3oM_SC" value="in" />
+                    </node>
+                    <node concept="3oM_SD" id="7jWRS$D_1iT" role="1PaTwD">
+                      <property role="3oM_SC" value="the" />
+                    </node>
+                    <node concept="3oM_SD" id="7jWRS$D_1iU" role="1PaTwD">
+                      <property role="3oM_SC" value="list" />
+                    </node>
+                    <node concept="3oM_SD" id="7jWRS$D_1iV" role="1PaTwD">
+                      <property role="3oM_SC" value="of" />
+                    </node>
+                    <node concept="3oM_SD" id="7jWRS$D_1iW" role="1PaTwD">
+                      <property role="3oM_SC" value="imports," />
+                    </node>
+                    <node concept="3oM_SD" id="7jWRS$D_1iX" role="1PaTwD">
+                      <property role="3oM_SC" value="add" />
+                    </node>
+                    <node concept="3oM_SD" id="7jWRS$D_1iY" role="1PaTwD">
+                      <property role="3oM_SC" value="it" />
+                    </node>
                   </node>
                 </node>
                 <node concept="3clFbJ" id="7mGKYHhDXBf" role="3cqZAp">
@@ -1100,8 +1173,19 @@
     <node concept="13hLZK" id="3LE5RBQ_bLB" role="13h7CW">
       <node concept="3clFbS" id="3LE5RBQ_bLC" role="2VODD2">
         <node concept="3SKdUt" id="3J_5hL3JMZs" role="3cqZAp">
-          <node concept="3SKdUq" id="3J_5hL3JMZu" role="3SKWNk">
-            <property role="3SKdUp" value="Avoids a nameless error" />
+          <node concept="1PaTwC" id="7jWRS$D_1iZ" role="3ndbpf">
+            <node concept="3oM_SD" id="7jWRS$D_1j0" role="1PaTwD">
+              <property role="3oM_SC" value="Avoids" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_1j1" role="1PaTwD">
+              <property role="3oM_SC" value="a" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_1j2" role="1PaTwD">
+              <property role="3oM_SC" value="nameless" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_1j3" role="1PaTwD">
+              <property role="3oM_SC" value="error" />
+            </node>
           </node>
         </node>
         <node concept="3clFbF" id="3LE5RBQ_bLM" role="3cqZAp">
@@ -1132,8 +1216,61 @@
       <node concept="3Tm1VV" id="ZKpU3Cdh9v" role="1B3o_S" />
       <node concept="3clFbS" id="ZKpU3Cdh9$" role="3clF47">
         <node concept="3SKdUt" id="3J_5hL3JPDD" role="3cqZAp">
-          <node concept="3SKdUq" id="3J_5hL3JPDF" role="3SKWNk">
-            <property role="3SKdUp" value="Tells template class implementations to stay in the header only and not make their way into an implementation" />
+          <node concept="1PaTwC" id="7jWRS$D_1j4" role="3ndbpf">
+            <node concept="3oM_SD" id="7jWRS$D_1j5" role="1PaTwD">
+              <property role="3oM_SC" value="Tells" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_1j6" role="1PaTwD">
+              <property role="3oM_SC" value="template" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_1j7" role="1PaTwD">
+              <property role="3oM_SC" value="class" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_1j8" role="1PaTwD">
+              <property role="3oM_SC" value="implementations" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_1j9" role="1PaTwD">
+              <property role="3oM_SC" value="to" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_1ja" role="1PaTwD">
+              <property role="3oM_SC" value="stay" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_1jb" role="1PaTwD">
+              <property role="3oM_SC" value="in" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_1jc" role="1PaTwD">
+              <property role="3oM_SC" value="the" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_1jd" role="1PaTwD">
+              <property role="3oM_SC" value="header" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_1je" role="1PaTwD">
+              <property role="3oM_SC" value="only" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_1jf" role="1PaTwD">
+              <property role="3oM_SC" value="and" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_1jg" role="1PaTwD">
+              <property role="3oM_SC" value="not" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_1jh" role="1PaTwD">
+              <property role="3oM_SC" value="make" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_1ji" role="1PaTwD">
+              <property role="3oM_SC" value="their" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_1jj" role="1PaTwD">
+              <property role="3oM_SC" value="way" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_1jk" role="1PaTwD">
+              <property role="3oM_SC" value="into" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_1jl" role="1PaTwD">
+              <property role="3oM_SC" value="an" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_1jm" role="1PaTwD">
+              <property role="3oM_SC" value="implementation" />
+            </node>
           </node>
         </node>
         <node concept="3cpWs6" id="ZKpU3CdhlL" role="3cqZAp">

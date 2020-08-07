@@ -2,7 +2,7 @@
 <model ref="r:1a1db370-da0d-45f6-99b5-c31d325a1744(test.ts.com.mbeddr.cpp.dynamicmemory@tests)">
   <persistence version="9" />
   <languages>
-    <use id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test" version="2" />
+    <use id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test" version="5" />
     <devkit ref="bdd1ab49-ce55-4bff-86d1-5394fa0aa930(com.mbeddr.cpp)" />
   </languages>
   <imports>
@@ -69,7 +69,7 @@
     </language>
     <language id="2d7fadf5-33f6-4e80-a78f-0f739add2bde" name="com.mbeddr.core.buildconfig">
       <concept id="7717755763392524104" name="com.mbeddr.core.buildconfig.structure.BuildConfiguration" flags="ng" index="2v9HqL">
-        <child id="5323740605968447026" name="target" index="2AWWZH" />
+        <child id="5323740605968447026" name="platform" index="2AWWZH" />
       </concept>
       <concept id="8719112291175211294" name="com.mbeddr.core.buildconfig.structure.PlatformReference" flags="ng" index="2xfidK">
         <reference id="8719112291175211414" name="template" index="2xfifS" />
@@ -217,7 +217,7 @@
           <property role="TrG5h" value="SomeClass" />
           <node concept="3mBbG7" id="72UYQRWDNV1" role="3mBdys">
             <property role="TrG5h" value="testInt1" />
-            <property role="1wg9_F" value="public" />
+            <property role="1wg9_F" value="2Ai0Gt9ODIs/public" />
             <node concept="26Vqpk" id="72UYQRWDNWt" role="2C2TGm">
               <property role="2caQfQ" value="false" />
               <property role="2c7vTL" value="false" />
@@ -225,7 +225,7 @@
           </node>
           <node concept="2gom5y" id="72UYQRWDO$r" role="3mBdys">
             <property role="3BMcJd" value="false" />
-            <property role="1wg9_F" value="public" />
+            <property role="1wg9_F" value="2Ai0Gt9ODIs/public" />
             <property role="TrG5h" value="SomeClass" />
             <ref role="2gom41" node="1gzloVU_9IW" resolve="SomeClass" />
             <node concept="3XIRFW" id="72UYQRWDO$s" role="1IVm9U" />
@@ -405,8 +405,8 @@
         <node concept="2NXPZ9" id="1gzloVU_9Jc" role="N3F5h">
           <property role="TrG5h" value="empty_1504854840309_9" />
         </node>
+        <node concept="7CXmI" id="7jWRS$D_3qZ" role="lGtFl" />
       </node>
-      <node concept="7CXmI" id="32KsbhSQDAF" role="lGtFl" />
     </node>
   </node>
 </model>

@@ -2,7 +2,7 @@
 <model ref="r:5f2f631d-7039-4667-ac0e-fcb57605da42(test.ts.com.mbeddr.cpp.staticContext@tests)">
   <persistence version="9" />
   <languages>
-    <use id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test" version="2" />
+    <use id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test" version="5" />
     <use id="8c081446-e4ba-48b7-a7e0-3db40e2c3439" name="com.mbeddr.cpp.base" version="0" />
     <use id="dd4979e3-3be6-46b3-9e1e-c36309e30758" name="com.mbeddr.cpp.modules" version="0" />
     <devkit ref="bdd1ab49-ce55-4bff-86d1-5394fa0aa930(com.mbeddr.cpp)" />
@@ -18,7 +18,9 @@
       <concept id="1215603922101" name="jetbrains.mps.lang.test.structure.NodeOperationsContainer" flags="ng" index="7CXmI">
         <child id="1215604436604" name="nodeOperations" index="7EUXB" />
       </concept>
-      <concept id="1215607067978" name="jetbrains.mps.lang.test.structure.CheckNodeForErrorMessagesOperation" flags="ng" index="7OXhh" />
+      <concept id="1215607067978" name="jetbrains.mps.lang.test.structure.CheckNodeForErrorMessagesOperation" flags="ng" index="7OXhh">
+        <property id="3743352646565420194" name="includeSelf" index="GvXf4" />
+      </concept>
       <concept id="7691029917083872157" name="jetbrains.mps.lang.test.structure.IRuleReference" flags="ng" index="2u4UPC">
         <reference id="8333855927540250453" name="declaration" index="39XzEq" />
       </concept>
@@ -122,7 +124,7 @@
           <node concept="3mBbG7" id="7j9KGYMR9y4" role="3mBdys">
             <property role="TrG5h" value="static_field" />
             <property role="226hDV" value="true" />
-            <property role="1wg9_F" value="public" />
+            <property role="1wg9_F" value="2Ai0Gt9ODIs/public" />
             <node concept="26Vqph" id="7j9KGYMR9yf" role="2C2TGm">
               <property role="2caQfQ" value="false" />
               <property role="2c7vTL" value="false" />
@@ -148,7 +150,6 @@
           </node>
           <node concept="3u$6M4" id="7j9KGYMRakn" role="3mBdys" />
           <node concept="3mB1cK" id="7j9KGYMR9z5" role="3mBdys">
-            <property role="1wg9_F" value="private" />
             <property role="TrG5h" value="non_constexpr_method" />
             <property role="OtGCv" value="false" />
             <node concept="26Vqph" id="7j9KGYMR9zo" role="2C2TGm">
@@ -165,7 +166,6 @@
           </node>
           <node concept="3u$6M4" id="7j9KGYMRa7h" role="3mBdys" />
           <node concept="3mB1cK" id="7j9KGYMRa9t" role="3mBdys">
-            <property role="1wg9_F" value="private" />
             <property role="TrG5h" value="static_method" />
             <property role="226hDV" value="true" />
             <node concept="19Rifw" id="7j9KGYMRabo" role="2C2TGm">
@@ -203,9 +203,11 @@
         <node concept="2NXPZ9" id="7j9KGYMR9xT" role="N3F5h">
           <property role="TrG5h" value="empty_1528275076168_1" />
         </node>
-      </node>
-      <node concept="7CXmI" id="32KsbhSQEaS" role="lGtFl">
-        <node concept="7OXhh" id="32KsbhSQEco" role="7EUXB" />
+        <node concept="7CXmI" id="32KsbhSQEaS" role="lGtFl">
+          <node concept="7OXhh" id="32KsbhSQEco" role="7EUXB">
+            <property role="GvXf4" value="true" />
+          </node>
+        </node>
       </node>
     </node>
   </node>

@@ -60,6 +60,7 @@
       <concept id="1138056282393" name="jetbrains.mps.lang.smodel.structure.SLinkListAccess" flags="nn" index="3Tsc0h">
         <reference id="1138056546658" name="link" index="3TtcxE" />
       </concept>
+      <concept id="5779574625832259537" name="jetbrains.mps.lang.smodel.structure.EnumMember_PresentationOperation" flags="ng" index="1XCIdh" />
     </language>
   </registry>
   <node concept="WtQ9Q" id="7bt9OVZgbcN">
@@ -79,10 +80,13 @@
             <property role="lacIc" value=" operator" />
           </node>
           <node concept="l9hG8" id="3LE5RBQz7ay" role="lcghm">
-            <node concept="2OqwBi" id="3LE5RBQz7$2" role="lb14g">
-              <node concept="117lpO" id="3LE5RBQz7iw" role="2Oq$k0" />
-              <node concept="3TrcHB" id="3LE5RBQz80W" role="2OqNvi">
-                <ref role="3TsBF5" to="zhp8:7bt9OVZg7LQ" resolve="operator" />
+            <node concept="2OqwBi" id="7jWRS$D$ZTa" role="lb14g">
+              <node concept="1XCIdh" id="7jWRS$D$ZTc" role="2OqNvi" />
+              <node concept="2OqwBi" id="3LE5RBQz7$2" role="2Oq$k0">
+                <node concept="117lpO" id="3LE5RBQz7iw" role="2Oq$k0" />
+                <node concept="3TrcHB" id="3LE5RBQz80W" role="2OqNvi">
+                  <ref role="3TsBF5" to="zhp8:7jWRS$D$ZDG" resolve="operator" />
+                </node>
               </node>
             </node>
           </node>
@@ -145,10 +149,13 @@
             <property role="lacIc" value=" operator" />
           </node>
           <node concept="l9hG8" id="3LE5RBQa_ZR" role="lcghm">
-            <node concept="2OqwBi" id="3LE5RBQaAqc" role="lb14g">
-              <node concept="117lpO" id="3LE5RBQaA8b" role="2Oq$k0" />
-              <node concept="3TrcHB" id="3LE5RBQpq9l" role="2OqNvi">
-                <ref role="3TsBF5" to="zhp8:7bt9OVZg7LQ" resolve="operator" />
+            <node concept="2OqwBi" id="7jWRS$D$ZTd" role="lb14g">
+              <node concept="1XCIdh" id="7jWRS$D$ZTf" role="2OqNvi" />
+              <node concept="2OqwBi" id="3LE5RBQaAqc" role="2Oq$k0">
+                <node concept="117lpO" id="3LE5RBQaA8b" role="2Oq$k0" />
+                <node concept="3TrcHB" id="3LE5RBQpq9l" role="2OqNvi">
+                  <ref role="3TsBF5" to="zhp8:7jWRS$D$ZDG" resolve="operator" />
+                </node>
               </node>
             </node>
           </node>

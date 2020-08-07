@@ -21,13 +21,13 @@
     </language>
     <language id="2d7fadf5-33f6-4e80-a78f-0f739add2bde" name="com.mbeddr.core.buildconfig">
       <concept id="5046689135693761556" name="com.mbeddr.core.buildconfig.structure.Binary" flags="ng" index="2eOfOj">
-        <reference id="2504745233808502246" name="target" index="3oK8_y" />
         <child id="5046689135693761559" name="referencedModules" index="2eOfOg" />
+        <child id="5476261277775063442" name="target" index="1kZvWc" />
       </concept>
       <concept id="5046689135693761554" name="com.mbeddr.core.buildconfig.structure.Executable" flags="ng" index="2eOfOl" />
       <concept id="7717755763392524104" name="com.mbeddr.core.buildconfig.structure.BuildConfiguration" flags="ng" index="2v9HqL">
         <child id="5046689135694070731" name="binaries" index="2ePNbc" />
-        <child id="5323740605968447026" name="target" index="2AWWZH" />
+        <child id="5323740605968447026" name="platform" index="2AWWZH" />
       </concept>
       <concept id="7717755763392524107" name="com.mbeddr.core.buildconfig.structure.ModuleRef" flags="ng" index="2v9HqM">
         <reference id="7717755763392524108" name="module" index="2v9HqP" />
@@ -35,13 +35,11 @@
       <concept id="5323740605968447022" name="com.mbeddr.core.buildconfig.structure.DesktopPlatform" flags="ng" index="2AWWZL">
         <property id="5323740605968447025" name="compilerOptions" index="2AWWZI" />
         <property id="5323740605968447024" name="compiler" index="2AWWZJ" />
+        <property id="8774011376396215812" name="linker" index="18_EFo" />
         <property id="3963667026125442601" name="gdb" index="3r8Kw1" />
         <property id="3963667026125442676" name="make" index="3r8Kxs" />
       </concept>
-      <concept id="5323740605968447019" name="com.mbeddr.core.buildconfig.structure.Platform" flags="ng" index="2AWWZO">
-        <child id="1485382076185232212" name="targets" index="3anu1O" />
-      </concept>
-      <concept id="1485382076184236780" name="com.mbeddr.core.buildconfig.structure.Target" flags="ng" index="3abb7c" />
+      <concept id="5476261277774503065" name="com.mbeddr.core.buildconfig.structure.Any" flags="ng" index="1l1$C7" />
       <concept id="2736179788492003936" name="com.mbeddr.core.buildconfig.structure.IDebuggablePlatform" flags="ng" index="1FkSt_">
         <property id="2736179788492003937" name="debugOptions" index="1FkSt$" />
       </concept>
@@ -134,7 +132,7 @@
         <child id="7755897872837031764" name="expected" index="2N2GHh" />
       </concept>
       <concept id="7755897872837082045" name="com.mbeddr.core.unittest.structure.AssertEquals" flags="ng" index="2N2KuS" />
-      <concept id="8610007178384196427" name="com.mbeddr.core.unittest.structure.TestCaseConfigItem" flags="ng" index="12mU2y" />
+      <concept id="8610007178384196427" name="com.mbeddr.core.unittest.structure.UnitTestConfigItem" flags="ng" index="12mU2y" />
       <concept id="5686538669182340985" name="com.mbeddr.core.unittest.structure.TestCaseRef" flags="ng" index="3cM6IN">
         <reference id="5686538669182340986" name="testcase" index="3cM6IK" />
       </concept>
@@ -190,7 +188,7 @@
       <node concept="2gom5y" id="7wcjSRttVKs" role="3mBdys">
         <property role="3BMcJd" value="false" />
         <property role="TrG5h" value="ParentClass" />
-        <property role="1wg9_F" value="public" />
+        <property role="1wg9_F" value="2Ai0Gt9ODIs/public" />
         <ref role="2gom41" node="6KmaLbDZm15" resolve="ParentClass" />
         <node concept="3XIRFW" id="7wcjSRttVKt" role="1IVm9U" />
         <node concept="2dFNQU" id="7wcjSRttVKu" role="2C2TGm">
@@ -200,7 +198,7 @@
       </node>
       <node concept="3mBbG7" id="7wcjSRttVKQ" role="3mBdys">
         <property role="TrG5h" value="parentY" />
-        <property role="1wg9_F" value="protected" />
+        <property role="1wg9_F" value="2Ai0Gt9ODIw/protected" />
         <node concept="26Vqph" id="7wcjSRttVL9" role="2C2TGm">
           <property role="2caQfQ" value="false" />
           <property role="2c7vTL" value="false" />
@@ -218,7 +216,7 @@
       <property role="TrG5h" value="ClassName" />
       <node concept="3mBbG7" id="29cSqvdU9AJ" role="3mBdys">
         <property role="TrG5h" value="x" />
-        <property role="1wg9_F" value="public" />
+        <property role="1wg9_F" value="2Ai0Gt9ODIs/public" />
         <node concept="26Vqph" id="29cSqvdU9DR" role="2C2TGm">
           <property role="2caQfQ" value="false" />
           <property role="2c7vTL" value="false" />
@@ -233,7 +231,7 @@
       <node concept="2gom5y" id="7wcjSRttVPm" role="3mBdys">
         <property role="3BMcJd" value="false" />
         <property role="TrG5h" value="ClassName" />
-        <property role="1wg9_F" value="public" />
+        <property role="1wg9_F" value="2Ai0Gt9ODIs/public" />
         <ref role="2gom41" node="7wcjSRttVMY" resolve="ClassName" />
         <node concept="3XIRFW" id="7wcjSRttVPn" role="1IVm9U" />
         <node concept="2dFNQU" id="7wcjSRttVPo" role="2C2TGm">
@@ -270,7 +268,7 @@
       <node concept="2gom5y" id="7wcjSRtzLBl" role="3mBdys">
         <property role="3BMcJd" value="false" />
         <property role="TrG5h" value="ClassName" />
-        <property role="1wg9_F" value="public" />
+        <property role="1wg9_F" value="2Ai0Gt9ODIs/public" />
         <property role="hL25V" value="false" />
         <property role="OtGCv" value="false" />
         <ref role="2gom41" node="7wcjSRttVMY" resolve="ClassName" />
@@ -298,7 +296,7 @@
       <node concept="2gom5y" id="7wcjSRtzLD7" role="3mBdys">
         <property role="3BMcJd" value="true" />
         <property role="TrG5h" value="ClassName" />
-        <property role="1wg9_F" value="public" />
+        <property role="1wg9_F" value="2Ai0Gt9ODIs/public" />
         <property role="hL25V" value="false" />
         <property role="hTfT4" value="false" />
         <property role="OtGCv" value="false" />
@@ -391,24 +389,15 @@
       <property role="3r8Kxs" value="make" />
       <property role="1FkSt$" value="-g" />
       <property role="2AWWZI" value=" " />
-      <node concept="3abb7c" id="3v5DuFDkAwk" role="3anu1O">
-        <property role="TrG5h" value="Win32" />
-      </node>
-      <node concept="3abb7c" id="3v5DuFDkAwm" role="3anu1O">
-        <property role="TrG5h" value="Linux" />
-      </node>
-      <node concept="3abb7c" id="3v5DuFDkAwn" role="3anu1O">
-        <property role="TrG5h" value="portable" />
-      </node>
-      <node concept="3abb7c" id="3v5DuFDkAwl" role="3anu1O">
-        <property role="TrG5h" value="MacOSX" />
-      </node>
+      <property role="18_EFo" value="gcc" />
     </node>
     <node concept="2eOfOl" id="4o2nsMgBpPF" role="2ePNbc">
       <property role="TrG5h" value="Constructor" />
-      <ref role="3oK8_y" node="3v5DuFDkAwn" resolve="portable" />
       <node concept="2v9HqM" id="2QzMXD3t6yR" role="2eOfOg">
         <ref role="2v9HqP" node="6KmaLbDZjG7" resolve="Constructor" />
+      </node>
+      <node concept="1l1$C7" id="7jWRS$D_1$f" role="1kZvWc">
+        <property role="TrG5h" value="any" />
       </node>
     </node>
     <node concept="2Q9Fgs" id="3v5DuFDtvd1" role="2Q9xDr">
