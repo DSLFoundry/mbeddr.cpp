@@ -3,6 +3,7 @@
 <model ref="r:af25ab7a-5a08-46f9-a8a3-524ad85c167d(com.mbeddr.cpp.base.intentions)">
   <persistence version="9" />
   <languages>
+<<<<<<< HEAD
     <use id="d7a92d38-f7db-40d0-8431-763b0c3c9f20" name="jetbrains.mps.lang.intentions" version="0" />
 =======
 <model ref="r:3bd5f204-8063-47fb-8012-2c715c7d86f5(com.mbeddr.cpp.base.intentions)">
@@ -16,6 +17,12 @@
     <use id="c7d5b9dd-a05f-4be2-bc73-f2e16994cc67" name="jetbrains.mps.baseLanguage.lightweightdsl" version="1" />
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="6" />
 >>>>>>> 5b543f017e... Added intention PasteCPP and outline of implementation idea.
+=======
+    <use id="d7a92d38-f7db-40d0-8431-763b0c3c9f20" name="jetbrains.mps.lang.intentions" version="-1" />
+    <use id="b92f861d-0184-446d-b88b-6dcf0e070241" name="com.mbeddr.mpsutil.intentions" version="-1" />
+    <use id="c7d5b9dd-a05f-4be2-bc73-f2e16994cc67" name="jetbrains.mps.baseLanguage.lightweightdsl" version="-1" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="8" />
+>>>>>>> 635c84c995... migrated to 2018.3
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>

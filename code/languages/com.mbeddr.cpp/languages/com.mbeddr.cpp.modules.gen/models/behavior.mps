@@ -2,7 +2,7 @@
 <model ref="r:9ce47a08-031d-4637-a8ea-d2a3789a14cc(com.mbeddr.cpp.modules.gen.behavior)">
   <persistence version="9" />
   <languages>
-    <use id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior" version="1" />
+    <use id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior" version="2" />
     <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
     <devkit ref="2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)" />
   </languages>
@@ -28,7 +28,6 @@
   </imports>
   <registry>
     <language id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior">
-      <concept id="6496299201655527393" name="jetbrains.mps.lang.behavior.structure.LocalBehaviorMethodCall" flags="nn" index="BsUDl" />
       <concept id="1225194240794" name="jetbrains.mps.lang.behavior.structure.ConceptBehavior" flags="ng" index="13h7C7">
         <reference id="1225194240799" name="concept" index="13h7C2" />
         <child id="1225194240805" name="method" index="13h7CS" />
@@ -36,6 +35,7 @@
       </concept>
       <concept id="1225194413805" name="jetbrains.mps.lang.behavior.structure.ConceptConstructorDeclaration" flags="in" index="13hLZK" />
       <concept id="1225194472830" name="jetbrains.mps.lang.behavior.structure.ConceptMethodDeclaration" flags="ng" index="13i0hz">
+        <property id="5864038008284099149" name="isStatic" index="2Ki8OM" />
         <property id="1225194472832" name="isVirtual" index="13i0it" />
         <property id="1225194472834" name="isAbstract" index="13i0iv" />
         <reference id="1225194472831" name="overriddenMethod" index="13i0hy" />
@@ -1129,6 +1129,7 @@
     <ref role="13h7C2" to="pmno:7DDmkzf7zb" resolve="GenConstructorPrototype" />
     <node concept="13i0hz" id="4KyQ_QhB97R" role="13h7CS">
       <property role="TrG5h" value="getNewInitializer" />
+      <property role="2Ki8OM" value="true" />
       <node concept="3Tm1VV" id="4KyQ_QhB97S" role="1B3o_S" />
       <node concept="2I9FWS" id="4KyQ_QhB9Ky" role="3clF45">
         <ref role="2I9WkF" to="wnzg:3n$8_Xbpg8r" resolve="IAmConstructorInitializable" />
@@ -1236,8 +1237,13 @@
               </node>
             </node>
             <node concept="X8dFx" id="4KyQ_QhBEO_" role="2OqNvi">
-              <node concept="BsUDl" id="4KyQ_QhBG0Q" role="25WWJ7">
-                <ref role="37wK5l" node="4KyQ_QhB97R" resolve="getNewInitializer" />
+              <node concept="2OqwBi" id="2OCJl3Lwn_r" role="25WWJ7">
+                <node concept="35c_gC" id="2OCJl3LwkKX" role="2Oq$k0">
+                  <ref role="35c_gD" to="pmno:7DDmkzf7zb" resolve="GenConstructorPrototype" />
+                </node>
+                <node concept="2qgKlT" id="2OCJl3Lwptp" role="2OqNvi">
+                  <ref role="37wK5l" node="4KyQ_QhB97R" resolve="getNewInitializer" />
+                </node>
               </node>
             </node>
           </node>
