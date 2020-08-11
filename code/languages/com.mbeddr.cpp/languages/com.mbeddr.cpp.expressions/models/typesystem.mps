@@ -22,6 +22,7 @@
     <import index="p3tm" ref="r:7b158038-abbe-4e11-b171-d5a959b4e91a(com.mbeddr.core.modules.typesystem)" />
     <import index="x27k" ref="r:75ecab8a-8931-4140-afc6-4b46398710fc(com.mbeddr.core.modules.structure)" />
     <import index="g7jk" ref="r:e06e24a5-d0fa-4f76-9dee-2042532d92a1(com.mbeddr.cpp.base.typesystem)" />
+    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="3d25" ref="r:b51ed3f8-f18c-4b51-8a93-f4ee7f6adf9a(com.mbeddr.cpp.expressions.structure)" implicit="true" />
     <import index="wnzg" ref="r:24646c42-f8e0-499c-b639-679cfa170a2e(com.mbeddr.cpp.base.structure)" implicit="true" />
     <import index="kntn" ref="r:4090021e-0c8f-4cca-ab3f-590afb43a745(com.mbeddr.cpp.base.behavior)" implicit="true" />
@@ -274,7 +275,7 @@
         <node concept="3cpWsn" id="1iZHTjWG$gq" role="3cpWs9">
           <property role="TrG5h" value="attributeType" />
           <node concept="3Tqbb2" id="1iZHTjWG$gr" role="1tU5fm">
-            <ref role="ehGHo" to="mj1l:7FQByU3CrCQ" resolve="Type" />
+            <ref role="ehGHo" to="tpck:hYa1RjM" resolve="IType" />
           </node>
           <node concept="2OqwBi" id="1iZHTjWGAVc" role="33vP2m">
             <node concept="2OqwBi" id="1iZHTjWGA0t" role="2Oq$k0">
@@ -659,7 +660,7 @@
           <property role="TrG5h" value="methodType" />
           <property role="3TUv4t" value="true" />
           <node concept="3Tqbb2" id="2QDt3lyuNCL" role="1tU5fm">
-            <ref role="ehGHo" to="mj1l:7FQByU3CrCQ" resolve="Type" />
+            <ref role="ehGHo" to="tpck:hYa1RjM" resolve="IType" />
           </node>
           <node concept="2OqwBi" id="2QDt3ly$qLL" role="33vP2m">
             <node concept="2OqwBi" id="2QDt3ly$b3b" role="2Oq$k0">
@@ -889,7 +890,7 @@
         <node concept="3cpWsn" id="1iZHTjWGvxR" role="3cpWs9">
           <property role="TrG5h" value="methodType" />
           <node concept="3Tqbb2" id="1iZHTjWGvxN" role="1tU5fm">
-            <ref role="ehGHo" to="mj1l:7FQByU3CrCQ" resolve="Type" />
+            <ref role="ehGHo" to="tpck:hYa1RjM" resolve="IType" />
           </node>
           <node concept="2OqwBi" id="1iZHTjWGxWR" role="33vP2m">
             <node concept="2OqwBi" id="1iZHTjWGwJB" role="2Oq$k0">

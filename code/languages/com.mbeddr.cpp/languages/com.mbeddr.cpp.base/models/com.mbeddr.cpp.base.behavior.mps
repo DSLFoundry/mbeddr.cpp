@@ -1150,15 +1150,20 @@
           </node>
         </node>
         <node concept="3cpWs6" id="6_kdBKMGiAS" role="3cqZAp">
-          <node concept="37vLTw" id="6_kdBKMGiOT" role="3cqZAk">
-            <ref role="3cqZAo" node="6_kdBKMGcIP" resolve="type" />
+          <node concept="1PxgMI" id="3nWonftbHca" role="3cqZAk">
+            <node concept="chp4Y" id="3nWonftbHt9" role="3oSUPX">
+              <ref role="cht4Q" to="mj1l:7FQByU3CrCQ" resolve="Type" />
+            </node>
+            <node concept="37vLTw" id="6_kdBKMGiOT" role="1m5AlR">
+              <ref role="3cqZAo" node="6_kdBKMGcIP" resolve="type" />
+            </node>
           </node>
         </node>
       </node>
       <node concept="37vLTG" id="6_kdBKMGcIP" role="3clF46">
         <property role="TrG5h" value="type" />
         <node concept="3Tqbb2" id="6_kdBKMGcIO" role="1tU5fm">
-          <ref role="ehGHo" to="mj1l:7FQByU3CrCQ" resolve="Type" />
+          <ref role="ehGHo" to="tpck:hYa1RjM" resolve="IType" />
         </node>
       </node>
     </node>
@@ -5345,7 +5350,7 @@
           <node concept="3cpWsn" id="b637l2i3Be" role="3cpWs9">
             <property role="TrG5h" value="unwrapped" />
             <node concept="3Tqbb2" id="b637l2i3B9" role="1tU5fm">
-              <ref role="ehGHo" to="mj1l:7FQByU3CrCQ" resolve="Type" />
+              <ref role="ehGHo" to="tpck:hYa1RjM" resolve="IType" />
             </node>
             <node concept="BsUDl" id="b637l2bTtv" role="33vP2m">
               <ref role="37wK5l" node="b637l2bQk$" resolve="unwrapPointer" />
@@ -5383,7 +5388,7 @@
       <property role="TrG5h" value="unwrapPointer" />
       <node concept="3Tm6S6" id="b637l2bQBx" role="1B3o_S" />
       <node concept="3Tqbb2" id="b637l2bQHH" role="3clF45">
-        <ref role="ehGHo" to="mj1l:7FQByU3CrCQ" resolve="Type" />
+        <ref role="ehGHo" to="tpck:hYa1RjM" resolve="IType" />
       </node>
       <node concept="3clFbS" id="b637l2bQkB" role="3clF47">
         <node concept="Jncv_" id="b637l2bQSm" role="3cqZAp">
@@ -5427,8 +5432,12 @@
       <node concept="37vLTG" id="b637l2bQOy" role="3clF46">
         <property role="TrG5h" value="toUnwrap" />
         <node concept="3Tqbb2" id="b637l2bQOx" role="1tU5fm">
+<<<<<<< HEAD
           <ref role="ehGHo" to="mj1l:7FQByU3CrCQ" resolve="Type" />
 >>>>>>> 17d3866aaa... Constructors somewhat kind of work
+=======
+          <ref role="ehGHo" to="tpck:hYa1RjM" resolve="IType" />
+>>>>>>> 384747b6b6... cleaned up Type / IType mix
         </node>
 <<<<<<< HEAD
         <node concept="3cpWs6" id="3p40HKhHuS0" role="3cqZAp">

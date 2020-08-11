@@ -20,6 +20,7 @@
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <import index="wnzg" ref="r:24646c42-f8e0-499c-b639-679cfa170a2e(com.mbeddr.cpp.base.structure)" />
     <import index="kntn" ref="r:4090021e-0c8f-4cca-ab3f-590afb43a745(com.mbeddr.cpp.base.behavior)" />
+    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior">
@@ -262,7 +263,7 @@
       <property role="13i0it" value="true" />
       <node concept="3Tm1VV" id="1CWIc7F4E9r" role="1B3o_S" />
       <node concept="3Tqbb2" id="1CWIc7F4EjJ" role="3clF45">
-        <ref role="ehGHo" to="mj1l:7FQByU3CrCQ" resolve="Type" />
+        <ref role="ehGHo" to="tpck:hYa1RjM" resolve="IType" />
       </node>
       <node concept="3clFbS" id="1CWIc7F4E9t" role="3clF47">
         <node concept="3clFbF" id="1CWIc7F4EkL" role="3cqZAp">
@@ -274,7 +275,7 @@
       <node concept="37vLTG" id="1CWIc7F4Ekc" role="3clF46">
         <property role="TrG5h" value="type" />
         <node concept="3Tqbb2" id="1CWIc7F4Ekb" role="1tU5fm">
-          <ref role="ehGHo" to="mj1l:7FQByU3CrCQ" resolve="Type" />
+          <ref role="ehGHo" to="tpck:hYa1RjM" resolve="IType" />
         </node>
       </node>
     </node>
@@ -414,7 +415,7 @@
       <property role="13i0it" value="true" />
       <node concept="3Tm1VV" id="1CWIc7F4ErA" role="1B3o_S" />
       <node concept="3Tqbb2" id="1CWIc7F4ErB" role="3clF45">
-        <ref role="ehGHo" to="mj1l:7FQByU3CrCQ" resolve="Type" />
+        <ref role="ehGHo" to="tpck:hYa1RjM" resolve="IType" />
       </node>
       <node concept="3clFbS" id="1CWIc7F4ErC" role="3clF47">
         <node concept="3clFbF" id="1CWIc7F4ErD" role="3cqZAp">
@@ -426,7 +427,7 @@
       <node concept="37vLTG" id="1CWIc7F4ErF" role="3clF46">
         <property role="TrG5h" value="type" />
         <node concept="3Tqbb2" id="1CWIc7F4ErG" role="1tU5fm">
-          <ref role="ehGHo" to="mj1l:7FQByU3CrCQ" resolve="Type" />
+          <ref role="ehGHo" to="tpck:hYa1RjM" resolve="IType" />
         </node>
       </node>
       <node concept="P$JXv" id="7POJCjgRh43" role="lGtFl">
