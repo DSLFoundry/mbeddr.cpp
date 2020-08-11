@@ -225,7 +225,7 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="type" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" to="mj1l:7FQByU3CrCQ" resolve="Type" />
+      <ref role="20lvS9" to="tpck:hYa1RjM" resolve="IType" />
       <node concept="t5JxF" id="3J_5hL3Lhwm" role="lGtFl">
         <property role="t5JxN" value="The type being defined" />
       </node>
