@@ -203,7 +203,11 @@
 >>>>>>> d72e40f1e7... Revert "Migrate error handling to cpp.base"
 =======
     <dependency reexport="false">984f0332-8a86-4f5c-9184-03eae96b5d16(com.mbeddr.core.expressions.runtime)</dependency>
+<<<<<<< HEAD
 >>>>>>> 2cdef1be64... Fix textgen in the tests for casting
+=======
+    <dependency reexport="false">3bf5377a-e904-4ded-9754-5a516023bfaa(com.mbeddr.core.pointers)</dependency>
+>>>>>>> 46c21610ea... added ReferenceType, TemplateConstructorInit (wip)
   </dependencies>
   <languageVersions>
     <language slang="l:ebb5e132-d298-4649-b320-b3f4d7f3acff:com.mbeddr.core.debug.blext" version="0" />

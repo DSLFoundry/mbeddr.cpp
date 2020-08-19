@@ -391,5 +391,13 @@
       <property role="t5JxN" value="InternalMethodCalls (inside a class) with template parameters tacked on" />
     </node>
   </node>
+  <node concept="1TIwiD" id="2Xkip4u7qR">
+    <property role="EcuMT" value="53287995397666487" />
+    <property role="TrG5h" value="TemplateConstructorInitializedConstructor" />
+    <ref role="1TJDcQ" to="wnzg:7DDmkz5m05" resolve="ConstructorInitializedConstructor" />
+    <node concept="PrWs8" id="2Xkip4u7sW" role="PzmwI">
+      <ref role="PrY4T" node="ZKpU3C47B6" resolve="ITemplateImpl" />
+    </node>
+  </node>
 </model>
 

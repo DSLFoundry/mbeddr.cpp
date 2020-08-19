@@ -4909,7 +4909,24 @@
       </node>
     </node>
   </node>
+<<<<<<< HEAD
 >>>>>>> ae9eeb1884... Added EmptyClassContent (blank lines) but for Namespaces.
+=======
+  <node concept="WtQ9Q" id="2KlFKP$WUoE">
+    <property role="3GE5qa" value="type" />
+    <ref role="WuzLi" to="wnzg:fwMInzpHoK" resolve="ReferenceType" />
+    <node concept="11bSqf" id="2KlFKP$WUoF" role="11c4hB">
+      <node concept="3clFbS" id="2KlFKP$WUoG" role="2VODD2">
+        <node concept="lc7rE" id="29BUUxcz1jb" role="3cqZAp">
+          <node concept="1bDJIP" id="29BUUxcz1jc" role="lcghm">
+            <ref role="1rvKf6" to="dylp:29BUUxcsb$1" resolve="genType" />
+            <node concept="117lpO" id="29BUUxcz1jd" role="1ryhcI" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+>>>>>>> 46c21610ea... added ReferenceType, TemplateConstructorInit (wip)
 </model>
 
 =======
