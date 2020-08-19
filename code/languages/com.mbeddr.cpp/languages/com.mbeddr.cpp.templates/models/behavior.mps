@@ -8,6 +8,7 @@
     <use id="c7d5b9dd-a05f-4be2-bc73-f2e16994cc67" name="jetbrains.mps.baseLanguage.lightweightdsl" version="1" />
     <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="9" />
+    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="17" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -3337,6 +3338,40 @@
       </node>
       <node concept="3Tqbb2" id="mhE46jLQae" role="3clF45">
         <ref role="ehGHo" to="1yyn:1iZHTjWJijg" resolve="ITemplateArg" />
+      </node>
+    </node>
+  </node>
+  <node concept="13h7C7" id="2Xkip4uewu">
+    <ref role="13h7C2" to="1yyn:2Xkip4u7qR" resolve="TemplateConstructorInitializedConstructor" />
+    <node concept="13hLZK" id="2Xkip4uewv" role="13h7CW">
+      <node concept="3clFbS" id="2Xkip4ueww" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="2Xkip4uewD" role="13h7CS">
+      <property role="TrG5h" value="getTemplate" />
+      <ref role="13i0hy" node="ZKpU3C47Ca" resolve="getTemplate" />
+      <node concept="3Tm1VV" id="2Xkip4uewE" role="1B3o_S" />
+      <node concept="3clFbS" id="2Xkip4uewH" role="3clF47">
+        <node concept="3clFbF" id="2Xkip4ufcF" role="3cqZAp">
+          <node concept="1PxgMI" id="2Xkip4ujxM" role="3clFbG">
+            <node concept="chp4Y" id="2Xkip4ujHf" role="3oSUPX">
+              <ref role="cht4Q" to="1yyn:ZKpU3C3Nka" resolve="TemplateClassDeclaration" />
+            </node>
+            <node concept="2OqwBi" id="2Xkip4ugW4" role="1m5AlR">
+              <node concept="2OqwBi" id="2Xkip4ufsB" role="2Oq$k0">
+                <node concept="13iPFW" id="2Xkip4ufcE" role="2Oq$k0" />
+                <node concept="3TrEf2" id="2Xkip4ug1C" role="2OqNvi">
+                  <ref role="3Tt5mk" to="wnzg:7DDmkza$5N" resolve="identity" />
+                </node>
+              </node>
+              <node concept="3TrEf2" id="2Xkip4uhSe" role="2OqNvi">
+                <ref role="3Tt5mk" to="wnzg:6NtgknWJ214" resolve="parentClass" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tqbb2" id="2Xkip4uewI" role="3clF45">
+        <ref role="ehGHo" to="1yyn:ZKpU3Bvynz" resolve="ITemplate" />
       </node>
     </node>
   </node>

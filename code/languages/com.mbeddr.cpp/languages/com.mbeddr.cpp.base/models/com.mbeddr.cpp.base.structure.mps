@@ -1384,5 +1384,31 @@
       <ref role="2wpffI" node="2Ai0Gt9ODIs" />
     </node>
   </node>
+  <node concept="1TIwiD" id="fwMInzpHoK">
+    <property role="TrG5h" value="ReferenceType" />
+    <property role="3GE5qa" value="type" />
+    <property role="34LRSv" value="&amp;" />
+    <property role="R4oN_" value="reference type" />
+    <property role="EcuMT" value="279446265608459824" />
+    <ref role="1TJDcQ" to="mj1l:7FQByU3CrCQ" resolve="Type" />
+    <node concept="PrWs8" id="3TE6JCmbIko" role="PzmwI">
+      <ref role="PrY4T" to="mj1l:7FQByU3C_31" resolve="IComparable" />
+    </node>
+    <node concept="PrWs8" id="4$HG0yYb5ks" role="PzmwI">
+      <ref role="PrY4T" to="mj1l:6mfXVgRsmwb" resolve="IVoidTypeContainer" />
+    </node>
+    <node concept="PrWs8" id="4$HG0yY9G74" role="PzmwI">
+      <ref role="PrY4T" to="yq40:4$HG0yY9G70" resolve="INullableType" />
+    </node>
+    <node concept="PrWs8" id="35tTzla8GLv" role="PzmwI">
+      <ref role="PrY4T" to="2gv2:7oVAz7YD2vL" resolve="IChildrenResolver" />
+    </node>
+    <node concept="PrWs8" id="2$xXL4PbjDl" role="PzmwI">
+      <ref role="PrY4T" to="c4fa:6IWRcVPT6tl" resolve="ITypeContainingType" />
+    </node>
+    <node concept="PrWs8" id="4JYoVJayS$K" role="PzmwI">
+      <ref role="PrY4T" to="mj1l:4ZVDCZCa$xx" resolve="IOrdered" />
+    </node>
+  </node>
 </model>
 
