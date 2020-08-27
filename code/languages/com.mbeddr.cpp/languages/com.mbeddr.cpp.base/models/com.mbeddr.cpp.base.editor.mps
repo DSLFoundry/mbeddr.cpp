@@ -714,14 +714,29 @@
     <property role="3GE5qa" value="method" />
     <ref role="1XX52x" to="wnzg:2Ai0Gt9WczV" resolve="MethodPrototype" />
     <node concept="3EZMnI" id="3v5DuFDrgcR" role="2wV5jI">
+      <node concept="3F0ifn" id="pTQQh9Rwwy" role="3EZMnx">
+        <property role="3F0ifm" value="pureVirtual" />
+      </node>
       <node concept="3F0A7n" id="6ddXmWe6Wbq" role="3EZMnx">
         <ref role="1NtTu8" to="wnzg:2L1k$oXDqK2" resolve="isPureVirtual" />
+      </node>
+      <node concept="3F0ifn" id="pTQQh9Rwx4" role="3EZMnx">
+        <property role="3F0ifm" value="virtual" />
       </node>
       <node concept="3F0A7n" id="6ddXmWe6WbN" role="3EZMnx">
         <ref role="1NtTu8" to="wnzg:2L1k$oXxncX" resolve="isVirtual" />
       </node>
+      <node concept="3F0ifn" id="pTQQh9Rwxo" role="3EZMnx">
+        <property role="3F0ifm" value="static" />
+      </node>
       <node concept="3F0A7n" id="1Yr26iur2x1" role="3EZMnx">
         <ref role="1NtTu8" to="wnzg:1Yr26itwx8v" resolve="isStatic" />
+      </node>
+      <node concept="3F0ifn" id="2gyqCE8oZoO" role="3EZMnx">
+        <property role="3F0ifm" value="override" />
+      </node>
+      <node concept="3F0A7n" id="2gyqCE8oZpc" role="3EZMnx">
+        <ref role="1NtTu8" to="wnzg:2gyqCE8oZos" resolve="isOverride" />
       </node>
       <node concept="2iRfu4" id="3v5DuFDrgcS" role="2iSdaV" />
       <node concept="PMmxH" id="3v5DuFDpKbk" role="3EZMnx">

@@ -275,6 +275,9 @@
     <node concept="PrWs8" id="1Yr26iur2wG" role="PzmwI">
       <ref role="PrY4T" node="1Yr26itwx8u" resolve="IStaticFlag" />
     </node>
+    <node concept="PrWs8" id="2gyqCE8oZoz" role="PzmwI">
+      <ref role="PrY4T" node="2gyqCE8oZor" resolve="IOverrideFlag" />
+    </node>
     <node concept="t5JxF" id="c7Kd0g7O8Y" role="lGtFl">
       <property role="t5JxN" value="A method without a body." />
     </node>
@@ -1408,6 +1411,16 @@
     </node>
     <node concept="PrWs8" id="4JYoVJayS$K" role="PzmwI">
       <ref role="PrY4T" to="mj1l:4ZVDCZCa$xx" resolve="IOrdered" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="2gyqCE8oZor">
+    <property role="EcuMT" value="2603760677799851547" />
+    <property role="3GE5qa" value="flag" />
+    <property role="TrG5h" value="IOverrideFlag" />
+    <node concept="1TJgyi" id="2gyqCE8oZos" role="1TKVEl">
+      <property role="IQ2nx" value="2603760677799851548" />
+      <property role="TrG5h" value="isOverride" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
   </node>
 </model>
