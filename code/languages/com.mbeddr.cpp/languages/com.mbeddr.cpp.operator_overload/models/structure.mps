@@ -132,6 +132,11 @@
     <property role="EcuMT" value="8276814910420192474" />
     <property role="TrG5h" value="OperatorOverloadPrototype" />
     <ref role="1TJDcQ" node="7bt9OVZfWbd" resolve="OperatorOverloadSignature" />
+    <node concept="1TJgyi" id="7pUsrpuVdyy" role="1TKVEl">
+      <property role="IQ2nx" value="8537261071724763298" />
+      <property role="TrG5h" value="isDelete" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
   </node>
   <node concept="25R3W" id="7jWRS$D$ZCY">
     <property role="TrG5h" value="EOperatorType" />

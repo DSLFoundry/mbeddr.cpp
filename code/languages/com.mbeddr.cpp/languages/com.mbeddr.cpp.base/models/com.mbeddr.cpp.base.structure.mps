@@ -278,6 +278,9 @@
     <node concept="PrWs8" id="2gyqCE8oZoz" role="PzmwI">
       <ref role="PrY4T" node="2gyqCE8oZor" resolve="IOverrideFlag" />
     </node>
+    <node concept="PrWs8" id="1hH95XGqJd4" role="PzmwI">
+      <ref role="PrY4T" node="5eDFAXBRQhJ" resolve="IConstExprFlag" />
+    </node>
     <node concept="t5JxF" id="c7Kd0g7O8Y" role="lGtFl">
       <property role="t5JxN" value="A method without a body." />
     </node>
@@ -473,6 +476,7 @@
     <property role="3GE5qa" value="constructor" />
     <property role="TrG5h" value="ClassConstructorSignature" />
     <property role="R4oN_" value="very similar to the normal method signature, but has some quirks because it isn't named (all constructors have the same name)" />
+    <property role="R5$K7" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="6NtgknWJ2OD" role="PzmwI">
       <ref role="PrY4T" to="mj1l:6mfXVgRsmwb" resolve="IVoidTypeContainer" />
@@ -1421,6 +1425,23 @@
       <property role="IQ2nx" value="2603760677799851548" />
       <property role="TrG5h" value="isOverride" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7pUsrpuVZdh">
+    <property role="EcuMT" value="8537261071724966737" />
+    <property role="3GE5qa" value="constructor" />
+    <property role="TrG5h" value="ClassConstructorPrototype" />
+    <ref role="1TJDcQ" node="6NtgknWJ21h" resolve="ClassConstructorSignature" />
+    <node concept="1TJgyi" id="7pUsrpuVZdB" role="1TKVEl">
+      <property role="IQ2nx" value="8537261071724966759" />
+      <property role="TrG5h" value="isDefault" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="PrWs8" id="7pUsrpuVZdi" role="PzmwI">
+      <ref role="PrY4T" node="4o2nsMgBIr5" resolve="IClassMemberDeclaration" />
+    </node>
+    <node concept="PrWs8" id="7pUsrpuVZdt" role="PzmwI">
+      <ref role="PrY4T" node="2L1k$oXDqJY" resolve="IPureVirtualFlag" />
     </node>
   </node>
 </model>
