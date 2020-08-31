@@ -12,10 +12,14 @@
 >>>>>>> 635c84c995... migrated to 2018.3
     <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2ad53958b9... Comments and cleanup in the modules and modules.gen languages
 =======
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="9" />
 >>>>>>> cc021cd381... migrated to 2019.2
+=======
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="11" />
+>>>>>>> 6bfe4b6649... example showing too long grammarcells method
     <devkit ref="2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)" />
   </languages>
   <imports>
@@ -139,7 +143,7 @@
         <child id="1178549979242" name="visibility" index="1B3o_S" />
       </concept>
       <concept id="6329021646629104954" name="jetbrains.mps.baseLanguage.structure.SingleLineComment" flags="nn" index="3SKdUt">
-        <child id="1350122676458893092" name="text" index="3ndbpf" />
+        <child id="8356039341262087992" name="line" index="1aUNEU" />
       </concept>
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
     </language>
@@ -805,7 +809,7 @@
         </node>
         <node concept="3clFbH" id="4k76AKYlhQS" role="3cqZAp" />
         <node concept="3SKdUt" id="3J_5hL3JLtR" role="3cqZAp">
-          <node concept="1PaTwC" id="7jWRS$D_1jn" role="3ndbpf">
+          <node concept="1PaTwC" id="7jWRS$D_1jn" role="1aUNEU">
             <node concept="3oM_SD" id="7jWRS$D_1jo" role="1PaTwD">
               <property role="3oM_SC" value="Include" />
             </node>
@@ -1067,7 +1071,7 @@
         </node>
         <node concept="3clFbH" id="4k76AKYkAJE" role="3cqZAp" />
         <node concept="3SKdUt" id="3J_5hL3JMgL" role="3cqZAp">
-          <node concept="1PaTwC" id="7jWRS$D_1jB" role="3ndbpf">
+          <node concept="1PaTwC" id="7jWRS$D_1jB" role="1aUNEU">
             <node concept="3oM_SD" id="7jWRS$D_1jC" role="1PaTwD">
               <property role="3oM_SC" value="cstdint" />
             </node>
@@ -1170,7 +1174,7 @@
         </node>
         <node concept="3clFbH" id="7mGKYHhD6v9" role="3cqZAp" />
         <node concept="3SKdUt" id="7mGKYHhD6Eh" role="3cqZAp">
-          <node concept="1PaTwC" id="7jWRS$D_1jJ" role="3ndbpf">
+          <node concept="1PaTwC" id="7jWRS$D_1jJ" role="1aUNEU">
             <node concept="3oM_SD" id="7jWRS$D_1jK" role="1PaTwD">
               <property role="3oM_SC" value="Check" />
             </node>
@@ -1243,7 +1247,7 @@
               </node>
               <node concept="3clFbS" id="7mGKYHhDXi7" role="2LFqv$">
                 <node concept="3SKdUt" id="7mGKYHhDWqo" role="3cqZAp">
-                  <node concept="1PaTwC" id="7jWRS$D_1jU" role="3ndbpf">
+                  <node concept="1PaTwC" id="7jWRS$D_1jU" role="1aUNEU">
                     <node concept="3oM_SD" id="7jWRS$D_1jV" role="1PaTwD">
                       <property role="3oM_SC" value="If" />
                     </node>

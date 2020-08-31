@@ -9,9 +9,13 @@
     <use id="3f4bc5f5-c6c1-4a28-8b10-c83066ffa4a1" name="jetbrains.mps.lang.constraints" version="5" />
 =======
     <use id="3f4bc5f5-c6c1-4a28-8b10-c83066ffa4a1" name="jetbrains.mps.lang.constraints" version="6" />
+<<<<<<< HEAD
 >>>>>>> 4e2541f81a... migrated to 2019.3
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="9" />
 >>>>>>> cc021cd381... migrated to 2019.2
+=======
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="11" />
+>>>>>>> 6bfe4b6649... example showing too long grammarcells method
     <devkit ref="00000000-0000-4000-0000-5604ebd4f22c(jetbrains.mps.devkit.aspect.constraints)" />
   </languages>
   <imports>
@@ -48,7 +52,7 @@
 >>>>>>> cc021cd381... migrated to 2019.2
       </concept>
       <concept id="6329021646629104954" name="jetbrains.mps.baseLanguage.structure.SingleLineComment" flags="nn" index="3SKdUt">
-        <child id="1350122676458893092" name="text" index="3ndbpf" />
+        <child id="8356039341262087992" name="line" index="1aUNEU" />
       </concept>
 =======
       <concept id="1081773326031" name="jetbrains.mps.baseLanguage.structure.BinaryOperation" flags="nn" index="3uHJSO">
@@ -90,7 +94,7 @@
     <node concept="9SLcT" id="3OWNtRXl5Qm" role="9SGkU">
       <node concept="3clFbS" id="3OWNtRXl5Qn" role="2VODD2">
         <node concept="3SKdUt" id="3J_5hL3JF37" role="3cqZAp">
-          <node concept="1PaTwC" id="7jWRS$D_1k8" role="3ndbpf">
+          <node concept="1PaTwC" id="7jWRS$D_1k8" role="1aUNEU">
             <node concept="3oM_SD" id="7jWRS$D_1k9" role="1PaTwD">
               <property role="3oM_SC" value="Prevent" />
             </node>

@@ -35,10 +35,14 @@
     <use id="aee9cad2-acd4-4608-aef2-0004f6a1cdbd" name="jetbrains.mps.lang.actions" version="-1" />
     <use id="ebb5e132-d298-4649-b320-b3f4d7f3acff" name="com.mbeddr.core.debug.blext" version="-1" />
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 635c84c995... migrated to 2018.3
 =======
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="9" />
 >>>>>>> cc021cd381... migrated to 2019.2
+=======
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="11" />
+>>>>>>> 6bfe4b6649... example showing too long grammarcells method
     <devkit ref="2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)" />
   </languages>
   <imports>
@@ -439,6 +443,7 @@
 >>>>>>> b70d14e537... loads of stuff
 =======
       <concept id="6329021646629104954" name="jetbrains.mps.baseLanguage.structure.SingleLineComment" flags="nn" index="3SKdUt">
+<<<<<<< HEAD
         <child id="1350122676458893092" name="text" index="3ndbpf" />
 >>>>>>> cc021cd381... migrated to 2019.2
       </concept>
@@ -457,6 +462,9 @@
 =======
 >>>>>>> 1598e219f8... QoL changes, removed Class support in Namespaces due to various errors.
 =======
+=======
+        <child id="8356039341262087992" name="line" index="1aUNEU" />
+>>>>>>> 6bfe4b6649... example showing too long grammarcells method
       </concept>
 >>>>>>> 187dabb7a4... Added global using namespace declaration support.
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
@@ -621,6 +629,9 @@
         <reference id="1966870290088668516" name="memberDeclaration" index="2ViDtZ" />
       </concept>
       <concept id="1171407110247" name="jetbrains.mps.lang.smodel.structure.Node_GetAncestorOperation" flags="nn" index="2Xjw5R" />
+      <concept id="1240170042401" name="jetbrains.mps.lang.smodel.structure.SEnumerationMemberType" flags="in" index="2ZThk1">
+        <reference id="1240170836027" name="enum" index="2ZWj4r" />
+      </concept>
       <concept id="1171500988903" name="jetbrains.mps.lang.smodel.structure.Node_GetChildrenOperation" flags="nn" index="32TBzR" />
       <concept id="6677504323281689838" name="jetbrains.mps.lang.smodel.structure.SConceptType" flags="in" index="3bZ5Sz" />
       <concept id="1139613262185" name="jetbrains.mps.lang.smodel.structure.Node_GetParentOperation" flags="nn" index="1mfA1w" />
@@ -1100,7 +1111,7 @@
       </node>
       <node concept="3clFbS" id="6_kdBKMGct4" role="3clF47">
         <node concept="3SKdUt" id="c7Kd0eKM_V" role="3cqZAp">
-          <node concept="1PaTwC" id="7jWRS$D_0z3" role="3ndbpf">
+          <node concept="1PaTwC" id="7jWRS$D_0z3" role="1aUNEU">
             <node concept="3oM_SD" id="7jWRS$D_0z4" role="1PaTwD">
               <property role="3oM_SC" value="Simply" />
             </node>
@@ -1143,7 +1154,7 @@
           </node>
         </node>
         <node concept="3SKdUt" id="c7Kd0eKNwy" role="3cqZAp">
-          <node concept="1PaTwC" id="7jWRS$D_0zh" role="3ndbpf">
+          <node concept="1PaTwC" id="7jWRS$D_0zh" role="1aUNEU">
             <node concept="3oM_SD" id="7jWRS$D_0zi" role="1PaTwD">
               <property role="3oM_SC" value="the" />
             </node>
@@ -1522,7 +1533,7 @@
           </node>
         </node>
         <node concept="3SKdUt" id="7WruJM_aurB" role="3cqZAp">
-          <node concept="1PaTwC" id="7jWRS$D_0zl" role="3ndbpf">
+          <node concept="1PaTwC" id="7jWRS$D_0zl" role="1aUNEU">
             <node concept="3oM_SD" id="7jWRS$D_0zm" role="1PaTwD">
               <property role="3oM_SC" value="Also" />
             </node>
@@ -1816,7 +1827,7 @@
       </node>
       <node concept="3clFbS" id="6oRbCP690yy" role="3clF47">
         <node concept="3SKdUt" id="3n$8_Xbh1O3" role="3cqZAp">
-          <node concept="1PaTwC" id="7jWRS$D_0zq" role="3ndbpf">
+          <node concept="1PaTwC" id="7jWRS$D_0zq" role="1aUNEU">
             <node concept="3oM_SD" id="7jWRS$D_0zr" role="1PaTwD">
               <property role="3oM_SC" value="All" />
             </node>
@@ -2815,7 +2826,7 @@
           </node>
         </node>
         <node concept="3SKdUt" id="7WruJM_atSx" role="3cqZAp">
-          <node concept="1PaTwC" id="7jWRS$D_0zF" role="3ndbpf">
+          <node concept="1PaTwC" id="7jWRS$D_0zF" role="1aUNEU">
             <node concept="3oM_SD" id="7jWRS$D_0zG" role="1PaTwD">
               <property role="3oM_SC" value="Also" />
             </node>
@@ -2895,7 +2906,7 @@
       </node>
       <node concept="3clFbS" id="2xmTzC2MHBE" role="3clF47">
         <node concept="3SKdUt" id="2xmTzC2NO5P" role="3cqZAp">
-          <node concept="1PaTwC" id="7jWRS$D_0zK" role="3ndbpf">
+          <node concept="1PaTwC" id="7jWRS$D_0zK" role="1aUNEU">
             <node concept="3oM_SD" id="7jWRS$D_0zL" role="1PaTwD">
               <property role="3oM_SC" value="All" />
             </node>
@@ -2985,7 +2996,7 @@
       </node>
       <node concept="3clFbS" id="2xmTzC2MVin" role="3clF47">
         <node concept="3SKdUt" id="2xmTzC2NOds" role="3cqZAp">
-          <node concept="1PaTwC" id="7jWRS$D_0zX" role="3ndbpf">
+          <node concept="1PaTwC" id="7jWRS$D_0zX" role="1aUNEU">
             <node concept="3oM_SD" id="7jWRS$D_0zY" role="1PaTwD">
               <property role="3oM_SC" value="" />
             </node>
@@ -3404,7 +3415,7 @@
         <node concept="3clFbJ" id="1yn8PkzF4RL" role="3cqZAp">
           <node concept="3clFbS" id="1yn8PkzF4RN" role="3clFbx">
             <node concept="3SKdUt" id="c7Kd0dwRA2" role="3cqZAp">
-              <node concept="1PaTwC" id="7jWRS$D_0$7" role="3ndbpf">
+              <node concept="1PaTwC" id="7jWRS$D_0$7" role="1aUNEU">
                 <node concept="3oM_SD" id="7jWRS$D_0$8" role="1PaTwD">
                   <property role="3oM_SC" value="Add" />
                 </node>
@@ -3696,7 +3707,30 @@
         </node>
       </node>
     </node>
+<<<<<<< HEAD
 >>>>>>> 8ced65fd10... Decouple templates from base
+=======
+    <node concept="13i0hz" id="1hH95XHzZhr" role="13h7CS">
+      <property role="TrG5h" value="getDefaultVisibility" />
+      <property role="13i0it" value="true" />
+      <node concept="3Tm1VV" id="1hH95XHzZhs" role="1B3o_S" />
+      <node concept="3clFbS" id="1hH95XHzZhu" role="3clF47">
+        <node concept="3clFbF" id="1hH95XH$3V2" role="3cqZAp">
+          <node concept="2OqwBi" id="1hH95XH$4rT" role="3clFbG">
+            <node concept="1XH99k" id="1hH95XH$3V1" role="2Oq$k0">
+              <ref role="1XH99l" to="wnzg:7jWRS$D$ZCT" resolve="EClassMemberVisibility" />
+            </node>
+            <node concept="2ViDtV" id="1hH95XH$4OQ" role="2OqNvi">
+              <ref role="2ViDtZ" to="wnzg:7jWRS$D$ZCV" resolve="private" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2ZThk1" id="1hH95XHzHzb" role="3clF45">
+        <ref role="2ZWj4r" to="wnzg:7jWRS$D$ZCT" resolve="EClassMemberVisibility" />
+      </node>
+    </node>
+>>>>>>> 6bfe4b6649... example showing too long grammarcells method
   </node>
   <node concept="13h7C7" id="2Ai0Gt9WfLZ">
     <property role="3GE5qa" value="method" />
@@ -3819,7 +3853,7 @@
       <node concept="3Tm1VV" id="gWE$qaePzl" role="1B3o_S" />
       <node concept="3clFbS" id="gWE$qaeQlA" role="3clF47">
         <node concept="3SKdUt" id="c7Kd0g7Ofk" role="3cqZAp">
-          <node concept="1PaTwC" id="7jWRS$D_0$h" role="3ndbpf">
+          <node concept="1PaTwC" id="7jWRS$D_0$h" role="1aUNEU">
             <node concept="3oM_SD" id="7jWRS$D_0$i" role="1PaTwD">
               <property role="3oM_SC" value="Makes" />
             </node>
@@ -4108,7 +4142,7 @@
     <node concept="13hLZK" id="6ddXmWdEGr4" role="13h7CW">
       <node concept="3clFbS" id="6ddXmWdEGr5" role="2VODD2">
         <node concept="3SKdUt" id="c7Kd0fkpM$" role="3cqZAp">
-          <node concept="1PaTwC" id="7jWRS$D_0$v" role="3ndbpf">
+          <node concept="1PaTwC" id="7jWRS$D_0$v" role="1aUNEU">
             <node concept="3oM_SD" id="7jWRS$D_0$w" role="1PaTwD">
               <property role="3oM_SC" value="Create" />
             </node>
@@ -4638,7 +4672,7 @@
 <<<<<<< HEAD
 =======
         <node concept="3SKdUt" id="c7Kd0fkr8E" role="3cqZAp">
-          <node concept="1PaTwC" id="7jWRS$D_0$F" role="3ndbpf">
+          <node concept="1PaTwC" id="7jWRS$D_0$F" role="1aUNEU">
             <node concept="3oM_SD" id="7jWRS$D_0$G" role="1PaTwD">
               <property role="3oM_SC" value="Make" />
             </node>
@@ -4916,7 +4950,7 @@
           </node>
         </node>
         <node concept="3SKdUt" id="7POJCjfn9ms" role="3cqZAp">
-          <node concept="1PaTwC" id="7jWRS$D_0$W" role="3ndbpf">
+          <node concept="1PaTwC" id="7jWRS$D_0$W" role="1aUNEU">
             <node concept="3oM_SD" id="7jWRS$D_0$X" role="1PaTwD">
               <property role="3oM_SC" value="This" />
             </node>
@@ -4962,7 +4996,7 @@
           </node>
         </node>
         <node concept="3SKdUt" id="7POJCjfnatJ" role="3cqZAp">
-          <node concept="1PaTwC" id="7jWRS$D_0_b" role="3ndbpf">
+          <node concept="1PaTwC" id="7jWRS$D_0_b" role="1aUNEU">
             <node concept="3oM_SD" id="7jWRS$D_0_c" role="1PaTwD">
               <property role="3oM_SC" value="does" />
             </node>
@@ -5120,7 +5154,7 @@
       <node concept="3Tm1VV" id="6hUtorEjy6N" role="1B3o_S" />
       <node concept="3clFbS" id="6hUtorEjy6O" role="3clF47">
         <node concept="3SKdUt" id="c7Kd0fkvfp" role="3cqZAp">
-          <node concept="1PaTwC" id="7jWRS$D_0_n" role="3ndbpf">
+          <node concept="1PaTwC" id="7jWRS$D_0_n" role="1aUNEU">
             <node concept="3oM_SD" id="7jWRS$D_0_o" role="1PaTwD">
               <property role="3oM_SC" value="See" />
             </node>
@@ -6503,6 +6537,7 @@
         <ref role="ehGHo" to="x27k:71UKpntnl7M" resolve="IFunctionLike" />
       </node>
     </node>
+<<<<<<< HEAD
     <node concept="13i0hz" id="6hUtorEiL0$" role="13h7CS">
       <property role="13i0iv" value="false" />
       <property role="13i0it" value="false" />
@@ -6515,6 +6550,51 @@
           <node concept="28GBK8" id="6hUtorEiLoY" role="3clFbG">
             <ref role="28GBKb" to="wnzg:6hUtorDW7AG" resolve="LocalClassVariableDeclaration" />
             <ref role="28H3Ia" to="wnzg:6hUtorE99Pe" resolve="constructor_arg_actuals" />
+=======
+    <node concept="13i0hz" id="1$h5d7w9WPI" role="13h7CS">
+      <property role="TrG5h" value="isDistantAncestorOf" />
+      <node concept="3Tm1VV" id="1$h5d7w9WPJ" role="1B3o_S" />
+      <node concept="10P_77" id="1$h5d7w9X71" role="3clF45" />
+      <node concept="3clFbS" id="1$h5d7w9WPL" role="3clF47">
+        <node concept="3SKdUt" id="6gFj6gtmbuX" role="3cqZAp">
+          <node concept="1PaTwC" id="7jWRS$D_0_u" role="1aUNEU">
+            <node concept="3oM_SD" id="7jWRS$D_0_v" role="1PaTwD">
+              <property role="3oM_SC" value="Iterate" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0_w" role="1PaTwD">
+              <property role="3oM_SC" value="through" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0_x" role="1PaTwD">
+              <property role="3oM_SC" value="all" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0_y" role="1PaTwD">
+              <property role="3oM_SC" value="ancestor" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0_z" role="1PaTwD">
+              <property role="3oM_SC" value="nodes" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0_$" role="1PaTwD">
+              <property role="3oM_SC" value="of" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0__" role="1PaTwD">
+              <property role="3oM_SC" value="thisNode" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0_A" role="1PaTwD">
+              <property role="3oM_SC" value="to" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0_B" role="1PaTwD">
+              <property role="3oM_SC" value="find" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0_C" role="1PaTwD">
+              <property role="3oM_SC" value="ancestorNode," />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0_D" role="1PaTwD">
+              <property role="3oM_SC" value="else" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0_E" role="1PaTwD">
+              <property role="3oM_SC" value="false" />
+            </node>
+>>>>>>> 6bfe4b6649... example showing too long grammarcells method
           </node>
         </node>
 <<<<<<< HEAD
@@ -6766,8 +6846,42 @@
 =======
       <node concept="3clFbS" id="r2pGcesq32" role="3clF47">
         <node concept="3SKdUt" id="61rdzRibNv2" role="3cqZAp">
+<<<<<<< HEAD
           <node concept="3SKdUq" id="61rdzRibNv4" role="3SKWNk">
             <property role="3SKdUp" value="Returns a sequence containing all statements within the current function." />
+=======
+          <node concept="1PaTwC" id="7jWRS$D_0_F" role="1aUNEU">
+            <node concept="3oM_SD" id="7jWRS$D_0_G" role="1PaTwD">
+              <property role="3oM_SC" value="Returns" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0_H" role="1PaTwD">
+              <property role="3oM_SC" value="a" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0_I" role="1PaTwD">
+              <property role="3oM_SC" value="sequence" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0_J" role="1PaTwD">
+              <property role="3oM_SC" value="containing" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0_K" role="1PaTwD">
+              <property role="3oM_SC" value="all" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0_L" role="1PaTwD">
+              <property role="3oM_SC" value="statements" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0_M" role="1PaTwD">
+              <property role="3oM_SC" value="within" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0_N" role="1PaTwD">
+              <property role="3oM_SC" value="the" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0_O" role="1PaTwD">
+              <property role="3oM_SC" value="current" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0_P" role="1PaTwD">
+              <property role="3oM_SC" value="function." />
+            </node>
+>>>>>>> 6bfe4b6649... example showing too long grammarcells method
           </node>
         </node>
         <node concept="3clFbH" id="61rdzRicdMd" role="3cqZAp" />
@@ -6887,6 +7001,7 @@
       </node>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       <node concept="2I9FWS" id="7DDmkzcDq_" role="3clF45">
         <ref role="2I9WkF" to="mj1l:7FQByU3CrCM" resolve="Expression" />
       </node>
@@ -6924,6 +7039,80 @@
               <node concept="3TrEf2" id="7DDmkzcFLD" role="2OqNvi">
                 <ref role="3Tt5mk" to="wnzg:7DDmkza$5N" resolve="identity" />
               </node>
+=======
+      <node concept="3clFbS" id="3Nc$bFG9_$2" role="3clF47">
+        <node concept="3SKdUt" id="61rdzRidwUI" role="3cqZAp">
+          <node concept="1PaTwC" id="7jWRS$D_0_Q" role="1aUNEU">
+            <node concept="3oM_SD" id="7jWRS$D_0_R" role="1PaTwD">
+              <property role="3oM_SC" value="Returns" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0_S" role="1PaTwD">
+              <property role="3oM_SC" value="a" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0_T" role="1PaTwD">
+              <property role="3oM_SC" value="sequence" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0_U" role="1PaTwD">
+              <property role="3oM_SC" value="containing" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0_V" role="1PaTwD">
+              <property role="3oM_SC" value="all" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0_W" role="1PaTwD">
+              <property role="3oM_SC" value="methods" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0_X" role="1PaTwD">
+              <property role="3oM_SC" value="within" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0_Y" role="1PaTwD">
+              <property role="3oM_SC" value="the" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0_Z" role="1PaTwD">
+              <property role="3oM_SC" value="scope" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0A0" role="1PaTwD">
+              <property role="3oM_SC" value="of" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0A1" role="1PaTwD">
+              <property role="3oM_SC" value="the" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0A2" role="1PaTwD">
+              <property role="3oM_SC" value="selected" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0A3" role="1PaTwD">
+              <property role="3oM_SC" value="namespace," />
+            </node>
+          </node>
+        </node>
+        <node concept="3SKdUt" id="61rdzRidwUK" role="3cqZAp">
+          <node concept="1PaTwC" id="7jWRS$D_0A4" role="1aUNEU">
+            <node concept="3oM_SD" id="7jWRS$D_0A5" role="1PaTwD">
+              <property role="3oM_SC" value="besides" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0A6" role="1PaTwD">
+              <property role="3oM_SC" value="those" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0A7" role="1PaTwD">
+              <property role="3oM_SC" value="actually" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0A8" role="1PaTwD">
+              <property role="3oM_SC" value="contained" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0A9" role="1PaTwD">
+              <property role="3oM_SC" value="within" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0Aa" role="1PaTwD">
+              <property role="3oM_SC" value="the" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0Ab" role="1PaTwD">
+              <property role="3oM_SC" value="selected" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0Ac" role="1PaTwD">
+              <property role="3oM_SC" value="namespace" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0Ad" role="1PaTwD">
+              <property role="3oM_SC" value="itself." />
+>>>>>>> 6bfe4b6649... example showing too long grammarcells method
             </node>
             <node concept="3Tsc0h" id="7DDmkzcKcf" role="2OqNvi">
 =======
@@ -6943,6 +7132,7 @@
             <ref role="28H3Ia" to="wnzg:383ZxwZrBkA" resolve="actuals" />
           </node>
         </node>
+<<<<<<< HEAD
       </node>
       <node concept="3Tqbb2" id="383ZxwZuSRN" role="3clF45">
         <ref role="ehGHo" to="tpce:f_TJgxE" resolve="LinkDeclaration" />
@@ -6961,6 +7151,24 @@
               <node concept="3TrEf2" id="383ZxwZuU6c" role="2OqNvi">
                 <ref role="3Tt5mk" to="wnzg:383ZxwZrBkI" resolve="method" />
               </node>
+=======
+        <node concept="3SKdUt" id="61rdzRidwUM" role="3cqZAp">
+          <node concept="1PaTwC" id="7jWRS$D_0Ae" role="1aUNEU">
+            <node concept="3oM_SD" id="7jWRS$D_0Af" role="1PaTwD">
+              <property role="3oM_SC" value="Used" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0Ag" role="1PaTwD">
+              <property role="3oM_SC" value="to" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0Ah" role="1PaTwD">
+              <property role="3oM_SC" value="define" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0Ai" role="1PaTwD">
+              <property role="3oM_SC" value="the" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0Aj" role="1PaTwD">
+              <property role="3oM_SC" value="scope." />
+>>>>>>> 6bfe4b6649... example showing too long grammarcells method
             </node>
             <node concept="3Tsc0h" id="383ZxwZuVLD" role="2OqNvi">
 >>>>>>> b95cdd26ff... Namespace Declaration and Member Referencing (WIP) without TextGen elements
@@ -6989,6 +7197,7 @@
                 <ref role="3Tt5mk" to="wnzg:7DDmkza$5N" resolve="identity" />
               </node>
             </node>
+<<<<<<< HEAD
             <node concept="3TrEf2" id="7DDmkzcNHq" role="2OqNvi">
 =======
       <node concept="2I9FWS" id="383ZxwZuT0d" role="3clF45">
@@ -7008,6 +7217,29 @@
               <node concept="3TrEf2" id="383ZxwZuXfi" role="2OqNvi">
                 <ref role="3Tt5mk" to="wnzg:383ZxwZrBkI" resolve="method" />
               </node>
+=======
+          </node>
+        </node>
+        <node concept="3SKdUt" id="61rdzRidMCR" role="3cqZAp">
+          <node concept="1PaTwC" id="7jWRS$D_0Al" role="1aUNEU">
+            <node concept="3oM_SD" id="7jWRS$D_0Am" role="1PaTwD">
+              <property role="3oM_SC" value="All" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0An" role="1PaTwD">
+              <property role="3oM_SC" value="using" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0Ao" role="1PaTwD">
+              <property role="3oM_SC" value="method" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0Ap" role="1PaTwD">
+              <property role="3oM_SC" value="declarations" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0Aq" role="1PaTwD">
+              <property role="3oM_SC" value="within" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0Ar" role="1PaTwD">
+              <property role="3oM_SC" value="selected" />
+>>>>>>> 6bfe4b6649... example showing too long grammarcells method
             </node>
             <node concept="3TrEf2" id="383ZxwZuYRn" role="2OqNvi">
 >>>>>>> b95cdd26ff... Namespace Declaration and Member Referencing (WIP) without TextGen elements
@@ -7127,6 +7359,7 @@
             </node>
           </node>
         </node>
+<<<<<<< HEAD
       </node>
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7138,6 +7371,12 @@
 >>>>>>> 3168c40245... Fixed incompatible types.
 =======
               <node concept="17RlXB" id="4w6UgEuHWit" role="2OqNvi" />
+=======
+        <node concept="3SKdUt" id="61rdzRif8g3" role="3cqZAp">
+          <node concept="1PaTwC" id="7jWRS$D_0At" role="1aUNEU">
+            <node concept="3oM_SD" id="7jWRS$D_0Au" role="1PaTwD">
+              <property role="3oM_SC" value="All" />
+>>>>>>> 6bfe4b6649... example showing too long grammarcells method
             </node>
           </node>
         </node>
@@ -7280,6 +7519,7 @@
             </node>
           </node>
         </node>
+<<<<<<< HEAD
         <node concept="3cpWs6" id="1$h5d7w4D6Y" role="3cqZAp">
           <node concept="37vLTw" id="1$h5d7w4DlP" role="3cqZAk">
             <ref role="3cqZAo" node="1$h5d7w4BiP" resolve="topList" />
@@ -7338,6 +7578,12 @@
                   </node>
                 </node>
               </node>
+=======
+        <node concept="3SKdUt" id="61rdzRifhOH" role="3cqZAp">
+          <node concept="1PaTwC" id="7jWRS$D_0A_" role="1aUNEU">
+            <node concept="3oM_SD" id="7jWRS$D_0AA" role="1PaTwD">
+              <property role="3oM_SC" value="All" />
+>>>>>>> 6bfe4b6649... example showing too long grammarcells method
             </node>
           </node>
           <node concept="2OqwBi" id="1$h5d7w9Xte" role="2$JKZa">
@@ -7453,9 +7699,26 @@
             </node>
           </node>
         </node>
+<<<<<<< HEAD
         <node concept="3cpWs6" id="r2pGcesCuA" role="3cqZAp">
           <node concept="37vLTw" id="r2pGcesCFd" role="3cqZAk">
             <ref role="3cqZAo" node="r2pGcesBdw" resolve="statements" />
+=======
+        <node concept="3SKdUt" id="61rdzRifJ2g" role="3cqZAp">
+          <node concept="1PaTwC" id="7jWRS$D_0AG" role="1aUNEU">
+            <node concept="3oM_SD" id="7jWRS$D_0AH" role="1PaTwD">
+              <property role="3oM_SC" value="All" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0AI" role="1PaTwD">
+              <property role="3oM_SC" value="globally" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0AJ" role="1PaTwD">
+              <property role="3oM_SC" value="used" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0AK" role="1PaTwD">
+              <property role="3oM_SC" value="attributes." />
+            </node>
+>>>>>>> 6bfe4b6649... example showing too long grammarcells method
           </node>
         </node>
       </node>
@@ -7467,12 +7730,29 @@
         <node concept="3Tqbb2" id="3Nc$bFG9X4_" role="A3Ik2">
           <ref role="ehGHo" to="wnzg:4o2nsMgB$VW" resolve="MethodDeclaration" />
         </node>
+<<<<<<< HEAD
       </node>
       <node concept="3clFbS" id="3Nc$bFG9_$2" role="3clF47">
         <node concept="3SKdUt" id="61rdzRidwUI" role="3cqZAp">
           <node concept="1PaTwC" id="7jWRS$D_0_Q" role="3ndbpf">
             <node concept="3oM_SD" id="7jWRS$D_0_R" role="1PaTwD">
               <property role="3oM_SC" value="Returns" />
+=======
+        <node concept="3clFbH" id="61rdzRigff0" role="3cqZAp" />
+        <node concept="3SKdUt" id="61rdzRigtYF" role="3cqZAp">
+          <node concept="1PaTwC" id="7jWRS$D_0AL" role="1aUNEU">
+            <node concept="3oM_SD" id="7jWRS$D_0AM" role="1PaTwD">
+              <property role="3oM_SC" value="Since" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0AN" role="1PaTwD">
+              <property role="3oM_SC" value="getFunctionStatements()" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0AO" role="1PaTwD">
+              <property role="3oM_SC" value="can" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0AP" role="1PaTwD">
+              <property role="3oM_SC" value="only" />
+>>>>>>> 6bfe4b6649... example showing too long grammarcells method
             </node>
             <node concept="3oM_SD" id="7jWRS$D_0_S" role="1PaTwD">
               <property role="3oM_SC" value="a" />
@@ -7512,10 +7792,17 @@
             </node>
           </node>
         </node>
+<<<<<<< HEAD
         <node concept="3SKdUt" id="61rdzRidwUK" role="3cqZAp">
           <node concept="1PaTwC" id="7jWRS$D_0A4" role="3ndbpf">
             <node concept="3oM_SD" id="7jWRS$D_0A5" role="1PaTwD">
               <property role="3oM_SC" value="besides" />
+=======
+        <node concept="3SKdUt" id="61rdzRigtYH" role="3cqZAp">
+          <node concept="1PaTwC" id="7jWRS$D_0B2" role="1aUNEU">
+            <node concept="3oM_SD" id="7jWRS$D_0B3" role="1PaTwD">
+              <property role="3oM_SC" value="we" />
+>>>>>>> 6bfe4b6649... example showing too long grammarcells method
             </node>
             <node concept="3oM_SD" id="7jWRS$D_0A6" role="1PaTwD">
               <property role="3oM_SC" value="those" />
@@ -7581,10 +7868,17 @@
             </node>
           </node>
         </node>
+<<<<<<< HEAD
         <node concept="3SKdUt" id="61rdzRidMCR" role="3cqZAp">
           <node concept="1PaTwC" id="7jWRS$D_0Al" role="3ndbpf">
             <node concept="3oM_SD" id="7jWRS$D_0Am" role="1PaTwD">
               <property role="3oM_SC" value="All" />
+=======
+        <node concept="3SKdUt" id="61rdzRigtYJ" role="3cqZAp">
+          <node concept="1PaTwC" id="7jWRS$D_0Bl" role="1aUNEU">
+            <node concept="3oM_SD" id="7jWRS$D_0Bm" role="1PaTwD">
+              <property role="3oM_SC" value="their" />
+>>>>>>> 6bfe4b6649... example showing too long grammarcells method
             </node>
             <node concept="3oM_SD" id="7jWRS$D_0An" role="1PaTwD">
               <property role="3oM_SC" value="using" />
@@ -7646,10 +7940,38 @@
             </node>
           </node>
         </node>
+<<<<<<< HEAD
         <node concept="3SKdUt" id="61rdzRif8g3" role="3cqZAp">
           <node concept="1PaTwC" id="7jWRS$D_0At" role="3ndbpf">
             <node concept="3oM_SD" id="7jWRS$D_0Au" role="1PaTwD">
               <property role="3oM_SC" value="All" />
+=======
+        <node concept="3SKdUt" id="61rdzRigVD6" role="3cqZAp">
+          <node concept="1PaTwC" id="7jWRS$D_0Br" role="1aUNEU">
+            <node concept="3oM_SD" id="7jWRS$D_0Bs" role="1PaTwD">
+              <property role="3oM_SC" value="We" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0Bt" role="1PaTwD">
+              <property role="3oM_SC" value="use" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0Bu" role="1PaTwD">
+              <property role="3oM_SC" value="getFunctionStatements()" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0Bv" role="1PaTwD">
+              <property role="3oM_SC" value="to" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0Bw" role="1PaTwD">
+              <property role="3oM_SC" value="add" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0Bx" role="1PaTwD">
+              <property role="3oM_SC" value="all" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0By" role="1PaTwD">
+              <property role="3oM_SC" value="methods" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0Bz" role="1PaTwD">
+              <property role="3oM_SC" value="of" />
+>>>>>>> 6bfe4b6649... example showing too long grammarcells method
             </node>
             <node concept="3oM_SD" id="7jWRS$D_0Av" role="1PaTwD">
               <property role="3oM_SC" value="using" />
@@ -7754,6 +8076,7 @@
         <node concept="3Tqbb2" id="7RFM8R41dVU" role="1tU5fm" />
       </node>
     </node>
+<<<<<<< HEAD
     <node concept="13hLZK" id="7RFM8R3Sz_$" role="13h7CW">
       <node concept="3clFbS" id="7RFM8R3Sz__" role="2VODD2" />
     </node>
@@ -7772,6 +8095,47 @@
             <node concept="3Tsc0h" id="383ZxwZuS_F" role="2OqNvi">
               <ref role="3TtcxE" to="wnzg:383ZxwZrBkA" resolve="actuals" />
 >>>>>>> a5b410c665... Fix highlighting to be consistent and make the package name lowercase
+=======
+    <node concept="13i0hz" id="dx81$JlDkz" role="13h7CS">
+      <property role="TrG5h" value="removeEditorPresentation" />
+      <node concept="3Tm1VV" id="dx81$JlDk$" role="1B3o_S" />
+      <node concept="10P_77" id="dx81$JlEGz" role="3clF45" />
+      <node concept="3clFbS" id="dx81$JlDkA" role="3clF47">
+        <node concept="3SKdUt" id="61rdzRihzEJ" role="3cqZAp">
+          <node concept="1PaTwC" id="7jWRS$D_0BF" role="1aUNEU">
+            <node concept="3oM_SD" id="7jWRS$D_0BG" role="1PaTwD">
+              <property role="3oM_SC" value="If" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0BH" role="1PaTwD">
+              <property role="3oM_SC" value="the" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0BI" role="1PaTwD">
+              <property role="3oM_SC" value="entire" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0BJ" role="1PaTwD">
+              <property role="3oM_SC" value="namespace" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0BK" role="1PaTwD">
+              <property role="3oM_SC" value="is" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0BL" role="1PaTwD">
+              <property role="3oM_SC" value="'used'" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0BM" role="1PaTwD">
+              <property role="3oM_SC" value="or" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0BN" role="1PaTwD">
+              <property role="3oM_SC" value="the" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0BO" role="1PaTwD">
+              <property role="3oM_SC" value="exact" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0BP" role="1PaTwD">
+              <property role="3oM_SC" value="method" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0BQ" role="1PaTwD">
+              <property role="3oM_SC" value="is" />
+>>>>>>> 6bfe4b6649... example showing too long grammarcells method
             </node>
 =======
         <node concept="3SKdUt" id="61rdzRifhOH" role="3cqZAp">
@@ -7802,6 +8166,7 @@
 >>>>>>> cc021cd381... migrated to 2019.2
           </node>
         </node>
+<<<<<<< HEAD
         <node concept="2Gpval" id="6gFj6gs6pDm" role="3cqZAp">
           <node concept="2GrKxI" id="6gFj6gs6pDn" role="2Gsz3X">
             <property role="TrG5h" value="globalNamespace" />
@@ -7810,6 +8175,30 @@
             <node concept="2OqwBi" id="6gFj6gs6pDp" role="2Oq$k0">
               <node concept="13iPFW" id="6gFj6gs6pDq" role="2Oq$k0" />
               <node concept="I4A8Y" id="6gFj6gs6pDr" role="2OqNvi" />
+=======
+        <node concept="3SKdUt" id="61rdzRihzEL" role="3cqZAp">
+          <node concept="1PaTwC" id="7jWRS$D_0BX" role="1aUNEU">
+            <node concept="3oM_SD" id="7jWRS$D_0BY" role="1PaTwD">
+              <property role="3oM_SC" value="then" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0BZ" role="1PaTwD">
+              <property role="3oM_SC" value="the" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0C0" role="1PaTwD">
+              <property role="3oM_SC" value="namespace" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0C1" role="1PaTwD">
+              <property role="3oM_SC" value="and" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0C2" role="1PaTwD">
+              <property role="3oM_SC" value="scope" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0C3" role="1PaTwD">
+              <property role="3oM_SC" value="operator" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0C4" role="1PaTwD">
+              <property role="3oM_SC" value="should" />
+>>>>>>> 6bfe4b6649... example showing too long grammarcells method
             </node>
             <node concept="2SmgA7" id="6gFj6gs6pDs" role="2OqNvi">
               <node concept="chp4Y" id="6gFj6gs6pDt" role="1dBWTz">
@@ -7883,6 +8272,7 @@
             </node>
           </node>
         </node>
+<<<<<<< HEAD
         <node concept="2Gpval" id="7RFM8R0RYJA" role="3cqZAp">
           <node concept="2GrKxI" id="7RFM8R0RYJC" role="2Gsz3X">
             <property role="TrG5h" value="globalMeth" />
@@ -7891,6 +8281,18 @@
             <node concept="2OqwBi" id="7RFM8R0S9UG" role="2Oq$k0">
               <node concept="13iPFW" id="7RFM8R0S9CY" role="2Oq$k0" />
               <node concept="I4A8Y" id="7RFM8R0Sasq" role="2OqNvi" />
+=======
+        <node concept="3SKdUt" id="61rdzRihzEN" role="3cqZAp">
+          <node concept="1PaTwC" id="7jWRS$D_0Cf" role="1aUNEU">
+            <node concept="3oM_SD" id="7jWRS$D_0Cg" role="1PaTwD">
+              <property role="3oM_SC" value="False" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0Ch" role="1PaTwD">
+              <property role="3oM_SC" value="is" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0Ci" role="1PaTwD">
+              <property role="3oM_SC" value="returned" />
+>>>>>>> 6bfe4b6649... example showing too long grammarcells method
             </node>
             <node concept="2SmgA7" id="7RFM8R0Scd8" role="2OqNvi">
               <node concept="chp4Y" id="7RFM8R0Sche" role="1dBWTz">
@@ -7917,6 +8319,7 @@
                     </node>
                   </node>
                 </node>
+<<<<<<< HEAD
                 <node concept="3clFbC" id="7RFM8R0Se0r" role="3uHU7B">
                   <node concept="2OqwBi" id="7RFM8R0ScHl" role="3uHU7B">
                     <node concept="2GrUjf" id="7RFM8R0ScsV" role="2Oq$k0">
@@ -7924,6 +8327,70 @@
                     </node>
                     <node concept="3TrEf2" id="7RFM8R0SdfP" role="2OqNvi">
                       <ref role="3Tt5mk" to="wnzg:7RFM8R0Rm5r" resolve="namespace" />
+=======
+              </node>
+            </node>
+            <node concept="3SKdUt" id="61rdzRihAke" role="3cqZAp">
+              <node concept="1PaTwC" id="7jWRS$D_0Ck" role="1aUNEU">
+                <node concept="3oM_SD" id="7jWRS$D_0Cl" role="1PaTwD">
+                  <property role="3oM_SC" value="Checks" />
+                </node>
+                <node concept="3oM_SD" id="7jWRS$D_0Cm" role="1PaTwD">
+                  <property role="3oM_SC" value="for" />
+                </node>
+                <node concept="3oM_SD" id="7jWRS$D_0Cn" role="1PaTwD">
+                  <property role="3oM_SC" value="using" />
+                </node>
+                <node concept="3oM_SD" id="7jWRS$D_0Co" role="1PaTwD">
+                  <property role="3oM_SC" value="namespace" />
+                </node>
+                <node concept="3oM_SD" id="7jWRS$D_0Cp" role="1PaTwD">
+                  <property role="3oM_SC" value="declarations" />
+                </node>
+                <node concept="3oM_SD" id="7jWRS$D_0Cq" role="1PaTwD">
+                  <property role="3oM_SC" value="within" />
+                </node>
+                <node concept="3oM_SD" id="7jWRS$D_0Cr" role="1PaTwD">
+                  <property role="3oM_SC" value="the" />
+                </node>
+                <node concept="3oM_SD" id="7jWRS$D_0Cs" role="1PaTwD">
+                  <property role="3oM_SC" value="current" />
+                </node>
+                <node concept="3oM_SD" id="7jWRS$D_0Ct" role="1PaTwD">
+                  <property role="3oM_SC" value="namespace," />
+                </node>
+                <node concept="3oM_SD" id="7jWRS$D_0Cu" role="1PaTwD">
+                  <property role="3oM_SC" value="but" />
+                </node>
+                <node concept="3oM_SD" id="7jWRS$D_0Cv" role="1PaTwD">
+                  <property role="3oM_SC" value="prior" />
+                </node>
+                <node concept="3oM_SD" id="7jWRS$D_0Cw" role="1PaTwD">
+                  <property role="3oM_SC" value="to" />
+                </node>
+                <node concept="3oM_SD" id="7jWRS$D_0Cx" role="1PaTwD">
+                  <property role="3oM_SC" value="this" />
+                </node>
+                <node concept="3oM_SD" id="7jWRS$D_0Cy" role="1PaTwD">
+                  <property role="3oM_SC" value="declaration." />
+                </node>
+              </node>
+            </node>
+            <node concept="2Gpval" id="r2pGceoR9M" role="3cqZAp">
+              <node concept="2GrKxI" id="r2pGceoR9N" role="2Gsz3X">
+                <property role="TrG5h" value="usingDecWithinNS" />
+              </node>
+              <node concept="2OqwBi" id="r2pGceoR9O" role="2GsD0m">
+                <node concept="2OqwBi" id="r2pGceoR9P" role="2Oq$k0">
+                  <node concept="2OqwBi" id="r2pGceoR9Q" role="2Oq$k0">
+                    <node concept="13iPFW" id="r2pGceoR9R" role="2Oq$k0" />
+                    <node concept="2Xjw5R" id="r2pGceoR9S" role="2OqNvi">
+                      <node concept="1xMEDy" id="r2pGceoR9T" role="1xVPHs">
+                        <node concept="chp4Y" id="r2pGceoR9U" role="ri$Ld">
+                          <ref role="cht4Q" to="wnzg:383ZxwZqQYo" resolve="NamespaceDeclaration" />
+                        </node>
+                      </node>
+>>>>>>> 6bfe4b6649... example showing too long grammarcells method
                     </node>
                   </node>
                   <node concept="2OqwBi" id="7RFM8R0SeLP" role="3uHU7w">
@@ -7954,6 +8421,7 @@
                 </node>
               </node>
             </node>
+<<<<<<< HEAD
           </node>
         </node>
         <node concept="3clFbH" id="61rdzRigff0" role="3cqZAp" />
@@ -8093,6 +8561,48 @@
                 <property role="TrG5h" value="statements" />
                 <node concept="A3Dl8" id="6gFj6gs5LdD" role="1tU5fm">
                   <node concept="3Tqbb2" id="6gFj6gs5LdE" role="A3Ik2" />
+=======
+            <node concept="3SKdUt" id="61rdzRihCJX" role="3cqZAp">
+              <node concept="1PaTwC" id="7jWRS$D_0Cz" role="1aUNEU">
+                <node concept="3oM_SD" id="7jWRS$D_0C$" role="1PaTwD">
+                  <property role="3oM_SC" value="Checks" />
+                </node>
+                <node concept="3oM_SD" id="7jWRS$D_0C_" role="1PaTwD">
+                  <property role="3oM_SC" value="for" />
+                </node>
+                <node concept="3oM_SD" id="7jWRS$D_0CA" role="1PaTwD">
+                  <property role="3oM_SC" value="using" />
+                </node>
+                <node concept="3oM_SD" id="7jWRS$D_0CB" role="1PaTwD">
+                  <property role="3oM_SC" value="method" />
+                </node>
+                <node concept="3oM_SD" id="7jWRS$D_0CC" role="1PaTwD">
+                  <property role="3oM_SC" value="declarations" />
+                </node>
+                <node concept="3oM_SD" id="7jWRS$D_0CD" role="1PaTwD">
+                  <property role="3oM_SC" value="within" />
+                </node>
+                <node concept="3oM_SD" id="7jWRS$D_0CE" role="1PaTwD">
+                  <property role="3oM_SC" value="the" />
+                </node>
+                <node concept="3oM_SD" id="7jWRS$D_0CF" role="1PaTwD">
+                  <property role="3oM_SC" value="current" />
+                </node>
+                <node concept="3oM_SD" id="7jWRS$D_0CG" role="1PaTwD">
+                  <property role="3oM_SC" value="namespace," />
+                </node>
+                <node concept="3oM_SD" id="7jWRS$D_0CH" role="1PaTwD">
+                  <property role="3oM_SC" value="but" />
+                </node>
+                <node concept="3oM_SD" id="7jWRS$D_0CI" role="1PaTwD">
+                  <property role="3oM_SC" value="prior" />
+                </node>
+                <node concept="3oM_SD" id="7jWRS$D_0CJ" role="1PaTwD">
+                  <property role="3oM_SC" value="to" />
+                </node>
+                <node concept="3oM_SD" id="7jWRS$D_0CK" role="1PaTwD">
+                  <property role="3oM_SC" value="this" />
+>>>>>>> 6bfe4b6649... example showing too long grammarcells method
                 </node>
                 <node concept="2OqwBi" id="6gFj6gs5LdF" role="33vP2m">
                   <node concept="2OqwBi" id="6gFj6gs5LdG" role="2Oq$k0">
@@ -8176,6 +8686,7 @@
                         </node>
                       </node>
                     </node>
+<<<<<<< HEAD
                     <node concept="1Wc70l" id="6gFj6gs5Lei" role="3uHU7B">
                       <node concept="2OqwBi" id="6gFj6gs5Lej" role="3uHU7B">
                         <node concept="2OqwBi" id="6gFj6gs5Lek" role="2Oq$k0">
@@ -8185,6 +8696,53 @@
                           <node concept="3TrEf2" id="6gFj6gs6mU0" role="2OqNvi">
                             <ref role="3Tt5mk" to="wnzg:1rolTiuRvvJ" resolve="namespace" />
                           </node>
+=======
+                  </node>
+                  <node concept="3clFbS" id="6gFj6gpw8y5" role="3clFbx">
+                    <node concept="3SKdUt" id="61rdzRihFPh" role="3cqZAp">
+                      <node concept="1PaTwC" id="7jWRS$D_0CM" role="1aUNEU">
+                        <node concept="3oM_SD" id="7jWRS$D_0CN" role="1PaTwD">
+                          <property role="3oM_SC" value="Only" />
+                        </node>
+                        <node concept="3oM_SD" id="7jWRS$D_0CO" role="1PaTwD">
+                          <property role="3oM_SC" value="return" />
+                        </node>
+                        <node concept="3oM_SD" id="7jWRS$D_0CP" role="1PaTwD">
+                          <property role="3oM_SC" value="true" />
+                        </node>
+                        <node concept="3oM_SD" id="7jWRS$D_0CQ" role="1PaTwD">
+                          <property role="3oM_SC" value="if" />
+                        </node>
+                        <node concept="3oM_SD" id="7jWRS$D_0CR" role="1PaTwD">
+                          <property role="3oM_SC" value="it" />
+                        </node>
+                        <node concept="3oM_SD" id="7jWRS$D_0CS" role="1PaTwD">
+                          <property role="3oM_SC" value="is" />
+                        </node>
+                        <node concept="3oM_SD" id="7jWRS$D_0CT" role="1PaTwD">
+                          <property role="3oM_SC" value="the" />
+                        </node>
+                        <node concept="3oM_SD" id="7jWRS$D_0CU" role="1PaTwD">
+                          <property role="3oM_SC" value="exact" />
+                        </node>
+                        <node concept="3oM_SD" id="7jWRS$D_0CV" role="1PaTwD">
+                          <property role="3oM_SC" value="same" />
+                        </node>
+                        <node concept="3oM_SD" id="7jWRS$D_0CW" role="1PaTwD">
+                          <property role="3oM_SC" value="method" />
+                        </node>
+                        <node concept="3oM_SD" id="7jWRS$D_0CX" role="1PaTwD">
+                          <property role="3oM_SC" value="as" />
+                        </node>
+                        <node concept="3oM_SD" id="7jWRS$D_0CY" role="1PaTwD">
+                          <property role="3oM_SC" value="the" />
+                        </node>
+                        <node concept="3oM_SD" id="7jWRS$D_0CZ" role="1PaTwD">
+                          <property role="3oM_SC" value="one" />
+                        </node>
+                        <node concept="3oM_SD" id="7jWRS$D_0D0" role="1PaTwD">
+                          <property role="3oM_SC" value="selected." />
+>>>>>>> 6bfe4b6649... example showing too long grammarcells method
                         </node>
                         <node concept="3x8VRR" id="6gFj6gs5Len" role="2OqNvi" />
                       </node>
@@ -8243,10 +8801,18 @@
             <node concept="3x8VRR" id="6gFj6gs5LeH" role="2OqNvi" />
           </node>
         </node>
+<<<<<<< HEAD
         <node concept="3SKdUt" id="61rdzRigVD6" role="3cqZAp">
           <node concept="1PaTwC" id="7jWRS$D_0Br" role="3ndbpf">
             <node concept="3oM_SD" id="7jWRS$D_0Bs" role="1PaTwD">
               <property role="3oM_SC" value="We" />
+=======
+        <node concept="3clFbH" id="61rdzRihI1n" role="3cqZAp" />
+        <node concept="3SKdUt" id="61rdzRihWlV" role="3cqZAp">
+          <node concept="1PaTwC" id="7jWRS$D_0D1" role="1aUNEU">
+            <node concept="3oM_SD" id="7jWRS$D_0D2" role="1PaTwD">
+              <property role="3oM_SC" value="Does" />
+>>>>>>> 6bfe4b6649... example showing too long grammarcells method
             </node>
             <node concept="3oM_SD" id="7jWRS$D_0Bt" role="1PaTwD">
               <property role="3oM_SC" value="use" />
@@ -8494,10 +9060,18 @@
             </node>
           </node>
         </node>
+<<<<<<< HEAD
         <node concept="3SKdUt" id="61rdzRihzEL" role="3cqZAp">
           <node concept="1PaTwC" id="7jWRS$D_0BX" role="3ndbpf">
             <node concept="3oM_SD" id="7jWRS$D_0BY" role="1PaTwD">
               <property role="3oM_SC" value="then" />
+=======
+        <node concept="3clFbH" id="61rdzRihIbM" role="3cqZAp" />
+        <node concept="3SKdUt" id="61rdzRihZoj" role="3cqZAp">
+          <node concept="1PaTwC" id="7jWRS$D_0Dk" role="1aUNEU">
+            <node concept="3oM_SD" id="7jWRS$D_0Dl" role="1PaTwD">
+              <property role="3oM_SC" value="Checks" />
+>>>>>>> 6bfe4b6649... example showing too long grammarcells method
             </node>
             <node concept="3oM_SD" id="7jWRS$D_0BZ" role="1PaTwD">
               <property role="3oM_SC" value="the" />
@@ -8591,10 +9165,67 @@
                 </node>
               </node>
             </node>
+<<<<<<< HEAD
             <node concept="3SKdUt" id="61rdzRihAke" role="3cqZAp">
               <node concept="1PaTwC" id="7jWRS$D_0Ck" role="3ndbpf">
                 <node concept="3oM_SD" id="7jWRS$D_0Cl" role="1PaTwD">
                   <property role="3oM_SC" value="Checks" />
+=======
+          </node>
+        </node>
+        <node concept="3SKdUt" id="61rdzRii6b1" role="3cqZAp">
+          <node concept="1PaTwC" id="7jWRS$D_0Dq" role="1aUNEU">
+            <node concept="3oM_SD" id="7jWRS$D_0Dr" role="1PaTwD">
+              <property role="3oM_SC" value="Checks" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0Ds" role="1PaTwD">
+              <property role="3oM_SC" value="for" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0Dt" role="1PaTwD">
+              <property role="3oM_SC" value="globally" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0Du" role="1PaTwD">
+              <property role="3oM_SC" value="used" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0Dv" role="1PaTwD">
+              <property role="3oM_SC" value="methods." />
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="7RFM8R0SL1e" role="3cqZAp">
+          <node concept="3cpWsn" id="7RFM8R0SL1h" role="3cpWs9">
+            <property role="TrG5h" value="globalMeths" />
+            <node concept="A3Dl8" id="7RFM8R0SL1b" role="1tU5fm">
+              <node concept="3Tqbb2" id="7RFM8R0SOY0" role="A3Ik2">
+                <ref role="ehGHo" to="wnzg:7RFM8R0Rm5q" resolve="GlobalUsingNamespaceMethodDeclaration" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="7RFM8R0SQxH" role="33vP2m">
+              <node concept="2OqwBi" id="7RFM8R0SPh$" role="2Oq$k0">
+                <node concept="13iPFW" id="7RFM8R0SOZO" role="2Oq$k0" />
+                <node concept="I4A8Y" id="7RFM8R0SPNs" role="2OqNvi" />
+              </node>
+              <node concept="2SmgA7" id="7RFM8R0SQNF" role="2OqNvi">
+                <node concept="chp4Y" id="7RFM8R0SQTc" role="1dBWTz">
+                  <ref role="cht4Q" to="wnzg:7RFM8R0Rm5q" resolve="GlobalUsingNamespaceMethodDeclaration" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="2Gpval" id="7RFM8R0SS8m" role="3cqZAp">
+          <node concept="2GrKxI" id="7RFM8R0SS8o" role="2Gsz3X">
+            <property role="TrG5h" value="globalMeth" />
+          </node>
+          <node concept="37vLTw" id="7RFM8R0STdn" role="2GsD0m">
+            <ref role="3cqZAo" node="7RFM8R0SL1h" resolve="globalMeths" />
+          </node>
+          <node concept="3clFbS" id="7RFM8R0SS8s" role="2LFqv$">
+            <node concept="3SKdUt" id="61rdzRii8N4" role="3cqZAp">
+              <node concept="1PaTwC" id="7jWRS$D_0Dw" role="1aUNEU">
+                <node concept="3oM_SD" id="7jWRS$D_0Dx" role="1PaTwD">
+                  <property role="3oM_SC" value="Only" />
+>>>>>>> 6bfe4b6649... example showing too long grammarcells method
                 </node>
                 <node concept="3oM_SD" id="7jWRS$D_0Cm" role="1PaTwD">
                   <property role="3oM_SC" value="for" />
@@ -8727,10 +9358,159 @@
                 </node>
               </node>
             </node>
+<<<<<<< HEAD
             <node concept="3SKdUt" id="61rdzRihCJX" role="3cqZAp">
               <node concept="1PaTwC" id="7jWRS$D_0Cz" role="3ndbpf">
                 <node concept="3oM_SD" id="7jWRS$D_0C$" role="1PaTwD">
                   <property role="3oM_SC" value="Checks" />
+=======
+          </node>
+        </node>
+        <node concept="3clFbH" id="7RFM8R0SJUD" role="3cqZAp" />
+        <node concept="3cpWs6" id="dx81$JlEHA" role="3cqZAp">
+          <node concept="3clFbT" id="dx81$JlEI3" role="3cqZAk">
+            <property role="3clFbU" value="false" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="13i0hz" id="r2pGcfcIT4" role="13h7CS">
+      <property role="TrG5h" value="checkForNewPresentation" />
+      <node concept="3Tm1VV" id="r2pGcfcIT5" role="1B3o_S" />
+      <node concept="10P_77" id="r2pGcfcUSU" role="3clF45" />
+      <node concept="3clFbS" id="r2pGcfcIT7" role="3clF47">
+        <node concept="3SKdUt" id="61rdzRiibZh" role="3cqZAp">
+          <node concept="1PaTwC" id="7jWRS$D_0DJ" role="1aUNEU">
+            <node concept="3oM_SD" id="7jWRS$D_0DK" role="1PaTwD">
+              <property role="3oM_SC" value="Checks" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0DL" role="1PaTwD">
+              <property role="3oM_SC" value="if" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0DM" role="1PaTwD">
+              <property role="3oM_SC" value="the" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0DN" role="1PaTwD">
+              <property role="3oM_SC" value="namespace" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0DO" role="1PaTwD">
+              <property role="3oM_SC" value="presentation" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0DP" role="1PaTwD">
+              <property role="3oM_SC" value="needs" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0DQ" role="1PaTwD">
+              <property role="3oM_SC" value="to" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0DR" role="1PaTwD">
+              <property role="3oM_SC" value="be" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0DS" role="1PaTwD">
+              <property role="3oM_SC" value="checked" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0DT" role="1PaTwD">
+              <property role="3oM_SC" value="for" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0DU" role="1PaTwD">
+              <property role="3oM_SC" value="potential" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0DV" role="1PaTwD">
+              <property role="3oM_SC" value="adjustments." />
+            </node>
+          </node>
+        </node>
+        <node concept="3SKdUt" id="61rdzRiibZj" role="3cqZAp">
+          <node concept="1PaTwC" id="7jWRS$D_0DW" role="1aUNEU">
+            <node concept="3oM_SD" id="7jWRS$D_0DX" role="1PaTwD">
+              <property role="3oM_SC" value="Returns" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0DY" role="1PaTwD">
+              <property role="3oM_SC" value="true" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0DZ" role="1PaTwD">
+              <property role="3oM_SC" value="when" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0E0" role="1PaTwD">
+              <property role="3oM_SC" value="a" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0E1" role="1PaTwD">
+              <property role="3oM_SC" value="namespace" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0E2" role="1PaTwD">
+              <property role="3oM_SC" value="is" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0E3" role="1PaTwD">
+              <property role="3oM_SC" value="used" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0E4" role="1PaTwD">
+              <property role="3oM_SC" value="that" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0E5" role="1PaTwD">
+              <property role="3oM_SC" value="is" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0E6" role="1PaTwD">
+              <property role="3oM_SC" value="not" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0E7" role="1PaTwD">
+              <property role="3oM_SC" value="the" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0E8" role="1PaTwD">
+              <property role="3oM_SC" value="selected" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0E9" role="1PaTwD">
+              <property role="3oM_SC" value="namespace." />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0Ea" role="1PaTwD">
+              <property role="3oM_SC" value="Returns" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0Eb" role="1PaTwD">
+              <property role="3oM_SC" value="false" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0Ec" role="1PaTwD">
+              <property role="3oM_SC" value="otherwise." />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="61rdzRiibZm" role="3cqZAp" />
+        <node concept="3SKdUt" id="61rdzRiibZn" role="3cqZAp">
+          <node concept="1PaTwC" id="7jWRS$D_0Ed" role="1aUNEU">
+            <node concept="3oM_SD" id="7jWRS$D_0Ee" role="1PaTwD">
+              <property role="3oM_SC" value="Checks" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0Ef" role="1PaTwD">
+              <property role="3oM_SC" value="for" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0Eg" role="1PaTwD">
+              <property role="3oM_SC" value="using" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0Eh" role="1PaTwD">
+              <property role="3oM_SC" value="namespace" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0Ei" role="1PaTwD">
+              <property role="3oM_SC" value="declarations" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0Ej" role="1PaTwD">
+              <property role="3oM_SC" value="within" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0Ek" role="1PaTwD">
+              <property role="3oM_SC" value="the" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0El" role="1PaTwD">
+              <property role="3oM_SC" value="current" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0Em" role="1PaTwD">
+              <property role="3oM_SC" value="namespace." />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="r2pGcfeu1d" role="3cqZAp">
+          <node concept="3clFbS" id="r2pGcfeu1e" role="3clFbx">
+            <node concept="3cpWs8" id="r2pGcfeu1n" role="3cqZAp">
+              <node concept="3cpWsn" id="r2pGcfeu1o" role="3cpWs9">
+                <property role="TrG5h" value="statements" />
+                <node concept="A3Dl8" id="r2pGcfeu1p" role="1tU5fm">
+                  <node concept="3Tqbb2" id="r2pGcfeu1q" role="A3Ik2" />
+>>>>>>> 6bfe4b6649... example showing too long grammarcells method
                 </node>
                 <node concept="3oM_SD" id="7jWRS$D_0C_" role="1PaTwD">
                   <property role="3oM_SC" value="for" />
@@ -8944,11 +9724,19 @@
             <node concept="3x8VRR" id="r2pGceoR5L" role="2OqNvi" />
           </node>
         </node>
+<<<<<<< HEAD
         <node concept="3clFbH" id="61rdzRihI1n" role="3cqZAp" />
         <node concept="3SKdUt" id="61rdzRihWlV" role="3cqZAp">
           <node concept="1PaTwC" id="7jWRS$D_0D1" role="3ndbpf">
             <node concept="3oM_SD" id="7jWRS$D_0D2" role="1PaTwD">
               <property role="3oM_SC" value="Does" />
+=======
+        <node concept="3clFbH" id="61rdzRiieMN" role="3cqZAp" />
+        <node concept="3SKdUt" id="61rdzRiidGj" role="3cqZAp">
+          <node concept="1PaTwC" id="7jWRS$D_0En" role="1aUNEU">
+            <node concept="3oM_SD" id="7jWRS$D_0Eo" role="1PaTwD">
+              <property role="3oM_SC" value="Checks" />
+>>>>>>> 6bfe4b6649... example showing too long grammarcells method
             </node>
             <node concept="3oM_SD" id="7jWRS$D_0D3" role="1PaTwD">
               <property role="3oM_SC" value="the" />
@@ -9130,6 +9918,7 @@
           <node concept="2GrKxI" id="61rdzRihJAX" role="2Gsz3X">
             <property role="TrG5h" value="statement" />
           </node>
+<<<<<<< HEAD
           <node concept="37vLTw" id="61rdzRihJAY" role="2GsD0m">
             <ref role="3cqZAo" node="61rdzRihJA6" resolve="statements" />
           </node>
@@ -9253,6 +10042,38 @@
                   </node>
                 </node>
               </node>
+=======
+        </node>
+      </node>
+    </node>
+    <node concept="13i0hz" id="r2pGceUPkv" role="13h7CS">
+      <property role="TrG5h" value="getNewEditorPresentation" />
+      <node concept="3Tm1VV" id="r2pGceUPkw" role="1B3o_S" />
+      <node concept="17QB3L" id="r2pGceUS2d" role="3clF45" />
+      <node concept="3clFbS" id="r2pGceUPky" role="3clF47">
+        <node concept="3SKdUt" id="61rdzRiiobz" role="3cqZAp">
+          <node concept="1PaTwC" id="7jWRS$D_0Ex" role="1aUNEU">
+            <node concept="3oM_SD" id="7jWRS$D_0Ey" role="1PaTwD">
+              <property role="3oM_SC" value="Makes" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0Ez" role="1PaTwD">
+              <property role="3oM_SC" value="the" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0E$" role="1PaTwD">
+              <property role="3oM_SC" value="necessary" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0E_" role="1PaTwD">
+              <property role="3oM_SC" value="adjustments" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0EA" role="1PaTwD">
+              <property role="3oM_SC" value="to" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0EB" role="1PaTwD">
+              <property role="3oM_SC" value="the" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0EC" role="1PaTwD">
+              <property role="3oM_SC" value="namespace" />
+>>>>>>> 6bfe4b6649... example showing too long grammarcells method
             </node>
           </node>
         </node>
@@ -9276,6 +10097,7 @@
             </node>
           </node>
         </node>
+<<<<<<< HEAD
         <node concept="3cpWs8" id="6gFj6gs5wRy" role="3cqZAp">
           <node concept="3cpWsn" id="6gFj6gs5wRz" role="3cpWs9">
             <property role="TrG5h" value="globalUsings" />
@@ -9283,6 +10105,69 @@
               <node concept="3Tqbb2" id="6gFj6gs5wR_" role="A3Ik2">
                 <ref role="ehGHo" to="wnzg:6gFj6gpBJFg" resolve="GlobalUsingGeneralNamespaceDeclaration" />
               </node>
+=======
+        <node concept="3clFbH" id="61rdzRiio3$" role="3cqZAp" />
+        <node concept="3cpWs8" id="r2pGceUS2L" role="3cqZAp">
+          <node concept="3cpWsn" id="r2pGceUS2O" role="3cpWs9">
+            <property role="TrG5h" value="editorPres" />
+            <node concept="17QB3L" id="r2pGceUS2K" role="1tU5fm" />
+            <node concept="Xl_RD" id="r2pGceUS3j" role="33vP2m" />
+          </node>
+        </node>
+        <node concept="3clFbH" id="61rdzRiiMjR" role="3cqZAp" />
+        <node concept="3SKdUt" id="61rdzRij9Fw" role="3cqZAp">
+          <node concept="1PaTwC" id="7jWRS$D_0EI" role="1aUNEU">
+            <node concept="3oM_SD" id="7jWRS$D_0EJ" role="1PaTwD">
+              <property role="3oM_SC" value="If" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0EK" role="1PaTwD">
+              <property role="3oM_SC" value="currently" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0EL" role="1PaTwD">
+              <property role="3oM_SC" value="within" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0EM" role="1PaTwD">
+              <property role="3oM_SC" value="a" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0EN" role="1PaTwD">
+              <property role="3oM_SC" value="namespace," />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0EO" role="1PaTwD">
+              <property role="3oM_SC" value="removes" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0EP" role="1PaTwD">
+              <property role="3oM_SC" value="all" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0EQ" role="1PaTwD">
+              <property role="3oM_SC" value="used" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0ER" role="1PaTwD">
+              <property role="3oM_SC" value="namespaces" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0ES" role="1PaTwD">
+              <property role="3oM_SC" value="from" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0ET" role="1PaTwD">
+              <property role="3oM_SC" value="the" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0EU" role="1PaTwD">
+              <property role="3oM_SC" value="presentation" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0EV" role="1PaTwD">
+              <property role="3oM_SC" value="if" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0EW" role="1PaTwD">
+              <property role="3oM_SC" value="they" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0EX" role="1PaTwD">
+              <property role="3oM_SC" value="are" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0EY" role="1PaTwD">
+              <property role="3oM_SC" value="the" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0EZ" role="1PaTwD">
+              <property role="3oM_SC" value="selected" />
+>>>>>>> 6bfe4b6649... example showing too long grammarcells method
             </node>
             <node concept="2OqwBi" id="6gFj6gs5wRA" role="33vP2m">
               <node concept="2OqwBi" id="6gFj6gs5wRB" role="2Oq$k0">
@@ -9297,9 +10182,41 @@
             </node>
           </node>
         </node>
+<<<<<<< HEAD
         <node concept="2Gpval" id="6gFj6gs5wRG" role="3cqZAp">
           <node concept="2GrKxI" id="6gFj6gs5wRH" role="2Gsz3X">
             <property role="TrG5h" value="globalUsing" />
+=======
+        <node concept="3SKdUt" id="61rdzRij9Fy" role="3cqZAp">
+          <node concept="1PaTwC" id="7jWRS$D_0F1" role="1aUNEU">
+            <node concept="3oM_SD" id="7jWRS$D_0F2" role="1PaTwD">
+              <property role="3oM_SC" value="or" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0F3" role="1PaTwD">
+              <property role="3oM_SC" value="a" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0F4" role="1PaTwD">
+              <property role="3oM_SC" value="direct" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0F5" role="1PaTwD">
+              <property role="3oM_SC" value="parent/distant" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0F6" role="1PaTwD">
+              <property role="3oM_SC" value="ancestor" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0F7" role="1PaTwD">
+              <property role="3oM_SC" value="of" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0F8" role="1PaTwD">
+              <property role="3oM_SC" value="the" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0F9" role="1PaTwD">
+              <property role="3oM_SC" value="selected" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0Fa" role="1PaTwD">
+              <property role="3oM_SC" value="one." />
+            </node>
+>>>>>>> 6bfe4b6649... example showing too long grammarcells method
           </node>
           <node concept="37vLTw" id="6gFj6gs5wRI" role="2GsD0m">
             <ref role="3cqZAo" node="6gFj6gs5wRz" resolve="globalUsings" />
@@ -9360,6 +10277,7 @@
                 </node>
               </node>
             </node>
+<<<<<<< HEAD
           </node>
         </node>
         <node concept="3SKdUt" id="61rdzRii6b1" role="3cqZAp">
@@ -9397,6 +10315,12 @@
               <node concept="2SmgA7" id="7RFM8R0SQNF" role="2OqNvi">
                 <node concept="chp4Y" id="7RFM8R0SQTc" role="1dBWTz">
                   <ref role="cht4Q" to="wnzg:7RFM8R0Rm5q" resolve="GlobalUsingNamespaceMethodDeclaration" />
+=======
+            <node concept="3SKdUt" id="61rdzRijP0M" role="3cqZAp">
+              <node concept="1PaTwC" id="7jWRS$D_0Fb" role="1aUNEU">
+                <node concept="3oM_SD" id="7jWRS$D_0Fc" role="1PaTwD">
+                  <property role="3oM_SC" value="Removes" />
+>>>>>>> 6bfe4b6649... example showing too long grammarcells method
                 </node>
               </node>
             </node>
@@ -9504,6 +10428,7 @@
                   </node>
                 </node>
               </node>
+<<<<<<< HEAD
               <node concept="3clFbS" id="7RFM8R0SThd" role="3clFbx">
                 <node concept="3clFbJ" id="7RFM8R0T5Wg" role="3cqZAp">
                   <node concept="2OqwBi" id="7RFM8R0T7db" role="3clFbw">
@@ -9513,6 +10438,37 @@
                         <node concept="1xMEDy" id="7RFM8R0T6NH" role="1xVPHs">
                           <node concept="chp4Y" id="7RFM8R0T6Q7" role="ri$Ld">
                             <ref role="cht4Q" to="wnzg:383ZxwZqQYo" resolve="NamespaceDeclaration" />
+=======
+            </node>
+            <node concept="3SKdUt" id="61rdzRikTPs" role="3cqZAp">
+              <node concept="1PaTwC" id="7jWRS$D_0Fh" role="1aUNEU">
+                <node concept="3oM_SD" id="7jWRS$D_0Fi" role="1PaTwD">
+                  <property role="3oM_SC" value="Creates" />
+                </node>
+                <node concept="3oM_SD" id="7jWRS$D_0Fj" role="1PaTwD">
+                  <property role="3oM_SC" value="the" />
+                </node>
+                <node concept="3oM_SD" id="7jWRS$D_0Fk" role="1PaTwD">
+                  <property role="3oM_SC" value="presentation." />
+                </node>
+              </node>
+            </node>
+            <node concept="1Dw8fO" id="r2pGcf8t9k" role="3cqZAp">
+              <node concept="3clFbS" id="r2pGcf8t9l" role="2LFqv$">
+                <node concept="3clFbF" id="r2pGcf8t9m" role="3cqZAp">
+                  <node concept="d57v9" id="r2pGcf8t9n" role="3clFbG">
+                    <node concept="3cpWs3" id="r2pGcf8t9o" role="37vLTx">
+                      <node concept="Xl_RD" id="r2pGcf8t9p" role="3uHU7w">
+                        <property role="Xl_RC" value="::" />
+                      </node>
+                      <node concept="2OqwBi" id="r2pGcf8t9q" role="3uHU7B">
+                        <node concept="1y4W85" id="r2pGcf8t9r" role="2Oq$k0">
+                          <node concept="37vLTw" id="r2pGcf8t9s" role="1y58nS">
+                            <ref role="3cqZAo" node="r2pGcf8t9w" resolve="j" />
+                          </node>
+                          <node concept="37vLTw" id="r2pGcf8t9t" role="1y566C">
+                            <ref role="3cqZAo" node="r2pGcf8dle" resolve="ancestorNodes" />
+>>>>>>> 6bfe4b6649... example showing too long grammarcells method
                           </node>
                         </node>
                       </node>
@@ -9537,6 +10493,7 @@
             <property role="3clFbU" value="false" />
           </node>
         </node>
+<<<<<<< HEAD
       </node>
     </node>
     <node concept="13i0hz" id="r2pGcfcIT4" role="13h7CS">
@@ -9548,6 +10505,13 @@
           <node concept="1PaTwC" id="7jWRS$D_0DJ" role="3ndbpf">
             <node concept="3oM_SD" id="7jWRS$D_0DK" role="1PaTwD">
               <property role="3oM_SC" value="Checks" />
+=======
+        <node concept="3clFbH" id="61rdzRilR6A" role="3cqZAp" />
+        <node concept="3SKdUt" id="61rdzRilRoU" role="3cqZAp">
+          <node concept="1PaTwC" id="7jWRS$D_0Fl" role="1aUNEU">
+            <node concept="3oM_SD" id="7jWRS$D_0Fm" role="1PaTwD">
+              <property role="3oM_SC" value="If" />
+>>>>>>> 6bfe4b6649... example showing too long grammarcells method
             </node>
             <node concept="3oM_SD" id="7jWRS$D_0DL" role="1PaTwD">
               <property role="3oM_SC" value="if" />
@@ -9636,11 +10600,18 @@
             </node>
           </node>
         </node>
+<<<<<<< HEAD
         <node concept="3clFbH" id="61rdzRiibZm" role="3cqZAp" />
         <node concept="3SKdUt" id="61rdzRiibZn" role="3cqZAp">
           <node concept="1PaTwC" id="7jWRS$D_0Ed" role="3ndbpf">
             <node concept="3oM_SD" id="7jWRS$D_0Ee" role="1PaTwD">
               <property role="3oM_SC" value="Checks" />
+=======
+        <node concept="3SKdUt" id="61rdzRilRoW" role="3cqZAp">
+          <node concept="1PaTwC" id="7jWRS$D_0FC" role="1aUNEU">
+            <node concept="3oM_SD" id="7jWRS$D_0FD" role="1PaTwD">
+              <property role="3oM_SC" value="or" />
+>>>>>>> 6bfe4b6649... example showing too long grammarcells method
             </node>
             <node concept="3oM_SD" id="7jWRS$D_0Ef" role="1PaTwD">
               <property role="3oM_SC" value="for" />
@@ -9787,11 +10758,19 @@
             <node concept="3x8VRR" id="r2pGcfeu2B" role="2OqNvi" />
           </node>
         </node>
+<<<<<<< HEAD
         <node concept="3clFbH" id="61rdzRiieMN" role="3cqZAp" />
         <node concept="3SKdUt" id="61rdzRiidGj" role="3cqZAp">
           <node concept="1PaTwC" id="7jWRS$D_0En" role="3ndbpf">
             <node concept="3oM_SD" id="7jWRS$D_0Eo" role="1PaTwD">
               <property role="3oM_SC" value="Checks" />
+=======
+        <node concept="3clFbH" id="61rdzRioSji" role="3cqZAp" />
+        <node concept="3SKdUt" id="61rdzRintmY" role="3cqZAp">
+          <node concept="1PaTwC" id="7jWRS$D_0FM" role="1aUNEU">
+            <node concept="3oM_SD" id="7jWRS$D_0FN" role="1PaTwD">
+              <property role="3oM_SC" value="Removes" />
+>>>>>>> 6bfe4b6649... example showing too long grammarcells method
             </node>
             <node concept="3oM_SD" id="7jWRS$D_0Ep" role="1PaTwD">
               <property role="3oM_SC" value="for" />
@@ -9988,6 +10967,7 @@
             </node>
           </node>
         </node>
+<<<<<<< HEAD
         <node concept="3cpWs6" id="r2pGcfeJLR" role="3cqZAp">
           <node concept="3clFbT" id="r2pGcfeKaP" role="3cqZAk">
             <property role="3clFbU" value="false" />
@@ -10004,6 +10984,12 @@
           <node concept="1PaTwC" id="7jWRS$D_0Ex" role="3ndbpf">
             <node concept="3oM_SD" id="7jWRS$D_0Ey" role="1PaTwD">
               <property role="3oM_SC" value="Makes" />
+=======
+        <node concept="3SKdUt" id="61rdzRiq0kx" role="3cqZAp">
+          <node concept="1PaTwC" id="7jWRS$D_0FS" role="1aUNEU">
+            <node concept="3oM_SD" id="7jWRS$D_0FT" role="1PaTwD">
+              <property role="3oM_SC" value="Creates" />
+>>>>>>> 6bfe4b6649... example showing too long grammarcells method
             </node>
             <node concept="3oM_SD" id="7jWRS$D_0Ez" role="1PaTwD">
               <property role="3oM_SC" value="the" />
@@ -10048,11 +11034,25 @@
             <node concept="Xl_RD" id="r2pGceUS3j" role="33vP2m" />
           </node>
         </node>
+<<<<<<< HEAD
         <node concept="3clFbH" id="61rdzRiiMjR" role="3cqZAp" />
         <node concept="3SKdUt" id="61rdzRij9Fw" role="3cqZAp">
           <node concept="1PaTwC" id="7jWRS$D_0EI" role="3ndbpf">
             <node concept="3oM_SD" id="7jWRS$D_0EJ" role="1PaTwD">
               <property role="3oM_SC" value="If" />
+=======
+      </node>
+    </node>
+    <node concept="13i0hz" id="r2pGcfny46" role="13h7CS">
+      <property role="TrG5h" value="getNewPresentation" />
+      <node concept="3Tm1VV" id="r2pGcfny47" role="1B3o_S" />
+      <node concept="17QB3L" id="r2pGcfnBVI" role="3clF45" />
+      <node concept="3clFbS" id="r2pGcfny49" role="3clF47">
+        <node concept="3SKdUt" id="61rdzRiro6T" role="3cqZAp">
+          <node concept="1PaTwC" id="7jWRS$D_0FW" role="1aUNEU">
+            <node concept="3oM_SD" id="7jWRS$D_0FX" role="1PaTwD">
+              <property role="3oM_SC" value="Uses" />
+>>>>>>> 6bfe4b6649... example showing too long grammarcells method
             </node>
             <node concept="3oM_SD" id="7jWRS$D_0EK" role="1PaTwD">
               <property role="3oM_SC" value="currently" />
@@ -10084,8 +11084,23 @@
             <node concept="3oM_SD" id="7jWRS$D_0ET" role="1PaTwD">
               <property role="3oM_SC" value="the" />
             </node>
+<<<<<<< HEAD
             <node concept="3oM_SD" id="7jWRS$D_0EU" role="1PaTwD">
               <property role="3oM_SC" value="presentation" />
+=======
+            <node concept="3oM_SD" id="7jWRS$D_0G8" role="1PaTwD">
+              <property role="3oM_SC" value="selected" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0G9" role="1PaTwD">
+              <property role="3oM_SC" value="namespace," />
+            </node>
+          </node>
+        </node>
+        <node concept="3SKdUt" id="61rdzRiro6V" role="3cqZAp">
+          <node concept="1PaTwC" id="7jWRS$D_0Ga" role="1aUNEU">
+            <node concept="3oM_SD" id="7jWRS$D_0Gb" role="1PaTwD">
+              <property role="3oM_SC" value="for" />
+>>>>>>> 6bfe4b6649... example showing too long grammarcells method
             </node>
             <node concept="3oM_SD" id="7jWRS$D_0EV" role="1PaTwD">
               <property role="3oM_SC" value="if" />
@@ -10107,10 +11122,36 @@
             </node>
           </node>
         </node>
+<<<<<<< HEAD
         <node concept="3SKdUt" id="61rdzRij9Fy" role="3cqZAp">
           <node concept="1PaTwC" id="7jWRS$D_0F1" role="3ndbpf">
             <node concept="3oM_SD" id="7jWRS$D_0F2" role="1PaTwD">
               <property role="3oM_SC" value="or" />
+=======
+        <node concept="3cpWs6" id="r2pGcfnHlb" role="3cqZAp">
+          <node concept="37vLTw" id="r2pGcfnHll" role="3cqZAk">
+            <ref role="3cqZAo" node="r2pGcfnHgb" resolve="pres" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="13hLZK" id="383ZxwZuROG" role="13h7CW">
+      <node concept="3clFbS" id="383ZxwZuROH" role="2VODD2" />
+    </node>
+  </node>
+  <node concept="13h7C7" id="383ZxwZt1$1">
+    <property role="3GE5qa" value="namespace" />
+    <ref role="13h7C2" to="wnzg:383ZxwZqQYo" resolve="NamespaceDeclaration" />
+    <node concept="13i0hz" id="383ZxwZufXU" role="13h7CS">
+      <property role="TrG5h" value="getEditorPresentation" />
+      <node concept="3Tm1VV" id="383ZxwZufXV" role="1B3o_S" />
+      <node concept="17QB3L" id="383ZxwZuhvX" role="3clF45" />
+      <node concept="3clFbS" id="383ZxwZufXX" role="3clF47">
+        <node concept="3SKdUt" id="61rdzRibag0" role="3cqZAp">
+          <node concept="1PaTwC" id="7jWRS$D_0Gh" role="1aUNEU">
+            <node concept="3oM_SD" id="7jWRS$D_0Gi" role="1PaTwD">
+              <property role="3oM_SC" value="Returns" />
+>>>>>>> 6bfe4b6649... example showing too long grammarcells method
             </node>
             <node concept="3oM_SD" id="7jWRS$D_0F3" role="1PaTwD">
               <property role="3oM_SC" value="a" />
@@ -11188,7 +12229,7 @@
           </node>
         </node>
         <node concept="3SKdUt" id="61rdzRibb8q" role="3cqZAp">
-          <node concept="1PaTwC" id="7jWRS$D_0Gx" role="3ndbpf">
+          <node concept="1PaTwC" id="7jWRS$D_0Gx" role="1aUNEU">
             <node concept="3oM_SD" id="7jWRS$D_0Gy" role="1PaTwD">
               <property role="3oM_SC" value="a" />
             </node>
@@ -11722,6 +12763,7 @@
       <node concept="2I9FWS" id="383ZxwZt1$w" role="3clF45">
         <ref role="2I9WkF" to="wnzg:383ZxwZsgd4" resolve="INamespaceMemberDeclaration" />
       </node>
+<<<<<<< HEAD
       <node concept="3clFbS" id="383ZxwZt1$f" role="3clF47">
         <node concept="3clFbF" id="383ZxwZt1$X" role="3cqZAp">
           <node concept="2OqwBi" id="383ZxwZt1Qs" role="3clFbG">
@@ -11737,6 +12779,12 @@
         <node concept="3SKdUt" id="61rdzRhNRns" role="3cqZAp">
           <node concept="1PaTwC" id="7jWRS$D_0Hu" role="3ndbpf">
             <node concept="3oM_SD" id="7jWRS$D_0Hv" role="1PaTwD">
+=======
+      <node concept="3clFbS" id="1rolTiw35sg" role="3clF47">
+        <node concept="3SKdUt" id="61rdzRibd$m" role="3cqZAp">
+          <node concept="1PaTwC" id="7jWRS$D_0GO" role="1aUNEU">
+            <node concept="3oM_SD" id="7jWRS$D_0GP" role="1PaTwD">
+>>>>>>> 6bfe4b6649... example showing too long grammarcells method
               <property role="3oM_SC" value="Returns" />
             </node>
             <node concept="3oM_SD" id="7jWRS$D_0Hw" role="1PaTwD">
@@ -11808,10 +12856,33 @@
             </node>
           </node>
         </node>
+<<<<<<< HEAD
         <node concept="3SKdUt" id="61rdzRhNRnw" role="3cqZAp">
           <node concept="1PaTwC" id="7jWRS$D_0HQ" role="3ndbpf">
             <node concept="3oM_SD" id="7jWRS$D_0HR" role="1PaTwD">
               <property role="3oM_SC" value="Used" />
+=======
+      </node>
+      <node concept="17QB3L" id="2q0dGTvdw3C" role="3clF45" />
+      <node concept="3Tm1VV" id="2q0dGTvdw3D" role="1B3o_S" />
+    </node>
+    <node concept="13hLZK" id="383ZxwZt1$2" role="13h7CW">
+      <node concept="3clFbS" id="383ZxwZt1$3" role="2VODD2" />
+    </node>
+  </node>
+  <node concept="13h7C7" id="r2pGcfLDuM">
+    <property role="3GE5qa" value="namespace" />
+    <ref role="13h7C2" to="wnzg:383ZxwZrBkp" resolve="NamespaceAttributeRef" />
+    <node concept="13i0hz" id="r2pGcfLSaj" role="13h7CS">
+      <property role="TrG5h" value="isDistantAncestorOf" />
+      <node concept="3Tm1VV" id="r2pGcfLSak" role="1B3o_S" />
+      <node concept="10P_77" id="r2pGcfLSal" role="3clF45" />
+      <node concept="3clFbS" id="r2pGcfLSam" role="3clF47">
+        <node concept="3SKdUt" id="61rdzRironJ" role="3cqZAp">
+          <node concept="1PaTwC" id="7jWRS$D_0H5" role="1aUNEU">
+            <node concept="3oM_SD" id="7jWRS$D_0H6" role="1PaTwD">
+              <property role="3oM_SC" value="Iterate" />
+>>>>>>> 6bfe4b6649... example showing too long grammarcells method
             </node>
             <node concept="3oM_SD" id="7jWRS$D_0HS" role="1PaTwD">
               <property role="3oM_SC" value="to" />
@@ -11940,6 +13011,7 @@
           <node concept="2GrKxI" id="6gFj6guf4RV" role="2Gsz3X">
             <property role="TrG5h" value="newNSRef" />
           </node>
+<<<<<<< HEAD
           <node concept="2OqwBi" id="6gFj6gufbCQ" role="2GsD0m">
             <node concept="2OqwBi" id="6gFj6guf9y8" role="2Oq$k0">
               <node concept="2OqwBi" id="6gFj6guf8gp" role="2Oq$k0">
@@ -11949,6 +13021,38 @@
                 </node>
               </node>
               <node concept="32TBzR" id="6gFj6gufabO" role="2OqNvi" />
+=======
+        </node>
+      </node>
+      <node concept="37vLTG" id="r2pGcfLSaN" role="3clF46">
+        <property role="TrG5h" value="thisNode" />
+        <node concept="3Tqbb2" id="r2pGcfLSaO" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="r2pGcfLSaP" role="3clF46">
+        <property role="TrG5h" value="ancestorNode" />
+        <node concept="3Tqbb2" id="r2pGcfLSaQ" role="1tU5fm" />
+      </node>
+    </node>
+    <node concept="13i0hz" id="r2pGcfLSmw" role="13h7CS">
+      <property role="TrG5h" value="getFunctionStatements" />
+      <node concept="3Tm1VV" id="r2pGcfLSmx" role="1B3o_S" />
+      <node concept="A3Dl8" id="r2pGcfLSmy" role="3clF45">
+        <node concept="3Tqbb2" id="r2pGcfLSmz" role="A3Ik2">
+          <ref role="ehGHo" to="c4fa:3CmSUB7FmO3" resolve="Statement" />
+        </node>
+      </node>
+      <node concept="3clFbS" id="r2pGcfLSm$" role="3clF47">
+        <node concept="3SKdUt" id="61rdzRhMg3D" role="3cqZAp">
+          <node concept="1PaTwC" id="7jWRS$D_0Hi" role="1aUNEU">
+            <node concept="3oM_SD" id="7jWRS$D_0Hj" role="1PaTwD">
+              <property role="3oM_SC" value="Returns" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0Hk" role="1PaTwD">
+              <property role="3oM_SC" value="a" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0Hl" role="1PaTwD">
+              <property role="3oM_SC" value="sequence" />
+>>>>>>> 6bfe4b6649... example showing too long grammarcells method
             </node>
             <node concept="v3k3i" id="6gFj6gufd2A" role="2OqNvi">
               <node concept="chp4Y" id="6gFj6gufd7K" role="v3oSu">
@@ -12115,6 +13219,7 @@
       <node concept="A3Dl8" id="7fNEwqBxD2u" role="3clF45">
         <node concept="3Tqbb2" id="7fNEwqBxD2v" role="A3Ik2" />
       </node>
+<<<<<<< HEAD
       <node concept="3clFbS" id="7fNEwqBxD2w" role="3clF47">
         <node concept="3cpWs8" id="7fNEwqBxD2x" role="3cqZAp">
           <node concept="3cpWsn" id="7fNEwqBxD2y" role="3cpWs9">
@@ -12122,6 +13227,43 @@
             <node concept="A3Dl8" id="7fNEwqBxD2z" role="1tU5fm">
               <node concept="3Tqbb2" id="7fNEwqBxD2$" role="A3Ik2" />
 >>>>>>> a5b410c665... Fix highlighting to be consistent and make the package name lowercase
+=======
+      <node concept="3clFbS" id="6gFj6gsR4hP" role="3clF47">
+        <node concept="3SKdUt" id="61rdzRhNRns" role="3cqZAp">
+          <node concept="1PaTwC" id="7jWRS$D_0Hu" role="1aUNEU">
+            <node concept="3oM_SD" id="7jWRS$D_0Hv" role="1PaTwD">
+              <property role="3oM_SC" value="Returns" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0Hw" role="1PaTwD">
+              <property role="3oM_SC" value="a" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0Hx" role="1PaTwD">
+              <property role="3oM_SC" value="sequence" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0Hy" role="1PaTwD">
+              <property role="3oM_SC" value="containing" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0Hz" role="1PaTwD">
+              <property role="3oM_SC" value="all" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0H$" role="1PaTwD">
+              <property role="3oM_SC" value="attributes" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0H_" role="1PaTwD">
+              <property role="3oM_SC" value="within" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0HA" role="1PaTwD">
+              <property role="3oM_SC" value="the" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0HB" role="1PaTwD">
+              <property role="3oM_SC" value="scope" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0HC" role="1PaTwD">
+              <property role="3oM_SC" value="of" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0HD" role="1PaTwD">
+              <property role="3oM_SC" value="the" />
+>>>>>>> 6bfe4b6649... example showing too long grammarcells method
             </node>
             <node concept="2SmgA7" id="7RFM8R0BSZe" role="2OqNvi">
               <node concept="chp4Y" id="7RFM8R0BT3b" role="1dBWTz">
@@ -12187,11 +13329,21 @@
             </node>
           </node>
         </node>
+<<<<<<< HEAD
         <node concept="3clFbH" id="61rdzRigSAC" role="3cqZAp" />
         <node concept="3SKdUt" id="61rdzRhR35O" role="3cqZAp">
           <node concept="1PaTwC" id="7jWRS$D_0Ip" role="3ndbpf">
             <node concept="3oM_SD" id="7jWRS$D_0Iq" role="1PaTwD">
               <property role="3oM_SC" value="Since" />
+=======
+        <node concept="3SKdUt" id="61rdzRhNRnu" role="3cqZAp">
+          <node concept="1PaTwC" id="7jWRS$D_0HG" role="1aUNEU">
+            <node concept="3oM_SD" id="7jWRS$D_0HH" role="1PaTwD">
+              <property role="3oM_SC" value="besides" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0HI" role="1PaTwD">
+              <property role="3oM_SC" value="those" />
+>>>>>>> 6bfe4b6649... example showing too long grammarcells method
             </node>
             <node concept="3oM_SD" id="7jWRS$D_0Ir" role="1PaTwD">
               <property role="3oM_SC" value="getFunctionStatements()" />
@@ -12214,8 +13366,17 @@
             <node concept="3oM_SD" id="7jWRS$D_0Ix" role="1PaTwD">
               <property role="3oM_SC" value="inside" />
             </node>
+<<<<<<< HEAD
             <node concept="3oM_SD" id="7jWRS$D_0Iy" role="1PaTwD">
               <property role="3oM_SC" value="a" />
+=======
+          </node>
+        </node>
+        <node concept="3SKdUt" id="61rdzRhNRnw" role="3cqZAp">
+          <node concept="1PaTwC" id="7jWRS$D_0HQ" role="1aUNEU">
+            <node concept="3oM_SD" id="7jWRS$D_0HR" role="1PaTwD">
+              <property role="3oM_SC" value="Used" />
+>>>>>>> 6bfe4b6649... example showing too long grammarcells method
             </node>
             <node concept="3oM_SD" id="7jWRS$D_0Iz" role="1PaTwD">
               <property role="3oM_SC" value="function," />
@@ -12240,10 +13401,32 @@
             </node>
           </node>
         </node>
+<<<<<<< HEAD
         <node concept="3SKdUt" id="61rdzRhRepi" role="3cqZAp">
           <node concept="1PaTwC" id="7jWRS$D_0IE" role="3ndbpf">
             <node concept="3oM_SD" id="7jWRS$D_0IF" role="1PaTwD">
               <property role="3oM_SC" value="we" />
+=======
+        <node concept="3SKdUt" id="61rdzRhP93y" role="3cqZAp">
+          <node concept="1PaTwC" id="7jWRS$D_0HX" role="1aUNEU">
+            <node concept="3oM_SD" id="7jWRS$D_0HY" role="1PaTwD">
+              <property role="3oM_SC" value="All" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0HZ" role="1PaTwD">
+              <property role="3oM_SC" value="using" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0I0" role="1PaTwD">
+              <property role="3oM_SC" value="attribute" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0I1" role="1PaTwD">
+              <property role="3oM_SC" value="declarations" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0I2" role="1PaTwD">
+              <property role="3oM_SC" value="within" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0I3" role="1PaTwD">
+              <property role="3oM_SC" value="selected" />
+>>>>>>> 6bfe4b6649... example showing too long grammarcells method
             </node>
             <node concept="3oM_SD" id="7jWRS$D_0IG" role="1PaTwD">
               <property role="3oM_SC" value="check" />
@@ -12257,8 +13440,17 @@
             <node concept="3oM_SD" id="7jWRS$D_0IJ" role="1PaTwD">
               <property role="3oM_SC" value="of" />
             </node>
+<<<<<<< HEAD
             <node concept="3oM_SD" id="7jWRS$D_0IK" role="1PaTwD">
               <property role="3oM_SC" value="the" />
+=======
+          </node>
+        </node>
+        <node concept="3SKdUt" id="61rdzRhPSpr" role="3cqZAp">
+          <node concept="1PaTwC" id="7jWRS$D_0I5" role="1aUNEU">
+            <node concept="3oM_SD" id="7jWRS$D_0I6" role="1PaTwD">
+              <property role="3oM_SC" value="All" />
+>>>>>>> 6bfe4b6649... example showing too long grammarcells method
             </node>
             <node concept="3oM_SD" id="7jWRS$D_0IL" role="1PaTwD">
               <property role="3oM_SC" value="current" />
@@ -12298,10 +13490,17 @@
             </node>
           </node>
         </node>
+<<<<<<< HEAD
         <node concept="3SKdUt" id="61rdzRhRPbZ" role="3cqZAp">
           <node concept="1PaTwC" id="7jWRS$D_0IX" role="3ndbpf">
             <node concept="3oM_SD" id="7jWRS$D_0IY" role="1PaTwD">
               <property role="3oM_SC" value="their" />
+=======
+        <node concept="3SKdUt" id="61rdzRhQf2l" role="3cqZAp">
+          <node concept="1PaTwC" id="7jWRS$D_0Id" role="1aUNEU">
+            <node concept="3oM_SD" id="7jWRS$D_0Ie" role="1PaTwD">
+              <property role="3oM_SC" value="All" />
+>>>>>>> 6bfe4b6649... example showing too long grammarcells method
             </node>
             <node concept="3oM_SD" id="7jWRS$D_0IZ" role="1PaTwD">
               <property role="3oM_SC" value="attributes" />
@@ -12474,6 +13673,7 @@
             <node concept="3x8VRR" id="6gFj6gsR4ka" role="2OqNvi" />
           </node>
         </node>
+<<<<<<< HEAD
         <node concept="3SKdUt" id="61rdzRhRAdd" role="3cqZAp">
           <node concept="1PaTwC" id="7jWRS$D_0J3" role="3ndbpf">
             <node concept="3oM_SD" id="7jWRS$D_0J4" role="1PaTwD">
@@ -12511,6 +13711,12 @@
             </node>
             <node concept="3oM_SD" id="7jWRS$D_0Jf" role="1PaTwD">
               <property role="3oM_SC" value="within" />
+=======
+        <node concept="3SKdUt" id="61rdzRhQM9r" role="3cqZAp">
+          <node concept="1PaTwC" id="7jWRS$D_0Ik" role="1aUNEU">
+            <node concept="3oM_SD" id="7jWRS$D_0Il" role="1PaTwD">
+              <property role="3oM_SC" value="All" />
+>>>>>>> 6bfe4b6649... example showing too long grammarcells method
             </node>
             <node concept="3oM_SD" id="7jWRS$D_0Jg" role="1PaTwD">
               <property role="3oM_SC" value="the" />
@@ -12658,6 +13864,7 @@
             </node>
           </node>
         </node>
+<<<<<<< HEAD
         <node concept="3cpWs6" id="6gFj6gsR4lj" role="3cqZAp">
           <node concept="37vLTw" id="6gFj6gsR4lk" role="3cqZAk">
             <ref role="3cqZAo" node="6gFj6gsR4hR" resolve="attributes" />
@@ -12674,6 +13881,13 @@
           <node concept="1PaTwC" id="7jWRS$D_0Jj" role="3ndbpf">
             <node concept="3oM_SD" id="7jWRS$D_0Jk" role="1PaTwD">
               <property role="3oM_SC" value="If" />
+=======
+        <node concept="3clFbH" id="61rdzRigSAC" role="3cqZAp" />
+        <node concept="3SKdUt" id="61rdzRhR35O" role="3cqZAp">
+          <node concept="1PaTwC" id="7jWRS$D_0Ip" role="1aUNEU">
+            <node concept="3oM_SD" id="7jWRS$D_0Iq" role="1PaTwD">
+              <property role="3oM_SC" value="Since" />
+>>>>>>> 6bfe4b6649... example showing too long grammarcells method
             </node>
             <node concept="3oM_SD" id="7jWRS$D_0Jl" role="1PaTwD">
               <property role="3oM_SC" value="the" />
@@ -12725,10 +13939,20 @@
             </node>
           </node>
         </node>
+<<<<<<< HEAD
         <node concept="3SKdUt" id="61rdzRhS5Xl" role="3cqZAp">
           <node concept="1PaTwC" id="7jWRS$D_0J_" role="3ndbpf">
             <node concept="3oM_SD" id="7jWRS$D_0JA" role="1PaTwD">
               <property role="3oM_SC" value="then" />
+=======
+        <node concept="3SKdUt" id="61rdzRhRepi" role="3cqZAp">
+          <node concept="1PaTwC" id="7jWRS$D_0IE" role="1aUNEU">
+            <node concept="3oM_SD" id="7jWRS$D_0IF" role="1PaTwD">
+              <property role="3oM_SC" value="we" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0IG" role="1PaTwD">
+              <property role="3oM_SC" value="check" />
+>>>>>>> 6bfe4b6649... example showing too long grammarcells method
             </node>
             <node concept="3oM_SD" id="7jWRS$D_0JB" role="1PaTwD">
               <property role="3oM_SC" value="the" />
@@ -12780,10 +14004,20 @@
             </node>
           </node>
         </node>
+<<<<<<< HEAD
         <node concept="3SKdUt" id="61rdzRhS8wy" role="3cqZAp">
           <node concept="1PaTwC" id="7jWRS$D_0JR" role="3ndbpf">
             <node concept="3oM_SD" id="7jWRS$D_0JS" role="1PaTwD">
               <property role="3oM_SC" value="False" />
+=======
+        <node concept="3SKdUt" id="61rdzRhRPbZ" role="3cqZAp">
+          <node concept="1PaTwC" id="7jWRS$D_0IX" role="1aUNEU">
+            <node concept="3oM_SD" id="7jWRS$D_0IY" role="1PaTwD">
+              <property role="3oM_SC" value="their" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0IZ" role="1PaTwD">
+              <property role="3oM_SC" value="attributes" />
+>>>>>>> 6bfe4b6649... example showing too long grammarcells method
             </node>
             <node concept="3oM_SD" id="7jWRS$D_0JT" role="1PaTwD">
               <property role="3oM_SC" value="is" />
@@ -13004,9 +14238,88 @@
                 </node>
               </node>
             </node>
+<<<<<<< HEAD
             <node concept="2Gpval" id="6gFj6gpn6JE" role="3cqZAp">
               <node concept="2GrKxI" id="6gFj6gpn6JG" role="2Gsz3X">
                 <property role="TrG5h" value="usingAttDecWithinNS" />
+=======
+            <node concept="3x8VRR" id="6gFj6gsR4ka" role="2OqNvi" />
+          </node>
+        </node>
+        <node concept="3SKdUt" id="61rdzRhRAdd" role="3cqZAp">
+          <node concept="1PaTwC" id="7jWRS$D_0J3" role="1aUNEU">
+            <node concept="3oM_SD" id="7jWRS$D_0J4" role="1PaTwD">
+              <property role="3oM_SC" value="We" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0J5" role="1PaTwD">
+              <property role="3oM_SC" value="use" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0J6" role="1PaTwD">
+              <property role="3oM_SC" value="getFunctionStatements()" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0J7" role="1PaTwD">
+              <property role="3oM_SC" value="to" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0J8" role="1PaTwD">
+              <property role="3oM_SC" value="add" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0J9" role="1PaTwD">
+              <property role="3oM_SC" value="all" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0Ja" role="1PaTwD">
+              <property role="3oM_SC" value="attributes" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0Jb" role="1PaTwD">
+              <property role="3oM_SC" value="of" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0Jc" role="1PaTwD">
+              <property role="3oM_SC" value="using" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0Jd" role="1PaTwD">
+              <property role="3oM_SC" value="attribute" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0Je" role="1PaTwD">
+              <property role="3oM_SC" value="declarations" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0Jf" role="1PaTwD">
+              <property role="3oM_SC" value="within" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0Jg" role="1PaTwD">
+              <property role="3oM_SC" value="the" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0Jh" role="1PaTwD">
+              <property role="3oM_SC" value="current" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0Ji" role="1PaTwD">
+              <property role="3oM_SC" value="function." />
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="6gFj6gsR4kc" role="3cqZAp">
+          <node concept="3cpWsn" id="6gFj6gsR4kd" role="3cpWs9">
+            <property role="TrG5h" value="statements" />
+            <node concept="A3Dl8" id="6gFj6gsR4ke" role="1tU5fm">
+              <node concept="3Tqbb2" id="6gFj6gsR4kf" role="A3Ik2">
+                <ref role="ehGHo" to="c4fa:3CmSUB7FmO3" resolve="Statement" />
+              </node>
+            </node>
+            <node concept="BsUDl" id="6gFj6gsR4kg" role="33vP2m">
+              <ref role="37wK5l" node="r2pGcfLSmw" resolve="getFunctionStatements" />
+            </node>
+          </node>
+        </node>
+        <node concept="2Gpval" id="6gFj6gsR4kh" role="3cqZAp">
+          <node concept="2GrKxI" id="6gFj6gsR4ki" role="2Gsz3X">
+            <property role="TrG5h" value="statement" />
+          </node>
+          <node concept="37vLTw" id="6gFj6gsR4kj" role="2GsD0m">
+            <ref role="3cqZAo" node="6gFj6gsR4kd" resolve="statements" />
+          </node>
+          <node concept="3clFbS" id="6gFj6gsR4kk" role="2LFqv$">
+            <node concept="2Gpval" id="6gFj6gsR4kv" role="3cqZAp">
+              <node concept="2GrKxI" id="6gFj6gsR4kw" role="2Gsz3X">
+                <property role="TrG5h" value="usingAtt" />
+>>>>>>> 6bfe4b6649... example showing too long grammarcells method
               </node>
               <node concept="2OqwBi" id="6gFj6gpnazY" role="2GsD0m">
                 <node concept="2OqwBi" id="6gFj6gpn8zb" role="2Oq$k0">
@@ -13175,11 +14488,43 @@
             <node concept="3x8VRR" id="r2pGcfNSqE" role="2OqNvi" />
           </node>
         </node>
+<<<<<<< HEAD
         <node concept="3clFbH" id="61rdzRhTuEK" role="3cqZAp" />
         <node concept="3SKdUt" id="61rdzRhTsv3" role="3cqZAp">
           <node concept="1PaTwC" id="7jWRS$D_0KD" role="3ndbpf">
             <node concept="3oM_SD" id="7jWRS$D_0KE" role="1PaTwD">
               <property role="3oM_SC" value="Does" />
+=======
+      </node>
+    </node>
+    <node concept="13i0hz" id="r2pGcfNSpD" role="13h7CS">
+      <property role="TrG5h" value="removeEditorPresentation" />
+      <node concept="3Tm1VV" id="r2pGcfNSpE" role="1B3o_S" />
+      <node concept="10P_77" id="r2pGcfNSpF" role="3clF45" />
+      <node concept="3clFbS" id="r2pGcfNSpG" role="3clF47">
+        <node concept="3SKdUt" id="61rdzRhS4$_" role="3cqZAp">
+          <node concept="1PaTwC" id="7jWRS$D_0Jj" role="1aUNEU">
+            <node concept="3oM_SD" id="7jWRS$D_0Jk" role="1PaTwD">
+              <property role="3oM_SC" value="If" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0Jl" role="1PaTwD">
+              <property role="3oM_SC" value="the" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0Jm" role="1PaTwD">
+              <property role="3oM_SC" value="entire" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0Jn" role="1PaTwD">
+              <property role="3oM_SC" value="namespace" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0Jo" role="1PaTwD">
+              <property role="3oM_SC" value="is" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0Jp" role="1PaTwD">
+              <property role="3oM_SC" value="'used'" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0Jq" role="1PaTwD">
+              <property role="3oM_SC" value="or" />
+>>>>>>> 6bfe4b6649... example showing too long grammarcells method
             </node>
             <node concept="3oM_SD" id="7jWRS$D_0KF" role="1PaTwD">
               <property role="3oM_SC" value="the" />
@@ -13205,8 +14550,44 @@
             <node concept="3oM_SD" id="7jWRS$D_0KM" role="1PaTwD">
               <property role="3oM_SC" value="this" />
             </node>
+<<<<<<< HEAD
             <node concept="3oM_SD" id="7jWRS$D_0KN" role="1PaTwD">
               <property role="3oM_SC" value="declaration" />
+=======
+            <node concept="3oM_SD" id="7jWRS$D_0J$" role="1PaTwD">
+              <property role="3oM_SC" value="declaration," />
+            </node>
+          </node>
+        </node>
+        <node concept="3SKdUt" id="61rdzRhS5Xl" role="3cqZAp">
+          <node concept="1PaTwC" id="7jWRS$D_0J_" role="1aUNEU">
+            <node concept="3oM_SD" id="7jWRS$D_0JA" role="1PaTwD">
+              <property role="3oM_SC" value="then" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0JB" role="1PaTwD">
+              <property role="3oM_SC" value="the" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0JC" role="1PaTwD">
+              <property role="3oM_SC" value="namespace" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0JD" role="1PaTwD">
+              <property role="3oM_SC" value="and" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0JE" role="1PaTwD">
+              <property role="3oM_SC" value="scope" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0JF" role="1PaTwD">
+              <property role="3oM_SC" value="operator" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0JG" role="1PaTwD">
+              <property role="3oM_SC" value="should" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0JH" role="1PaTwD">
+              <property role="3oM_SC" value="be" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0JI" role="1PaTwD">
+              <property role="3oM_SC" value="removed" />
+>>>>>>> 6bfe4b6649... example showing too long grammarcells method
             </node>
             <node concept="3oM_SD" id="7jWRS$D_0KO" role="1PaTwD">
               <property role="3oM_SC" value="exists" />
@@ -13234,6 +14615,7 @@
             </node>
           </node>
         </node>
+<<<<<<< HEAD
         <node concept="3cpWs8" id="r2pGcfNSqF" role="3cqZAp">
           <node concept="3cpWsn" id="r2pGcfNSqG" role="3cpWs9">
             <property role="TrG5h" value="statements" />
@@ -13241,6 +14623,18 @@
               <node concept="3Tqbb2" id="r2pGcfNSqI" role="A3Ik2">
                 <ref role="ehGHo" to="c4fa:3CmSUB7FmO3" resolve="Statement" />
               </node>
+=======
+        <node concept="3SKdUt" id="61rdzRhS8wy" role="3cqZAp">
+          <node concept="1PaTwC" id="7jWRS$D_0JR" role="1aUNEU">
+            <node concept="3oM_SD" id="7jWRS$D_0JS" role="1PaTwD">
+              <property role="3oM_SC" value="False" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0JT" role="1PaTwD">
+              <property role="3oM_SC" value="is" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0JU" role="1PaTwD">
+              <property role="3oM_SC" value="returned" />
+>>>>>>> 6bfe4b6649... example showing too long grammarcells method
             </node>
             <node concept="BsUDl" id="r2pGcfOeC9" role="33vP2m">
               <ref role="37wK5l" node="r2pGcfLSmw" resolve="getFunctionStatements" />
@@ -13356,9 +14750,61 @@
               </node>
             </node>
 <<<<<<< HEAD
+<<<<<<< HEAD
             <node concept="2Gpval" id="6gFj6gtc1h5" role="3cqZAp">
               <node concept="2GrKxI" id="6gFj6gtc1h6" role="2Gsz3X">
                 <property role="TrG5h" value="usingAttDec" />
+=======
+            <node concept="3SKdUt" id="61rdzRhTeS0" role="3cqZAp">
+              <node concept="1PaTwC" id="7jWRS$D_0JW" role="1aUNEU">
+                <node concept="3oM_SD" id="7jWRS$D_0JX" role="1PaTwD">
+                  <property role="3oM_SC" value="Checks" />
+                </node>
+                <node concept="3oM_SD" id="7jWRS$D_0JY" role="1PaTwD">
+                  <property role="3oM_SC" value="for" />
+                </node>
+                <node concept="3oM_SD" id="7jWRS$D_0JZ" role="1PaTwD">
+                  <property role="3oM_SC" value="using" />
+                </node>
+                <node concept="3oM_SD" id="7jWRS$D_0K0" role="1PaTwD">
+                  <property role="3oM_SC" value="namespace" />
+                </node>
+                <node concept="3oM_SD" id="7jWRS$D_0K1" role="1PaTwD">
+                  <property role="3oM_SC" value="declarations" />
+                </node>
+                <node concept="3oM_SD" id="7jWRS$D_0K2" role="1PaTwD">
+                  <property role="3oM_SC" value="within" />
+                </node>
+                <node concept="3oM_SD" id="7jWRS$D_0K3" role="1PaTwD">
+                  <property role="3oM_SC" value="the" />
+                </node>
+                <node concept="3oM_SD" id="7jWRS$D_0K4" role="1PaTwD">
+                  <property role="3oM_SC" value="current" />
+                </node>
+                <node concept="3oM_SD" id="7jWRS$D_0K5" role="1PaTwD">
+                  <property role="3oM_SC" value="namespace," />
+                </node>
+                <node concept="3oM_SD" id="7jWRS$D_0K6" role="1PaTwD">
+                  <property role="3oM_SC" value="but" />
+                </node>
+                <node concept="3oM_SD" id="7jWRS$D_0K7" role="1PaTwD">
+                  <property role="3oM_SC" value="prior" />
+                </node>
+                <node concept="3oM_SD" id="7jWRS$D_0K8" role="1PaTwD">
+                  <property role="3oM_SC" value="to" />
+                </node>
+                <node concept="3oM_SD" id="7jWRS$D_0K9" role="1PaTwD">
+                  <property role="3oM_SC" value="this" />
+                </node>
+                <node concept="3oM_SD" id="7jWRS$D_0Ka" role="1PaTwD">
+                  <property role="3oM_SC" value="declaration." />
+                </node>
+              </node>
+            </node>
+            <node concept="2Gpval" id="r2pGcfNSpU" role="3cqZAp">
+              <node concept="2GrKxI" id="r2pGcfNSpV" role="2Gsz3X">
+                <property role="TrG5h" value="usingDecWithinNS" />
+>>>>>>> 6bfe4b6649... example showing too long grammarcells method
               </node>
               <node concept="2OqwBi" id="6gFj6gtc1h7" role="2GsD0m">
                 <node concept="2OqwBi" id="6gFj6gtc1h8" role="2Oq$k0">
@@ -13584,6 +15030,7 @@
                 </node>
               </node>
             </node>
+<<<<<<< HEAD
           </node>
         </node>
         <node concept="3SKdUt" id="61rdzRhTq3Y" role="3cqZAp">
@@ -13638,6 +15085,12 @@
               <node concept="1PaTwC" id="7jWRS$D_0L8" role="3ndbpf">
                 <node concept="3oM_SD" id="7jWRS$D_0L9" role="1PaTwD">
                   <property role="3oM_SC" value="Only" />
+=======
+            <node concept="3SKdUt" id="61rdzRhTg3S" role="3cqZAp">
+              <node concept="1PaTwC" id="7jWRS$D_0Kb" role="1aUNEU">
+                <node concept="3oM_SD" id="7jWRS$D_0Kc" role="1PaTwD">
+                  <property role="3oM_SC" value="Checks" />
+>>>>>>> 6bfe4b6649... example showing too long grammarcells method
                 </node>
                 <node concept="3oM_SD" id="7jWRS$D_0La" role="1PaTwD">
                   <property role="3oM_SC" value="return" />
@@ -13710,11 +15163,60 @@
                       </node>
                     </node>
                   </node>
+<<<<<<< HEAD
                 </node>
                 <node concept="3clFbC" id="7RFM8R0CyIW" role="3uHU7w">
                   <node concept="2OqwBi" id="7RFM8R0CwZf" role="3uHU7B">
                     <node concept="2GrUjf" id="7RFM8R0CwIb" role="2Oq$k0">
                       <ref role="2Gs0qQ" node="7RFM8R0CnGW" resolve="globalAtt" />
+=======
+                  <node concept="3clFbS" id="6gFj6gpnc5k" role="3clFbx">
+                    <node concept="3SKdUt" id="61rdzRhThd6" role="3cqZAp">
+                      <node concept="1PaTwC" id="7jWRS$D_0Kq" role="1aUNEU">
+                        <node concept="3oM_SD" id="7jWRS$D_0Kr" role="1PaTwD">
+                          <property role="3oM_SC" value="Only" />
+                        </node>
+                        <node concept="3oM_SD" id="7jWRS$D_0Ks" role="1PaTwD">
+                          <property role="3oM_SC" value="return" />
+                        </node>
+                        <node concept="3oM_SD" id="7jWRS$D_0Kt" role="1PaTwD">
+                          <property role="3oM_SC" value="true" />
+                        </node>
+                        <node concept="3oM_SD" id="7jWRS$D_0Ku" role="1PaTwD">
+                          <property role="3oM_SC" value="if" />
+                        </node>
+                        <node concept="3oM_SD" id="7jWRS$D_0Kv" role="1PaTwD">
+                          <property role="3oM_SC" value="it" />
+                        </node>
+                        <node concept="3oM_SD" id="7jWRS$D_0Kw" role="1PaTwD">
+                          <property role="3oM_SC" value="is" />
+                        </node>
+                        <node concept="3oM_SD" id="7jWRS$D_0Kx" role="1PaTwD">
+                          <property role="3oM_SC" value="the" />
+                        </node>
+                        <node concept="3oM_SD" id="7jWRS$D_0Ky" role="1PaTwD">
+                          <property role="3oM_SC" value="exact" />
+                        </node>
+                        <node concept="3oM_SD" id="7jWRS$D_0Kz" role="1PaTwD">
+                          <property role="3oM_SC" value="same" />
+                        </node>
+                        <node concept="3oM_SD" id="7jWRS$D_0K$" role="1PaTwD">
+                          <property role="3oM_SC" value="attribute" />
+                        </node>
+                        <node concept="3oM_SD" id="7jWRS$D_0K_" role="1PaTwD">
+                          <property role="3oM_SC" value="as" />
+                        </node>
+                        <node concept="3oM_SD" id="7jWRS$D_0KA" role="1PaTwD">
+                          <property role="3oM_SC" value="the" />
+                        </node>
+                        <node concept="3oM_SD" id="7jWRS$D_0KB" role="1PaTwD">
+                          <property role="3oM_SC" value="one" />
+                        </node>
+                        <node concept="3oM_SD" id="7jWRS$D_0KC" role="1PaTwD">
+                          <property role="3oM_SC" value="selected." />
+                        </node>
+                      </node>
+>>>>>>> 6bfe4b6649... example showing too long grammarcells method
                     </node>
                     <node concept="3TrEf2" id="7RFM8R0CxIM" role="2OqNvi">
                       <ref role="3Tt5mk" to="wnzg:7RFM8R0xwrs" resolve="attribute" />
@@ -13761,6 +15263,7 @@
             <property role="3clFbU" value="false" />
           </node>
         </node>
+<<<<<<< HEAD
       </node>
     </node>
     <node concept="13i0hz" id="r2pGcfNm5m" role="13h7CS">
@@ -13772,6 +15275,13 @@
           <node concept="1PaTwC" id="7jWRS$D_0Ln" role="3ndbpf">
             <node concept="3oM_SD" id="7jWRS$D_0Lo" role="1PaTwD">
               <property role="3oM_SC" value="Checks" />
+=======
+        <node concept="3clFbH" id="61rdzRhTuEK" role="3cqZAp" />
+        <node concept="3SKdUt" id="61rdzRhTsv3" role="3cqZAp">
+          <node concept="1PaTwC" id="7jWRS$D_0KD" role="1aUNEU">
+            <node concept="3oM_SD" id="7jWRS$D_0KE" role="1PaTwD">
+              <property role="3oM_SC" value="Does" />
+>>>>>>> 6bfe4b6649... example showing too long grammarcells method
             </node>
             <node concept="3oM_SD" id="7jWRS$D_0Lp" role="1PaTwD">
               <property role="3oM_SC" value="if" />
@@ -14004,9 +15514,101 @@
                       </node>
                     </node>
                   </node>
+<<<<<<< HEAD
                   <node concept="3clFbS" id="r2pGcfNm66" role="3clFbx">
                     <node concept="3cpWs6" id="61rdzRhTW2a" role="3cqZAp">
                       <node concept="3clFbT" id="61rdzRhTW2n" role="3cqZAk">
+=======
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="61rdzRhTvDz" role="3cqZAp" />
+        <node concept="3SKdUt" id="61rdzRhTnCc" role="3cqZAp">
+          <node concept="1PaTwC" id="7jWRS$D_0KW" role="1aUNEU">
+            <node concept="3oM_SD" id="7jWRS$D_0KX" role="1PaTwD">
+              <property role="3oM_SC" value="Checks" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0KY" role="1PaTwD">
+              <property role="3oM_SC" value="for" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0KZ" role="1PaTwD">
+              <property role="3oM_SC" value="globally" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0L0" role="1PaTwD">
+              <property role="3oM_SC" value="used" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0L1" role="1PaTwD">
+              <property role="3oM_SC" value="namespaces." />
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="6gFj6gqbkOL" role="3cqZAp">
+          <node concept="3cpWsn" id="6gFj6gqbkOO" role="3cpWs9">
+            <property role="TrG5h" value="globalUsings" />
+            <node concept="A3Dl8" id="6gFj6gqbkOI" role="1tU5fm">
+              <node concept="3Tqbb2" id="6gFj6gqbl_c" role="A3Ik2">
+                <ref role="ehGHo" to="wnzg:6gFj6gpBJFg" resolve="GlobalUsingGeneralNamespaceDeclaration" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="6gFj6gqebwx" role="33vP2m">
+              <node concept="2OqwBi" id="6gFj6gqe9r9" role="2Oq$k0">
+                <node concept="13iPFW" id="6gFj6gqe8UO" role="2Oq$k0" />
+                <node concept="I4A8Y" id="6gFj6gqeaDv" role="2OqNvi" />
+              </node>
+              <node concept="2SmgA7" id="6gFj6gqecoa" role="2OqNvi">
+                <node concept="chp4Y" id="6gFj6gqehBW" role="1dBWTz">
+                  <ref role="cht4Q" to="wnzg:6gFj6gpBJFg" resolve="GlobalUsingGeneralNamespaceDeclaration" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="2Gpval" id="6gFj6gqbPQX" role="3cqZAp">
+          <node concept="2GrKxI" id="6gFj6gqbPQZ" role="2Gsz3X">
+            <property role="TrG5h" value="globalUsing" />
+          </node>
+          <node concept="37vLTw" id="6gFj6gqbQEn" role="2GsD0m">
+            <ref role="3cqZAo" node="6gFj6gqbkOO" resolve="globalUsings" />
+          </node>
+          <node concept="3clFbS" id="6gFj6gqbPR3" role="2LFqv$">
+            <node concept="3clFbJ" id="6gFj6gqbQI8" role="3cqZAp">
+              <node concept="1Wc70l" id="6gFj6gqbUzh" role="3clFbw">
+                <node concept="3clFbC" id="6gFj6gqbWtD" role="3uHU7w">
+                  <node concept="2OqwBi" id="6gFj6gqbX0U" role="3uHU7w">
+                    <node concept="13iPFW" id="6gFj6gqbWGb" role="2Oq$k0" />
+                    <node concept="3TrEf2" id="6gFj6gqbXID" role="2OqNvi">
+                      <ref role="3Tt5mk" to="wnzg:383ZxwZrBkq" resolve="namespace" />
+                    </node>
+                  </node>
+                  <node concept="2OqwBi" id="6gFj6gqbUZn" role="3uHU7B">
+                    <node concept="2GrUjf" id="6gFj6gqbUFu" role="2Oq$k0">
+                      <ref role="2Gs0qQ" node="6gFj6gqbPQZ" resolve="globalUsing" />
+                    </node>
+                    <node concept="3TrEf2" id="6gFj6gqbV_w" role="2OqNvi">
+                      <ref role="3Tt5mk" to="wnzg:6gFj6gpBJF$" resolve="namespace" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="2OqwBi" id="6gFj6gqbSYr" role="3uHU7B">
+                  <node concept="2OqwBi" id="6gFj6gqbQYD" role="2Oq$k0">
+                    <node concept="2GrUjf" id="6gFj6gqbQIA" role="2Oq$k0">
+                      <ref role="2Gs0qQ" node="6gFj6gqbPQZ" resolve="globalUsing" />
+                    </node>
+                    <node concept="3TrEf2" id="6gFj6gqbRtM" role="2OqNvi">
+                      <ref role="3Tt5mk" to="wnzg:6gFj6gpBJF$" resolve="namespace" />
+                    </node>
+                  </node>
+                  <node concept="3x8VRR" id="6gFj6gqbTCi" role="2OqNvi" />
+                </node>
+              </node>
+              <node concept="3clFbS" id="6gFj6gqbQIa" role="3clFbx">
+                <node concept="3clFbJ" id="6gFj6gqRzx9" role="3cqZAp">
+                  <node concept="3clFbS" id="6gFj6gqRzxb" role="3clFbx">
+                    <node concept="3cpWs6" id="6gFj6gqRATY" role="3cqZAp">
+                      <node concept="3clFbT" id="6gFj6gqRAU4" role="3cqZAk">
+>>>>>>> 6bfe4b6649... example showing too long grammarcells method
                         <property role="3clFbU" value="true" />
                       </node>
                     </node>
@@ -14029,10 +15631,16 @@
             <node concept="3x8VRR" id="r2pGcfNm6j" role="2OqNvi" />
           </node>
         </node>
+<<<<<<< HEAD
         <node concept="3clFbH" id="61rdzRhTCzS" role="3cqZAp" />
         <node concept="3SKdUt" id="61rdzRhTCJ0" role="3cqZAp">
           <node concept="1PaTwC" id="7jWRS$D_0LZ" role="3ndbpf">
             <node concept="3oM_SD" id="7jWRS$D_0M0" role="1PaTwD">
+=======
+        <node concept="3SKdUt" id="61rdzRhTq3Y" role="3cqZAp">
+          <node concept="1PaTwC" id="7jWRS$D_0L2" role="1aUNEU">
+            <node concept="3oM_SD" id="7jWRS$D_0L3" role="1PaTwD">
+>>>>>>> 6bfe4b6649... example showing too long grammarcells method
               <property role="3oM_SC" value="Checks" />
             </node>
             <node concept="3oM_SD" id="7jWRS$D_0M1" role="1PaTwD">
@@ -14081,10 +15689,58 @@
           <node concept="37vLTw" id="r2pGcfNm6r" role="2GsD0m">
             <ref role="3cqZAo" node="r2pGcfNm6l" resolve="statements" />
           </node>
+<<<<<<< HEAD
           <node concept="3clFbS" id="r2pGcfNm6s" role="2LFqv$">
             <node concept="2Gpval" id="r2pGcfNm6B" role="3cqZAp">
               <node concept="2GrKxI" id="r2pGcfNm6C" role="2Gsz3X">
                 <property role="TrG5h" value="usingDec" />
+=======
+          <node concept="3clFbS" id="7RFM8R0CnH0" role="2LFqv$">
+            <node concept="3SKdUt" id="61rdzRhTrkI" role="3cqZAp">
+              <node concept="1PaTwC" id="7jWRS$D_0L8" role="1aUNEU">
+                <node concept="3oM_SD" id="7jWRS$D_0L9" role="1PaTwD">
+                  <property role="3oM_SC" value="Only" />
+                </node>
+                <node concept="3oM_SD" id="7jWRS$D_0La" role="1PaTwD">
+                  <property role="3oM_SC" value="return" />
+                </node>
+                <node concept="3oM_SD" id="7jWRS$D_0Lb" role="1PaTwD">
+                  <property role="3oM_SC" value="true" />
+                </node>
+                <node concept="3oM_SD" id="7jWRS$D_0Lc" role="1PaTwD">
+                  <property role="3oM_SC" value="if" />
+                </node>
+                <node concept="3oM_SD" id="7jWRS$D_0Ld" role="1PaTwD">
+                  <property role="3oM_SC" value="it" />
+                </node>
+                <node concept="3oM_SD" id="7jWRS$D_0Le" role="1PaTwD">
+                  <property role="3oM_SC" value="is" />
+                </node>
+                <node concept="3oM_SD" id="7jWRS$D_0Lf" role="1PaTwD">
+                  <property role="3oM_SC" value="the" />
+                </node>
+                <node concept="3oM_SD" id="7jWRS$D_0Lg" role="1PaTwD">
+                  <property role="3oM_SC" value="exact" />
+                </node>
+                <node concept="3oM_SD" id="7jWRS$D_0Lh" role="1PaTwD">
+                  <property role="3oM_SC" value="same" />
+                </node>
+                <node concept="3oM_SD" id="7jWRS$D_0Li" role="1PaTwD">
+                  <property role="3oM_SC" value="attribute" />
+                </node>
+                <node concept="3oM_SD" id="7jWRS$D_0Lj" role="1PaTwD">
+                  <property role="3oM_SC" value="as" />
+                </node>
+                <node concept="3oM_SD" id="7jWRS$D_0Lk" role="1PaTwD">
+                  <property role="3oM_SC" value="the" />
+                </node>
+                <node concept="3oM_SD" id="7jWRS$D_0Ll" role="1PaTwD">
+                  <property role="3oM_SC" value="one" />
+                </node>
+                <node concept="3oM_SD" id="7jWRS$D_0Lm" role="1PaTwD">
+                  <property role="3oM_SC" value="selected." />
+                </node>
+>>>>>>> 6bfe4b6649... example showing too long grammarcells method
               </node>
               <node concept="2OqwBi" id="r2pGcfNm6D" role="2GsD0m">
                 <node concept="2OqwBi" id="r2pGcfNm6E" role="2Oq$k0">
@@ -14187,6 +15843,7 @@
         </node>
       </node>
     </node>
+<<<<<<< HEAD
     <node concept="13i0hz" id="r2pGcfLTig" role="13h7CS">
       <property role="TrG5h" value="getNewEditorPresentation" />
       <node concept="3Tm1VV" id="r2pGcfLTih" role="1B3o_S" />
@@ -14196,6 +15853,20 @@
           <node concept="1PaTwC" id="7jWRS$D_0M9" role="3ndbpf">
             <node concept="3oM_SD" id="7jWRS$D_0Ma" role="1PaTwD">
               <property role="3oM_SC" value="Makes" />
+=======
+    <node concept="13i0hz" id="r2pGcfNm5m" role="13h7CS">
+      <property role="TrG5h" value="checkForNewPresentation" />
+      <node concept="3Tm1VV" id="r2pGcfNm5n" role="1B3o_S" />
+      <node concept="10P_77" id="r2pGcfNm5o" role="3clF45" />
+      <node concept="3clFbS" id="r2pGcfNm5p" role="3clF47">
+        <node concept="3SKdUt" id="61rdzRhT$sa" role="3cqZAp">
+          <node concept="1PaTwC" id="7jWRS$D_0Ln" role="1aUNEU">
+            <node concept="3oM_SD" id="7jWRS$D_0Lo" role="1PaTwD">
+              <property role="3oM_SC" value="Checks" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0Lp" role="1PaTwD">
+              <property role="3oM_SC" value="if" />
+>>>>>>> 6bfe4b6649... example showing too long grammarcells method
             </node>
             <node concept="3oM_SD" id="7jWRS$D_0Mb" role="1PaTwD">
               <property role="3oM_SC" value="the" />
@@ -14232,6 +15903,7 @@
             </node>
           </node>
         </node>
+<<<<<<< HEAD
         <node concept="3clFbH" id="61rdzRhUS9L" role="3cqZAp" />
         <node concept="3cpWs8" id="r2pGcfLTik" role="3cqZAp">
           <node concept="3cpWsn" id="r2pGcfLTil" role="3cpWs9">
@@ -14245,6 +15917,12 @@
           <node concept="1PaTwC" id="7jWRS$D_0Mm" role="3ndbpf">
             <node concept="3oM_SD" id="7jWRS$D_0Mn" role="1PaTwD">
               <property role="3oM_SC" value="If" />
+=======
+        <node concept="3SKdUt" id="61rdzRhT_Zv" role="3cqZAp">
+          <node concept="1PaTwC" id="7jWRS$D_0L$" role="1aUNEU">
+            <node concept="3oM_SD" id="7jWRS$D_0L_" role="1PaTwD">
+              <property role="3oM_SC" value="Returns" />
+>>>>>>> 6bfe4b6649... example showing too long grammarcells method
             </node>
             <node concept="3oM_SD" id="7jWRS$D_0Mo" role="1PaTwD">
               <property role="3oM_SC" value="currently" />
@@ -14299,10 +15977,18 @@
             </node>
           </node>
         </node>
+<<<<<<< HEAD
         <node concept="3SKdUt" id="61rdzRhXkWF" role="3cqZAp">
           <node concept="1PaTwC" id="7jWRS$D_0MD" role="3ndbpf">
             <node concept="3oM_SD" id="7jWRS$D_0ME" role="1PaTwD">
               <property role="3oM_SC" value="or" />
+=======
+        <node concept="3clFbH" id="61rdzRhTB0d" role="3cqZAp" />
+        <node concept="3SKdUt" id="61rdzRhTC3_" role="3cqZAp">
+          <node concept="1PaTwC" id="7jWRS$D_0LP" role="1aUNEU">
+            <node concept="3oM_SD" id="7jWRS$D_0LQ" role="1PaTwD">
+              <property role="3oM_SC" value="Checks" />
+>>>>>>> 6bfe4b6649... example showing too long grammarcells method
             </node>
             <node concept="3oM_SD" id="7jWRS$D_0MF" role="1PaTwD">
               <property role="3oM_SC" value="a" />
@@ -14685,11 +16371,19 @@
             <node concept="3x8VRR" id="r2pGcfLTjW" role="2OqNvi" />
           </node>
         </node>
+<<<<<<< HEAD
         <node concept="3clFbH" id="61rdzRhXGaF" role="3cqZAp" />
         <node concept="3SKdUt" id="61rdzRhXGub" role="3cqZAp">
           <node concept="1PaTwC" id="7jWRS$D_0MX" role="3ndbpf">
             <node concept="3oM_SD" id="7jWRS$D_0MY" role="1PaTwD">
               <property role="3oM_SC" value="If" />
+=======
+        <node concept="3clFbH" id="61rdzRhTCzS" role="3cqZAp" />
+        <node concept="3SKdUt" id="61rdzRhTCJ0" role="3cqZAp">
+          <node concept="1PaTwC" id="7jWRS$D_0LZ" role="1aUNEU">
+            <node concept="3oM_SD" id="7jWRS$D_0M0" role="1PaTwD">
+              <property role="3oM_SC" value="Checks" />
+>>>>>>> 6bfe4b6649... example showing too long grammarcells method
             </node>
             <node concept="3oM_SD" id="7jWRS$D_0MZ" role="1PaTwD">
               <property role="3oM_SC" value="currently" />
@@ -14962,11 +16656,25 @@
             <ref role="3cqZAo" node="r2pGcfLTk6" resolve="statements" />
           </node>
         </node>
+<<<<<<< HEAD
         <node concept="3clFbH" id="61rdzRhYL$B" role="3cqZAp" />
         <node concept="3SKdUt" id="61rdzRhYLSr" role="3cqZAp">
           <node concept="1PaTwC" id="7jWRS$D_0Nq" role="3ndbpf">
             <node concept="3oM_SD" id="7jWRS$D_0Nr" role="1PaTwD">
               <property role="3oM_SC" value="Removes" />
+=======
+      </node>
+    </node>
+    <node concept="13i0hz" id="r2pGcfLTig" role="13h7CS">
+      <property role="TrG5h" value="getNewEditorPresentation" />
+      <node concept="3Tm1VV" id="r2pGcfLTih" role="1B3o_S" />
+      <node concept="17QB3L" id="r2pGcfLTii" role="3clF45" />
+      <node concept="3clFbS" id="r2pGcfLTij" role="3clF47">
+        <node concept="3SKdUt" id="61rdzRhTDqm" role="3cqZAp">
+          <node concept="1PaTwC" id="7jWRS$D_0M9" role="1aUNEU">
+            <node concept="3oM_SD" id="7jWRS$D_0Ma" role="1PaTwD">
+              <property role="3oM_SC" value="Makes" />
+>>>>>>> 6bfe4b6649... example showing too long grammarcells method
             </node>
             <node concept="3oM_SD" id="7jWRS$D_0Ns" role="1PaTwD">
               <property role="3oM_SC" value="all" />
@@ -15054,6 +16762,7 @@
             </node>
           </node>
         </node>
+<<<<<<< HEAD
 >>>>>>> cc021cd381... migrated to 2019.2
         <node concept="1Dw8fO" id="r2pGcfLTl5" role="3cqZAp">
           <node concept="3clFbS" id="r2pGcfLTl6" role="2LFqv$">
@@ -15081,6 +16790,21 @@
                   <ref role="3cqZAo" node="r2pGcfLTil" resolve="editorPres" />
                 </node>
               </node>
+=======
+        <node concept="3clFbH" id="61rdzRhUS9L" role="3cqZAp" />
+        <node concept="3cpWs8" id="r2pGcfLTik" role="3cqZAp">
+          <node concept="3cpWsn" id="r2pGcfLTil" role="3cpWs9">
+            <property role="TrG5h" value="editorPres" />
+            <node concept="17QB3L" id="r2pGcfLTim" role="1tU5fm" />
+            <node concept="Xl_RD" id="r2pGcfLTin" role="33vP2m" />
+          </node>
+        </node>
+        <node concept="3clFbH" id="61rdzRhU0t3" role="3cqZAp" />
+        <node concept="3SKdUt" id="61rdzRhVaBz" role="3cqZAp">
+          <node concept="1PaTwC" id="7jWRS$D_0Mm" role="1aUNEU">
+            <node concept="3oM_SD" id="7jWRS$D_0Mn" role="1PaTwD">
+              <property role="3oM_SC" value="If" />
+>>>>>>> 6bfe4b6649... example showing too long grammarcells method
             </node>
           </node>
           <node concept="3cpWsn" id="r2pGcfLTlh" role="1Duv9x">
@@ -15169,10 +16893,23 @@
             </node>
           </node>
         </node>
+<<<<<<< HEAD
         <node concept="3SKdUt" id="61rdzRi2D7U" role="3cqZAp">
           <node concept="1PaTwC" id="7jWRS$D_0NM" role="3ndbpf">
             <node concept="3oM_SD" id="7jWRS$D_0NN" role="1PaTwD">
               <property role="3oM_SC" value="for" />
+=======
+        <node concept="3SKdUt" id="61rdzRhXkWF" role="3cqZAp">
+          <node concept="1PaTwC" id="7jWRS$D_0MD" role="1aUNEU">
+            <node concept="3oM_SD" id="7jWRS$D_0ME" role="1PaTwD">
+              <property role="3oM_SC" value="or" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0MF" role="1PaTwD">
+              <property role="3oM_SC" value="a" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0MG" role="1PaTwD">
+              <property role="3oM_SC" value="direct" />
+>>>>>>> 6bfe4b6649... example showing too long grammarcells method
             </node>
             <node concept="3oM_SD" id="7jWRS$D_0NO" role="1PaTwD">
               <property role="3oM_SC" value="the" />
@@ -15510,6 +17247,7 @@
               <ref role="37wK5l" node="r2pGcfLTig" resolve="getNewEditorPresentation" />
 >>>>>>> 147f312b8f... Added comments within namespace behaviors.
             </node>
+<<<<<<< HEAD
           </node>
         </node>
         <node concept="3cpWs8" id="7RFM8R40yYD" role="3cqZAp">
@@ -15522,6 +17260,12 @@
               <node concept="Tc6Ow" id="7RFM8R40yYH" role="2ShVmc">
                 <node concept="3Tqbb2" id="7RFM8R40yYI" role="HW$YZ">
                   <ref role="ehGHo" to="wnzg:383ZxwZqQYo" resolve="NamespaceDeclaration" />
+=======
+            <node concept="3SKdUt" id="61rdzRi1iQp" role="3cqZAp">
+              <node concept="1PaTwC" id="7jWRS$D_0MN" role="1aUNEU">
+                <node concept="3oM_SD" id="7jWRS$D_0MO" role="1PaTwD">
+                  <property role="3oM_SC" value="Removes" />
+>>>>>>> 6bfe4b6649... example showing too long grammarcells method
                 </node>
               </node>
             </node>
@@ -15675,6 +17419,7 @@
                 </node>
               </node>
             </node>
+<<<<<<< HEAD
           </node>
 <<<<<<< HEAD
           <node concept="2OqwBi" id="7RFM8R41dVM" role="2$JKZa">
@@ -15688,6 +17433,19 @@
               <node concept="13iPFW" id="2QDt3lz1h7c" role="2Oq$k0" />
               <node concept="3TrEf2" id="2QDt3lz1hAP" role="2OqNvi">
                 <ref role="3Tt5mk" to="wnzg:3UsoL$l5qkM" resolve="parentClass" />
+=======
+            <node concept="3SKdUt" id="61rdzRi1KWY" role="3cqZAp">
+              <node concept="1PaTwC" id="7jWRS$D_0MT" role="1aUNEU">
+                <node concept="3oM_SD" id="7jWRS$D_0MU" role="1PaTwD">
+                  <property role="3oM_SC" value="Creates" />
+                </node>
+                <node concept="3oM_SD" id="7jWRS$D_0MV" role="1PaTwD">
+                  <property role="3oM_SC" value="the" />
+                </node>
+                <node concept="3oM_SD" id="7jWRS$D_0MW" role="1PaTwD">
+                  <property role="3oM_SC" value="presentation." />
+                </node>
+>>>>>>> 6bfe4b6649... example showing too long grammarcells method
               </node>
             </node>
             <node concept="2OqwBi" id="2QDt3lz1du_" role="37vLTJ">
@@ -15844,6 +17602,7 @@
             </node>
           </node>
         </node>
+<<<<<<< HEAD
         <node concept="3cpWs6" id="7fNEwqBxD2G" role="3cqZAp">
           <node concept="37vLTw" id="7fNEwqBxD2H" role="3cqZAk">
             <ref role="3cqZAo" node="7fNEwqBxD2y" resolve="methods" />
@@ -15861,6 +17620,89 @@
             <node concept="13iPFW" id="7fNEwqBxISa" role="2Oq$k0" />
             <node concept="3Tsc0h" id="7fNEwqBxJyX" role="2OqNvi">
               <ref role="3TtcxE" to="wnzg:7fNEwqBxBea" resolve="actuals" />
+=======
+        <node concept="3clFbH" id="61rdzRhXGaF" role="3cqZAp" />
+        <node concept="3SKdUt" id="61rdzRhXGub" role="3cqZAp">
+          <node concept="1PaTwC" id="7jWRS$D_0MX" role="1aUNEU">
+            <node concept="3oM_SD" id="7jWRS$D_0MY" role="1PaTwD">
+              <property role="3oM_SC" value="If" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0MZ" role="1PaTwD">
+              <property role="3oM_SC" value="currently" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0N0" role="1PaTwD">
+              <property role="3oM_SC" value="within" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0N1" role="1PaTwD">
+              <property role="3oM_SC" value="a" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0N2" role="1PaTwD">
+              <property role="3oM_SC" value="function," />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0N3" role="1PaTwD">
+              <property role="3oM_SC" value="removes" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0N4" role="1PaTwD">
+              <property role="3oM_SC" value="all" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0N5" role="1PaTwD">
+              <property role="3oM_SC" value="used" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0N6" role="1PaTwD">
+              <property role="3oM_SC" value="namespaces" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0N7" role="1PaTwD">
+              <property role="3oM_SC" value="from" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0N8" role="1PaTwD">
+              <property role="3oM_SC" value="the" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0N9" role="1PaTwD">
+              <property role="3oM_SC" value="presentation" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0Na" role="1PaTwD">
+              <property role="3oM_SC" value="if" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0Nb" role="1PaTwD">
+              <property role="3oM_SC" value="they" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0Nc" role="1PaTwD">
+              <property role="3oM_SC" value="are" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0Nd" role="1PaTwD">
+              <property role="3oM_SC" value="the" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0Ne" role="1PaTwD">
+              <property role="3oM_SC" value="selected" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0Nf" role="1PaTwD">
+              <property role="3oM_SC" value="one," />
+            </node>
+          </node>
+        </node>
+        <node concept="3SKdUt" id="61rdzRhYxU_" role="3cqZAp">
+          <node concept="1PaTwC" id="7jWRS$D_0Ng" role="1aUNEU">
+            <node concept="3oM_SD" id="7jWRS$D_0Nh" role="1PaTwD">
+              <property role="3oM_SC" value="or" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0Ni" role="1PaTwD">
+              <property role="3oM_SC" value="a" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0Nj" role="1PaTwD">
+              <property role="3oM_SC" value="direct" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0Nk" role="1PaTwD">
+              <property role="3oM_SC" value="parent/distant" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0Nl" role="1PaTwD">
+              <property role="3oM_SC" value="ancestor" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0Nm" role="1PaTwD">
+              <property role="3oM_SC" value="of" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0Nn" role="1PaTwD">
+              <property role="3oM_SC" value="the" />
+>>>>>>> 6bfe4b6649... example showing too long grammarcells method
             </node>
           </node>
         </node>
@@ -16032,6 +17874,7 @@
             <ref role="28H3Ia" to="wnzg:4KCRVMvtPxG" resolve="actuals" />
           </node>
         </node>
+<<<<<<< HEAD
       </node>
       <node concept="3Tqbb2" id="4KCRVMvtPw9" role="3clF45">
         <ref role="ehGHo" to="tpce:f_TJgxE" resolve="LinkDeclaration" />
@@ -16049,6 +17892,22 @@
             <property role="TrG5h" value="formals" />
             <node concept="2I9FWS" id="b637l21lm2" role="1tU5fm">
               <ref role="2I9WkF" to="x27k:7kKaL9x4DZT" resolve="IArgumentLike" />
+=======
+        <node concept="3clFbH" id="61rdzRhYL$B" role="3cqZAp" />
+        <node concept="3SKdUt" id="61rdzRhYLSr" role="3cqZAp">
+          <node concept="1PaTwC" id="7jWRS$D_0Nq" role="1aUNEU">
+            <node concept="3oM_SD" id="7jWRS$D_0Nr" role="1PaTwD">
+              <property role="3oM_SC" value="Removes" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0Ns" role="1PaTwD">
+              <property role="3oM_SC" value="all" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0Nt" role="1PaTwD">
+              <property role="3oM_SC" value="globally" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0Nu" role="1PaTwD">
+              <property role="3oM_SC" value="used" />
+>>>>>>> 6bfe4b6649... example showing too long grammarcells method
             </node>
             <node concept="2ShNRf" id="b637l21mbJ" role="33vP2m">
               <node concept="2T8Vx0" id="b637l21mbH" role="2ShVmc">
@@ -16152,6 +18011,7 @@
                     <node concept="3TrEf2" id="2q0dGTvE1r7" role="2OqNvi">
                       <ref role="3Tt5mk" to="wnzg:6gFj6gpBJF$" resolve="namespace" />
                     </node>
+<<<<<<< HEAD
 >>>>>>> fb608bfbb3... Fix GlobalUsingGeneralNamespaceDeclaration.
                   </node>
                 </node>
@@ -16175,6 +18035,155 @@
                   </node>
                 </node>
               </node>
+=======
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3SKdUt" id="61rdzRi22sJ" role="3cqZAp">
+          <node concept="1PaTwC" id="7jWRS$D_0Nw" role="1aUNEU">
+            <node concept="3oM_SD" id="7jWRS$D_0Nx" role="1PaTwD">
+              <property role="3oM_SC" value="Creates" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0Ny" role="1PaTwD">
+              <property role="3oM_SC" value="the" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0Nz" role="1PaTwD">
+              <property role="3oM_SC" value="presentation." />
+            </node>
+          </node>
+        </node>
+        <node concept="1Dw8fO" id="r2pGcfLTl5" role="3cqZAp">
+          <node concept="3clFbS" id="r2pGcfLTl6" role="2LFqv$">
+            <node concept="3clFbF" id="r2pGcfLTl7" role="3cqZAp">
+              <node concept="d57v9" id="r2pGcfLTl8" role="3clFbG">
+                <node concept="3cpWs3" id="r2pGcfLTl9" role="37vLTx">
+                  <node concept="Xl_RD" id="r2pGcfLTla" role="3uHU7w">
+                    <property role="Xl_RC" value="::" />
+                  </node>
+                  <node concept="2OqwBi" id="r2pGcfLTlb" role="3uHU7B">
+                    <node concept="1y4W85" id="r2pGcfLTlc" role="2Oq$k0">
+                      <node concept="37vLTw" id="r2pGcfLTld" role="1y58nS">
+                        <ref role="3cqZAo" node="r2pGcfLTlh" resolve="j" />
+                      </node>
+                      <node concept="37vLTw" id="r2pGcfLTle" role="1y566C">
+                        <ref role="3cqZAo" node="r2pGcfLTjY" resolve="ancestorNodes" />
+                      </node>
+                    </node>
+                    <node concept="3TrcHB" id="r2pGcfLTlf" role="2OqNvi">
+                      <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="37vLTw" id="r2pGcfLTlg" role="37vLTJ">
+                  <ref role="3cqZAo" node="r2pGcfLTil" resolve="editorPres" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3cpWsn" id="r2pGcfLTlh" role="1Duv9x">
+            <property role="TrG5h" value="j" />
+            <node concept="10Oyi0" id="r2pGcfLTli" role="1tU5fm" />
+            <node concept="3cpWsd" id="r2pGcfLTlj" role="33vP2m">
+              <node concept="3cmrfG" id="r2pGcfLTlk" role="3uHU7w">
+                <property role="3cmrfH" value="1" />
+              </node>
+              <node concept="2OqwBi" id="r2pGcfLTll" role="3uHU7B">
+                <node concept="37vLTw" id="r2pGcfLTlm" role="2Oq$k0">
+                  <ref role="3cqZAo" node="r2pGcfLTjY" resolve="ancestorNodes" />
+                </node>
+                <node concept="34oBXx" id="r2pGcfLTln" role="2OqNvi" />
+              </node>
+            </node>
+          </node>
+          <node concept="2d3UOw" id="r2pGcfLTlo" role="1Dwp0S">
+            <node concept="3cmrfG" id="r2pGcfLTlp" role="3uHU7w">
+              <property role="3cmrfH" value="0" />
+            </node>
+            <node concept="37vLTw" id="r2pGcfLTlq" role="3uHU7B">
+              <ref role="3cqZAo" node="r2pGcfLTlh" resolve="j" />
+            </node>
+          </node>
+          <node concept="3uO5VW" id="r2pGcfLTlr" role="1Dwrff">
+            <node concept="37vLTw" id="r2pGcfLTls" role="2$L3a6">
+              <ref role="3cqZAo" node="r2pGcfLTlh" resolve="j" />
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs6" id="r2pGcfLTlt" role="3cqZAp">
+          <node concept="37vLTw" id="r2pGcfLTlu" role="3cqZAk">
+            <ref role="3cqZAo" node="r2pGcfLTil" resolve="editorPres" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="13i0hz" id="r2pGcfMQ$x" role="13h7CS">
+      <property role="TrG5h" value="getNewPresentation" />
+      <node concept="3Tm1VV" id="r2pGcfMQ$y" role="1B3o_S" />
+      <node concept="17QB3L" id="r2pGcfMQ$z" role="3clF45" />
+      <node concept="3clFbS" id="r2pGcfMQ$$" role="3clF47">
+        <node concept="3SKdUt" id="61rdzRi2CEK" role="3cqZAp">
+          <node concept="1PaTwC" id="7jWRS$D_0N$" role="1aUNEU">
+            <node concept="3oM_SD" id="7jWRS$D_0N_" role="1PaTwD">
+              <property role="3oM_SC" value="Uses" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0NA" role="1PaTwD">
+              <property role="3oM_SC" value="the" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0NB" role="1PaTwD">
+              <property role="3oM_SC" value="presentation" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0NC" role="1PaTwD">
+              <property role="3oM_SC" value="created" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0ND" role="1PaTwD">
+              <property role="3oM_SC" value="in" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0NE" role="1PaTwD">
+              <property role="3oM_SC" value="getNewEditorPresentation()," />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0NF" role="1PaTwD">
+              <property role="3oM_SC" value="plus" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0NG" role="1PaTwD">
+              <property role="3oM_SC" value="the" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0NH" role="1PaTwD">
+              <property role="3oM_SC" value="name" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0NI" role="1PaTwD">
+              <property role="3oM_SC" value="of" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0NJ" role="1PaTwD">
+              <property role="3oM_SC" value="the" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0NK" role="1PaTwD">
+              <property role="3oM_SC" value="selected" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0NL" role="1PaTwD">
+              <property role="3oM_SC" value="namespace," />
+            </node>
+          </node>
+        </node>
+        <node concept="3SKdUt" id="61rdzRi2D7U" role="3cqZAp">
+          <node concept="1PaTwC" id="7jWRS$D_0NM" role="1aUNEU">
+            <node concept="3oM_SD" id="7jWRS$D_0NN" role="1PaTwD">
+              <property role="3oM_SC" value="for" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0NO" role="1PaTwD">
+              <property role="3oM_SC" value="the" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0NP" role="1PaTwD">
+              <property role="3oM_SC" value="TextGen" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0NQ" role="1PaTwD">
+              <property role="3oM_SC" value="of" />
+            </node>
+            <node concept="3oM_SD" id="7jWRS$D_0NR" role="1PaTwD">
+              <property role="3oM_SC" value="the" />
+>>>>>>> 6bfe4b6649... example showing too long grammarcells method
             </node>
             <node concept="3clFbF" id="b637l21mgG" role="3cqZAp">
               <node concept="2OqwBi" id="b637l21mgH" role="3clFbG">
@@ -16648,7 +18657,7 @@
                   <ref role="3Tt5mk" to="wnzg:7RFM8R0xwrf" resolve="namespace" />
 =======
             <node concept="3SKdUt" id="7POJCjf3ydS" role="3cqZAp">
-              <node concept="1PaTwC" id="7jWRS$D_0NT" role="3ndbpf">
+              <node concept="1PaTwC" id="7jWRS$D_0NT" role="1aUNEU">
                 <node concept="3oM_SD" id="7jWRS$D_0NU" role="1PaTwD">
                   <property role="3oM_SC" value="In" />
                 </node>
@@ -16823,7 +18832,7 @@
       </node>
       <node concept="3clFbS" id="3SNFZ61xpVU" role="3clF47">
         <node concept="3SKdUt" id="61rdzRh_LzZ" role="3cqZAp">
-          <node concept="1PaTwC" id="7jWRS$D_0Oa" role="3ndbpf">
+          <node concept="1PaTwC" id="7jWRS$D_0Oa" role="1aUNEU">
             <node concept="3oM_SD" id="7jWRS$D_0Ob" role="1PaTwD">
               <property role="3oM_SC" value="Returns" />
             </node>
@@ -16863,7 +18872,7 @@
           </node>
         </node>
         <node concept="3SKdUt" id="61rdzRhAjvI" role="3cqZAp">
-          <node concept="1PaTwC" id="7jWRS$D_0On" role="3ndbpf">
+          <node concept="1PaTwC" id="7jWRS$D_0On" role="1aUNEU">
             <node concept="3oM_SD" id="7jWRS$D_0Oo" role="1PaTwD">
               <property role="3oM_SC" value="This" />
             </node>
@@ -16903,7 +18912,7 @@
           </node>
         </node>
         <node concept="3SKdUt" id="61rdzRhAmFX" role="3cqZAp">
-          <node concept="1PaTwC" id="7jWRS$D_0O$" role="3ndbpf">
+          <node concept="1PaTwC" id="7jWRS$D_0O$" role="1aUNEU">
             <node concept="3oM_SD" id="7jWRS$D_0O_" role="1PaTwD">
               <property role="3oM_SC" value="can" />
             </node>
@@ -17136,7 +19145,7 @@
       </node>
       <node concept="3clFbS" id="mwDIXwXp94" role="3clF47">
         <node concept="3SKdUt" id="61rdzRhAv7R" role="3cqZAp">
-          <node concept="1PaTwC" id="7jWRS$D_0OI" role="3ndbpf">
+          <node concept="1PaTwC" id="7jWRS$D_0OI" role="1aUNEU">
             <node concept="3oM_SD" id="7jWRS$D_0OJ" role="1PaTwD">
               <property role="3oM_SC" value="Returns" />
             </node>
@@ -17179,7 +19188,7 @@
           </node>
         </node>
         <node concept="3SKdUt" id="61rdzRhBo2C" role="3cqZAp">
-          <node concept="1PaTwC" id="7jWRS$D_0OW" role="3ndbpf">
+          <node concept="1PaTwC" id="7jWRS$D_0OW" role="1aUNEU">
             <node concept="3oM_SD" id="7jWRS$D_0OX" role="1PaTwD">
               <property role="3oM_SC" value="besides" />
             </node>
@@ -17210,7 +19219,7 @@
           </node>
         </node>
         <node concept="3SKdUt" id="61rdzRhGShU" role="3cqZAp">
-          <node concept="1PaTwC" id="7jWRS$D_0P6" role="3ndbpf">
+          <node concept="1PaTwC" id="7jWRS$D_0P6" role="1aUNEU">
             <node concept="3oM_SD" id="7jWRS$D_0P7" role="1PaTwD">
               <property role="3oM_SC" value="Used" />
             </node>
@@ -17258,7 +19267,7 @@
             <property role="3SKdUp" value="All globally used attributes." />
 =======
         <node concept="3SKdUt" id="61rdzRhBErh" role="3cqZAp">
-          <node concept="1PaTwC" id="7jWRS$D_0Pd" role="3ndbpf">
+          <node concept="1PaTwC" id="7jWRS$D_0Pd" role="1aUNEU">
             <node concept="3oM_SD" id="7jWRS$D_0Pe" role="1PaTwD">
               <property role="3oM_SC" value="All" />
             </node>
@@ -17383,7 +19392,7 @@
                   </node>
 =======
         <node concept="3SKdUt" id="61rdzRhEE7g" role="3cqZAp">
-          <node concept="1PaTwC" id="7jWRS$D_0Pl" role="3ndbpf">
+          <node concept="1PaTwC" id="7jWRS$D_0Pl" role="1aUNEU">
             <node concept="3oM_SD" id="7jWRS$D_0Pm" role="1PaTwD">
               <property role="3oM_SC" value="All" />
             </node>
@@ -17534,7 +19543,7 @@
           </node>
         </node>
         <node concept="3SKdUt" id="61rdzRhEL3p" role="3cqZAp">
-          <node concept="1PaTwC" id="7jWRS$D_0Pt" role="3ndbpf">
+          <node concept="1PaTwC" id="7jWRS$D_0Pt" role="1aUNEU">
             <node concept="3oM_SD" id="7jWRS$D_0Pu" role="1PaTwD">
               <property role="3oM_SC" value="All" />
             </node>
@@ -17625,7 +19634,7 @@
               <ref role="37wK5l" node="mwDIXwPOvz" resolve="getFunctionStatements" />
 =======
         <node concept="3SKdUt" id="61rdzRhEZkp" role="3cqZAp">
-          <node concept="1PaTwC" id="7jWRS$D_0P$" role="3ndbpf">
+          <node concept="1PaTwC" id="7jWRS$D_0P$" role="1aUNEU">
             <node concept="3oM_SD" id="7jWRS$D_0P_" role="1PaTwD">
               <property role="3oM_SC" value="All" />
             </node>
@@ -17819,7 +19828,7 @@
       </node>
       <node concept="3clFbS" id="mwDIXwVS0z" role="3clF47">
         <node concept="3SKdUt" id="61rdzRivr18" role="3cqZAp">
-          <node concept="1PaTwC" id="7jWRS$D_0PD" role="3ndbpf">
+          <node concept="1PaTwC" id="7jWRS$D_0PD" role="1aUNEU">
             <node concept="3oM_SD" id="7jWRS$D_0PE" role="1PaTwD">
               <property role="3oM_SC" value="Returns" />
             </node>
@@ -17917,7 +19926,7 @@
       </node>
       <node concept="3clFbS" id="mwDIXwVlnr" role="3clF47">
         <node concept="3SKdUt" id="61rdzRivQUA" role="3cqZAp">
-          <node concept="1PaTwC" id="7jWRS$D_0PP" role="3ndbpf">
+          <node concept="1PaTwC" id="7jWRS$D_0PP" role="1aUNEU">
             <node concept="3oM_SD" id="7jWRS$D_0PQ" role="1PaTwD">
               <property role="3oM_SC" value="Returns" />
             </node>
@@ -17960,7 +19969,7 @@
           </node>
         </node>
         <node concept="3SKdUt" id="61rdzRivQUC" role="3cqZAp">
-          <node concept="1PaTwC" id="7jWRS$D_0Q3" role="3ndbpf">
+          <node concept="1PaTwC" id="7jWRS$D_0Q3" role="1aUNEU">
             <node concept="3oM_SD" id="7jWRS$D_0Q4" role="1PaTwD">
               <property role="3oM_SC" value="besides" />
             </node>
@@ -17991,7 +20000,7 @@
           </node>
         </node>
         <node concept="3SKdUt" id="61rdzRivQUE" role="3cqZAp">
-          <node concept="1PaTwC" id="7jWRS$D_0Qd" role="3ndbpf">
+          <node concept="1PaTwC" id="7jWRS$D_0Qd" role="1aUNEU">
             <node concept="3oM_SD" id="7jWRS$D_0Qe" role="1PaTwD">
               <property role="3oM_SC" value="Used" />
             </node>
@@ -18029,7 +20038,7 @@
           </node>
         </node>
         <node concept="3SKdUt" id="61rdzRiwf2K" role="3cqZAp">
-          <node concept="1PaTwC" id="7jWRS$D_0Qk" role="3ndbpf">
+          <node concept="1PaTwC" id="7jWRS$D_0Qk" role="1aUNEU">
             <node concept="3oM_SD" id="7jWRS$D_0Ql" role="1PaTwD">
               <property role="3oM_SC" value="All" />
             </node>
@@ -18094,7 +20103,7 @@
           </node>
         </node>
         <node concept="3SKdUt" id="61rdzRiwA0U" role="3cqZAp">
-          <node concept="1PaTwC" id="7jWRS$D_0Qs" role="3ndbpf">
+          <node concept="1PaTwC" id="7jWRS$D_0Qs" role="1aUNEU">
             <node concept="3oM_SD" id="7jWRS$D_0Qt" role="1PaTwD">
               <property role="3oM_SC" value="All" />
             </node>
@@ -18169,7 +20178,7 @@
           </node>
         </node>
         <node concept="3SKdUt" id="61rdzRiwXx2" role="3cqZAp">
-          <node concept="1PaTwC" id="7jWRS$D_0Q$" role="3ndbpf">
+          <node concept="1PaTwC" id="7jWRS$D_0Q$" role="1aUNEU">
             <node concept="3oM_SD" id="7jWRS$D_0Q_" role="1PaTwD">
               <property role="3oM_SC" value="All" />
             </node>
@@ -18256,7 +20265,7 @@
           </node>
         </node>
         <node concept="3SKdUt" id="61rdzRixnvX" role="3cqZAp">
-          <node concept="1PaTwC" id="7jWRS$D_0QF" role="3ndbpf">
+          <node concept="1PaTwC" id="7jWRS$D_0QF" role="1aUNEU">
             <node concept="3oM_SD" id="7jWRS$D_0QG" role="1PaTwD">
               <property role="3oM_SC" value="All" />
             </node>
@@ -18346,7 +20355,7 @@
         </node>
         <node concept="3clFbH" id="61rdzRixTZx" role="3cqZAp" />
         <node concept="3SKdUt" id="61rdzRiybvV" role="3cqZAp">
-          <node concept="1PaTwC" id="7jWRS$D_0QK" role="3ndbpf">
+          <node concept="1PaTwC" id="7jWRS$D_0QK" role="1aUNEU">
             <node concept="3oM_SD" id="7jWRS$D_0QL" role="1PaTwD">
               <property role="3oM_SC" value="Since" />
             </node>
@@ -18398,7 +20407,7 @@
           </node>
         </node>
         <node concept="3SKdUt" id="61rdzRiybvX" role="3cqZAp">
-          <node concept="1PaTwC" id="7jWRS$D_0R1" role="3ndbpf">
+          <node concept="1PaTwC" id="7jWRS$D_0R1" role="1aUNEU">
             <node concept="3oM_SD" id="7jWRS$D_0R2" role="1PaTwD">
               <property role="3oM_SC" value="we" />
             </node>
@@ -18456,7 +20465,7 @@
           </node>
         </node>
         <node concept="3SKdUt" id="61rdzRiybvZ" role="3cqZAp">
-          <node concept="1PaTwC" id="7jWRS$D_0Rk" role="3ndbpf">
+          <node concept="1PaTwC" id="7jWRS$D_0Rk" role="1aUNEU">
             <node concept="3oM_SD" id="7jWRS$D_0Rl" role="1PaTwD">
               <property role="3oM_SC" value="their" />
             </node>
@@ -18632,7 +20641,7 @@
           </node>
         </node>
         <node concept="3SKdUt" id="61rdzRiywlM" role="3cqZAp">
-          <node concept="1PaTwC" id="7jWRS$D_0Rq" role="3ndbpf">
+          <node concept="1PaTwC" id="7jWRS$D_0Rq" role="1aUNEU">
             <node concept="3oM_SD" id="7jWRS$D_0Rr" role="1PaTwD">
               <property role="3oM_SC" value="We" />
             </node>
@@ -18844,7 +20853,7 @@
 =======
       <node concept="3clFbS" id="mwDIXwPOvB" role="3clF47">
         <node concept="3SKdUt" id="61rdzRirq5f" role="3cqZAp">
-          <node concept="1PaTwC" id="7jWRS$D_0RE" role="3ndbpf">
+          <node concept="1PaTwC" id="7jWRS$D_0RE" role="1aUNEU">
             <node concept="3oM_SD" id="7jWRS$D_0RF" role="1PaTwD">
               <property role="3oM_SC" value="Returns" />
             </node>
@@ -18959,7 +20968,7 @@
 =======
       <node concept="3clFbS" id="mwDIXwOBkf" role="3clF47">
         <node concept="3SKdUt" id="61rdzRirGpM" role="3cqZAp">
-          <node concept="1PaTwC" id="7jWRS$D_0RQ" role="3ndbpf">
+          <node concept="1PaTwC" id="7jWRS$D_0RQ" role="1aUNEU">
             <node concept="3oM_SD" id="7jWRS$D_0RR" role="1PaTwD">
               <property role="3oM_SC" value="Returns" />
             </node>
@@ -19002,7 +21011,7 @@
           </node>
         </node>
         <node concept="3SKdUt" id="61rdzRirGpO" role="3cqZAp">
-          <node concept="1PaTwC" id="7jWRS$D_0S4" role="3ndbpf">
+          <node concept="1PaTwC" id="7jWRS$D_0S4" role="1aUNEU">
             <node concept="3oM_SD" id="7jWRS$D_0S5" role="1PaTwD">
               <property role="3oM_SC" value="besides" />
             </node>
@@ -19033,7 +21042,7 @@
           </node>
         </node>
         <node concept="3SKdUt" id="61rdzRirGpQ" role="3cqZAp">
-          <node concept="1PaTwC" id="7jWRS$D_0Se" role="3ndbpf">
+          <node concept="1PaTwC" id="7jWRS$D_0Se" role="1aUNEU">
             <node concept="3oM_SD" id="7jWRS$D_0Sf" role="1PaTwD">
               <property role="3oM_SC" value="Used" />
             </node>
@@ -19072,11 +21081,15 @@
         </node>
         <node concept="3SKdUt" id="61rdzRisOYe" role="3cqZAp">
 <<<<<<< HEAD
+<<<<<<< HEAD
           <node concept="3SKdUq" id="61rdzRisOYf" role="3SKWNk">
             <property role="3SKdUp" value="All using attribute declarations within selected namespace." />
 >>>>>>> 147f312b8f... Added comments within namespace behaviors.
 =======
           <node concept="1PaTwC" id="7jWRS$D_0Sl" role="3ndbpf">
+=======
+          <node concept="1PaTwC" id="7jWRS$D_0Sl" role="1aUNEU">
+>>>>>>> 6bfe4b6649... example showing too long grammarcells method
             <node concept="3oM_SD" id="7jWRS$D_0Sm" role="1PaTwD">
               <property role="3oM_SC" value="All" />
             </node>
@@ -19165,7 +21178,7 @@
             <property role="TrG5h" value="localAttribute" />
 =======
         <node concept="3SKdUt" id="61rdzRitmIE" role="3cqZAp">
-          <node concept="1PaTwC" id="7jWRS$D_0St" role="3ndbpf">
+          <node concept="1PaTwC" id="7jWRS$D_0St" role="1aUNEU">
             <node concept="3oM_SD" id="7jWRS$D_0Su" role="1PaTwD">
               <property role="3oM_SC" value="All" />
             </node>
@@ -19286,11 +21299,15 @@
 =======
         <node concept="3SKdUt" id="61rdzRit_IC" role="3cqZAp">
 <<<<<<< HEAD
+<<<<<<< HEAD
           <node concept="3SKdUq" id="61rdzRit_ID" role="3SKWNk">
             <property role="3SKdUp" value="All attributes within globally used namespaces." />
 >>>>>>> 147f312b8f... Added comments within namespace behaviors.
 =======
           <node concept="1PaTwC" id="7jWRS$D_0S_" role="3ndbpf">
+=======
+          <node concept="1PaTwC" id="7jWRS$D_0S_" role="1aUNEU">
+>>>>>>> 6bfe4b6649... example showing too long grammarcells method
             <node concept="3oM_SD" id="7jWRS$D_0SA" role="1PaTwD">
               <property role="3oM_SC" value="All" />
             </node>
@@ -19374,7 +21391,7 @@
           </node>
         </node>
         <node concept="3SKdUt" id="61rdzRitWgU" role="3cqZAp">
-          <node concept="1PaTwC" id="7jWRS$D_0SG" role="3ndbpf">
+          <node concept="1PaTwC" id="7jWRS$D_0SG" role="1aUNEU">
             <node concept="3oM_SD" id="7jWRS$D_0SH" role="1PaTwD">
               <property role="3oM_SC" value="All" />
             </node>
@@ -19451,7 +21468,7 @@
 =======
         <node concept="3clFbH" id="61rdzRiuw7l" role="3cqZAp" />
         <node concept="3SKdUt" id="61rdzRiukOm" role="3cqZAp">
-          <node concept="1PaTwC" id="7jWRS$D_0SL" role="3ndbpf">
+          <node concept="1PaTwC" id="7jWRS$D_0SL" role="1aUNEU">
             <node concept="3oM_SD" id="7jWRS$D_0SM" role="1PaTwD">
               <property role="3oM_SC" value="Since" />
             </node>
@@ -19503,7 +21520,7 @@
           </node>
         </node>
         <node concept="3SKdUt" id="61rdzRiukOo" role="3cqZAp">
-          <node concept="1PaTwC" id="7jWRS$D_0T2" role="3ndbpf">
+          <node concept="1PaTwC" id="7jWRS$D_0T2" role="1aUNEU">
             <node concept="3oM_SD" id="7jWRS$D_0T3" role="1PaTwD">
               <property role="3oM_SC" value="we" />
             </node>
@@ -19561,7 +21578,7 @@
           </node>
         </node>
         <node concept="3SKdUt" id="61rdzRiukOq" role="3cqZAp">
-          <node concept="1PaTwC" id="7jWRS$D_0Tl" role="3ndbpf">
+          <node concept="1PaTwC" id="7jWRS$D_0Tl" role="1aUNEU">
             <node concept="3oM_SD" id="7jWRS$D_0Tm" role="1PaTwD">
               <property role="3oM_SC" value="their" />
             </node>
@@ -19740,7 +21757,7 @@
           <node concept="3cpWsn" id="mwDIXwWvOC" role="3cpWs9">
 =======
         <node concept="3SKdUt" id="61rdzRiuBw$" role="3cqZAp">
-          <node concept="1PaTwC" id="7jWRS$D_0Tr" role="3ndbpf">
+          <node concept="1PaTwC" id="7jWRS$D_0Tr" role="1aUNEU">
             <node concept="3oM_SD" id="7jWRS$D_0Ts" role="1PaTwD">
               <property role="3oM_SC" value="We" />
             </node>
@@ -20025,7 +22042,7 @@
       </node>
       <node concept="3clFbS" id="7G1ZeMQtk2O" role="3clF47">
         <node concept="3SKdUt" id="61rdzRhIixO" role="3cqZAp">
-          <node concept="1PaTwC" id="7jWRS$D_0TF" role="3ndbpf">
+          <node concept="1PaTwC" id="7jWRS$D_0TF" role="1aUNEU">
             <node concept="3oM_SD" id="7jWRS$D_0TG" role="1PaTwD">
               <property role="3oM_SC" value="Returns" />
             </node>
@@ -20065,7 +22082,7 @@
           </node>
         </node>
         <node concept="3SKdUt" id="61rdzRhIixQ" role="3cqZAp">
-          <node concept="1PaTwC" id="7jWRS$D_0TS" role="3ndbpf">
+          <node concept="1PaTwC" id="7jWRS$D_0TS" role="1aUNEU">
             <node concept="3oM_SD" id="7jWRS$D_0TT" role="1PaTwD">
               <property role="3oM_SC" value="This" />
             </node>
@@ -20105,7 +22122,7 @@
           </node>
         </node>
         <node concept="3SKdUt" id="61rdzRhIixS" role="3cqZAp">
-          <node concept="1PaTwC" id="7jWRS$D_0U5" role="3ndbpf">
+          <node concept="1PaTwC" id="7jWRS$D_0U5" role="1aUNEU">
             <node concept="3oM_SD" id="7jWRS$D_0U6" role="1PaTwD">
               <property role="3oM_SC" value="can" />
             </node>
@@ -20267,7 +22284,7 @@
 =======
       <node concept="3clFbS" id="mwDIXwWvLw" role="3clF47">
         <node concept="3SKdUt" id="61rdzRhIlMf" role="3cqZAp">
-          <node concept="1PaTwC" id="7jWRS$D_0Uf" role="3ndbpf">
+          <node concept="1PaTwC" id="7jWRS$D_0Uf" role="1aUNEU">
             <node concept="3oM_SD" id="7jWRS$D_0Ug" role="1PaTwD">
               <property role="3oM_SC" value="Returns" />
             </node>
@@ -20310,7 +22327,7 @@
           </node>
         </node>
         <node concept="3SKdUt" id="61rdzRhIlMh" role="3cqZAp">
-          <node concept="1PaTwC" id="7jWRS$D_0Ut" role="3ndbpf">
+          <node concept="1PaTwC" id="7jWRS$D_0Ut" role="1aUNEU">
             <node concept="3oM_SD" id="7jWRS$D_0Uu" role="1PaTwD">
               <property role="3oM_SC" value="besides" />
             </node>
@@ -20341,7 +22358,7 @@
           </node>
         </node>
         <node concept="3SKdUt" id="61rdzRhIlMj" role="3cqZAp">
-          <node concept="1PaTwC" id="7jWRS$D_0UB" role="3ndbpf">
+          <node concept="1PaTwC" id="7jWRS$D_0UB" role="1aUNEU">
             <node concept="3oM_SD" id="7jWRS$D_0UC" role="1PaTwD">
               <property role="3oM_SC" value="Used" />
             </node>
@@ -20396,11 +22413,15 @@
 =======
         <node concept="3SKdUt" id="61rdzRhJjMJ" role="3cqZAp">
 <<<<<<< HEAD
+<<<<<<< HEAD
           <node concept="3SKdUq" id="61rdzRhJjMK" role="3SKWNk">
             <property role="3SKdUp" value="All using method declarations within selected namespace." />
 >>>>>>> 147f312b8f... Added comments within namespace behaviors.
 =======
           <node concept="1PaTwC" id="7jWRS$D_0UI" role="3ndbpf">
+=======
+          <node concept="1PaTwC" id="7jWRS$D_0UI" role="1aUNEU">
+>>>>>>> 6bfe4b6649... example showing too long grammarcells method
             <node concept="3oM_SD" id="7jWRS$D_0UJ" role="1PaTwD">
               <property role="3oM_SC" value="All" />
             </node>
@@ -20479,7 +22500,7 @@
             <property role="TrG5h" value="newNSRef" />
 =======
         <node concept="3SKdUt" id="61rdzRhJGt$" role="3cqZAp">
-          <node concept="1PaTwC" id="7jWRS$D_0UQ" role="3ndbpf">
+          <node concept="1PaTwC" id="7jWRS$D_0UQ" role="1aUNEU">
             <node concept="3oM_SD" id="7jWRS$D_0UR" role="1PaTwD">
               <property role="3oM_SC" value="All" />
             </node>
@@ -20586,11 +22607,15 @@
 =======
         <node concept="3SKdUt" id="61rdzRhKd$3" role="3cqZAp">
 <<<<<<< HEAD
+<<<<<<< HEAD
           <node concept="3SKdUq" id="61rdzRhKd$4" role="3SKWNk">
             <property role="3SKdUp" value="All methods within globally used namespaces." />
 >>>>>>> 147f312b8f... Added comments within namespace behaviors.
 =======
           <node concept="1PaTwC" id="7jWRS$D_0UY" role="3ndbpf">
+=======
+          <node concept="1PaTwC" id="7jWRS$D_0UY" role="1aUNEU">
+>>>>>>> 6bfe4b6649... example showing too long grammarcells method
             <node concept="3oM_SD" id="7jWRS$D_0UZ" role="1PaTwD">
               <property role="3oM_SC" value="All" />
             </node>
@@ -20683,7 +22708,7 @@
             <property role="TrG5h" value="globalAtt" />
 =======
         <node concept="3SKdUt" id="61rdzRhKQK4" role="3cqZAp">
-          <node concept="1PaTwC" id="7jWRS$D_0V5" role="3ndbpf">
+          <node concept="1PaTwC" id="7jWRS$D_0V5" role="1aUNEU">
             <node concept="3oM_SD" id="7jWRS$D_0V6" role="1PaTwD">
               <property role="3oM_SC" value="All" />
             </node>
@@ -20956,7 +22981,7 @@
       <node concept="3Tm1VV" id="1yn8PkzoS_p" role="1B3o_S" />
       <node concept="3clFbS" id="1yn8PkzoS_w" role="3clF47">
         <node concept="3SKdUt" id="7POJCjfCrDX" role="3cqZAp">
-          <node concept="1PaTwC" id="7jWRS$D_0Va" role="3ndbpf">
+          <node concept="1PaTwC" id="7jWRS$D_0Va" role="1aUNEU">
             <node concept="3oM_SD" id="7jWRS$D_0Vb" role="1PaTwD">
               <property role="3oM_SC" value="A::B" />
             </node>
@@ -21029,7 +23054,7 @@
       <node concept="3Tm1VV" id="7mGKYHhDf9b" role="1B3o_S" />
       <node concept="3clFbS" id="7mGKYHhDf9e" role="3clF47">
         <node concept="3SKdUt" id="7POJCjf3tyv" role="3cqZAp">
-          <node concept="1PaTwC" id="7jWRS$D_0Vc" role="3ndbpf">
+          <node concept="1PaTwC" id="7jWRS$D_0Vc" role="1aUNEU">
             <node concept="3oM_SD" id="7jWRS$D_0Vd" role="1PaTwD">
               <property role="3oM_SC" value="If" />
             </node>
@@ -21360,7 +23385,7 @@
         </node>
         <node concept="3clFbH" id="7POJCjfCsWZ" role="3cqZAp" />
         <node concept="3SKdUt" id="7POJCjfCt53" role="3cqZAp">
-          <node concept="1PaTwC" id="7jWRS$D_0Vm" role="3ndbpf">
+          <node concept="1PaTwC" id="7jWRS$D_0Vm" role="1aUNEU">
             <node concept="3oM_SD" id="7jWRS$D_0Vn" role="1PaTwD">
               <property role="3oM_SC" value="Add" />
             </node>

@@ -79,7 +79,7 @@
     </language>
     <language id="3bf5377a-e904-4ded-9754-5a516023bfaa" name="com.mbeddr.core.pointers">
       <concept id="6282313788306893057" name="com.mbeddr.core.pointers.structure.ArrayAccessExpr" flags="ng" index="2wJmCr">
-        <child id="6282313788306893059" name="index" index="2wJmCp" />
+        <child id="6282313788306893059" name="indexExpr" index="2wJmCp" />
       </concept>
     </language>
     <language id="2693fc71-9b0e-4b05-ab13-f57227d675f2" name="com.mbeddr.core.util">

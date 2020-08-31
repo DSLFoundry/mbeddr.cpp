@@ -9,6 +9,7 @@
     <import index="wnzg" ref="r:24646c42-f8e0-499c-b639-679cfa170a2e(com.mbeddr.cpp.base.structure)" />
     <import index="x27k" ref="r:75ecab8a-8931-4140-afc6-4b46398710fc(com.mbeddr.core.modules.structure)" />
     <import index="zhp8" ref="r:66d213c1-a12b-4017-8dd5-0423703c30a9(com.mbeddr.cpp.operator_overload.structure)" />
+    <import index="1yyn" ref="r:64e0a2a9-7957-424b-8102-a5e8a7a73035(com.mbeddr.cpp.templates.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -20,6 +21,7 @@
         <property id="6714410169261853888" name="conceptId" index="EcuMT" />
         <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
+        <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
       </concept>
       <concept id="1169127622168" name="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" flags="ig" index="PrWs8">
         <reference id="1169127628841" name="intfc" index="PrY4T" />
@@ -28,6 +30,10 @@
         <property id="1096454100552" name="rootable" index="19KtqR" />
         <reference id="1071489389519" name="extends" index="1TJDcQ" />
         <child id="1169129564478" name="implements" index="PzmwI" />
+      </concept>
+      <concept id="1071489288299" name="jetbrains.mps.lang.structure.structure.PropertyDeclaration" flags="ig" index="1TJgyi">
+        <property id="241647608299431129" name="propertyId" index="IQ2nx" />
+        <reference id="1082985295845" name="dataType" index="AX2Wp" />
       </concept>
       <concept id="1071489288298" name="jetbrains.mps.lang.structure.structure.LinkDeclaration" flags="ig" index="1TJgyj">
         <property id="1071599776563" name="role" index="20kJfa" />
@@ -121,6 +127,21 @@
     <node concept="t5JxF" id="3J_5hL3JMZa" role="lGtFl">
       <property role="t5JxN" value="Operator overloading declarations in the generator. Used for headers." />
     </node>
+  </node>
+  <node concept="1TIwiD" id="1hH95XGKI$X">
+    <property role="EcuMT" value="1471872645485226301" />
+    <property role="TrG5h" value="GenArgument" />
+    <ref role="1TJDcQ" to="x27k:6Q7bJ$$my3n" resolve="Argument" />
+    <node concept="1TJgyi" id="1hH95XGKI$Y" role="1TKVEl">
+      <property role="IQ2nx" value="1471872645485226302" />
+      <property role="TrG5h" value="generateName" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1hH95XHpwWD">
+    <property role="EcuMT" value="1471872645495918377" />
+    <property role="TrG5h" value="GenNamespaceTemplateInheritanceInstance" />
+    <ref role="1TJDcQ" to="1yyn:1N32NMNMKsa" resolve="TemplateInheritanceInstance" />
   </node>
 </model>
 
