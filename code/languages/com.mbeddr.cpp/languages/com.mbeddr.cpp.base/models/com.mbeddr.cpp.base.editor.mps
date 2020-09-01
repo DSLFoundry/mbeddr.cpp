@@ -3048,6 +3048,7 @@
           <property role="VOm3f" value="true" />
         </node>
       </node>
+<<<<<<< HEAD
       <node concept="1iCGBv" id="7fNEwq_6ZM9" role="3EZMnx">
         <ref role="1NtTu8" to="wnzg:7fNEwq_6ZLT" resolve="class_attribute" />
         <node concept="1sVBvm" id="7fNEwq_6ZMb" role="1sWHZn">
@@ -3091,6 +3092,21 @@
                     <ref role="3TsBF5" to="wnzg:3UsoL$l5qkP" resolve="visibility" />
 =======
           </node>
+=======
+      <node concept="3EZMnI" id="3n$8_Xbh2k9" role="3EZMnx">
+        <node concept="3F0ifn" id="3n$8_Xbh2km" role="3EZMnx">
+          <property role="3F0ifm" value=":" />
+        </node>
+        <node concept="3F2HdR" id="3n$8_Xbh2Tb" role="3EZMnx">
+          <property role="2czwfO" value="," />
+          <ref role="1NtTu8" to="wnzg:3n$8_Xbh2kv" resolve="initializers" />
+          <node concept="l2Vlx" id="3n$8_Xbh2Td" role="2czzBx" />
+          <node concept="3F0ifn" id="3n$8_Xbh2Tk" role="2czzBI" />
+        </node>
+        <node concept="l2Vlx" id="3n$8_Xbh2kc" role="2iSdaV" />
+        <node concept="VPM3Z" id="3n$8_Xbh2kd" role="3F10Kt">
+          <property role="VOm3f" value="false" />
+>>>>>>> c2b0325e2c... fine-tuning braces; added some constructor-related cocepts
         </node>
       </node>
       <node concept="l2Vlx" id="7fNEwq_6ZKa" role="2iSdaV" />
@@ -8869,23 +8885,23 @@
     <property role="3GE5qa" value="constructor" />
     <ref role="1XX52x" to="wnzg:7pUsrpuVZdh" resolve="ClassConstructorPrototype" />
     <node concept="3EZMnI" id="7pUsrpuVZe5" role="2wV5jI">
-      <node concept="3F0ifn" id="7pUsrpuVZe6" role="3EZMnx">
-        <property role="3F0ifm" value="pureVirtual" />
+      <node concept="3F0ifn" id="5i01kANsQcB" role="3EZMnx">
+        <property role="3F0ifm" value="~" />
+        <node concept="pkWqt" id="5i01kANsQcN" role="pqm2j">
+          <node concept="3clFbS" id="5i01kANsQcO" role="2VODD2">
+            <node concept="3clFbF" id="5i01kANsR7m" role="3cqZAp">
+              <node concept="2OqwBi" id="5i01kANsRzI" role="3clFbG">
+                <node concept="pncrf" id="5i01kANsR7l" role="2Oq$k0" />
+                <node concept="3TrcHB" id="5i01kANsSvc" role="2OqNvi">
+                  <ref role="3TsBF5" to="wnzg:5i01kANicU4" resolve="isDestructor" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
-      <node concept="3F0A7n" id="7pUsrpuVZe7" role="3EZMnx">
-        <ref role="1NtTu8" to="wnzg:2L1k$oXDqK2" resolve="isPureVirtual" />
-      </node>
-      <node concept="3F0ifn" id="7pUsrpuVZe8" role="3EZMnx">
-        <property role="3F0ifm" value="virtual" />
-      </node>
-      <node concept="3F0A7n" id="7pUsrpuVZe9" role="3EZMnx">
-        <ref role="1NtTu8" to="wnzg:2L1k$oXxncX" resolve="isVirtual" />
-      </node>
-      <node concept="3F0ifn" id="7pUsrpuVZea" role="3EZMnx">
-        <property role="3F0ifm" value="static" />
-      </node>
-      <node concept="3F0A7n" id="7pUsrpuVZeb" role="3EZMnx">
-        <ref role="1NtTu8" to="wnzg:1Yr26itwx8v" resolve="isStatic" />
+      <node concept="3F0A7n" id="4KyQ_Qh_zOE" role="3EZMnx">
+        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
       </node>
 <<<<<<< HEAD
     </node>
@@ -8964,8 +8980,62 @@
         <node concept="11LMrY" id="cx3$dyZp_A" role="3F10Kt">
 =======
       <node concept="2iRfu4" id="7pUsrpuVZee" role="2iSdaV" />
-      <node concept="PMmxH" id="7pUsrpuVZef" role="3EZMnx">
-        <ref role="PMmxG" node="6NtgknWJ3yn" resolve="constructorSignature" />
+      <node concept="3EZMnI" id="7pUsrpvJpLz" role="3EZMnx">
+        <node concept="3F0ifn" id="7pUsrpvJpL$" role="3EZMnx">
+          <property role="3F0ifm" value="(" />
+          <node concept="11LMrY" id="7pUsrpvJpL_" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+          <node concept="11L4FC" id="7pUsrpvJpLA" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+        </node>
+        <node concept="3F2HdR" id="7pUsrpvJpLB" role="3EZMnx">
+          <property role="2czwfO" value="," />
+          <ref role="1NtTu8" to="x27k:4WTYg$PUiX5" resolve="arguments" />
+          <node concept="l2Vlx" id="7pUsrpvJpLC" role="2czzBx" />
+        </node>
+        <node concept="1kHk_G" id="7pUsrpvJpLD" role="3EZMnx">
+          <property role="ZjSer" value="..." />
+          <ref role="1NtTu8" to="wnzg:6ddXmWdALYA" resolve="hasEllipsis" />
+        </node>
+        <node concept="l2Vlx" id="7pUsrpvJpLE" role="2iSdaV" />
+        <node concept="3F0ifn" id="7pUsrpvJpLF" role="3EZMnx">
+          <property role="3F0ifm" value=")" />
+          <node concept="11L4FC" id="7pUsrpvJpLG" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+          <node concept="11LMrY" id="7pUsrpvJpLH" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+        </node>
+        <node concept="3EZMnI" id="7pUsrpvJpLI" role="3EZMnx">
+          <node concept="3F0ifn" id="7pUsrpvJpLJ" role="3EZMnx">
+            <property role="3F0ifm" value=":" />
+          </node>
+          <node concept="3F2HdR" id="7pUsrpvJpLK" role="3EZMnx">
+            <property role="2czwfO" value="," />
+            <ref role="1NtTu8" to="wnzg:3n$8_Xbh2kv" resolve="initializers" />
+            <node concept="l2Vlx" id="7pUsrpvJpLL" role="2czzBx" />
+            <node concept="3F0ifn" id="7pUsrpvJpLM" role="2czzBI" />
+          </node>
+          <node concept="l2Vlx" id="7pUsrpvJpLN" role="2iSdaV" />
+          <node concept="VPM3Z" id="7pUsrpvJpLO" role="3F10Kt">
+            <property role="VOm3f" value="false" />
+          </node>
+        </node>
+        <node concept="3F0ifn" id="7pUsrpvJpOd" role="3EZMnx">
+          <property role="3F0ifm" value="isDefault" />
+        </node>
+        <node concept="3F0A7n" id="7pUsrpvJpON" role="3EZMnx">
+          <ref role="1NtTu8" to="wnzg:7pUsrpuVZdB" resolve="isDefault" />
+        </node>
+        <node concept="3F0ifn" id="7pUsrpuVZe6" role="3EZMnx">
+          <property role="3F0ifm" value="pureVirtual" />
+        </node>
+        <node concept="3F0A7n" id="7pUsrpuVZe7" role="3EZMnx">
+          <ref role="1NtTu8" to="wnzg:2L1k$oXDqK2" resolve="isPureVirtual" />
+        </node>
       </node>
       <node concept="3F0ifn" id="7pUsrpuVZeg" role="3EZMnx">
         <property role="3F0ifm" value=";" />
@@ -9000,10 +9070,20 @@
       <node concept="3EZMnI" id="7pUsrpuVZhO" role="3EZMnx">
         <node concept="2iRfu4" id="7pUsrpuVZhP" role="2iSdaV" />
         <node concept="3F0ifn" id="7pUsrpuVZhQ" role="3EZMnx">
-          <property role="3F0ifm" value="isDestructor:" />
+          <property role="3F0ifm" value="isExplicit:" />
         </node>
         <node concept="3XFhqQ" id="7pUsrpuVZhR" role="3EZMnx" />
         <node concept="3F0A7n" id="7pUsrpuVZhS" role="3EZMnx">
+          <ref role="1NtTu8" to="wnzg:1D2kn9asHiy" resolve="isExplicit" />
+        </node>
+      </node>
+      <node concept="3EZMnI" id="2zp5FdTmQBa" role="3EZMnx">
+        <node concept="2iRfu4" id="2zp5FdTmQBb" role="2iSdaV" />
+        <node concept="3F0ifn" id="2zp5FdTmQBc" role="3EZMnx">
+          <property role="3F0ifm" value="isDestructor:" />
+        </node>
+        <node concept="3XFhqQ" id="2zp5FdTmQBd" role="3EZMnx" />
+        <node concept="3F0A7n" id="2zp5FdTmQBe" role="3EZMnx">
           <ref role="1NtTu8" to="wnzg:5i01kANicU4" resolve="isDestructor" />
         </node>
       </node>
@@ -9056,6 +9136,7 @@
           <ref role="1NtTu8" to="wnzg:2L1k$oXDqK2" resolve="isPureVirtual" />
         </node>
       </node>
+<<<<<<< HEAD
       <node concept="3EZMnI" id="7pUsrpuVZfj" role="3EZMnx">
         <node concept="2iRfu4" id="7pUsrpuVZfk" role="2iSdaV" />
         <node concept="3F0ifn" id="7pUsrpuVZfl" role="3EZMnx">
@@ -9067,6 +9148,8 @@
 >>>>>>> 6bfe4b6649... example showing too long grammarcells method
         </node>
       </node>
+=======
+>>>>>>> c2b0325e2c... fine-tuning braces; added some constructor-related cocepts
       <node concept="3EZMnI" id="7pUsrpuVZfo" role="3EZMnx">
         <node concept="2iRfu4" id="7pUsrpuVZfp" role="2iSdaV" />
         <node concept="3F0ifn" id="7pUsrpuVZfq" role="3EZMnx">
@@ -9175,19 +9258,6 @@
         <node concept="3XFhqQ" id="7pUsrpuVZgd" role="3EZMnx" />
         <node concept="3F2HdR" id="7pUsrpuVZge" role="3EZMnx">
           <ref role="1NtTu8" to="x27k:4WTYg$PUiX5" resolve="arguments" />
-        </node>
-      </node>
-      <node concept="3EZMnI" id="7pUsrpuVZgf" role="3EZMnx">
-        <node concept="2iRfu4" id="7pUsrpuVZgg" role="2iSdaV" />
-        <node concept="3F0ifn" id="7pUsrpuVZgh" role="3EZMnx">
-          <property role="3F0ifm" value="parentClass:" />
-        </node>
-        <node concept="3XFhqQ" id="7pUsrpuVZgi" role="3EZMnx" />
-        <node concept="1iCGBv" id="7pUsrpuVZgj" role="3EZMnx">
-          <ref role="1NtTu8" to="wnzg:6NtgknWJ214" resolve="parentClass" />
-          <node concept="1sVBvm" id="7pUsrpuVZgk" role="1sWHZn">
-            <node concept="3SHvHV" id="7pUsrpuVZgl" role="2wV5jI" />
-          </node>
         </node>
       </node>
     </node>
