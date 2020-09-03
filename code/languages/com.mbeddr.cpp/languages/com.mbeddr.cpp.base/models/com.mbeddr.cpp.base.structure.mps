@@ -261,6 +261,7 @@
       <ref role="PrY4T" node="1Yr26itwx8u" resolve="IStaticFlag" />
     </node>
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> be102f3fab... Make naming of flag concepts consistent and shorter
     <node concept="1TJgyi" id="2Ai0Gt9ODIG" role="1TKVEl">
       <property role="IQ2nx" value="2995459757115087788" />
@@ -278,6 +279,11 @@
 =======
 >>>>>>> 180d6b24f4... Unify structure naming, fix dependency issue and remove unused dependencies
 =======
+=======
+    <node concept="PrWs8" id="7RTlUgeAr7D" role="PrDN$">
+      <ref role="PrY4T" to="tpck:2WmWrdnSpX2" resolve="ICanSuppressErrors" />
+    </node>
+>>>>>>> b7d98a3937... commented logging messages; introduced ICanSuppressErrors
     <node concept="1TJgyi" id="7jWRS$D$ZDC" role="1TKVEl">
       <property role="TrG5h" value="visibility" />
       <property role="IQ2nx" value="2995459757115087788" />
@@ -867,6 +873,9 @@
     </node>
     <node concept="PrWs8" id="6hUtorDMd8a" role="PzmwI">
       <ref role="PrY4T" to="x27k:71UKpntnl7M" resolve="IFunctionLike" />
+    </node>
+    <node concept="PrWs8" id="7RTlUgeYdxp" role="PzmwI">
+      <ref role="PrY4T" to="tpck:2WmWrdnSpX2" resolve="ICanSuppressErrors" />
     </node>
     <node concept="1TJgyj" id="6ddXmWdC9sl" role="1TKVEi">
       <property role="IQ2ns" value="7155645240280389397" />
@@ -1792,6 +1801,9 @@
     <property role="TrG5h" value="INamespaceMemberDeclaration" />
     <node concept="t5JxF" id="c7Kd0gpDHv" role="lGtFl">
       <property role="t5JxN" value="Interface that joins things that can reside inside of a namespace at the top level." />
+    </node>
+    <node concept="PrWs8" id="7RTlUgeAr7H" role="PrDN$">
+      <ref role="PrY4T" to="tpck:2WmWrdnSpX2" resolve="ICanSuppressErrors" />
     </node>
   </node>
   <node concept="PlHQZ" id="383ZxwZsgd5">
