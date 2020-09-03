@@ -185,6 +185,9 @@
     <node concept="PrWs8" id="5eDFAXBm97W" role="PrDN$">
       <ref role="PrY4T" node="1Yr26itwx8u" resolve="IStaticFlag" />
     </node>
+    <node concept="PrWs8" id="7RTlUgeAr7D" role="PrDN$">
+      <ref role="PrY4T" to="tpck:2WmWrdnSpX2" resolve="ICanSuppressErrors" />
+    </node>
     <node concept="1TJgyi" id="7jWRS$D$ZDC" role="1TKVEl">
       <property role="TrG5h" value="visibility" />
       <property role="IQ2nx" value="2995459757115087788" />
@@ -505,6 +508,9 @@
     <node concept="PrWs8" id="6hUtorDMd8a" role="PzmwI">
       <ref role="PrY4T" to="x27k:71UKpntnl7M" resolve="IFunctionLike" />
     </node>
+    <node concept="PrWs8" id="7RTlUgeYdxp" role="PzmwI">
+      <ref role="PrY4T" to="tpck:2WmWrdnSpX2" resolve="ICanSuppressErrors" />
+    </node>
     <node concept="1TJgyj" id="6ddXmWdC9sl" role="1TKVEi">
       <property role="IQ2ns" value="7155645240280389397" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -738,6 +744,9 @@
     <property role="TrG5h" value="INamespaceMemberDeclaration" />
     <node concept="t5JxF" id="c7Kd0gpDHv" role="lGtFl">
       <property role="t5JxN" value="Interface that joins things that can reside inside of a namespace at the top level." />
+    </node>
+    <node concept="PrWs8" id="7RTlUgeAr7H" role="PrDN$">
+      <ref role="PrY4T" to="tpck:2WmWrdnSpX2" resolve="ICanSuppressErrors" />
     </node>
   </node>
   <node concept="PlHQZ" id="383ZxwZsgd5">
