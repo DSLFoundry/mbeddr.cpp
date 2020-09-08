@@ -1509,8 +1509,8 @@
             <node concept="3clFbS" id="7j9KGYMhyKZ" role="3clFbx">
               <node concept="3cpWs6" id="7j9KGYMh$C_" role="3cqZAp">
                 <node concept="2ShNRf" id="7j9KGYMh$CO" role="3cqZAk">
-                  <node concept="HV5vD" id="7j9KGYMh_UO" role="2ShVmc">
-                    <ref role="HV5vE" to="o8zo:7ipADkTfAzR" resolve="EmptyScope" />
+                  <node concept="1pGfFk" id="SDkzKCxJxc" role="2ShVmc">
+                    <ref role="37wK5l" to="o8zo:7ipADkTfAzT" resolve="EmptyScope" />
                   </node>
                 </node>
               </node>
@@ -1549,6 +1549,7 @@
               <node concept="2ShNRf" id="6oRbCP69m8F" role="33vP2m">
                 <node concept="1pGfFk" id="6oRbCP69mqW" role="2ShVmc">
                   <ref role="37wK5l" to="o8zo:7ipADkTevLv" resolve="CompositeScope" />
+<<<<<<< HEAD
                 </node>
               </node>
             </node>
@@ -1575,6 +1576,44 @@
                     </node>
                     <node concept="2qgKlT" id="3p40HKh9r0T" role="2OqNvi">
                       <ref role="37wK5l" to="kntn:gWE$qahG7M" resolve="allMethods" />
+=======
+                  <node concept="2YIFZM" id="SDkzKCxJMU" role="37wK5m">
+                    <ref role="37wK5l" to="o8zo:3jEbQoczdCs" resolve="forResolvableElements" />
+                    <ref role="1Pybhc" to="o8zo:4IP40Bi3e_R" resolve="ListScope" />
+                    <node concept="2OqwBi" id="SDkzKCxJMV" role="37wK5m">
+                      <node concept="2OqwBi" id="SDkzKCxJMW" role="2Oq$k0">
+                        <node concept="37vLTw" id="SDkzKCxJMX" role="2Oq$k0">
+                          <ref role="3cqZAo" node="6oRbCP69jYA" resolve="pcType" />
+                        </node>
+                        <node concept="2qgKlT" id="SDkzKCxJMY" role="2OqNvi">
+                          <ref role="37wK5l" to="kntn:gWE$qahG7M" resolve="allMethods" />
+                        </node>
+                      </node>
+                      <node concept="3zZkjj" id="SDkzKCxJMZ" role="2OqNvi">
+                        <node concept="1bVj0M" id="SDkzKCxJN0" role="23t8la">
+                          <node concept="3clFbS" id="SDkzKCxJN1" role="1bW5cS">
+                            <node concept="3clFbF" id="SDkzKCxJN2" role="3cqZAp">
+                              <node concept="3fqX7Q" id="SDkzKCxJN3" role="3clFbG">
+                                <node concept="2OqwBi" id="SDkzKCxJN4" role="3fr31v">
+                                  <node concept="37vLTw" id="SDkzKCxJN5" role="2Oq$k0">
+                                    <ref role="3cqZAo" node="SDkzKCxJN8" resolve="it" />
+                                  </node>
+                                  <node concept="1mIQ4w" id="SDkzKCxJN6" role="2OqNvi">
+                                    <node concept="chp4Y" id="SDkzKCxJN7" role="cj9EA">
+                                      <ref role="cht4Q" to="1yyn:76fdl5j7ss8" resolve="TemplateMethodDeclaration" />
+                                    </node>
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                          <node concept="Rh6nW" id="SDkzKCxJN8" role="1bW2Oz">
+                            <property role="TrG5h" value="it" />
+                            <node concept="2jxLKc" id="SDkzKCxJN9" role="1tU5fm" />
+                          </node>
+                        </node>
+                      </node>
+>>>>>>> 0614305c07... introduced NamespaceType; fixed named references in scopes
                     </node>
                   </node>
                 </node>
@@ -1639,9 +1678,10 @@
                   </node>
                   <node concept="liA8E" id="3p40HKh9uRM" role="2OqNvi">
                     <ref role="37wK5l" to="o8zo:7ipADkTevN6" resolve="addScope" />
-                    <node concept="2YIFZM" id="3p40HKh9vvB" role="37wK5m">
-                      <ref role="37wK5l" to="o8zo:4IP40Bi3eAf" resolve="forNamedElements" />
+                    <node concept="2YIFZM" id="SDkzKCxK49" role="37wK5m">
+                      <ref role="37wK5l" to="o8zo:3jEbQoczdCs" resolve="forResolvableElements" />
                       <ref role="1Pybhc" to="o8zo:4IP40Bi3e_R" resolve="ListScope" />
+<<<<<<< HEAD
 <<<<<<< HEAD
                       <node concept="2OqwBi" id="3p40HKh9wQa" role="37wK5m">
                         <node concept="2OqwBi" id="3p40HKh9vRQ" role="2Oq$k0">
@@ -1680,6 +1720,33 @@
                                     </node>
                                     <node concept="1mIQ4w" id="76fdl5jedRo" role="2OqNvi">
                                       <node concept="chp4Y" id="76fdl5jedRp" role="cj9EA">
+=======
+                      <node concept="2OqwBi" id="SDkzKCxK4a" role="37wK5m">
+                        <node concept="2OqwBi" id="SDkzKCxK4b" role="2Oq$k0">
+                          <node concept="2OqwBi" id="SDkzKCxK4c" role="2Oq$k0">
+                            <node concept="2GrUjf" id="SDkzKCxK4d" role="2Oq$k0">
+                              <ref role="2Gs0qQ" node="3p40HKh9rWk" resolve="parent" />
+                            </node>
+                            <node concept="3TrEf2" id="SDkzKCxK4e" role="2OqNvi">
+                              <ref role="3Tt5mk" to="wnzg:3UsoL$l5qkM" resolve="parentClass" />
+                            </node>
+                          </node>
+                          <node concept="2qgKlT" id="SDkzKCxK4f" role="2OqNvi">
+                            <ref role="37wK5l" to="kntn:3p40HKh2pX8" resolve="availableMethodsForChild" />
+                          </node>
+                        </node>
+                        <node concept="3zZkjj" id="SDkzKCxK4g" role="2OqNvi">
+                          <node concept="1bVj0M" id="SDkzKCxK4h" role="23t8la">
+                            <node concept="3clFbS" id="SDkzKCxK4i" role="1bW5cS">
+                              <node concept="3clFbF" id="SDkzKCxK4j" role="3cqZAp">
+                                <node concept="3fqX7Q" id="SDkzKCxK4k" role="3clFbG">
+                                  <node concept="2OqwBi" id="SDkzKCxK4l" role="3fr31v">
+                                    <node concept="37vLTw" id="SDkzKCxK4m" role="2Oq$k0">
+                                      <ref role="3cqZAo" node="SDkzKCxK4p" resolve="it" />
+                                    </node>
+                                    <node concept="1mIQ4w" id="SDkzKCxK4n" role="2OqNvi">
+                                      <node concept="chp4Y" id="SDkzKCxK4o" role="cj9EA">
+>>>>>>> 0614305c07... introduced NamespaceType; fixed named references in scopes
                                         <ref role="cht4Q" to="1yyn:76fdl5j7ss8" resolve="TemplateMethodDeclaration" />
                                       </node>
                                     </node>
@@ -1687,6 +1754,7 @@
                                 </node>
                               </node>
                             </node>
+<<<<<<< HEAD
                             <node concept="Rh6nW" id="76fdl5jedRq" role="1bW2Oz">
                               <property role="TrG5h" value="it" />
                               <node concept="2jxLKc" id="76fdl5jedRr" role="1tU5fm" />
@@ -1764,6 +1832,11 @@
                                 </node>
                               </node>
 >>>>>>> 230e9df384... Method templates
+=======
+                            <node concept="Rh6nW" id="SDkzKCxK4p" role="1bW2Oz">
+                              <property role="TrG5h" value="it" />
+                              <node concept="2jxLKc" id="SDkzKCxK4q" role="1tU5fm" />
+>>>>>>> 0614305c07... introduced NamespaceType; fixed named references in scopes
                             </node>
                           </node>
                         </node>
