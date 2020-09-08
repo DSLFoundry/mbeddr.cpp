@@ -1456,5 +1456,24 @@
       <ref role="PrY4T" node="1D2kn9asHi2" resolve="IExplicitFlag" />
     </node>
   </node>
+  <node concept="1TIwiD" id="7RTlUgfKaMq">
+    <property role="EcuMT" value="9077382886092483738" />
+    <property role="3GE5qa" value="namespace" />
+    <property role="TrG5h" value="NamespaceType" />
+    <property role="34LRSv" value="::" />
+    <ref role="1TJDcQ" to="x27k:59zzgFRcVlI" resolve="TypeWithDeclaration" />
+    <node concept="1TJgyj" id="7RTlUgfKaMR" role="1TKVEi">
+      <property role="IQ2ns" value="9077382886092483767" />
+      <property role="20kJfa" value="namespace" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="383ZxwZqQYo" resolve="NamespaceDeclaration" />
+    </node>
+    <node concept="1TJgyj" id="7RTlUgfKaMT" role="1TKVEi">
+      <property role="IQ2ns" value="9077382886092483769" />
+      <property role="20kJfa" value="typeDeclaration" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="x27k:3o2OLGv6VBP" resolve="ITypeDeclaration" />
+    </node>
+  </node>
 </model>
 

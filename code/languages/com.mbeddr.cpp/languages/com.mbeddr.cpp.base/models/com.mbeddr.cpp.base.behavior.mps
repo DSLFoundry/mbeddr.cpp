@@ -18320,5 +18320,30 @@
       </node>
     </node>
   </node>
+  <node concept="13h7C7" id="7RTlUgfKaOA">
+    <property role="3GE5qa" value="namespace" />
+    <ref role="13h7C2" to="wnzg:7RTlUgfKaMq" resolve="NamespaceType" />
+    <node concept="13hLZK" id="7RTlUgfKaOB" role="13h7CW">
+      <node concept="3clFbS" id="7RTlUgfKaOC" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="7RTlUgfKaOL" role="13h7CS">
+      <property role="TrG5h" value="getDeclaration" />
+      <ref role="13i0hy" to="qd6m:59zzgFRcVlN" resolve="getDeclaration" />
+      <node concept="3Tm1VV" id="7RTlUgfKaOM" role="1B3o_S" />
+      <node concept="3clFbS" id="7RTlUgfKaOP" role="3clF47">
+        <node concept="3clFbF" id="7RTlUgfKaSo" role="3cqZAp">
+          <node concept="2OqwBi" id="7RTlUgfKb7W" role="3clFbG">
+            <node concept="13iPFW" id="7RTlUgfKaSn" role="2Oq$k0" />
+            <node concept="3TrEf2" id="7RTlUgfKbAp" role="2OqNvi">
+              <ref role="3Tt5mk" to="wnzg:7RTlUgfKaMT" resolve="typeDeclaration" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tqbb2" id="7RTlUgfKaOQ" role="3clF45">
+        <ref role="ehGHo" to="x27k:3o2OLGv6VBP" resolve="ITypeDeclaration" />
+      </node>
+    </node>
+  </node>
 </model>
 

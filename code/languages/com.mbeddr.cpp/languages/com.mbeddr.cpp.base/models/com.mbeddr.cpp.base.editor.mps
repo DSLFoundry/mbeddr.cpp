@@ -6410,5 +6410,27 @@
       </node>
     </node>
   </node>
+  <node concept="24kQdi" id="7RTlUgfKaNm">
+    <property role="3GE5qa" value="namespace" />
+    <ref role="1XX52x" to="wnzg:7RTlUgfKaMq" resolve="NamespaceType" />
+    <node concept="3EZMnI" id="7RTlUgfKaNo" role="2wV5jI">
+      <node concept="1iCGBv" id="7RTlUgfKaNv" role="3EZMnx">
+        <ref role="1NtTu8" to="wnzg:7RTlUgfKaMR" resolve="namespace" />
+        <node concept="1sVBvm" id="7RTlUgfKaNx" role="1sWHZn">
+          <node concept="3SHvHV" id="7RTlUgfKaNC" role="2wV5jI" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="7RTlUgfKaNK" role="3EZMnx">
+        <property role="3F0ifm" value="::" />
+      </node>
+      <node concept="1iCGBv" id="7RTlUgfKaNW" role="3EZMnx">
+        <ref role="1NtTu8" to="wnzg:7RTlUgfKaMT" resolve="typeDeclaration" />
+        <node concept="1sVBvm" id="7RTlUgfKaNY" role="1sWHZn">
+          <node concept="3SHvHV" id="7RTlUgfKaO9" role="2wV5jI" />
+        </node>
+      </node>
+      <node concept="l2Vlx" id="7RTlUgfKaNr" role="2iSdaV" />
+    </node>
+  </node>
 </model>
 

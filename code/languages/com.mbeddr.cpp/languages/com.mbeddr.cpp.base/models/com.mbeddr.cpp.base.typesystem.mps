@@ -8370,5 +8370,36 @@
       <ref role="1YaFvo" to="wnzg:fwMInzpHoK" resolve="ReferenceType" />
     </node>
   </node>
+  <node concept="1YbPZF" id="7RTlUgfKbH8">
+    <property role="TrG5h" value="typeof_NamespaceType" />
+    <property role="3GE5qa" value="namespace" />
+    <node concept="3clFbS" id="7RTlUgfKbH9" role="18ibNy">
+      <node concept="1Z5TYs" id="7RTlUgfKbRV" role="3cqZAp">
+        <node concept="mw_s8" id="7RTlUgfKbSf" role="1ZfhKB">
+          <node concept="1Z2H0r" id="7RTlUgfKbSb" role="mwGJk">
+            <node concept="2OqwBi" id="7RTlUgfKc55" role="1Z2MuG">
+              <node concept="1YBJjd" id="7RTlUgfKbSw" role="2Oq$k0">
+                <ref role="1YBMHb" node="7RTlUgfKbHb" resolve="namespaceType" />
+              </node>
+              <node concept="3TrEf2" id="7RTlUgfKcpE" role="2OqNvi">
+                <ref role="3Tt5mk" to="wnzg:7RTlUgfKaMT" resolve="typeDeclaration" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="mw_s8" id="7RTlUgfKbRY" role="1ZfhK$">
+          <node concept="1Z2H0r" id="7RTlUgfKbHf" role="mwGJk">
+            <node concept="1YBJjd" id="7RTlUgfKbJ7" role="1Z2MuG">
+              <ref role="1YBMHb" node="7RTlUgfKbHb" resolve="namespaceType" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="7RTlUgfKbHb" role="1YuTPh">
+      <property role="TrG5h" value="namespaceType" />
+      <ref role="1YaFvo" to="wnzg:7RTlUgfKaMq" resolve="NamespaceType" />
+    </node>
+  </node>
 </model>
 
