@@ -11,6 +11,7 @@
     </facet>
   </facets>
   <accessoryModels />
+<<<<<<< HEAD
   <generators>
     <generator alias="main" namespace="com.mbeddr.cpp.expressions#4018800670853458017" uuid="c793bf42-395d-405c-9666-5d828ad11638">
       <models>
@@ -108,6 +109,8 @@
       <mapping-priorities />
     </generator>
   </generators>
+=======
+>>>>>>> 1f521ff255... deleted empty generators
   <sourcePath />
   <dependencies>
     <dependency reexport="false">61c69711-ed61-4850-81d9-7714ff227fb0(com.mbeddr.core.expressions)</dependency>
