@@ -123,6 +123,7 @@
     <import index="n7pc" ref="r:1f4b6c73-0d50-4599-bc8a-9f6948adf243(com.mbeddr.core.expressions.typesystem)" />
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2cc9b19fc3... Added type checking for char16_t initialization.
 =======
     <import index="zhp8" ref="r:66d213c1-a12b-4017-8dd5-0423703c30a9(com.mbeddr.cpp.operator_overload.structure)" />
@@ -147,6 +148,8 @@
 =======
 =======
 >>>>>>> 8ced65fd10... Decouple templates from base
+=======
+>>>>>>> c3a84dc5a5... fixed some errors and warnings
     <import index="tpd4" ref="r:00000000-0000-4000-0000-011c895902b4(jetbrains.mps.lang.typesystem.structure)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="ywuz" ref="r:c6ce92e7-5a98-4a6f-866a-ec8b9e945dd8(com.mbeddr.core.expressions.behavior)" implicit="true" />
@@ -1312,7 +1315,7 @@
               <node concept="3x8VRR" id="3nWonftGkE1" role="2OqNvi" />
             </node>
             <node concept="3fqX7Q" id="4K6s$_sIpcJ" role="3uHU7w">
-              <node concept="2OqwBi" id="4K6s$_sIpcL" role="3fr31v">
+              <node concept="2OqwBi" id="4iMAYWi5RYP" role="3fr31v">
                 <node concept="2OqwBi" id="4K6s$_sIpcM" role="2Oq$k0">
                   <node concept="37vLTw" id="681DFyjW_v0" role="2Oq$k0">
                     <ref role="3cqZAo" node="4K6s$_sI$6_" resolve="instanceModule" />
@@ -1321,9 +1324,8 @@
                     <ref role="37wK5l" to="qd6m:35JkqCBlGGT" resolve="getAllImportedModules" />
                   </node>
                 </node>
-                <node concept="liA8E" id="4K6s$_sIpcT" role="2OqNvi">
-                  <ref role="37wK5l" to="33ny:~Set.contains(java.lang.Object)" resolve="contains" />
-                  <node concept="37vLTw" id="4K6s$_sIpcU" role="37wK5m">
+                <node concept="3JPx81" id="4iMAYWi5SXs" role="2OqNvi">
+                  <node concept="37vLTw" id="4iMAYWi5TD7" role="25WWJ7">
                     <ref role="3cqZAo" node="4K6s$_sI1yj" resolve="parentClassModule" />
                   </node>
                 </node>

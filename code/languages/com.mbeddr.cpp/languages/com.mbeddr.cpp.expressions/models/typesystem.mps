@@ -88,6 +88,8 @@
         <reference id="1068581517664" name="variableDeclaration" index="3cqZAo" />
       </concept>
       <concept id="1068498886294" name="jetbrains.mps.baseLanguage.structure.AssignmentExpression" flags="nn" index="37vLTI" />
+      <concept id="1225271221393" name="jetbrains.mps.baseLanguage.structure.NPENotEqualsExpression" flags="nn" index="17QLQc" />
+      <concept id="1225271283259" name="jetbrains.mps.baseLanguage.structure.NPEEqualsExpression" flags="nn" index="17R0WA" />
       <concept id="4972933694980447171" name="jetbrains.mps.baseLanguage.structure.BaseVariableDeclaration" flags="ng" index="19Szcq">
         <child id="5680397130376446158" name="type" index="1tU5fm" />
       </concept>
@@ -1486,15 +1488,15 @@
                         <node concept="1bVj0M" id="3p40HKhFWmN" role="23t8la">
                           <node concept="3clFbS" id="3p40HKhFWmO" role="1bW5cS">
                             <node concept="3clFbF" id="3p40HKhFWsB" role="3cqZAp">
-                              <node concept="3clFbC" id="3p40HKhG6wJ" role="3clFbG">
-                                <node concept="37vLTw" id="3p40HKhG6I9" role="3uHU7w">
-                                  <ref role="3cqZAo" node="3p40HKhE2__" resolve="arrayConcept" />
-                                </node>
-                                <node concept="2OqwBi" id="3p40HKhFWEn" role="3uHU7B">
-                                  <node concept="37vLTw" id="3p40HKhFWsA" role="2Oq$k0">
+                              <node concept="17R0WA" id="4iMAYWieBa5" role="3clFbG">
+                                <node concept="2OqwBi" id="4iMAYWieBa6" role="3uHU7B">
+                                  <node concept="37vLTw" id="4iMAYWieBa7" role="2Oq$k0">
                                     <ref role="3cqZAo" node="3p40HKhFWmP" resolve="it" />
                                   </node>
-                                  <node concept="2yIwOk" id="3p40HKhFWR$" role="2OqNvi" />
+                                  <node concept="2yIwOk" id="4iMAYWieBa8" role="2OqNvi" />
+                                </node>
+                                <node concept="37vLTw" id="4iMAYWieBa9" role="3uHU7w">
+                                  <ref role="3cqZAo" node="3p40HKhE2__" resolve="arrayConcept" />
                                 </node>
                               </node>
                             </node>
@@ -1573,7 +1575,7 @@
                   </node>
                 </node>
               </node>
-              <node concept="3y3z36" id="3p40HKhE$7t" role="3eO9$A">
+              <node concept="17QLQc" id="4iMAYWieCw6" role="3eO9$A">
                 <node concept="37vLTw" id="3p40HKhE$7u" role="3uHU7B">
                   <ref role="3cqZAo" node="3p40HKhDZoQ" resolve="elemConcept" />
                 </node>
