@@ -228,12 +228,9 @@
       <concept id="5044697665789382396" name="com.mbeddr.cpp.base.structure.MethodDeclaration" flags="ng" index="3mB1cK">
         <child id="4185783222026475860" name="body" index="3XIRFX" />
       </concept>
-      <concept id="5044697665789423998" name="com.mbeddr.cpp.base.structure.INamedClassMemberDeclaration" flags="ng" index="3mBaMM">
-        <property id="2995459757115087788" name="visibility" index="1wg9_F" />
-      </concept>
       <concept id="5044697665789421259" name="com.mbeddr.cpp.base.structure.AttributeDeclaration" flags="ng" index="3mBbG7" />
       <concept id="5044697665789421253" name="com.mbeddr.cpp.base.structure.IClassMemberDeclaration" flags="ng" index="3mBbG9">
-        <property id="2995459757115087788" name="visibility" index="1wg9_G" />
+        <property id="2995459757115087788" name="visibility" index="1wg9_F" />
       </concept>
       <concept id="5044697665789405022" name="com.mbeddr.cpp.base.structure.ClassType" flags="ng" index="3mBfEi">
         <reference id="5044697665789405054" name="class" index="3mBfEM" />
@@ -367,6 +364,10 @@
       </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+      <concept id="4222318806802425298" name="jetbrains.mps.lang.core.structure.SuppressErrorsAnnotation" flags="ng" index="15s5l7">
+        <property id="8575328350543493365" name="message" index="huDt6" />
+        <property id="2423417345669755629" name="filter" index="1eyWvh" />
       </concept>
     </language>
     <language id="61c69711-ed61-4850-81d9-7714ff227fb0" name="com.mbeddr.core.expressions">
@@ -617,6 +618,10 @@
     <node concept="3aamgX" id="2Ai0Gta8CJd" role="3acgRq">
       <ref role="30HIoZ" to="3d25:4o2nsMgBIqT" resolve="QualifiedMethodCall" />
       <node concept="1Koe21" id="2Ai0Gta8CKb" role="1lVwrX">
+        <node concept="15s5l7" id="4iMAYWi630s" role="lGtFl">
+          <property role="1eyWvh" value="FLAVOUR_CLASS=&quot;class jetbrains.mps.errors.item.UnresolvedReferenceReportItem&quot;;FLAVOUR_MESSAGE=&quot;Unresolved reference: Class&quot;;FLAVOUR_NODE_FEATURE=&quot;class&quot;;" />
+          <property role="huDt6" value="Unresolved reference: Class" />
+        </node>
         <node concept="N3Fnx" id="2Ai0Gta8CKn" role="1Koe22">
           <property role="TrG5h" value="dummy" />
           <node concept="19Rifw" id="2Ai0Gta8CKo" role="2C2TGm">
@@ -645,7 +650,9 @@
                         <node concept="3cpWs8" id="5HgCzLvQlVJ" role="3cqZAp">
                           <node concept="3cpWsn" id="5HgCzLvQlVM" role="3cpWs9">
                             <property role="TrG5h" value="output" />
-                            <node concept="3Tqbb2" id="5HgCzLvQlXx" role="1tU5fm" />
+                            <node concept="3Tqbb2" id="5HgCzLvQlXx" role="1tU5fm">
+                              <ref role="ehGHo" to="wnzg:3v5DuFDqYGC" resolve="MethodSignature" />
+                            </node>
                             <node concept="2OqwBi" id="2Ai0Gta8CWx" role="33vP2m">
                               <node concept="1iwH7S" id="2Ai0Gta8CP0" role="2Oq$k0" />
                               <node concept="1iwH70" id="2Ai0Gta8D35" role="2OqNvi">
@@ -1717,7 +1724,7 @@
     </node>
     <node concept="3mBW2U" id="1yn8Pkz5sNr" role="N3F5h">
       <property role="2OOxQR" value="true" />
-      <property role="1wg9_G" value="2Ai0Gt9ODIs/public" />
+      <property role="1wg9_F" value="2Ai0Gt9ODIs/public" />
       <property role="TrG5h" value="Class" />
       <node concept="1WS0z7" id="1yn8Pkz5v5s" role="lGtFl">
         <node concept="3JmXsc" id="1yn8Pkz5v5v" role="3Jn$fo">
@@ -1772,7 +1779,7 @@
     </node>
     <node concept="3BZPaE" id="1yn8Pkz5Imd" role="N3F5h">
       <property role="2OOxQR" value="true" />
-      <property role="1wg9_G" value="2Ai0Gt9ODIs/public" />
+      <property role="1wg9_F" value="2Ai0Gt9ODIs/public" />
       <property role="TrG5h" value="TemplateClass" />
       <node concept="3V$TgL" id="1yn8Pkz5KFi" role="3Cz$97">
         <property role="TrG5h" value="T" />
@@ -1803,7 +1810,6 @@
       </node>
     </node>
     <node concept="1wo19x" id="2Ai0Gta7Wua" role="N3F5h">
-      <property role="1wg9_F" value="" />
       <property role="TrG5h" value="foo" />
       <ref role="1wo19w" node="2Ai0Gta7ex0" resolve="Class" />
       <node concept="19RgSI" id="2Ai0Gta8a5D" role="1UOdpc">
@@ -2617,10 +2623,10 @@
         </node>
       </node>
       <node concept="1zE6Tr" id="1yn8PkyWD7M" role="3mBdys">
-        <property role="1wg9_G" value="2Ai0Gt9ODIs/public" />
+        <property role="1wg9_F" value="2Ai0Gt9ODIs/public" />
         <node concept="3mBW2U" id="1yn8PkyXOp_" role="1zE6T_">
           <property role="2OOxQR" value="true" />
-          <property role="1wg9_G" value="2Ai0Gt9ODIs/public" />
+          <property role="1wg9_F" value="2Ai0Gt9ODIs/public" />
           <property role="TrG5h" value="Class" />
           <node concept="1WS0z7" id="1yn8PkyXPWD" role="lGtFl">
             <node concept="3JmXsc" id="1yn8PkyXPWG" role="3Jn$fo">
@@ -2692,7 +2698,7 @@
         </node>
         <node concept="3BZPaE" id="1yn8PkyYui9" role="1zE6T_">
           <property role="2OOxQR" value="true" />
-          <property role="1wg9_G" value="2Ai0Gt9ODIs/public" />
+          <property role="1wg9_F" value="2Ai0Gt9ODIs/public" />
           <property role="TrG5h" value="Class" />
           <node concept="3V$TgL" id="1yn8PkyYvWI" role="3Cz$97">
             <property role="TrG5h" value="T" />
@@ -3328,10 +3334,10 @@
         </node>
       </node>
       <node concept="1zE6Tr" id="1yn8PkyWDbc" role="3mBdys">
-        <property role="1wg9_G" value="2Ai0Gt9ODIw/protected" />
+        <property role="1wg9_F" value="2Ai0Gt9ODIw/protected" />
         <node concept="3mBW2U" id="1yn8PkyYdsG" role="1zE6T_">
           <property role="2OOxQR" value="true" />
-          <property role="1wg9_G" value="2Ai0Gt9ODIw/protected" />
+          <property role="1wg9_F" value="2Ai0Gt9ODIw/protected" />
           <property role="TrG5h" value="Class" />
           <node concept="1WS0z7" id="1yn8PkyYdsH" role="lGtFl">
             <node concept="3JmXsc" id="1yn8PkyYdsI" role="3Jn$fo">
@@ -3403,7 +3409,7 @@
         </node>
         <node concept="3BZPaE" id="1yn8PkyYOEf" role="1zE6T_">
           <property role="2OOxQR" value="true" />
-          <property role="1wg9_G" value="2Ai0Gt9ODIs/public" />
+          <property role="1wg9_F" value="2Ai0Gt9ODIs/public" />
           <property role="TrG5h" value="Class" />
           <node concept="3V$TgL" id="1yn8PkyYOEg" role="3Cz$97">
             <property role="TrG5h" value="T" />
@@ -4111,7 +4117,7 @@
         </node>
         <node concept="3BZPaE" id="1yn8PkyZqS$" role="1zE6T_">
           <property role="2OOxQR" value="true" />
-          <property role="1wg9_G" value="2Ai0Gt9ODIs/public" />
+          <property role="1wg9_F" value="2Ai0Gt9ODIs/public" />
           <property role="TrG5h" value="Class" />
           <node concept="3V$TgL" id="1yn8PkyZqS_" role="3Cz$97">
             <property role="TrG5h" value="T" />
@@ -4778,13 +4784,17 @@
     <ref role="3gUMe" to="1yyn:ZKpU3C3Nka" resolve="TemplateClassDeclaration" />
     <node concept="3BZPaE" id="1yn8Pkz2Ziy" role="13RCb5">
       <property role="2OOxQR" value="true" />
-      <property role="1wg9_G" value="2Ai0Gt9ODIs/public" />
+      <property role="1wg9_F" value="2Ai0Gt9ODIs/public" />
       <property role="TrG5h" value="Class" />
+      <node concept="15s5l7" id="4iMAYWi5YPg" role="lGtFl">
+        <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: default constructor must explicitly initialize base class null&quot;;FLAVOUR_RULE_ID=&quot;[r:e06e24a5-d0fa-4f76-9dee-2042532d92a1(com.mbeddr.cpp.base.typesystem)/426760692507189827]&quot;;" />
+        <property role="huDt6" value="Error: default constructor must explicitly initialize base class null" />
+      </node>
       <node concept="1zE6Tr" id="1yn8Pkz3e2i" role="3mBdys">
-        <property role="1wg9_G" value="2Ai0Gt9ODIs/public" />
+        <property role="1wg9_F" value="2Ai0Gt9ODIs/public" />
         <node concept="3mBW2U" id="1yn8Pkz3e6d" role="1zE6T_">
           <property role="2OOxQR" value="true" />
-          <property role="1wg9_G" value="2Ai0Gt9ODIs/public" />
+          <property role="1wg9_F" value="2Ai0Gt9ODIs/public" />
           <property role="TrG5h" value="Class" />
           <node concept="1WS0z7" id="1yn8Pkz3e6e" role="lGtFl">
             <node concept="3JmXsc" id="1yn8Pkz3e6f" role="3Jn$fo">
@@ -4856,7 +4866,7 @@
         </node>
         <node concept="3BZPaE" id="1yn8Pkz3e6G" role="1zE6T_">
           <property role="2OOxQR" value="true" />
-          <property role="1wg9_G" value="2Ai0Gt9ODIs/public" />
+          <property role="1wg9_F" value="2Ai0Gt9ODIs/public" />
           <property role="TrG5h" value="Class" />
           <node concept="3V$TgL" id="1yn8Pkz3e6H" role="3Cz$97">
             <property role="TrG5h" value="T" />
@@ -4982,10 +4992,10 @@
         </node>
       </node>
       <node concept="1zE6Tr" id="1yn8Pkz3_Kt" role="3mBdys">
-        <property role="1wg9_G" value="2Ai0Gt9ODIw/protected" />
+        <property role="1wg9_F" value="2Ai0Gt9ODIw/protected" />
         <node concept="3mBW2U" id="1yn8Pkz3_KU" role="1zE6T_">
           <property role="2OOxQR" value="true" />
-          <property role="1wg9_G" value="2Ai0Gt9ODIs/public" />
+          <property role="1wg9_F" value="2Ai0Gt9ODIs/public" />
           <property role="TrG5h" value="Class" />
           <node concept="1WS0z7" id="1yn8Pkz3_KV" role="lGtFl">
             <node concept="3JmXsc" id="1yn8Pkz3_KW" role="3Jn$fo">
@@ -5057,7 +5067,7 @@
         </node>
         <node concept="3BZPaE" id="1yn8Pkz3_Lp" role="1zE6T_">
           <property role="2OOxQR" value="true" />
-          <property role="1wg9_G" value="2Ai0Gt9ODIs/public" />
+          <property role="1wg9_F" value="2Ai0Gt9ODIs/public" />
           <property role="TrG5h" value="Class" />
           <node concept="3V$TgL" id="1yn8Pkz3_Lq" role="3Cz$97">
             <property role="TrG5h" value="T" />
@@ -5185,7 +5195,7 @@
       <node concept="1zE6Tr" id="1yn8Pkz3Km$" role="3mBdys">
         <node concept="3mBW2U" id="1yn8Pkz3Kn1" role="1zE6T_">
           <property role="2OOxQR" value="true" />
-          <property role="1wg9_G" value="2Ai0Gt9ODIs/public" />
+          <property role="1wg9_F" value="2Ai0Gt9ODIs/public" />
           <property role="TrG5h" value="Class" />
           <node concept="1WS0z7" id="1yn8Pkz3Kn2" role="lGtFl">
             <node concept="3JmXsc" id="1yn8Pkz3Kn3" role="3Jn$fo">
@@ -5257,7 +5267,7 @@
         </node>
         <node concept="3BZPaE" id="1yn8Pkz3Knw" role="1zE6T_">
           <property role="2OOxQR" value="true" />
-          <property role="1wg9_G" value="2Ai0Gt9ODIs/public" />
+          <property role="1wg9_F" value="2Ai0Gt9ODIs/public" />
           <property role="TrG5h" value="Class" />
           <node concept="3V$TgL" id="1yn8Pkz3Knx" role="3Cz$97">
             <property role="TrG5h" value="T" />
@@ -5449,13 +5459,13 @@
     <ref role="3gUMe" to="wnzg:4o2nsMgBpPQ" resolve="ClassDeclaration" />
     <node concept="3mBW2U" id="1yn8Pkz3Oxx" role="13RCb5">
       <property role="2OOxQR" value="true" />
-      <property role="1wg9_G" value="2Ai0Gt9ODIs/public" />
+      <property role="1wg9_F" value="2Ai0Gt9ODIs/public" />
       <property role="TrG5h" value="Class" />
       <node concept="1zE6Tr" id="1yn8Pkz3Pt$" role="3mBdys">
-        <property role="1wg9_G" value="2Ai0Gt9ODIs/public" />
+        <property role="1wg9_F" value="2Ai0Gt9ODIs/public" />
         <node concept="3mBW2U" id="1yn8Pkz3Pu1" role="1zE6T_">
           <property role="2OOxQR" value="true" />
-          <property role="1wg9_G" value="2Ai0Gt9ODIs/public" />
+          <property role="1wg9_F" value="2Ai0Gt9ODIs/public" />
           <property role="TrG5h" value="Class" />
           <node concept="1WS0z7" id="1yn8Pkz3Pu2" role="lGtFl">
             <node concept="3JmXsc" id="1yn8Pkz3Pu3" role="3Jn$fo">
@@ -5527,7 +5537,7 @@
         </node>
         <node concept="3BZPaE" id="1yn8Pkz3Puw" role="1zE6T_">
           <property role="2OOxQR" value="true" />
-          <property role="1wg9_G" value="2Ai0Gt9ODIs/public" />
+          <property role="1wg9_F" value="2Ai0Gt9ODIs/public" />
           <property role="TrG5h" value="Class" />
           <node concept="3V$TgL" id="1yn8Pkz3Pux" role="3Cz$97">
             <property role="TrG5h" value="T" />
@@ -5653,10 +5663,10 @@
         </node>
       </node>
       <node concept="1zE6Tr" id="1yn8Pkz3SjW" role="3mBdys">
-        <property role="1wg9_G" value="2Ai0Gt9ODIw/protected" />
+        <property role="1wg9_F" value="2Ai0Gt9ODIw/protected" />
         <node concept="3mBW2U" id="1yn8Pkz3Skp" role="1zE6T_">
           <property role="2OOxQR" value="true" />
-          <property role="1wg9_G" value="2Ai0Gt9ODIs/public" />
+          <property role="1wg9_F" value="2Ai0Gt9ODIs/public" />
           <property role="TrG5h" value="Class" />
           <node concept="1WS0z7" id="1yn8Pkz3Skq" role="lGtFl">
             <node concept="3JmXsc" id="1yn8Pkz3Skr" role="3Jn$fo">
@@ -5728,7 +5738,7 @@
         </node>
         <node concept="3BZPaE" id="1yn8Pkz3SkS" role="1zE6T_">
           <property role="2OOxQR" value="true" />
-          <property role="1wg9_G" value="2Ai0Gt9ODIs/public" />
+          <property role="1wg9_F" value="2Ai0Gt9ODIs/public" />
           <property role="TrG5h" value="Class" />
           <node concept="3V$TgL" id="1yn8Pkz3SkT" role="3Cz$97">
             <property role="TrG5h" value="T" />
@@ -5856,7 +5866,7 @@
       <node concept="1zE6Tr" id="1yn8Pkz3TDq" role="3mBdys">
         <node concept="3mBW2U" id="1yn8Pkz3TDR" role="1zE6T_">
           <property role="2OOxQR" value="true" />
-          <property role="1wg9_G" value="2Ai0Gt9ODIs/public" />
+          <property role="1wg9_F" value="2Ai0Gt9ODIs/public" />
           <property role="TrG5h" value="Class" />
           <node concept="1WS0z7" id="1yn8Pkz3TDS" role="lGtFl">
             <node concept="3JmXsc" id="1yn8Pkz3TDT" role="3Jn$fo">
@@ -5928,7 +5938,7 @@
         </node>
         <node concept="3BZPaE" id="1yn8Pkz3TEm" role="1zE6T_">
           <property role="2OOxQR" value="true" />
-          <property role="1wg9_G" value="2Ai0Gt9ODIs/public" />
+          <property role="1wg9_F" value="2Ai0Gt9ODIs/public" />
           <property role="TrG5h" value="Class" />
           <node concept="3V$TgL" id="1yn8Pkz3TEn" role="3Cz$97">
             <property role="TrG5h" value="T" />

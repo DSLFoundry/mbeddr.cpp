@@ -33,9 +33,7 @@
         <property id="1225194472834" name="isAbstract" index="13i0iv" />
         <reference id="1225194472831" name="overriddenMethod" index="13i0hy" />
       </concept>
-      <concept id="1225194628440" name="jetbrains.mps.lang.behavior.structure.SuperNodeExpression" flags="nn" index="13iAh5">
-        <reference id="5299096511375896640" name="superConcept" index="3eA5LN" />
-      </concept>
+      <concept id="1225194628440" name="jetbrains.mps.lang.behavior.structure.SuperNodeExpression" flags="nn" index="13iAh5" />
       <concept id="1225194691553" name="jetbrains.mps.lang.behavior.structure.ThisNodeExpression" flags="nn" index="13iPFW" />
     </language>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -444,9 +442,7 @@
             <property role="TrG5h" value="mangledModuleName" />
             <node concept="17QB3L" id="3nWonftNxw1" role="1tU5fm" />
             <node concept="2OqwBi" id="3nWonftNAgy" role="33vP2m">
-              <node concept="13iAh5" id="3nWonftNAgz" role="2Oq$k0">
-                <ref role="3eA5LN" to="x27k:19a6$uAAqkn" resolve="IModuleContentContainer" />
-              </node>
+              <node concept="13iAh5" id="3nWonftNAgz" role="2Oq$k0" />
               <node concept="2qgKlT" id="3nWonftNAg$" role="2OqNvi">
                 <ref role="37wK5l" to="qd6m:7Aba6ByEk1p" resolve="getMangledModuleName" />
               </node>
@@ -485,9 +481,7 @@
             <property role="TrG5h" value="mangledModuleNameSkipPrefix" />
             <node concept="17QB3L" id="3nWonftNxwc" role="1tU5fm" />
             <node concept="2OqwBi" id="3nWonftNABZ" role="33vP2m">
-              <node concept="13iAh5" id="3nWonftNAC0" role="2Oq$k0">
-                <ref role="3eA5LN" to="x27k:19a6$uAAqkn" resolve="IModuleContentContainer" />
-              </node>
+              <node concept="13iAh5" id="3nWonftNAC0" role="2Oq$k0" />
               <node concept="2qgKlT" id="3nWonftNAC1" role="2OqNvi">
                 <ref role="37wK5l" to="qd6m:3mNkkAiSu$u" resolve="getMangledModuleName" />
                 <node concept="37vLTw" id="3nWonftNAC2" role="37wK5m">
@@ -533,9 +527,7 @@
             <property role="TrG5h" value="mangledContentName" />
             <node concept="17QB3L" id="3nWonftNxy$" role="1tU5fm" />
             <node concept="2OqwBi" id="3nWonftNB60" role="33vP2m">
-              <node concept="13iAh5" id="3nWonftNB61" role="2Oq$k0">
-                <ref role="3eA5LN" to="x27k:19a6$uAAqkn" resolve="IModuleContentContainer" />
-              </node>
+              <node concept="13iAh5" id="3nWonftNB61" role="2Oq$k0" />
               <node concept="2qgKlT" id="3nWonftNB62" role="2OqNvi">
                 <ref role="37wK5l" to="qd6m:49XubMpE3TP" resolve="getMangledContentName" />
                 <node concept="37vLTw" id="3nWonftNB63" role="37wK5m">
@@ -583,9 +575,7 @@
             <property role="TrG5h" value="mangledContentName2" />
             <node concept="17QB3L" id="3nWonftNxx1" role="1tU5fm" />
             <node concept="2OqwBi" id="3nWonftNBy0" role="33vP2m">
-              <node concept="13iAh5" id="3nWonftNBy1" role="2Oq$k0">
-                <ref role="3eA5LN" to="x27k:19a6$uAAqkn" resolve="IModuleContentContainer" />
-              </node>
+              <node concept="13iAh5" id="3nWonftNBy1" role="2Oq$k0" />
               <node concept="2qgKlT" id="3nWonftNBy2" role="2OqNvi">
                 <ref role="37wK5l" to="qd6m:MToHDoMLag" resolve="getMangledContentName" />
                 <node concept="37vLTw" id="3nWonftNBy3" role="37wK5m">
@@ -642,9 +632,7 @@
               <ref role="3uigEE" to="o8zo:3fifI_xCtN$" resolve="Scope" />
             </node>
             <node concept="2OqwBi" id="3nWonftNBUE" role="33vP2m">
-              <node concept="13iAh5" id="3nWonftNBUF" role="2Oq$k0">
-                <ref role="3eA5LN" to="vs0r:6clJcrJXo2z" resolve="IVisibleElementProvider" />
-              </node>
+              <node concept="13iAh5" id="3nWonftNBUF" role="2Oq$k0" />
               <node concept="2qgKlT" id="3nWonftNBUG" role="2OqNvi">
                 <ref role="37wK5l" to="hwgx:79$zShlSHxZ" resolve="visibleContentsOfType" />
                 <node concept="37vLTw" id="3nWonftNBUH" role="37wK5m">
@@ -692,9 +680,7 @@
             <property role="TrG5h" value="hasVisibleContentsOfType" />
             <node concept="10P_77" id="3nWonftNxy8" role="1tU5fm" />
             <node concept="2OqwBi" id="3nWonftNDcX" role="33vP2m">
-              <node concept="13iAh5" id="3nWonftNDcY" role="2Oq$k0">
-                <ref role="3eA5LN" to="vs0r:6clJcrJXo2z" resolve="IVisibleElementProvider" />
-              </node>
+              <node concept="13iAh5" id="3nWonftNDcY" role="2Oq$k0" />
               <node concept="2qgKlT" id="3nWonftNDcZ" role="2OqNvi">
                 <ref role="37wK5l" to="hwgx:jS_CvxKV1a" resolve="hasVisibleContentsOfType" />
                 <node concept="37vLTw" id="3nWonftNDd0" role="37wK5m">
