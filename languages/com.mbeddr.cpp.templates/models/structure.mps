@@ -399,5 +399,13 @@
       <ref role="PrY4T" node="ZKpU3C47B6" resolve="ITemplateImpl" />
     </node>
   </node>
+  <node concept="1TIwiD" id="7AGjRMZeCms">
+    <property role="EcuMT" value="8767469971786335644" />
+    <property role="TrG5h" value="TemplateNamespaceMethodCall" />
+    <ref role="1TJDcQ" to="wnzg:383ZxwZrBky" resolve="NamespaceMethodCall" />
+    <node concept="PrWs8" id="7AGjRMZeCmt" role="PzmwI">
+      <ref role="PrY4T" node="ZKpU3C47B6" resolve="ITemplateImpl" />
+    </node>
+  </node>
 </model>
 
