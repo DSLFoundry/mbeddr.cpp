@@ -11047,8 +11047,8 @@
               <node concept="1YBJjd" id="7RTlUgfKbSw" role="2Oq$k0">
                 <ref role="1YBMHb" node="7RTlUgfKbHb" resolve="namespaceType" />
               </node>
-              <node concept="3TrEf2" id="7RTlUgfKcpE" role="2OqNvi">
-                <ref role="3Tt5mk" to="wnzg:7RTlUgfKaMT" resolve="typeDeclaration" />
+              <node concept="3TrEf2" id="7AGjRMYMTfF" role="2OqNvi">
+                <ref role="3Tt5mk" to="c4fa:6IWRcVPT6tm" resolve="baseType" />
               </node>
             </node>
           </node>

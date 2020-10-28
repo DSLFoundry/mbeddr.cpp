@@ -9275,13 +9275,24 @@
       <node concept="3F0ifn" id="7RTlUgfKaNK" role="3EZMnx">
         <property role="3F0ifm" value="::" />
       </node>
-      <node concept="1iCGBv" id="7RTlUgfKaNW" role="3EZMnx">
-        <ref role="1NtTu8" to="wnzg:7RTlUgfKaMT" resolve="typeDeclaration" />
-        <node concept="1sVBvm" id="7RTlUgfKaNY" role="1sWHZn">
-          <node concept="3SHvHV" id="7RTlUgfKaO9" role="2wV5jI" />
-        </node>
+      <node concept="3F1sOY" id="7AGjRMYMSFZ" role="3EZMnx">
+        <ref role="1NtTu8" to="c4fa:6IWRcVPT6tm" resolve="baseType" />
       </node>
       <node concept="l2Vlx" id="7RTlUgfKaNr" role="2iSdaV" />
+    </node>
+    <node concept="3EZMnI" id="7AGjRN0wn96" role="6VMZX">
+      <node concept="3EZMnI" id="7AGjRN0wn9d" role="3EZMnx">
+        <node concept="3F0ifn" id="7AGjRN0wn9w" role="3EZMnx">
+          <property role="3F0ifm" value="force dot symbol" />
+        </node>
+        <node concept="3XFhqQ" id="7AGjRN0wn9H" role="3EZMnx" />
+        <node concept="VPM3Z" id="7AGjRN0wn9f" role="3F10Kt" />
+        <node concept="3F0A7n" id="7AGjRN0wn9n" role="3EZMnx">
+          <ref role="1NtTu8" to="wnzg:7AGjRN0gvmA" resolve="forceDotSymbol" />
+        </node>
+        <node concept="2iRfu4" id="7AGjRN0wn9i" role="2iSdaV" />
+      </node>
+      <node concept="2EHx9g" id="7AGjRN0wn9q" role="2iSdaV" />
     </node>
   </node>
 </model>
