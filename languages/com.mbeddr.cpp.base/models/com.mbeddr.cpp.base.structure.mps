@@ -1461,18 +1461,23 @@
     <property role="3GE5qa" value="namespace" />
     <property role="TrG5h" value="NamespaceType" />
     <property role="34LRSv" value="::" />
-    <ref role="1TJDcQ" to="x27k:59zzgFRcVlI" resolve="TypeWithDeclaration" />
+    <ref role="1TJDcQ" to="mj1l:7FQByU3CrCQ" resolve="Type" />
+    <node concept="1TJgyi" id="7AGjRN0gvmA" role="1TKVEl">
+      <property role="IQ2nx" value="8767469971803600294" />
+      <property role="TrG5h" value="forceDotSymbol" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
     <node concept="1TJgyj" id="7RTlUgfKaMR" role="1TKVEi">
       <property role="IQ2ns" value="9077382886092483767" />
       <property role="20kJfa" value="namespace" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="383ZxwZqQYo" resolve="NamespaceDeclaration" />
     </node>
-    <node concept="1TJgyj" id="7RTlUgfKaMT" role="1TKVEi">
-      <property role="IQ2ns" value="9077382886092483769" />
-      <property role="20kJfa" value="typeDeclaration" />
-      <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" to="x27k:3o2OLGv6VBP" resolve="ITypeDeclaration" />
+    <node concept="PrWs8" id="7AGjRMYMSwT" role="PzmwI">
+      <ref role="PrY4T" to="c4fa:6IWRcVPT6tl" resolve="ITypeContainingType" />
+    </node>
+    <node concept="PrWs8" id="7AGjRMZ38s6" role="PzmwI">
+      <ref role="PrY4T" to="tpck:2WmWrdnSpX2" resolve="ICanSuppressErrors" />
     </node>
   </node>
 </model>
