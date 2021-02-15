@@ -1,0 +1,93 @@
+import de.itemis.mps.gradle.*
+
+import java.time.LocalDate
+import java.time.format.DateTimeFormatter
+import java.time.format.FormatStyle
+
+//will pull the groovy classes/types from nexus to the classpath
+buildscript {
+    repositories {
+        maven { url 'https://projects.itemis.de/nexus/content/repositories/mbeddr' }
+    }
+    dependencies {
+        classpath 'de.itemis.mps:mps-gradle-plugin:1.2.175.cc60dc8'
+    }
+}
+
+plugins {
+    id 'base'
+    id 'maven-publish'
+}
+
+def incrementalBuild = !project.hasProperty("disableIncrementalBuild")
+def artifactsDir = new File(buildDir, 'artifacts')
+
+
+configurations {
+    mps
+    languageLibs
+    junitAnt
+}
+
+dependencies {
+    mps "com.jetbrains:mps:2020.1.+"
+    languageLibs "com.mbeddr:mbeddr:2020.1.+"
+    junitAnt 'org.apache.ant:ant-junit:1.10.6'
+}
+
+repositories {
+        maven {
+            url "https://projects.itemis.de/nexus/content/repositories/mbeddr"
+        }
+
+    mavenCentral()
+}
+
+task resolveMps(type: Copy) {
+    dependsOn configurations.mps
+    from {
+        configurations.mps.resolve().collect { zipTree(it) }
+    }
+    into "$buildDir/mps"
+}
+
+task resolveAllLanguageLibs(type: Copy) {
+    from {
+        configurations.languageLibs.resolve().collect { zipTree(it) }
+    }
+    into "$buildDir/dependencies"
+}
+
+// Default arguments for ant scripts
+def defaultScriptArgs = [
+        'mps.home'                          : resolveMps.destinationDir,
+        'mbeddr.github.cpp.home'            : projectDir,
+        'build.dir'                         : buildDir,
+        'mps.generator.skipUnmodifiedModels': incrementalBuild,
+        'version'                           : version
+]
+def defaultScriptClasspath = project.configurations.junitAnt.fileCollection { true }
+
+// enables https://github.com/mbeddr/mps-gradle-plugin#providing-global-defaults
+ext["itemis.mps.gradle.ant.defaultScriptArgs"] = defaultScriptArgs.collect { "-D$it.key=$it.value".toString() }
+ext["itemis.mps.gradle.ant.defaultScriptClasspath"] = defaultScriptClasspath
+
+
+task buildAllScripts(type: BuildLanguages, dependsOn: [resolveMps, resolveAllLanguageLibs]) {
+    script "scripts/allScripts.xml"
+}
+
+task buildLanguages(type: BuildLanguages, dependsOn: buildAllScripts) {
+    script "$buildDir/cppBuild.xml"
+}
+
+task packageLanguages(type: Zip, dependsOn: buildLanguages) {
+    archiveBaseName = 'com.mbeddr.cpp'
+    from artifactsDir
+    include 'com.mbeddr.cpp/**'
+}
+
+task setup {
+    dependsOn resolveAllLanguageLibs
+    description 'Set up MPS project libraries. Libraries are read in from projectlibraries.properties file.'
+}

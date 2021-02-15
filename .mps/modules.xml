@@ -2,9 +2,9 @@
 <project version="4">
   <component name="MPSProject">
     <projectModules>
-      <modulePath path="$PROJECT_DIR$/_spreferences/CodeReviewPreferences/module.msd" folder="_spreferences" />
       <modulePath path="$PROJECT_DIR$/_spreferences/PlatformTemplates/module.msd" folder="_spreferences" />
       <modulePath path="$PROJECT_DIR$/_spreferences/TypeSizeConfiguration/module.msd" folder="_spreferences" />
+<<<<<<< HEAD
       <modulePath path="$PROJECT_DIR$/devkits/com.mbeddr.cpp/com.mbeddr.cpp.devkit" folder="lang" />
       <modulePath path="$PROJECT_DIR$/languages/com.mbeddr.cpp.base/com.mbeddr.cpp.base.mpl" folder="lang" />
       <modulePath path="$PROJECT_DIR$/languages/com.mbeddr.cpp.buildconfig/com.mbeddr.cpp.buildconfig.mpl" folder="lang" />
@@ -30,6 +30,21 @@
 >>>>>>> b95cdd26ff... Namespace Declaration and Member Referencing (WIP) without TextGen elements
       <modulePath path="$PROJECT_DIR$/tests/test.ex.com.mbeddr.cpp/test.ex.com.mbeddr.cpp.msd" folder="tests" />
       <modulePath path="$PROJECT_DIR$/tests/test.ts.com.mbeddr.cpp/test.ts.com.mbeddr.cpp.msd" folder="tests" />
+=======
+      <modulePath path="$PROJECT_DIR$/devkits/com.mbeddr.cpp/com.mbeddr.cpp.devkit" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/com.mbeddr.cpp.base/com.mbeddr.cpp.base.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/com.mbeddr.cpp.buildconfig/com.mbeddr.cpp.buildconfig.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/com.mbeddr.cpp.exceptions/com.mbeddr.cpp.exceptions.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/com.mbeddr.cpp.expressions/com.mbeddr.cpp.expressions.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/com.mbeddr.cpp.modules.gen/com.mbeddr.cpp.modules.gen.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/com.mbeddr.cpp.modules/com.mbeddr.cpp.modules.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/com.mbeddr.cpp.operator_overload/com.mbeddr.cpp.operator_overload.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/com.mbeddr.cpp.templates/com.mbeddr.cpp.templates.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/com.mbeddr.cpp.build/com.mbeddr.cpp.build.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/com.mbeddr.cpp.buildAllScripts/com.mbeddr.cpp.buildAllScripts.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/tests/test.ex.com.mbeddr.cpp/test.ex.com.mbeddr.cpp.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/tests/test.ts.com.mbeddr.cpp/test.ts.com.mbeddr.cpp.msd" folder="" />
+>>>>>>> 9f65221021... added Kolja's files
     </projectModules>
   </component>
 </project>
