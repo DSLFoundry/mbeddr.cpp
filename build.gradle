@@ -91,3 +91,5 @@ task setup {
     dependsOn resolveAllLanguageLibs
     description 'Set up MPS project libraries. Libraries are read in from projectlibraries.properties file.'
 }
+
+defaultTasks 'buildLanguages'
