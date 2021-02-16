@@ -7,6 +7,7 @@ import java.time.format.FormatStyle
 //will pull the groovy classes/types from nexus to the classpath
 buildscript {
     repositories {
+        mavenCentral()
         maven { url 'https://projects.itemis.de/nexus/content/repositories/mbeddr' }
     }
     dependencies {
@@ -17,6 +18,7 @@ buildscript {
 plugins {
     id 'base'
     id 'maven-publish'
+    id "co.riiid.gradle" version "0.4.2"
 }
 
 def incrementalBuild = !project.hasProperty("disableIncrementalBuild")
@@ -91,5 +93,26 @@ task setup {
     dependsOn resolveAllLanguageLibs
     description 'Set up MPS project libraries. Libraries are read in from projectlibraries.properties file.'
 }
+
+def mbeddrCppVersion = "0.1"
+
+def releaseArtifacts = new File(artifactsDir, "com.mbeddr.cpp")
+        .listFiles()
+        .findAll {it.name.endsWith("zip")}
+        .each {it.absolutePath}
+
+github {
+    owner = 'DSLFoundry'
+    repo = 'mbeddr.core'
+    token =  System.getenv().GITHUB_TOKEN != null ? System.getenv().GITHUB_TOKEN : "empty"
+    tagName =  "v-$mbeddrCppVersion"
+    targetCommitish = System.getenv().CI_COMMIT_SHA != null ? System.getenv().CI_COMMIT_SHA : "master"
+    name =  "mbeddr C++ Extensions v$mbeddrCppVersion"
+    // body = ReleaseNotes.getReleaseNotes(file("RELEASE_NOTES.md"))
+    assets = releaseArtifacts
+}
+
+build.dependsOn buildLanguages
+githubRelease.dependsOn build
 
 defaultTasks 'buildLanguages'
