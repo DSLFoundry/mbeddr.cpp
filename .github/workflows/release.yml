@@ -22,6 +22,6 @@ jobs:
     - name: release to github with gradle
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        CI_COMMIT_SHA: release
+        CI_COMMIT_SHA: ${{ GITHUB_SHA }}
       run: ./gradlew githubRelease
 
