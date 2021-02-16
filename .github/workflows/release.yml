@@ -8,7 +8,11 @@ on:
   workflow_dispatch:
 =======
       - release
+<<<<<<< HEAD
 >>>>>>> 354d89bdf7... added release action
+=======
+  workflow_dispatch:
+>>>>>>> 07749d131a... added workflow_dispatch to release action to trigger it manually
 
 jobs:
   build:
