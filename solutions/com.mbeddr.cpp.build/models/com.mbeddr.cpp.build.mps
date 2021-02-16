@@ -40,6 +40,10 @@
         <child id="8618885170173601778" name="tail" index="2Ry0An" />
       </concept>
       <concept id="6647099934206700647" name="jetbrains.mps.build.structure.BuildJavaPlugin" flags="ng" index="10PD9b" />
+      <concept id="7389400916848050071" name="jetbrains.mps.build.structure.BuildLayout_Zip" flags="ng" index="3981dG" />
+      <concept id="7389400916848050060" name="jetbrains.mps.build.structure.BuildLayout_NamedContainer" flags="ng" index="3981dR">
+        <child id="4380385936562148502" name="containerName" index="Nbhlr" />
+      </concept>
       <concept id="7389400916848136194" name="jetbrains.mps.build.structure.BuildFolderMacro" flags="ng" index="398rNT">
         <child id="7389400916848144618" name="defaultPath" index="398pKh" />
       </concept>
@@ -1332,6 +1336,16 @@
         </node>
       </node>
     </node>
+    <node concept="2kB4xC" id="64J97BBiLC5" role="1l3spd">
+      <property role="TrG5h" value="mbeddr.cpp.version" />
+      <node concept="aVJcg" id="64J97BBiLCI" role="aVJcv">
+        <node concept="NbPM2" id="64J97BBiLCH" role="aVJcq">
+          <node concept="3Mxwew" id="64J97BBiLCG" role="3MwsjC">
+            <property role="3MwjfP" value="0.1" />
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="398rNT" id="23LEVbRX3hP" role="1l3spd">
       <property role="TrG5h" value="mps.home" />
     </node>
@@ -1436,6 +1450,23 @@
       <node concept="m$_wl" id="3wIDmNcVCAC" role="39821P">
         <ref role="m_rDy" node="4FIECQpOJ8K" resolve="com.mbeddr.cpp" />
         <node concept="pUk6x" id="5Eb8g0DATEe" role="pUk7w" />
+      </node>
+      <node concept="3981dG" id="64J97BBiLA8" role="39821P">
+        <node concept="3_J27D" id="64J97BBiLAa" role="Nbhlr">
+          <node concept="3Mxwew" id="64J97BBiLAg" role="3MwsjC">
+            <property role="3MwjfP" value="com.mbeddr.cpp-" />
+          </node>
+          <node concept="3Mxwey" id="64J97BBiLAi" role="3MwsjC">
+            <ref role="3Mxwex" node="64J97BBiLC5" resolve="mbeddr.cpp.version" />
+          </node>
+          <node concept="3Mxwew" id="64J97BBiLCN" role="3MwsjC">
+            <property role="3MwjfP" value=".zip" />
+          </node>
+        </node>
+        <node concept="m$_wl" id="64J97BBiLCR" role="39821P">
+          <ref role="m_rDy" node="4FIECQpOJ8K" resolve="com.mbeddr.cpp" />
+          <node concept="pUk6x" id="64J97BBiLCV" role="pUk7w" />
+        </node>
       </node>
     </node>
     <node concept="10PD9b" id="4i9pOwKTId0" role="10PD9s" />
