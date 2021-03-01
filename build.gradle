@@ -113,7 +113,7 @@ github {
     tagName =  "v-$mbeddrCppVersion"
     targetCommitish = System.getenv().CI_COMMIT_SHA != null ? System.getenv().CI_COMMIT_SHA : "master"
     name =  "mbeddr C++ Extensions v$mbeddrCppVersion"
-    assets = releaseArtifacts()
+    assets = [releaseArtifacts()]
     // body = ReleaseNotes.getReleaseNotes(file("RELEASE_NOTES.md"))
 }
 
