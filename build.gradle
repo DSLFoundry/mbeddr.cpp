@@ -60,13 +60,16 @@ task resolveAllLanguageLibs(type: Copy) {
     into "$buildDir/dependencies"
 }
 
+def mbeddrCppVersion = project.findProperty("mbeddrCppVersion") ?: '0.1'
+
 // Default arguments for ant scripts
 def defaultScriptArgs = [
         'mps.home'                          : resolveMps.destinationDir,
         'mbeddr.github.cpp.home'            : projectDir,
         'build.dir'                         : buildDir,
         'mps.generator.skipUnmodifiedModels': incrementalBuild,
-        'version'                           : version
+        'version'                           : mbeddrCppVersion,
+		'mbeddr.cpp.version'				: mbeddrCppVersion,
 ]
 def defaultScriptClasspath = project.configurations.junitAnt.fileCollection { true }
 
@@ -94,12 +97,14 @@ task setup {
     description 'Set up MPS project libraries. Libraries are read in from projectlibraries.properties file.'
 }
 
-def mbeddrCppVersion = "0.1"
+ext.releaseArtifacts = { ->
+	{ -> new File(new File(artifactsDir, "com.mbeddr.cpp"), "com.mbeddr.cpp-${mbeddrCppVersion}.zip") }
+}
 
-def releaseArtifacts = new File(artifactsDir, "com.mbeddr.cpp")
-        .listFiles()
-        .findAll {it.name.endsWith("zip")}
-        .each {it.absolutePath}
+//def releaseArtifacts = new File(new File(artifactsDir, "com.mbeddr.cpp")
+//        .listFiles()
+//        .findAll {it.name.endsWith("zip")}
+//        .each {it.absolutePath}
 
 github {
     owner = 'DSLFoundry'
@@ -108,7 +113,7 @@ github {
     tagName =  "v-$mbeddrCppVersion"
     targetCommitish = System.getenv().CI_COMMIT_SHA != null ? System.getenv().CI_COMMIT_SHA : "master"
     name =  "mbeddr C++ Extensions v$mbeddrCppVersion"
-    assets = releaseArtifacts
+    assets = releaseArtifacts()
     // body = ReleaseNotes.getReleaseNotes(file("RELEASE_NOTES.md"))
 }
 
@@ -130,7 +135,7 @@ publishing {
 			artifactId = 'cpp'
 			version = "$mbeddrCppVersion"
 			
-			artifacts = releaseArtifacts
+			artifacts = [releaseArtifacts()]
 			pom {
 				name = "mbeddr C++ Extensions"
 				url = "https://github.com/DSLFoundry/mbeddr.core"
