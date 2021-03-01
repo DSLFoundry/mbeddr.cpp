@@ -60,13 +60,16 @@ task resolveAllLanguageLibs(type: Copy) {
     into "$buildDir/dependencies"
 }
 
+def mbeddrCppVersion = project.findProperty("mbeddrCppVersion") ?: '0.1'
+
 // Default arguments for ant scripts
 def defaultScriptArgs = [
         'mps.home'                          : resolveMps.destinationDir,
         'mbeddr.github.cpp.home'            : projectDir,
         'build.dir'                         : buildDir,
         'mps.generator.skipUnmodifiedModels': incrementalBuild,
-        'version'                           : version
+        'version'                           : mbeddrCppVersion,
+        'mbeddr.cpp.version'                : mbeddrCppVersion,
 ]
 def defaultScriptClasspath = project.configurations.junitAnt.fileCollection { true }
 
@@ -94,12 +97,8 @@ task setup {
     description 'Set up MPS project libraries. Libraries are read in from projectlibraries.properties file.'
 }
 
-def mbeddrCppVersion = "0.1"
 
-def releaseArtifacts = new File(artifactsDir, "com.mbeddr.cpp")
-        .listFiles()
-        .findAll {it.name.endsWith("zip")}
-        .each {it.absolutePath}
+def releaseArtifacts = ["${artifactsDir}/com.mbeddr.cpp/com.mbeddr.cpp-${mbeddrCppVersion}.zip"]
 
 github {
     owner = 'DSLFoundry'
@@ -113,26 +112,30 @@ github {
 }
 
 publishing {
-	repositories {
-		maven {
-			name = "GitHubPackages"
+    repositories {
+        maven {
+            name = "GitHubPackages"
             url = uri("https://maven.pkg.github.com/DSLFoundry/mbeddr.core")
             credentials {
-                username = project.findProperty("gpr.user") ?: System.getenv("USERNAME")
-                password = project.findProperty("gpr.key") ?: System.getenv("TOKEN")
+                username = project.findProperty("gpr.user") ?: System.getenv("GITHUB_ACTOR")
+                password = project.findProperty("gpr.key") ?: System.getenv("GITHUB_TOKEN")
             }
-		}
-	}
-	
-	publications {
-		gpr(MavenPublication) {
-			groupId = 'com.mbeddr'
-			artifactId = 'cpp'
-			version = "$mbeddrCppVersion"
-			
-			artifacts = releaseArtifacts
-		}
-	}
+        }
+    }
+    
+    publications {
+        gpr(MavenPublication) {
+            groupId = 'com.mbeddr'
+            artifactId = 'cpp'
+            version = "$mbeddrCppVersion"
+            
+            artifacts = releaseArtifacts
+            pom {
+                name = "mbeddr C++ Extensions"
+                url = "https://github.com/DSLFoundry/mbeddr.core"
+            }
+        }
+    }
 }
 
 build.dependsOn buildLanguages
