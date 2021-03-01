@@ -108,11 +108,36 @@ github {
     tagName =  "v-$mbeddrCppVersion"
     targetCommitish = System.getenv().CI_COMMIT_SHA != null ? System.getenv().CI_COMMIT_SHA : "master"
     name =  "mbeddr C++ Extensions v$mbeddrCppVersion"
-    // body = ReleaseNotes.getReleaseNotes(file("RELEASE_NOTES.md"))
     assets = releaseArtifacts
+    // body = ReleaseNotes.getReleaseNotes(file("RELEASE_NOTES.md"))
+}
+
+publishing {
+	repositories {
+		maven {
+			name = "GitHubPackages"
+            url = uri("https://maven.pkg.github.com/DSLFoundry/mbeddr.core")
+            credentials {
+                username = project.findProperty("gpr.user") ?: System.getenv("USERNAME")
+                password = project.findProperty("gpr.key") ?: System.getenv("TOKEN")
+            }
+		}
+	}
+	
+	publications {
+		gpr(MavenPublication) {
+			groupId = 'com.mbeddr'
+			artifactId = 'cpp'
+			version = "$mbeddrCppVersion"
+			
+			artifacts = releaseArtifacts
+		}
+	}
 }
 
 build.dependsOn buildLanguages
 githubRelease.dependsOn build
 
 defaultTasks 'buildLanguages'
+
+publish.dependsOn build
