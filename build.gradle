@@ -1,74 +1,143 @@
-import de.itemis.mps.gradle.GitBasedVersioning
+import de.itemis.mps.gradle.*
 
-ext.releaseRepository = 'https://projects.itemis.de/nexus/content/repositories/mbeddr'
-ext.snapshotRepository = 'https://projects.itemis.de/nexus/content/repositories/mbeddr_snapshots'
+import java.time.LocalDate
+import java.time.format.DateTimeFormatter
+import java.time.format.FormatStyle
 
-//MPS versions
-ext.mpsMajor = "2018.1"
-ext.mpsBuild = "2018.1"
-
-ext.artifactsDir = new File(rootDir, 'artifacts')
-
-ext.ciBuild = project.findProperty("forceCI") ?: !project.findProperty('mpsHomeDir') && project.findProperty("teamcity")
-
+//will pull the groovy classes/types from nexus to the classpath
 buildscript {
     repositories {
-        mavenLocal()
+        mavenCentral()
         maven { url 'https://projects.itemis.de/nexus/content/repositories/mbeddr' }
     }
-
     dependencies {
-        classpath 'de.itemis.mps:mps-gradle-plugin:1.0.22.+'
+        classpath 'de.itemis.mps:mps-gradle-plugin:1.2.175.cc60dc8'
     }
 }
 
-subprojects {
-    // required plugins
-    apply plugin: "base"
-    apply plugin: "maven-publish"
-    ext.mbeddrMajor = "1"
-    ext.mbeddrMinor = "0"
+plugins {
+    id 'base'
+    id 'maven-publish'
+    id "co.riiid.gradle" version "0.4.2"
+}
 
-    if (project.hasProperty("mbeddrVersion")) {
-        ext.mbeddrBuildNumber = project.getProperty('mbeddrVersion')
-    } else {
-        // locally versions are SNAPSHOT
-        if (ciBuild) {
-            // setting mbeddrMajor
-            if (project.hasProperty('mbeddrMajor')) {
-                ext.mbeddrMajor = project.getProperty('mbeddrMajor')
-            }
+def incrementalBuild = !project.hasProperty("disableIncrementalBuild")
+def artifactsDir = new File(buildDir, 'artifacts')
 
-            // setting mbeddrMinor
-            if (project.hasProperty('mbeddrMinor')) {
-                ext.mbeddrMinor = project.getProperty('mbeddrMinor')
-            }
 
-            // setting mbeddrBuild
-            if (project.hasProperty('mbeddrBuild')) {
-                ext.mbeddrBuild = project.getProperty('mbeddrBuild')
-            } else {
-                ext.mbeddrBuild = GitBasedVersioning.getGitBranch()
-            }
+configurations {
+    mps
+    languageLibs
+    junitAnt
+}
 
-            if (project.hasProperty("mbeddrBuildCounter")) {
-                ext.mbeddrBuildCounter = project.getProperty("mbeddrBuildCounter")
-            } else {
-                ext.mbeddrBuildCounter = GitBasedVersioning.getGitCommitCount()
-            }
-            if(mbeddrBuild == "stable") {
-                mbeddrBuild = "master"
-            }
-            ext.mbeddrBuildNumber = GitBasedVersioning.getVersion(mbeddrBuild, mbeddrMajor, mbeddrMinor, mbeddrBuildCounter)
-            println "##teamcity[buildNumber '${mbeddrBuildNumber}']"
-        } else {
-            println "Local build detected. Build will be a SNAPSHOT."
-            ext.mbeddrBuildNumber = "1.0-SNAPSHOT"
+dependencies {
+    mps "com.jetbrains:mps:2020.1.+"
+    languageLibs "com.mbeddr:mbeddr:2020.1.+"
+    junitAnt 'org.apache.ant:ant-junit:1.10.6'
+}
+
+repositories {
+        maven {
+            url "https://projects.itemis.de/nexus/content/repositories/mbeddr"
         }
-    }
+
+    mavenCentral()
 }
 
-task wrapper(type: Wrapper) {
-    gradleVersion '4.4.1'
-    distributionType 'all'
+task resolveMps(type: Copy) {
+    dependsOn configurations.mps
+    from {
+        configurations.mps.resolve().collect { zipTree(it) }
+    }
+    into "$buildDir/mps"
 }
+
+task resolveAllLanguageLibs(type: Copy) {
+    from {
+        configurations.languageLibs.resolve().collect { zipTree(it) }
+    }
+    into "$buildDir/dependencies"
+}
+
+// Default arguments for ant scripts
+def defaultScriptArgs = [
+        'mps.home'                          : resolveMps.destinationDir,
+        'mbeddr.github.cpp.home'            : projectDir,
+        'build.dir'                         : buildDir,
+        'mps.generator.skipUnmodifiedModels': incrementalBuild,
+        'version'                           : version
+]
+def defaultScriptClasspath = project.configurations.junitAnt.fileCollection { true }
+
+// enables https://github.com/mbeddr/mps-gradle-plugin#providing-global-defaults
+ext["itemis.mps.gradle.ant.defaultScriptArgs"] = defaultScriptArgs.collect { "-D$it.key=$it.value".toString() }
+ext["itemis.mps.gradle.ant.defaultScriptClasspath"] = defaultScriptClasspath
+
+
+task buildAllScripts(type: BuildLanguages, dependsOn: [resolveMps, resolveAllLanguageLibs]) {
+    script "scripts/allScripts.xml"
+}
+
+task buildLanguages(type: BuildLanguages, dependsOn: buildAllScripts) {
+    script "$buildDir/cppBuild.xml"
+}
+
+task packageLanguages(type: Zip, dependsOn: buildLanguages) {
+    archiveBaseName = 'com.mbeddr.cpp'
+    from artifactsDir
+    include 'com.mbeddr.cpp/**'
+}
+
+task setup {
+    dependsOn resolveAllLanguageLibs
+    description 'Set up MPS project libraries. Libraries are read in from projectlibraries.properties file.'
+}
+
+def mbeddrCppVersion = "0.1"
+
+def releaseArtifacts = new File(artifactsDir, "com.mbeddr.cpp")
+        .listFiles()
+        .findAll {it.name.endsWith("zip")}
+        .each {it.absolutePath}
+
+github {
+    owner = 'DSLFoundry'
+    repo = 'mbeddr.core'
+    token =  System.getenv().GITHUB_TOKEN != null ? System.getenv().GITHUB_TOKEN : "empty"
+    tagName =  "v-$mbeddrCppVersion"
+    targetCommitish = System.getenv().CI_COMMIT_SHA != null ? System.getenv().CI_COMMIT_SHA : "master"
+    name =  "mbeddr C++ Extensions v$mbeddrCppVersion"
+    assets = releaseArtifacts
+    // body = ReleaseNotes.getReleaseNotes(file("RELEASE_NOTES.md"))
+}
+
+publishing {
+	repositories {
+		maven {
+			name = "GitHubPackages"
+            url = uri("https://maven.pkg.github.com/DSLFoundry/mbeddr.core")
+            credentials {
+                username = project.findProperty("gpr.user") ?: System.getenv("USERNAME")
+                password = project.findProperty("gpr.key") ?: System.getenv("TOKEN")
+            }
+		}
+	}
+	
+	publications {
+		gpr(MavenPublication) {
+			groupId = 'com.mbeddr'
+			artifactId = 'cpp'
+			version = "$mbeddrCppVersion"
+			
+			artifacts = releaseArtifacts
+		}
+	}
+}
+
+build.dependsOn buildLanguages
+githubRelease.dependsOn build
+
+defaultTasks 'buildLanguages'
+
+publish.dependsOn build
