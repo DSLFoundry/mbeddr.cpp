@@ -3,7 +3,7 @@ name: Release to Github
 on:
   push:
     branches:
-      - release
+      - master
   workflow_dispatch:
 
 jobs:

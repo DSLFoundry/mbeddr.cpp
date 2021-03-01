@@ -5,9 +5,8 @@ name: Publish to GitHub Maven Packages with Gradle
 
 on:
   push:
-    branches: [ master ]
-  pull_request:
-    branches: [ master ]
+    branches:
+      - master
   workflow_dispatch:
 
 jobs:
