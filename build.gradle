@@ -131,6 +131,10 @@ publishing {
 			version = "$mbeddrCppVersion"
 			
 			artifacts = releaseArtifacts
+			pom {
+				name = "mbeddr C++ Extensions"
+				url = "https://github.com/DSLFoundry/mbeddr.core"
+			}
 		}
 	}
 }
