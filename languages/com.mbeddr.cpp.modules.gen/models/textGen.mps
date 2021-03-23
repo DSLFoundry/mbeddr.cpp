@@ -16,7 +16,6 @@
     <import index="x27k" ref="r:75ecab8a-8931-4140-afc6-4b46398710fc(com.mbeddr.core.modules.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
     <import index="f5gc" ref="r:6a521ed1-40f9-42de-a2e3-a84be0e00a18(com.mbeddr.cpp.templates.textGen)" />
-    <import index="w0h8" ref="r:25612ba3-7d1b-4fcf-80a2-77bb7513c7bb(canon.cpp.prismasync.statemachines.generation.scm.cpp.structure)" />
     <import index="pmno" ref="r:fb787694-3ba8-4e1e-89dc-c410426eb36e(com.mbeddr.cpp.modules.gen.structure)" implicit="true" />
     <import index="qd6m" ref="r:c4c3f7d3-0acf-4671-a134-5fab66c4e637(com.mbeddr.core.modules.behavior)" implicit="true" />
     <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" implicit="true" />

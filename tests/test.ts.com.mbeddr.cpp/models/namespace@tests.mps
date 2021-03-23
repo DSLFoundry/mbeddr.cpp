@@ -7,10 +7,12 @@
     <use id="2693fc71-9b0e-4b05-ab13-f57227d675f2" name="com.mbeddr.core.util" version="0" />
     <use id="783af01f-87a7-412c-be99-293a162652b5" name="com.mbeddr.core.embedded" version="1" />
     <use id="dd4979e3-3be6-46b3-9e1e-c36309e30758" name="com.mbeddr.cpp.modules" version="0" />
+    <use id="6d11763d-483d-4b2b-8efc-09336c1b0001" name="com.mbeddr.core.modules" version="5" />
     <devkit ref="bdd1ab49-ce55-4bff-86d1-5394fa0aa930(com.mbeddr.cpp)" />
   </languages>
   <imports>
     <import index="g7jk" ref="r:e06e24a5-d0fa-4f76-9dee-2042532d92a1(com.mbeddr.cpp.base.typesystem)" />
+    <import index="p3tm" ref="r:7b158038-abbe-4e11-b171-d5a959b4e91a(com.mbeddr.core.modules.typesystem)" />
     <import index="ux7" ref="r:7a7d22ce-1d67-4772-b659-fbcc3b235afb(com.mbeddr.cpp.__spreferences.PlatformTemplates)" implicit="true" />
   </imports>
   <registry>
@@ -235,7 +237,7 @@
     </node>
   </node>
   <node concept="2XOHcx" id="mwDIXwEylm">
-    <property role="2XOHcw" value="${mbeddr.github.core.home}/code/languages/com.mbeddr.cpp/" />
+    <property role="2XOHcw" value="${mbeddr.cpp.home}/" />
   </node>
   <node concept="1lH9Xt" id="mwDIXwEyn1">
     <property role="TrG5h" value="NamespaceScope" />
@@ -374,7 +376,16 @@
         <node concept="dq960" id="mwDIXwNKKU" role="N3F5h">
           <property role="TrG5h" value="A" />
           <node concept="7CXmI" id="mwDIXwNKQu" role="lGtFl">
-            <node concept="1TM$A" id="mwDIXwNKQx" role="7EUXB" />
+            <node concept="29bkU" id="1sXI6Ge6TAB" role="7EUXB">
+              <node concept="2PQEqo" id="1sXI6Ge6TAE" role="3lydCh">
+                <ref role="39XzEq" to="g7jk:6zyIeiaAZZV" />
+              </node>
+            </node>
+            <node concept="1TM$A" id="1sXI6Ge6TX5" role="7EUXB">
+              <node concept="2PYRI3" id="1sXI6Ge6TXa" role="3lydEf">
+                <ref role="39XzEq" to="p3tm:5KjzTW_mKzp" />
+              </node>
+            </node>
           </node>
         </node>
         <node concept="2NXPZ9" id="6zyIeiaAPJY" role="N3F5h">

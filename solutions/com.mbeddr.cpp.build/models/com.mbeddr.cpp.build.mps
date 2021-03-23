@@ -1334,6 +1334,28 @@
             </node>
           </node>
         </node>
+        <node concept="1BupzO" id="1sXI6Ge7$Os" role="3bR31x">
+          <property role="3ZfqAx" value="models" />
+          <property role="1Hdu6h" value="true" />
+          <property role="1HemKv" value="true" />
+          <node concept="3LXTmp" id="1sXI6Ge7$Ot" role="1HemKq">
+            <node concept="398BVA" id="1sXI6Ge7$Oo" role="3LXTmr">
+              <ref role="398BVh" node="4FIECQpNJnG" resolve="mbeddr.cpp" />
+              <node concept="2Ry0Ak" id="1sXI6Ge7$Op" role="iGT6I">
+                <property role="2Ry0Am" value="solutions" />
+                <node concept="2Ry0Ak" id="1sXI6Ge7$Oq" role="2Ry0An">
+                  <property role="2Ry0Am" value="com.mbeddr.cpp.build" />
+                  <node concept="2Ry0Ak" id="1sXI6Ge7$Or" role="2Ry0An">
+                    <property role="2Ry0Am" value="models" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3qWCbU" id="1sXI6Ge7$Ou" role="3LXTna">
+              <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
+            </node>
+          </node>
+        </node>
       </node>
     </node>
     <node concept="2kB4xC" id="64J97BBiLC5" role="1l3spd">
