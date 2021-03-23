@@ -185,7 +185,7 @@
     </language>
   </registry>
   <node concept="2XOHcx" id="4lmr4L5mZQH">
-    <property role="2XOHcw" value="${mbeddr.github.core.home}/code/languages/com.mbeddr.cpp/" />
+    <property role="2XOHcw" value="${mbeddr.cpp.home}/" />
   </node>
   <node concept="2v9HqL" id="4lmr4L5mZQI">
     <node concept="2xfidK" id="4lmr4L5mZQJ" role="2AWWZH">

@@ -11,6 +11,7 @@
   </languages>
   <imports>
     <import index="g7jk" ref="r:e06e24a5-d0fa-4f76-9dee-2042532d92a1(com.mbeddr.cpp.base.typesystem)" />
+    <import index="p3tm" ref="r:7b158038-abbe-4e11-b171-d5a959b4e91a(com.mbeddr.core.modules.typesystem)" />
     <import index="ux7" ref="r:7a7d22ce-1d67-4772-b659-fbcc3b235afb(com.mbeddr.cpp.__spreferences.PlatformTemplates)" implicit="true" />
   </imports>
   <registry>
@@ -28,6 +29,7 @@
       <concept id="7691029917083872157" name="jetbrains.mps.lang.test.structure.IRuleReference" flags="ng" index="2u4UPC">
         <reference id="8333855927540250453" name="declaration" index="39XzEq" />
       </concept>
+      <concept id="428590876651279930" name="jetbrains.mps.lang.test.structure.NodeTypeSystemErrorCheckOperation" flags="ng" index="2DdRWr" />
       <concept id="4531408400484511853" name="jetbrains.mps.lang.test.structure.ReportErrorStatementReference" flags="ng" index="2PYRI3" />
       <concept id="5097124989038916362" name="jetbrains.mps.lang.test.structure.TestInfo" flags="ng" index="2XOHcx">
         <property id="5097124989038916363" name="projectPath" index="2XOHcw" />
@@ -156,6 +158,7 @@
                 <ref role="39XzEq" to="g7jk:6T3uXzTgSVA" />
               </node>
             </node>
+            <node concept="1TM$A" id="1sXI6Ge6RPL" role="7EUXB" />
           </node>
         </node>
         <node concept="2NXPZ9" id="2cA2PdZvOIb" role="N3F5h">
@@ -177,6 +180,7 @@
                   <ref role="39XzEq" to="g7jk:hYHfWvAZVV" />
                 </node>
               </node>
+              <node concept="2DdRWr" id="1sXI6Ge6QCj" role="7EUXB" />
             </node>
           </node>
         </node>
@@ -256,6 +260,7 @@
             <property role="2hmy$m" value="256" />
             <node concept="7CXmI" id="2cA2PdZw0KY" role="lGtFl">
               <node concept="29bkU" id="2cA2PdZw0KZ" role="7EUXB" />
+              <node concept="2DdRWr" id="1sXI6Ge6Q$L" role="7EUXB" />
             </node>
           </node>
         </node>
@@ -268,7 +273,7 @@
     </node>
   </node>
   <node concept="2XOHcx" id="3v5DuFDz1EB">
-    <property role="2XOHcw" value="${mbeddr.github.core.home}/code/languages/com.mbeddr.cpp/" />
+    <property role="2XOHcw" value="${mbeddr.cpp.home}/" />
   </node>
 </model>
 

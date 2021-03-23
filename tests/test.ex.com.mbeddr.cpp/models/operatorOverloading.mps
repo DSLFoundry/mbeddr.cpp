@@ -36,6 +36,7 @@
         <reference id="7717755763392524108" name="module" index="2v9HqP" />
       </concept>
       <concept id="5323740605968447022" name="com.mbeddr.core.buildconfig.structure.DesktopPlatform" flags="ng" index="2AWWZL">
+        <property id="5323740605968447025" name="compilerOptions" index="2AWWZI" />
         <property id="5323740605968447024" name="compiler" index="2AWWZJ" />
         <property id="8774011376396215812" name="linker" index="18_EFo" />
         <property id="3963667026125442601" name="gdb" index="3r8Kw1" />
@@ -729,14 +730,19 @@
         </node>
         <node concept="2N2KuS" id="6Rfiwa9Kz9L" role="3XIRFZ">
           <node concept="3TlMhK" id="6Rfiwa9KzEI" role="2N2GHh" />
-          <node concept="2BPB98" id="6Rfiwa9KzZq" role="2N2GHg">
-            <node concept="3TlM44" id="6Rfiwa9Kzmi" role="1_9fRO">
-              <node concept="3ZVu4v" id="6Rfiwa9Kzwv" role="3TlMhJ">
-                <ref role="3ZVs_2" node="6Rfiwa9KwPN" resolve="b" />
+          <node concept="2BPB98" id="1sXI6Ge0667" role="2N2GHg">
+            <node concept="1S8S4T" id="1sXI6Ge066K" role="1_9fRO">
+              <node concept="2BPB98" id="1sXI6Ge066M" role="1S8S4V">
+                <node concept="3TlM44" id="1sXI6Ge0668" role="1_9fRO">
+                  <node concept="3ZVu4v" id="6Rfiwa9KzlM" role="3TlMhI">
+                    <ref role="3ZVs_2" node="6Rfiwa9KwPL" resolve="a" />
+                  </node>
+                  <node concept="3ZVu4v" id="6Rfiwa9Kzwv" role="3TlMhJ">
+                    <ref role="3ZVs_2" node="6Rfiwa9KwPN" resolve="b" />
+                  </node>
+                </node>
               </node>
-              <node concept="3ZVu4v" id="6Rfiwa9KzlM" role="3TlMhI">
-                <ref role="3ZVs_2" node="6Rfiwa9KwPL" resolve="a" />
-              </node>
+              <node concept="3TlMgk" id="1sXI6Ge067D" role="1S8S4N" />
             </node>
           </node>
         </node>
@@ -814,6 +820,7 @@
       <property role="3r8Kxs" value="make" />
       <property role="1FkSt$" value="-g" />
       <property role="18_EFo" value="gcc" />
+      <property role="2AWWZI" value=" " />
     </node>
   </node>
 </model>

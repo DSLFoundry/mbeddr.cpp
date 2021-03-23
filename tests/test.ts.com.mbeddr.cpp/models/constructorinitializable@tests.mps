@@ -122,7 +122,7 @@
     </language>
   </registry>
   <node concept="2XOHcx" id="3v5DuFDz1EB">
-    <property role="2XOHcw" value="${mbeddr.github.core.home}/code/languages/com.mbeddr.cpp/" />
+    <property role="2XOHcw" value="${mbeddr.cpp.home}/" />
   </node>
   <node concept="1lH9Xt" id="1gzloVU_9IT">
     <property role="TrG5h" value="ConstructorInitializable" />
@@ -156,7 +156,7 @@
               <property role="2c7vTL" value="false" />
             </node>
             <node concept="yZclw" id="1GY6W8WOY5L" role="1YC0t0">
-              <property role="2IddBx" value="cI" />
+              <property role="2IddBx" value="CI" />
               <ref role="yKYgm" node="1GY6W8WOY4I" resolve="cI" />
               <node concept="7CXmI" id="1GY6W8WOY6r" role="lGtFl">
                 <node concept="1TM$A" id="1GY6W8WOY6D" role="7EUXB">
