@@ -18,6 +18,7 @@
     <import index="if8w" ref="r:95397225-9080-48bc-b1aa-0ce7c4f3d2ce(jetbrains.mps.lang.traceable.behavior)" />
     <import index="wnzg" ref="r:24646c42-f8e0-499c-b639-679cfa170a2e(com.mbeddr.cpp.base.structure)" />
     <import index="kntn" ref="r:4090021e-0c8f-4cca-ab3f-590afb43a745(com.mbeddr.cpp.base.behavior)" />
+    <import index="uaom" ref="r:00838eaa-3253-4491-82f7-437f360206d2(com.mbeddr.cpp.templates.behavior)" />
     <import index="mj1l" ref="r:c371cf98-dcc8-4a43-8eb8-8a8096de18b2(com.mbeddr.core.expressions.structure)" implicit="true" />
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
@@ -1308,6 +1309,35 @@
         </node>
       </node>
       <node concept="10P_77" id="ZKpU3Cdh9_" role="3clF45" />
+    </node>
+  </node>
+  <node concept="13h7C7" id="7AGjRMZOLny">
+    <ref role="13h7C2" to="pmno:7AGjRMZnbrb" resolve="GenTemplateNamespaceClassStaticRef" />
+    <node concept="13hLZK" id="7AGjRMZOLnz" role="13h7CW">
+      <node concept="3clFbS" id="7AGjRMZOLn$" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="7AGjRMZOLnH" role="13h7CS">
+      <property role="TrG5h" value="getTemplate" />
+      <ref role="13i0hy" to="uaom:ZKpU3C47Ca" resolve="getTemplate" />
+      <node concept="3Tm1VV" id="7AGjRMZOLnI" role="1B3o_S" />
+      <node concept="3clFbS" id="7AGjRMZOLnL" role="3clF47">
+        <node concept="3clFbF" id="7AGjRMZOViA" role="3cqZAp">
+          <node concept="1PxgMI" id="ZKpU3C5jIX" role="3clFbG">
+            <node concept="chp4Y" id="ZKpU3C5l2h" role="3oSUPX">
+              <ref role="cht4Q" to="1yyn:ZKpU3C3Nka" resolve="TemplateClassDeclaration" />
+            </node>
+            <node concept="2OqwBi" id="ZKpU3C5iuR" role="1m5AlR">
+              <node concept="13iPFW" id="ZKpU3C5ifD" role="2Oq$k0" />
+              <node concept="3TrEf2" id="ZKpU3C5iLW" role="2OqNvi">
+                <ref role="3Tt5mk" to="wnzg:3L3ootRECAm" resolve="class" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tqbb2" id="7AGjRMZOLnM" role="3clF45">
+        <ref role="ehGHo" to="1yyn:ZKpU3Bvynz" resolve="ITemplate" />
+      </node>
     </node>
   </node>
 </model>

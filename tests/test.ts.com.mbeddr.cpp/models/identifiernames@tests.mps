@@ -421,7 +421,7 @@
     </node>
   </node>
   <node concept="2XOHcx" id="3v5DuFDz1EB">
-    <property role="2XOHcw" value="${mbeddr.github.core.home}/code/languages/com.mbeddr.cpp/" />
+    <property role="2XOHcw" value="${mbeddr.cpp.home}/" />
   </node>
 </model>
 

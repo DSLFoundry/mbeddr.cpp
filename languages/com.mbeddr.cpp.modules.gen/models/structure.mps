@@ -143,5 +143,13 @@
     <property role="TrG5h" value="GenNamespaceTemplateInheritanceInstance" />
     <ref role="1TJDcQ" to="1yyn:1N32NMNMKsa" resolve="TemplateInheritanceInstance" />
   </node>
+  <node concept="1TIwiD" id="7AGjRMZnbrb">
+    <property role="EcuMT" value="8767469971788576459" />
+    <property role="TrG5h" value="GenTemplateNamespaceClassStaticRef" />
+    <ref role="1TJDcQ" to="wnzg:3L3ootRECAk" resolve="ClassStaticRef" />
+    <node concept="PrWs8" id="7AGjRMZOE7e" role="PzmwI">
+      <ref role="PrY4T" to="1yyn:ZKpU3C47B6" resolve="ITemplateImpl" />
+    </node>
+  </node>
 </model>
 

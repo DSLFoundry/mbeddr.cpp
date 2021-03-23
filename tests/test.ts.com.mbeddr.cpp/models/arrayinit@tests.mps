@@ -19,7 +19,6 @@
       <concept id="1215507671101" name="jetbrains.mps.lang.test.structure.NodeErrorCheckOperation" flags="ng" index="1TM$A">
         <child id="8489045168660938517" name="errorRef" index="3lydEf" />
       </concept>
-      <concept id="1215511704609" name="jetbrains.mps.lang.test.structure.NodeWarningCheckOperation" flags="ng" index="29bkU" />
       <concept id="1215603922101" name="jetbrains.mps.lang.test.structure.NodeOperationsContainer" flags="ng" index="7CXmI">
         <child id="1215604436604" name="nodeOperations" index="7EUXB" />
       </concept>
@@ -210,9 +209,6 @@
                   </node>
                 </node>
               </node>
-              <node concept="7CXmI" id="1GY6W8WYdjc" role="lGtFl">
-                <node concept="29bkU" id="1GY6W8WYdjd" role="7EUXB" />
-              </node>
             </node>
           </node>
         </node>
@@ -225,7 +221,7 @@
     </node>
   </node>
   <node concept="2XOHcx" id="3v5DuFDz1EB">
-    <property role="2XOHcw" value="${mbeddr.github.core.home}/code/languages/com.mbeddr.cpp/" />
+    <property role="2XOHcw" value="${mbeddr.cpp.home}/" />
   </node>
 </model>
 
