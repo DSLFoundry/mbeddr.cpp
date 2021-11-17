@@ -10,9 +10,9 @@ We're happy for other uses and contributions!
 Have a look at the [documentation directory](https://github.com/DSLFoundry/mbeddr.cpp/tree/master/documentation/cpp) for the original project documentation.
 
 ## Credits
+Current maintenance: [Hristina Moneva](https://github.com/xmoneva), [Eugen Schindler](https://github.com/eugenschindler), and [Niko Stotz](https://github.com/enikao).
 
-Current maintainer [Niko Stotz](https://github.com/enikao).
-
+Clean-up into a proper extension of mbeddr and setup of build: [Niko Stotz](https://github.com/enikao) with help from [Kolja Dummann](https://github.com/coolya).
 
 Original implementation by "Eded" team of Eindhoven University of Technology in collaboration with Océ:
 
