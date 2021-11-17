@@ -13,10 +13,13 @@
 =======
     <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="17" />
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> cc021cd381... migrated to 2019.2
 =======
     <use id="760a0a8c-eabb-4521-8bfd-65db761a9ba3" name="jetbrains.mps.baseLanguage.logging" version="0" />
 >>>>>>> 6bfe4b6649... example showing too long grammarcells method
+=======
+>>>>>>> fc26ef49ce... Migate to MPS 2020.3
   </languages>
   <imports>
     <import index="yz0i" ref="r:0777b219-94ea-49d2-8175-d5f018f3e7f9(com.mbeddr.cpp.base.textGen)" />

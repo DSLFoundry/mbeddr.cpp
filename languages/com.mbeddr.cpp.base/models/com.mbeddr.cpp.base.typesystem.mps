@@ -178,6 +178,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     <import index="wnzg" ref="r:24646c42-f8e0-499c-b639-679cfa170a2e(com.mbeddr.cpp.base.structure)" implicit="true" />
   </imports>
@@ -218,6 +219,9 @@
 >>>>>>> fcb6ec5ba1... Constructor supported much better now + typesystem cleanup
 =======
       <concept id="1465982738277781862" name="jetbrains.mps.baseLanguage.structure.PlaceholderMember" flags="ng" index="2tJIrI" />
+=======
+      <concept id="1465982738277781862" name="jetbrains.mps.baseLanguage.structure.PlaceholderMember" flags="nn" index="2tJIrI" />
+>>>>>>> fc26ef49ce... Migate to MPS 2020.3
       <concept id="1239714755177" name="jetbrains.mps.baseLanguage.structure.AbstractUnaryNumberOperation" flags="nn" index="2$Kvd9">
         <child id="1239714902950" name="expression" index="2$L3a6" />
       </concept>
@@ -812,10 +816,10 @@
 <<<<<<< HEAD
 =======
     <language id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text">
-      <concept id="155656958578482948" name="jetbrains.mps.lang.text.structure.Word" flags="ng" index="3oM_SD">
+      <concept id="155656958578482948" name="jetbrains.mps.lang.text.structure.Word" flags="nn" index="3oM_SD">
         <property id="155656958578482949" name="value" index="3oM_SC" />
       </concept>
-      <concept id="2535923850359271782" name="jetbrains.mps.lang.text.structure.Line" flags="ng" index="1PaTwC">
+      <concept id="2535923850359271782" name="jetbrains.mps.lang.text.structure.Line" flags="nn" index="1PaTwC">
         <child id="2535923850359271783" name="elements" index="1PaTwD" />
       </concept>
     </language>
