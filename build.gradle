@@ -32,8 +32,8 @@ configurations {
 }
 
 dependencies {
-    mps "com.jetbrains:mps:2020.1.+"
-    languageLibs "com.mbeddr:mbeddr:2020.1.+"
+    mps "com.jetbrains:mps:2020.3.+"
+    languageLibs "com.mbeddr:mbeddr:2020.3.+"
     junitAnt 'org.apache.ant:ant-junit:1.10.6'
 }
 
