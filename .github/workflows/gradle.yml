@@ -8,14 +8,7 @@ on:
     branches: [ master ]
   pull_request:
     branches: [ master ]
-<<<<<<< HEAD
-<<<<<<< HEAD
   workflow_dispatch:
-=======
->>>>>>> 4839081ee9... Create gradle.yml
-=======
-  workflow_dispatch:
->>>>>>> 0209ce0b43... added workflow_dispatch to gradle action
 
 jobs:
   build:
@@ -24,24 +17,10 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-<<<<<<< HEAD
-<<<<<<< HEAD
     - name: Set up JDK 11
       uses: actions/setup-java@v1
       with:
         java-version: 11
-=======
-    - name: Set up JDK 1.8
-      uses: actions/setup-java@v1
-      with:
-        java-version: 1.8
->>>>>>> 4839081ee9... Create gradle.yml
-=======
-    - name: Set up JDK 11
-      uses: actions/setup-java@v1
-      with:
-        java-version: 11
->>>>>>> 7868616559... fixed java version in gradle action
     - name: Grant execute permission for gradlew
       run: chmod +x gradlew
     - name: Build with Gradle

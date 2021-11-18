@@ -2,158 +2,32 @@
 <model ref="r:e06e24a5-d0fa-4f76-9dee-2042532d92a1(com.mbeddr.cpp.base.typesystem)">
   <persistence version="9" />
   <languages>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="1" />
-=======
-    <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="-1" />
-    <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
->>>>>>> b92bea1c01... Refactor reused code into external class
-=======
-    <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="1" />
-    <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
->>>>>>> d979bf937a... Namespace EX and TS Tests.
-=======
-    <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="1" />
-    <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
->>>>>>> c379e8e493... Added namespace name check warning. Adjusted namespace tests.
-=======
-    <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="4" />
-=======
     <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="5" />
->>>>>>> 4e2541f81a... migrated to 2019.3
     <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="-1" />
-<<<<<<< HEAD
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="9" />
->>>>>>> cc021cd381... migrated to 2019.2
-=======
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="11" />
->>>>>>> 6bfe4b6649... example showing too long grammarcells method
     <devkit ref="00000000-0000-4000-0000-1de82b3a4936(jetbrains.mps.devkit.aspect.typesystem)" />
   </languages>
   <imports>
-<<<<<<< HEAD
-<<<<<<< HEAD
     <import index="wlyv" ref="r:a0a28ed3-d146-47eb-a19a-e026ce786b29(com.mbeddr.cpp.modules.structure)" />
     <import index="x27k" ref="r:75ecab8a-8931-4140-afc6-4b46398710fc(com.mbeddr.core.modules.structure)" />
     <import index="wnzg" ref="r:24646c42-f8e0-499c-b639-679cfa170a2e(com.mbeddr.cpp.base.structure)" />
     <import index="vs0r" ref="r:f7764ca4-8c75-4049-922b-08516400a727(com.mbeddr.core.base.structure)" />
     <import index="3d25" ref="r:b51ed3f8-f18c-4b51-8a93-f4ee7f6adf9a(com.mbeddr.cpp.expressions.structure)" />
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     <import index="c4fa" ref="r:9f0e84b6-2ec7-4f9e-83e0-feedc77b63a3(com.mbeddr.core.statements.structure)" />
     <import index="mj1l" ref="r:c371cf98-dcc8-4a43-8eb8-8a8096de18b2(com.mbeddr.core.expressions.structure)" />
-<<<<<<< HEAD
-<<<<<<< HEAD
-    <import index="go54" ref="r:a7e7800a-15b6-4c02-ae4d-6b40a48c7370(com.mbeddr.core.statements.typesystem)" />
-<<<<<<< HEAD
-=======
-    <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" implicit="true" />
->>>>>>> dbadc3ddbf... Fix #6
-=======
->>>>>>> 28bdc5edd1... Better fix for #6
-=======
-    <import index="tpeh" ref="r:00000000-0000-4000-0000-011c895902c5(jetbrains.mps.baseLanguage.typesystem)" />
-<<<<<<< HEAD
-    <import index="kntn" ref="r:4090021e-0c8f-4cca-ab3f-590afb43a745(com.mbeddr.cpp.base.behavior)" />
-<<<<<<< HEAD
->>>>>>> d33bf4e4a9... Preliminary implementation of operator overloading type checking
-=======
-    <import index="k146" ref="r:5209fc71-bade-45c9-9079-f2d474f0d6ca(com.mbeddr.core.util.structure)" />
-<<<<<<< HEAD
->>>>>>> 7e432e041b... Add <=> operator implementation
-=======
-    <import index="tpd5" ref="r:00000000-0000-4000-0000-011c895902b5(jetbrains.mps.lang.typesystem.dependencies)" />
-    <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" />
-    <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" />
-<<<<<<< HEAD
->>>>>>> b92bea1c01... Refactor reused code into external class
-=======
-    <import index="k8ev" ref="r:f39afe13-666a-48f2-9d7c-2f9366f78fe5(jetbrains.mps.typesystemEngine.checker)" />
->>>>>>> 9ae9851f59... Fix class scoping error with unexported classes in the same module
-=======
-=======
-    <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" />
-    <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" />
-    <import index="kntn" ref="r:4090021e-0c8f-4cca-ab3f-590afb43a745(com.mbeddr.cpp.base.behavior)" />
->>>>>>> 180d6b24f4... Unify structure naming, fix dependency issue and remove unused dependencies
-    <import index="p3tm" ref="r:7b158038-abbe-4e11-b171-d5a959b4e91a(com.mbeddr.core.modules.typesystem)" />
-    <import index="mj1l" ref="r:c371cf98-dcc8-4a43-8eb8-8a8096de18b2(com.mbeddr.core.expressions.structure)" />
-    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 3168c40245... Fixed incompatible types.
-=======
-    <import index="rj8d" ref="r:da9fd96f-5c71-45ab-b2da-1aa6232ec67f(com.mbeddr.core.statements.behavior)" />
->>>>>>> f6a9ef0714... Fix TextGen for arrays in classes, add type and size checking
-=======
-=======
-=======
     <import index="go54" ref="r:a7e7800a-15b6-4c02-ae4d-6b40a48c7370(com.mbeddr.core.statements.typesystem)" />
     <import index="tpeh" ref="r:00000000-0000-4000-0000-011c895902c5(jetbrains.mps.baseLanguage.typesystem)" />
     <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" />
     <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" />
->>>>>>> d72e40f1e7... Revert "Migrate error handling to cpp.base"
     <import index="kntn" ref="r:4090021e-0c8f-4cca-ab3f-590afb43a745(com.mbeddr.cpp.base.behavior)" />
     <import index="p3tm" ref="r:7b158038-abbe-4e11-b171-d5a959b4e91a(com.mbeddr.core.modules.typesystem)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
     <import index="qd6m" ref="r:c4c3f7d3-0acf-4671-a134-5fab66c4e637(com.mbeddr.core.modules.behavior)" />
-<<<<<<< HEAD
->>>>>>> 061e94da3b... Migrate error handling to cpp.base
-=======
     <import index="rj8d" ref="r:da9fd96f-5c71-45ab-b2da-1aa6232ec67f(com.mbeddr.core.statements.behavior)" />
->>>>>>> d72e40f1e7... Revert "Migrate error handling to cpp.base"
     <import index="yq40" ref="r:152b3fc0-83a1-4bab-a8cd-565eb8483785(com.mbeddr.core.pointers.structure)" />
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> bd165d5f39... Working on new keyword with class constructors -2
-    <import index="qd6m" ref="r:c4c3f7d3-0acf-4671-a134-5fab66c4e637(com.mbeddr.core.modules.behavior)" implicit="true" />
-=======
-    <import index="qd6m" ref="r:c4c3f7d3-0acf-4671-a134-5fab66c4e637(com.mbeddr.core.modules.behavior)" />
->>>>>>> 27c73b6b9d... New and Delete keywords are working, also has executable test and typesystem test
-=======
     <import index="tpd5" ref="r:00000000-0000-4000-0000-011c895902b5(jetbrains.mps.lang.typesystem.dependencies)" />
-<<<<<<< HEAD
->>>>>>> 0671c1b426... Fix typechecking on qualified method calls and migrated ICallLike typechecks to a class
-=======
     <import index="n7pc" ref="r:1f4b6c73-0d50-4599-bc8a-9f6948adf243(com.mbeddr.core.expressions.typesystem)" />
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 2cc9b19fc3... Added type checking for char16_t initialization.
-=======
-    <import index="zhp8" ref="r:66d213c1-a12b-4017-8dd5-0423703c30a9(com.mbeddr.cpp.operator_overload.structure)" />
->>>>>>> 3e9af26420... Add static_cast<T> and reinterpret_cast<T*>
-=======
->>>>>>> 0ee1f9fd9a... Decoupled operator_overloading language from base
-    <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" implicit="true" />
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-    <import index="1yyn" ref="r:64e0a2a9-7957-424b-8102-a5e8a7a73035(com.mbeddr.cpp.templates.structure)" implicit="true" />
-<<<<<<< HEAD
-    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
-<<<<<<< HEAD
->>>>>>> b70d14e537... loads of stuff
-=======
-    <import index="kntn" ref="r:4090021e-0c8f-4cca-ab3f-590afb43a745(com.mbeddr.cpp.base.behavior)" implicit="true" />
->>>>>>> 25f98cbbb7... Fix class constructors
-  </imports>
-  <registry>
-    <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
-=======
-=======
->>>>>>> 8ced65fd10... Decouple templates from base
-=======
->>>>>>> c3a84dc5a5... fixed some errors and warnings
-=======
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
->>>>>>> 5e079a7e48... fixed unit tests
     <import index="tpd4" ref="r:00000000-0000-4000-0000-011c895902b4(jetbrains.mps.lang.typesystem.structure)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="ywuz" ref="r:c6ce92e7-5a98-4a6f-866a-ec8b9e945dd8(com.mbeddr.core.expressions.behavior)" implicit="true" />
@@ -164,7 +38,6 @@
       <concept id="1082485599095" name="jetbrains.mps.baseLanguage.structure.BlockStatement" flags="nn" index="9aQIb">
         <child id="1082485599096" name="statements" index="9aQI4" />
       </concept>
->>>>>>> f7ba0272ae... Redo auto keyword
       <concept id="1215693861676" name="jetbrains.mps.baseLanguage.structure.BaseAssignmentExpression" flags="nn" index="d038R">
         <child id="1068498886297" name="rValue" index="37vLTx" />
         <child id="1068498886295" name="lValue" index="37vLTJ" />
@@ -172,56 +45,7 @@
       <concept id="1153417849900" name="jetbrains.mps.baseLanguage.structure.GreaterThanOrEqualsExpression" flags="nn" index="2d3UOw" />
       <concept id="4836112446988635817" name="jetbrains.mps.baseLanguage.structure.UndefinedType" flags="in" index="2jxLKc" />
       <concept id="1202948039474" name="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" flags="nn" index="liA8E" />
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-    <import index="wnzg" ref="r:24646c42-f8e0-499c-b639-679cfa170a2e(com.mbeddr.cpp.base.structure)" implicit="true" />
-  </imports>
-  <registry>
-    <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
->>>>>>> e035d6ce33... Move pure after visibility.
-=======
-=======
-      <concept id="1465982738277781862" name="jetbrains.mps.baseLanguage.structure.PlaceholderMember" flags="ng" index="2tJIrI" />
-      <concept id="1239714755177" name="jetbrains.mps.baseLanguage.structure.AbstractUnaryNumberOperation" flags="nn" index="2$Kvd9">
-        <child id="1239714902950" name="expression" index="2$L3a6" />
-      </concept>
-      <concept id="1173175405605" name="jetbrains.mps.baseLanguage.structure.ArrayAccessExpression" flags="nn" index="AH0OO">
-        <child id="1173175577737" name="index" index="AHEQo" />
-        <child id="1173175590490" name="array" index="AHHXb" />
-      </concept>
-      <concept id="1188207840427" name="jetbrains.mps.baseLanguage.structure.AnnotationInstance" flags="nn" index="2AHcQZ">
-        <reference id="1188208074048" name="annotation" index="2AI5Lk" />
-      </concept>
-      <concept id="1188208481402" name="jetbrains.mps.baseLanguage.structure.HasAnnotation" flags="ng" index="2AJDlI">
-        <child id="1188208488637" name="annotation" index="2AJF6D" />
-      </concept>
-      <concept id="1188220165133" name="jetbrains.mps.baseLanguage.structure.ArrayLiteral" flags="nn" index="2BsdOp">
-        <child id="1188220173759" name="item" index="2BsfMF" />
-      </concept>
->>>>>>> b92bea1c01... Refactor reused code into external class
-      <concept id="1154032098014" name="jetbrains.mps.baseLanguage.structure.AbstractLoopStatement" flags="nn" index="2LF5Ji">
-        <child id="1154032183016" name="body" index="2LFqv$" />
-      </concept>
->>>>>>> d33bf4e4a9... Preliminary implementation of operator overloading type checking
-=======
->>>>>>> dc8ff306fc... Migrate operator overloading to separate language
-=======
-=======
-      <concept id="1239714755177" name="jetbrains.mps.baseLanguage.structure.AbstractUnaryNumberOperation" flags="nn" index="2$Kvd9">
-        <child id="1239714902950" name="expression" index="2$L3a6" />
-      </concept>
->>>>>>> fcb6ec5ba1... Constructor supported much better now + typesystem cleanup
-=======
-      <concept id="1465982738277781862" name="jetbrains.mps.baseLanguage.structure.PlaceholderMember" flags="ng" index="2tJIrI" />
-=======
       <concept id="1465982738277781862" name="jetbrains.mps.baseLanguage.structure.PlaceholderMember" flags="nn" index="2tJIrI" />
->>>>>>> fc26ef49ce... Migate to MPS 2020.3
       <concept id="1239714755177" name="jetbrains.mps.baseLanguage.structure.AbstractUnaryNumberOperation" flags="nn" index="2$Kvd9">
         <child id="1239714902950" name="expression" index="2$L3a6" />
       </concept>
@@ -231,30 +55,16 @@
       <concept id="1188208481402" name="jetbrains.mps.baseLanguage.structure.HasAnnotation" flags="ng" index="2AJDlI">
         <child id="1188208488637" name="annotation" index="2AJF6D" />
       </concept>
-<<<<<<< HEAD
->>>>>>> 0671c1b426... Fix typechecking on qualified method calls and migrated ICallLike typechecks to a class
-=======
       <concept id="1188220165133" name="jetbrains.mps.baseLanguage.structure.ArrayLiteral" flags="nn" index="2BsdOp">
         <child id="1188220173759" name="item" index="2BsfMF" />
       </concept>
->>>>>>> 90a34c86f3... Removed C++ keywords from available identifiers
       <concept id="1154032098014" name="jetbrains.mps.baseLanguage.structure.AbstractLoopStatement" flags="nn" index="2LF5Ji">
         <child id="1154032183016" name="body" index="2LFqv$" />
       </concept>
->>>>>>> 25f98cbbb7... Fix class constructors
-=======
-    <import index="wnzg" ref="r:24646c42-f8e0-499c-b639-679cfa170a2e(com.mbeddr.cpp.base.structure)" implicit="true" />
-    <import index="mj1l" ref="r:c371cf98-dcc8-4a43-8eb8-8a8096de18b2(com.mbeddr.core.expressions.structure)" implicit="true" />
-  </imports>
-  <registry>
-    <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
->>>>>>> b95cdd26ff... Namespace Declaration and Member Referencing (WIP) without TextGen elements
       <concept id="1197027756228" name="jetbrains.mps.baseLanguage.structure.DotExpression" flags="nn" index="2OqwBi">
         <child id="1197027771414" name="operand" index="2Oq$k0" />
         <child id="1197027833540" name="operation" index="2OqNvi" />
       </concept>
-<<<<<<< HEAD
-<<<<<<< HEAD
       <concept id="1145552977093" name="jetbrains.mps.baseLanguage.structure.GenericNewExpression" flags="nn" index="2ShNRf">
         <child id="1145553007750" name="creator" index="2ShVmc" />
       </concept>
@@ -300,11 +110,6 @@
         <child id="1068580123156" name="expression" index="3clFbG" />
       </concept>
       <concept id="1068580123157" name="jetbrains.mps.baseLanguage.structure.Statement" flags="nn" index="3clFbH" />
-=======
-      <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
-        <property id="1070475926801" name="value" index="Xl_RC" />
-      </concept>
->>>>>>> e035d6ce33... Move pure after visibility.
       <concept id="1068580123159" name="jetbrains.mps.baseLanguage.structure.IfStatement" flags="nn" index="3clFbJ">
         <child id="1082485599094" name="ifFalseStatement" index="9aQIa" />
         <child id="1068580123160" name="condition" index="3clFbw" />
@@ -314,22 +119,9 @@
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
       <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT">
         <property id="1068580123138" name="value" index="3clFbU" />
       </concept>
->>>>>>> d33bf4e4a9... Preliminary implementation of operator overloading type checking
-=======
->>>>>>> dc8ff306fc... Migrate operator overloading to separate language
-=======
-      <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT">
-        <property id="1068580123138" name="value" index="3clFbU" />
-      </concept>
->>>>>>> f7ba0272ae... Redo auto keyword
       <concept id="1068580320020" name="jetbrains.mps.baseLanguage.structure.IntegerConstant" flags="nn" index="3cmrfG">
         <property id="1068580320021" name="value" index="3cmrfH" />
       </concept>
@@ -359,46 +151,14 @@
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
         <child id="1068499141038" name="actualArgument" index="37wK5m" />
       </concept>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-      <concept id="1081516740877" name="jetbrains.mps.baseLanguage.structure.NotExpression" flags="nn" index="3fqX7Q">
-        <child id="1081516765348" name="expression" index="3fr31v" />
-      </concept>
->>>>>>> e035d6ce33... Move pure after visibility.
-=======
       <concept id="1107461130800" name="jetbrains.mps.baseLanguage.structure.Classifier" flags="ng" index="3pOWGL">
         <child id="5375687026011219971" name="member" index="jymVt" unordered="true" />
       </concept>
-      <concept id="7812454656619025416" name="jetbrains.mps.baseLanguage.structure.MethodDeclaration" flags="ng" index="1rXfSm">
-        <property id="8355037393041754995" name="isNative" index="2aFKle" />
-      </concept>
-      <concept id="7812454656619025412" name="jetbrains.mps.baseLanguage.structure.LocalMethodCall" flags="nn" index="1rXfSq" />
->>>>>>> b92bea1c01... Refactor reused code into external class
-=======
->>>>>>> dc8ff306fc... Migrate operator overloading to separate language
-=======
-      <concept id="1107461130800" name="jetbrains.mps.baseLanguage.structure.Classifier" flags="ng" index="3pOWGL">
-        <child id="5375687026011219971" name="member" index="jymVt" unordered="true" />
-      </concept>
->>>>>>> 0671c1b426... Fix typechecking on qualified method calls and migrated ICallLike typechecks to a class
       <concept id="1081773326031" name="jetbrains.mps.baseLanguage.structure.BinaryOperation" flags="nn" index="3uHJSO">
         <child id="1081773367579" name="rightExpression" index="3uHU7w" />
         <child id="1081773367580" name="leftExpression" index="3uHU7B" />
       </concept>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-      <concept id="1214918800624" name="jetbrains.mps.baseLanguage.structure.PostfixIncrementExpression" flags="nn" index="3uNrnE" />
->>>>>>> b92bea1c01... Refactor reused code into external class
-=======
->>>>>>> dc8ff306fc... Migrate operator overloading to separate language
-=======
       <concept id="1214918975462" name="jetbrains.mps.baseLanguage.structure.PostfixDecrementExpression" flags="nn" index="3uO5VW" />
->>>>>>> fcb6ec5ba1... Constructor supported much better now + typesystem cleanup
       <concept id="1073239437375" name="jetbrains.mps.baseLanguage.structure.NotEqualsExpression" flags="nn" index="3y3z36" />
       <concept id="1178549954367" name="jetbrains.mps.baseLanguage.structure.IVisible" flags="ng" index="1B3ioH">
         <child id="1178549979242" name="visibility" index="1B3o_S" />
@@ -419,28 +179,12 @@
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
       <concept id="1080120340718" name="jetbrains.mps.baseLanguage.structure.AndExpression" flags="nn" index="1Wc70l" />
     </language>
-<<<<<<< HEAD
-<<<<<<< HEAD
     <language id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures">
       <concept id="1199569711397" name="jetbrains.mps.baseLanguage.closures.structure.ClosureLiteral" flags="nn" index="1bVj0M">
         <child id="1199569906740" name="parameter" index="1bW2Oz" />
         <child id="1199569916463" name="body" index="1bW5cS" />
-=======
-    <language id="3a13115c-633c-4c5c-bbcc-75c4219e9555" name="jetbrains.mps.lang.quotation">
-      <concept id="5455284157993863837" name="jetbrains.mps.lang.quotation.structure.NodeBuilder" flags="nn" index="2pJPEk">
-        <child id="5455284157993863838" name="quotedNode" index="2pJPEn" />
-      </concept>
-      <concept id="5455284157993863840" name="jetbrains.mps.lang.quotation.structure.NodeBuilderNode" flags="nn" index="2pJPED">
-        <reference id="5455284157993910961" name="concept" index="2pJxaS" />
->>>>>>> dd5d1b9963... Fixed error: abstract concept.
       </concept>
     </language>
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> f602af8e88... Attempts at typesystem.
-=======
-=======
     <language id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc">
       <concept id="6832197706140518104" name="jetbrains.mps.baseLanguage.javadoc.structure.DocMethodParameterReference" flags="ng" index="zr_55" />
       <concept id="6832197706140518103" name="jetbrains.mps.baseLanguage.javadoc.structure.BaseParameterReference" flags="ng" index="zr_5a">
@@ -462,7 +206,6 @@
         <property id="8970989240999019144" name="text" index="1dT_AB" />
       </concept>
     </language>
->>>>>>> 0671c1b426... Fix typechecking on qualified method calls and migrated ICallLike typechecks to a class
     <language id="3a13115c-633c-4c5c-bbcc-75c4219e9555" name="jetbrains.mps.lang.quotation">
       <concept id="5455284157994012186" name="jetbrains.mps.lang.quotation.structure.NodeBuilderInitLink" flags="ng" index="2pIpSj">
         <reference id="5455284157994012188" name="link" index="2pIpSl" />
@@ -479,7 +222,6 @@
         <child id="8182547171709752112" name="expression" index="36biLW" />
       </concept>
     </language>
->>>>>>> bd165d5f39... Working on new keyword with class constructors -2
     <language id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem">
       <concept id="1207055528241" name="jetbrains.mps.lang.typesystem.structure.WarningStatement" flags="nn" index="a7r0C">
         <child id="1207055552304" name="warningText" index="a7wSD" />
@@ -498,37 +240,12 @@
       </concept>
       <concept id="1175147670730" name="jetbrains.mps.lang.typesystem.structure.SubtypingRule" flags="ig" index="2sgARr" />
       <concept id="1177406296561" name="jetbrains.mps.lang.typesystem.structure.IsStrongSubtypeExpression" flags="nn" index="yS_3z" />
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-      <concept id="1080120340718" name="jetbrains.mps.baseLanguage.structure.AndExpression" flags="nn" index="1Wc70l" />
-    </language>
-    <language id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem">
->>>>>>> e035d6ce33... Move pure after visibility.
-=======
-      <concept id="1224760201579" name="jetbrains.mps.lang.typesystem.structure.InfoStatement" flags="nn" index="Dpp1Q">
-        <child id="1224760230762" name="infoText" index="Dpw9R" />
-      </concept>
->>>>>>> 14c6767f69... Add info for overload of <=>
-=======
->>>>>>> dc8ff306fc... Migrate operator overloading to separate language
       <concept id="1175517767210" name="jetbrains.mps.lang.typesystem.structure.ReportErrorStatement" flags="nn" index="2MkqsV">
         <child id="1175517851849" name="errorString" index="2MkJ7o" />
       </concept>
-<<<<<<< HEAD
-<<<<<<< HEAD
-      <concept id="1227096774658" name="jetbrains.mps.lang.typesystem.structure.MessageStatement" flags="ng" index="2OEH$v">
-<<<<<<< HEAD
-        <child id="1227096802791" name="helginsIntention" index="2OEOjU" />
-        <child id="1227096802790" name="nodeToReport" index="2OEOjV" />
-      </concept>
-=======
->>>>>>> 4e2541f81a... migrated to 2019.3
-=======
       <concept id="1227096498176" name="jetbrains.mps.lang.typesystem.structure.PropertyMessageTarget" flags="ng" index="2ODE4t">
         <reference id="1227096521710" name="propertyDeclaration" index="2ODJFN" />
       </concept>
->>>>>>> 46c21610ea... added ReferenceType, TemplateConstructorInit (wip)
       <concept id="1216383170661" name="jetbrains.mps.lang.typesystem.structure.TypesystemQuickFix" flags="ng" index="Q5z_Y">
         <child id="1216383424566" name="executeBlock" index="Q6x$H" />
         <child id="1216391046856" name="descriptionBlock" index="QzAvj" />
@@ -536,41 +253,19 @@
       <concept id="1216383287005" name="jetbrains.mps.lang.typesystem.structure.QuickFixExecuteBlock" flags="in" index="Q5ZZ6" />
       <concept id="1216383337216" name="jetbrains.mps.lang.typesystem.structure.ConceptFunctionParameter_node" flags="nn" index="Q6c8r" />
       <concept id="1216390987552" name="jetbrains.mps.lang.typesystem.structure.QuickFixDescriptionBlock" flags="in" index="QznSV" />
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-        <child id="1227096802790" name="nodeToReport" index="2OEOjV" />
-      </concept>
->>>>>>> e035d6ce33... Move pure after visibility.
-=======
-=======
->>>>>>> f7ba0272ae... Redo auto keyword
       <concept id="1205762105978" name="jetbrains.mps.lang.typesystem.structure.WhenConcreteVariableDeclaration" flags="ng" index="2X1qdy" />
       <concept id="1205762656241" name="jetbrains.mps.lang.typesystem.structure.WhenConcreteVariableReference" flags="nn" index="2X3wrD">
         <reference id="1205762683928" name="whenConcreteVar" index="2X3Bk0" />
       </concept>
-<<<<<<< HEAD
->>>>>>> d33bf4e4a9... Preliminary implementation of operator overloading type checking
-=======
->>>>>>> dc8ff306fc... Migrate operator overloading to separate language
-=======
->>>>>>> f7ba0272ae... Redo auto keyword
       <concept id="1195213580585" name="jetbrains.mps.lang.typesystem.structure.AbstractCheckingRule" flags="ig" index="18hYwZ">
         <child id="1195213635060" name="body" index="18ibNy" />
       </concept>
       <concept id="1195214364922" name="jetbrains.mps.lang.typesystem.structure.NonTypesystemRule" flags="ig" index="18kY7G" />
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
       <concept id="3937244445246642777" name="jetbrains.mps.lang.typesystem.structure.AbstractReportStatement" flags="ng" index="1urrMJ">
         <child id="3937244445246643443" name="messageTarget" index="1urrC5" />
         <child id="3937244445246643221" name="helginsIntention" index="1urrFz" />
         <child id="3937244445246642781" name="nodeToReport" index="1urrMF" />
       </concept>
->>>>>>> 4e2541f81a... migrated to 2019.3
       <concept id="1210784285454" name="jetbrains.mps.lang.typesystem.structure.TypesystemIntention" flags="ng" index="3Cnw8n">
         <property id="1216127910019" name="applyImmediately" index="ARO6o" />
         <reference id="1216388525179" name="quickFix" index="QpYPw" />
@@ -583,70 +278,19 @@
       <concept id="1174642788531" name="jetbrains.mps.lang.typesystem.structure.ConceptReference" flags="ig" index="1YaCAy">
         <reference id="1174642800329" name="concept" index="1YaFvo" />
       </concept>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-      <concept id="1174643105530" name="jetbrains.mps.lang.typesystem.structure.InferenceRule" flags="ig" index="1YbPZF" />
-=======
-=======
-      <concept id="6405009306797516074" name="jetbrains.mps.lang.typesystem.structure.SubstituteTypeRule" flags="ig" index="3qnSWH">
-        <child id="7323318266641100480" name="body" index="3hT0BD" />
-      </concept>
-      <concept id="1210784285454" name="jetbrains.mps.lang.typesystem.structure.TypesystemIntention" flags="ng" index="3Cnw8n">
-        <reference id="1216388525179" name="quickFix" index="QpYPw" />
-      </concept>
-      <concept id="1176544042499" name="jetbrains.mps.lang.typesystem.structure.Node_TypeOperation" flags="nn" index="3JvlWi" />
->>>>>>> dd5d1b9963... Fixed error: abstract concept.
-=======
-      <concept id="1210784285454" name="jetbrains.mps.lang.typesystem.structure.TypesystemIntention" flags="ng" index="3Cnw8n">
-        <reference id="1216388525179" name="quickFix" index="QpYPw" />
-      </concept>
->>>>>>> f602af8e88... Attempts at typesystem.
-      <concept id="1174642788531" name="jetbrains.mps.lang.typesystem.structure.ConceptReference" flags="ig" index="1YaCAy">
-        <reference id="1174642800329" name="concept" index="1YaFvo" />
-      </concept>
->>>>>>> e035d6ce33... Move pure after visibility.
-=======
-      <concept id="1174643105530" name="jetbrains.mps.lang.typesystem.structure.InferenceRule" flags="ig" index="1YbPZF">
-        <child id="7391008184910266275" name="applicableFun" index="2n1DPF" />
-      </concept>
->>>>>>> d33bf4e4a9... Preliminary implementation of operator overloading type checking
-=======
-      <concept id="1174643105530" name="jetbrains.mps.lang.typesystem.structure.InferenceRule" flags="ig" index="1YbPZF" />
->>>>>>> dc8ff306fc... Migrate operator overloading to separate language
-=======
-      <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
-        <child id="1068581517665" name="statement" index="3cqZAp" />
-      </concept>
-    </language>
-    <language id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem">
-      <concept id="1185788614172" name="jetbrains.mps.lang.typesystem.structure.NormalTypeClause" flags="ng" index="mw_s8">
-        <child id="1185788644032" name="normalType" index="mwGJk" />
-      </concept>
-      <concept id="1195213580585" name="jetbrains.mps.lang.typesystem.structure.AbstractCheckingRule" flags="ig" index="18hYwZ">
-        <child id="1195213635060" name="body" index="18ibNy" />
-      </concept>
-      <concept id="1174642788531" name="jetbrains.mps.lang.typesystem.structure.ConceptReference" flags="ig" index="1YaCAy">
-        <reference id="1174642800329" name="concept" index="1YaFvo" />
-      </concept>
-      <concept id="1174643105530" name="jetbrains.mps.lang.typesystem.structure.InferenceRule" flags="ig" index="1YbPZF" />
->>>>>>> b95cdd26ff... Namespace Declaration and Member Referencing (WIP) without TextGen elements
-=======
       <concept id="1174643105530" name="jetbrains.mps.lang.typesystem.structure.InferenceRule" flags="ig" index="1YbPZF">
         <child id="422148324487088858" name="overridesFun" index="ujSXK" />
       </concept>
->>>>>>> cc021cd381... migrated to 2019.2
       <concept id="1174648085619" name="jetbrains.mps.lang.typesystem.structure.AbstractRule" flags="ng" index="1YuPPy">
         <child id="1174648101952" name="applicableNode" index="1YuTPh" />
       </concept>
       <concept id="1174650418652" name="jetbrains.mps.lang.typesystem.structure.ApplicableNodeReference" flags="nn" index="1YBJjd">
         <reference id="1174650432090" name="applicableNode" index="1YBMHb" />
       </concept>
-<<<<<<< HEAD
-<<<<<<< HEAD
       <concept id="1174657487114" name="jetbrains.mps.lang.typesystem.structure.TypeOfExpression" flags="nn" index="1Z2H0r">
         <child id="1174657509053" name="term" index="1Z2MuG" />
       </concept>
+      <concept id="1174658326157" name="jetbrains.mps.lang.typesystem.structure.CreateEquationStatement" flags="nn" index="1Z5TYs" />
       <concept id="1174660718586" name="jetbrains.mps.lang.typesystem.structure.AbstractEquationStatement" flags="nn" index="1Zf1VF">
         <property id="1206359757216" name="checkOnly" index="3wDh2S" />
         <child id="1174660783413" name="leftExpression" index="1ZfhK$" />
@@ -664,36 +308,10 @@
         <child id="1144104376918" name="parameter" index="1xVPHs" />
       </concept>
       <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-      <concept id="4693937538533521280" name="jetbrains.mps.lang.smodel.structure.OfConceptOperation" flags="ng" index="v3k3i">
-        <child id="4693937538533538124" name="requestedConcept" index="v3oSu" />
-      </concept>
-=======
-      <concept id="7453996997717780434" name="jetbrains.mps.lang.smodel.structure.Node_GetSConceptOperation" flags="nn" index="2yIwOk" />
->>>>>>> dbadc3ddbf... Fix #6
-=======
->>>>>>> 28bdc5edd1... Better fix for #6
-=======
-      <concept id="1138676077309" name="jetbrains.mps.lang.smodel.structure.EnumMemberReference" flags="nn" index="uoxfO">
-        <reference id="1138676095763" name="enumMember" index="uo_Cq" />
-      </concept>
       <concept id="4693937538533521280" name="jetbrains.mps.lang.smodel.structure.OfConceptOperation" flags="ng" index="v3k3i">
         <child id="4693937538533538124" name="requestedConcept" index="v3oSu" />
       </concept>
       <concept id="7453996997717780434" name="jetbrains.mps.lang.smodel.structure.Node_GetSConceptOperation" flags="nn" index="2yIwOk" />
->>>>>>> d33bf4e4a9... Preliminary implementation of operator overloading type checking
-=======
-      <concept id="4693937538533521280" name="jetbrains.mps.lang.smodel.structure.OfConceptOperation" flags="ng" index="v3k3i">
-        <child id="4693937538533538124" name="requestedConcept" index="v3oSu" />
-      </concept>
-<<<<<<< HEAD
->>>>>>> dc8ff306fc... Migrate operator overloading to separate language
-=======
-      <concept id="7453996997717780434" name="jetbrains.mps.lang.smodel.structure.Node_GetSConceptOperation" flags="nn" index="2yIwOk" />
->>>>>>> 8ced65fd10... Decouple templates from base
       <concept id="2396822768958367367" name="jetbrains.mps.lang.smodel.structure.AbstractTypeCastExpression" flags="nn" index="$5XWr">
         <child id="6733348108486823193" name="leftExpression" index="1m5AlR" />
         <child id="3906496115198199033" name="conceptArgument" index="3oSUPX" />
@@ -724,22 +342,8 @@
         <child id="1177027386292" name="conceptArgument" index="cj9EA" />
       </concept>
       <concept id="1171999116870" name="jetbrains.mps.lang.smodel.structure.Node_IsNullOperation" flags="nn" index="3w_OXm" />
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> e49a696456... Polymorphic assignment without tests
       <concept id="1172008320231" name="jetbrains.mps.lang.smodel.structure.Node_IsNotNullOperation" flags="nn" index="3x8VRR" />
       <concept id="1144100932627" name="jetbrains.mps.lang.smodel.structure.OperationParm_Inclusion" flags="ng" index="1xIGOp" />
-=======
->>>>>>> 723c5db34c... Remove constructor naming error
-=======
-      <concept id="1172008320231" name="jetbrains.mps.lang.smodel.structure.Node_IsNotNullOperation" flags="nn" index="3x8VRR" />
-<<<<<<< HEAD
->>>>>>> c9601ef09e... Add constructor wrong class error and improve testcase
-=======
-      <concept id="1144100932627" name="jetbrains.mps.lang.smodel.structure.OperationParm_Inclusion" flags="ng" index="1xIGOp" />
->>>>>>> d979bf937a... Namespace EX and TS Tests.
       <concept id="1144101972840" name="jetbrains.mps.lang.smodel.structure.OperationParm_Concept" flags="ng" index="1xMEDy">
         <child id="1207343664468" name="conceptArgument" index="ri$Ld" />
       </concept>
@@ -756,50 +360,21 @@
       <concept id="1138055754698" name="jetbrains.mps.lang.smodel.structure.SNodeType" flags="in" index="3Tqbb2">
         <reference id="1138405853777" name="concept" index="ehGHo" />
       </concept>
-=======
-    </language>
-    <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
-      <concept id="1171999116870" name="jetbrains.mps.lang.smodel.structure.Node_IsNullOperation" flags="nn" index="3w_OXm" />
->>>>>>> e035d6ce33... Move pure after visibility.
       <concept id="1138056022639" name="jetbrains.mps.lang.smodel.structure.SPropertyAccess" flags="nn" index="3TrcHB">
         <reference id="1138056395725" name="property" index="3TsBF5" />
       </concept>
       <concept id="1138056143562" name="jetbrains.mps.lang.smodel.structure.SLinkAccess" flags="nn" index="3TrEf2">
         <reference id="1138056516764" name="link" index="3Tt5mk" />
       </concept>
-<<<<<<< HEAD
       <concept id="1138056282393" name="jetbrains.mps.lang.smodel.structure.SLinkListAccess" flags="nn" index="3Tsc0h">
         <reference id="1138056546658" name="link" index="3TtcxE" />
       </concept>
-=======
-      <concept id="1174657487114" name="jetbrains.mps.lang.typesystem.structure.TypeOfExpression" flags="nn" index="1Z2H0r">
-        <child id="1174657509053" name="term" index="1Z2MuG" />
-      </concept>
-      <concept id="1174658326157" name="jetbrains.mps.lang.typesystem.structure.CreateEquationStatement" flags="nn" index="1Z5TYs" />
-      <concept id="1174660718586" name="jetbrains.mps.lang.typesystem.structure.AbstractEquationStatement" flags="nn" index="1Zf1VF">
-        <child id="1174660783413" name="leftExpression" index="1ZfhK$" />
-        <child id="1174660783414" name="rightExpression" index="1ZfhKB" />
-      </concept>
-    </language>
-    <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
-      <concept id="1144146199828" name="jetbrains.mps.lang.smodel.structure.Node_CopyOperation" flags="nn" index="1$rogu" />
-      <concept id="1138056143562" name="jetbrains.mps.lang.smodel.structure.SLinkAccess" flags="nn" index="3TrEf2">
-        <reference id="1138056516764" name="link" index="3Tt5mk" />
-      </concept>
->>>>>>> b95cdd26ff... Namespace Declaration and Member Referencing (WIP) without TextGen elements
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
         <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
         <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
       </concept>
-<<<<<<< HEAD
-=======
-    </language>
-    <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
->>>>>>> e035d6ce33... Move pure after visibility.
-=======
->>>>>>> b95cdd26ff... Namespace Declaration and Member Referencing (WIP) without TextGen elements
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
@@ -811,10 +386,6 @@
         <child id="3078666699043039389" name="commentedNode" index="8Wnug" />
       </concept>
     </language>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
     <language id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text">
       <concept id="155656958578482948" name="jetbrains.mps.lang.text.structure.Word" flags="nn" index="3oM_SD">
         <property id="155656958578482949" name="value" index="3oM_SC" />
@@ -823,7 +394,6 @@
         <child id="2535923850359271783" name="elements" index="1PaTwD" />
       </concept>
     </language>
->>>>>>> cc021cd381... migrated to 2019.2
     <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
       <concept id="1204796164442" name="jetbrains.mps.baseLanguage.collections.structure.InternalSequenceOperation" flags="nn" index="23sCx2">
         <child id="1204796294226" name="closure" index="23t8la" />
@@ -849,12 +419,9 @@
       <concept id="1203518072036" name="jetbrains.mps.baseLanguage.collections.structure.SmartClosureParameterDeclaration" flags="ig" index="Rh6nW" />
       <concept id="1160600644654" name="jetbrains.mps.baseLanguage.collections.structure.ListCreatorWithInit" flags="nn" index="Tc6Ow" />
       <concept id="1160612413312" name="jetbrains.mps.baseLanguage.collections.structure.AddElementOperation" flags="nn" index="TSZUe" />
-<<<<<<< HEAD
+      <concept id="1171391069720" name="jetbrains.mps.baseLanguage.collections.structure.GetIndexOfOperation" flags="nn" index="2WmjW8" />
       <concept id="1160666733551" name="jetbrains.mps.baseLanguage.collections.structure.AddAllElementsOperation" flags="nn" index="X8dFx" />
       <concept id="1162934736510" name="jetbrains.mps.baseLanguage.collections.structure.GetElementOperation" flags="nn" index="34jXtK" />
-=======
-      <concept id="1171391069720" name="jetbrains.mps.baseLanguage.collections.structure.GetIndexOfOperation" flags="nn" index="2WmjW8" />
->>>>>>> d979bf937a... Namespace EX and TS Tests.
       <concept id="1162935959151" name="jetbrains.mps.baseLanguage.collections.structure.GetSizeOperation" flags="nn" index="34oBXx" />
       <concept id="1240325842691" name="jetbrains.mps.baseLanguage.collections.structure.AsSequenceOperation" flags="nn" index="39bAoz" />
       <concept id="1165530316231" name="jetbrains.mps.baseLanguage.collections.structure.IsEmptyOperation" flags="nn" index="1v1jN8" />
@@ -863,7 +430,6 @@
       <concept id="1172254888721" name="jetbrains.mps.baseLanguage.collections.structure.ContainsOperation" flags="nn" index="3JPx81" />
     </language>
   </registry>
-<<<<<<< HEAD
   <node concept="18kY7G" id="4K6s$_rq5Gf">
     <property role="TrG5h" value="check_InheritanceInstance" />
     <property role="3GE5qa" value="class" />
@@ -901,37 +467,10 @@
             </node>
             <node concept="1YBJjd" id="4K6s$_sMeVa" role="1urrMF">
               <ref role="1YBMHb" node="4K6s$_rq5Gi" resolve="inheritanceInstance" />
-=======
-  <node concept="1YbPZF" id="383ZxwZuZXy">
-    <property role="TrG5h" value="typeof_NamespaceMethodCall" />
-    <property role="3GE5qa" value="namespace" />
-    <node concept="3clFbS" id="383ZxwZuZXz" role="18ibNy">
-      <node concept="1Z5TYs" id="383ZxwZv0jk" role="3cqZAp">
-        <node concept="mw_s8" id="383ZxwZv0jI" role="1ZfhKB">
-          <node concept="2OqwBi" id="383ZxwZv3GJ" role="mwGJk">
-            <node concept="2OqwBi" id="383ZxwZv1DG" role="2Oq$k0">
-              <node concept="2OqwBi" id="383ZxwZv0yO" role="2Oq$k0">
-                <node concept="1YBJjd" id="383ZxwZv0jG" role="2Oq$k0">
-                  <ref role="1YBMHb" node="383ZxwZuZX_" resolve="nsMC" />
-                </node>
-                <node concept="3TrEf2" id="383ZxwZv0Vg" role="2OqNvi">
-                  <ref role="3Tt5mk" to="wnzg:383ZxwZrBkI" resolve="method" />
-                </node>
-              </node>
-              <node concept="3TrEf2" id="383ZxwZv2Xw" role="2OqNvi">
-                <ref role="3Tt5mk" to="mj1l:hEaDaGor64" resolve="type" />
-              </node>
->>>>>>> a5b410c665... Fix highlighting to be consistent and make the package name lowercase
             </node>
           </node>
         </node>
         <node concept="3clFbC" id="4K6s$_sMbV4" role="3clFbw">
-          <node concept="2OqwBi" id="4K6s$_sMb0z" role="3uHU7B">
-            <node concept="1YBJjd" id="4K6s$_sMaRN" role="2Oq$k0">
-              <ref role="1YBMHb" node="4K6s$_rq5Gi" resolve="inheritanceInstance" />
-            </node>
-            <node concept="1mfA1w" id="4K6s$_sMbGi" role="2OqNvi" />
-          </node>
           <node concept="2OqwBi" id="4K6s$_sMcGg" role="3uHU7w">
             <node concept="1YBJjd" id="4K6s$_sMczi" role="2Oq$k0">
               <ref role="1YBMHb" node="4K6s$_rq5Gi" resolve="inheritanceInstance" />
@@ -940,9 +479,14 @@
               <ref role="3Tt5mk" to="wnzg:3UsoL$l5qkM" resolve="parentClass" />
             </node>
           </node>
+          <node concept="2OqwBi" id="4K6s$_sMb0z" role="3uHU7B">
+            <node concept="1YBJjd" id="4K6s$_sMaRN" role="2Oq$k0">
+              <ref role="1YBMHb" node="4K6s$_rq5Gi" resolve="inheritanceInstance" />
+            </node>
+            <node concept="1mfA1w" id="4K6s$_sMbGi" role="2OqNvi" />
+          </node>
         </node>
       </node>
-<<<<<<< HEAD
       <node concept="3clFbH" id="4K6s$_sHVnl" role="3cqZAp" />
       <node concept="3cpWs8" id="4K6s$_sI1yg" role="3cqZAp">
         <node concept="3cpWsn" id="4K6s$_sI1yj" role="3cpWs9">
@@ -954,32 +498,6 @@
             <node concept="2OqwBi" id="4K6s$_sI1GO" role="2Oq$k0">
               <node concept="1YBJjd" id="4K6s$_sI1$0" role="2Oq$k0">
                 <ref role="1YBMHb" node="4K6s$_rq5Gi" resolve="inheritanceInstance" />
-<<<<<<< HEAD
-=======
-    </node>
-    <node concept="1YaCAy" id="383ZxwZuZX_" role="1YuTPh">
-      <property role="TrG5h" value="nsMC" />
-      <ref role="1YaFvo" to="wnzg:383ZxwZrBky" resolve="NamespaceMethodCall" />
-    </node>
-  </node>
-  <node concept="1YbPZF" id="7fNEwq_kdh2">
-    <property role="TrG5h" value="typeof_NamespaceClassInstanceRef" />
-    <property role="3GE5qa" value="namespace" />
-    <node concept="3clFbS" id="7fNEwq_kdh3" role="18ibNy">
-      <node concept="1Z5TYs" id="7fNEwq_kdtk" role="3cqZAp">
-        <node concept="mw_s8" id="7fNEwq_kdtI" role="1ZfhKB">
-          <node concept="2OqwBi" id="7fNEwq_ki2q" role="mwGJk">
-            <node concept="2OqwBi" id="7fNEwq_kgxY" role="2Oq$k0">
-              <node concept="2OqwBi" id="7fNEwq_kdHv" role="2Oq$k0">
-                <node concept="1YBJjd" id="7fNEwq_kdtG" role="2Oq$k0">
-                  <ref role="1YBMHb" node="7fNEwq_kdh5" resolve="nsCIRef" />
-                </node>
-                <node concept="3TrEf2" id="7fNEwq_kfWJ" role="2OqNvi">
-                  <ref role="3Tt5mk" to="wnzg:7fNEwq_6ZLT" resolve="class_attribute" />
-                </node>
->>>>>>> a5b410c665... Fix highlighting to be consistent and make the package name lowercase
-=======
->>>>>>> 180d6b24f4... Unify structure naming, fix dependency issue and remove unused dependencies
               </node>
               <node concept="3TrEf2" id="4K6s$_sI200" role="2OqNvi">
                 <ref role="3Tt5mk" to="wnzg:3UsoL$l5qkM" resolve="parentClass" />
@@ -1015,7 +533,6 @@
           </node>
         </node>
       </node>
-<<<<<<< HEAD
       <node concept="3clFbH" id="4K6s$_rqydn" role="3cqZAp" />
       <node concept="3SKdUt" id="4K6s$_rqa83" role="3cqZAp">
         <node concept="1PaTwC" id="7jWRS$D_12z" role="1aUNEU">
@@ -1090,25 +607,6 @@
               <node concept="2OqwBi" id="4K6s$_rq5Pr" role="3uHU7B">
                 <node concept="1YBJjd" id="4K6s$_rq5GF" role="2Oq$k0">
                   <ref role="1YBMHb" node="4K6s$_rq5Gi" resolve="inheritanceInstance" />
-=======
-    </node>
-    <node concept="1YaCAy" id="7fNEwq_kdh5" role="1YuTPh">
-      <property role="TrG5h" value="nsCIRef" />
-      <ref role="1YaFvo" to="wnzg:7fNEwq_6ZJn" resolve="NamespaceClassInstanceAttributeRef" />
-    </node>
-  </node>
-  <node concept="1YbPZF" id="383ZxwZuziJ">
-    <property role="TrG5h" value="typeof_NamespaceAttributeRef" />
-    <property role="3GE5qa" value="namespace" />
-    <node concept="3clFbS" id="383ZxwZuziK" role="18ibNy">
-      <node concept="1Z5TYs" id="383ZxwZuzva" role="3cqZAp">
-        <node concept="mw_s8" id="383ZxwZuzv$" role="1ZfhKB">
-          <node concept="2OqwBi" id="383ZxwZu_X1" role="mwGJk">
-            <node concept="2OqwBi" id="383ZxwZu_0$" role="2Oq$k0">
-              <node concept="2OqwBi" id="383ZxwZuzHS" role="2Oq$k0">
-                <node concept="1YBJjd" id="383ZxwZuzvy" role="2Oq$k0">
-                  <ref role="1YBMHb" node="383ZxwZuziM" resolve="nsAR" />
->>>>>>> a5b410c665... Fix highlighting to be consistent and make the package name lowercase
                 </node>
                 <node concept="1mfA1w" id="4K6s$_rq5Wu" role="2OqNvi" />
               </node>
@@ -1310,22 +808,10 @@
           </node>
         </node>
         <node concept="1Wc70l" id="4K6s$_sIuZZ" role="3clFbw">
-<<<<<<< HEAD
-          <node concept="3fqX7Q" id="4K6s$_sIpcJ" role="3uHU7B">
-            <node concept="2OqwBi" id="4K6s$_sIpcL" role="3fr31v">
-              <node concept="2OqwBi" id="4K6s$_sIpcM" role="2Oq$k0">
-                <node concept="2qgKlT" id="4K6s$_sIpcS" role="2OqNvi">
-                  <ref role="37wK5l" to="qd6m:35JkqCBlGGT" resolve="getAllImportedModules" />
-                </node>
-                <node concept="37vLTw" id="681DFyjW_v0" role="2Oq$k0">
-                  <ref role="3cqZAo" node="4K6s$_sI$6_" resolve="instanceModule" />
-                </node>
-=======
           <node concept="1Wc70l" id="3nWonftGhn0" role="3uHU7B">
             <node concept="2OqwBi" id="3nWonftGjcW" role="3uHU7B">
               <node concept="37vLTw" id="3nWonftGiej" role="2Oq$k0">
                 <ref role="3cqZAo" node="4K6s$_sI$6_" resolve="instanceModule" />
->>>>>>> 46c21610ea... added ReferenceType, TemplateConstructorInit (wip)
               </node>
               <node concept="3x8VRR" id="3nWonftGkE1" role="2OqNvi" />
             </node>
@@ -1539,42 +1025,11 @@
               <node concept="37vLTw" id="4K6s$_sLANX" role="25WWJ7">
                 <ref role="3cqZAo" node="4K6s$_sLtXA" resolve="newDependency" />
               </node>
-=======
-  </registry>
-  <node concept="1YbPZF" id="383ZxwZuziJ">
-    <property role="TrG5h" value="typeof_NamespaceAttributeRef" />
-    <property role="3GE5qa" value="Namespace" />
-    <node concept="3clFbS" id="383ZxwZuziK" role="18ibNy">
-      <node concept="1Z5TYs" id="383ZxwZuzva" role="3cqZAp">
-        <node concept="mw_s8" id="383ZxwZuzv$" role="1ZfhKB">
-          <node concept="2OqwBi" id="383ZxwZu_X1" role="mwGJk">
-            <node concept="2OqwBi" id="383ZxwZu_0$" role="2Oq$k0">
-              <node concept="2OqwBi" id="383ZxwZuzHS" role="2Oq$k0">
-                <node concept="1YBJjd" id="383ZxwZuzvy" role="2Oq$k0">
-                  <ref role="1YBMHb" node="383ZxwZuziM" resolve="nsAR" />
-                </node>
-                <node concept="3TrEf2" id="383ZxwZu$qh" role="2OqNvi">
-                  <ref role="3Tt5mk" to="wnzg:383ZxwZrBkt" resolve="attribute" />
-                </node>
-              </node>
-              <node concept="3TrEf2" id="383ZxwZu_ql" role="2OqNvi">
-                <ref role="3Tt5mk" to="mj1l:hEaDaGor64" resolve="type" />
-              </node>
-            </node>
-            <node concept="1$rogu" id="383ZxwZuAjw" role="2OqNvi" />
-          </node>
-        </node>
-        <node concept="mw_s8" id="383ZxwZuzvd" role="1ZfhK$">
-          <node concept="1Z2H0r" id="383ZxwZuzj8" role="mwGJk">
-            <node concept="1YBJjd" id="383ZxwZuzkX" role="1Z2MuG">
-              <ref role="1YBMHb" node="383ZxwZuziM" resolve="nsAR" />
->>>>>>> b95cdd26ff... Namespace Declaration and Member Referencing (WIP) without TextGen elements
             </node>
           </node>
         </node>
       </node>
     </node>
-<<<<<<< HEAD
     <node concept="QznSV" id="4K6s$_sJnGj" role="QzAvj">
       <node concept="3clFbS" id="4K6s$_sJnGk" role="2VODD2">
         <node concept="3cpWs8" id="4K6s$_sLTwM" role="3cqZAp">
@@ -1821,6 +1276,9 @@
         </node>
         <node concept="1Wc70l" id="4K6s$_sN_2a" role="3clFbw">
           <node concept="2OqwBi" id="4K6s$_sNCIQ" role="3uHU7w">
+            <node concept="3TrcHB" id="1Yr26iu9rZv" role="2OqNvi">
+              <ref role="3TsBF5" to="wnzg:1Yr26itwx8v" resolve="isStatic" />
+            </node>
             <node concept="1eOMI4" id="4K6s$_sNCIR" role="2Oq$k0">
               <node concept="1PxgMI" id="4K6s$_sNCIS" role="1eOMHV">
                 <node concept="chp4Y" id="4K6s$_sNCIT" role="3oSUPX">
@@ -1835,9 +1293,6 @@
                   </node>
                 </node>
               </node>
-            </node>
-            <node concept="3TrcHB" id="1Yr26iu9rZv" role="2OqNvi">
-              <ref role="3TsBF5" to="wnzg:1Yr26itwx8v" resolve="isStatic" />
             </node>
           </node>
           <node concept="2OqwBi" id="4K6s$_sNyYA" role="3uHU7B">
@@ -1863,21 +1318,6 @@
       <ref role="1YaFvo" to="3d25:4o2nsMgBIqT" resolve="QualifiedMethodCall" />
     </node>
   </node>
-<<<<<<< HEAD
-  <node concept="18kY7G" id="6ddXmWdG7b9">
-    <property role="TrG5h" value="check_ClassConstructor" />
-    <property role="3GE5qa" value="method.constructor" />
-    <node concept="3clFbS" id="6ddXmWdG7ba" role="18ibNy">
-      <node concept="3cpWs8" id="6ddXmWdG9lV" role="3cqZAp">
-        <node concept="3cpWsn" id="6ddXmWdG9lY" role="3cpWs9">
-          <property role="TrG5h" value="ancestorClass" />
-          <node concept="3Tqbb2" id="6ddXmWdG9lT" role="1tU5fm">
-            <ref role="ehGHo" to="wnzg:4o2nsMgBpPQ" resolve="ClassDeclaration" />
-          </node>
-          <node concept="2OqwBi" id="6ddXmWdG9Bv" role="33vP2m">
-            <node concept="1YBJjd" id="6ddXmWdG9mR" role="2Oq$k0">
-              <ref role="1YBMHb" node="6ddXmWdG7bc" resolve="classConstructor" />
-=======
   <node concept="18kY7G" id="6hUtorEaE9A">
     <property role="TrG5h" value="check_LocalClassVariableDeclaration" />
     <property role="3GE5qa" value="class" />
@@ -1910,20 +1350,9 @@
         <node concept="3clFbS" id="2xmTzC2LUoL" role="3clFbx">
           <node concept="a7r0C" id="2xmTzC2LYc4" role="3cqZAp">
             <node concept="Xl_RD" id="2xmTzC2LYc6" role="a7wSD">
-<<<<<<< HEAD
-              <property role="Xl_RC" value="You should select a constructor on class objects." />
->>>>>>> 9cc6d595ca... New and Delete keywords are working, with types and constructors
-=======
               <property role="Xl_RC" value="you should select a constructor on class objects" />
->>>>>>> 0865682751... Migrate all errors in base language to begin with a lower case letter
             </node>
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-            <node concept="1YBJjd" id="2xmTzC2LYd7" role="2OEOjV">
-=======
             <node concept="1YBJjd" id="2xmTzC2LYd7" role="1urrMF">
->>>>>>> 4e2541f81a... migrated to 2019.3
               <ref role="1YBMHb" node="6hUtorEaE9D" resolve="lcvd" />
             </node>
           </node>
@@ -2222,17 +1651,6 @@
     <property role="TrG5h" value="check_ClassConstructor" />
     <property role="3GE5qa" value="constructor" />
     <node concept="3clFbS" id="6ddXmWdG7ba" role="18ibNy">
-<<<<<<< HEAD
-<<<<<<< HEAD
-      <node concept="3cpWs8" id="6ddXmWdG9lV" role="3cqZAp">
-        <node concept="3cpWsn" id="6ddXmWdG9lY" role="3cpWs9">
-          <property role="TrG5h" value="ancestorClass" />
-          <node concept="3Tqbb2" id="6ddXmWdG9lT" role="1tU5fm">
-            <ref role="ehGHo" to="wnzg:4o2nsMgBpPQ" resolve="ClassDeclaration" />
-          </node>
-          <node concept="2OqwBi" id="6ddXmWdG9Bv" role="33vP2m">
-            <node concept="1YBJjd" id="6ddXmWdG9mR" role="2Oq$k0">
-=======
       <node concept="3cpWs8" id="3Mwr0rV_Cll" role="3cqZAp">
         <node concept="3cpWsn" id="3Mwr0rV_Clm" role="3cpWs9">
           <property role="TrG5h" value="ancestorClass" />
@@ -2407,83 +1825,7 @@
             <node concept="Xl_RD" id="5i01kANshj1" role="2MkJ7o">
               <property role="Xl_RC" value="destructors may not have arguments" />
             </node>
-<<<<<<< HEAD
-            <node concept="1YBJjd" id="5i01kANshk5" role="2OEOjV">
->>>>>>> c9601ef09e... Add constructor wrong class error and improve testcase
-=======
             <node concept="1YBJjd" id="5i01kANshk5" role="1urrMF">
->>>>>>> 4e2541f81a... migrated to 2019.3
-              <ref role="1YBMHb" node="6ddXmWdG7bc" resolve="classConstructor" />
-            </node>
->>>>>>> b0d1d327f3... Add contexpr to constructors
-            <node concept="2Xjw5R" id="6ddXmWdGa16" role="2OqNvi">
-              <node concept="1xMEDy" id="6ddXmWdGa18" role="1xVPHs">
-                <node concept="chp4Y" id="6ddXmWdGa3s" role="ri$Ld">
-                  <ref role="cht4Q" to="wnzg:4o2nsMgBpPQ" resolve="ClassDeclaration" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="3clFbJ" id="6ddXmWdG7bg" role="3cqZAp">
-        <node concept="1Wc70l" id="27HW4imZBwt" role="3clFbw">
-          <node concept="2OqwBi" id="27HW4imZC0c" role="3uHU7w">
-            <node concept="37vLTw" id="27HW4imZBHM" role="2Oq$k0">
-              <ref role="3cqZAo" node="6ddXmWdG9lY" resolve="ancestorClass" />
-            </node>
-            <node concept="3x8VRR" id="27HW4imZCtK" role="2OqNvi" />
-          </node>
-          <node concept="3y3z36" id="6ddXmWdG8q5" role="3uHU7B">
-            <node concept="2OqwBi" id="6ddXmWdG7s3" role="3uHU7B">
-              <node concept="1YBJjd" id="6ddXmWdG7bv" role="2Oq$k0">
-                <ref role="1YBMHb" node="6ddXmWdG7bc" resolve="classConstructor" />
-              </node>
-              <node concept="3TrEf2" id="6ddXmWdG7M6" role="2OqNvi">
-                <ref role="3Tt5mk" to="wnzg:6NtgknWJ214" resolve="parentClass" />
-              </node>
-            </node>
-            <node concept="37vLTw" id="6ddXmWdGakc" role="3uHU7w">
-              <ref role="3cqZAo" node="6ddXmWdG9lY" resolve="ancestorClass" />
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbS" id="6ddXmWdG7bi" role="3clFbx">
-          <node concept="2MkqsV" id="6ddXmWdG9k7" role="3cqZAp">
-            <node concept="3cpWs3" id="5i01kANsiC8" role="2MkJ7o">
-              <node concept="Xl_RD" id="5i01kANsiY9" role="3uHU7w">
-                <property role="Xl_RC" value="." />
-              </node>
-              <node concept="3cpWs3" id="6ddXmWdGbcs" role="3uHU7B">
-                <node concept="Xl_RD" id="6ddXmWdG9km" role="3uHU7B">
-                  <property role="Xl_RC" value="Can't have a constructor for a class other than " />
-                </node>
-                <node concept="2OqwBi" id="6ddXmWdGbzb" role="3uHU7w">
-                  <node concept="37vLTw" id="6ddXmWdGbcM" role="2Oq$k0">
-                    <ref role="3cqZAo" node="6ddXmWdG9lY" resolve="ancestorClass" />
-                  </node>
-                  <node concept="3TrcHB" id="6ddXmWdGbWc" role="2OqNvi">
-                    <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="1YBJjd" id="6ddXmWdGeT9" role="2OEOjV">
-              <ref role="1YBMHb" node="6ddXmWdG7bc" resolve="classConstructor" />
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="3clFbH" id="5i01kANs12L" role="3cqZAp" />
-=======
->>>>>>> 723c5db34c... Remove constructor naming error
-      <node concept="3clFbJ" id="5i01kANs1kc" role="3cqZAp">
-        <node concept="3clFbS" id="5i01kANs1ke" role="3clFbx">
-          <node concept="2MkqsV" id="5i01kANshiJ" role="3cqZAp">
-            <node concept="Xl_RD" id="5i01kANshj1" role="2MkJ7o">
-              <property role="Xl_RC" value="Destructors may not have arguments." />
-            </node>
-            <node concept="1YBJjd" id="5i01kANshk5" role="2OEOjV">
               <ref role="1YBMHb" node="6ddXmWdG7bc" resolve="classConstructor" />
             </node>
           </node>
@@ -2510,43 +1852,6 @@
               <ref role="1YBMHb" node="6ddXmWdG7bc" resolve="classConstructor" />
             </node>
             <node concept="3TrcHB" id="5i01kANs2y2" role="2OqNvi">
-<<<<<<< HEAD
-              <ref role="3TsBF5" to="wnzg:5i01kANicU4" resolve="is_destructor" />
-=======
-  </registry>
-  <node concept="18kY7G" id="2L1k$oXFjdZ">
-    <property role="TrG5h" value="check_IPureVirtualisable" />
-    <node concept="3clFbS" id="2L1k$oXFje0" role="18ibNy">
-      <node concept="3clFbJ" id="2L1k$oXFjlp" role="3cqZAp">
-        <node concept="1Wc70l" id="2L1k$oXFkfQ" role="3clFbw">
-          <node concept="3fqX7Q" id="2L1k$oXFkis" role="3uHU7w">
-            <node concept="2OqwBi" id="2L1k$oXFkwp" role="3fr31v">
-              <node concept="1YBJjd" id="2L1k$oXFkkN" role="2Oq$k0">
-                <ref role="1YBMHb" node="2L1k$oXFje2" resolve="iPureVirtualisable" />
-              </node>
-              <node concept="3TrcHB" id="2L1k$oXFkER" role="2OqNvi">
-                <ref role="3TsBF5" to="wnzg:2L1k$oXxncX" resolve="isVirtual" />
-              </node>
-            </node>
-          </node>
-          <node concept="2OqwBi" id="2L1k$oXFjv3" role="3uHU7B">
-            <node concept="1YBJjd" id="2L1k$oXFjlC" role="2Oq$k0">
-              <ref role="1YBMHb" node="2L1k$oXFje2" resolve="iPureVirtualisable" />
-            </node>
-            <node concept="3TrcHB" id="2L1k$oXFjBk" role="2OqNvi">
-              <ref role="3TsBF5" to="wnzg:2L1k$oXDqK2" resolve="pure" />
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbS" id="2L1k$oXFjlr" role="3clFbx">
-          <node concept="2MkqsV" id="2L1k$oXFkHn" role="3cqZAp">
-            <node concept="Xl_RD" id="2L1k$oXFkHA" role="2MkJ7o">
-              <property role="Xl_RC" value="Non-virtual method can not be pure." />
-            </node>
-            <node concept="1YBJjd" id="2L1k$oXFkHT" role="2OEOjV">
-              <ref role="1YBMHb" node="2L1k$oXFje2" resolve="iPureVirtualisable" />
->>>>>>> e035d6ce33... Move pure after visibility.
-=======
               <ref role="3TsBF5" to="wnzg:5i01kANicU4" resolve="isDestructor" />
             </node>
           </node>
@@ -2610,18 +1915,10 @@
             </node>
             <node concept="3TrcHB" id="1D2kn99Lzfg" role="2OqNvi">
               <ref role="3TsBF5" to="wnzg:5eDFAXBRQhK" resolve="isConstExpr" />
->>>>>>> b0d1d327f3... Add contexpr to constructors
             </node>
           </node>
         </node>
       </node>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-      <node concept="3clFbH" id="5i01kANs672" role="3cqZAp" />
-=======
->>>>>>> b0d1d327f3... Add contexpr to constructors
-=======
       <node concept="3clFbH" id="nGa9qSYtOz" role="3cqZAp" />
       <node concept="3SKdUt" id="c7Kd0fkt9h" role="3cqZAp">
         <node concept="1PaTwC" id="7jWRS$D_14z" role="1aUNEU">
@@ -2832,88 +2129,10 @@
           </node>
         </node>
       </node>
->>>>>>> 4d93fdac25... Add checks for base class initialization
     </node>
     <node concept="1YaCAy" id="6ddXmWdG7bc" role="1YuTPh">
       <property role="TrG5h" value="classConstructor" />
       <ref role="1YaFvo" to="wnzg:6NtgknWJ20B" resolve="ClassConstructorDeclaration" />
-    </node>
-  </node>
-  <node concept="18kY7G" id="6hUtorEaE9A">
-    <property role="TrG5h" value="check_LocalClassVariableDeclaration" />
-    <property role="3GE5qa" value="class" />
-    <node concept="3clFbS" id="6hUtorEaE9B" role="18ibNy">
-      <node concept="3clFbJ" id="2xmTzC2LUoJ" role="3cqZAp">
-        <node concept="2OqwBi" id="2xmTzC2LWL2" role="3clFbw">
-          <node concept="2OqwBi" id="2xmTzC2LUQj" role="2Oq$k0">
-            <node concept="1YBJjd" id="2xmTzC2LUp1" role="2Oq$k0">
-              <ref role="1YBMHb" node="6hUtorEaE9D" resolve="lcvd" />
-            </node>
-            <node concept="3TrEf2" id="2xmTzC2LV$U" role="2OqNvi">
-              <ref role="3Tt5mk" to="wnzg:6hUtorE26va" resolve="constructor" />
-            </node>
-          </node>
-          <node concept="3w_OXm" id="2xmTzC2LY6z" role="2OqNvi" />
-        </node>
-        <node concept="3clFbS" id="2xmTzC2LUoL" role="3clFbx">
-          <node concept="a7r0C" id="2xmTzC2LYc4" role="3cqZAp">
-            <node concept="Xl_RD" id="2xmTzC2LYc6" role="a7wSD">
-              <property role="Xl_RC" value="You should select a constructor on class objects." />
-            </node>
-            <node concept="1YBJjd" id="2xmTzC2LYd7" role="2OEOjV">
-              <ref role="1YBMHb" node="6hUtorEaE9D" resolve="lcvd" />
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="1YaCAy" id="6hUtorEaE9D" role="1YuTPh">
-      <property role="TrG5h" value="lcvd" />
-      <ref role="1YaFvo" to="wnzg:6hUtorDW7AG" resolve="LocalClassVariableDeclaration" />
-    </node>
-  </node>
-  <node concept="18kY7G" id="6hUtorEt3FZ">
-    <property role="TrG5h" value="check_IClassTyped" />
-    <property role="3GE5qa" value="class" />
-    <node concept="3clFbS" id="6hUtorEt3G0" role="18ibNy">
-      <node concept="3clFbJ" id="6hUtorEt3G6" role="3cqZAp">
-        <node concept="3clFbS" id="6hUtorEt3G8" role="3clFbx">
-          <node concept="2MkqsV" id="6hUtorEt47E" role="3cqZAp">
-            <node concept="3cpWs3" id="6hUtorEtrhL" role="2MkJ7o">
-              <node concept="2OqwBi" id="6hUtorEtrxp" role="3uHU7w">
-                <node concept="1YBJjd" id="6hUtorEtrli" role="2Oq$k0">
-                  <ref role="1YBMHb" node="6hUtorEt3G2" resolve="iClassTyped" />
-                </node>
-                <node concept="3TrEf2" id="6hUtorEtrOE" role="2OqNvi">
-                  <ref role="3Tt5mk" to="mj1l:hEaDaGor64" resolve="type" />
-                </node>
-              </node>
-              <node concept="Xl_RD" id="6hUtorEt47T" role="3uHU7B">
-                <property role="Xl_RC" value="This must be an instance of ClassType but is " />
-              </node>
-            </node>
-            <node concept="1YBJjd" id="6hUtorEt48x" role="2OEOjV">
-              <ref role="1YBMHb" node="6hUtorEt3G2" resolve="iClassTyped" />
-            </node>
-          </node>
-        </node>
-        <node concept="yS_3z" id="6hUtorEusH4" role="3clFbw">
-          <node concept="2OqwBi" id="6hUtorEusVQ" role="3JuY14">
-            <node concept="1YBJjd" id="6hUtorEusNT" role="2Oq$k0">
-              <ref role="1YBMHb" node="6hUtorEt3G2" resolve="iClassTyped" />
-            </node>
-            <node concept="3JvlWi" id="6hUtorEutiq" role="2OqNvi" />
-          </node>
-          <node concept="1YBJjd" id="6hUtorEutpf" role="3JuZjQ">
-            <ref role="1YBMHb" node="6hUtorEt3G2" resolve="iClassTyped" />
-          </node>
-        </node>
-      </node>
-      <node concept="3clFbH" id="6hUtorEt3Gp" role="3cqZAp" />
-    </node>
-    <node concept="1YaCAy" id="6hUtorEt3G2" role="1YuTPh">
-      <property role="TrG5h" value="iClassTyped" />
-      <ref role="1YaFvo" to="wnzg:6hUtorE0jsx" resolve="IClassTyped" />
     </node>
   </node>
   <node concept="1YbPZF" id="7DDmkz3qBq">
@@ -3065,28 +2284,8 @@
           </node>
         </node>
         <node concept="mw_s8" id="7DDmkz3rve" role="1ZfhKB">
-<<<<<<< HEAD
-          <node concept="1Z2H0r" id="7DDmkz3rva" role="mwGJk">
-            <node concept="2OqwBi" id="7DDmkz3rEK" role="1Z2MuG">
-              <node concept="2OqwBi" id="7DDmkz3LgS" role="2Oq$k0">
-                <node concept="1YBJjd" id="7DDmkz3rvy" role="2Oq$k0">
-                  <ref role="1YBMHb" node="7DDmkz3qBt" resolve="constructorInitializedAttribute" />
-                </node>
-                <node concept="3TrEf2" id="7DDmkz3LuZ" role="2OqNvi">
-                  <ref role="3Tt5mk" to="wnzg:7DDmkz1Ipj" resolve="identity" />
-                </node>
-              </node>
-              <node concept="3TrEf2" id="7DDmkz3rTi" role="2OqNvi">
-                <ref role="3Tt5mk" to="mj1l:hEaDaGor64" resolve="type" />
-              </node>
-            </node>
-<<<<<<< HEAD
-=======
-=======
-=======
           <node concept="37vLTw" id="6_kdBKN7DRD" role="mwGJk">
             <ref role="3cqZAo" node="6_kdBKN7_xO" resolve="type" />
->>>>>>> 25f98cbbb7... Fix class constructors
           </node>
         </node>
       </node>
@@ -3368,7 +2567,6 @@
           </node>
         </node>
       </node>
->>>>>>> db12665a8c... Move pure virtualisable into the method virtual package
     </node>
     <node concept="1YaCAy" id="2L1k$oXFje2" role="1YuTPh">
       <property role="TrG5h" value="iPureVirtualisable" />
@@ -3411,112 +2609,6 @@
               </node>
             </node>
             <node concept="3w_OXm" id="2L1k$oXL3ta" role="2OqNvi" />
->>>>>>> e035d6ce33... Move pure after visibility.
-          </node>
-        </node>
-      </node>
-    </node>
-<<<<<<< HEAD
-    <node concept="1YaCAy" id="7DDmkz3qBt" role="1YuTPh">
-      <property role="TrG5h" value="constructorInitializedAttribute" />
-      <ref role="1YaFvo" to="wnzg:7DDmkyVr_r" resolve="ConstructorInitializedAttribute" />
-    </node>
-  </node>
-  <node concept="18kY7G" id="4KyQ_QhNKFY">
-    <property role="TrG5h" value="check_ConstructorInitializedConstructor" />
-    <property role="3GE5qa" value="method.constructor" />
-    <node concept="3clFbS" id="4KyQ_QhNKFZ" role="18ibNy">
-      <node concept="a7r0C" id="4KyQ_QhNKG5" role="3cqZAp">
-        <node concept="Xl_RD" id="4KyQ_QhNKGq" role="a7wSD">
-          <property role="Xl_RC" value="TODO: TextGen does not generate the constructor name on initialized lists." />
-        </node>
-        <node concept="1YBJjd" id="4KyQ_QhNKIc" role="2OEOjV">
-          <ref role="1YBMHb" node="4KyQ_QhNKG1" resolve="constructorInitializedConstructor" />
-        </node>
-      </node>
-    </node>
-    <node concept="1YaCAy" id="4KyQ_QhNKG1" role="1YuTPh">
-      <property role="TrG5h" value="constructorInitializedConstructor" />
-      <ref role="1YaFvo" to="wnzg:7DDmkz5m05" resolve="ConstructorInitializedConstructor" />
-    </node>
-  </node>
-  <node concept="18kY7G" id="5i01kANrE32">
-    <property role="TrG5h" value="check_ClassDeclaration" />
-    <property role="3GE5qa" value="class" />
-    <node concept="3clFbS" id="5i01kANrE33" role="18ibNy">
-      <node concept="3cpWs8" id="5i01kANrOPF" role="3cqZAp">
-        <node concept="3cpWsn" id="5i01kANrOPI" role="3cpWs9">
-          <property role="TrG5h" value="numDestructors" />
-          <node concept="10Oyi0" id="5i01kANrOPD" role="1tU5fm" />
-          <node concept="2OqwBi" id="5i01kANrKtW" role="33vP2m">
-            <node concept="2OqwBi" id="5i01kANrHNT" role="2Oq$k0">
-              <node concept="2OqwBi" id="5i01kANrGtz" role="2Oq$k0">
-                <node concept="2OqwBi" id="5i01kANrElC" role="2Oq$k0">
-                  <node concept="1YBJjd" id="5i01kANrE3w" role="2Oq$k0">
-                    <ref role="1YBMHb" node="5i01kANrE35" resolve="classDeclaration" />
-                  </node>
-                  <node concept="3Tsc0h" id="5i01kANrEIF" role="2OqNvi">
-                    <ref role="3TtcxE" to="wnzg:4o2nsMgBClg" resolve="members" />
-                  </node>
-                </node>
-                <node concept="v3k3i" id="5i01kANrHw7" role="2OqNvi">
-                  <node concept="chp4Y" id="5i01kANrHx2" role="v3oSu">
-                    <ref role="cht4Q" to="wnzg:6NtgknWJ20B" resolve="ClassConstructorDeclaration" />
-                  </node>
-                </node>
-              </node>
-              <node concept="3zZkjj" id="5i01kANrI1X" role="2OqNvi">
-                <node concept="1bVj0M" id="5i01kANrI1Z" role="23t8la">
-                  <node concept="3clFbS" id="5i01kANrI20" role="1bW5cS">
-                    <node concept="3clFbF" id="5i01kANrI7p" role="3cqZAp">
-                      <node concept="2OqwBi" id="5i01kANrIEG" role="3clFbG">
-                        <node concept="37vLTw" id="5i01kANrI7o" role="2Oq$k0">
-                          <ref role="3cqZAo" node="5i01kANrI21" resolve="it" />
-                        </node>
-                        <node concept="3TrcHB" id="5i01kANrK0X" role="2OqNvi">
-                          <ref role="3TsBF5" to="wnzg:5i01kANicU4" resolve="is_destructor" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                  <node concept="Rh6nW" id="5i01kANrI21" role="1bW2Oz">
-                    <property role="TrG5h" value="it" />
-                    <node concept="2jxLKc" id="5i01kANrI22" role="1tU5fm" />
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="34oBXx" id="5i01kANrKOy" role="2OqNvi" />
-          </node>
-        </node>
-      </node>
-      <node concept="3clFbJ" id="5i01kANrE3d" role="3cqZAp">
-        <node concept="3clFbS" id="5i01kANrE3f" role="3clFbx">
-          <node concept="2MkqsV" id="5i01kANrNYO" role="3cqZAp">
-            <node concept="3cpWs3" id="5i01kANrSCn" role="2MkJ7o">
-              <node concept="Xl_RD" id="5i01kANrSZ0" role="3uHU7w">
-                <property role="Xl_RC" value="." />
-              </node>
-              <node concept="3cpWs3" id="5i01kANrOOI" role="3uHU7B">
-                <node concept="Xl_RD" id="5i01kANrNZ6" role="3uHU7B">
-                  <property role="Xl_RC" value="Classes may only have one destructor. This class has " />
-                </node>
-                <node concept="37vLTw" id="5i01kANrPxJ" role="3uHU7w">
-                  <ref role="3cqZAo" node="5i01kANrOPI" resolve="numDestructors" />
-                </node>
-              </node>
-            </node>
-            <node concept="1YBJjd" id="5i01kANrTFR" role="2OEOjV">
-              <ref role="1YBMHb" node="5i01kANrE35" resolve="classDeclaration" />
-            </node>
-          </node>
-        </node>
-        <node concept="3eOSWO" id="5i01kANrNFC" role="3clFbw">
-          <node concept="3cmrfG" id="5i01kANrNFF" role="3uHU7w">
-            <property role="3cmrfH" value="1" />
-          </node>
-          <node concept="37vLTw" id="5i01kANrP5J" role="3uHU7B">
-            <ref role="3cqZAo" node="5i01kANrOPI" resolve="numDestructors" />
           </node>
         </node>
       </node>
@@ -3583,174 +2675,12 @@
         </node>
       </node>
       <node concept="3clFbH" id="5eDFAXB$S1T" role="3cqZAp" />
-<<<<<<< HEAD
-      <node concept="3clFbJ" id="5eDFAXB$Ser" role="3cqZAp">
-        <node concept="3clFbS" id="5eDFAXB$Set" role="3clFbx">
-          <node concept="2MkqsV" id="5eDFAXB$VOf" role="3cqZAp">
-            <node concept="Xl_RD" id="5eDFAXB$VOx" role="2MkJ7o">
-              <property role="Xl_RC" value="Static member can't be virtual" />
-            </node>
-            <node concept="1YBJjd" id="5eDFAXB$VP9" role="2OEOjV">
-              <ref role="1YBMHb" node="2L1k$oXKZ8O" resolve="methodDeclaration" />
-            </node>
-          </node>
-        </node>
-        <node concept="1Wc70l" id="15T8UHyn90M" role="3clFbw">
-          <node concept="2OqwBi" id="5eDFAXB$SHU" role="3uHU7w">
-            <node concept="1YBJjd" id="5eDFAXB$Sfe" role="2Oq$k0">
-              <ref role="1YBMHb" node="2L1k$oXKZ8O" resolve="methodDeclaration" />
-            </node>
-            <node concept="3TrcHB" id="5eDFAXB$Ty1" role="2OqNvi">
-              <ref role="3TsBF5" to="wnzg:2L1k$oXxncX" resolve="isVirtual" />
-            </node>
-          </node>
-          <node concept="2OqwBi" id="5eDFAXB$UO2" role="3uHU7B">
-            <node concept="1YBJjd" id="5eDFAXB$UpA" role="2Oq$k0">
-              <ref role="1YBMHb" node="2L1k$oXKZ8O" resolve="methodDeclaration" />
-            </node>
-            <node concept="3TrcHB" id="5eDFAXB$VCo" role="2OqNvi">
-              <ref role="3TsBF5" to="wnzg:1Yr26itwx8v" resolve="isStatic" />
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="3clFbH" id="15T8UHyn9hs" role="3cqZAp" />
-      <node concept="3clFbJ" id="15T8UHyn9jl" role="3cqZAp">
-        <node concept="3clFbS" id="15T8UHyn9jn" role="3clFbx">
-          <node concept="2MkqsV" id="15T8UHynk$U" role="3cqZAp">
-            <node concept="Xl_RD" id="15T8UHynk$V" role="2MkJ7o">
-              <property role="Xl_RC" value="Static member can't be volatile" />
-            </node>
-            <node concept="1YBJjd" id="15T8UHynk$W" role="2OEOjV">
-              <ref role="1YBMHb" node="2L1k$oXKZ8O" resolve="methodDeclaration" />
-            </node>
-          </node>
-        </node>
-        <node concept="1Wc70l" id="15T8UHyndfy" role="3clFbw">
-          <node concept="2OqwBi" id="15T8UHyndUu" role="3uHU7w">
-            <node concept="1YBJjd" id="15T8UHyndr5" role="2Oq$k0">
-              <ref role="1YBMHb" node="2L1k$oXKZ8O" resolve="methodDeclaration" />
-            </node>
-            <node concept="3TrcHB" id="15T8UHynkrc" role="2OqNvi">
-              <ref role="3TsBF5" to="wnzg:5eDFAXBCpes" resolve="isVolatile" />
-            </node>
-          </node>
-          <node concept="2OqwBi" id="15T8UHyn9IN" role="3uHU7B">
-            <node concept="1YBJjd" id="15T8UHyn9ky" role="2Oq$k0">
-              <ref role="1YBMHb" node="2L1k$oXKZ8O" resolve="methodDeclaration" />
-            </node>
-            <node concept="3TrcHB" id="15T8UHynbaW" role="2OqNvi">
-              <ref role="3TsBF5" to="wnzg:1Yr26itwx8v" resolve="isStatic" />
-            </node>
-          </node>
-        </node>
-      </node>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    </node>
-    <node concept="1YaCAy" id="5i01kANrE35" role="1YuTPh">
-      <property role="TrG5h" value="classDeclaration" />
-      <ref role="1YaFvo" to="wnzg:4o2nsMgBpPQ" resolve="ClassDeclaration" />
-=======
-    <node concept="1YaCAy" id="2L1k$oXKZ8O" role="1YuTPh">
-      <property role="TrG5h" value="methodDeclaration" />
-      <ref role="1YaFvo" to="wnzg:4o2nsMgB$VW" resolve="MethodDeclaration" />
->>>>>>> e035d6ce33... Move pure after visibility.
-    </node>
-  </node>
-  <node concept="18kY7G" id="5eDFAXBGiPA">
-    <property role="TrG5h" value="check_AttributeDeclaration" />
-    <node concept="3clFbS" id="5eDFAXBGiPB" role="18ibNy">
-      <node concept="3clFbJ" id="5eDFAXBREZ3" role="3cqZAp">
-        <node concept="3clFbS" id="5eDFAXBREZ5" role="3clFbx">
-          <node concept="2MkqsV" id="5eDFAXBRHRp" role="3cqZAp">
-            <node concept="Xl_RD" id="5eDFAXBRHRq" role="2MkJ7o">
-              <property role="Xl_RC" value="Field can't be both static and extern" />
-            </node>
-            <node concept="1YBJjd" id="5eDFAXBRHRr" role="2OEOjV">
-              <ref role="1YBMHb" node="5eDFAXBGiPD" resolve="attributeDeclaration" />
-=======
-      <node concept="3clFbH" id="15T8UHynkMW" role="3cqZAp" />
-      <node concept="3clFbJ" id="15T8UHynl3E" role="3cqZAp">
-        <node concept="3clFbS" id="15T8UHynl3G" role="3clFbx">
-          <node concept="2MkqsV" id="15T8UHynpZ8" role="3cqZAp">
-            <node concept="Xl_RD" id="15T8UHynpZ9" role="2MkJ7o">
-              <property role="Xl_RC" value="Static member can't be constant" />
-            </node>
-            <node concept="1YBJjd" id="15T8UHynpZa" role="2OEOjV">
-              <ref role="1YBMHb" node="2L1k$oXKZ8O" resolve="methodDeclaration" />
->>>>>>> 09b625296a... Add typesystem for specifiers
-            </node>
-          </node>
-        </node>
-        <node concept="1Wc70l" id="15T8UHyno6j" role="3clFbw">
-          <node concept="2OqwBi" id="15T8UHynoTw" role="3uHU7w">
-            <node concept="1YBJjd" id="15T8UHynoji" role="2Oq$k0">
-              <ref role="1YBMHb" node="2L1k$oXKZ8O" resolve="methodDeclaration" />
-            </node>
-            <node concept="3TrcHB" id="15T8UHynpM7" role="2OqNvi">
-              <ref role="3TsBF5" to="wnzg:5eDFAXBC$A8" resolve="isConstant" />
-            </node>
-          </node>
-          <node concept="2OqwBi" id="15T8UHynlxy" role="3uHU7B">
-            <node concept="1YBJjd" id="15T8UHynl5H" role="2Oq$k0">
-              <ref role="1YBMHb" node="2L1k$oXKZ8O" resolve="methodDeclaration" />
-            </node>
-            <node concept="3TrcHB" id="15T8UHynmpU" role="2OqNvi">
-=======
-      <node concept="3clFbH" id="7mGKYHhk$HL" role="3cqZAp" />
-      <node concept="3clFbJ" id="7mGKYHhk$M6" role="3cqZAp">
-        <node concept="3clFbS" id="7mGKYHhk$M8" role="3clFbx">
-          <node concept="2MkqsV" id="7mGKYHhkF9y" role="3cqZAp">
-            <node concept="Xl_RD" id="7mGKYHhkF9O" role="2MkJ7o">
-              <property role="Xl_RC" value="Static member can't be const" />
-            </node>
-            <node concept="1YBJjd" id="7mGKYHhkFa7" role="2OEOjV">
-              <ref role="1YBMHb" node="2L1k$oXKZ8O" resolve="methodDeclaration" />
-            </node>
-          </node>
-        </node>
-        <node concept="1Wc70l" id="7mGKYHhkAKf" role="3clFbw">
-          <node concept="2OqwBi" id="7mGKYHhkEpY" role="3uHU7w">
-            <node concept="2OqwBi" id="7mGKYHhkBx5" role="2Oq$k0">
-              <node concept="1YBJjd" id="7mGKYHhkAYu" role="2Oq$k0">
-                <ref role="1YBMHb" node="2L1k$oXKZ8O" resolve="methodDeclaration" />
-              </node>
-              <node concept="3TrEf2" id="7mGKYHhkDmD" role="2OqNvi">
-                <ref role="3Tt5mk" to="mj1l:hEaDaGor64" resolve="type" />
-              </node>
-            </node>
-            <node concept="3TrcHB" id="7mGKYHhkESQ" role="2OqNvi">
-              <ref role="3TsBF5" to="mj1l:2zhwXA$N7QC" resolve="const" />
-            </node>
-          </node>
-          <node concept="2OqwBi" id="7mGKYHhk_i1" role="3uHU7B">
-            <node concept="1YBJjd" id="7mGKYHhk$Ox" role="2Oq$k0">
-              <ref role="1YBMHb" node="2L1k$oXKZ8O" resolve="methodDeclaration" />
-            </node>
-            <node concept="3TrcHB" id="7mGKYHhkA9B" role="2OqNvi">
->>>>>>> b26061a0e5... Cleanup: Removed all the warnings for the whole project structure
-              <ref role="3TsBF5" to="wnzg:1Yr26itwx8v" resolve="isStatic" />
-            </node>
-          </node>
-        </node>
-      </node>
-<<<<<<< HEAD
-=======
->>>>>>> e244fa05a3... Add method and attribute test cases
-=======
->>>>>>> b26061a0e5... Cleanup: Removed all the warnings for the whole project structure
-=======
->>>>>>> 1adc8a049b... Migrate static method checks that were in the non-static prule to the static one
     </node>
     <node concept="1YaCAy" id="2L1k$oXKZ8O" role="1YuTPh">
       <property role="TrG5h" value="md" />
       <ref role="1YaFvo" to="wnzg:4o2nsMgB$VW" resolve="MethodDeclaration" />
     </node>
   </node>
-<<<<<<< HEAD
-=======
   <node concept="1YbPZF" id="383ZxwZuZXy">
     <property role="TrG5h" value="typeof_NamespaceMethodCall" />
     <property role="3GE5qa" value="namespace" />
@@ -3862,7 +2792,6 @@
       <ref role="1YaFvo" to="wnzg:383ZxwZrBkp" resolve="NamespaceAttributeRef" />
     </node>
   </node>
->>>>>>> 180d6b24f4... Unify structure naming, fix dependency issue and remove unused dependencies
   <node concept="18kY7G" id="5eDFAXBGiPA">
     <property role="TrG5h" value="check_AttributeDeclaration" />
     <node concept="3clFbS" id="5eDFAXBGiPB" role="18ibNy">
@@ -3969,40 +2898,6 @@
                   <ref role="3TsBF5" to="wnzg:5eDFAXBRQhK" resolve="isConstExpr" />
                 </node>
               </node>
-=======
-    <node concept="1YaCAy" id="383ZxwZuziM" role="1YuTPh">
-      <property role="TrG5h" value="nsAR" />
-      <ref role="1YaFvo" to="wnzg:383ZxwZrBkp" resolve="NamespaceAttributeRef" />
-    </node>
-  </node>
-  <node concept="1YbPZF" id="383ZxwZuZXy">
-    <property role="TrG5h" value="typeof_NamespaceMethodCall" />
-    <property role="3GE5qa" value="Namespace" />
-    <node concept="3clFbS" id="383ZxwZuZXz" role="18ibNy">
-      <node concept="1Z5TYs" id="383ZxwZv0jk" role="3cqZAp">
-        <node concept="mw_s8" id="383ZxwZv0jI" role="1ZfhKB">
-          <node concept="2OqwBi" id="383ZxwZv3GJ" role="mwGJk">
-            <node concept="2OqwBi" id="383ZxwZv1DG" role="2Oq$k0">
-              <node concept="2OqwBi" id="383ZxwZv0yO" role="2Oq$k0">
-                <node concept="1YBJjd" id="383ZxwZv0jG" role="2Oq$k0">
-                  <ref role="1YBMHb" node="383ZxwZuZX_" resolve="nsMC" />
-                </node>
-                <node concept="3TrEf2" id="383ZxwZv0Vg" role="2OqNvi">
-                  <ref role="3Tt5mk" to="wnzg:383ZxwZrBkI" resolve="method" />
-                </node>
-              </node>
-              <node concept="3TrEf2" id="383ZxwZv2Xw" role="2OqNvi">
-                <ref role="3Tt5mk" to="mj1l:hEaDaGor64" resolve="type" />
-              </node>
-            </node>
-            <node concept="1$rogu" id="383ZxwZv44G" role="2OqNvi" />
-          </node>
-        </node>
-        <node concept="mw_s8" id="383ZxwZv0jn" role="1ZfhK$">
-          <node concept="1Z2H0r" id="383ZxwZuZXG" role="mwGJk">
-            <node concept="1YBJjd" id="383ZxwZuZXZ" role="1Z2MuG">
-              <ref role="1YBMHb" node="383ZxwZuZX_" resolve="nsMC" />
->>>>>>> b95cdd26ff... Namespace Declaration and Member Referencing (WIP) without TextGen elements
             </node>
           </node>
         </node>
@@ -4197,115 +3092,9 @@
       </node>
       <node concept="3clFbH" id="8CgsWnaiZF" role="3cqZAp" />
     </node>
-<<<<<<< HEAD
     <node concept="1YaCAy" id="5eDFAXBGiPD" role="1YuTPh">
       <property role="TrG5h" value="ad" />
       <ref role="1YaFvo" to="wnzg:4o2nsMgBIrb" resolve="AttributeDeclaration" />
-=======
-    <node concept="1YaCAy" id="383ZxwZuZX_" role="1YuTPh">
-      <property role="TrG5h" value="nsMC" />
-      <ref role="1YaFvo" to="wnzg:383ZxwZrBky" resolve="NamespaceMethodCall" />
->>>>>>> b95cdd26ff... Namespace Declaration and Member Referencing (WIP) without TextGen elements
-    </node>
-  </node>
-  <node concept="1YbPZF" id="7fNEwq_kdh2">
-    <property role="TrG5h" value="typeof_NamespaceClassInstanceRef" />
-    <property role="3GE5qa" value="Namespace" />
-    <node concept="3clFbS" id="7fNEwq_kdh3" role="18ibNy">
-      <node concept="1Z5TYs" id="7fNEwq_kdtk" role="3cqZAp">
-        <node concept="mw_s8" id="7fNEwq_kdtI" role="1ZfhKB">
-          <node concept="2OqwBi" id="7fNEwq_ki2q" role="mwGJk">
-            <node concept="2OqwBi" id="7fNEwq_kgxY" role="2Oq$k0">
-              <node concept="2OqwBi" id="7fNEwq_kdHv" role="2Oq$k0">
-                <node concept="1YBJjd" id="7fNEwq_kdtG" role="2Oq$k0">
-                  <ref role="1YBMHb" node="7fNEwq_kdh5" resolve="nsCIRef" />
-                </node>
-                <node concept="3TrEf2" id="7fNEwq_kfWJ" role="2OqNvi">
-                  <ref role="3Tt5mk" to="wnzg:7fNEwq_6ZLT" resolve="class_attribute" />
-                </node>
-              </node>
-              <node concept="3TrEf2" id="7fNEwq_khme" role="2OqNvi">
-                <ref role="3Tt5mk" to="mj1l:hEaDaGor64" resolve="type" />
-              </node>
-            </node>
-            <node concept="1$rogu" id="7fNEwq_kipC" role="2OqNvi" />
-          </node>
-        </node>
-        <node concept="mw_s8" id="7fNEwq_kdtn" role="1ZfhK$">
-          <node concept="1Z2H0r" id="7fNEwq_kdh9" role="mwGJk">
-            <node concept="1YBJjd" id="7fNEwq_kdm8" role="1Z2MuG">
-              <ref role="1YBMHb" node="7fNEwq_kdh5" resolve="nsCIRef" />
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="1YaCAy" id="7fNEwq_kdh5" role="1YuTPh">
-      <property role="TrG5h" value="nsCIRef" />
-      <ref role="1YaFvo" to="wnzg:7fNEwq_6ZJn" resolve="NamespaceClassInstanceAttributeRef" />
-    </node>
-  </node>
-  <node concept="Q5z_Y" id="1rV7RaURv4x">
-    <property role="TrG5h" value="fix_" />
-    <node concept="Q5ZZ6" id="1rV7RaURv4y" role="Q6x$H">
-      <node concept="3clFbS" id="1rV7RaURv4z" role="2VODD2" />
-    </node>
-  </node>
-  <node concept="Q5z_Y" id="1rV7RaURv92">
-    <property role="3GE5qa" value="method.constructor" />
-    <property role="TrG5h" value="fix_cic_real_name" />
-    <node concept="Q5ZZ6" id="1rV7RaURv93" role="Q6x$H">
-      <node concept="3clFbS" id="1rV7RaURv94" role="2VODD2">
-        <node concept="3SKdUt" id="1rV7RaUSrZW" role="3cqZAp">
-          <node concept="3SKdUq" id="1rV7RaUSrZY" role="3SKWNk">
-            <property role="3SKdUp" value="This forces the real_name attribute to be fixed for textgen." />
-          </node>
-        </node>
-        <node concept="3cpWs8" id="1rV7RaURwuf" role="3cqZAp">
-          <node concept="3cpWsn" id="1rV7RaURwui" role="3cpWs9">
-            <property role="TrG5h" value="asCIC" />
-            <node concept="3Tqbb2" id="1rV7RaURwue" role="1tU5fm">
-              <ref role="ehGHo" to="wnzg:7DDmkz5m05" resolve="ConstructorInitializedConstructor" />
-            </node>
-            <node concept="1PxgMI" id="1rV7RaURx0N" role="33vP2m">
-              <node concept="chp4Y" id="1rV7RaURx1x" role="3oSUPX">
-                <ref role="cht4Q" to="wnzg:7DDmkz5m05" resolve="ConstructorInitializedConstructor" />
-              </node>
-              <node concept="Q6c8r" id="1rV7RaURwwj" role="1m5AlR" />
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="1rV7RaURx3R" role="3cqZAp">
-          <node concept="37vLTI" id="1rV7RaURyB9" role="3clFbG">
-            <node concept="2OqwBi" id="1rV7RaUR_IA" role="37vLTx">
-              <node concept="2OqwBi" id="1rV7RaURzHT" role="2Oq$k0">
-                <node concept="2OqwBi" id="1rV7RaURyR8" role="2Oq$k0">
-                  <node concept="37vLTw" id="1rV7RaURyEa" role="2Oq$k0">
-                    <ref role="3cqZAo" node="1rV7RaURwui" resolve="asCIC" />
-                  </node>
-                  <node concept="3TrEf2" id="1rV7RaURz5z" role="2OqNvi">
-                    <ref role="3Tt5mk" to="wnzg:7DDmkza$5N" resolve="identity" />
-                  </node>
-                </node>
-                <node concept="3TrEf2" id="1rV7RaUR$wB" role="2OqNvi">
-                  <ref role="3Tt5mk" to="wnzg:6NtgknWJ214" resolve="parent_class" />
-                </node>
-              </node>
-              <node concept="3TrcHB" id="1rV7RaURAuG" role="2OqNvi">
-                <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
-              </node>
-            </node>
-            <node concept="2OqwBi" id="1rV7RaURxes" role="37vLTJ">
-              <node concept="37vLTw" id="1rV7RaURx3P" role="2Oq$k0">
-                <ref role="3cqZAo" node="1rV7RaURwui" resolve="asCIC" />
-              </node>
-              <node concept="3TrcHB" id="1rV7RaURxqx" role="2OqNvi">
-                <ref role="3TsBF5" to="wnzg:1rV7RaSNWqj" resolve="real_name" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
     </node>
   </node>
   <node concept="1YbPZF" id="6FZQsHtqxSJ">
@@ -5064,17 +3853,6 @@
       </node>
     </node>
   </node>
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-  <node concept="Q5z_Y" id="1rV7RaURv4x">
-    <property role="TrG5h" value="fix_" />
-    <node concept="Q5ZZ6" id="1rV7RaURv4y" role="Q6x$H">
-      <node concept="3clFbS" id="1rV7RaURv4z" role="2VODD2" />
-    </node>
-  </node>
-=======
->>>>>>> b4ea712291... Remove fix_
   <node concept="Q5z_Y" id="1rV7RaURv92">
     <property role="3GE5qa" value="method.constructor" />
     <property role="TrG5h" value="fix_cic_real_name" />
@@ -5161,8 +3939,6 @@
       </node>
     </node>
   </node>
-<<<<<<< HEAD
-<<<<<<< HEAD
   <node concept="1YbPZF" id="6OyCGy9cZbG">
     <property role="TrG5h" value="typeof_ClassStaticVarRef" />
     <node concept="3clFbS" id="6OyCGy9cZbH" role="18ibNy">
@@ -5210,10 +3986,6 @@
               <node concept="2X3wrD" id="6OyCGy9d1mN" role="mwGJk">
                 <ref role="2X3Bk0" node="6OyCGy9cZbQ" resolve="type" />
               </node>
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
             </node>
             <node concept="mw_s8" id="6OyCGy9d1mu" role="1ZfhK$">
               <node concept="1Z2H0r" id="6OyCGy9cZMT" role="mwGJk">
@@ -5295,7 +4067,6 @@
                   <ref role="cht4Q" to="wnzg:6NtgknWJ20B" resolve="ClassConstructorDeclaration" />
                 </node>
               </node>
->>>>>>> 7743891de9... Move constructor outside method virtual package
               <node concept="1xIGOp" id="3p40HKhGUOc" role="1xVPHs" />
             </node>
           </node>
@@ -5310,60 +4081,16 @@
             </node>
             <node concept="1YBJjd" id="3p40HKhGW3A" role="1urrMF">
               <ref role="1YBMHb" node="3p40HKhGUqD" resolve="iaci" />
->>>>>>> 12675a6d36... Add static context checks
             </node>
-<<<<<<< HEAD
-            <node concept="mw_s8" id="6OyCGy9d1mu" role="1ZfhK$">
-              <node concept="1Z2H0r" id="6OyCGy9cZMT" role="mwGJk">
-                <node concept="1YBJjd" id="6OyCGy9cZNc" role="1Z2MuG">
-                  <ref role="1YBMHb" node="6OyCGy9cZbJ" resolve="classStaticVarRef" />
-=======
-  <node concept="1YbPZF" id="3p40HKhxE68">
-    <property role="3GE5qa" value="class" />
-    <property role="TrG5h" value="typeof_InheritanceNameCollision" />
-    <node concept="3clFbS" id="3p40HKhxE69" role="18ibNy">
-      <node concept="3SKdUt" id="3p40HKhxJxb" role="3cqZAp">
-        <node concept="3SKdUq" id="3p40HKhxJxc" role="3SKWNk">
-          <property role="3SKdUp" value="Checks for name collisions in inherited classes." />
-=======
           </node>
-        </node>
-        <node concept="2X1qdy" id="6WSa0soiKuS" role="2X0Ygz">
-          <property role="TrG5h" value="toc" />
-          <node concept="2jxLKc" id="6WSa0soiKuT" role="1tU5fm" />
         </node>
       </node>
     </node>
-    <node concept="1YaCAy" id="6WSa0so1FHG" role="1YuTPh">
-      <property role="TrG5h" value="nd" />
-      <ref role="1YaFvo" to="wnzg:6WSa0snOgvZ" resolve="NewDeclaration" />
+    <node concept="1YaCAy" id="3p40HKhGUqD" role="1YuTPh">
+      <property role="TrG5h" value="iaci" />
+      <ref role="1YaFvo" to="wnzg:3n$8_Xbpg8r" resolve="IAmConstructorInitializable" />
     </node>
   </node>
-<<<<<<< HEAD
-  <node concept="1YbPZF" id="7j9KGYKwWRg">
-    <property role="TrG5h" value="typeof_NewObjectInitializer" />
-    <node concept="bXqS6" id="72UYQRWEgvF" role="bX4a1">
-      <node concept="3clFbS" id="72UYQRWEgvG" role="2VODD2">
-        <node concept="3clFbF" id="72UYQRWEhc6" role="3cqZAp">
-          <node concept="3clFbT" id="72UYQRWEhc5" role="3clFbG">
-            <property role="3clFbU" value="true" />
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="3clFbS" id="7j9KGYKwWRh" role="18ibNy">
-<<<<<<< HEAD
-      <node concept="3cpWs8" id="7U4vk8Q2gzL" role="3cqZAp">
-        <node concept="3cpWsn" id="7U4vk8Q2gzM" role="3cpWs9">
-          <property role="TrG5h" value="formals" />
-          <property role="3TUv4t" value="true" />
-          <node concept="2I9FWS" id="7U4vk8Q2gzK" role="1tU5fm">
-            <ref role="2I9WkF" to="x27k:7kKaL9x4DZT" resolve="IArgumentLike" />
-          </node>
-          <node concept="2OqwBi" id="7U4vk8Q2gzN" role="33vP2m">
-            <node concept="1YBJjd" id="72UYQRWEcQd" role="2Oq$k0">
-              <ref role="1YBMHb" node="7j9KGYKwWRj" resolve="noi" />
-=======
   <node concept="1YbPZF" id="6WSa0so1FHD">
     <property role="TrG5h" value="typeof_NewDeclaration" />
     <node concept="3clFbS" id="6WSa0so1FHE" role="18ibNy">
@@ -5465,200 +4192,22 @@
                   </node>
                 </node>
               </node>
->>>>>>> eea05764ef... Document several concepts in base
             </node>
-            <node concept="2qgKlT" id="7U4vk8Q2gzP" role="2OqNvi">
-              <ref role="37wK5l" to="qd6m:6WGVxckB065" resolve="getFormals" />
-            </node>
-          </node>
->>>>>>> e49a696456... Polymorphic assignment without tests
-        </node>
-      </node>
-      <node concept="3cpWs8" id="3p40HKhxJxs" role="3cqZAp">
-        <node concept="3cpWsn" id="3p40HKhxJxv" role="3cpWs9">
-          <property role="TrG5h" value="usedAttributeNames" />
-          <node concept="_YKpA" id="3p40HKhxJxo" role="1tU5fm">
-            <node concept="17QB3L" id="3p40HKhxJxM" role="_ZDj9" />
-          </node>
-          <node concept="2ShNRf" id="3p40HKhxJyj" role="33vP2m">
-            <node concept="Tc6Ow" id="3p40HKhxJy8" role="2ShVmc">
-              <node concept="17QB3L" id="3p40HKhxJy9" role="HW$YZ" />
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="3cpWs8" id="3p40HKhxJzd" role="3cqZAp">
-        <node concept="3cpWsn" id="3p40HKhxJzg" role="3cpWs9">
-          <property role="TrG5h" value="usedMethodNames" />
-          <node concept="_YKpA" id="3p40HKhxJz9" role="1tU5fm">
-            <node concept="17QB3L" id="3p40HKhxJzL" role="_ZDj9" />
-          </node>
-          <node concept="2ShNRf" id="3p40HKhxJ$X" role="33vP2m">
-            <node concept="Tc6Ow" id="3p40HKhxJ$M" role="2ShVmc">
-              <node concept="17QB3L" id="3p40HKhxJ$N" role="HW$YZ" />
-            </node>
-          </node>
-        </node>
-      </node>
-<<<<<<< HEAD
-      <node concept="3cpWs8" id="3p40HKhxKrz" role="3cqZAp">
-        <node concept="3cpWsn" id="3p40HKhxKrA" role="3cpWs9">
-          <property role="TrG5h" value="actualClass" />
-          <node concept="3Tqbb2" id="3p40HKhxKrx" role="1tU5fm">
-            <ref role="ehGHo" to="wnzg:4o2nsMgBpPQ" resolve="ClassDeclaration" />
-          </node>
-          <node concept="2OqwBi" id="3p40HKhxK_z" role="33vP2m">
-            <node concept="1YBJjd" id="3p40HKhxKsJ" role="2Oq$k0">
-              <ref role="1YBMHb" node="3p40HKhxJwY" resolve="ii" />
-=======
-      <node concept="3clFbH" id="7SgJHc8StYP" role="3cqZAp" />
-=======
->>>>>>> be2d622988... Add some tests
-      <node concept="3SKdUt" id="7SgJHc8SquS" role="3cqZAp">
-        <node concept="3SKdUq" id="7SgJHc8SquU" role="3SKWNk">
-          <property role="3SKdUp" value="Taken from ICallLike (since this rule overrides). It is slightly modified." />
-        </node>
-      </node>
-<<<<<<< HEAD
-      <node concept="3clFbJ" id="72UYQRWEayX" role="3cqZAp">
-        <node concept="3clFbS" id="72UYQRWEayZ" role="3clFbx">
-          <node concept="2MkqsV" id="AeX2DkMYms" role="3cqZAp">
-            <node concept="1YBJjd" id="72UYQRWEg6H" role="2OEOjV">
-              <ref role="1YBMHb" node="7j9KGYKwWRj" resolve="noi" />
->>>>>>> fcb6ec5ba1... Constructor supported much better now + typesystem cleanup
-            </node>
-            <node concept="2Xjw5R" id="3p40HKhxKIe" role="2OqNvi">
-              <node concept="1xMEDy" id="3p40HKhxKIg" role="1xVPHs">
-                <node concept="chp4Y" id="3p40HKhxKKi" role="ri$Ld">
-                  <ref role="cht4Q" to="wnzg:4o2nsMgBpPQ" resolve="ClassDeclaration" />
->>>>>>> 9482c230c7... Name collision checks and renaming of inconsistently named checking rule
+            <node concept="2OqwBi" id="6WSa0sojvfa" role="3clFbw">
+              <node concept="2OqwBi" id="6WSa0sojswv" role="2Oq$k0">
+                <node concept="1YBJjd" id="6WSa0sojsih" role="2Oq$k0">
+                  <ref role="1YBMHb" node="6WSa0so1FHG" resolve="nd" />
+                </node>
+                <node concept="3TrEf2" id="6WSa0sojuAE" role="2OqNvi">
+                  <ref role="3Tt5mk" to="wnzg:6WSa0so1IOP" resolve="typeOrConstructor" />
+                </node>
+              </node>
+              <node concept="1mIQ4w" id="6WSa0sojvTw" role="2OqNvi">
+                <node concept="chp4Y" id="6WSa0sojvWc" role="cj9EA">
+                  <ref role="cht4Q" to="yq40:4VhroexOKM1" resolve="ArrayType" />
                 </node>
               </node>
             </node>
-          </node>
-        </node>
-<<<<<<< HEAD
-<<<<<<< HEAD
-        <node concept="1Z2H0r" id="6OyCGy9cZcE" role="nvjzm">
-          <node concept="2OqwBi" id="6OyCGy9cZpt" role="1Z2MuG">
-            <node concept="1YBJjd" id="6OyCGy9cZd8" role="2Oq$k0">
-              <ref role="1YBMHb" node="6OyCGy9cZbJ" resolve="classStaticVarRef" />
-            </node>
-            <node concept="3TrEf2" id="6OyCGy9cZHO" role="2OqNvi">
-              <ref role="3Tt5mk" to="wnzg:6OyCGy9cOMS" resolve="attribute" />
-            </node>
-          </node>
-        </node>
-        <node concept="2X1qdy" id="6OyCGy9cZbQ" role="2X0Ygz">
-          <property role="TrG5h" value="type" />
-          <node concept="2jxLKc" id="6OyCGy9cZbR" role="1tU5fm" />
-=======
-      </node>
-      <node concept="3clFbH" id="7SgJHc8Smkk" role="3cqZAp" />
-      <node concept="3cpWs8" id="7SgJHc8SmWK" role="3cqZAp">
-        <node concept="3cpWsn" id="7SgJHc8SmWN" role="3cpWs9">
-          <property role="TrG5h" value="smaller" />
-          <node concept="10Oyi0" id="7SgJHc8SmWI" role="1tU5fm" />
-          <node concept="2YIFZM" id="7SgJHc8Snzz" role="33vP2m">
-            <ref role="37wK5l" to="wyt6:~Math.min(int,int):int" resolve="min" />
-            <ref role="1Pybhc" to="wyt6:~Math" resolve="Math" />
-            <node concept="37vLTw" id="7SgJHc8SnzM" role="37wK5m">
-              <ref role="3cqZAo" node="AeX2DkMUdq" resolve="formalCount" />
-            </node>
-            <node concept="37vLTw" id="7SgJHc8SnLV" role="37wK5m">
-              <ref role="3cqZAo" node="AeX2DkMUdy" resolve="actualCount" />
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="1Dw8fO" id="3waR2SuGwOG" role="3cqZAp">
-        <node concept="3clFbS" id="3waR2SuGwOI" role="2LFqv$">
-          <node concept="3cpWs8" id="7U4vk8Q2Hba" role="3cqZAp">
-            <node concept="3cpWsn" id="7U4vk8Q2Hbb" role="3cpWs9">
-              <property role="TrG5h" value="actualIndex" />
-              <property role="3TUv4t" value="true" />
-              <node concept="10Oyi0" id="7U4vk8Q2HaY" role="1tU5fm" />
-              <node concept="37vLTw" id="7U4vk8Q2Hbc" role="33vP2m">
-                <ref role="3cqZAo" node="3hoBrIAMVr1" resolve="i" />
-              </node>
-            </node>
-          </node>
-          <node concept="3cpWs8" id="3waR2SuHYjF" role="3cqZAp">
-            <node concept="3cpWsn" id="3waR2SuHYjI" role="3cpWs9">
-              <property role="TrG5h" value="isLastOne" />
-              <property role="3TUv4t" value="true" />
-              <node concept="10P_77" id="3waR2SuHYjD" role="1tU5fm" />
-              <node concept="1eOMI4" id="3waR2SuHZma" role="33vP2m">
-                <node concept="3clFbC" id="3waR2SuHZJX" role="1eOMHV">
-                  <node concept="3cmrfG" id="3waR2SuHZKh" role="3uHU7w">
-                    <property role="3cmrfH" value="0" />
-                  </node>
-                  <node concept="37vLTw" id="7U4vk8Q2MF7" role="3uHU7B">
-                    <ref role="3cqZAo" node="7U4vk8Q2Hbb" resolve="actualIndex" />
-                  </node>
-                </node>
-              </node>
-            </node>
-<<<<<<< HEAD
-          </node>
-          <node concept="3clFbH" id="7U4vk8Q2GVI" role="3cqZAp" />
-          <node concept="nvevp" id="3waR2SuGy3F" role="3cqZAp">
-            <node concept="3clFbS" id="3waR2SuGy3H" role="nvhr_">
-              <node concept="3cpWs8" id="7U4vk8Q2gWx" role="3cqZAp">
-                <node concept="3cpWsn" id="7U4vk8Q2gWy" role="3cpWs9">
-                  <property role="TrG5h" value="formal" />
-                  <property role="3TUv4t" value="true" />
-                  <node concept="3Tqbb2" id="7U4vk8Q2gWz" role="1tU5fm">
-                    <ref role="ehGHo" to="x27k:7kKaL9x4DZT" resolve="IArgumentLike" />
-                  </node>
-                  <node concept="2OqwBi" id="7U4vk8Q2sbr" role="33vP2m">
-                    <node concept="37vLTw" id="7U4vk8Q2oWA" role="2Oq$k0">
-                      <ref role="3cqZAo" node="7U4vk8Q2gzM" resolve="formals" />
-                    </node>
-                    <node concept="34jXtK" id="7U4vk8Q2LEZ" role="2OqNvi">
-                      <node concept="37vLTw" id="7U4vk8Q2OmR" role="25WWJ7">
-                        <ref role="3cqZAo" node="7U4vk8Q2Hbb" resolve="actualIndex" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-              <node concept="3cpWs8" id="7U4vk8Q2gWK" role="3cqZAp">
-                <node concept="3cpWsn" id="7U4vk8Q2gWL" role="3cpWs9">
-                  <property role="TrG5h" value="actual" />
-                  <property role="3TUv4t" value="true" />
-                  <node concept="3Tqbb2" id="7U4vk8Q2gWM" role="1tU5fm">
-                    <ref role="ehGHo" to="mj1l:7FQByU3CrCM" resolve="Expression" />
-                  </node>
-                  <node concept="2OqwBi" id="7U4vk8Q2gWN" role="33vP2m">
-                    <node concept="37vLTw" id="brG9xoogXA" role="2Oq$k0">
-                      <ref role="3cqZAo" node="brG9xooex4" resolve="actuals" />
-                    </node>
-                    <node concept="34jXtK" id="7U4vk8Q2gWR" role="2OqNvi">
-                      <node concept="37vLTw" id="7U4vk8Q2PbV" role="25WWJ7">
-                        <ref role="3cqZAo" node="7U4vk8Q2Hbb" resolve="actualIndex" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-              <node concept="3clFbH" id="7U4vk8Q2PGL" role="3cqZAp" />
-              <node concept="3clFbJ" id="7U4vk8Q2gWT" role="3cqZAp">
-                <node concept="3clFbS" id="7U4vk8Q2gWU" role="3clFbx">
-                  <node concept="1ZobV4" id="7U4vk8Q2gX9" role="3cqZAp">
-                    <property role="3wDh2S" value="true" />
-                    <node concept="mw_s8" id="7U4vk8Q2gXa" role="1ZfhK$">
-                      <node concept="1Z2H0r" id="7U4vk8Q2gXb" role="mwGJk">
-                        <node concept="37vLTw" id="7U4vk8Q2gXc" role="1Z2MuG">
-                          <ref role="3cqZAo" node="7U4vk8Q2gWL" resolve="actual" />
-                        </node>
-                      </node>
-                    </node>
-                    <node concept="mw_s8" id="7U4vk8Q2gXd" role="1ZfhKB">
-                      <node concept="1Z2H0r" id="7U4vk8Q2gXe" role="mwGJk">
-                        <node concept="37vLTw" id="7U4vk8Q2gXf" role="1Z2MuG">
-                          <ref role="3cqZAo" node="7U4vk8Q2gWy" resolve="formal" />
-=======
             <node concept="9aQIb" id="6WSa0sojIFr" role="9aQIa">
               <node concept="3clFbS" id="6WSa0sojIFs" role="9aQI4">
                 <node concept="1Z5TYs" id="6WSa0soiZYp" role="3cqZAp">
@@ -5681,151 +4230,36 @@
                               </node>
                             </node>
                           </node>
->>>>>>> cc021cd381... migrated to 2019.2
                         </node>
                       </node>
                     </node>
-                    <node concept="37vLTw" id="7U4vk8Q2gXg" role="1ZmcU8">
-                      <ref role="3cqZAo" node="7U4vk8Q2gWL" resolve="actual" />
-                    </node>
                   </node>
-                </node>
-                <node concept="3fqX7Q" id="7U4vk8Q2PRU" role="3clFbw">
-                  <node concept="2OqwBi" id="7U4vk8Q2PRW" role="3fr31v">
-                    <node concept="37vLTw" id="7U4vk8Q2PRX" role="2Oq$k0">
-                      <ref role="3cqZAo" node="7U4vk8Q2gWL" resolve="actual" />
-                    </node>
-                    <node concept="1mIQ4w" id="7U4vk8Q2PRY" role="2OqNvi">
-                      <node concept="chp4Y" id="7U4vk8Q2PRZ" role="cj9EA">
-                        <ref role="cht4Q" to="mj1l:4usdeMNUjj3" resolve="IRequiresTypeToBeInferred" />
+                  <node concept="mw_s8" id="6WSa0soiZYs" role="1ZfhK$">
+                    <node concept="1Z2H0r" id="6WSa0soiZKN" role="mwGJk">
+                      <node concept="1YBJjd" id="6WSa0soiZLg" role="1Z2MuG">
+                        <ref role="1YBMHb" node="6WSa0so1FHG" resolve="nd" />
                       </node>
                     </node>
                   </node>
                 </node>
               </node>
-              <node concept="3clFbH" id="3waR2SuI0fJ" role="3cqZAp" />
-            </node>
-            <node concept="1Z2H0r" id="3waR2SuGy7O" role="nvjzm">
-              <node concept="2OqwBi" id="7U4vk8Q2N6q" role="1Z2MuG">
-                <node concept="37vLTw" id="brG9xoogSC" role="2Oq$k0">
-                  <ref role="3cqZAo" node="brG9xooex4" resolve="actuals" />
-                </node>
-                <node concept="34jXtK" id="7U4vk8Q2N6u" role="2OqNvi">
-                  <node concept="37vLTw" id="7U4vk8Q2N6v" role="25WWJ7">
-                    <ref role="3cqZAo" node="7U4vk8Q2Hbb" resolve="actualIndex" />
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="2X1qdy" id="3waR2SuGy3L" role="2X0Ygz">
-              <property role="TrG5h" value="actualType" />
-              <node concept="2jxLKc" id="3waR2SuGy3M" role="1tU5fm" />
             </node>
           </node>
         </node>
-        <node concept="3cpWsn" id="3hoBrIAMVr1" role="1Duv9x">
-          <property role="TrG5h" value="i" />
-          <node concept="10Oyi0" id="3hoBrIAMYiU" role="1tU5fm" />
-          <node concept="3cpWsd" id="3waR2SuHXIU" role="33vP2m">
-            <node concept="3cmrfG" id="3waR2SuHXIX" role="3uHU7w">
-              <property role="3cmrfH" value="1" />
+        <node concept="1Z2H0r" id="6WSa0soiKvV" role="nvjzm">
+          <node concept="2OqwBi" id="6WSa0soiKQy" role="1Z2MuG">
+            <node concept="1YBJjd" id="6WSa0soiKEj" role="2Oq$k0">
+              <ref role="1YBMHb" node="6WSa0so1FHG" resolve="nd" />
             </node>
-            <node concept="37vLTw" id="3waR2SuHXrZ" role="3uHU7B">
-              <ref role="3cqZAo" node="7SgJHc8SmWN" resolve="smaller" />
+            <node concept="3TrEf2" id="6WSa0soiLA9" role="2OqNvi">
+              <ref role="3Tt5mk" to="wnzg:6WSa0so1IOP" resolve="typeOrConstructor" />
             </node>
           </node>
         </node>
-        <node concept="2d3UOw" id="3waR2SuHXMR" role="1Dwp0S">
-          <node concept="37vLTw" id="3hoBrIAMYjO" role="3uHU7B">
-            <ref role="3cqZAo" node="3hoBrIAMVr1" resolve="i" />
-          </node>
-          <node concept="3cmrfG" id="3waR2SuHXRc" role="3uHU7w">
-            <property role="3cmrfH" value="0" />
-          </node>
+        <node concept="2X1qdy" id="6WSa0soiKuS" role="2X0Ygz">
+          <property role="TrG5h" value="toc" />
+          <node concept="2jxLKc" id="6WSa0soiKuT" role="1tU5fm" />
         </node>
-<<<<<<< HEAD
-        <node concept="3uO5VW" id="3waR2SuHYfo" role="1Dwrff">
-          <node concept="37vLTw" id="3waR2SuHYfq" role="2$L3a6">
-            <ref role="3cqZAo" node="3hoBrIAMVr1" resolve="i" />
-          </node>
-        </node>
-      </node>
-<<<<<<< HEAD
-      <node concept="3clFbH" id="6j_PPS_6E5O" role="3cqZAp" />
-      <node concept="1Dw8fO" id="6j_PPS_6Elm" role="3cqZAp">
-        <node concept="3clFbS" id="6j_PPS_6Eln" role="2LFqv$">
-          <node concept="3cpWs8" id="6j_PPS_6ElA" role="3cqZAp">
-            <node concept="3cpWsn" id="6j_PPS_6ElB" role="3cpWs9">
-              <property role="TrG5h" value="formal" />
-              <property role="3TUv4t" value="true" />
-              <node concept="3Tqbb2" id="6j_PPS_6ElC" role="1tU5fm">
-                <ref role="ehGHo" to="x27k:7kKaL9x4DZT" resolve="IArgumentLike" />
-              </node>
-              <node concept="2OqwBi" id="6j_PPS_6ElD" role="33vP2m">
-                <node concept="37vLTw" id="6j_PPS_6ElE" role="2Oq$k0">
-                  <ref role="3cqZAo" node="7U4vk8Q2gzM" resolve="formals" />
-                </node>
-                <node concept="34jXtK" id="6j_PPS_6ElF" role="2OqNvi">
-                  <node concept="37vLTw" id="6j_PPS_6ENz" role="25WWJ7">
-                    <ref role="3cqZAo" node="6j_PPS_6Emv" resolve="i" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="3cpWs8" id="6j_PPS_6ElH" role="3cqZAp">
-            <node concept="3cpWsn" id="6j_PPS_6ElI" role="3cpWs9">
-              <property role="TrG5h" value="actual" />
-              <property role="3TUv4t" value="true" />
-              <node concept="3Tqbb2" id="6j_PPS_6ElJ" role="1tU5fm">
-                <ref role="ehGHo" to="mj1l:7FQByU3CrCM" resolve="Expression" />
-              </node>
-              <node concept="2OqwBi" id="6j_PPS_6ElK" role="33vP2m">
-                <node concept="37vLTw" id="6j_PPS_6ElL" role="2Oq$k0">
-                  <ref role="3cqZAo" node="brG9xooex4" resolve="actuals" />
-                </node>
-                <node concept="34jXtK" id="6j_PPS_6ElM" role="2OqNvi">
-                  <node concept="37vLTw" id="6j_PPS_6EOA" role="25WWJ7">
-                    <ref role="3cqZAo" node="6j_PPS_6Emv" resolve="i" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="3clFbH" id="6j_PPS_6Elz" role="3cqZAp" />
-          <node concept="3clFbJ" id="6j_PPS_6ETj" role="3cqZAp">
-            <node concept="3clFbS" id="6j_PPS_6ETk" role="3clFbx">
-              <node concept="1ZobV4" id="6j_PPS_6HDM" role="3cqZAp">
-                <node concept="mw_s8" id="6j_PPS_6HEJ" role="1ZfhKB">
-                  <node concept="1Z2H0r" id="6j_PPS_6HEF" role="mwGJk">
-                    <node concept="37vLTw" id="6j_PPS_6HF0" role="1Z2MuG">
-                      <ref role="3cqZAo" node="6j_PPS_6ElB" resolve="formal" />
-                    </node>
-                  </node>
-                </node>
-                <node concept="mw_s8" id="6j_PPS_6HE4" role="1ZfhK$">
-                  <node concept="1Z2H0r" id="6j_PPS_6HE0" role="mwGJk">
-                    <node concept="37vLTw" id="6j_PPS_6HEl" role="1Z2MuG">
-                      <ref role="3cqZAo" node="6j_PPS_6ElI" resolve="actual" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="2OqwBi" id="6j_PPS_6ETt" role="3clFbw">
-              <node concept="37vLTw" id="6j_PPS_6FjY" role="2Oq$k0">
-                <ref role="3cqZAo" node="6j_PPS_6ElI" resolve="actual" />
-              </node>
-              <node concept="1mIQ4w" id="6j_PPS_6ETv" role="2OqNvi">
-                <node concept="chp4Y" id="6j_PPS_6ETw" role="cj9EA">
-                  <ref role="cht4Q" to="mj1l:4usdeMNUjj3" resolve="IRequiresTypeToBeInferred" />
-                </node>
-              </node>
-            </node>
-          </node>
-=======
-    </node>
-=======
       </node>
     </node>
     <node concept="1YaCAy" id="6WSa0so1FHG" role="1YuTPh">
@@ -5835,7 +4269,6 @@
   </node>
   <node concept="1YbPZF" id="7j9KGYKwWRg">
     <property role="TrG5h" value="typeof_NewObjectInitializer" />
->>>>>>> cc021cd381... migrated to 2019.2
     <node concept="3clFbS" id="7j9KGYKwWRh" role="18ibNy">
       <node concept="3SKdUt" id="7POJCjf3yR7" role="3cqZAp">
         <node concept="1PaTwC" id="7jWRS$D_18s" role="1aUNEU">
@@ -5869,16 +4302,7 @@
         </node>
       </node>
       <node concept="3SKdUt" id="7POJCjf3$m5" role="3cqZAp">
-<<<<<<< HEAD
-<<<<<<< HEAD
-        <node concept="3SKdUq" id="7POJCjf3$m7" role="3SKWNk">
-          <property role="3SKdUp" value="All the argument types and counts and so forth are done in ICallLikeTypechecker." />
->>>>>>> eea05764ef... Document several concepts in base
-=======
-        <node concept="1PaTwC" id="7jWRS$D_18A" role="3ndbpf">
-=======
         <node concept="1PaTwC" id="7jWRS$D_18A" role="1aUNEU">
->>>>>>> 6bfe4b6649... example showing too long grammarcells method
           <node concept="3oM_SD" id="7jWRS$D_18B" role="1PaTwD">
             <property role="3oM_SC" value="All" />
           </node>
@@ -5918,32 +4342,8 @@
           <node concept="3oM_SD" id="7jWRS$D_18N" role="1PaTwD">
             <property role="3oM_SC" value="ICallLikeTypechecker." />
           </node>
->>>>>>> cc021cd381... migrated to 2019.2
         </node>
-        <node concept="3cpWsn" id="6j_PPS_6Emv" role="1Duv9x">
-          <property role="TrG5h" value="i" />
-          <node concept="10Oyi0" id="6j_PPS_6Emw" role="1tU5fm" />
-          <node concept="3cpWsd" id="6j_PPS_6Emx" role="33vP2m">
-            <node concept="3cmrfG" id="6j_PPS_6Emy" role="3uHU7w">
-              <property role="3cmrfH" value="1" />
-            </node>
-            <node concept="37vLTw" id="6j_PPS_6Emz" role="3uHU7B">
-              <ref role="3cqZAo" node="7SgJHc8SmWN" resolve="smaller" />
-            </node>
-          </node>
-        </node>
-        <node concept="2d3UOw" id="6j_PPS_6Em$" role="1Dwp0S">
-          <node concept="37vLTw" id="6j_PPS_6Em_" role="3uHU7B">
-            <ref role="3cqZAo" node="6j_PPS_6Emv" resolve="i" />
-          </node>
-          <node concept="3cmrfG" id="6j_PPS_6EmA" role="3uHU7w">
-            <property role="3cmrfH" value="0" />
-          </node>
-        </node>
-        <node concept="3uO5VW" id="6j_PPS_6EmB" role="1Dwrff">
-          <node concept="37vLTw" id="6j_PPS_6EmC" role="2$L3a6">
-            <ref role="3cqZAo" node="6j_PPS_6Emv" resolve="i" />
-=======
+      </node>
       <node concept="3clFbF" id="4V1wcOaKaNk" role="3cqZAp">
         <node concept="2YIFZM" id="4V1wcOaKb6e" role="3clFbG">
           <ref role="37wK5l" node="4V1wcOaIyub" resolve="checkICallLike" />
@@ -5953,7 +4353,6 @@
           </node>
           <node concept="3clFbT" id="4V1wcOaL4_Z" role="37wK5m">
             <property role="3clFbU" value="true" />
->>>>>>> 0671c1b426... Fix typechecking on qualified method calls and migrated ICallLike typechecks to a class
           </node>
           <node concept="3clFbT" id="45faY2vaqg5" role="37wK5m">
             <property role="3clFbU" value="false" />
@@ -6036,13 +4435,12 @@
               <ref role="1YBMHb" node="7j9KGYKwWRj" resolve="noi" />
             </node>
           </node>
->>>>>>> e49a696456... Polymorphic assignment without tests
         </node>
       </node>
     </node>
-    <node concept="1YaCAy" id="6OyCGy9cZbJ" role="1YuTPh">
-      <property role="TrG5h" value="classStaticVarRef" />
-      <ref role="1YaFvo" to="wnzg:6OyCGy9cOMO" resolve="ClassStaticVarRef" />
+    <node concept="1YaCAy" id="7j9KGYKwWRj" role="1YuTPh">
+      <property role="TrG5h" value="noi" />
+      <ref role="1YaFvo" to="wnzg:4KCRVMvtEXq" resolve="NewObjectInitializer" />
     </node>
     <node concept="bXqS6" id="72UYQRWEgvF" role="ujSXK">
       <node concept="3clFbS" id="72UYQRWEgvG" role="2VODD2">
@@ -6054,11 +4452,6 @@
       </node>
     </node>
   </node>
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 857aa482f2... Replaced IAccessStatisClassVar for ClassStaticVarRef
-=======
-=======
   <node concept="1YbPZF" id="3p40HKhxE68">
     <property role="3GE5qa" value="class" />
     <property role="TrG5h" value="typeof_InheritanceNameCollision" />
@@ -6164,7 +4557,6 @@
             </node>
           </node>
         </node>
->>>>>>> 128a1aeb4d... Consistentified(?) the class package.
       </node>
       <node concept="3clFbH" id="3p40HKhxJ_u" role="3cqZAp" />
       <node concept="2Gpval" id="3p40HKhxK3U" role="3cqZAp">
@@ -6368,44 +4760,16 @@
                             </node>
                           </node>
                         </node>
-=======
-  <node concept="18kY7G" id="mwDIXwFf3W">
-    <property role="3GE5qa" value="namespace" />
-    <property role="TrG5h" value="check_NamespaceAttributeRef" />
-    <node concept="3clFbS" id="mwDIXwFf3X" role="18ibNy">
-      <node concept="2Gpval" id="mwDIXwFf6K" role="3cqZAp">
-        <node concept="2GrKxI" id="mwDIXwFf6L" role="2Gsz3X">
-          <property role="TrG5h" value="statement" />
-        </node>
-        <node concept="2OqwBi" id="mwDIXwJvuU" role="2GsD0m">
-          <node concept="2OqwBi" id="mwDIXwJuyC" role="2Oq$k0">
-            <node concept="1YBJjd" id="mwDIXwJueC" role="2Oq$k0">
-              <ref role="1YBMHb" node="mwDIXwFf6b" resolve="nsar" />
-            </node>
-            <node concept="2qgKlT" id="mwDIXwJv9O" role="2OqNvi">
-              <ref role="37wK5l" to="kntn:r2pGcfLSmw" resolve="getFunctionStatements" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
             </node>
           </node>
-          <node concept="v3k3i" id="mwDIXwJvTp" role="2OqNvi">
-            <node concept="chp4Y" id="mwDIXwJw0t" role="v3oSu">
-              <ref role="cht4Q" to="c4fa:3CmSUB7FprA" resolve="LocalVariableDeclaration" />
-            </node>
-          </node>
+          <node concept="3clFbH" id="3p40HKhxP23" role="3cqZAp" />
         </node>
-<<<<<<< HEAD
-        <node concept="3clFbS" id="mwDIXwFf6N" role="2LFqv$">
-          <node concept="3clFbJ" id="mwDIXwFgCB" role="3cqZAp">
-            <node concept="3clFbS" id="mwDIXwFgCD" role="3clFbx">
-              <node concept="2MkqsV" id="mwDIXwNp8D" role="3cqZAp">
-                <node concept="Xl_RD" id="mwDIXwNp91" role="2MkJ7o">
-                  <property role="Xl_RC" value="Attribute references to local variable rather than namespace member" />
-=======
       </node>
-<<<<<<< HEAD
-      <node concept="3SKdUt" id="7POJCjfCTjw" role="3cqZAp">
-        <node concept="3SKdUq" id="7POJCjfCTjy" role="3SKWNk">
-          <property role="3SKdUp" value="If the pointer is a class type only" />
-=======
     </node>
     <node concept="1YaCAy" id="3p40HKhxJwY" role="1YuTPh">
       <property role="TrG5h" value="ii" />
@@ -6479,7 +4843,6 @@
           <node concept="3oM_SD" id="7jWRS$D_19K" role="1PaTwD">
             <property role="3oM_SC" value="only" />
           </node>
->>>>>>> cc021cd381... migrated to 2019.2
         </node>
       </node>
       <node concept="Jncv_" id="7SgJHc7xv3S" role="3cqZAp">
@@ -6502,25 +4865,17 @@
               <node concept="2OqwBi" id="7SgJHc7xUuv" role="33vP2m">
                 <node concept="1YBJjd" id="7SgJHc7xUcc" role="2Oq$k0">
                   <ref role="1YBMHb" node="4Mb2ywHv73Z" resolve="pt" />
->>>>>>> 0865682751... Migrate all errors in base language to begin with a lower case letter
                 </node>
-                <node concept="1YBJjd" id="mwDIXwNpuy" role="2OEOjV">
-                  <ref role="1YBMHb" node="mwDIXwFf6b" resolve="nsar" />
+                <node concept="2Xjw5R" id="7SgJHc7xV0B" role="2OqNvi">
+                  <node concept="1xMEDy" id="7SgJHc7xV0D" role="1xVPHs">
+                    <node concept="chp4Y" id="7SgJHc7xV3w" role="ri$Ld">
+                      <ref role="cht4Q" to="wnzg:4o2nsMgBpPQ" resolve="ClassDeclaration" />
+                    </node>
+                  </node>
+                  <node concept="1xIGOp" id="7SgJHc7xV3F" role="1xVPHs" />
                 </node>
               </node>
             </node>
-<<<<<<< HEAD
-            <node concept="1Wc70l" id="mwDIXwO3Ew" role="3clFbw">
-              <node concept="3eOVzh" id="mwDIXwO9no" role="3uHU7w">
-                <node concept="2OqwBi" id="mwDIXwOc0D" role="3uHU7w">
-                  <node concept="2OqwBi" id="mwDIXwOap_" role="2Oq$k0">
-                    <node concept="1YBJjd" id="mwDIXwO9KT" role="2Oq$k0">
-                      <ref role="1YBMHb" node="mwDIXwFf6b" resolve="nsar" />
-                    </node>
-                    <node concept="2qgKlT" id="mwDIXwOb9U" role="2OqNvi">
-                      <ref role="37wK5l" to="kntn:r2pGcfLSmw" resolve="getFunctionStatements" />
-                    </node>
-=======
           </node>
           <node concept="3SKdUt" id="7POJCjfCVUP" role="3cqZAp">
             <node concept="1PaTwC" id="7jWRS$D_19L" role="1aUNEU">
@@ -6583,14 +4938,7 @@
                 <node concept="2OqwBi" id="7SgJHc7xZi2" role="3clFbG">
                   <node concept="37vLTw" id="7SgJHc7xWCG" role="2Oq$k0">
                     <ref role="3cqZAo" node="7SgJHc7xva8" resolve="supertypes" />
->>>>>>> 0865682751... Migrate all errors in base language to begin with a lower case letter
                   </node>
-<<<<<<< HEAD
-                  <node concept="2WmjW8" id="mwDIXwOc$h" role="2OqNvi">
-                    <node concept="2OqwBi" id="mwDIXwOdu3" role="25WWJ7">
-                      <node concept="1YBJjd" id="mwDIXwOd0c" role="2Oq$k0">
-                        <ref role="1YBMHb" node="mwDIXwFf6b" resolve="nsar" />
-=======
                   <node concept="X8dFx" id="7SgJHc7y40v" role="2OqNvi">
                     <node concept="2OqwBi" id="7SgJHc7zxaz" role="25WWJ7">
                       <node concept="2OqwBi" id="7SgJHc7yzS6" role="2Oq$k0">
@@ -6608,14 +4956,7 @@
                             <property role="3clFbU" value="true" />
                           </node>
                         </node>
->>>>>>> 128a1aeb4d... Consistentified(?) the class package.
                       </node>
-<<<<<<< HEAD
-                      <node concept="2Xjw5R" id="mwDIXwOeki" role="2OqNvi">
-                        <node concept="1xMEDy" id="mwDIXwOekk" role="1xVPHs">
-                          <node concept="chp4Y" id="mwDIXwOeLR" role="ri$Ld">
-                            <ref role="cht4Q" to="c4fa:3CmSUB7FmO3" resolve="Statement" />
-=======
                       <node concept="3$u5V9" id="7SgJHc7zIbU" role="2OqNvi">
                         <node concept="1bVj0M" id="7SgJHc7zIbW" role="23t8la">
                           <node concept="3clFbS" id="7SgJHc7zIbX" role="1bW5cS">
@@ -6638,47 +4979,20 @@
                           <node concept="Rh6nW" id="7SgJHc7zIbY" role="1bW2Oz">
                             <property role="TrG5h" value="it" />
                             <node concept="2jxLKc" id="7SgJHc7zIbZ" role="1tU5fm" />
->>>>>>> cc021cd381... migrated to 2019.2
                           </node>
                         </node>
-                        <node concept="1xIGOp" id="mwDIXwOm$c" role="1xVPHs" />
->>>>>>> d979bf937a... Namespace EX and TS Tests.
                       </node>
                     </node>
                   </node>
                 </node>
-<<<<<<< HEAD
               </node>
             </node>
-          </node>
-          <node concept="3clFbH" id="3p40HKhxP23" role="3cqZAp" />
-        </node>
-      </node>
-    </node>
-    <node concept="1YaCAy" id="3p40HKhxJwY" role="1YuTPh">
-      <property role="TrG5h" value="ii" />
-      <ref role="1YaFvo" to="wnzg:3UsoL$l5qkL" resolve="InheritanceInstance" />
-    </node>
-  </node>
-<<<<<<< HEAD
->>>>>>> 9482c230c7... Name collision checks and renaming of inconsistently named checking rule
-=======
-  <node concept="18kY7G" id="3p40HKhGUqA">
-    <property role="TrG5h" value="check_IAmConstructorInitializable" />
-    <property role="3GE5qa" value="method.constructor" />
-    <node concept="3clFbS" id="3p40HKhGUqB" role="18ibNy">
-      <node concept="3clFbJ" id="3p40HKhGUqK" role="3cqZAp">
-        <node concept="2OqwBi" id="3p40HKhGVeA" role="3clFbw">
-          <node concept="2OqwBi" id="3p40HKhGUzC" role="2Oq$k0">
-            <node concept="1YBJjd" id="3p40HKhGUqZ" role="2Oq$k0">
-              <ref role="1YBMHb" node="3p40HKhGUqD" resolve="iaci" />
+            <node concept="2OqwBi" id="7SgJHc7xVHr" role="3clFbw">
+              <node concept="37vLTw" id="7SgJHc7xVld" role="2Oq$k0">
+                <ref role="3cqZAo" node="7SgJHc7xU0g" resolve="possibleParentClass" />
+              </node>
+              <node concept="3x8VRR" id="7SgJHc7xWkJ" role="2OqNvi" />
             </node>
-<<<<<<< HEAD
-            <node concept="2Xjw5R" id="3p40HKhGUG2" role="2OqNvi">
-              <node concept="1xMEDy" id="3p40HKhGUG4" role="1xVPHs">
-                <node concept="chp4Y" id="3p40HKhGUI4" role="ri$Ld">
-                  <ref role="cht4Q" to="wnzg:6NtgknWJ20B" resolve="ClassConstructorDeclaration" />
-=======
             <node concept="9aQIb" id="7SgJHc7xWtL" role="9aQIa">
               <node concept="3clFbS" id="7SgJHc7xWtM" role="9aQI4">
                 <node concept="3clFbF" id="7SgJHc7$a__" role="3cqZAp">
@@ -6730,36 +5044,27 @@
                       </node>
                     </node>
                   </node>
->>>>>>> 128a1aeb4d... Consistentified(?) the class package.
                 </node>
               </node>
-              <node concept="1xIGOp" id="3p40HKhGUOc" role="1xVPHs" />
             </node>
-          </node>
-          <node concept="3TrcHB" id="3p40HKhGVY7" role="2OqNvi">
-            <ref role="3TsBF5" to="wnzg:5i01kANicU4" resolve="is_destructor" />
           </node>
         </node>
-        <node concept="3clFbS" id="3p40HKhGUqM" role="3clFbx">
-          <node concept="2MkqsV" id="3p40HKhGW2X" role="3cqZAp">
-            <node concept="Xl_RD" id="3p40HKhGW3c" role="2MkJ7o">
-              <property role="Xl_RC" value="Initializers are not allowed on destructors" />
-            </node>
-            <node concept="1YBJjd" id="3p40HKhGW3A" role="2OEOjV">
-              <ref role="1YBMHb" node="3p40HKhGUqD" resolve="iaci" />
-            </node>
-          </node>
+        <node concept="JncvC" id="7SgJHc7xv3Y" role="JncvA">
+          <property role="TrG5h" value="ct" />
+          <node concept="2jxLKc" id="7SgJHc7xv3Z" role="1tU5fm" />
+        </node>
+      </node>
+      <node concept="3cpWs6" id="7SgJHc7xvqL" role="3cqZAp">
+        <node concept="37vLTw" id="7SgJHc7xvtR" role="3cqZAk">
+          <ref role="3cqZAo" node="7SgJHc7xva8" resolve="supertypes" />
         </node>
       </node>
     </node>
-    <node concept="1YaCAy" id="3p40HKhGUqD" role="1YuTPh">
-      <property role="TrG5h" value="iaci" />
-      <ref role="1YaFvo" to="wnzg:3n$8_Xbpg8r" resolve="IAmConstructorInitializable" />
+    <node concept="1YaCAy" id="4Mb2ywHv73Z" role="1YuTPh">
+      <property role="TrG5h" value="pt" />
+      <ref role="1YaFvo" to="yq40:fwMInzpHoK" resolve="PointerType" />
     </node>
   </node>
-<<<<<<< HEAD
->>>>>>> 9ec7c249c2... Fixed destructors being allowed to have initializers
-=======
   <node concept="18kY7G" id="7j9KGYMMNZF">
     <property role="3GE5qa" value="method" />
     <property role="TrG5h" value="check_MethodDeclarationStatic" />
@@ -6851,25 +5156,10 @@
                     </node>
                     <node concept="2GrUjf" id="7j9KGYMN778" role="1urrMF">
                       <ref role="2Gs0qQ" node="7j9KGYMMQaV" resolve="child" />
-=======
-                <node concept="2OqwBi" id="mwDIXwO6$p" role="3uHU7B">
-                  <node concept="2OqwBi" id="mwDIXwO5hi" role="2Oq$k0">
-                    <node concept="1YBJjd" id="mwDIXwO4Yp" role="2Oq$k0">
-                      <ref role="1YBMHb" node="mwDIXwFf6b" resolve="nsar" />
-                    </node>
-                    <node concept="2qgKlT" id="mwDIXwO5ZE" role="2OqNvi">
-                      <ref role="37wK5l" to="kntn:r2pGcfLSmw" resolve="getFunctionStatements" />
-                    </node>
-                  </node>
-                  <node concept="2WmjW8" id="mwDIXwO764" role="2OqNvi">
-                    <node concept="2GrUjf" id="mwDIXwO7zn" role="25WWJ7">
-                      <ref role="2Gs0qQ" node="mwDIXwFf6L" resolve="statement" />
->>>>>>> d979bf937a... Namespace EX and TS Tests.
                     </node>
                   </node>
                 </node>
               </node>
-<<<<<<< HEAD
               <node concept="3clFbH" id="7j9KGYMN7bL" role="3cqZAp" />
               <node concept="3SKdUt" id="7j9KGYMNHvV" role="3cqZAp">
                 <node concept="1PaTwC" id="7jWRS$D_1a6" role="1aUNEU">
@@ -6941,25 +5231,9 @@
                       <node concept="Rh6nW" id="7j9KGYMNhlU" role="1bW2Oz">
                         <property role="TrG5h" value="it" />
                         <node concept="2jxLKc" id="7j9KGYMNhlV" role="1tU5fm" />
-=======
-              <node concept="1Wc70l" id="mwDIXwJyeK" role="3uHU7B">
-                <node concept="2OqwBi" id="mwDIXwFyaq" role="3uHU7B">
-                  <node concept="2OqwBi" id="mwDIXwFwcT" role="2Oq$k0">
-                    <node concept="2GrUjf" id="mwDIXwFvJs" role="2Oq$k0">
-                      <ref role="2Gs0qQ" node="mwDIXwFf6L" resolve="statement" />
-                    </node>
-                    <node concept="3TrcHB" id="mwDIXwJwSi" role="2OqNvi">
-                      <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                      </node>
                     </node>
                   </node>
-<<<<<<< HEAD
-                  <node concept="liA8E" id="mwDIXwFy_E" role="2OqNvi">
-                    <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
-                    <node concept="2OqwBi" id="mwDIXwF_3$" role="37wK5m">
-                      <node concept="2OqwBi" id="mwDIXwFz7F" role="2Oq$k0">
-                        <node concept="1YBJjd" id="mwDIXwFyRD" role="2Oq$k0">
-                          <ref role="1YBMHb" node="mwDIXwFf6b" resolve="nsar" />
-=======
                 </node>
               </node>
             </node>
@@ -7043,7 +5317,7 @@
   </node>
   <node concept="18kY7G" id="72UYQRWvwJl">
     <property role="TrG5h" value="check_DeleteDeclaration" />
-    <property role="3GE5qa" value="class" />
+    <property role="3GE5qa" value="" />
     <node concept="3clFbS" id="72UYQRWvwJm" role="18ibNy">
       <node concept="3clFbJ" id="72UYQRWvzhx" role="3cqZAp">
         <node concept="3clFbS" id="72UYQRWvzhz" role="3clFbx">
@@ -7093,403 +5367,6 @@
                       <node concept="2OqwBi" id="72UYQRWzEMw" role="3uHU7w">
                         <node concept="3TrEf2" id="72UYQRWzFmV" role="2OqNvi">
                           <ref role="3Tt5mk" to="wnzg:72UYQRW0DPK" resolve="varRef" />
->>>>>>> 1adc8a049b... Migrate static method checks that were in the non-static prule to the static one
-                        </node>
-                        <node concept="3TrEf2" id="mwDIXwF$eh" role="2OqNvi">
-                          <ref role="3Tt5mk" to="wnzg:383ZxwZrBkt" resolve="attribute" />
-                        </node>
-                      </node>
-                      <node concept="3TrcHB" id="mwDIXwFApC" role="2OqNvi">
-                        <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
->>>>>>> d979bf937a... Namespace EX and TS Tests.
-                      </node>
-                    </node>
-                  </node>
-                </node>
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-                <node concept="Xl_RD" id="72UYQRW$8y6" role="3uHU7w">
-                  <property role="Xl_RC" value=")" />
-                </node>
-              </node>
-              <node concept="Xl_RD" id="72UYQRWv_Xp" role="3uHU7w">
-                <property role="Xl_RC" value=" is not pointer; only variables of type pointer may be deleted" />
->>>>>>> 0865682751... Migrate all errors in base language to begin with a lower case letter
-              </node>
-            </node>
-=======
-  <node concept="1YbPZF" id="6WSa0so1FHD">
-    <property role="TrG5h" value="typeof_NewDeclaration" />
-    <node concept="3clFbS" id="6WSa0so1FHE" role="18ibNy">
-      <node concept="nvevp" id="6WSa0soiKuM" role="3cqZAp">
-        <node concept="3clFbS" id="6WSa0soiKuO" role="nvhr_">
-          <node concept="3clFbJ" id="6WSa0sojshq" role="3cqZAp">
-            <node concept="3clFbS" id="6WSa0sojshs" role="3clFbx">
-              <node concept="1Z5TYs" id="6WSa0sojxG9" role="3cqZAp">
-                <node concept="mw_s8" id="6WSa0sojxG_" role="1ZfhKB">
-                  <node concept="2OqwBi" id="6WSa0sojXLg" role="mwGJk">
-                    <node concept="2X3wrD" id="6WSa0sojXxj" role="2Oq$k0">
-                      <ref role="2X3Bk0" node="6WSa0soiKuS" resolve="toc" />
-                    </node>
-                    <node concept="1$rogu" id="6WSa0sojY6Y" role="2OqNvi" />
-                  </node>
-                </node>
-                <node concept="mw_s8" id="6WSa0sojxGc" role="1ZfhK$">
-                  <node concept="1Z2H0r" id="6WSa0sojw1S" role="mwGJk">
-                    <node concept="1YBJjd" id="6WSa0sojw2d" role="1Z2MuG">
-                      <ref role="1YBMHb" node="6WSa0so1FHG" resolve="nd" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="2OqwBi" id="6WSa0sojvfa" role="3clFbw">
-              <node concept="2OqwBi" id="6WSa0sojswv" role="2Oq$k0">
-                <node concept="1YBJjd" id="6WSa0sojsih" role="2Oq$k0">
-                  <ref role="1YBMHb" node="6WSa0so1FHG" resolve="nd" />
-                </node>
-                <node concept="3TrEf2" id="6WSa0sojuAE" role="2OqNvi">
-                  <ref role="3Tt5mk" to="wnzg:6WSa0so1IOP" resolve="typeOrConstructor" />
-                </node>
-              </node>
-              <node concept="1mIQ4w" id="6WSa0sojvTw" role="2OqNvi">
-                <node concept="chp4Y" id="6WSa0sojvWc" role="cj9EA">
-                  <ref role="cht4Q" to="yq40:4VhroexOKM1" resolve="ArrayType" />
-                </node>
-              </node>
-            </node>
-            <node concept="9aQIb" id="6WSa0sojIFr" role="9aQIa">
-              <node concept="3clFbS" id="6WSa0sojIFs" role="9aQI4">
-                <node concept="1Z5TYs" id="6WSa0soiZYp" role="3cqZAp">
-                  <node concept="mw_s8" id="6WSa0soiZYX" role="1ZfhKB">
-                    <node concept="2pJPEk" id="6WSa0soiZYT" role="mwGJk">
-                      <node concept="2pJPED" id="6WSa0soiZZb" role="2pJPEn">
-                        <ref role="2pJxaS" to="yq40:fwMInzpHoK" resolve="PointerType" />
-                        <node concept="2pIpSj" id="6WSa0soiZZF" role="2pJxcM">
-                          <ref role="2pIpSl" to="c4fa:6IWRcVPT6tm" resolve="baseType" />
-                          <node concept="36biLy" id="6WSa0soj00g" role="2pJxcZ">
-                            <node concept="1PxgMI" id="7j9KGYKzc87" role="36biLW">
-                              <node concept="chp4Y" id="7j9KGYKzce3" role="3oSUPX">
-                                <ref role="cht4Q" to="mj1l:7FQByU3CrCQ" resolve="Type" />
-                              </node>
-                              <node concept="2OqwBi" id="7j9KGYKzbM7" role="1m5AlR">
-                                <node concept="2X3wrD" id="7j9KGYKzbtt" role="2Oq$k0">
-                                  <ref role="2X3Bk0" node="6WSa0soiKuS" resolve="toc" />
-                                </node>
-                                <node concept="1$rogu" id="7j9KGYKzbTe" role="2OqNvi" />
-                              </node>
-                            </node>
-                          </node>
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                  <node concept="mw_s8" id="6WSa0soiZYs" role="1ZfhK$">
-                    <node concept="1Z2H0r" id="6WSa0soiZKN" role="mwGJk">
-                      <node concept="1YBJjd" id="6WSa0soiZLg" role="1Z2MuG">
-                        <ref role="1YBMHb" node="6WSa0so1FHG" resolve="nd" />
-                      </node>
-                    </node>
-=======
-                <node concept="2OqwBi" id="mwDIXwJ$5b" role="3uHU7w">
-                  <node concept="1YBJjd" id="mwDIXwJzIN" role="2Oq$k0">
-                    <ref role="1YBMHb" node="mwDIXwFf6b" resolve="nsar" />
-                  </node>
-                  <node concept="2qgKlT" id="mwDIXwJ$NS" role="2OqNvi">
-                    <ref role="37wK5l" to="kntn:r2pGcfNSpD" resolve="removeEditorPresentation" />
->>>>>>> d979bf937a... Namespace EX and TS Tests.
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-<<<<<<< HEAD
-<<<<<<< HEAD
-          <node concept="Xl_RD" id="6WSa0so1FHM" role="3uHU7B">
-            <property role="Xl_RC" value="nd.typeOrConstructor.type = " />
->>>>>>> 07c2c9e1af... Working on new keyword with class constructors
-=======
-        </node>
-        <node concept="1Z2H0r" id="6WSa0soiKvV" role="nvjzm">
-          <node concept="2OqwBi" id="6WSa0soiKQy" role="1Z2MuG">
-            <node concept="1YBJjd" id="6WSa0soiKEj" role="2Oq$k0">
-              <ref role="1YBMHb" node="6WSa0so1FHG" resolve="nd" />
-            </node>
-            <node concept="3TrEf2" id="6WSa0soiLA9" role="2OqNvi">
-              <ref role="3Tt5mk" to="wnzg:6WSa0so1IOP" resolve="typeOrConstructor" />
-            </node>
->>>>>>> bd165d5f39... Working on new keyword with class constructors -2
-          </node>
-        </node>
-        <node concept="2X1qdy" id="6WSa0soiKuS" role="2X0Ygz">
-          <property role="TrG5h" value="toc" />
-          <node concept="2jxLKc" id="6WSa0soiKuT" role="1tU5fm" />
-        </node>
-      </node>
-    </node>
-<<<<<<< HEAD
-    <node concept="1YaCAy" id="7j9KGYMMNZI" role="1YuTPh">
-      <property role="TrG5h" value="md" />
-      <ref role="1YaFvo" to="wnzg:4o2nsMgB$VW" resolve="MethodDeclaration" />
-    </node>
-  </node>
->>>>>>> 12675a6d36... Add static context checks
-=======
-    <node concept="1YaCAy" id="6WSa0so1FHG" role="1YuTPh">
-      <property role="TrG5h" value="nd" />
-      <ref role="1YaFvo" to="wnzg:6WSa0snOgvZ" resolve="NewDeclaration" />
-    </node>
-  </node>
-<<<<<<< HEAD
->>>>>>> 07c2c9e1af... Working on new keyword with class constructors
-=======
-  <node concept="1YbPZF" id="7j9KGYKwWRg">
-    <property role="TrG5h" value="typeof_NewObjectInitializer" />
-    <node concept="3clFbS" id="7j9KGYKwWRh" role="18ibNy">
-      <node concept="3clFbH" id="72UYQRWE9zw" role="3cqZAp" />
-      <node concept="3cpWs8" id="7U4vk8Q2gzL" role="3cqZAp">
-        <node concept="3cpWsn" id="7U4vk8Q2gzM" role="3cpWs9">
-          <property role="TrG5h" value="formals" />
-          <property role="3TUv4t" value="true" />
-          <node concept="2I9FWS" id="7U4vk8Q2gzK" role="1tU5fm">
-            <ref role="2I9WkF" to="x27k:7kKaL9x4DZT" resolve="IArgumentLike" />
-          </node>
-          <node concept="2OqwBi" id="7U4vk8Q2gzN" role="33vP2m">
-            <node concept="1YBJjd" id="72UYQRWEcQd" role="2Oq$k0">
-              <ref role="1YBMHb" node="7j9KGYKwWRj" resolve="noi" />
-            </node>
-            <node concept="2qgKlT" id="7U4vk8Q2gzP" role="2OqNvi">
-              <ref role="37wK5l" to="qd6m:6WGVxckB065" resolve="getFormals" />
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="3cpWs8" id="brG9xooex3" role="3cqZAp">
-        <node concept="3cpWsn" id="brG9xooex4" role="3cpWs9">
-          <property role="TrG5h" value="actuals" />
-          <property role="3TUv4t" value="true" />
-          <node concept="2I9FWS" id="brG9xooex0" role="1tU5fm">
-            <ref role="2I9WkF" to="mj1l:7FQByU3CrCM" resolve="Expression" />
-          </node>
-          <node concept="2OqwBi" id="brG9xooex5" role="33vP2m">
-            <node concept="2qgKlT" id="brG9xooex7" role="2OqNvi">
-              <ref role="37wK5l" to="qd6m:6WGVxckB05Y" resolve="getActuals" />
-            </node>
-            <node concept="1YBJjd" id="72UYQRWEdvK" role="2Oq$k0">
-              <ref role="1YBMHb" node="7j9KGYKwWRj" resolve="noi" />
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="3cpWs8" id="AeX2DkMUdp" role="3cqZAp">
-        <node concept="3cpWsn" id="AeX2DkMUdq" role="3cpWs9">
-          <property role="TrG5h" value="formalCount" />
-          <property role="3TUv4t" value="true" />
-          <node concept="10Oyi0" id="AeX2DkMUdr" role="1tU5fm" />
-          <node concept="2OqwBi" id="AeX2DkMUds" role="33vP2m">
-            <node concept="37vLTw" id="brG9xoo31r" role="2Oq$k0">
-              <ref role="3cqZAo" node="7U4vk8Q2gzM" resolve="formals" />
-            </node>
-            <node concept="34oBXx" id="AeX2DkMUdw" role="2OqNvi" />
-          </node>
-        </node>
-      </node>
-      <node concept="3cpWs8" id="AeX2DkMUdx" role="3cqZAp">
-        <node concept="3cpWsn" id="AeX2DkMUdy" role="3cpWs9">
-          <property role="TrG5h" value="actualCount" />
-          <property role="3TUv4t" value="true" />
-          <node concept="10Oyi0" id="AeX2DkMUdz" role="1tU5fm" />
-          <node concept="2OqwBi" id="AeX2DkMUd$" role="33vP2m">
-            <node concept="37vLTw" id="brG9xooex9" role="2Oq$k0">
-              <ref role="3cqZAo" node="brG9xooex4" resolve="actuals" />
-            </node>
-            <node concept="34oBXx" id="AeX2DkMUdC" role="2OqNvi" />
-          </node>
-        </node>
-      </node>
-      <node concept="3clFbH" id="72UYQRWEbNe" role="3cqZAp" />
-      <node concept="3clFbJ" id="72UYQRWEayX" role="3cqZAp">
-        <node concept="3clFbS" id="72UYQRWEayZ" role="3clFbx">
-          <node concept="2MkqsV" id="AeX2DkMYms" role="3cqZAp">
-            <node concept="1YBJjd" id="72UYQRWEg6H" role="2OEOjV">
-              <ref role="1YBMHb" node="7j9KGYKwWRj" resolve="noi" />
-            </node>
-            <node concept="3cpWs3" id="AeX2DkMYmu" role="2MkJ7o">
-              <node concept="2OqwBi" id="brG9xonurx" role="3uHU7w">
-                <node concept="2OqwBi" id="brG9xonury" role="2Oq$k0">
-                  <node concept="1YBJjd" id="72UYQRWEfHZ" role="2Oq$k0">
-                    <ref role="1YBMHb" node="7j9KGYKwWRj" resolve="noi" />
-                  </node>
-                  <node concept="2qgKlT" id="brG9xonur$" role="2OqNvi">
-                    <ref role="37wK5l" to="qd6m:74lwjTQiYY5" resolve="getFunction" />
-                  </node>
-                </node>
-                <node concept="2qgKlT" id="brG9xonur_" role="2OqNvi">
-                  <ref role="37wK5l" to="qd6m:7GUSN23Vq8" resolve="signatureInfo" />
-                </node>
-              </node>
-              <node concept="Xl_RD" id="AeX2DkMYmw" role="3uHU7B">
-                <property role="Xl_RC" value="Wrong number of arguments. Expected: " />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="22lmx$" id="72UYQRWEaSh" role="3clFbw">
-          <node concept="1eOMI4" id="72UYQRWEaSi" role="3uHU7w">
-            <node concept="1Wc70l" id="72UYQRWEaSj" role="1eOMHV">
-              <node concept="3eOVzh" id="72UYQRWEaSk" role="3uHU7w">
-                <node concept="37vLTw" id="72UYQRWEaSl" role="3uHU7w">
-                  <ref role="3cqZAo" node="AeX2DkMUdq" resolve="formalCount" />
-                </node>
-                <node concept="37vLTw" id="72UYQRWEaSm" role="3uHU7B">
-                  <ref role="3cqZAo" node="AeX2DkMUdy" resolve="actualCount" />
-                </node>
-              </node>
-              <node concept="2OqwBi" id="72UYQRWEaSn" role="3uHU7B">
-                <node concept="1YBJjd" id="72UYQRWEdVj" role="2Oq$k0">
-                  <ref role="1YBMHb" node="7j9KGYKwWRj" resolve="noi" />
-                </node>
-                <node concept="2qgKlT" id="72UYQRWEaSp" role="2OqNvi">
-                  <ref role="37wK5l" to="qd6m:7$$5Stoo9at" resolve="hasEllipsis" />
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="1eOMI4" id="72UYQRWEaSq" role="3uHU7B">
-            <node concept="1Wc70l" id="72UYQRWEaSr" role="1eOMHV">
-              <node concept="3y3z36" id="72UYQRWEaSs" role="3uHU7w">
-                <node concept="37vLTw" id="72UYQRWEaSt" role="3uHU7w">
-                  <ref role="3cqZAo" node="AeX2DkMUdy" resolve="actualCount" />
-                </node>
-                <node concept="37vLTw" id="72UYQRWEaSu" role="3uHU7B">
-                  <ref role="3cqZAo" node="AeX2DkMUdq" resolve="formalCount" />
-                </node>
-              </node>
-              <node concept="3fqX7Q" id="72UYQRWEaSv" role="3uHU7B">
-                <node concept="2OqwBi" id="72UYQRWEaSw" role="3fr31v">
-                  <node concept="1YBJjd" id="72UYQRWEdAz" role="2Oq$k0">
-                    <ref role="1YBMHb" node="7j9KGYKwWRj" resolve="noi" />
-                  </node>
-                  <node concept="2qgKlT" id="72UYQRWEaSy" role="2OqNvi">
-                    <ref role="37wK5l" to="qd6m:7$$5Stoo9at" resolve="hasEllipsis" />
-=======
-        </node>
-      </node>
-    </node>
-    <node concept="1YaCAy" id="mwDIXwFf6b" role="1YuTPh">
-      <property role="TrG5h" value="nsar" />
-      <ref role="1YaFvo" to="wnzg:383ZxwZrBkp" resolve="NamespaceAttributeRef" />
-    </node>
-  </node>
-  <node concept="18kY7G" id="3SNFZ61r5Lb">
-    <property role="3GE5qa" value="namespace" />
-    <property role="TrG5h" value="check_GlobalUsingNamespaceAttributeDeclaration" />
-    <node concept="3clFbS" id="3SNFZ61r5Lc" role="18ibNy">
-      <node concept="3clFbJ" id="3SNFZ61r5Mi" role="3cqZAp">
-        <node concept="1Wc70l" id="3SNFZ61rbiC" role="3clFbw">
-          <node concept="3y3z36" id="3SNFZ61redG" role="3uHU7w">
-            <node concept="2OqwBi" id="3SNFZ61reM3" role="3uHU7w">
-              <node concept="1YBJjd" id="3SNFZ61renj" role="2Oq$k0">
-                <ref role="1YBMHb" node="3SNFZ61r5Lu" resolve="guNSad" />
-              </node>
-              <node concept="3TrEf2" id="3SNFZ61rfh7" role="2OqNvi">
-                <ref role="3Tt5mk" to="wnzg:7RFM8R0xwrf" resolve="namespace" />
-              </node>
-            </node>
-            <node concept="2OqwBi" id="3SNFZ61rcV1" role="3uHU7B">
-              <node concept="2OqwBi" id="3SNFZ61rbIL" role="2Oq$k0">
-                <node concept="1YBJjd" id="3SNFZ61rbqQ" role="2Oq$k0">
-                  <ref role="1YBMHb" node="3SNFZ61r5Lu" resolve="guNSad" />
-                </node>
-                <node concept="3TrEf2" id="3SNFZ61rcdE" role="2OqNvi">
-                  <ref role="3Tt5mk" to="wnzg:7RFM8R0xwrs" resolve="attribute" />
-                </node>
-              </node>
-              <node concept="2Xjw5R" id="3SNFZ61rdCX" role="2OqNvi">
-                <node concept="1xMEDy" id="3SNFZ61rdCZ" role="1xVPHs">
-                  <node concept="chp4Y" id="3SNFZ61rdM$" role="ri$Ld">
-                    <ref role="cht4Q" to="wnzg:383ZxwZqQYo" resolve="NamespaceDeclaration" />
->>>>>>> d979bf937a... Namespace EX and TS Tests.
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-<<<<<<< HEAD
-        </node>
-      </node>
-      <node concept="3clFbH" id="72UYQRWE9zV" role="3cqZAp" />
-      <node concept="1Z5TYs" id="7j9KGYKykQI" role="3cqZAp">
-        <node concept="mw_s8" id="7j9KGYKyl4v" role="1ZfhKB">
-          <node concept="2OqwBi" id="7j9KGYKyom1" role="mwGJk">
-            <node concept="2OqwBi" id="7j9KGYKymkx" role="2Oq$k0">
-              <node concept="2OqwBi" id="7j9KGYKylgv" role="2Oq$k0">
-                <node concept="1YBJjd" id="7j9KGYKyl4t" role="2Oq$k0">
-                  <ref role="1YBMHb" node="7j9KGYKwWRj" resolve="noi" />
-                </node>
-                <node concept="3TrEf2" id="7j9KGYKylEq" role="2OqNvi">
-                  <ref role="3Tt5mk" to="wnzg:4KCRVMvtPxJ" resolve="identity" />
-                </node>
-              </node>
-              <node concept="3TrEf2" id="7j9KGYKynfx" role="2OqNvi">
-                <ref role="3Tt5mk" to="wnzg:6NtgknWJ214" resolve="parentClass" />
-              </node>
-            </node>
-            <node concept="2qgKlT" id="7j9KGYKypH3" role="2OqNvi">
-              <ref role="37wK5l" to="kntn:2yiFVcKzYCg" resolve="getType" />
-            </node>
-          </node>
-        </node>
-        <node concept="mw_s8" id="7j9KGYKykQL" role="1ZfhK$">
-          <node concept="1Z2H0r" id="7j9KGYKyjIJ" role="mwGJk">
-            <node concept="1YBJjd" id="7j9KGYKyjWr" role="1Z2MuG">
-              <ref role="1YBMHb" node="7j9KGYKwWRj" resolve="noi" />
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="1YaCAy" id="7j9KGYKwWRj" role="1YuTPh">
-      <property role="TrG5h" value="noi" />
-      <ref role="1YaFvo" to="wnzg:4KCRVMvtEXq" resolve="NewObjectInitializer" />
-    </node>
-    <node concept="bXqS6" id="72UYQRWEgvF" role="bX4a1">
-      <node concept="3clFbS" id="72UYQRWEgvG" role="2VODD2">
-        <node concept="3clFbF" id="72UYQRWEhc6" role="3cqZAp">
-          <node concept="3clFbT" id="72UYQRWEhc5" role="3clFbG">
-            <property role="3clFbU" value="true" />
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
-<<<<<<< HEAD
->>>>>>> 44bf1f87ec... Fix type checking on new keyword constructors
-=======
-  <node concept="18kY7G" id="72UYQRWvwJl">
-    <property role="TrG5h" value="check_DeleteDeclaration" />
-    <property role="3GE5qa" value="" />
-    <node concept="3clFbS" id="72UYQRWvwJm" role="18ibNy">
-      <node concept="3clFbJ" id="72UYQRWvzhx" role="3cqZAp">
-        <node concept="3clFbS" id="72UYQRWvzhz" role="3clFbx">
-          <node concept="3SKdUt" id="c7Kd0eKNZN" role="3cqZAp">
-            <node concept="3SKdUq" id="c7Kd0eKNZP" role="3SKWNk">
-              <property role="3SKdUp" value="Only allow pointers to be given to a delete expression" />
-            </node>
-          </node>
-          <node concept="2MkqsV" id="72UYQRWv_X7" role="3cqZAp">
-            <node concept="3cpWs3" id="72UYQRW$9h4" role="2MkJ7o">
-              <node concept="3cpWs3" id="72UYQRW$8ic" role="3uHU7B">
-                <node concept="3cpWs3" id="72UYQRW$51g" role="3uHU7B">
-                  <node concept="3cpWs3" id="72UYQRWzEjv" role="3uHU7B">
-                    <node concept="3cpWs3" id="72UYQRW$0R1" role="3uHU7B">
-                      <node concept="Xl_RD" id="72UYQRWzYDL" role="3uHU7B">
-                        <property role="Xl_RC" value="The type of " />
-                      </node>
-                      <node concept="2OqwBi" id="72UYQRWzEMw" role="3uHU7w">
-                        <node concept="3TrEf2" id="72UYQRWzFmV" role="2OqNvi">
-                          <ref role="3Tt5mk" to="wnzg:72UYQRW0DPK" resolve="varRef" />
                         </node>
                         <node concept="1YBJjd" id="72UYQRW$167" role="2Oq$k0">
                           <ref role="1YBMHb" node="72UYQRWvwJo" resolve="dd" />
@@ -7517,7 +5394,7 @@
                 </node>
               </node>
               <node concept="Xl_RD" id="72UYQRWv_Xp" role="3uHU7w">
-                <property role="Xl_RC" value=" is not a pointer; only variables of type pointer can be deleted." />
+                <property role="Xl_RC" value=" is not pointer; only variables of type pointer may be deleted" />
               </node>
             </node>
             <node concept="1YBJjd" id="72UYQRWv_XN" role="1urrMF">
@@ -7552,113 +5429,39 @@
       <ref role="1YaFvo" to="wnzg:3EDDOqDY7x5" resolve="DeleteDeclaration" />
     </node>
   </node>
-  <node concept="2sgARr" id="4Mb2ywHv73W">
-    <property role="3GE5qa" value="class" />
-    <property role="TrG5h" value="supertypes_Polymorphism" />
-    <node concept="3clFbS" id="4Mb2ywHv73X" role="2sgrp5">
-      <node concept="3SKdUt" id="7SgJHc7_ySO" role="3cqZAp">
-        <node concept="3SKdUq" id="7SgJHc7_ySQ" role="3SKWNk">
-          <property role="3SKdUp" value="This is what does polymorphic assignment" />
-        </node>
-      </node>
-      <node concept="3cpWs8" id="7SgJHc7xva5" role="3cqZAp">
-        <node concept="3cpWsn" id="7SgJHc7xva8" role="3cpWs9">
-          <property role="TrG5h" value="supertypes" />
-          <node concept="2I9FWS" id="7SgJHc7xvdt" role="1tU5fm">
-            <ref role="2I9WkF" to="mj1l:7FQByU3CrCQ" resolve="Type" />
-          </node>
-          <node concept="2ShNRf" id="7SgJHc7xvex" role="33vP2m">
-            <node concept="2T8Vx0" id="7SgJHc7xvev" role="2ShVmc">
-              <node concept="2I9FWS" id="7SgJHc7xvew" role="2T96Bj">
-                <ref role="2I9WkF" to="mj1l:7FQByU3CrCQ" resolve="Type" />
+  <node concept="18kY7G" id="3SNFZ61r5Lb">
+    <property role="3GE5qa" value="namespace" />
+    <property role="TrG5h" value="check_GlobalUsingNamespaceAttributeDeclaration" />
+    <node concept="3clFbS" id="3SNFZ61r5Lc" role="18ibNy">
+      <node concept="3clFbJ" id="3SNFZ61r5Mi" role="3cqZAp">
+        <node concept="1Wc70l" id="3SNFZ61rbiC" role="3clFbw">
+          <node concept="3y3z36" id="3SNFZ61redG" role="3uHU7w">
+            <node concept="2OqwBi" id="3SNFZ61reM3" role="3uHU7w">
+              <node concept="1YBJjd" id="3SNFZ61renj" role="2Oq$k0">
+                <ref role="1YBMHb" node="3SNFZ61r5Lu" resolve="guNSad" />
+              </node>
+              <node concept="3TrEf2" id="3SNFZ61rfh7" role="2OqNvi">
+                <ref role="3Tt5mk" to="wnzg:7RFM8R0xwrf" resolve="namespace" />
               </node>
             </node>
-          </node>
-        </node>
-      </node>
-      <node concept="Jncv_" id="7SgJHc7xv3S" role="3cqZAp">
-        <ref role="JncvD" to="wnzg:4o2nsMgBEtu" resolve="ClassType" />
-        <node concept="2OqwBi" id="7SgJHc7xvJt" role="JncvB">
-          <node concept="1YBJjd" id="7SgJHc7xvuk" role="2Oq$k0">
-            <ref role="1YBMHb" node="4Mb2ywHv73Z" resolve="pt" />
-          </node>
-          <node concept="3TrEf2" id="7SgJHc7xwc2" role="2OqNvi">
-            <ref role="3Tt5mk" to="c4fa:6IWRcVPT6tm" resolve="baseType" />
-          </node>
-        </node>
-        <node concept="3clFbS" id="7SgJHc7xv3W" role="Jncv$">
-          <node concept="3cpWs8" id="7SgJHc7xU0d" role="3cqZAp">
-            <node concept="3cpWsn" id="7SgJHc7xU0g" role="3cpWs9">
-              <property role="TrG5h" value="possibleParentClass" />
-              <node concept="3Tqbb2" id="7SgJHc7xU0b" role="1tU5fm">
-                <ref role="ehGHo" to="wnzg:4o2nsMgBpPQ" resolve="ClassDeclaration" />
-              </node>
-              <node concept="2OqwBi" id="7SgJHc7xUuv" role="33vP2m">
-                <node concept="1YBJjd" id="7SgJHc7xUcc" role="2Oq$k0">
-                  <ref role="1YBMHb" node="4Mb2ywHv73Z" resolve="pt" />
+            <node concept="2OqwBi" id="3SNFZ61rcV1" role="3uHU7B">
+              <node concept="2OqwBi" id="3SNFZ61rbIL" role="2Oq$k0">
+                <node concept="1YBJjd" id="3SNFZ61rbqQ" role="2Oq$k0">
+                  <ref role="1YBMHb" node="3SNFZ61r5Lu" resolve="guNSad" />
                 </node>
-                <node concept="2Xjw5R" id="7SgJHc7xV0B" role="2OqNvi">
-                  <node concept="1xMEDy" id="7SgJHc7xV0D" role="1xVPHs">
-                    <node concept="chp4Y" id="7SgJHc7xV3w" role="ri$Ld">
-                      <ref role="cht4Q" to="wnzg:4o2nsMgBpPQ" resolve="ClassDeclaration" />
-                    </node>
+                <node concept="3TrEf2" id="3SNFZ61rcdE" role="2OqNvi">
+                  <ref role="3Tt5mk" to="wnzg:7RFM8R0xwrs" resolve="attribute" />
+                </node>
+              </node>
+              <node concept="2Xjw5R" id="3SNFZ61rdCX" role="2OqNvi">
+                <node concept="1xMEDy" id="3SNFZ61rdCZ" role="1xVPHs">
+                  <node concept="chp4Y" id="3SNFZ61rdM$" role="ri$Ld">
+                    <ref role="cht4Q" to="wnzg:383ZxwZqQYo" resolve="NamespaceDeclaration" />
                   </node>
-                  <node concept="1xIGOp" id="7SgJHc7xV3F" role="1xVPHs" />
                 </node>
               </node>
             </node>
           </node>
-          <node concept="3clFbJ" id="7SgJHc7xSwY" role="3cqZAp">
-            <node concept="3clFbS" id="7SgJHc7xSx0" role="3clFbx">
-              <node concept="3clFbF" id="7SgJHc7xWCH" role="3cqZAp">
-                <node concept="2OqwBi" id="7SgJHc7xZi2" role="3clFbG">
-                  <node concept="37vLTw" id="7SgJHc7xWCG" role="2Oq$k0">
-                    <ref role="3cqZAo" node="7SgJHc7xva8" resolve="supertypes" />
-                  </node>
-                  <node concept="X8dFx" id="7SgJHc7y40v" role="2OqNvi">
-                    <node concept="2OqwBi" id="7SgJHc7zxaz" role="25WWJ7">
-                      <node concept="2OqwBi" id="7SgJHc7yzS6" role="2Oq$k0">
-                        <node concept="2OqwBi" id="7SgJHc7yuY4" role="2Oq$k0">
-                          <node concept="Jnkvi" id="7SgJHc7yuz7" role="2Oq$k0">
-                            <ref role="1M0zk5" node="7SgJHc7xv3Y" resolve="ct" />
-                          </node>
-                          <node concept="3TrEf2" id="7SgJHc7yxg6" role="2OqNvi">
-                            <ref role="3Tt5mk" to="wnzg:4o2nsMgBEtY" resolve="clazz" />
-                          </node>
-                        </node>
-                        <node concept="2qgKlT" id="7SgJHc7yBng" role="2OqNvi">
-                          <ref role="37wK5l" to="kntn:4Mb2ywHsl_A" resolve="availableParentsForChild" />
-                          <node concept="3clFbT" id="7SgJHc7yCN_" role="37wK5m">
-                            <property role="3clFbU" value="true" />
-                          </node>
-                        </node>
-                      </node>
-                      <node concept="3$u5V9" id="7SgJHc7zIbU" role="2OqNvi">
-                        <node concept="1bVj0M" id="7SgJHc7zIbW" role="23t8la">
-                          <node concept="3clFbS" id="7SgJHc7zIbX" role="1bW5cS">
-                            <node concept="3clFbF" id="7SgJHc7zMzV" role="3cqZAp">
-                              <node concept="2pJPEk" id="7SgJHc7zMzT" role="3clFbG">
-                                <node concept="2pJPED" id="7SgJHc7zQMa" role="2pJPEn">
-                                  <ref role="2pJxaS" to="yq40:fwMInzpHoK" resolve="PointerType" />
-                                  <node concept="2pIpSj" id="7SgJHc7zWPK" role="2pJxcM">
-                                    <ref role="2pIpSl" to="c4fa:6IWRcVPT6tm" resolve="baseType" />
-                                    <node concept="36biLy" id="7SgJHc7zZpY" role="2pJxcZ">
-                                      <node concept="37vLTw" id="7SgJHc7$2Pu" role="36biLW">
-                                        <ref role="3cqZAo" node="7SgJHc7zIbY" resolve="it" />
-                                      </node>
-                                    </node>
-                                  </node>
-                                </node>
-                              </node>
-                            </node>
-                          </node>
-                          <node concept="Rh6nW" id="7SgJHc7zIbY" role="1bW2Oz">
-                            <property role="TrG5h" value="it" />
-                            <node concept="2jxLKc" id="7SgJHc7zIbZ" role="1tU5fm" />
-                          </node>
-                        </node>
-                      </node>
-=======
           <node concept="2OqwBi" id="3SNFZ61r7P0" role="3uHU7B">
             <node concept="2OqwBi" id="3SNFZ61r6ES" role="2Oq$k0">
               <node concept="1YBJjd" id="3SNFZ61r6r6" role="2Oq$k0">
@@ -7717,72 +5520,11 @@
                     </node>
                     <node concept="3TrEf2" id="3SNFZ61$3aN" role="2OqNvi">
                       <ref role="3Tt5mk" to="wnzg:7RFM8R0xwrs" resolve="attribute" />
->>>>>>> d979bf937a... Namespace EX and TS Tests.
                     </node>
                   </node>
                 </node>
               </node>
             </node>
-<<<<<<< HEAD
-            <node concept="2OqwBi" id="7SgJHc7xVHr" role="3clFbw">
-              <node concept="37vLTw" id="7SgJHc7xVld" role="2Oq$k0">
-                <ref role="3cqZAo" node="7SgJHc7xU0g" resolve="possibleParentClass" />
-              </node>
-              <node concept="3x8VRR" id="7SgJHc7xWkJ" role="2OqNvi" />
-            </node>
-            <node concept="9aQIb" id="7SgJHc7xWtL" role="9aQIa">
-              <node concept="3clFbS" id="7SgJHc7xWtM" role="9aQI4">
-                <node concept="3clFbF" id="7SgJHc7$a__" role="3cqZAp">
-                  <node concept="2OqwBi" id="7SgJHc7$a_B" role="3clFbG">
-                    <node concept="37vLTw" id="7SgJHc7$a_C" role="2Oq$k0">
-                      <ref role="3cqZAo" node="7SgJHc7xva8" resolve="supertypes" />
-                    </node>
-                    <node concept="X8dFx" id="7SgJHc7$a_D" role="2OqNvi">
-                      <node concept="2OqwBi" id="7SgJHc7$a_E" role="25WWJ7">
-                        <node concept="2OqwBi" id="7SgJHc7$a_F" role="2Oq$k0">
-                          <node concept="2OqwBi" id="7SgJHc7$a_G" role="2Oq$k0">
-                            <node concept="Jnkvi" id="7SgJHc7$a_H" role="2Oq$k0">
-                              <ref role="1M0zk5" node="7SgJHc7xv3Y" resolve="ct" />
-                            </node>
-                            <node concept="3TrEf2" id="7SgJHc7$a_I" role="2OqNvi">
-                              <ref role="3Tt5mk" to="wnzg:4o2nsMgBEtY" resolve="clazz" />
-                            </node>
-                          </node>
-                          <node concept="2qgKlT" id="7SgJHc7$a_J" role="2OqNvi">
-                            <ref role="37wK5l" to="kntn:4Mb2ywHsl_A" resolve="availableParentsForChild" />
-                            <node concept="3clFbT" id="7SgJHc7$a_K" role="37wK5m" />
-                          </node>
-                        </node>
-                        <node concept="3$u5V9" id="7SgJHc7$a_L" role="2OqNvi">
-                          <node concept="1bVj0M" id="7SgJHc7$a_M" role="23t8la">
-                            <node concept="3clFbS" id="7SgJHc7$a_N" role="1bW5cS">
-                              <node concept="3clFbF" id="7SgJHc7$a_O" role="3cqZAp">
-                                <node concept="2pJPEk" id="7SgJHc7$a_P" role="3clFbG">
-                                  <node concept="2pJPED" id="7SgJHc7$a_Q" role="2pJPEn">
-                                    <ref role="2pJxaS" to="yq40:fwMInzpHoK" resolve="PointerType" />
-                                    <node concept="2pIpSj" id="7SgJHc7$a_R" role="2pJxcM">
-                                      <ref role="2pIpSl" to="c4fa:6IWRcVPT6tm" resolve="baseType" />
-                                      <node concept="36biLy" id="7SgJHc7$a_S" role="2pJxcZ">
-                                        <node concept="37vLTw" id="7SgJHc7$a_T" role="36biLW">
-                                          <ref role="3cqZAo" node="7SgJHc7$a_U" resolve="it" />
-                                        </node>
-                                      </node>
-                                    </node>
-                                  </node>
-                                </node>
-                              </node>
-                            </node>
-                            <node concept="Rh6nW" id="7SgJHc7$a_U" role="1bW2Oz">
-                              <property role="TrG5h" value="it" />
-                              <node concept="2jxLKc" id="7SgJHc7$a_V" role="1tU5fm" />
-                            </node>
-                          </node>
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
-=======
           </node>
           <node concept="3clFbJ" id="3SNFZ61xp2$" role="3cqZAp">
             <node concept="3clFbS" id="3SNFZ61xp2_" role="3clFbx">
@@ -7798,30 +5540,10 @@
             <node concept="3fqX7Q" id="3SNFZ61yof1" role="3clFbw">
               <node concept="37vLTw" id="3SNFZ61yof3" role="3fr31v">
                 <ref role="3cqZAo" node="3SNFZ61xp4I" resolve="usingWithinOrigin" />
->>>>>>> d979bf937a... Namespace EX and TS Tests.
               </node>
             </node>
           </node>
         </node>
-<<<<<<< HEAD
-        <node concept="JncvC" id="7SgJHc7xv3Y" role="JncvA">
-          <property role="TrG5h" value="ct" />
-          <node concept="2jxLKc" id="7SgJHc7xv3Z" role="1tU5fm" />
-        </node>
-      </node>
-      <node concept="3cpWs6" id="7SgJHc7xvqL" role="3cqZAp">
-        <node concept="37vLTw" id="7SgJHc7xvtR" role="3cqZAk">
-          <ref role="3cqZAo" node="7SgJHc7xva8" resolve="supertypes" />
-        </node>
-      </node>
-    </node>
-    <node concept="1YaCAy" id="4Mb2ywHv73Z" role="1YuTPh">
-      <property role="TrG5h" value="pt" />
-      <ref role="1YaFvo" to="yq40:fwMInzpHoK" resolve="PointerType" />
-    </node>
-  </node>
->>>>>>> 9cc6d595ca... New and Delete keywords are working, with types and constructors
-=======
       </node>
     </node>
     <node concept="1YaCAy" id="3SNFZ61r5Lu" role="1YuTPh">
@@ -7829,9 +5551,6 @@
       <ref role="1YaFvo" to="wnzg:7RFM8R0xwre" resolve="GlobalUsingNamespaceAttributeDeclaration" />
     </node>
   </node>
-<<<<<<< HEAD
->>>>>>> d979bf937a... Namespace EX and TS Tests.
-=======
   <node concept="18kY7G" id="7G1ZeMQsojd">
     <property role="3GE5qa" value="namespace" />
     <property role="TrG5h" value="check_GlobalUsingNamespaceMethodDeclaration" />
@@ -7954,9 +5673,6 @@
       <ref role="1YaFvo" to="wnzg:7RFM8R0Rm5q" resolve="GlobalUsingNamespaceMethodDeclaration" />
     </node>
   </node>
-<<<<<<< HEAD
->>>>>>> 5c2ad8b038... Namespace Testing Fixes.
-=======
   <node concept="18kY7G" id="mwDIXwFf3W">
     <property role="3GE5qa" value="namespace" />
     <property role="TrG5h" value="check_NamespaceAttributeRef" />
@@ -8312,6 +6028,25 @@
                       <node concept="3clFbH" id="4V1wcOaIIdU" role="3cqZAp" />
                       <node concept="3clFbH" id="6Rfiwa9QHbe" role="3cqZAp" />
                       <node concept="3clFbJ" id="4V1wcOaIIdV" role="3cqZAp">
+                        <node concept="1Wc70l" id="6Rfiwa9QHTR" role="3clFbw">
+                          <node concept="3fqX7Q" id="6Rfiwa9QHYC" role="3uHU7w">
+                            <node concept="37vLTw" id="45faY2vaq0Q" role="3fr31v">
+                              <ref role="3cqZAo" node="45faY2vaoZR" resolve="isTemplateCall" />
+                            </node>
+                          </node>
+                          <node concept="3fqX7Q" id="4V1wcOaIIe5" role="3uHU7B">
+                            <node concept="2OqwBi" id="4V1wcOaIIe6" role="3fr31v">
+                              <node concept="37vLTw" id="4V1wcOaIIe7" role="2Oq$k0">
+                                <ref role="3cqZAo" node="4V1wcOaIIdO" resolve="actual" />
+                              </node>
+                              <node concept="1mIQ4w" id="4V1wcOaIIe8" role="2OqNvi">
+                                <node concept="chp4Y" id="4V1wcOaIIe9" role="cj9EA">
+                                  <ref role="cht4Q" to="mj1l:4usdeMNUjj3" resolve="IRequiresTypeToBeInferred" />
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
                         <node concept="3clFbS" id="4V1wcOaIIdW" role="3clFbx">
                           <node concept="1ZobV4" id="4V1wcOaIIdX" role="3cqZAp">
                             <property role="3wDh2S" value="true" />
@@ -8331,25 +6066,6 @@
                             </node>
                             <node concept="37vLTw" id="4V1wcOaIIe4" role="1ZmcU8">
                               <ref role="3cqZAo" node="4V1wcOaIIdO" resolve="actual" />
-                            </node>
-                          </node>
-                        </node>
-                        <node concept="1Wc70l" id="6Rfiwa9QHTR" role="3clFbw">
-                          <node concept="3fqX7Q" id="6Rfiwa9QHYC" role="3uHU7w">
-                            <node concept="37vLTw" id="45faY2vaq0Q" role="3fr31v">
-                              <ref role="3cqZAo" node="45faY2vaoZR" resolve="isTemplateCall" />
-                            </node>
-                          </node>
-                          <node concept="3fqX7Q" id="4V1wcOaIIe5" role="3uHU7B">
-                            <node concept="2OqwBi" id="4V1wcOaIIe6" role="3fr31v">
-                              <node concept="37vLTw" id="4V1wcOaIIe7" role="2Oq$k0">
-                                <ref role="3cqZAo" node="4V1wcOaIIdO" resolve="actual" />
-                              </node>
-                              <node concept="1mIQ4w" id="4V1wcOaIIe8" role="2OqNvi">
-                                <node concept="chp4Y" id="4V1wcOaIIe9" role="cj9EA">
-                                  <ref role="cht4Q" to="mj1l:4usdeMNUjj3" resolve="IRequiresTypeToBeInferred" />
-                                </node>
-                              </node>
                             </node>
                           </node>
                         </node>
@@ -8661,11 +6377,6 @@
     </node>
     <node concept="3Tm1VV" id="4V1wcOaIyst" role="1B3o_S" />
   </node>
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 0671c1b426... Fix typechecking on qualified method calls and migrated ICallLike typechecks to a class
-=======
-=======
   <node concept="18kY7G" id="6zyIeiaAPTc">
     <property role="3GE5qa" value="namespace" />
     <property role="TrG5h" value="check_NamespaceDeclaration" />
@@ -8738,7 +6449,6 @@
       <ref role="1YaFvo" to="wnzg:383ZxwZqQYo" resolve="NamespaceDeclaration" />
     </node>
   </node>
->>>>>>> c379e8e493... Added namespace name check warning. Adjusted namespace tests.
   <node concept="1YbPZF" id="8CgsWnasIl">
     <property role="TrG5h" value="typeof_AttributeDeclaration" />
     <node concept="3clFbS" id="8CgsWnasIm" role="18ibNy">
@@ -8858,55 +6568,6 @@
       <ref role="1YaFvo" to="wnzg:4o2nsMgBIrb" resolve="AttributeDeclaration" />
     </node>
   </node>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 8c977f7b87... Fixed typechecking for attributes
-=======
-  <node concept="18kY7G" id="4WhfN3onWNY">
-    <property role="TrG5h" value="check_TryCatchStatement" />
-    <property role="3GE5qa" value="errorhandling" />
-    <node concept="3clFbS" id="4WhfN3onWNZ" role="18ibNy">
-      <node concept="3cpWs8" id="4WhfN3ooezh" role="3cqZAp">
-        <node concept="3cpWsn" id="4WhfN3ooezk" role="3cpWs9">
-          <property role="TrG5h" value="redundant" />
-          <node concept="10P_77" id="4WhfN3ooezf" role="1tU5fm" />
-          <node concept="3clFbT" id="4WhfN3ooe$N" role="33vP2m" />
-        </node>
-      </node>
-      <node concept="2Gpval" id="4WhfN3ooe_r" role="3cqZAp">
-        <node concept="2GrKxI" id="4WhfN3ooe_t" role="2Gsz3X">
-          <property role="TrG5h" value="catchBlock" />
-        </node>
-        <node concept="2OqwBi" id="6r_QSB17IDN" role="2GsD0m">
-          <node concept="1YBJjd" id="4WhfN3ooeAn" role="2Oq$k0">
-            <ref role="1YBMHb" node="4WhfN3onWO1" resolve="tryCatchStatement" />
-          </node>
-          <node concept="3Tsc0h" id="6r_QSB17JwW" role="2OqNvi">
-            <ref role="3TtcxE" to="wnzg:4WhfN3oe7VQ" resolve="catches" />
-          </node>
-        </node>
-        <node concept="3clFbS" id="4WhfN3ooe_x" role="2LFqv$">
-          <node concept="3clFbJ" id="4WhfN3oofEf" role="3cqZAp">
-            <node concept="37vLTw" id="4WhfN3oofEu" role="3clFbw">
-              <ref role="3cqZAo" node="4WhfN3ooezk" resolve="redundant" />
-            </node>
-            <node concept="3clFbS" id="4WhfN3oofEh" role="3clFbx">
-              <node concept="2MkqsV" id="4WhfN3oofEB" role="3cqZAp">
-                <node concept="Xl_RD" id="4WhfN3oofEQ" role="2MkJ7o">
-                  <property role="Xl_RC" value="Catch block after catch all is redundant." />
-                </node>
-                <node concept="2GrUjf" id="4WhfN3oofGm" role="2OEOjV">
-                  <ref role="2Gs0qQ" node="4WhfN3ooe_t" resolve="catchBlock" />
-                </node>
-              </node>
-              <node concept="3clFbF" id="5w6Oa205J6t" role="3cqZAp">
-                <node concept="2OqwBi" id="6r_QSB17Mpu" role="3clFbG">
-                  <node concept="2GrUjf" id="5w6Oa205J6r" role="2Oq$k0">
-                    <ref role="2Gs0qQ" node="4WhfN3ooe_t" resolve="catchBlock" />
-                  </node>
-                  <node concept="1PgB_6" id="6r_QSB17MRP" role="2OqNvi" />
-=======
   <node concept="18kY7G" id="2j_NnBnvkp6">
     <property role="TrG5h" value="check_ClassType" />
     <property role="3GE5qa" value="class" />
@@ -8959,6 +6620,21 @@
       </node>
       <node concept="3clFbJ" id="2j_NnBnvmHd" role="3cqZAp">
         <node concept="1Wc70l" id="2H8o8lwLqOW" role="3clFbw">
+          <node concept="2OqwBi" id="32KsbhT14iH" role="3uHU7w">
+            <node concept="2OqwBi" id="32KsbhT12ty" role="2Oq$k0">
+              <node concept="1YBJjd" id="32KsbhT127V" role="2Oq$k0">
+                <ref role="1YBMHb" node="2j_NnBnvkp9" resolve="classType" />
+              </node>
+              <node concept="2Xjw5R" id="32KsbhT138G" role="2OqNvi">
+                <node concept="1xMEDy" id="32KsbhT138I" role="1xVPHs">
+                  <node concept="chp4Y" id="32KsbhT13zo" role="ri$Ld">
+                    <ref role="cht4Q" to="wnzg:4o2nsMgBIrb" resolve="AttributeDeclaration" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3x8VRR" id="32KsbhT15gA" role="2OqNvi" />
+          </node>
           <node concept="1Wc70l" id="32KsbhT11I7" role="3uHU7B">
             <node concept="3clFbC" id="2j_NnBnvpsV" role="3uHU7B">
               <node concept="2OqwBi" id="2j_NnBnvmUO" role="3uHU7B">
@@ -8997,21 +6673,6 @@
               </node>
               <node concept="3w_OXm" id="2H8o8lwLuFS" role="2OqNvi" />
             </node>
-          </node>
-          <node concept="2OqwBi" id="32KsbhT14iH" role="3uHU7w">
-            <node concept="2OqwBi" id="32KsbhT12ty" role="2Oq$k0">
-              <node concept="1YBJjd" id="32KsbhT127V" role="2Oq$k0">
-                <ref role="1YBMHb" node="2j_NnBnvkp9" resolve="classType" />
-              </node>
-              <node concept="2Xjw5R" id="32KsbhT138G" role="2OqNvi">
-                <node concept="1xMEDy" id="32KsbhT138I" role="1xVPHs">
-                  <node concept="chp4Y" id="32KsbhT13zo" role="ri$Ld">
-                    <ref role="cht4Q" to="wnzg:4o2nsMgBIrb" resolve="AttributeDeclaration" />
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="3x8VRR" id="32KsbhT15gA" role="2OqNvi" />
           </node>
         </node>
         <node concept="3clFbS" id="2j_NnBnvmHf" role="3clFbx">
@@ -9150,41 +6811,10 @@
                       <ref role="3Tt5mk" to="wnzg:4o2nsMgBEtY" resolve="class" />
                     </node>
                   </node>
->>>>>>> 8cdf9d8629... Added typesystem checks for nesting
                 </node>
               </node>
             </node>
           </node>
-<<<<<<< HEAD
-          <node concept="3clFbJ" id="4WhfN3oofGN" role="3cqZAp">
-            <node concept="3clFbS" id="4WhfN3oofGP" role="3clFbx">
-              <node concept="3clFbF" id="4WhfN3oohYl" role="3cqZAp">
-                <node concept="37vLTI" id="4WhfN3ooifT" role="3clFbG">
-                  <node concept="3clFbT" id="4WhfN3ooijG" role="37vLTx">
-                    <property role="3clFbU" value="true" />
-                  </node>
-                  <node concept="37vLTw" id="4WhfN3oohYj" role="37vLTJ">
-                    <ref role="3cqZAo" node="4WhfN3ooezk" resolve="redundant" />
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="2OqwBi" id="6r_QSB17KSS" role="3clFbw">
-              <node concept="2OqwBi" id="6r_QSB17KjB" role="2Oq$k0">
-                <node concept="2GrUjf" id="4WhfN3oofHi" role="2Oq$k0">
-                  <ref role="2Gs0qQ" node="4WhfN3ooe_t" resolve="catchBlock" />
-                </node>
-                <node concept="3TrEf2" id="6r_QSB17KzJ" role="2OqNvi">
-                  <ref role="3Tt5mk" to="wnzg:4WhfN3oe7XA" resolve="catch" />
-                </node>
-              </node>
-              <node concept="1mIQ4w" id="6r_QSB17L9Y" role="2OqNvi">
-                <node concept="chp4Y" id="6r_QSB17Lc4" role="cj9EA">
-                  <ref role="cht4Q" to="wnzg:4WhfN3oe7Xs" resolve="DefaultCatch" />
-                </node>
-              </node>
-            </node>
-=======
         </node>
         <node concept="1Wc70l" id="3M9Tj7Yg3jM" role="3clFbw">
           <node concept="3fqX7Q" id="3M9Tj7Yg3zS" role="3uHU7w">
@@ -9235,33 +6865,15 @@
                 </node>
               </node>
             </node>
-<<<<<<< HEAD
-            <node concept="3x8VRR" id="2j_NnBnxJIS" role="2OqNvi" />
->>>>>>> 8cdf9d8629... Added typesystem checks for nesting
-=======
->>>>>>> ec691300ed... Changed class nesting test
           </node>
         </node>
       </node>
     </node>
-<<<<<<< HEAD
-    <node concept="1YaCAy" id="4WhfN3onWO1" role="1YuTPh">
-      <property role="TrG5h" value="tryCatchStatement" />
-      <ref role="1YaFvo" to="wnzg:4WhfN3oe7VL" resolve="TryCatchStatement" />
-    </node>
-  </node>
->>>>>>> 061e94da3b... Migrate error handling to cpp.base
-=======
->>>>>>> d72e40f1e7... Revert "Migrate error handling to cpp.base"
-=======
     <node concept="1YaCAy" id="2j_NnBnvkp9" role="1YuTPh">
       <property role="TrG5h" value="classType" />
       <ref role="1YaFvo" to="wnzg:4o2nsMgBEtu" resolve="ClassType" />
     </node>
   </node>
-<<<<<<< HEAD
->>>>>>> 8cdf9d8629... Added typesystem checks for nesting
-=======
   <node concept="18kY7G" id="hYHfWv9gS9">
     <property role="TrG5h" value="check_GlobalVarDecCPP" />
     <node concept="3clFbS" id="hYHfWv9gSa" role="18ibNy">
@@ -9609,41 +7221,8 @@
         </node>
         <node concept="3eNFk2" id="hYHfWxuxml" role="3eNLev">
           <node concept="3clFbS" id="hYHfWxuxmm" role="3eOfB_">
-<<<<<<< HEAD
-            <node concept="3cpWs8" id="hYHfWyav0P" role="3cqZAp">
-              <node concept="3cpWsn" id="hYHfWyav0Q" role="3cpWs9">
-                <property role="TrG5h" value="init" />
-                <node concept="17QB3L" id="hYHfWyav0R" role="1tU5fm" />
-                <node concept="2OqwBi" id="hYHfWyav0S" role="33vP2m">
-                  <node concept="2OqwBi" id="hYHfWyav0T" role="2Oq$k0">
-                    <node concept="2OqwBi" id="hYHfWyav0U" role="2Oq$k0">
-                      <node concept="1YBJjd" id="hYHfWyav0V" role="2Oq$k0">
-                        <ref role="1YBMHb" node="hYHfWv9gSc" resolve="vardec" />
-                      </node>
-                      <node concept="3TrEf2" id="hYHfWyav0W" role="2OqNvi">
-                        <ref role="3Tt5mk" to="x27k:2pPw_DEjkM9" resolve="init" />
-                      </node>
-                    </node>
-                    <node concept="2qgKlT" id="hYHfWyav0X" role="2OqNvi">
-                      <ref role="37wK5l" to="ywuz:1VQvajLb13M" resolve="renderReadable" />
-                    </node>
-                  </node>
-                  <node concept="liA8E" id="hYHfWyav0Y" role="2OqNvi">
-                    <ref role="37wK5l" to="wyt6:~String.trim():java.lang.String" resolve="trim" />
-                  </node>
-                </node>
-=======
             <node concept="3SKdUt" id="3VWY4WWABGP" role="3cqZAp">
-<<<<<<< HEAD
-<<<<<<< HEAD
-              <node concept="3SKdUq" id="3VWY4WWABGR" role="3SKWNk">
-                <property role="3SKdUp" value="Give warning if wide char uses more than 8 bits" />
->>>>>>> fa851a922c... Cleanup range checks on characters
-=======
-              <node concept="1PaTwC" id="7jWRS$D_1bL" role="3ndbpf">
-=======
               <node concept="1PaTwC" id="7jWRS$D_1bL" role="1aUNEU">
->>>>>>> 6bfe4b6649... example showing too long grammarcells method
                 <node concept="3oM_SD" id="7jWRS$D_1bM" role="1PaTwD">
                   <property role="3oM_SC" value="Give" />
                 </node>
@@ -9674,7 +7253,6 @@
                 <node concept="3oM_SD" id="7jWRS$D_1bV" role="1PaTwD">
                   <property role="3oM_SC" value="bits" />
                 </node>
->>>>>>> cc021cd381... migrated to 2019.2
               </node>
             </node>
             <node concept="3clFbJ" id="hYHfWyavkb" role="3cqZAp">
@@ -9746,7 +7324,6 @@
             </node>
           </node>
         </node>
-<<<<<<< HEAD
       </node>
     </node>
     <node concept="1YaCAy" id="hYHfWv9gSc" role="1YuTPh">
@@ -9754,9 +7331,6 @@
       <ref role="1YaFvo" to="wnzg:6OyCGy3FHs3" resolve="GlobalVarDecCPP" />
     </node>
   </node>
-<<<<<<< HEAD
->>>>>>> 2cc9b19fc3... Added type checking for char16_t initialization.
-=======
   <node concept="18kY7G" id="1VsJb22wjAs">
     <property role="TrG5h" value="check_IIdentifierNamedConceptKeywords" />
     <node concept="3clFbS" id="1VsJb22wjAt" role="18ibNy">
@@ -9863,8 +7437,6 @@
         </node>
       </node>
       <node concept="3clFbJ" id="1VsJb22wjAK" role="3cqZAp">
-<<<<<<< HEAD
-=======
         <node concept="2OqwBi" id="1VsJb22wqdM" role="3clFbw">
           <node concept="2OqwBi" id="1VsJb22wjY7" role="2Oq$k0">
             <node concept="37vLTw" id="1VsJb22wjKB" role="2Oq$k0">
@@ -9883,7 +7455,6 @@
             </node>
           </node>
         </node>
->>>>>>> 0ee1f9fd9a... Decoupled operator_overloading language from base
         <node concept="3clFbS" id="1VsJb22wjAM" role="3clFbx">
           <node concept="2MkqsV" id="1VsJb22wrdk" role="3cqZAp">
             <node concept="3cpWs3" id="1VsJb22ws3r" role="2MkJ7o">
@@ -9896,42 +7467,12 @@
                 </node>
                 <node concept="3TrcHB" id="1VsJb22wrAP" role="2OqNvi">
                   <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
-<<<<<<< HEAD
-=======
-        <node concept="3eNFk2" id="hYHfWxuxml" role="3eNLev">
-          <node concept="3clFbS" id="hYHfWxuxmm" role="3eOfB_">
-            <node concept="3SKdUt" id="3VWY4WWABGP" role="3cqZAp">
-              <node concept="3SKdUq" id="3VWY4WWABGR" role="3SKWNk">
-                <property role="3SKdUp" value="Give warning if wide char uses more than 8 bits" />
-              </node>
-            </node>
-<<<<<<< HEAD
-            <node concept="3cpWs8" id="hYHfWyav0P" role="3cqZAp">
-              <node concept="3cpWsn" id="hYHfWyav0Q" role="3cpWs9">
-                <property role="TrG5h" value="init" />
-                <node concept="17QB3L" id="hYHfWyav0R" role="1tU5fm" />
-                <node concept="2OqwBi" id="hYHfWyav0S" role="33vP2m">
-                  <node concept="2OqwBi" id="hYHfWyav0T" role="2Oq$k0">
-                    <node concept="2OqwBi" id="hYHfWyav0U" role="2Oq$k0">
-                      <node concept="1YBJjd" id="hYHfWyav0V" role="2Oq$k0">
-                        <ref role="1YBMHb" node="hYHfWv9gSc" resolve="vardec" />
-                      </node>
-                      <node concept="3TrEf2" id="hYHfWyav0W" role="2OqNvi">
-                        <ref role="3Tt5mk" to="x27k:2pPw_DEjkM9" resolve="init" />
-                      </node>
-                    </node>
-                    <node concept="2qgKlT" id="hYHfWyav0X" role="2OqNvi">
-                      <ref role="37wK5l" to="ywuz:1VQvajLb13M" resolve="renderReadable" />
-                    </node>
-=======
-=======
                 </node>
               </node>
             </node>
             <node concept="1YBJjd" id="1VsJb22wsq_" role="1urrMF">
               <ref role="1YBMHb" node="1VsJb22wjAv" resolve="iinc" />
             </node>
->>>>>>> 4e2541f81a... migrated to 2019.3
           </node>
         </node>
       </node>
@@ -9974,24 +7515,17 @@
                   </node>
                   <node concept="3TrEf2" id="3e4PW874tBb" role="2OqNvi">
                     <ref role="3Tt5mk" to="wnzg:3e4PW874nOt" resolve="type" />
->>>>>>> 37c392409c... Fix casting to use parent textgen
                   </node>
-                  <node concept="liA8E" id="hYHfWyav0Y" role="2OqNvi">
-                    <ref role="37wK5l" to="wyt6:~String.trim():java.lang.String" resolve="trim" />
+                </node>
+                <node concept="1mIQ4w" id="4lmr4L5IZc$" role="2OqNvi">
+                  <node concept="chp4Y" id="4lmr4L5IZo6" role="cj9EA">
+                    <ref role="cht4Q" to="yq40:fwMInzpHoK" resolve="PointerType" />
                   </node>
->>>>>>> 2cc9bd2060... Added thread_local to GlobalVarDecCPP, added error for thread_local and register.
                 </node>
               </node>
             </node>
           </node>
         </node>
-<<<<<<< HEAD
-        <node concept="1Wc70l" id="4lmr4L5a4yE" role="3clFbw">
-          <node concept="3fqX7Q" id="4lmr4L5a4FO" role="3uHU7w">
-            <node concept="2OqwBi" id="4lmr4L5a4Ra" role="3fr31v">
-              <node concept="1YBJjd" id="4lmr4L5a4FU" role="2Oq$k0">
-                <ref role="1YBMHb" node="1VsJb22wjAv" resolve="iinc" />
-=======
         <node concept="3clFbS" id="4lmr4L5IUrO" role="3clFbx">
           <node concept="2MkqsV" id="4lmr4L5IZAQ" role="3cqZAp">
             <node concept="Xl_RD" id="4lmr4L5IZB5" role="2MkJ7o">
@@ -10170,60 +7704,38 @@
             <node concept="37vLTI" id="4lmr4L5KkXz" role="3clFbG">
               <node concept="3clFbT" id="4lmr4L5KkY4" role="37vLTx">
                 <property role="3clFbU" value="false" />
->>>>>>> 1adc8a049b... Migrate static method checks that were in the non-static prule to the static one
               </node>
-              <node concept="1mIQ4w" id="4lmr4L5a5bn" role="2OqNvi">
-                <node concept="chp4Y" id="4lmr4L5ag5W" role="cj9EA">
-                  <ref role="cht4Q" to="zhp8:7bt9OVZfWbc" resolve="OperatorOverloadDeclaration" />
+              <node concept="2OqwBi" id="4lmr4L5Kked" role="37vLTJ">
+                <node concept="37vLTw" id="4lmr4L5Kk3S" role="2Oq$k0">
+                  <ref role="3cqZAo" node="4lmr4L5KgRt" resolve="typeToAssign" />
+                </node>
+                <node concept="3TrcHB" id="4lmr4L5Kkth" role="2OqNvi">
+                  <ref role="3TsBF5" to="mj1l:2zhwXA$N7QC" resolve="const" />
                 </node>
               </node>
             </node>
           </node>
-          <node concept="2OqwBi" id="1VsJb22wqdM" role="3uHU7B">
-            <node concept="2OqwBi" id="1VsJb22wjY7" role="2Oq$k0">
-              <node concept="37vLTw" id="1VsJb22wjKB" role="2Oq$k0">
-                <ref role="3cqZAo" node="1VsJb22wjBj" resolve="keywords" />
+          <node concept="1Z5TYs" id="4lmr4L5KeGh" role="3cqZAp">
+            <node concept="mw_s8" id="4lmr4L5Kl0Q" role="1ZfhKB">
+              <node concept="37vLTw" id="4lmr4L5Kl0J" role="mwGJk">
+                <ref role="3cqZAo" node="4lmr4L5KgRt" resolve="typeToAssign" />
               </node>
-              <node concept="39bAoz" id="1VsJb22wp9J" role="2OqNvi" />
             </node>
-            <node concept="3JPx81" id="1VsJb22wqB7" role="2OqNvi">
-              <node concept="2OqwBi" id="1VsJb22wqM_" role="25WWJ7">
-                <node concept="1YBJjd" id="1VsJb22wqBA" role="2Oq$k0">
-                  <ref role="1YBMHb" node="1VsJb22wjAv" resolve="iinc" />
-                </node>
-                <node concept="3TrcHB" id="1VsJb22wraa" role="2OqNvi">
-                  <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+            <node concept="mw_s8" id="4lmr4L5KeGk" role="1ZfhK$">
+              <node concept="1Z2H0r" id="4lmr4L5Ke$v" role="mwGJk">
+                <node concept="1YBJjd" id="4lmr4L5Ke$O" role="1Z2MuG">
+                  <ref role="1YBMHb" node="4lmr4L5Kcv2" resolve="cc" />
                 </node>
               </node>
             </node>
           </node>
+          <node concept="3clFbH" id="4lmr4L5KlBw" role="3cqZAp" />
         </node>
-      </node>
-    </node>
-    <node concept="1YaCAy" id="1VsJb22wjAv" role="1YuTPh">
-      <property role="TrG5h" value="iinc" />
-      <ref role="1YaFvo" to="vs0r:65XyadYKJgN" resolve="IIdentifierNamedConcept" />
-    </node>
-  </node>
-<<<<<<< HEAD
->>>>>>> 90a34c86f3... Removed C++ keywords from available identifiers
-=======
-  <node concept="1YbPZF" id="4lmr4L5krcD">
-    <property role="TrG5h" value="typeof_ICPPCast" />
-    <property role="3GE5qa" value="cast" />
-    <node concept="3clFbS" id="4lmr4L5krcE" role="18ibNy">
-      <node concept="1Z5TYs" id="4lmr4L5krkz" role="3cqZAp">
-        <node concept="mw_s8" id="4lmr4L5krkX" role="1ZfhKB">
-          <node concept="2OqwBi" id="4lmr4L5krsT" role="mwGJk">
-            <node concept="1YBJjd" id="4lmr4L5krkV" role="2Oq$k0">
-              <ref role="1YBMHb" node="4lmr4L5krcG" resolve="cppc" />
+        <node concept="2OqwBi" id="4lmr4L5KebR" role="3clFbw">
+          <node concept="2OqwBi" id="4lmr4L5KdiR" role="2Oq$k0">
+            <node concept="1YBJjd" id="4lmr4L5Kd3R" role="2Oq$k0">
+              <ref role="1YBMHb" node="4lmr4L5Kcv2" resolve="cc" />
             </node>
-<<<<<<< HEAD
-            <node concept="3TrEf2" id="4lmr4L5krAm" role="2OqNvi">
-              <ref role="3Tt5mk" to="wnzg:4lmr4L5bbR1" resolve="type" />
-            </node>
-          </node>
-=======
             <node concept="3TrEf2" id="3e4PW874wUu" role="2OqNvi">
               <ref role="3Tt5mk" to="wnzg:3e4PW874nOt" resolve="type" />
             </node>
@@ -10238,22 +7750,16 @@
           <node concept="37vLTw" id="4lmr4L5KlMG" role="mwGJk">
             <ref role="3cqZAo" node="4lmr4L5KgRt" resolve="typeToAssign" />
           </node>
->>>>>>> 37c392409c... Fix casting to use parent textgen
         </node>
-        <node concept="mw_s8" id="4lmr4L5krkA" role="1ZfhK$">
-          <node concept="1Z2H0r" id="4lmr4L5krcN" role="mwGJk">
-            <node concept="1YBJjd" id="4lmr4L5krd8" role="1Z2MuG">
-              <ref role="1YBMHb" node="4lmr4L5krcG" resolve="cppc" />
+        <node concept="mw_s8" id="4lmr4L5KcI0" role="1ZfhK$">
+          <node concept="1Z2H0r" id="4lmr4L5KcI1" role="mwGJk">
+            <node concept="1YBJjd" id="4lmr4L5KcXQ" role="1Z2MuG">
+              <ref role="1YBMHb" node="4lmr4L5Kcv2" resolve="cc" />
             </node>
           </node>
         </node>
       </node>
     </node>
-<<<<<<< HEAD
-    <node concept="1YaCAy" id="4lmr4L5krcG" role="1YuTPh">
-      <property role="TrG5h" value="cppc" />
-      <ref role="1YaFvo" to="wnzg:4lmr4L5bbIs" resolve="ICPPCast" />
-=======
     <node concept="1YaCAy" id="4lmr4L5Kcv2" role="1YuTPh">
       <property role="TrG5h" value="cc" />
       <ref role="1YaFvo" to="wnzg:4lmr4L5K5F7" resolve="ConstCast" />
@@ -10266,7 +7772,6 @@
           </node>
         </node>
       </node>
->>>>>>> cc021cd381... migrated to 2019.2
     </node>
   </node>
   <node concept="18kY7G" id="4lmr4L5loLW">
@@ -10652,128 +8157,6 @@
       <ref role="1YaFvo" to="wnzg:4lmr4L5$$S8" resolve="ReinterpretCast" />
     </node>
   </node>
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 3e9af26420... Add static_cast<T> and reinterpret_cast<T*>
-=======
-  <node concept="18kY7G" id="4lmr4L5IUrF">
-    <property role="TrG5h" value="check_DynamicCast" />
-    <property role="3GE5qa" value="cast" />
-    <node concept="3clFbS" id="4lmr4L5IUrG" role="18ibNy">
-      <node concept="3clFbJ" id="4lmr4L5IUrM" role="3cqZAp">
-        <node concept="3fqX7Q" id="4lmr4L5IUs1" role="3clFbw">
-          <node concept="1eOMI4" id="4lmr4L5IUs3" role="3fr31v">
-            <node concept="22lmx$" id="4lmr4L5IX1u" role="1eOMHV">
-              <node concept="2OqwBi" id="4lmr4L5IWnD" role="3uHU7B">
-                <node concept="2OqwBi" id="4lmr4L5IV$k" role="2Oq$k0">
-                  <node concept="2OqwBi" id="4lmr4L5IUF$" role="2Oq$k0">
-                    <node concept="1YBJjd" id="4lmr4L5IUss" role="2Oq$k0">
-                      <ref role="1YBMHb" node="4lmr4L5IUrI" resolve="dc" />
-                    </node>
-                    <node concept="3TrEf2" id="4lmr4L5IV1p" role="2OqNvi">
-                      <ref role="3Tt5mk" to="wnzg:4lmr4L5bbRB" resolve="value" />
-                    </node>
-                  </node>
-                  <node concept="3JvlWi" id="4lmr4L5IVVG" role="2OqNvi" />
-                </node>
-                <node concept="1mIQ4w" id="4lmr4L5IWyn" role="2OqNvi">
-                  <node concept="chp4Y" id="4lmr4L5IWBo" role="cj9EA">
-                    <ref role="cht4Q" to="yq40:fwMInzpHoK" resolve="PointerType" />
-                  </node>
-                </node>
-              </node>
-              <node concept="2OqwBi" id="4lmr4L5IYRg" role="3uHU7w">
-                <node concept="2OqwBi" id="4lmr4L5IXue" role="2Oq$k0">
-                  <node concept="1YBJjd" id="4lmr4L5IXaX" role="2Oq$k0">
-                    <ref role="1YBMHb" node="4lmr4L5IUrI" resolve="dc" />
-                  </node>
-                  <node concept="3TrEf2" id="4lmr4L5IYhN" role="2OqNvi">
-                    <ref role="3Tt5mk" to="wnzg:4lmr4L5bbR1" resolve="type" />
-                  </node>
-                </node>
-                <node concept="1mIQ4w" id="4lmr4L5IZc$" role="2OqNvi">
-                  <node concept="chp4Y" id="4lmr4L5IZo6" role="cj9EA">
-                    <ref role="cht4Q" to="yq40:fwMInzpHoK" resolve="PointerType" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbS" id="4lmr4L5IUrO" role="3clFbx">
-          <node concept="2MkqsV" id="4lmr4L5IZAQ" role="3cqZAp">
-            <node concept="Xl_RD" id="4lmr4L5IZB5" role="2MkJ7o">
-              <property role="Xl_RC" value="dynamic_cast can only cast pointers" />
-            </node>
-            <node concept="1YBJjd" id="4lmr4L5IZC9" role="2OEOjV">
-              <ref role="1YBMHb" node="4lmr4L5IUrI" resolve="dc" />
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="1YaCAy" id="4lmr4L5IUrI" role="1YuTPh">
-      <property role="TrG5h" value="dc" />
-      <ref role="1YaFvo" to="wnzg:4lmr4L5Exud" resolve="DynamicCast" />
-    </node>
-  </node>
-  <node concept="1YbPZF" id="4lmr4L5KcuZ">
-    <property role="TrG5h" value="typeof_ConstCast" />
-    <property role="3GE5qa" value="cast" />
-    <node concept="3clFbS" id="4lmr4L5Kcv0" role="18ibNy">
-      <node concept="3cpWs8" id="4lmr4L5Klih" role="3cqZAp">
-        <node concept="3cpWsn" id="4lmr4L5KgRt" role="3cpWs9">
-          <property role="TrG5h" value="typeToAssign" />
-          <node concept="3Tqbb2" id="4lmr4L5KgRo" role="1tU5fm">
-            <ref role="ehGHo" to="mj1l:7FQByU3CrCQ" resolve="Type" />
-          </node>
-          <node concept="2OqwBi" id="4lmr4L5KjDU" role="33vP2m">
-            <node concept="2OqwBi" id="4lmr4L5KiMu" role="2Oq$k0">
-              <node concept="1YBJjd" id="4lmr4L5KitX" role="2Oq$k0">
-                <ref role="1YBMHb" node="4lmr4L5Kcv2" resolve="cc" />
-              </node>
-              <node concept="3TrEf2" id="4lmr4L5KjaR" role="2OqNvi">
-                <ref role="3Tt5mk" to="wnzg:4lmr4L5bbR1" resolve="type" />
-              </node>
-            </node>
-            <node concept="1$rogu" id="4lmr4L5KjXG" role="2OqNvi" />
-          </node>
-        </node>
-      </node>
-      <node concept="3clFbH" id="4lmr4L5Klhm" role="3cqZAp" />
-      <node concept="3SKdUt" id="4lmr4L5KlD8" role="3cqZAp">
-        <node concept="3SKdUq" id="4lmr4L5KlDa" role="3SKWNk">
-          <property role="3SKdUp" value="Get rid of const if it's const." />
-        </node>
-      </node>
-      <node concept="3clFbJ" id="4lmr4L5Kd3k" role="3cqZAp">
-        <node concept="3clFbS" id="4lmr4L5Kd3m" role="3clFbx">
-          <node concept="3clFbF" id="4lmr4L5Kk3U" role="3cqZAp">
-            <node concept="37vLTI" id="4lmr4L5KkXz" role="3clFbG">
-              <node concept="3clFbT" id="4lmr4L5KkY4" role="37vLTx">
-                <property role="3clFbU" value="false" />
-              </node>
-              <node concept="2OqwBi" id="4lmr4L5Kked" role="37vLTJ">
-                <node concept="37vLTw" id="4lmr4L5Kk3S" role="2Oq$k0">
-                  <ref role="3cqZAo" node="4lmr4L5KgRt" resolve="typeToAssign" />
-                </node>
-                <node concept="3TrcHB" id="4lmr4L5Kkth" role="2OqNvi">
-                  <ref role="3TsBF5" to="mj1l:2zhwXA$N7QC" resolve="const" />
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="1Z5TYs" id="4lmr4L5KeGh" role="3cqZAp">
-            <node concept="mw_s8" id="4lmr4L5Kl0Q" role="1ZfhKB">
-              <node concept="37vLTw" id="4lmr4L5Kl0J" role="mwGJk">
-                <ref role="3cqZAo" node="4lmr4L5KgRt" resolve="typeToAssign" />
-              </node>
-            </node>
-            <node concept="mw_s8" id="4lmr4L5KeGk" role="1ZfhK$">
-              <node concept="1Z2H0r" id="4lmr4L5Ke$v" role="mwGJk">
-                <node concept="1YBJjd" id="4lmr4L5Ke$O" role="1Z2MuG">
-                  <ref role="1YBMHb" node="4lmr4L5Kcv2" resolve="cc" />
-=======
   <node concept="1YbPZF" id="cx3$dxZHt2">
     <property role="TrG5h" value="typeof_ClassStaticMethodRef" />
     <node concept="3clFbS" id="cx3$dxZHt3" role="18ibNy">
@@ -10826,59 +8209,10 @@
               <node concept="1Z2H0r" id="cx3$dxZHth" role="mwGJk">
                 <node concept="1YBJjd" id="cx3$dxZHZW" role="1Z2MuG">
                   <ref role="1YBMHb" node="cx3$dxZHt5" resolve="classStaticMethodRef" />
->>>>>>> 06a53f073f... Added reference for static class methods.
                 </node>
               </node>
             </node>
           </node>
-<<<<<<< HEAD
-          <node concept="3clFbH" id="4lmr4L5KlBw" role="3cqZAp" />
-        </node>
-        <node concept="2OqwBi" id="4lmr4L5KebR" role="3clFbw">
-          <node concept="2OqwBi" id="4lmr4L5KdiR" role="2Oq$k0">
-            <node concept="1YBJjd" id="4lmr4L5Kd3R" role="2Oq$k0">
-              <ref role="1YBMHb" node="4lmr4L5Kcv2" resolve="cc" />
-            </node>
-            <node concept="3TrEf2" id="4lmr4L5KdEH" role="2OqNvi">
-              <ref role="3Tt5mk" to="wnzg:4lmr4L5bbR1" resolve="type" />
-            </node>
-          </node>
-          <node concept="3TrcHB" id="4lmr4L5KexW" role="2OqNvi">
-            <ref role="3TsBF5" to="mj1l:2zhwXA$N7QC" resolve="const" />
-          </node>
-        </node>
-      </node>
-      <node concept="1Z5TYs" id="4lmr4L5KcHV" role="3cqZAp">
-        <node concept="mw_s8" id="4lmr4L5KlML" role="1ZfhKB">
-          <node concept="37vLTw" id="4lmr4L5KlMG" role="mwGJk">
-            <ref role="3cqZAo" node="4lmr4L5KgRt" resolve="typeToAssign" />
-          </node>
-        </node>
-        <node concept="mw_s8" id="4lmr4L5KcI0" role="1ZfhK$">
-          <node concept="1Z2H0r" id="4lmr4L5KcI1" role="mwGJk">
-            <node concept="1YBJjd" id="4lmr4L5KcXQ" role="1Z2MuG">
-              <ref role="1YBMHb" node="4lmr4L5Kcv2" resolve="cc" />
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="1YaCAy" id="4lmr4L5Kcv2" role="1YuTPh">
-      <property role="TrG5h" value="cc" />
-      <ref role="1YaFvo" to="wnzg:4lmr4L5K5F7" resolve="ConstCast" />
-    </node>
-    <node concept="bXqS6" id="4lmr4L5Kcv6" role="bX4a1">
-      <node concept="3clFbS" id="4lmr4L5Kcv7" role="2VODD2">
-        <node concept="3clFbF" id="4lmr4L5KcAp" role="3cqZAp">
-          <node concept="3clFbT" id="4lmr4L5KcAo" role="3clFbG">
-            <property role="3clFbU" value="true" />
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
->>>>>>> 632c9cf47b... Add const_cast<T> and dynamic_cast<T*>
-=======
         </node>
         <node concept="1Z2H0r" id="cx3$dxZHtj" role="nvjzm">
           <node concept="2OqwBi" id="cx3$dxZHtk" role="1Z2MuG">
@@ -10901,9 +8235,6 @@
       <ref role="1YaFvo" to="wnzg:cx3$dxZGVV" resolve="ClassStaticMethodRef" />
     </node>
   </node>
-<<<<<<< HEAD
->>>>>>> 06a53f073f... Added reference for static class methods.
-=======
   <node concept="1YbPZF" id="3L3ootSapff">
     <property role="TrG5h" value="typeof_ClassStaticRef" />
     <node concept="3clFbS" id="3L3ootSapfg" role="18ibNy">
@@ -10945,9 +8276,6 @@
       <ref role="1YaFvo" to="wnzg:3L3ootRECAk" resolve="ClassStaticRef" />
     </node>
   </node>
-<<<<<<< HEAD
->>>>>>> cbe08163b1... Fix static so that you can just type the classname first
-=======
   <node concept="1YbPZF" id="2KlFKP_uG3V">
     <property role="TrG5h" value="typeof_ReferenceType" />
     <property role="3GE5qa" value="type" />
@@ -11068,9 +8396,6 @@
       <ref role="1YaFvo" to="wnzg:fwMInzpHoK" resolve="ReferenceType" />
     </node>
   </node>
-<<<<<<< HEAD
->>>>>>> 46c21610ea... added ReferenceType, TemplateConstructorInit (wip)
-=======
   <node concept="1YbPZF" id="7RTlUgfKbH8">
     <property role="TrG5h" value="typeof_NamespaceType" />
     <property role="3GE5qa" value="namespace" />
@@ -11102,6 +8427,5 @@
       <ref role="1YaFvo" to="wnzg:7RTlUgfKaMq" resolve="NamespaceType" />
     </node>
   </node>
->>>>>>> 0614305c07... introduced NamespaceType; fixed named references in scopes
 </model>
 

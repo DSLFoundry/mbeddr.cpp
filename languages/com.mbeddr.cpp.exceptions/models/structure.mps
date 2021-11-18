@@ -2,19 +2,7 @@
 <model ref="r:50f29036-d138-45ee-9c71-36ae29f9a77a(com.mbeddr.cpp.exceptions.structure)">
   <persistence version="9" />
   <languages>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="6" />
-=======
-    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="-1" />
->>>>>>> d72e40f1e7... Revert "Migrate error handling to cpp.base"
-=======
-    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="7" />
->>>>>>> 635c84c995... migrated to 2018.3
-=======
     <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="9" />
->>>>>>> cc021cd381... migrated to 2019.2
     <devkit ref="78434eb8-b0e5-444b-850d-e7c4ad2da9ab(jetbrains.mps.devkit.aspect.structure)" />
   </languages>
   <imports>

@@ -1,24 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<<<<<<< HEAD
-<model ref="r:d2f0aea7-9c00-481b-87a1-40bee3c4efec(com.mbeddr.cpp.base.actions)">
-=======
 <model ref="r:58e41aa3-726f-4241-9dda-8560dd8a7245(com.mbeddr.cpp.base.actions)">
->>>>>>> 71d8fb9fa7... Added InnerClassType, further testing for Using Namespace, small adjustments
   <persistence version="9" />
   <languages>
-<<<<<<< HEAD
-    <use id="aee9cad2-acd4-4608-aef2-0004f6a1cdbd" name="jetbrains.mps.lang.actions" version="4" />
-=======
     <use id="aee9cad2-acd4-4608-aef2-0004f6a1cdbd" name="jetbrains.mps.lang.actions" version="-1" />
-<<<<<<< HEAD
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="9" />
->>>>>>> cc021cd381... migrated to 2019.2
-=======
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="11" />
->>>>>>> 6bfe4b6649... example showing too long grammarcells method
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
-<<<<<<< HEAD
   <imports>
     <import index="wnzg" ref="r:24646c42-f8e0-499c-b639-679cfa170a2e(com.mbeddr.cpp.base.structure)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
@@ -330,9 +317,5 @@
       </node>
     </node>
   </node>
-=======
-  <imports />
-  <registry />
->>>>>>> 71d8fb9fa7... Added InnerClassType, further testing for Using Namespace, small adjustments
 </model>
 

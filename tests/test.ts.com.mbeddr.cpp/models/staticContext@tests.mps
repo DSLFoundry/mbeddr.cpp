@@ -8,11 +8,6 @@
     <devkit ref="bdd1ab49-ce55-4bff-86d1-5394fa0aa930(com.mbeddr.cpp)" />
   </languages>
   <imports>
-<<<<<<< HEAD
-    <import index="vbi9" ref="8c081446-e4ba-48b7-a7e0-3db40e2c3439/i:f010101(com.mbeddr.cpp.base/com.mbeddr.cpp.base@descriptor)" />
-    <import index="wlyv" ref="r:a0a28ed3-d146-47eb-a19a-e026ce786b29(com.mbeddr.cpp.modules.structure)" />
-=======
->>>>>>> 8fc44c5d26... Removed more unused dependencies
     <import index="g7jk" ref="r:e06e24a5-d0fa-4f76-9dee-2042532d92a1(com.mbeddr.cpp.base.typesystem)" />
     <import index="ux7" ref="r:7a7d22ce-1d67-4772-b659-fbcc3b235afb(com.mbeddr.cpp.__spreferences.PlatformTemplates)" />
   </imports>

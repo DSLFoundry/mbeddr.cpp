@@ -2,20 +2,8 @@
 <model ref="r:855430ad-ad72-4297-b694-79f76ba33c15(com.mbeddr.cpp.expressions.typesystem)">
   <persistence version="9" />
   <languages>
-<<<<<<< HEAD
-<<<<<<< HEAD
-    <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="1" />
-=======
-    <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="4" />
-=======
     <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="5" />
-<<<<<<< HEAD
->>>>>>> 4e2541f81a... migrated to 2019.3
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="9" />
->>>>>>> cc021cd381... migrated to 2019.2
-=======
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="11" />
->>>>>>> 6bfe4b6649... example showing too long grammarcells method
     <devkit ref="00000000-0000-4000-0000-1de82b3a4936(jetbrains.mps.devkit.aspect.typesystem)" />
   </languages>
   <imports>
@@ -30,24 +18,13 @@
     <import index="3d25" ref="r:b51ed3f8-f18c-4b51-8a93-f4ee7f6adf9a(com.mbeddr.cpp.expressions.structure)" implicit="true" />
     <import index="wnzg" ref="r:24646c42-f8e0-499c-b639-679cfa170a2e(com.mbeddr.cpp.base.structure)" implicit="true" />
     <import index="kntn" ref="r:4090021e-0c8f-4cca-ab3f-590afb43a745(com.mbeddr.cpp.base.behavior)" implicit="true" />
-<<<<<<< HEAD
-<<<<<<< HEAD
     <import index="yq40" ref="r:152b3fc0-83a1-4bab-a8cd-565eb8483785(com.mbeddr.core.pointers.structure)" implicit="true" />
     <import index="c4fa" ref="r:9f0e84b6-2ec7-4f9e-83e0-feedc77b63a3(com.mbeddr.core.statements.structure)" implicit="true" />
-=======
     <import index="hb86" ref="r:e83a8648-e51c-4794-941a-8671bfc1bfbb(com.mbeddr.cpp.expressions.behavior)" implicit="true" />
->>>>>>> 230e9df384... Method templates
-=======
-    <import index="yq40" ref="r:152b3fc0-83a1-4bab-a8cd-565eb8483785(com.mbeddr.core.pointers.structure)" implicit="true" />
-    <import index="c4fa" ref="r:9f0e84b6-2ec7-4f9e-83e0-feedc77b63a3(com.mbeddr.core.statements.structure)" implicit="true" />
     <import index="tpd4" ref="r:00000000-0000-4000-0000-011c895902b4(jetbrains.mps.lang.typesystem.structure)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
-<<<<<<< HEAD
->>>>>>> f6a9ef0714... Fix TextGen for arrays in classes, add type and size checking
-=======
     <import index="go54" ref="r:a7e7800a-15b6-4c02-ae4d-6b40a48c7370(com.mbeddr.core.statements.typesystem)" implicit="true" />
     <import index="wxye" ref="r:cec599e3-51d2-48a7-af31-989e3cbd593c(jetbrains.mps.lang.core.typesystem)" implicit="true" />
->>>>>>> cc021cd381... migrated to 2019.2
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -131,13 +108,8 @@
         <child id="1081773367580" name="leftExpression" index="3uHU7B" />
       </concept>
       <concept id="1073239437375" name="jetbrains.mps.baseLanguage.structure.NotEqualsExpression" flags="nn" index="3y3z36" />
-<<<<<<< HEAD
-      <concept id="6329021646629104957" name="jetbrains.mps.baseLanguage.structure.TextCommentPart" flags="nn" index="3SKdUq">
-        <property id="6329021646629104958" name="text" index="3SKdUp" />
-=======
       <concept id="5497648299878491908" name="jetbrains.mps.baseLanguage.structure.BaseVariableReference" flags="nn" index="1M0zk4">
         <reference id="5497648299878491909" name="baseVariableDeclaration" index="1M0zk5" />
->>>>>>> cc021cd381... migrated to 2019.2
       </concept>
       <concept id="6329021646629104954" name="jetbrains.mps.baseLanguage.structure.SingleLineComment" flags="nn" index="3SKdUt">
         <child id="8356039341262087992" name="line" index="1aUNEU" />
@@ -213,6 +185,14 @@
         <child id="6733348108486823193" name="leftExpression" index="1m5AlR" />
         <child id="3906496115198199033" name="conceptArgument" index="3oSUPX" />
       </concept>
+      <concept id="1883223317721008708" name="jetbrains.mps.lang.smodel.structure.IfInstanceOfStatement" flags="nn" index="Jncv_">
+        <reference id="1883223317721008712" name="nodeConcept" index="JncvD" />
+        <child id="1883223317721008709" name="body" index="Jncv$" />
+        <child id="1883223317721008711" name="variable" index="JncvA" />
+        <child id="1883223317721008710" name="nodeExpression" index="JncvB" />
+      </concept>
+      <concept id="1883223317721008713" name="jetbrains.mps.lang.smodel.structure.IfInstanceOfVariable" flags="ng" index="JncvC" />
+      <concept id="1883223317721107059" name="jetbrains.mps.lang.smodel.structure.IfInstanceOfVarReference" flags="nn" index="Jnkvi" />
       <concept id="1171407110247" name="jetbrains.mps.lang.smodel.structure.Node_GetAncestorOperation" flags="nn" index="2Xjw5R" />
       <concept id="1180031783296" name="jetbrains.mps.lang.smodel.structure.Concept_IsSubConceptOfOperation" flags="nn" index="2Zo12i">
         <child id="1180031783297" name="conceptArgument" index="2Zo12j" />
@@ -418,8 +398,6 @@
       </node>
       <node concept="nvevp" id="327D75EH9L8" role="3cqZAp">
         <node concept="3clFbS" id="327D75EH9La" role="nvhr_">
-<<<<<<< HEAD
-=======
           <node concept="3cpWs8" id="1X$JbatVx2j" role="3cqZAp">
             <node concept="3cpWsn" id="1X$JbatVx2m" role="3cpWs9">
               <property role="TrG5h" value="type" />
@@ -480,15 +458,6 @@
             </node>
           </node>
           <node concept="3clFbH" id="7POJCjgR7DK" role="3cqZAp" />
-<<<<<<< HEAD
-          <node concept="3SKdUt" id="7POJCjgR7SO" role="3cqZAp">
-            <node concept="3SKdUq" id="7POJCjgR7SQ" role="3SKWNk">
-              <property role="3SKdUp" value="Assign the type to the template resolved type if it's a class" />
-            </node>
-          </node>
->>>>>>> 30a53be084... Cleanup expressions language and remove empty test that was accidentally committed
-=======
->>>>>>> 4de17404cc... Cleanup some behavior and typesystem comments in expressions language
           <node concept="3clFbJ" id="327D75EHate" role="3cqZAp">
             <node concept="3clFbS" id="327D75EHatg" role="3clFbx">
               <node concept="3SKdUt" id="7POJCjgR7SO" role="3cqZAp">
@@ -536,11 +505,11 @@
                   <node concept="1Z2H0r" id="6FZQsHtInfz" role="mwGJk">
                     <node concept="2OqwBi" id="6FZQsHtInFe" role="1Z2MuG">
                       <node concept="1PxgMI" id="6FZQsHtInsM" role="2Oq$k0">
+                        <node concept="37vLTw" id="1X$JbatVxn8" role="1m5AlR">
+                          <ref role="3cqZAo" node="1X$JbatVx2m" resolve="type" />
+                        </node>
                         <node concept="chp4Y" id="6FZQsHtIntq" role="3oSUPX">
                           <ref role="cht4Q" to="wnzg:4o2nsMgBEtu" resolve="ClassType" />
-                        </node>
-                        <node concept="2X3wrD" id="6FZQsHtInfV" role="1m5AlR">
-                          <ref role="2X3Bk0" node="327D75EH9Le" resolve="type" />
                         </node>
                       </node>
                       <node concept="2qgKlT" id="6FZQsHtIojB" role="2OqNvi">
@@ -562,8 +531,8 @@
               </node>
             </node>
             <node concept="2OqwBi" id="327D75EHaF6" role="3clFbw">
-              <node concept="2X3wrD" id="327D75EHaz8" role="2Oq$k0">
-                <ref role="2X3Bk0" node="327D75EH9Le" resolve="type" />
+              <node concept="37vLTw" id="1X$JbatVxjs" role="2Oq$k0">
+                <ref role="3cqZAo" node="1X$JbatVx2m" resolve="type" />
               </node>
               <node concept="1mIQ4w" id="327D75EHaPR" role="2OqNvi">
                 <node concept="chp4Y" id="327D75EHaRI" role="cj9EA">
@@ -619,7 +588,7 @@
           </node>
         </node>
         <node concept="2X1qdy" id="327D75EH9Le" role="2X0Ygz">
-          <property role="TrG5h" value="type" />
+          <property role="TrG5h" value="expType" />
           <node concept="2jxLKc" id="327D75EH9Lf" role="1tU5fm" />
         </node>
         <node concept="1Z2H0r" id="2QDt3lyumq3" role="nvjzm">
@@ -755,13 +724,6 @@
             <node concept="9aQIb" id="327D75EIz$Y" role="9aQIa">
               <node concept="3clFbS" id="327D75EIz$Z" role="9aQI4">
                 <node concept="1Z5TYs" id="327D75EIz_0" role="3cqZAp">
-                  <node concept="mw_s8" id="327D75EIz_3" role="1ZfhK$">
-                    <node concept="1Z2H0r" id="327D75EIz_4" role="mwGJk">
-                      <node concept="1YBJjd" id="327D75EI$ml" role="1Z2MuG">
-                        <ref role="1YBMHb" node="3v5DuFDvslF" resolve="qmc" />
-                      </node>
-                    </node>
-                  </node>
                   <node concept="mw_s8" id="1CWIc7F4GFi" role="1ZfhKB">
                     <node concept="2OqwBi" id="1CWIc7F4GNU" role="mwGJk">
                       <node concept="1YBJjd" id="1CWIc7F4GFg" role="2Oq$k0">
@@ -772,6 +734,13 @@
                         <node concept="37vLTw" id="1CWIc7F4Hng" role="37wK5m">
                           <ref role="3cqZAo" node="2QDt3lyuNCP" resolve="methodType" />
                         </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="mw_s8" id="327D75EIz_3" role="1ZfhK$">
+                    <node concept="1Z2H0r" id="327D75EIz_4" role="mwGJk">
+                      <node concept="1YBJjd" id="327D75EI$ml" role="1Z2MuG">
+                        <ref role="1YBMHb" node="3v5DuFDvslF" resolve="qmc" />
                       </node>
                     </node>
                   </node>
@@ -1108,21 +1077,6 @@
       </node>
     </node>
   </node>
-<<<<<<< HEAD
-  <node concept="1YbPZF" id="4smL_2COOud">
-    <property role="TrG5h" value="typeof_This" />
-    <node concept="3clFbS" id="4smL_2COOue" role="18ibNy">
-      <node concept="3cpWs8" id="4smL_2COYFR" role="3cqZAp">
-        <node concept="3cpWsn" id="4smL_2COYFU" role="3cpWs9">
-          <property role="TrG5h" value="pointer" />
-          <node concept="3Tqbb2" id="4smL_2COYFP" role="1tU5fm">
-            <ref role="ehGHo" to="yq40:fwMInzpHoK" resolve="PointerType" />
-          </node>
-          <node concept="2ShNRf" id="4smL_2COYP$" role="33vP2m">
-            <node concept="3zrR0B" id="4smL_2COYPy" role="2ShVmc">
-              <node concept="3Tqbb2" id="4smL_2COYPz" role="3zrR0E">
-                <ref role="ehGHo" to="yq40:fwMInzpHoK" resolve="PointerType" />
-=======
   <node concept="1YbPZF" id="3p40HKhBx4_">
     <property role="TrG5h" value="typeof_ArrayAttributeInitExpression" />
     <node concept="3clFbS" id="3p40HKhBx4A" role="18ibNy">
@@ -1234,39 +1188,11 @@
               </node>
               <node concept="3TrEf2" id="3p40HKhB_Xn" role="2OqNvi">
                 <ref role="3Tt5mk" to="mj1l:hEaDaGor64" resolve="type" />
->>>>>>> f6a9ef0714... Fix TextGen for arrays in classes, add type and size checking
               </node>
             </node>
           </node>
         </node>
       </node>
-<<<<<<< HEAD
-      <node concept="3clFbF" id="4smL_2COYZf" role="3cqZAp">
-        <node concept="37vLTI" id="4smL_2CP0XF" role="3clFbG">
-          <node concept="2OqwBi" id="4smL_2CP2nh" role="37vLTx">
-            <node concept="2OqwBi" id="4smL_2CP1mH" role="2Oq$k0">
-              <node concept="1YBJjd" id="4smL_2CP14k" role="2Oq$k0">
-                <ref role="1YBMHb" node="4smL_2COOug" resolve="thisnode" />
-              </node>
-              <node concept="2Xjw5R" id="4smL_2CP1J2" role="2OqNvi">
-                <node concept="1xMEDy" id="4smL_2CP1J4" role="1xVPHs">
-                  <node concept="chp4Y" id="4smL_2CP1Sb" role="ri$Ld">
-                    <ref role="cht4Q" to="wnzg:4o2nsMgBpPQ" resolve="ClassDeclaration" />
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="2qgKlT" id="4smL_2CP31G" role="2OqNvi">
-              <ref role="37wK5l" to="kntn:2yiFVcKzYCg" resolve="getType" />
-            </node>
-          </node>
-          <node concept="2OqwBi" id="4smL_2COZfe" role="37vLTJ">
-            <node concept="37vLTw" id="4smL_2COYZd" role="2Oq$k0">
-              <ref role="3cqZAo" node="4smL_2COYFU" resolve="pointer" />
-            </node>
-            <node concept="3TrEf2" id="4smL_2COZKP" role="2OqNvi">
-              <ref role="3Tt5mk" to="c4fa:6IWRcVPT6tm" resolve="baseType" />
-=======
       <node concept="3clFbH" id="3p40HKhFl1E" role="3cqZAp" />
       <node concept="3SKdUt" id="3p40HKhGEAV" role="3cqZAp">
         <node concept="1PaTwC" id="7jWRS$D_1hl" role="1aUNEU">
@@ -1583,24 +1509,10 @@
                   <ref role="3cqZAo" node="3p40HKhE2__" resolve="arrayConcept" />
                 </node>
               </node>
->>>>>>> f6a9ef0714... Fix TextGen for arrays in classes, add type and size checking
             </node>
           </node>
         </node>
       </node>
-<<<<<<< HEAD
-      <node concept="1Z5TYs" id="4smL_2COQgM" role="3cqZAp">
-        <node concept="mw_s8" id="4smL_2COQgP" role="1ZfhK$">
-          <node concept="1Z2H0r" id="4smL_2COOuA" role="mwGJk">
-            <node concept="1YBJjd" id="4smL_2COOwo" role="1Z2MuG">
-              <ref role="1YBMHb" node="4smL_2COOug" resolve="thisnode" />
-            </node>
-          </node>
-        </node>
-        <node concept="mw_s8" id="4smL_2CP3gN" role="1ZfhKB">
-          <node concept="37vLTw" id="4smL_2CP3gM" role="mwGJk">
-            <ref role="3cqZAo" node="4smL_2COYFU" resolve="pointer" />
-=======
       <node concept="3clFbH" id="3p40HKhC6DP" role="3cqZAp" />
       <node concept="3SKdUt" id="3p40HKhGHKq" role="3cqZAp">
         <node concept="1PaTwC" id="7jWRS$D_1hU" role="1aUNEU">
@@ -1816,14 +1728,10 @@
           </node>
           <node concept="2qgKlT" id="3p40HKhC99T" role="2OqNvi">
             <ref role="37wK5l" to="ywuz:3ilck8Kr3zN" resolve="isStaticallyEvaluatable" />
->>>>>>> f6a9ef0714... Fix TextGen for arrays in classes, add type and size checking
           </node>
         </node>
       </node>
     </node>
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
     <node concept="1YaCAy" id="3p40HKhBylm" role="1YuTPh">
       <property role="TrG5h" value="aaie" />
       <ref role="1YaFvo" to="3d25:3p40HKhBtQG" resolve="ArrayAttributeInitExpression" />
@@ -1906,15 +1814,9 @@
         </node>
       </node>
     </node>
->>>>>>> cc021cd381... migrated to 2019.2
     <node concept="1YaCAy" id="4smL_2COOug" role="1YuTPh">
       <property role="TrG5h" value="thisnode" />
       <ref role="1YaFvo" to="3d25:2yiFVcKEErD" resolve="This" />
-=======
-    <node concept="1YaCAy" id="3p40HKhBylm" role="1YuTPh">
-      <property role="TrG5h" value="aaie" />
-      <ref role="1YaFvo" to="3d25:3p40HKhBtQG" resolve="ArrayAttributeInitExpression" />
->>>>>>> f6a9ef0714... Fix TextGen for arrays in classes, add type and size checking
     </node>
   </node>
   <node concept="18kY7G" id="2w1tz7c4I6Z">

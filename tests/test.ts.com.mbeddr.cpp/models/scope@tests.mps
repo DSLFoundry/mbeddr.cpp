@@ -1,35 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<<<<<<< HEAD:code/languages/com.mbeddr.cpp/tests/test.ts.com.mbeddr.cpp/models/accessmodifiers@tests.mps
-<model ref="r:35c69821-58fc-4d27-a863-facebccabcf0(test.ts.com.mbeddr.cpp.accessmodifiers@tests)">
-=======
 <model ref="r:35c69821-58fc-4d27-a863-facebccabcf0(test.ts.com.mbeddr.cpp.scope@tests)">
->>>>>>> 67bc8da713... Rename simple_classes model to scope:code/languages/com.mbeddr.cpp/tests/test.ts.com.mbeddr.cpp/models/scope@tests.mps
   <persistence version="9" />
   <languages>
-<<<<<<< HEAD
-    <use id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test" version="2" />
-=======
     <use id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test" version="5" />
->>>>>>> cc021cd381... migrated to 2019.2
     <devkit ref="bdd1ab49-ce55-4bff-86d1-5394fa0aa930(com.mbeddr.cpp)" />
   </languages>
   <imports>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD:code/languages/com.mbeddr.cpp/tests/test.ts.com.mbeddr.cpp/models/accessmodifiers@tests.mps
-    <import index="s390" ref="r:c7950158-6cef-4f64-956c-820859f3e040(test.ex.com.mbeddr.cpp.classes)" />
-    <import index="ux7" ref="r:7a7d22ce-1d67-4772-b659-fbcc3b235afb(com.mbeddr.cpp.__spreferences.PlatformTemplates)" implicit="true" />
-=======
-    <import index="ux7" ref="r:7a7d22ce-1d67-4772-b659-fbcc3b235afb(com.mbeddr.cpp.__spreferences.PlatformTemplates)" />
->>>>>>> 09067ffb17... Added support for the global Namespace Declaration.:code/languages/com.mbeddr.cpp/tests/test.ts.com.mbeddr.cpp/models/simple_classes@tests.mps
-=======
-    <import index="ux7" ref="r:7a7d22ce-1d67-4772-b659-fbcc3b235afb(com.mbeddr.cpp.__spreferences.PlatformTemplates)" />
-    <import index="g7jk" ref="r:e06e24a5-d0fa-4f76-9dee-2042532d92a1(com.mbeddr.cpp.base.typesystem)" />
->>>>>>> 43a96eaa19... Add modifier test cases
-=======
     <import index="g7jk" ref="r:e06e24a5-d0fa-4f76-9dee-2042532d92a1(com.mbeddr.cpp.base.typesystem)" />
     <import index="ux7" ref="r:7a7d22ce-1d67-4772-b659-fbcc3b235afb(com.mbeddr.cpp.__spreferences.PlatformTemplates)" implicit="true" />
->>>>>>> 8066b6ef06... Fixed import bugs.
   </imports>
   <registry>
     <language id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test">
@@ -199,365 +177,6 @@
       <concept id="8860443239512128103" name="com.mbeddr.core.expressions.structure.NumberLiteral" flags="ng" index="3TlMh9" />
     </language>
   </registry>
-<<<<<<< HEAD
-  <node concept="1lH9Xt" id="3v5DuFDz1Eq">
-    <property role="TrG5h" value="ClassModifiers" />
-    <property role="3OwPAg" value="false" />
-    <node concept="1qefOq" id="3v5DuFDz1Er" role="1SKRRt">
-      <node concept="1whW_1" id="3v5DuFDz1Ev" role="1qenE9">
-        <property role="TrG5h" value="ClassModifiers" />
-        <node concept="3mBW2U" id="3v5DuFDz1EC" role="N3F5h">
-          <property role="2OOxQR" value="true" />
-          <property role="TrG5h" value="C1" />
-          <node concept="3mBbG7" id="3v5DuFDz1F9" role="3mBdys">
-            <property role="TrG5h" value="privateAtt" />
-            <node concept="26Vqqz" id="3v5DuFDz1Fm" role="2C2TGm">
-              <property role="2caQfQ" value="false" />
-              <property role="2c7vTL" value="false" />
-            </node>
-          </node>
-          <node concept="3mBbG7" id="3v5DuFDzCq1" role="3mBdys">
-            <property role="TrG5h" value="protectedAtt" />
-            <property role="1wg9_F" value="protected" />
-            <node concept="26Vqqz" id="3v5DuFDzCrh" role="2C2TGm">
-              <property role="2caQfQ" value="false" />
-              <property role="2c7vTL" value="false" />
-            </node>
-          </node>
-          <node concept="3mBbG7" id="3v5DuFDz1FT" role="3mBdys">
-            <property role="TrG5h" value="publicAtt" />
-            <property role="1wg9_F" value="public" />
-            <node concept="3AreGT" id="3v5DuFDz1Gk" role="2C2TGm">
-              <property role="2caQfQ" value="false" />
-              <property role="2c7vTL" value="false" />
-            </node>
-          </node>
-          <node concept="3u$6M4" id="3v5DuFDz1FJ" role="3mBdys" />
-          <node concept="3mB1cK" id="3v5DuFDz1HL" role="3mBdys">
-            <property role="TrG5h" value="privateMeth" />
-            <property role="1wg9_F" value="private" />
-            <node concept="3XIRFW" id="3v5DuFDz1HN" role="3XIRFX">
-              <node concept="2BFjQ_" id="3v5DuFDz1IR" role="3XIRFZ">
-                <node concept="3TlMh9" id="3v5DuFDz1J5" role="2BFjQA">
-                  <property role="2hmy$m" value="1" />
-                </node>
-              </node>
-            </node>
-            <node concept="26Vqqz" id="3v5DuFDz1Iu" role="2C2TGm">
-              <property role="2caQfQ" value="false" />
-              <property role="2c7vTL" value="false" />
-            </node>
-          </node>
-          <node concept="3u$6M4" id="3v5DuFDz1Mi" role="3mBdys" />
-          <node concept="3mB1cK" id="3v5DuFDzGbb" role="3mBdys">
-            <property role="TrG5h" value="protectedMeth" />
-            <property role="1wg9_F" value="protected" />
-            <node concept="3XIRFW" id="3v5DuFDzGbc" role="3XIRFX">
-              <node concept="2BFjQ_" id="3v5DuFDzGbd" role="3XIRFZ">
-                <node concept="3TlMh9" id="3v5DuFDzGbe" role="2BFjQA">
-                  <property role="2hmy$m" value="1" />
-                </node>
-              </node>
-            </node>
-            <node concept="26Vqqz" id="3v5DuFDzGbf" role="2C2TGm">
-              <property role="2caQfQ" value="false" />
-              <property role="2c7vTL" value="false" />
-            </node>
-          </node>
-          <node concept="3u$6M4" id="3v5DuFDzGah" role="3mBdys" />
-          <node concept="3mB1cK" id="3v5DuFDz1TF" role="3mBdys">
-            <property role="TrG5h" value="publicMeth" />
-            <property role="1wg9_F" value="public" />
-            <node concept="3XIRFW" id="3v5DuFDz1TG" role="3XIRFX">
-              <node concept="1QiMYF" id="gWE$qahCGp" role="3XIRFZ">
-                <node concept="OjmMv" id="gWE$qahCGr" role="3SJzmv">
-                  <node concept="19SGf9" id="gWE$qahCGs" role="OjmMu">
-                    <node concept="19SUe$" id="gWE$qahCGt" role="19SJt6">
-                      <property role="19SUeA" value="invalid call to a method from another class" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-              <node concept="1_9egQ" id="gWE$qahCCd" role="3XIRFZ">
-                <node concept="3uHhno" id="gWE$qahCCb" role="1_9egR">
-                  <ref role="3uHhlH" node="gWE$qahCHA" resolve="publicMethC2" />
-                  <node concept="7CXmI" id="gWE$qahTpm" role="lGtFl">
-                    <node concept="1TM$A" id="gWE$qahTpn" role="7EUXB" />
-                  </node>
-                </node>
-              </node>
-              <node concept="3XISUE" id="gWE$qahCFv" role="3XIRFZ" />
-              <node concept="1QiMYF" id="gWE$qahCNX" role="3XIRFZ">
-                <node concept="OjmMv" id="gWE$qahCNZ" role="3SJzmv">
-                  <node concept="19SGf9" id="gWE$qahCO0" role="OjmMu">
-                    <node concept="19SUe$" id="gWE$qahCO1" role="19SJt6">
-                      <property role="19SUeA" value="valid call to a method from the same class" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-              <node concept="2BFjQ_" id="3v5DuFDz1TH" role="3XIRFZ">
-                <node concept="3uHhno" id="gWE$qahCBc" role="2BFjQA">
-                  <ref role="3uHhlH" node="3v5DuFDz1HL" resolve="privateMeth" />
-                </node>
-              </node>
-            </node>
-            <node concept="26Vqqz" id="3v5DuFDz1TJ" role="2C2TGm">
-              <property role="2caQfQ" value="false" />
-              <property role="2c7vTL" value="false" />
-            </node>
-          </node>
-        </node>
-        <node concept="2NXPZ9" id="3v5DuFDz1EH" role="N3F5h">
-          <property role="TrG5h" value="empty_1504854840309_9" />
-        </node>
-        <node concept="3mBW2U" id="3v5DuFDz1EY" role="N3F5h">
-          <property role="2OOxQR" value="true" />
-          <property role="TrG5h" value="C2" />
-          <node concept="3u$6M4" id="gWE$qaeI7f" role="3mBdys" />
-          <node concept="3mB1cK" id="gWE$qaeHq8" role="3mBdys">
-            <property role="TrG5h" value="publicMeth" />
-            <property role="1wg9_F" value="public" />
-            <node concept="3XIRFW" id="gWE$qaeHq9" role="3XIRFX">
-              <node concept="2BFjQ_" id="gWE$qaeHqa" role="3XIRFZ">
-                <node concept="3TlMh9" id="gWE$qaeHqb" role="2BFjQA">
-                  <property role="2hmy$m" value="1" />
-                </node>
-              </node>
-            </node>
-            <node concept="2fgwQN" id="gWE$qaeHCs" role="2C2TGm">
-              <property role="2caQfQ" value="false" />
-              <property role="2c7vTL" value="false" />
-            </node>
-          </node>
-          <node concept="3u$6M4" id="gWE$qaeHXa" role="3mBdys" />
-          <node concept="3mB1cK" id="gWE$qaeI0Y" role="3mBdys">
-            <property role="TrG5h" value="publicMeth" />
-            <property role="1wg9_F" value="public" />
-            <node concept="19RgSI" id="gWE$qaeI5p" role="1UOdpc">
-              <property role="TrG5h" value="d" />
-              <node concept="2fgwQN" id="gWE$qaeI5n" role="2C2TGm">
-                <property role="2caQfQ" value="false" />
-                <property role="2c7vTL" value="false" />
-              </node>
-            </node>
-            <node concept="19RgSI" id="gWE$qagZWb" role="1UOdpc">
-              <property role="TrG5h" value="y" />
-              <node concept="26Vqqz" id="gWE$qagZW9" role="2C2TGm">
-                <property role="2caQfQ" value="false" />
-                <property role="2c7vTL" value="false" />
-              </node>
-            </node>
-            <node concept="3XIRFW" id="gWE$qaeI0Z" role="3XIRFX">
-              <node concept="2BFjQ_" id="gWE$qaeI10" role="3XIRFZ">
-                <node concept="3TlMhK" id="gWE$qaeIhw" role="2BFjQA" />
-              </node>
-            </node>
-            <node concept="3TlMgk" id="gWE$qaeIct" role="2C2TGm">
-              <property role="2caQfQ" value="false" />
-              <property role="2c7vTL" value="false" />
-            </node>
-          </node>
-          <node concept="3u$6M4" id="gWE$qaeHZ3" role="3mBdys" />
-          <node concept="3mB1cK" id="gWE$qahCHA" role="3mBdys">
-            <property role="TrG5h" value="publicMethC2" />
-            <property role="1wg9_F" value="public" />
-            <node concept="3XIRFW" id="gWE$qahCHB" role="3XIRFX">
-              <node concept="2BFjQ_" id="gWE$qahCHC" role="3XIRFZ">
-                <node concept="3TlMh9" id="gWE$qahCHD" role="2BFjQA">
-                  <property role="2hmy$m" value="1" />
-                </node>
-              </node>
-            </node>
-            <node concept="2fgwQN" id="gWE$qahCHE" role="2C2TGm">
-              <property role="2caQfQ" value="false" />
-              <property role="2c7vTL" value="false" />
-            </node>
-          </node>
-          <node concept="3u$6M4" id="gWE$qahCH1" role="3mBdys" />
-        </node>
-        <node concept="2NXPZ9" id="3v5DuFDz252" role="N3F5h">
-          <property role="TrG5h" value="empty_1504854953716_11" />
-        </node>
-        <node concept="2NXPZ9" id="3v5DuFDz268" role="N3F5h">
-          <property role="TrG5h" value="empty_1504854953880_12" />
-        </node>
-        <node concept="N3Fnx" id="3v5DuFDz2hq" role="N3F5h">
-          <property role="TrG5h" value="foo" />
-          <property role="2OOxQR" value="false" />
-          <node concept="3XIRFW" id="3v5DuFDz2hs" role="3XIRFY">
-            <node concept="3XIRlf" id="3v5DuFDz2mJ" role="3XIRFZ">
-              <property role="TrG5h" value="v1" />
-              <node concept="3mBfEi" id="3v5DuFDz2mH" role="2C2TGm">
-                <property role="2caQfQ" value="false" />
-                <property role="2c7vTL" value="false" />
-                <ref role="3mBfEM" node="3v5DuFDz1EC" resolve="C1" />
-              </node>
-            </node>
-            <node concept="1_9egQ" id="3v5DuFDz2nn" role="3XIRFZ">
-              <node concept="2qmXGp" id="3v5DuFDz2nF" role="1_9egR">
-                <node concept="3mBk1D" id="3v5DuFDz2o8" role="1ESnxz">
-                  <ref role="3mBk1B" node="3v5DuFDz1F9" resolve="privateAtt" />
-                  <node concept="7CXmI" id="3v5DuFDzGa3" role="lGtFl">
-                    <node concept="1TM$A" id="3v5DuFDzGa4" role="7EUXB" />
-                  </node>
-                </node>
-                <node concept="3ZVu4v" id="3v5DuFDz2nl" role="1_9fRO">
-                  <ref role="3ZVs_2" node="3v5DuFDz2mJ" resolve="v1" />
-                </node>
-              </node>
-            </node>
-            <node concept="1_9egQ" id="3v5DuFDzCsC" role="3XIRFZ">
-              <node concept="2qmXGp" id="3v5DuFDzCtq" role="1_9egR">
-                <node concept="3mBk1D" id="3v5DuFDzFuC" role="1ESnxz">
-                  <ref role="3mBk1B" node="3v5DuFDzCq1" resolve="protectedAtt" />
-                  <node concept="7CXmI" id="3v5DuFDzFzw" role="lGtFl">
-                    <node concept="1TM$A" id="3v5DuFDzFzx" role="7EUXB" />
-                  </node>
-                </node>
-                <node concept="3ZVu4v" id="3v5DuFDzCsA" role="1_9fRO">
-                  <ref role="3ZVs_2" node="3v5DuFDz2mJ" resolve="v1" />
-                </node>
-              </node>
-            </node>
-            <node concept="1_9egQ" id="3v5DuFDz3xz" role="3XIRFZ">
-              <node concept="2qmXGp" id="3v5DuFDz3y3" role="1_9egR">
-                <node concept="3mBk1D" id="3LE5RBQaPQb" role="1ESnxz">
-                  <ref role="3mBk1B" node="3v5DuFDz1FT" resolve="publicAtt" />
-                </node>
-                <node concept="3ZVu4v" id="3v5DuFDz3xx" role="1_9fRO">
-                  <ref role="3ZVs_2" node="3v5DuFDz2mJ" resolve="v1" />
-                </node>
-              </node>
-            </node>
-            <node concept="3XISUE" id="3v5DuFDzFXW" role="3XIRFZ" />
-            <node concept="1_9egQ" id="3v5DuFDzGtm" role="3XIRFZ">
-              <node concept="2qmXGp" id="3v5DuFDzGut" role="1_9egR">
-                <node concept="3mBbHP" id="3v5DuFDzLzd" role="1ESnxz">
-                  <ref role="3mBbHN" node="3v5DuFDz1HL" resolve="privateMeth" />
-                  <node concept="7CXmI" id="3v5DuFDzVBp" role="lGtFl">
-                    <node concept="1TM$A" id="3v5DuFDzVBq" role="7EUXB" />
-                  </node>
-                </node>
-                <node concept="3ZVu4v" id="3v5DuFDzGtk" role="1_9fRO">
-                  <ref role="3ZVs_2" node="3v5DuFDz2mJ" resolve="v1" />
-                </node>
-              </node>
-            </node>
-            <node concept="1_9egQ" id="3v5DuFDzLU_" role="3XIRFZ">
-              <node concept="2qmXGp" id="3v5DuFDzLVS" role="1_9egR">
-                <node concept="3mBbHP" id="3v5DuFDzLWu" role="1ESnxz">
-                  <ref role="3mBbHN" node="3v5DuFDzGbb" resolve="protectedMeth" />
-                  <node concept="7CXmI" id="3v5DuFDzW3m" role="lGtFl">
-                    <node concept="1TM$A" id="3v5DuFDzW3n" role="7EUXB" />
-                  </node>
-                </node>
-                <node concept="3ZVu4v" id="3v5DuFDzLUz" role="1_9fRO">
-                  <ref role="3ZVs_2" node="3v5DuFDz2mJ" resolve="v1" />
-                </node>
-              </node>
-            </node>
-            <node concept="1_9egQ" id="3v5DuFDzLY1" role="3XIRFZ">
-              <node concept="2Ysn8y" id="3v5DuFDzLZw" role="1_9egR">
-                <node concept="2qmXGp" id="3v5DuFDzM0Z" role="2Yskys">
-                  <node concept="3mBbHP" id="3LE5RBQaPQk" role="1ESnxz">
-                    <ref role="3mBbHN" node="3v5DuFDz1TF" resolve="publicMeth" />
-                  </node>
-                  <node concept="3ZVu4v" id="3v5DuFDzLXZ" role="1_9fRO">
-                    <ref role="3ZVs_2" node="3v5DuFDz2mJ" resolve="v1" />
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="3XISUE" id="gWE$qaeHxd" role="3XIRFZ" />
-            <node concept="3XIRlf" id="gWE$qaeHzD" role="3XIRFZ">
-              <property role="TrG5h" value="v2" />
-              <node concept="3mBfEi" id="gWE$qaeHzB" role="2C2TGm">
-                <property role="2caQfQ" value="false" />
-                <property role="2c7vTL" value="false" />
-                <ref role="3mBfEM" node="3v5DuFDz1EY" resolve="C2" />
-              </node>
-            </node>
-            <node concept="3XIRlf" id="gWE$qaeHFI" role="3XIRFZ">
-              <property role="TrG5h" value="d" />
-              <node concept="2fgwQN" id="gWE$qaeHFG" role="2C2TGm">
-                <property role="2caQfQ" value="false" />
-                <property role="2c7vTL" value="false" />
-              </node>
-              <node concept="2qmXGp" id="gWE$qaeHHB" role="3XIe9u">
-                <node concept="3mBbHP" id="3LE5RBQaPQ_" role="1ESnxz">
-                  <ref role="3mBbHN" node="gWE$qaeHq8" resolve="publicMeth" />
-                </node>
-                <node concept="3ZVu4v" id="gWE$qaeHHD" role="1_9fRO">
-                  <ref role="3ZVs_2" node="gWE$qaeHzD" resolve="v2" />
-                </node>
-              </node>
-            </node>
-            <node concept="1_9egQ" id="gWE$qahvw7" role="3XIRFZ">
-              <node concept="2qmXGp" id="gWE$qahvw8" role="1_9egR">
-                <node concept="3mBbHP" id="gWE$qahvw9" role="1ESnxz">
-                  <ref role="3mBbHN" node="gWE$qaeI0Y" resolve="publicMeth" />
-                  <node concept="3ZVu4v" id="gWE$qahvwa" role="3mBtou">
-                    <ref role="3ZVs_2" node="gWE$qaeHFI" resolve="d" />
-                  </node>
-                  <node concept="7CXmI" id="gWE$qahvwb" role="lGtFl">
-                    <node concept="1TM$A" id="gWE$qahvwc" role="7EUXB" />
-                  </node>
-                </node>
-                <node concept="3ZVu4v" id="gWE$qahvwd" role="1_9fRO">
-                  <ref role="3ZVs_2" node="gWE$qaeHzD" resolve="v2" />
-                </node>
-              </node>
-            </node>
-            <node concept="1_9egQ" id="gWE$qahrYJ" role="3XIRFZ">
-              <node concept="2qmXGp" id="gWE$qahs0z" role="1_9egR">
-                <node concept="3mBbHP" id="gWE$qahs0W" role="1ESnxz">
-                  <ref role="3mBbHN" node="gWE$qaeI0Y" resolve="publicMeth" />
-                  <node concept="3ZVu4v" id="gWE$qahu2V" role="3mBtou">
-                    <ref role="3ZVs_2" node="gWE$qaeHFI" resolve="d" />
-                  </node>
-                  <node concept="3TlMh9" id="gWE$qahs29" role="3mBtou">
-                    <property role="2hmy$m" value="2" />
-                  </node>
-                </node>
-                <node concept="3ZVu4v" id="gWE$qahrYH" role="1_9fRO">
-                  <ref role="3ZVs_2" node="gWE$qaeHzD" resolve="v2" />
-                </node>
-              </node>
-            </node>
-            <node concept="1_9egQ" id="gWE$qahs7H" role="3XIRFZ">
-              <node concept="2qmXGp" id="gWE$qahs9H" role="1_9egR">
-                <node concept="3mBbHP" id="gWE$qahsdH" role="1ESnxz">
-                  <ref role="3mBbHN" node="gWE$qaeI0Y" resolve="publicMeth" />
-                  <node concept="3TlMh9" id="gWE$qahse0" role="3mBtou">
-                    <property role="2hmy$m" value="2" />
-                  </node>
-                  <node concept="3TlMh9" id="gWE$qahsfK" role="3mBtou">
-                    <property role="2hmy$m" value="1.1" />
-                    <node concept="7CXmI" id="gWE$qahsDF" role="lGtFl">
-                      <node concept="1TM$A" id="gWE$qahsDG" role="7EUXB" />
-                    </node>
-                  </node>
-                </node>
-                <node concept="3ZVu4v" id="gWE$qahs7F" role="1_9fRO">
-                  <ref role="3ZVs_2" node="gWE$qaeHzD" resolve="v2" />
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="19Rifw" id="3v5DuFDz2cc" role="2C2TGm">
-            <property role="2caQfQ" value="false" />
-            <property role="2c7vTL" value="false" />
-          </node>
-        </node>
-        <node concept="7CXmI" id="3v5DuFDzFCk" role="lGtFl">
-          <node concept="7OXhh" id="3v5DuFDzFCo" role="7EUXB" />
-        </node>
-      </node>
-    </node>
-  </node>
-=======
->>>>>>> 43a96eaa19... Add modifier test cases
   <node concept="2XOHcx" id="3v5DuFDz1EB">
     <property role="2XOHcw" value="${mbeddr.cpp.home}/" />
   </node>
@@ -584,50 +203,17 @@
           <property role="2OOxQR" value="false" />
           <property role="TrG5h" value="PublicParentClass" />
           <node concept="3mB1cK" id="6oRbCP68kRM" role="3mBdys">
-<<<<<<< HEAD
-<<<<<<< HEAD:code/languages/com.mbeddr.cpp/tests/test.ts.com.mbeddr.cpp/models/accessmodifiers@tests.mps
-            <property role="gNYVZ" value="false" />
-=======
-            <property role="1wg9_F" value="public" />
-<<<<<<< HEAD
->>>>>>> 67bc8da713... Rename simple_classes model to scope:code/languages/com.mbeddr.cpp/tests/test.ts.com.mbeddr.cpp/models/scope@tests.mps
-            <property role="TrG5h" value="increment" />
-            <property role="1wg9_F" value="public" />
-            <node concept="3XIRFW" id="6oRbCP68kRO" role="3XIRFX">
-              <node concept="2BFjQ_" id="6oRbCP68kSN" role="3XIRFZ">
-                <node concept="3TM6Ez" id="29I8DMSfStM" role="2BFjQA">
-                  <node concept="3ZUYvv" id="29I8DMSfStv" role="1_9fRO">
-                    <ref role="3ZUYvu" node="29I8DMSfSsv" resolve="value" />
-                  </node>
-                </node>
-              </node>
-=======
             <property role="TrG5h" value="publicMethodPublicClass" />
-=======
-            <property role="TrG5h" value="publicMethodPublicClass" />
-<<<<<<< HEAD
-            <property role="1wg9_F" value="public" />
->>>>>>> ad56adfaea... Fix typesystem test cases
-=======
             <property role="1wg9_F" value="2Ai0Gt9ODIs/public" />
->>>>>>> cc021cd381... migrated to 2019.2
             <node concept="3XIRFW" id="6oRbCP68kRO" role="3XIRFX" />
             <node concept="19Rifw" id="1gzloVU$YOL" role="2C2TGm">
               <property role="2caQfQ" value="false" />
               <property role="2c7vTL" value="false" />
->>>>>>> 6252029eeb... Add test for inheritance scoping
             </node>
           </node>
           <node concept="3mB1cK" id="688xTXtQiNN" role="3mBdys">
             <property role="TrG5h" value="protectedMethodPublicClass" />
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-            <property role="1wg9_F" value="protected" />
->>>>>>> ad56adfaea... Fix typesystem test cases
-=======
             <property role="1wg9_F" value="2Ai0Gt9ODIw/protected" />
->>>>>>> cc021cd381... migrated to 2019.2
             <node concept="19Rifw" id="1gzloVU$YUC" role="2C2TGm">
               <property role="2caQfQ" value="false" />
               <property role="2c7vTL" value="false" />
@@ -642,18 +228,6 @@
             </node>
             <node concept="3XIRFW" id="1gzloVU$YWx" role="3XIRFX" />
           </node>
-<<<<<<< HEAD
-          <node concept="3u$6M4" id="688xTXtQiLd" role="3mBdys" />
-          <node concept="3u$6M4" id="688xTXtQiOd" role="3mBdys" />
-          <node concept="3mB1cK" id="688xTXtQiNN" role="3mBdys">
-<<<<<<< HEAD:code/languages/com.mbeddr.cpp/tests/test.ts.com.mbeddr.cpp/models/accessmodifiers@tests.mps
-            <property role="gNYVZ" value="false" />
-=======
-            <property role="1wg9_F" value="private" />
->>>>>>> 67bc8da713... Rename simple_classes model to scope:code/languages/com.mbeddr.cpp/tests/test.ts.com.mbeddr.cpp/models/scope@tests.mps
-            <property role="TrG5h" value="incrementByTwo" />
-            <node concept="26Vqph" id="688xTXtQiPE" role="2C2TGm">
-=======
         </node>
         <node concept="2NXPZ9" id="1gzloVU$YYC" role="N3F5h">
           <property role="TrG5h" value="empty_1527758345400_1" />
@@ -741,7 +315,6 @@
           <node concept="3mB1cK" id="1gzloVU_6LT" role="3mBdys">
             <property role="TrG5h" value="localClassTest" />
             <node concept="19Rifw" id="1gzloVU_6M4" role="2C2TGm">
->>>>>>> 6252029eeb... Add test for inheritance scoping
               <property role="2caQfQ" value="false" />
               <property role="2c7vTL" value="false" />
             </node>
@@ -842,20 +415,9 @@
             <property role="FysoG" value="2Ai0Gt9ODIs/public" />
             <ref role="FysoF" node="1gzloVU$ZfR" resolve="BaseClass" />
           </node>
-<<<<<<< HEAD
-          <node concept="3mB1cK" id="29I8DMSfSEQ" role="3mBdys">
-<<<<<<< HEAD:code/languages/com.mbeddr.cpp/tests/test.ts.com.mbeddr.cpp/models/accessmodifiers@tests.mps
-            <property role="gNYVZ" value="false" />
-=======
-            <property role="1wg9_F" value="public" />
->>>>>>> 67bc8da713... Rename simple_classes model to scope:code/languages/com.mbeddr.cpp/tests/test.ts.com.mbeddr.cpp/models/scope@tests.mps
-            <property role="TrG5h" value="someFunction" />
-            <node concept="26Vqph" id="29I8DMSfSFj" role="2C2TGm">
-=======
           <node concept="3mB1cK" id="1gzloVU_7Fn" role="3mBdys">
             <property role="TrG5h" value="inheritedClassTest" />
             <node concept="19Rifw" id="1gzloVU_7Fy" role="2C2TGm">
->>>>>>> 6252029eeb... Add test for inheritance scoping
               <property role="2caQfQ" value="false" />
               <property role="2c7vTL" value="false" />
             </node>
@@ -961,17 +523,17 @@
           <node concept="3XIRFW" id="1gzloVU$ZDI" role="3XIRFY">
             <node concept="2dywKE" id="1gzloVU_0mD" role="3XIRFZ">
               <property role="TrG5h" value="baseClass" />
-              <node concept="3mBfEi" id="1gzloVU_0mB" role="2C2TGm">
-                <property role="2caQfQ" value="false" />
-                <property role="2c7vTL" value="false" />
-                <ref role="3mBfEM" node="1gzloVU$ZfR" resolve="BaseClass" />
-              </node>
               <node concept="7CXmI" id="6ejQpbw4eyi" role="lGtFl">
                 <node concept="29bkU" id="6ejQpbw4eEa" role="7EUXB">
                   <node concept="2PQEqo" id="6ejQpbw4eEb" role="3lydCh">
                     <ref role="39XzEq" to="g7jk:2xmTzC2LYc4" />
                   </node>
                 </node>
+              </node>
+              <node concept="3mBfEi" id="1gzloVU_0mB" role="2C2TGm">
+                <property role="2caQfQ" value="false" />
+                <property role="2c7vTL" value="false" />
+                <ref role="3mBfEM" node="1gzloVU$ZfR" resolve="BaseClass" />
               </node>
             </node>
             <node concept="3XISUE" id="1gzloVU_0yR" role="3XIRFZ" />
@@ -1130,99 +692,11 @@
         <node concept="2NXPZ9" id="688xTXtV3qU" role="N3F5h">
           <property role="TrG5h" value="empty_1527075986336_9" />
         </node>
-<<<<<<< HEAD
-<<<<<<< HEAD
-        <node concept="7CXmI" id="688xTXtQgt9" role="lGtFl">
-          <node concept="7OXhh" id="688xTXtQgta" role="7EUXB" />
-        </node>
-<<<<<<< HEAD
-        <node concept="3GEVxB" id="688xTXtQgS_" role="2OODSX">
-          <ref role="3GEb4d" node="45rBLTDXEQn" resolve="ImportedModule" />
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="1whW_1" id="45rBLTDXEQn">
-    <property role="3GE5qa" value="" />
-    <property role="TrG5h" value="ImportedModule" />
-    <node concept="3mBW2U" id="45rBLTDXFnO" role="N3F5h">
-      <property role="2OOxQR" value="true" />
-      <property role="TrG5h" value="Subtractor" />
-      <node concept="3mB1cK" id="29I8DMSfS4T" role="3mBdys">
-<<<<<<< HEAD:code/languages/com.mbeddr.cpp/tests/test.ts.com.mbeddr.cpp/models/accessmodifiers@tests.mps
-        <property role="gNYVZ" value="false" />
-=======
-        <property role="1wg9_F" value="public" />
->>>>>>> 67bc8da713... Rename simple_classes model to scope:code/languages/com.mbeddr.cpp/tests/test.ts.com.mbeddr.cpp/models/scope@tests.mps
-        <property role="TrG5h" value="decrement" />
-        <property role="1wg9_F" value="public" />
-        <node concept="26Vqph" id="29I8DMSfS56" role="2C2TGm">
-          <property role="2caQfQ" value="false" />
-          <property role="2c7vTL" value="false" />
-        </node>
-        <node concept="19RgSI" id="29I8DMSfS5v" role="1UOdpc">
-          <property role="TrG5h" value="value" />
-          <node concept="26Vqph" id="29I8DMSfS5u" role="2C2TGm">
-            <property role="2caQfQ" value="false" />
-            <property role="2c7vTL" value="false" />
-          </node>
-        </node>
-        <node concept="3XIRFW" id="29I8DMSfS5Q" role="3XIRFX">
-          <node concept="2BFjQ_" id="29I8DMSfSgk" role="3XIRFZ">
-            <node concept="1FldXs" id="29I8DMSfSrr" role="2BFjQA">
-              <node concept="3ZUYvv" id="29I8DMSfSgD" role="1_9fRO">
-                <ref role="3ZUYvu" node="29I8DMSfS5v" resolve="value" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="3u$6M4" id="688xTXtQizE" role="3mBdys" />
-      <node concept="3mB1cK" id="688xTXtQi$$" role="3mBdys">
-<<<<<<< HEAD:code/languages/com.mbeddr.cpp/tests/test.ts.com.mbeddr.cpp/models/accessmodifiers@tests.mps
-        <property role="gNYVZ" value="false" />
-=======
-        <property role="1wg9_F" value="private" />
->>>>>>> 67bc8da713... Rename simple_classes model to scope:code/languages/com.mbeddr.cpp/tests/test.ts.com.mbeddr.cpp/models/scope@tests.mps
-        <property role="TrG5h" value="decrementByTwo" />
-        <property role="1wg9_F" value="public" />
-        <node concept="26Vqph" id="688xTXtQi_l" role="2C2TGm">
-          <property role="2caQfQ" value="false" />
-          <property role="2c7vTL" value="false" />
-        </node>
-        <node concept="19RgSI" id="688xTXtQi_N" role="1UOdpc">
-          <property role="TrG5h" value="value" />
-          <node concept="26Vqph" id="688xTXtQi_M" role="2C2TGm">
-            <property role="2caQfQ" value="false" />
-            <property role="2c7vTL" value="false" />
-          </node>
-        </node>
-        <node concept="3XIRFW" id="688xTXtQiAf" role="3XIRFX">
-          <node concept="2BFjQ_" id="688xTXtQiAK" role="3XIRFZ">
-            <node concept="2BOcil" id="688xTXtQiCC" role="2BFjQA">
-              <node concept="3TlMh9" id="688xTXtQiDc" role="3TlMhJ">
-                <property role="2hmy$m" value="2" />
-              </node>
-              <node concept="3ZUYvv" id="688xTXtQiB5" role="3TlMhI">
-                <ref role="3ZUYvu" node="688xTXtQi_N" resolve="value" />
-              </node>
-            </node>
-          </node>
-        </node>
-=======
->>>>>>> 6252029eeb... Add test for inheritance scoping
-=======
-      </node>
-      <node concept="7CXmI" id="32KsbhSQDSf" role="lGtFl">
-        <node concept="7OXhh" id="32KsbhSQDSn" role="7EUXB" />
->>>>>>> bea069b6eb... Add type checks to some typesystem tests and make check for error messages consistent
-=======
         <node concept="7CXmI" id="32KsbhSQDSf" role="lGtFl">
           <node concept="7OXhh" id="32KsbhSQDSn" role="7EUXB">
             <property role="GvXf4" value="true" />
           </node>
         </node>
->>>>>>> cc021cd381... migrated to 2019.2
       </node>
     </node>
   </node>

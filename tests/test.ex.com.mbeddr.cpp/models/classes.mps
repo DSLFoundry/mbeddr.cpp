@@ -17,11 +17,6 @@
       <concept id="7254843406768833938" name="com.mbeddr.core.statements.structure.ExpressionStatement" flags="ng" index="1_9egQ">
         <child id="7254843406768833939" name="expr" index="1_9egR" />
       </concept>
-<<<<<<< HEAD
-      <concept id="1679452829930336984" name="com.mbeddr.core.statements.structure.CommentStatement" flags="ng" index="1QiMYF">
-        <child id="8624890525768479139" name="textblock" index="3SJzmv" />
-      </concept>
-=======
       <concept id="7254843406768596598" name="com.mbeddr.core.statements.structure.ForStatement" flags="ng" index="1_a8vi">
         <child id="7254843406768606771" name="body" index="1_amYn" />
         <child id="7254843406768606790" name="incr" index="1_amZy" />
@@ -29,13 +24,9 @@
         <child id="7254843406768606787" name="condition" index="1_amZB" />
       </concept>
       <concept id="7254843406768606755" name="com.mbeddr.core.statements.structure.ForVarDecl" flags="ng" index="1_amY7" />
-<<<<<<< HEAD
->>>>>>> b124467075... Redo extension tests
-=======
       <concept id="1679452829930336984" name="com.mbeddr.core.statements.structure.CommentStatement" flags="ng" index="1QiMYF">
         <child id="8624890525768479139" name="textblock" index="3SJzmv" />
       </concept>
->>>>>>> d576ff39d1... Several scoping fixes
       <concept id="4185783222026475238" name="com.mbeddr.core.statements.structure.LocalVariableDeclaration" flags="ng" index="3XIRlf">
         <child id="4185783222026502647" name="init" index="3XIe9u" />
       </concept>
@@ -81,23 +72,10 @@
       </concept>
     </language>
     <language id="3bf5377a-e904-4ded-9754-5a516023bfaa" name="com.mbeddr.core.pointers">
-<<<<<<< HEAD
-      <concept id="5308710777891643206" name="com.mbeddr.core.pointers.structure.NullExpression" flags="ng" index="Ea8Gl" />
-<<<<<<< HEAD
-      <concept id="6113173064528067332" name="com.mbeddr.core.pointers.structure.StringType" flags="ng" index="Pu267" />
-<<<<<<< HEAD
-=======
->>>>>>> d16f2d8d2e... Put thisPointer executable test outside classes
       <concept id="279446265608459824" name="com.mbeddr.core.pointers.structure.PointerType" flags="ng" index="3wxxNl" />
-      <concept id="5679441017214012545" name="com.mbeddr.core.pointers.structure.ArrayType" flags="ng" index="3J0A42" />
-=======
       <concept id="5679441017214012545" name="com.mbeddr.core.pointers.structure.ArrayType" flags="ng" index="3J0A42">
         <child id="1452920870317474611" name="sizeExpr" index="1YbSNA" />
       </concept>
->>>>>>> 9f10d43a5e... Add array assignment to array fields
-=======
-      <concept id="279446265608459824" name="com.mbeddr.core.pointers.structure.PointerType" flags="ng" index="3wxxNl" />
->>>>>>> 27c73b6b9d... New and Delete keywords are working, also has executable test and typesystem test
     </language>
     <language id="2693fc71-9b0e-4b05-ab13-f57227d675f2" name="com.mbeddr.core.util">
       <concept id="4459718605982051949" name="com.mbeddr.core.util.structure.ReportingConfiguration" flags="ng" index="2Q9Fgs">
@@ -117,58 +95,13 @@
       </concept>
     </language>
     <language id="8c081446-e4ba-48b7-a7e0-3db40e2c3439" name="com.mbeddr.cpp.base">
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD:code/languages/com.mbeddr.cpp/tests/test.ex.com.mbeddr.cpp/models/classes.mps
-=======
-      <concept id="7844497894798008401" name="com.mbeddr.cpp.base.structure.ClassConstructorSignature" flags="ng" index="2gom4k">
-        <child id="7155645240280024029" name="arguments" index="1IPJqM" />
-        <child id="7155645240280389397" name="body" index="1IVm9U" />
-      </concept>
-      <concept id="7844497894798008359" name="com.mbeddr.cpp.base.structure.ClassConstructor" flags="ng" index="2gom5y">
-        <reference id="7844497894798008388" name="parent_class" index="2gom41" />
-=======
-=======
-      <concept id="2277423264798216734" name="com.mbeddr.cpp.base.structure.IStaticConcept" flags="ng" index="226hDU">
-=======
-      <concept id="2277423264798216734" name="com.mbeddr.cpp.base.structure.IStaticFlagConcept" flags="ng" index="226hDU">
->>>>>>> 4ee4a88205... Remove a ParentClass invocation from test case
-=======
       <concept id="2277423264798216734" name="com.mbeddr.cpp.base.structure.IStaticFlag" flags="ng" index="226hDU">
->>>>>>> c32db4de20... Generalize comments for classes to work for namespaces as well
         <property id="2277423264798216735" name="isStatic" index="226hDV" />
       </concept>
       <concept id="2277423264798199359" name="com.mbeddr.cpp.base.structure.IInlineFlag" flags="ng" index="226Gpr">
         <property id="2277423264798199360" name="isInlined" index="226Go$" />
       </concept>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> a36012117c... Fix testcases
-=======
-=======
->>>>>>> 13bca3dc9b... Remove empty namespace declaration in classes
-      <concept id="7240228573262412204" name="com.mbeddr.cpp.base.structure.LocalClassVariableDeclaration" flags="ng" index="2dywKE">
-        <reference id="7240228573263980490" name="constructor" index="2esx9c" />
-        <child id="7240228573265829198" name="constructorArgActuals" index="2enIz8" />
-      </concept>
->>>>>>> 25f98cbbb7... Fix class constructors
-=======
-      <concept id="3604003506923204504" name="com.mbeddr.cpp.base.structure.NamespaceDeclaration" flags="ng" index="dq960" />
->>>>>>> a5b410c665... Fix highlighting to be consistent and make the package name lowercase
-=======
       <concept id="7240228573262412204" name="com.mbeddr.cpp.base.structure.LocalClassVariableDeclaration" flags="ng" index="2dywKE" />
->>>>>>> 39a1d09c6b... Migrate constructor executable test cases outside classes model
       <concept id="7240228573260630076" name="com.mbeddr.cpp.base.structure.ConstructorVoidType" flags="ng" index="2dFNQU" />
       <concept id="7844497894798008401" name="com.mbeddr.cpp.base.structure.ClassConstructorSignature" flags="ng" index="2gom4k">
         <property id="6088872510303555204" name="isDestructor" index="3BMcJd" />
@@ -177,171 +110,38 @@
       </concept>
       <concept id="7844497894798008359" name="com.mbeddr.cpp.base.structure.ClassConstructorDeclaration" flags="ng" index="2gom5y">
         <reference id="7844497894798008388" name="parentClass" index="2gom41" />
-<<<<<<< HEAD
       </concept>
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> a0c5014c67... Add test cases for inheritance access modifiers
-      <concept id="3188920472788366140" name="com.mbeddr.cpp.base.structure.IVirtualisableConcept" flags="ng" index="hL25U">
-=======
-      <concept id="2277423264798216734" name="com.mbeddr.cpp.base.structure.IStaticFlagConcept" flags="ng" index="226hDU">
-        <property id="2277423264798216735" name="isStatic" index="226hDV" />
-=======
->>>>>>> ccffadd744... Fix scoping on pointers
-      </concept>
-<<<<<<< HEAD
-      <concept id="3188920472788366140" name="com.mbeddr.cpp.base.structure.IVirtualFlagConcept" flags="ng" index="hL25U">
->>>>>>> ce47921082... Fixed auto declaration type errors.
-=======
-      <concept id="3188920472788366140" name="com.mbeddr.cpp.base.structure.IVirtualFlagConcept" flags="ng" index="hL25U">
->>>>>>> 4ee4a88205... Remove a ParentClass invocation from test case
-=======
-      <concept id="3188920472788366140" name="com.mbeddr.cpp.base.structure.IVirtualFlagConcept" flags="ng" index="hL25U">
->>>>>>> 858f7e856f... Fix tests
-=======
       <concept id="3188920472788366140" name="com.mbeddr.cpp.base.structure.IVirtualFlag" flags="ng" index="hL25U">
->>>>>>> c32db4de20... Generalize comments for classes to work for namespaces as well
         <property id="3188920472788366141" name="isVirtual" index="hL25V" />
->>>>>>> d43bb3786f... Add constructor test case
       </concept>
-<<<<<<< HEAD
->>>>>>> 31081c8f5e... Basic syntax editor for constructors
-=======
->>>>>>> 9a129de57d... Add unique names to new constructors
-=======
-=======
-=======
-      <concept id="7240228573262412204" name="com.mbeddr.cpp.base.structure.LocalClassVariableDeclaration" flags="ng" index="2dywKE">
-        <reference id="7240228573263980490" name="constructor" index="2esx9c" />
-        <child id="7240228573265829198" name="constructor_arg_actuals" index="2enIz8" />
-=======
-      <concept id="3188920472790477822" name="com.mbeddr.cpp.base.structure.IPureVirtualFlagConcept" flags="ng" index="hTfAS">
-        <property id="3188920472790477826" name="isPureVirtual" index="hTfT4" />
->>>>>>> 858f7e856f... Fix tests
-      </concept>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 94d273528c... Add constructor calls and break naming of class instances
-      <concept id="7240228573260630076" name="com.mbeddr.cpp.base.structure.ConstructorVoidType" flags="ng" index="2dFNQU" />
->>>>>>> 48045b5359... Fix generation of constructor text in implementation files
-      <concept id="7844497894798008401" name="com.mbeddr.cpp.base.structure.ClassConstructorSignature" flags="ng" index="2gom4k">
-        <child id="7155645240280389397" name="body" index="1IVm9U" />
-        <child id="3883266571380204831" name="initializers" index="1YC0t0" />
-=======
-      <concept id="3188920472790477822" name="com.mbeddr.cpp.base.structure.IPureVirtualisableConcept" flags="ng" index="hTfAS">
-=======
-      <concept id="3188920472790477822" name="com.mbeddr.cpp.base.structure.IPureVirtualFlagConcept" flags="ng" index="hTfAS">
->>>>>>> 4ee4a88205... Remove a ParentClass invocation from test case
-=======
       <concept id="3188920472790477822" name="com.mbeddr.cpp.base.structure.IPureVirtualFlag" flags="ng" index="hTfAS">
->>>>>>> c32db4de20... Generalize comments for classes to work for namespaces as well
         <property id="3188920472790477826" name="isPureVirtual" index="hTfT4" />
->>>>>>> a36012117c... Fix testcases
       </concept>
-      <concept id="7844497894798008359" name="com.mbeddr.cpp.base.structure.ClassConstructorDeclaration" flags="ng" index="2gom5y">
-        <property id="7844497894798008385" name="visibility" index="2gom44" />
-        <reference id="7844497894798008388" name="parent_class" index="2gom41" />
-      </concept>
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 216b1725a0... Fix parameters in constructors
-=======
-=======
       <concept id="137823117410394117" name="com.mbeddr.cpp.base.structure.ConstructorInitializedConstructor" flags="ng" index="yZclw">
         <property id="1655951865576146579" name="real_name" index="2IddBx" />
         <reference id="137823117411762547" name="identity" index="yKYgm" />
         <child id="137823117411762663" name="actual_arguments" index="yKYi2" />
       </concept>
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> fbce44d1c8... Warning for parent constructor initilialization which does not currently generate the name
-=======
->>>>>>> d43bb3786f... Add constructor test case
-=======
-      <concept id="137823117410394117" name="com.mbeddr.cpp.base.structure.ConstructorInitializedConstructor" flags="ng" index="yZclw">
-        <reference id="137823117411762547" name="identity" index="yKYgm" />
-=======
-      <concept id="3188920472790477822" name="com.mbeddr.cpp.base.structure.IPureVirtualFlagConcept" flags="ng" index="hTfAS">
-        <property id="3188920472790477826" name="isPureVirtual" index="hTfT4" />
->>>>>>> ce47921082... Fixed auto declaration type errors.
-      </concept>
->>>>>>> 2587269438... Finish constructor test case
       <concept id="137823117407795547" name="com.mbeddr.cpp.base.structure.ConstructorInitializedAttribute" flags="ng" index="z11KY">
         <reference id="137823117409445459" name="identity" index="yVOcQ" />
         <child id="137823117409121665" name="init" index="yU53$" />
       </concept>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 4a9f27958b... Attribute initialization lists
-=======
->>>>>>> d43bb3786f... Add constructor test case
-=======
-      <concept id="3910253520675037444" name="com.mbeddr.cpp.base.structure.ArrayAttributeInitExpression" flags="ng" index="BMAfo" />
->>>>>>> 9f10d43a5e... Add array assignment to array fields
-=======
->>>>>>> f6a9ef0714... Fix TextGen for arrays in classes, add type and size checking
       <concept id="4511589886097466673" name="com.mbeddr.cpp.base.structure.InheritanceInstance" flags="ng" index="FysoC">
         <property id="4511589886097466677" name="visibility" index="FysoG" />
         <reference id="4511589886097466674" name="parentClass" index="FysoF" />
       </concept>
-<<<<<<< HEAD
-      <concept id="6028541369719415919" name="com.mbeddr.cpp.base.structure.IConstExprFlag" flags="ng" index="OtGC0">
-        <property id="6028541369719415920" name="isConstExpr" index="OtGCv" />
-      </concept>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> e6791fc3a8... Cleaned up the executable tests and made sure there weren't snytax errors. Many still have build problems due to UnitTestHelper.h
-=======
-=======
->>>>>>> 39a1d09c6b... Migrate constructor executable test cases outside classes model
       <concept id="1771923826942799313" name="com.mbeddr.cpp.base.structure.InnerClassType" flags="ng" index="TrGU4">
         <child id="1771923826942799314" name="outerClassType" index="TrGU7" />
       </concept>
-<<<<<<< HEAD
-      <concept id="4362269716971787562" name="com.mbeddr.cpp.base.structure.ClassComment" flags="ng" index="321v0r" />
->>>>>>> ec691300ed... Changed class nesting test
-=======
       <concept id="4362269716971787562" name="com.mbeddr.cpp.base.structure.GeneralComment" flags="ng" index="321v0r" />
->>>>>>> c32db4de20... Generalize comments for classes to work for namespaces as well
       <concept id="5487882147173150554" name="com.mbeddr.cpp.base.structure.NewObjectInitializer" flags="ng" index="3jnB3A">
         <reference id="5487882147173193839" name="identity" index="3jnSvj" />
         <child id="5487882147173193836" name="actuals" index="3jnSvg" />
         <child id="9083970262000480030" name="classType" index="1QO97d" />
-=======
-      <concept id="1771923826942799313" name="com.mbeddr.cpp.base.structure.InnerClassType" flags="ng" index="TrGU4">
-        <child id="1771923826942799314" name="outerclassType" index="TrGU7" />
->>>>>>> f496843022... removed scope file
       </concept>
       <concept id="5044697665789382396" name="com.mbeddr.cpp.base.structure.MethodDeclaration" flags="ng" index="3mB1cK">
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD:code/languages/com.mbeddr.cpp/tests/test.ex.com.mbeddr.cpp/models/classes.mps
-        <property id="5478191656157682870" name="static" index="gNYVZ" />
-=======
-        <property id="3188920472785122391" name="virtual" index="h4Eoh" />
->>>>>>> 1def60992c... Add virtual keyword to editor:code/languages/com.mbeddr.cpp/tests/test.ex.com.mbeddr.cpp/models/simple_classes.mps
-=======
-      <concept id="3188920472788366140" name="com.mbeddr.cpp.base.structure.IVirtualisable" flags="ng" index="hL25U">
-        <property id="3188920472788366141" name="virtual" index="hL25V" />
-=======
-=======
->>>>>>> a36012117c... Fix testcases
-        <child id="4185783222026475860" name="body" index="3XIRFX" />
->>>>>>> ce47921082... Fixed auto declaration type errors.
-      </concept>
-<<<<<<< HEAD
-      <concept id="5044697665789382396" name="com.mbeddr.cpp.base.structure.MethodDeclaration" flags="ng" index="3mB1cK">
->>>>>>> 0a6e17621e... Move virtual to interface IVirtual and add it to MethodPrototype and textgen.:code/languages/com.mbeddr.cpp/tests/test.ex.com.mbeddr.cpp/models/simple_classes.mps
         <child id="4185783222026475860" name="body" index="3XIRFX" />
       </concept>
-=======
->>>>>>> 858f7e856f... Fix tests
       <concept id="5044697665789421259" name="com.mbeddr.cpp.base.structure.AttributeDeclaration" flags="ng" index="3mBbG7">
         <child id="4185783222026502647" name="init" index="3XIe9v" />
       </concept>
@@ -402,14 +202,7 @@
       </concept>
     </language>
     <language id="b341759a-c721-4072-90cf-328bb2724684" name="com.mbeddr.cpp.expressions">
-<<<<<<< HEAD
-<<<<<<< HEAD
-      <concept id="2923592292267370217" name="com.mbeddr.cpp.expressions.structure.This" flags="ng" index="oe0_q" />
-=======
-=======
->>>>>>> d16f2d8d2e... Put thisPointer executable test outside classes
       <concept id="3910253520676052396" name="com.mbeddr.cpp.expressions.structure.ArrayAttributeInitExpression" flags="ng" index="BQtXK" />
->>>>>>> f6a9ef0714... Fix TextGen for arrays in classes, add type and size checking
       <concept id="5044697665789421241" name="com.mbeddr.cpp.expressions.structure.QualifiedMethodCall" flags="ng" index="3mBbHP">
         <reference id="5044697665789421247" name="method" index="3mBbHN" />
         <child id="5044697665789463506" name="actuals" index="3mBtou" />
@@ -428,17 +221,9 @@
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
         <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
-        <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
       </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
-      </concept>
-      <concept id="709746936026466394" name="jetbrains.mps.lang.core.structure.ChildAttribute" flags="ng" index="3VBwX9">
-        <property id="709746936026609031" name="linkId" index="3V$3ak" />
-        <property id="709746936026609029" name="linkRole" index="3V$3am" />
-      </concept>
-      <concept id="4452961908202556907" name="jetbrains.mps.lang.core.structure.BaseCommentAttribute" flags="ng" index="1X3_iC">
-        <child id="3078666699043039389" name="commentedNode" index="8Wnug" />
       </concept>
     </language>
     <language id="dd4979e3-3be6-46b3-9e1e-c36309e30758" name="com.mbeddr.cpp.modules">
@@ -456,32 +241,15 @@
       <concept id="4620120465980402700" name="com.mbeddr.core.expressions.structure.GenericDotExpression" flags="ng" index="2qmXGp">
         <child id="7034214596252529803" name="target" index="1ESnxz" />
       </concept>
-      <concept id="5763383285156373020" name="com.mbeddr.core.expressions.structure.MultiExpression" flags="ng" index="2BOcij" />
-      <concept id="5763383285156373013" name="com.mbeddr.core.expressions.structure.PlusExpression" flags="ng" index="2BOciq" />
-      <concept id="5763383285156533447" name="com.mbeddr.core.expressions.structure.ParensExpression" flags="ng" index="2BPB98" />
       <concept id="318113533128716675" name="com.mbeddr.core.expressions.structure.ITyped" flags="ng" index="2C2TGh">
         <child id="318113533128716676" name="type" index="2C2TGm" />
       </concept>
       <concept id="3820836583575227340" name="com.mbeddr.core.expressions.structure.DirectPlusAssignmentExpression" flags="ng" index="TPXPH" />
       <concept id="7892328519581699353" name="com.mbeddr.core.expressions.structure.VoidType" flags="ng" index="19Rifw" />
       <concept id="22102029902365709" name="com.mbeddr.core.expressions.structure.AssignmentExpr" flags="ng" index="3pqW6w" />
-<<<<<<< HEAD
-      <concept id="6610873504380029780" name="com.mbeddr.core.expressions.structure.CastExpression" flags="ng" index="1S8S4T">
-        <child id="6610873504380029790" name="targetType" index="1S8S4N" />
-        <child id="6610873504380029782" name="expr" index="1S8S4V" />
-      </concept>
-=======
       <concept id="3976803464656498418" name="com.mbeddr.core.expressions.structure.PreDecrementExpression" flags="ng" index="1FldXs" />
       <concept id="8860443239512147449" name="com.mbeddr.core.expressions.structure.LessExpression" flags="ng" index="3Tl9Jn" />
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> b124467075... Redo extension tests
-=======
-      <concept id="8860443239512128058" name="com.mbeddr.core.expressions.structure.BooleanType" flags="ng" index="3TlMgk" />
->>>>>>> c6757b8776... changed testing
-=======
       <concept id="8860443239512129322" name="com.mbeddr.core.expressions.structure.EqualsExpression" flags="ng" index="3TlM44" />
->>>>>>> 8cdf9d8629... Added typesystem checks for nesting
       <concept id="8860443239512128054" name="com.mbeddr.core.expressions.structure.Type" flags="ng" index="3TlMgo">
         <property id="2941277002445651368" name="const" index="2c7vTL" />
         <property id="2941277002448691247" name="volatile" index="2caQfQ" />
@@ -507,18 +275,10 @@
     </node>
     <node concept="2eOfOl" id="4o2nsMgBpPF" role="2ePNbc">
       <property role="TrG5h" value="Classes" />
-<<<<<<< HEAD
-      <ref role="3oK8_y" node="3v5DuFDkAwn" resolve="portable" />
-<<<<<<< HEAD
-      <node concept="2v9HqM" id="45rBLTFpWcv" role="2eOfOg">
-=======
-=======
->>>>>>> cc021cd381... migrated to 2019.2
       <node concept="2v9HqM" id="1yn8Pkyc0iC" role="2eOfOg">
         <ref role="2v9HqP" node="1yn8PkybQJK" resolve="Nesting" />
       </node>
       <node concept="2v9HqM" id="3_crXl1$O4S" role="2eOfOg">
->>>>>>> 363789fa02... added testing module
         <ref role="2v9HqP" node="2Ai0Gt9Pvr9" resolve="Class" />
       </node>
       <node concept="2v9HqM" id="45rBLTFpWcO" role="2eOfOg">
@@ -527,13 +287,8 @@
       <node concept="2v9HqM" id="45rBLTFpWdd" role="2eOfOg">
         <ref role="2v9HqP" node="45rBLTDXEQn" resolve="ImportedModule" />
       </node>
-<<<<<<< HEAD
-      <node concept="2v9HqM" id="72UYQRXsh13" role="2eOfOg">
-        <ref role="2v9HqP" node="6KmaLbDZjG7" resolve="Constructor" />
-=======
       <node concept="2v9HqM" id="7pvqO1NPnkY" role="2eOfOg">
         <ref role="2v9HqP" node="4Mb2ywHr281" resolve="Polymorphism" />
->>>>>>> e6ce50a6a5... Fix new constructors not having textgen after change, fix double entrypoint
       </node>
       <node concept="1l1$C7" id="7jWRS$D_1$e" role="1kZvWc">
         <property role="TrG5h" value="any" />
@@ -548,145 +303,7 @@
     <property role="TrG5h" value="Class" />
     <node concept="3mBW2U" id="2Ai0Gt9Qxgo" role="N3F5h">
       <property role="TrG5h" value="Counter" />
-<<<<<<< HEAD
-<<<<<<< HEAD
       <property role="2OOxQR" value="false" />
-      <node concept="2gom5y" id="6hUtorDPApV" role="3mBdys">
-        <property role="2gom44" value="public" />
-        <property role="TrG5h" value="Counter_constr_null" />
-        <ref role="2gom41" node="2Ai0Gt9Qxgo" resolve="Counter" />
-        <node concept="3XIRFW" id="6hUtorDPApW" role="1IVm9U">
-          <node concept="1_9egQ" id="6hUtorDPAsP" role="3XIRFZ">
-            <node concept="3pqW6w" id="6hUtorDPAt5" role="1_9egR">
-              <node concept="2BOciq" id="6hUtorDPAtJ" role="3TlMhJ">
-                <node concept="3ZUYvv" id="6hUtorDPAtN" role="3TlMhJ">
-                  <ref role="3ZUYvu" node="6hUtorDPAsi" resolve="y" />
-                </node>
-                <node concept="3ZUYvv" id="6hUtorDPAtt" role="3TlMhI">
-                  <ref role="3ZUYvu" node="6hUtorDPArJ" resolve="x" />
-                </node>
-              </node>
-              <node concept="3uHcMF" id="6hUtorDPAsO" role="3TlMhI">
-                <ref role="3uHcMG" node="3v5DuFDqjul" resolve="value" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="2dFNQU" id="6hUtorDPApX" role="2C2TGm">
-          <property role="2caQfQ" value="false" />
-          <property role="2c7vTL" value="false" />
-        </node>
-        <node concept="19RgSI" id="6hUtorDPArJ" role="1UOdpc">
-          <property role="TrG5h" value="x" />
-          <node concept="26Vqqz" id="6hUtorDPArI" role="2C2TGm">
-            <property role="2caQfQ" value="false" />
-            <property role="2c7vTL" value="false" />
-          </node>
-        </node>
-        <node concept="19RgSI" id="6hUtorDPAsi" role="1UOdpc">
-          <property role="TrG5h" value="y" />
-          <node concept="26Vqqz" id="6hUtorDPAsg" role="2C2TGm">
-            <property role="2caQfQ" value="false" />
-            <property role="2c7vTL" value="false" />
-          </node>
-        </node>
-      </node>
-      <node concept="2gom5y" id="6hUtorE7NHo" role="3mBdys">
-        <property role="2gom44" value="public" />
-        <property role="TrG5h" value="Counter_constr_null" />
-        <ref role="2gom41" node="2Ai0Gt9Qxgo" resolve="Counter" />
-        <node concept="3XIRFW" id="6hUtorE7NHp" role="1IVm9U" />
-        <node concept="2dFNQU" id="6hUtorE7NHq" role="2C2TGm">
-          <property role="2caQfQ" value="false" />
-          <property role="2c7vTL" value="false" />
-        </node>
-      </node>
-      <node concept="2gom5y" id="6hUtorEkxNc" role="3mBdys">
-        <property role="2gom44" value="public" />
-        <property role="TrG5h" value="Counter" />
-        <ref role="2gom41" node="2Ai0Gt9Qxgo" resolve="Counter" />
-        <node concept="3XIRFW" id="6hUtorEkxNd" role="1IVm9U" />
-        <node concept="2dFNQU" id="6hUtorEkxNe" role="2C2TGm">
-          <property role="2caQfQ" value="false" />
-          <property role="2c7vTL" value="false" />
-        </node>
-        <node concept="19RgSI" id="6hUtorEky17" role="1UOdpc">
-          <property role="TrG5h" value="x" />
-          <node concept="26Vqpq" id="6hUtorEky16" role="2C2TGm">
-            <property role="2caQfQ" value="false" />
-            <property role="2c7vTL" value="false" />
-          </node>
-        </node>
-        <node concept="19RgSI" id="6hUtorEky1E" role="1UOdpc">
-          <property role="TrG5h" value="y" />
-          <node concept="26Vqqz" id="6hUtorEky1C" role="2C2TGm">
-            <property role="2caQfQ" value="false" />
-            <property role="2c7vTL" value="false" />
-          </node>
-        </node>
-      </node>
-      <node concept="2gom5y" id="6hUtorEkydh" role="3mBdys">
-        <property role="2gom44" value="public" />
-        <property role="TrG5h" value="Counter" />
-        <ref role="2gom41" node="2Ai0Gt9Qxgo" resolve="Counter" />
-        <node concept="3XIRFW" id="6hUtorEkydi" role="1IVm9U" />
-        <node concept="2dFNQU" id="6hUtorEkydj" role="2C2TGm">
-          <property role="2caQfQ" value="false" />
-          <property role="2c7vTL" value="false" />
-        </node>
-        <node concept="19RgSI" id="6hUtorEkykh" role="1UOdpc">
-          <property role="TrG5h" value="x" />
-          <node concept="26Vqqz" id="6hUtorEkykg" role="2C2TGm">
-            <property role="2caQfQ" value="false" />
-            <property role="2c7vTL" value="false" />
-          </node>
-        </node>
-        <node concept="19RgSI" id="6hUtorEkykO" role="1UOdpc">
-          <property role="TrG5h" value="y" />
-          <node concept="26Vqpq" id="6hUtorEkykM" role="2C2TGm">
-            <property role="2caQfQ" value="false" />
-            <property role="2c7vTL" value="false" />
-          </node>
-        </node>
-      </node>
-      <node concept="2gom5y" id="6hUtorDPHEe" role="3mBdys">
-        <property role="2gom44" value="private" />
-        <property role="TrG5h" value="Counter_constr_null" />
-        <ref role="2gom41" node="2Ai0Gt9Qxgo" resolve="Counter" />
-        <node concept="3XIRFW" id="6hUtorDPHEf" role="1IVm9U">
-          <node concept="1_9egQ" id="6hUtorDPHGA" role="3XIRFZ">
-            <node concept="3pqW6w" id="6hUtorDPHGN" role="1_9egR">
-              <node concept="3ZUYvv" id="6hUtorDPHHm" role="3TlMhJ">
-                <ref role="3ZUYvu" node="6hUtorDPHFY" resolve="xplusy" />
-              </node>
-              <node concept="3uHcMF" id="6hUtorDPHG_" role="3TlMhI">
-                <ref role="3uHcMG" node="3v5DuFDqjul" resolve="value" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="2dFNQU" id="6hUtorDPHEg" role="2C2TGm">
-          <property role="2caQfQ" value="false" />
-          <property role="2c7vTL" value="false" />
-        </node>
-        <node concept="19RgSI" id="6hUtorDPHFY" role="1UOdpc">
-          <property role="TrG5h" value="xplusy" />
-          <node concept="26Vqqz" id="6hUtorDPHFX" role="2C2TGm">
-            <property role="2caQfQ" value="false" />
-            <property role="2c7vTL" value="false" />
-          </node>
-        </node>
-      </node>
-      <node concept="3u$6M4" id="6hUtorDNYWD" role="3mBdys" />
-=======
-      <property role="2OOxQR" value="true" />
-=======
-      <property role="2OOxQR" value="false" />
-<<<<<<< HEAD
->>>>>>> efc1f3b310... Implemented this keyword and changed class member scoping
-      <node concept="3u$6M4" id="nbE_$_7VlV" role="3mBdys" />
->>>>>>> 5cb8cfdb11... Fix tests and remove unused concepts
-=======
       <node concept="321v0r" id="7POJCjgR2AY" role="3mBdys">
         <node concept="OjmMv" id="7POJCjgR2B0" role="3SJzmv">
           <node concept="19SGf9" id="7POJCjgR2B1" role="OjmMu">
@@ -696,28 +313,16 @@
           </node>
         </node>
       </node>
->>>>>>> c32db4de20... Generalize comments for classes to work for namespaces as well
       <node concept="3mBbG7" id="3v5DuFDqjul" role="3mBdys">
         <property role="TrG5h" value="value" />
-        <property role="1wg9_F" value="public" />
         <property role="226hDV" value="false" />
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-        <property role="1wg9_F" value="public" />
-=======
         <property role="1wg9_F" value="2Ai0Gt9ODIs/public" />
->>>>>>> cc021cd381... migrated to 2019.2
         <node concept="3TlMh9" id="22ONl2uh6vJ" role="3XIe9v">
           <property role="2hmy$m" value="0" />
         </node>
->>>>>>> 858f7e856f... Fix tests
         <node concept="26Vqqz" id="3v5DuFDqjuj" role="2C2TGm">
           <property role="2caQfQ" value="false" />
           <property role="2c7vTL" value="false" />
-        </node>
-        <node concept="3TlMh9" id="7ApeIptbq5W" role="3XIe9v">
-          <property role="2hmy$m" value="0" />
         </node>
       </node>
       <node concept="3mBbG7" id="3p40HKhzsNL" role="3mBdys">
@@ -817,14 +422,6 @@
               <ref role="3uHhlH" node="2Ai0Gt9Qxgp" resolve="inc1" />
             </node>
           </node>
-          <node concept="2dywKE" id="2xmTzC2O91p" role="3XIRFZ">
-            <property role="TrG5h" value="some_name" />
-            <node concept="3mBfEi" id="2xmTzC2O91n" role="2C2TGm">
-              <property role="2caQfQ" value="false" />
-              <property role="2c7vTL" value="false" />
-              <ref role="3mBfEM" node="2Ai0Gt9Qxgo" resolve="Counter" />
-            </node>
-          </node>
         </node>
         <node concept="19Rifw" id="2Ai0Gt9Qxg$" role="2C2TGm">
           <property role="2caQfQ" value="false" />
@@ -832,86 +429,41 @@
         </node>
       </node>
       <node concept="3u$6M4" id="nbE_$_6HEb" role="3mBdys" />
-      <node concept="3mB1cK" id="3v5DuFDsqls" role="3mBdys">
+      <node concept="3mB1cK" id="6ddXmWebpJ0" role="3mBdys">
         <property role="TrG5h" value="incN" />
-<<<<<<< HEAD
-        <property role="1wg9_F" value="public" />
-<<<<<<< HEAD
-        <property role="hL25V" value="true" />
-        <node concept="19RgSI" id="3v5DuFDsqnj" role="1UOdpc">
-=======
-=======
->>>>>>> 5cb8cfdb11... Fix tests and remove unused concepts
         <property role="hL25V" value="false" />
         <property role="hTfT4" value="false" />
         <property role="1wg9_F" value="2Ai0Gt9ODIs/public" />
         <node concept="19RgSI" id="6ddXmWebpJ1" role="1UOdpc">
->>>>>>> 32c7080ebc... Remove test cases for virtual
           <property role="TrG5h" value="n" />
-          <node concept="26Vqqz" id="3v5DuFDsqnh" role="2C2TGm">
+          <node concept="26Vqqz" id="6ddXmWebpJ2" role="2C2TGm">
             <property role="2caQfQ" value="false" />
             <property role="2c7vTL" value="false" />
           </node>
         </node>
-        <node concept="3XIRFW" id="3v5DuFDsqlt" role="3XIRFX">
-          <node concept="1_9egQ" id="3v5DuFDsqoU" role="3XIRFZ">
-            <node concept="TPXPH" id="3v5DuFDsqpb" role="1_9egR">
-              <node concept="3ZUYvv" id="3v5DuFDsqp$" role="3TlMhJ">
-                <ref role="3ZUYvu" node="3v5DuFDsqnj" resolve="n" />
-              </node>
-<<<<<<< HEAD
-              <node concept="3uHcMF" id="3v5DuFDsqoS" role="3TlMhI">
-=======
+        <node concept="3XIRFW" id="6ddXmWebpJ3" role="3XIRFX">
+          <node concept="1_9egQ" id="6ddXmWebpJ4" role="3XIRFZ">
+            <node concept="TPXPH" id="6ddXmWebpJ5" role="1_9egR">
               <node concept="3uHcMF" id="3LE5RBQaNXq" role="3TlMhI">
->>>>>>> 5cb8cfdb11... Fix tests and remove unused concepts
                 <ref role="3uHcMG" node="3v5DuFDqjul" resolve="value" />
+              </node>
+              <node concept="3ZUYvv" id="6ddXmWebpJ6" role="3TlMhJ">
+                <ref role="3ZUYvu" node="6ddXmWebpJ1" resolve="n" />
               </node>
             </node>
           </node>
         </node>
-<<<<<<< HEAD
-        <node concept="19Rifw" id="3v5DuFDsqly" role="2C2TGm">
-=======
         <node concept="19Rifw" id="6ddXmWebpJ8" role="2C2TGm">
->>>>>>> 32c7080ebc... Remove test cases for virtual
           <property role="2caQfQ" value="false" />
           <property role="2c7vTL" value="false" />
         </node>
       </node>
-<<<<<<< HEAD
-      <node concept="3u$6M4" id="nbE_$_7Vp4" role="3mBdys" />
-=======
       <node concept="3u$6M4" id="6ddXmWebpJ9" role="3mBdys" />
->>>>>>> 32c7080ebc... Remove test cases for virtual
       <node concept="3mB1cK" id="3v5DuFDvm4t" role="3mBdys">
         <property role="TrG5h" value="getVal" />
         <property role="hL25V" value="false" />
         <property role="1wg9_F" value="2Ai0Gt9ODIs/public" />
         <node concept="3XIRFW" id="3v5DuFDvm4w" role="3XIRFX">
-          <node concept="2dywKE" id="17yeYAhYbY4" role="3XIRFZ">
-            <property role="TrG5h" value="acounter" />
-            <ref role="2esx9c" node="6hUtorEkxNc" resolve="Counter" />
-            <node concept="3mBfEi" id="17yeYAhYbY2" role="2C2TGm">
-              <property role="2caQfQ" value="false" />
-              <property role="2c7vTL" value="false" />
-              <ref role="3mBfEM" node="2Ai0Gt9Qxgo" resolve="Counter" />
-            </node>
-            <node concept="3TlMh9" id="17yeYAhYbYE" role="2enIz8">
-              <property role="2hmy$m" value="5" />
-            </node>
-            <node concept="3TlMh9" id="17yeYAhYbZA" role="2enIz8">
-              <property role="2hmy$m" value="3" />
-            </node>
-          </node>
-          <node concept="2dywKE" id="17yeYAhYc3O" role="3XIRFZ">
-            <property role="TrG5h" value="bcounter" />
-            <ref role="2esx9c" node="6hUtorE7NHo" resolve="Counter_constr_null" />
-            <node concept="3mBfEi" id="17yeYAhYc3M" role="2C2TGm">
-              <property role="2caQfQ" value="false" />
-              <property role="2c7vTL" value="false" />
-              <ref role="3mBfEM" node="2Ai0Gt9Qxgo" resolve="Counter" />
-            </node>
-          </node>
           <node concept="2BFjQ_" id="3v5DuFDvma7" role="3XIRFZ">
             <node concept="3uHcMF" id="3LE5RBQaNYj" role="2BFjQA">
               <ref role="3uHcMG" node="3v5DuFDqjul" resolve="value" />
@@ -924,30 +476,6 @@
         </node>
       </node>
     </node>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    <node concept="2NXPZ9" id="6ddXmWdFdJu" role="N3F5h">
-      <property role="TrG5h" value="empty_1526554437131_1" />
-    </node>
-    <node concept="2NXPZ9" id="6ddXmWdFdNl" role="N3F5h">
-      <property role="TrG5h" value="empty_1526554437289_2" />
-    </node>
-=======
-    <node concept="2NXPZ9" id="3UJ18qjr0Y3" role="N3F5h">
-      <property role="TrG5h" value="empty_1527686545203_3" />
-    </node>
-    <node concept="dq960" id="3UJ18qjr15B" role="N3F5h" />
->>>>>>> a5b410c665... Fix highlighting to be consistent and make the package name lowercase
-    <node concept="2NXPZ9" id="45rBLTDXEWp" role="N3F5h">
-      <property role="TrG5h" value="empty_1526547438983_6" />
-=======
-    <node concept="2NXPZ9" id="2POwV1ob7Yn" role="N3F5h">
-      <property role="TrG5h" value="empty_1527750170367_2" />
->>>>>>> 13bca3dc9b... Remove empty namespace declaration in classes
-    </node>
-=======
->>>>>>> 7ac605e081... allow wytiwyg text editing inside classes
     <node concept="c0Qz5" id="3v5DuFDvJ1D" role="N3F5h">
       <property role="2OOxQR" value="true" />
       <property role="TrG5h" value="instantiationTC1" />
@@ -956,70 +484,22 @@
         <property role="2c7vTL" value="false" />
       </node>
       <node concept="3XIRFW" id="3v5DuFDvJ1F" role="c0Qz3">
-        <node concept="3XIRlf" id="6hUtorE999N" role="3XIRFZ">
-          <property role="TrG5h" value="x" />
-          <node concept="26Vqpq" id="6hUtorE999L" role="2C2TGm">
-            <property role="2caQfQ" value="false" />
-            <property role="2c7vTL" value="false" />
-          </node>
-          <node concept="3TlMh9" id="6hUtorEiv2K" role="3XIe9u">
-            <property role="2hmy$m" value="5" />
-          </node>
-        </node>
-        <node concept="3XIRlf" id="6hUtorE99co" role="3XIRFZ">
-          <property role="TrG5h" value="y" />
-          <node concept="26Vqqz" id="6hUtorE99cm" role="2C2TGm">
-            <property role="2caQfQ" value="false" />
-            <property role="2c7vTL" value="false" />
-          </node>
-          <node concept="3TlMh9" id="6hUtorEiuZ$" role="3XIe9u">
-            <property role="2hmy$m" value="5" />
-          </node>
-        </node>
-        <node concept="3XIRlf" id="6hUtorEsI2L" role="3XIRFZ">
-          <property role="TrG5h" value="xy" />
-          <node concept="26Vqpq" id="6hUtorEsJdk" role="2C2TGm">
-            <property role="2caQfQ" value="false" />
-            <property role="2c7vTL" value="false" />
-          </node>
-          <node concept="2BOcij" id="6hUtorEsIWQ" role="3XIe9u">
-            <node concept="1S8S4T" id="6hUtorEsJ29" role="3TlMhJ">
-              <node concept="2BPB98" id="6hUtorEsJ2a" role="1S8S4V">
-                <node concept="3ZVu4v" id="6hUtorEsJdd" role="1_9fRO">
-                  <ref role="3ZVs_2" node="6hUtorE99co" resolve="y" />
-                </node>
-              </node>
-              <node concept="26Vqpq" id="6hUtorEsJ7K" role="1S8S4N">
-                <property role="2caQfQ" value="false" />
-                <property role="2c7vTL" value="false" />
-              </node>
-            </node>
-            <node concept="3ZVu4v" id="6hUtorEsI4Z" role="3TlMhI">
-              <ref role="3ZVs_2" node="6hUtorE999N" resolve="x" />
-            </node>
-          </node>
-        </node>
-        <node concept="3XISUE" id="6hUtorEj43Z" role="3XIRFZ" />
-        <node concept="2dywKE" id="6hUtorE0h1B" role="3XIRFZ">
-          <property role="TrG5h" value="aCounter" />
-          <node concept="3mBfEi" id="6hUtorE0h1_" role="2C2TGm">
+        <node concept="3XIRlf" id="3v5DuFDvJ1G" role="3XIRFZ">
+          <property role="TrG5h" value="counter" />
+          <node concept="3mBfEi" id="22ONl2u3LcT" role="2C2TGm">
             <property role="2caQfQ" value="false" />
             <property role="2c7vTL" value="false" />
             <ref role="3mBfEM" node="2Ai0Gt9Qxgo" resolve="Counter" />
           </node>
         </node>
-<<<<<<< HEAD
-        <node concept="3XISUE" id="17yeYAhY435" role="3XIRFZ" />
-=======
         <node concept="3XISUE" id="7AYxXU5gE9D" role="3XIRFZ" />
->>>>>>> c94c3a03d6... Make description more clear
         <node concept="1_9egQ" id="3v5DuFDvJ1I" role="3XIRFZ">
           <node concept="2qmXGp" id="3v5DuFDvJ1J" role="1_9egR">
             <node concept="3mBbHP" id="3LE5RBQaN_U" role="1ESnxz">
               <ref role="3mBbHN" node="2Ai0Gt9Qxgp" resolve="inc1" />
             </node>
-            <node concept="3ZVu4v" id="6hUtorE0h4b" role="1_9fRO">
-              <ref role="3ZVs_2" node="6hUtorE0h1B" resolve="aCounter" />
+            <node concept="3ZVu4v" id="3v5DuFDvJ1L" role="1_9fRO">
+              <ref role="3ZVs_2" node="3v5DuFDvJ1G" resolve="counter" />
             </node>
           </node>
         </node>
@@ -1031,8 +511,8 @@
             <node concept="3mBk1D" id="3LE5RBQaO0Q" role="1ESnxz">
               <ref role="3mBk1B" node="3v5DuFDqjul" resolve="value" />
             </node>
-            <node concept="3ZVu4v" id="6hUtorE0h4I" role="1_9fRO">
-              <ref role="3ZVs_2" node="6hUtorE0h1B" resolve="aCounter" />
+            <node concept="3ZVu4v" id="3v5DuFDvJ1Q" role="1_9fRO">
+              <ref role="3ZVs_2" node="3v5DuFDvJ1G" resolve="counter" />
             </node>
           </node>
         </node>
@@ -1041,8 +521,8 @@
             <node concept="3mBbHP" id="3LE5RBQaNAb" role="1ESnxz">
               <ref role="3mBbHN" node="2Ai0Gt9Qxgv" resolve="inc2" />
             </node>
-            <node concept="3ZVu4v" id="6hUtorE0h4t" role="1_9fRO">
-              <ref role="3ZVs_2" node="6hUtorE0h1B" resolve="aCounter" />
+            <node concept="3ZVu4v" id="3v5DuFDvJ1U" role="1_9fRO">
+              <ref role="3ZVs_2" node="3v5DuFDvJ1G" resolve="counter" />
             </node>
           </node>
         </node>
@@ -1054,25 +534,21 @@
             <node concept="3mBk1D" id="3LE5RBQaO1o" role="1ESnxz">
               <ref role="3mBk1B" node="3v5DuFDqjul" resolve="value" />
             </node>
-            <node concept="3ZVu4v" id="6hUtorE0h5i" role="1_9fRO">
-              <ref role="3ZVs_2" node="6hUtorE0h1B" resolve="aCounter" />
+            <node concept="3ZVu4v" id="3v5DuFDvJ1Z" role="1_9fRO">
+              <ref role="3ZVs_2" node="3v5DuFDvJ1G" resolve="counter" />
             </node>
           </node>
         </node>
         <node concept="1_9egQ" id="3v5DuFDvJ20" role="3XIRFZ">
           <node concept="2qmXGp" id="3v5DuFDvJ21" role="1_9egR">
             <node concept="3mBbHP" id="3v5DuFDvJ22" role="1ESnxz">
-<<<<<<< HEAD
-              <ref role="3mBbHN" node="3v5DuFDsqls" resolve="incN" />
-=======
               <ref role="3mBbHN" node="6ddXmWebpJ0" resolve="incN" />
->>>>>>> 32c7080ebc... Remove test cases for virtual
               <node concept="3TlMh9" id="3v5DuFDvJ23" role="3mBtou">
                 <property role="2hmy$m" value="42" />
               </node>
             </node>
-            <node concept="3ZVu4v" id="6hUtorE0h6c" role="1_9fRO">
-              <ref role="3ZVs_2" node="6hUtorE0h1B" resolve="aCounter" />
+            <node concept="3ZVu4v" id="3v5DuFDvJ24" role="1_9fRO">
+              <ref role="3ZVs_2" node="3v5DuFDvJ1G" resolve="counter" />
             </node>
           </node>
         </node>
@@ -1084,8 +560,8 @@
             <node concept="3mBk1D" id="3LE5RBQaO2U" role="1ESnxz">
               <ref role="3mBk1B" node="3v5DuFDqjul" resolve="value" />
             </node>
-            <node concept="3ZVu4v" id="6hUtorE0h5J" role="1_9fRO">
-              <ref role="3ZVs_2" node="6hUtorE0h1B" resolve="aCounter" />
+            <node concept="3ZVu4v" id="3v5DuFDvJ29" role="1_9fRO">
+              <ref role="3ZVs_2" node="3v5DuFDvJ1G" resolve="counter" />
             </node>
           </node>
         </node>
@@ -1120,7 +596,6 @@
             </node>
           </node>
         </node>
-        <node concept="3XISUE" id="7NHqJDljTXb" role="3XIRFZ" />
         <node concept="2N2KuS" id="3v5DuFDvJ1z" role="3XIRFZ">
           <node concept="3TlMh9" id="3v5DuFDvJ1$" role="2N2GHh">
             <property role="2hmy$m" value="1" />
@@ -1226,19 +701,8 @@
       <node concept="3cM6IN" id="7YG4fz8gm$q" role="lIfQt">
         <ref role="3cM6IK" node="nbE_$_7Waj" resolve="extensionTC1" />
       </node>
-<<<<<<< HEAD
-      <node concept="3cM6IN" id="4smL_2D2PAR" role="lIfQt">
-        <ref role="3cM6IK" node="2yiFVcKEJzr" resolve="thisTC1" />
-      </node>
-<<<<<<< HEAD
-      <node concept="3cM6IN" id="72UYQRXRXgQ" role="lIfQt">
-        <ref role="3cM6IK" node="72UYQRWMsqO" resolve="constructorTC1" />
-=======
-=======
->>>>>>> d16f2d8d2e... Put thisPointer executable test outside classes
       <node concept="3cM6IN" id="1yn8Pkyc0C$" role="lIfQt">
         <ref role="3cM6IK" node="1yn8PkybR6C" resolve="nestingTC1" />
->>>>>>> 363789fa02... added testing module
       </node>
       <node concept="3cM6IN" id="7SgJHc9Iar5" role="lIfQt">
         <ref role="3cM6IK" node="4Mb2ywHWU4q" resolve="poly_external" />
@@ -1253,23 +717,6 @@
     <node concept="3GEVxB" id="7YG4fz8gm$n" role="2OODSX">
       <ref role="3GEb4d" node="nbE_$_7VLA" resolve="Extension" />
     </node>
-<<<<<<< HEAD
-<<<<<<< HEAD
-    <node concept="3GEVxB" id="4smL_2D2PAH" role="2OODSX">
-      <ref role="3GEb4d" node="2yiFVcKEIWv" resolve="This" />
-    </node>
-<<<<<<< HEAD
-=======
->>>>>>> d16f2d8d2e... Put thisPointer executable test outside classes
-    <node concept="3GEVxB" id="72UYQRXRXgI" role="2OODSX">
-      <ref role="3GEb4d" node="6KmaLbDZjG7" resolve="Constructor" />
-=======
-    <node concept="3GEVxB" id="1yn8Pkyc0C6" role="2OODSX">
-      <ref role="3GEb4d" node="1yn8PkybQJK" resolve="Nesting" />
->>>>>>> 363789fa02... added testing module
-    </node>
-=======
->>>>>>> 39a1d09c6b... Migrate constructor executable test cases outside classes model
     <node concept="3GEVxB" id="7SgJHc9sIbm" role="2OODSX">
       <ref role="3GEb4d" node="1yn8PkybQJK" resolve="Nesting" />
     </node>
@@ -1282,116 +729,7 @@
     <property role="3GE5qa" value="" />
     <node concept="3mBW2U" id="nbE_$_7VLV" role="N3F5h">
       <property role="2OOxQR" value="true" />
-<<<<<<< HEAD
-      <property role="TrG5h" value="Parent" />
-      <node concept="2gom5y" id="4KyQ_QhKBDo" role="3mBdys">
-        <property role="2gom44" value="public" />
-        <property role="TrG5h" value="Parent" />
-        <ref role="2gom41" node="nbE_$_7VLV" resolve="Parent" />
-        <node concept="3XIRFW" id="4KyQ_QhKBDp" role="1IVm9U" />
-        <node concept="2dFNQU" id="4KyQ_QhKBDq" role="2C2TGm">
-          <property role="2caQfQ" value="false" />
-          <property role="2c7vTL" value="false" />
-        </node>
-        <node concept="19RgSI" id="4KyQ_QhKBEU" role="1UOdpc">
-          <property role="TrG5h" value="y" />
-          <node concept="26Vqpq" id="4KyQ_QhKBET" role="2C2TGm">
-            <property role="2caQfQ" value="false" />
-            <property role="2c7vTL" value="false" />
-          </node>
-        </node>
-      </node>
-      <node concept="2gom5y" id="3n$8_Xbe9D1" role="3mBdys">
-        <property role="2gom44" value="public" />
-        <property role="TrG5h" value="Parent" />
-        <ref role="2gom41" node="nbE_$_7VLV" resolve="Parent" />
-        <node concept="3XIRFW" id="3n$8_Xbe9D2" role="1IVm9U">
-          <node concept="1QiMYF" id="3n$8_Xbe9E_" role="3XIRFZ">
-            <node concept="OjmMv" id="3n$8_Xbe9EB" role="3SJzmv">
-              <node concept="19SGf9" id="3n$8_Xbe9EC" role="OjmMu">
-                <node concept="19SUe$" id="3n$8_Xbe9ED" role="19SJt6">
-                  <property role="19SUeA" value="Some constructor" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="2dFNQU" id="3n$8_Xbe9D3" role="2C2TGm">
-          <property role="2caQfQ" value="false" />
-          <property role="2c7vTL" value="false" />
-        </node>
-        <node concept="19RgSI" id="3n$8_Xbe9E9" role="1UOdpc">
-          <property role="TrG5h" value="x" />
-          <node concept="26Vqqz" id="3n$8_Xbe9E8" role="2C2TGm">
-            <property role="2caQfQ" value="false" />
-            <property role="2c7vTL" value="false" />
-          </node>
-        </node>
-        <node concept="yZclw" id="4KyQ_QhKBFu" role="1YC0t0">
-          <ref role="yKYgm" node="4KyQ_QhKBDo" resolve="Parent" />
-          <node concept="3TlMh9" id="4KyQ_QhKBFN" role="yKYi2">
-            <property role="2hmy$m" value="25" />
-          </node>
-        </node>
-        <node concept="z11KY" id="7DDmkz5lRS" role="1YC0t0">
-          <ref role="yVOcQ" node="6oRbCP68kMc" resolve="privateValue" />
-          <node concept="3ZUYvv" id="7DDmkz5lSd" role="yU53$">
-            <ref role="3ZUYvu" node="3n$8_Xbe9E9" resolve="x" />
-          </node>
-        </node>
-        <node concept="z11KY" id="7DDmkz49cC" role="1YC0t0">
-          <ref role="yVOcQ" node="nbE_$_7W5f" resolve="publicValue" />
-          <node concept="3TlMh9" id="7DDmkz49cV" role="yU53$">
-            <property role="2hmy$m" value="3" />
-          </node>
-        </node>
-      </node>
-      <node concept="3u$6M4" id="45rBLTDuPjS" role="3mBdys" />
-      <node concept="3mBbG7" id="nbE_$_7W5f" role="3mBdys">
-        <property role="TrG5h" value="publicValue" />
-        <property role="1wg9_F" value="public" />
-        <node concept="26Vqph" id="nbE_$_7W7x" role="2C2TGm">
-          <property role="2caQfQ" value="false" />
-          <property role="2c7vTL" value="false" />
-        </node>
-        <node concept="3TlMh9" id="nbE_$_7W5O" role="3XIe9v">
-          <property role="2hmy$m" value="0" />
-        </node>
-      </node>
-      <node concept="3u$6M4" id="45rBLTDuPj1" role="3mBdys" />
-      <node concept="3mBbG7" id="6oRbCP68kMc" role="3mBdys">
-        <property role="TrG5h" value="privateValue" />
-        <node concept="26Vqph" id="6oRbCP68kMv" role="2C2TGm">
-          <property role="2caQfQ" value="false" />
-          <property role="2c7vTL" value="false" />
-        </node>
-        <node concept="3TlMh9" id="6oRbCP68kMR" role="3XIe9v">
-          <property role="2hmy$m" value="0" />
-        </node>
-      </node>
-      <node concept="3u$6M4" id="6oRbCP69jgM" role="3mBdys" />
-<<<<<<< HEAD
-=======
       <property role="TrG5h" value="Adder" />
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> b124467075... Redo extension tests
-      <node concept="3mB1cK" id="6oRbCP68kRM" role="3mBdys">
-        <property role="gNYVZ" value="false" />
-        <property role="TrG5h" value="increment" />
-        <property role="1wg9_F" value="public" />
-        <node concept="3XIRFW" id="6oRbCP68kRO" role="3XIRFX">
-          <node concept="2BFjQ_" id="6oRbCP68kSN" role="3XIRFZ">
-            <node concept="3TM6Ez" id="29I8DMSfStM" role="2BFjQA">
-              <node concept="3ZUYvv" id="29I8DMSfStv" role="1_9fRO">
-                <ref role="3ZUYvu" node="29I8DMSfSsv" resolve="value" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="26Vqph" id="6oRbCP68kSk" role="2C2TGm">
-=======
-=======
       <node concept="3mBbG7" id="5uvgyTl3NrB" role="3mBdys">
         <property role="1wg9_F" value="2Ai0Gt9ODIs/public" />
         <property role="TrG5h" value="pubfield" />
@@ -1403,12 +741,10 @@
           <property role="2hmy$m" value="5" />
         </node>
       </node>
->>>>>>> d576ff39d1... Several scoping fixes
       <node concept="3mB1cK" id="1Yr26iuhgnr" role="3mBdys">
         <property role="TrG5h" value="increment" />
         <property role="1wg9_F" value="2Ai0Gt9ODIs/public" />
         <node concept="26Vqph" id="1Yr26iuhgnF" role="2C2TGm">
->>>>>>> a36012117c... Fix testcases
           <property role="2caQfQ" value="false" />
           <property role="2c7vTL" value="false" />
         </node>
@@ -1417,57 +753,6 @@
           <node concept="26Vqph" id="5uvgyTlnHvn" role="2C2TGm">
             <property role="2caQfQ" value="false" />
             <property role="2c7vTL" value="false" />
-=======
-      <node concept="3mB1cK" id="4w6UgEud6RY" role="3mBdys">
-        <property role="1wg9_F" value="public" />
-        <property role="TrG5h" value="publicMethod" />
-        <node concept="26Vqph" id="4w6UgEud6UZ" role="2C2TGm">
-          <property role="2caQfQ" value="false" />
-          <property role="2c7vTL" value="false" />
-        </node>
-        <node concept="3XIRFW" id="4w6UgEud6Vo" role="3XIRFX">
-          <node concept="2BFjQ_" id="4w6UgEud6VT" role="3XIRFZ">
-            <node concept="3TlMh9" id="4w6UgEud6W7" role="2BFjQA">
-              <property role="2hmy$m" value="0" />
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="3u$6M4" id="6oRbCP69jdY" role="3mBdys" />
-      <node concept="3mB1cK" id="4w6UgEud6vv" role="3mBdys">
-        <property role="1wg9_F" value="protected" />
-        <property role="TrG5h" value="protectedMethod" />
-        <node concept="26Vqph" id="4w6UgEud6w$" role="2C2TGm">
-          <property role="2caQfQ" value="false" />
-          <property role="2c7vTL" value="false" />
-        </node>
-        <node concept="3XIRFW" id="4w6UgEud6xh" role="3XIRFX">
-          <node concept="1_9egQ" id="4w6UgEud6NC" role="3XIRFZ">
-            <node concept="3uHhno" id="4w6UgEud6NA" role="1_9egR">
-              <ref role="3uHhlH" node="4w6UgEud6Cz" resolve="privateMethod" />
-            </node>
-          </node>
-          <node concept="2BFjQ_" id="4w6UgEud6yA" role="3XIRFZ">
-            <node concept="3TlMh9" id="4w6UgEud6yS" role="2BFjQA">
-              <property role="2hmy$m" value="0" />
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="3u$6M4" id="6oRbCP69XrG" role="3mBdys" />
-      <node concept="3mB1cK" id="4w6UgEud6Cz" role="3mBdys">
-        <property role="1wg9_F" value="private" />
-        <property role="TrG5h" value="privateMethod" />
-        <node concept="26Vqph" id="4w6UgEud6EQ" role="2C2TGm">
-          <property role="2caQfQ" value="false" />
-          <property role="2c7vTL" value="false" />
-        </node>
-        <node concept="3XIRFW" id="4w6UgEud6Fa" role="3XIRFX">
-          <node concept="2BFjQ_" id="4w6UgEud6Fu" role="3XIRFZ">
-            <node concept="3TlMh9" id="4w6UgEud6FF" role="2BFjQA">
-              <property role="2hmy$m" value="0" />
-            </node>
->>>>>>> ce47921082... Fixed auto declaration type errors.
           </node>
         </node>
         <node concept="3XIRFW" id="1Yr26iuhgoy" role="3XIRFX">
@@ -1487,20 +772,6 @@
     <node concept="3mBW2U" id="nbE_$_7VLG" role="N3F5h">
       <property role="2OOxQR" value="true" />
       <property role="TrG5h" value="Calculator" />
-<<<<<<< HEAD
-      <node concept="FysoC" id="nbE_$_7W1B" role="Fysvh">
-        <property role="FysoG" value="public" />
-        <ref role="FysoF" node="nbE_$_7VLV" resolve="Adder" />
-      </node>
-      <node concept="FysoC" id="45rBLTDZ8rI" role="Fysvh">
-        <property role="FysoG" value="private" />
-        <ref role="FysoF" node="45rBLTDXFnO" resolve="Subtractor" />
-      </node>
-<<<<<<< HEAD
-      <node concept="3mB1cK" id="29I8DMSfSEQ" role="3mBdys">
-        <property role="gNYVZ" value="false" />
-=======
-=======
       <node concept="3mB1cK" id="5uvgyTkQGzW" role="3mBdys">
         <property role="1wg9_F" value="2Ai0Gt9ODIs/public" />
         <property role="TrG5h" value="other" />
@@ -1516,78 +787,13 @@
           </node>
         </node>
       </node>
->>>>>>> d576ff39d1... Several scoping fixes
       <node concept="3mB1cK" id="1Yr26iuhgzj" role="3mBdys">
-<<<<<<< HEAD
-        <property role="1wg9_F" value="public" />
->>>>>>> a36012117c... Fix testcases
-=======
->>>>>>> 858f7e856f... Fix tests
         <property role="TrG5h" value="increment20" />
         <property role="1wg9_F" value="2Ai0Gt9ODIs/public" />
         <node concept="26Vqph" id="1Yr26iuhgzu" role="2C2TGm">
           <property role="2caQfQ" value="false" />
           <property role="2c7vTL" value="false" />
         </node>
-<<<<<<< HEAD
-<<<<<<< HEAD
-        <node concept="3TlMh9" id="nbE_$_7W86" role="3XIe9v">
-          <property role="2hmy$m" value="0" />
-        </node>
-      </node>
-      <node concept="2gom5y" id="4KyQ_QhNPoF" role="3mBdys">
-        <property role="2gom44" value="public" />
-        <property role="TrG5h" value="Child" />
-        <ref role="2gom41" node="nbE_$_7VLG" resolve="Child" />
-        <node concept="3XIRFW" id="4KyQ_QhNPoG" role="1IVm9U" />
-        <node concept="2dFNQU" id="4KyQ_QhNPoH" role="2C2TGm">
-          <property role="2caQfQ" value="false" />
-          <property role="2c7vTL" value="false" />
-        </node>
-        <node concept="yZclw" id="4KyQ_QhNPpN" role="1YC0t0">
-          <ref role="yKYgm" node="4KyQ_QhKBDo" resolve="Parent" />
-          <node concept="3TlMh9" id="4KyQ_QhNPq3" role="yKYi2">
-            <property role="2hmy$m" value="33" />
-          </node>
-        </node>
-      </node>
-      <node concept="3u$6M4" id="45rBLTDuPlu" role="3mBdys" />
-      <node concept="3mB1cK" id="4w6UgEud71_" role="3mBdys">
-        <property role="1wg9_F" value="public" />
-        <property role="TrG5h" value="staticMethod" />
-        <property role="226hDV" value="true" />
-        <node concept="26Vqqz" id="4w6UgEud72y" role="2C2TGm">
-          <property role="2caQfQ" value="false" />
-          <property role="2c7vTL" value="false" />
-        </node>
-        <node concept="3XIRFW" id="4w6UgEud72L" role="3XIRFX">
-          <node concept="2BFjQ_" id="4w6UgEud73i" role="3XIRFZ">
-            <node concept="3TlMh9" id="4w6UgEud73q" role="2BFjQA">
-              <property role="2hmy$m" value="0" />
-            </node>
-=======
-        <node concept="19RgSI" id="29I8DMSfSGb" role="1UOdpc">
-          <property role="TrG5h" value="value" />
-          <node concept="26Vqph" id="29I8DMSfSGa" role="2C2TGm">
-            <property role="2caQfQ" value="false" />
-            <property role="2c7vTL" value="false" />
->>>>>>> b124467075... Redo extension tests
-          </node>
-        </node>
-<<<<<<< HEAD
-        <node concept="3XIRFW" id="29I8DMSfSGB" role="3XIRFX">
-          <node concept="1_a8vi" id="29I8DMSfSGS" role="3XIRFZ">
-            <node concept="3XIRFW" id="29I8DMSfSGT" role="1_amYn">
-              <node concept="1_9egQ" id="29I8DMSfT1w" role="3XIRFZ">
-                <node concept="3pqW6w" id="29I8DMSfT3u" role="1_9egR">
-                  <node concept="3ZUYvv" id="29I8DMSfT1u" role="3TlMhI">
-                    <ref role="3ZUYvu" node="29I8DMSfSGb" resolve="value" />
-                  </node>
-                  <node concept="3uHhno" id="29I8DMSfT2_" role="3TlMhJ">
-                    <ref role="3uHhlH" node="6oRbCP68kRM" resolve="increment" />
-                    <node concept="3ZUYvv" id="29I8DMSfT4q" role="3O_q_j">
-                      <ref role="3ZUYvu" node="29I8DMSfSGb" resolve="value" />
-=======
         <node concept="3XIRFW" id="1Yr26iuhg$c" role="3XIRFX">
           <node concept="1_a8vi" id="1Yr26iuhgQa" role="3XIRFZ">
             <node concept="3XIRFW" id="1Yr26iuhgQb" role="1_amYn">
@@ -1597,7 +803,6 @@
                     <ref role="3uHhlH" node="1Yr26iuhgnr" resolve="increment" />
                     <node concept="3ZUYvv" id="1Yr26iuhhii" role="3O_q_j">
                       <ref role="3ZUYvu" node="1Yr26iuhhgj" resolve="value" />
->>>>>>> a36012117c... Fix testcases
                     </node>
                   </node>
                   <node concept="3ZUYvv" id="1Yr26iuhhgO" role="3TlMhI">
@@ -1615,22 +820,6 @@
               <node concept="3TlMh9" id="1Yr26iuhgRP" role="3XIe9u">
                 <property role="2hmy$m" value="0" />
               </node>
-=======
-      </node>
-      <node concept="3u$6M4" id="45rBLTDuPmd" role="3mBdys" />
-      <node concept="3mB1cK" id="4K6s$_rq$4L" role="3mBdys">
-        <property role="1wg9_F" value="public" />
-        <property role="TrG5h" value="getInt8" />
-        <node concept="3XIRFW" id="4K6s$_rq$4N" role="3XIRFX">
-          <node concept="1_9egQ" id="6oRbCP69XAN" role="3XIRFZ">
-            <node concept="3uHhno" id="6oRbCP69XAL" role="1_9egR">
-              <ref role="3uHhlH" node="4w6UgEud6RY" resolve="publicMethod" />
-            </node>
-          </node>
-          <node concept="1_9egQ" id="4w6UgEud7tG" role="3XIRFZ">
-            <node concept="3uHhno" id="4w6UgEud7tE" role="1_9egR">
-              <ref role="3uHhlH" node="4w6UgEud6vv" resolve="protectedMethod" />
->>>>>>> ce47921082... Fixed auto declaration type errors.
             </node>
             <node concept="3Tl9Jn" id="1Yr26iuhgSG" role="1_amZB">
               <node concept="3TlMh9" id="1Yr26iuhgTa" role="3TlMhJ">
@@ -1700,8 +889,6 @@
           </node>
         </node>
       </node>
-<<<<<<< HEAD
-=======
       <node concept="FysoC" id="nbE_$_7W1B" role="Fysvh">
         <property role="FysoG" value="2Ai0Gt9ODIs/public" />
         <ref role="FysoF" node="nbE_$_7VLV" resolve="Adder" />
@@ -1709,7 +896,6 @@
       <node concept="FysoC" id="45rBLTDZ8rI" role="Fysvh">
         <ref role="FysoF" node="45rBLTDXFnO" resolve="Subtractor" />
       </node>
->>>>>>> cc021cd381... migrated to 2019.2
     </node>
     <node concept="2NXPZ9" id="5uvgyTkmfwB" role="N3F5h">
       <property role="TrG5h" value="empty_1528116575061_1" />
@@ -1829,9 +1015,6 @@
             </node>
           </node>
         </node>
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
         <node concept="1QiMYF" id="5uvgyTlhj6D" role="3XIRFZ">
           <node concept="OjmMv" id="5uvgyTlhj6F" role="3SJzmv">
             <node concept="19SGf9" id="5uvgyTlhj6G" role="OjmMu">
@@ -1884,7 +1067,6 @@
           </node>
         </node>
         <node concept="3XISUE" id="5uvgyTlnywn" role="3XIRFZ" />
->>>>>>> d576ff39d1... Several scoping fixes
         <node concept="2N2KuS" id="29I8DMSfTRw" role="3XIRFZ">
           <node concept="3TlMh9" id="29I8DMSfTSi" role="2N2GHh">
             <property role="2hmy$m" value="1" />
@@ -1896,41 +1078,13 @@
         <node concept="1_9egQ" id="29I8DMSfUeF" role="3XIRFZ">
           <node concept="2qmXGp" id="29I8DMSfUfg" role="1_9egR">
             <node concept="3mBbHP" id="29I8DMSfUud" role="1ESnxz">
-<<<<<<< HEAD
-              <ref role="3mBbHN" node="6oRbCP68kRM" resolve="increment" />
-=======
               <ref role="3mBbHN" node="1Yr26iuhgzj" resolve="increment20" />
-<<<<<<< HEAD
->>>>>>> a36012117c... Fix testcases
-              <node concept="3ZVu4v" id="29I8DMSfUAc" role="3mBtou">
-                <ref role="3ZVs_2" node="29I8DMSfTOU" resolve="someInt" />
-=======
               <node concept="3TlMh9" id="5uvgyTlnHIh" role="3mBtou">
                 <property role="2hmy$m" value="24" />
->>>>>>> d576ff39d1... Several scoping fixes
               </node>
             </node>
             <node concept="3ZVu4v" id="29I8DMSfUeD" role="1_9fRO">
               <ref role="3ZVs_2" node="29I8DMSfTNi" resolve="calculator" />
-=======
-        <node concept="1_9egQ" id="4w6UgEud7x7" role="3XIRFZ">
-          <node concept="2qmXGp" id="4w6UgEud7y0" role="1_9egR">
-            <node concept="3mBbHP" id="4w6UgEud7yp" role="1ESnxz">
-              <ref role="3mBbHN" node="4w6UgEud6RY" resolve="publicMethod" />
-            </node>
-            <node concept="3ZVu4v" id="4w6UgEud7x5" role="1_9fRO">
-              <ref role="3ZVs_2" node="nbE_$_7WbC" resolve="child" />
-            </node>
-          </node>
-        </node>
-        <node concept="1_9egQ" id="4w6UgEud7It" role="3XIRFZ">
-          <node concept="2qmXGp" id="4w6UgEud7Jm" role="1_9egR">
-            <node concept="3mBbHP" id="4w6UgEud7Lk" role="1ESnxz">
-              <ref role="3mBbHN" node="4w6UgEud71_" resolve="staticMethod" />
-            </node>
-            <node concept="3ZVu4v" id="4w6UgEud7Ir" role="1_9fRO">
-              <ref role="3ZVs_2" node="nbE_$_7WbC" resolve="child" />
->>>>>>> ce47921082... Fixed auto declaration type errors.
             </node>
           </node>
         </node>
@@ -1957,45 +1111,9 @@
   <node concept="1whW_1" id="45rBLTDXEQn">
     <property role="3GE5qa" value="" />
     <property role="TrG5h" value="ImportedModule" />
-<<<<<<< HEAD
-    <node concept="3mBW2U" id="45rBLTDXFrE" role="N3F5h">
-      <property role="2OOxQR" value="false" />
-      <property role="TrG5h" value="SomeClass" />
-      <node concept="3mBbG7" id="45rBLTDXFsE" role="3mBdys">
-        <property role="1wg9_F" value="public" />
-        <property role="TrG5h" value="publicInt" />
-        <node concept="26Vqph" id="45rBLTDXFsU" role="2C2TGm">
-          <property role="2caQfQ" value="false" />
-          <property role="2c7vTL" value="false" />
-        </node>
-        <node concept="3TlMh9" id="45rBLTDXFtA" role="3XIe9v">
-          <property role="2hmy$m" value="0" />
-        </node>
-      </node>
-    </node>
-    <node concept="2NXPZ9" id="45rBLTDXFq8" role="N3F5h">
-      <property role="TrG5h" value="empty_1526547546577_10" />
-    </node>
-=======
->>>>>>> b124467075... Redo extension tests
     <node concept="3mBW2U" id="45rBLTDXFnO" role="N3F5h">
       <property role="2OOxQR" value="true" />
       <property role="TrG5h" value="Subtractor" />
-<<<<<<< HEAD
-      <node concept="3mB1cK" id="29I8DMSfS4T" role="3mBdys">
-        <property role="gNYVZ" value="false" />
-        <property role="TrG5h" value="decrement" />
-        <property role="1wg9_F" value="public" />
-        <node concept="26Vqph" id="29I8DMSfS56" role="2C2TGm">
-          <property role="2caQfQ" value="false" />
-          <property role="2c7vTL" value="false" />
-        </node>
-<<<<<<< HEAD
-        <node concept="3TlMh9" id="45rBLTDXFpj" role="3XIe9v">
-          <property role="2hmy$m" value="0" />
-=======
-        <node concept="19RgSI" id="29I8DMSfS5v" role="1UOdpc">
-=======
       <node concept="3mB1cK" id="1Yr26iugZ3B" role="3mBdys">
         <property role="TrG5h" value="decrement" />
         <property role="226Go$" value="false" />
@@ -2015,615 +1133,15 @@
           </node>
         </node>
         <node concept="19RgSI" id="1Yr26iugZ7w" role="1UOdpc">
->>>>>>> a36012117c... Fix testcases
           <property role="TrG5h" value="value" />
           <node concept="26Vqph" id="1Yr26iugZ7v" role="2C2TGm">
             <property role="2caQfQ" value="false" />
             <property role="2c7vTL" value="false" />
           </node>
         </node>
-<<<<<<< HEAD
-        <node concept="3XIRFW" id="29I8DMSfS5Q" role="3XIRFX">
-          <node concept="2BFjQ_" id="29I8DMSfSgk" role="3XIRFZ">
-            <node concept="1FldXs" id="29I8DMSfSrr" role="2BFjQA">
-              <node concept="3ZUYvv" id="29I8DMSfSgD" role="1_9fRO">
-                <ref role="3ZUYvu" node="29I8DMSfS5v" resolve="value" />
-              </node>
-            </node>
-          </node>
->>>>>>> b124467075... Redo extension tests
-        </node>
-=======
->>>>>>> a36012117c... Fix testcases
       </node>
     </node>
   </node>
-<<<<<<< HEAD
-  <node concept="1whW_1" id="6KmaLbDZjG7">
-    <property role="TrG5h" value="Constructor" />
-    <node concept="3mBW2U" id="6KmaLbDZm15" role="N3F5h">
-      <property role="2OOxQR" value="true" />
-      <property role="TrG5h" value="ParentClass" />
-      <node concept="2gom5y" id="7wcjSRttVKs" role="3mBdys">
-        <property role="3BMcJd" value="false" />
-        <property role="TrG5h" value="ParentClass" />
-        <property role="1wg9_F" value="public" />
-        <ref role="2gom41" node="6KmaLbDZm15" resolve="ParentClass" />
-        <node concept="3XIRFW" id="7wcjSRttVKt" role="1IVm9U" />
-        <node concept="2dFNQU" id="7wcjSRttVKu" role="2C2TGm">
-          <property role="2caQfQ" value="false" />
-          <property role="2c7vTL" value="false" />
-        </node>
-      </node>
-      <node concept="3mBbG7" id="7wcjSRttVKQ" role="3mBdys">
-        <property role="TrG5h" value="parentY" />
-        <property role="1wg9_F" value="protected" />
-        <node concept="26Vqph" id="7wcjSRttVL9" role="2C2TGm">
-          <property role="2caQfQ" value="false" />
-          <property role="2c7vTL" value="false" />
-        </node>
-        <node concept="3TlMh9" id="7wcjSRttVLK" role="3XIe9v">
-          <property role="2hmy$m" value="0" />
-        </node>
-      </node>
-    </node>
-    <node concept="2NXPZ9" id="7wcjSRttVM9" role="N3F5h">
-      <property role="TrG5h" value="empty_1527147506030_1" />
-    </node>
-    <node concept="3mBW2U" id="7wcjSRttVMY" role="N3F5h">
-      <property role="2OOxQR" value="true" />
-      <property role="TrG5h" value="ClassName" />
-      <node concept="FysoC" id="7wcjSRttVN$" role="Fysvh">
-        <ref role="FysoF" node="6KmaLbDZm15" resolve="ParentClass" />
-      </node>
-      <node concept="3mBbG7" id="29cSqvdU9AJ" role="3mBdys">
-        <property role="TrG5h" value="x" />
-        <property role="1wg9_F" value="public" />
-        <node concept="26Vqph" id="29cSqvdU9DR" role="2C2TGm">
-          <property role="2caQfQ" value="false" />
-          <property role="2c7vTL" value="false" />
-        </node>
-        <node concept="3TlMh9" id="29cSqvdU9Ei" role="3XIe9v">
-          <property role="2hmy$m" value="0" />
-        </node>
-      </node>
-<<<<<<< HEAD
-      <node concept="2gom5y" id="7wcjSRttVOM" role="3mBdys">
-        <property role="3BMcJd" value="false" />
-        <property role="TrG5h" value="ClassName" />
-        <property role="1wg9_F" value="public" />
-        <ref role="2gom41" node="7wcjSRttVMY" resolve="ClassName" />
-        <node concept="3XIRFW" id="7wcjSRttVON" role="1IVm9U" />
-        <node concept="2dFNQU" id="7wcjSRttVOO" role="2C2TGm">
-          <property role="2caQfQ" value="false" />
-          <property role="2c7vTL" value="false" />
-        </node>
-=======
-      <node concept="FysoC" id="7wcjSRttVN$" role="Fysvh">
-        <ref role="FysoF" node="6KmaLbDZm15" resolve="ParentClass" />
->>>>>>> e6791fc3a8... Cleaned up the executable tests and made sure there weren't snytax errors. Many still have build problems due to UnitTestHelper.h
-      </node>
-      <node concept="2gom5y" id="7wcjSRttVPm" role="3mBdys">
-        <property role="3BMcJd" value="false" />
-        <property role="TrG5h" value="ClassName" />
-        <property role="1wg9_F" value="public" />
-        <ref role="2gom41" node="7wcjSRttVMY" resolve="ClassName" />
-        <node concept="3XIRFW" id="7wcjSRttVPn" role="1IVm9U" />
-        <node concept="2dFNQU" id="7wcjSRttVPo" role="2C2TGm">
-          <property role="2caQfQ" value="false" />
-          <property role="2c7vTL" value="false" />
-        </node>
-        <node concept="19RgSI" id="7wcjSRttVPM" role="1UOdpc">
-          <property role="TrG5h" value="inputX" />
-          <node concept="26Vqph" id="7wcjSRttVPL" role="2C2TGm">
-            <property role="2caQfQ" value="false" />
-            <property role="2c7vTL" value="false" />
-          </node>
-        </node>
-        <node concept="19RgSI" id="1D2kn9asFRI" role="1UOdpc">
-          <property role="TrG5h" value="inputY" />
-          <node concept="26Vqph" id="1D2kn9asFRG" role="2C2TGm">
-            <property role="2caQfQ" value="false" />
-            <property role="2c7vTL" value="false" />
-          </node>
-        </node>
-        <node concept="z11KY" id="7wcjSRttVQk" role="1YC0t0">
-          <ref role="yVOcQ" node="29cSqvdU9AJ" resolve="x" />
-          <node concept="3ZUYvv" id="7wcjSRttVRj" role="yU53$">
-            <ref role="3ZUYvu" node="7wcjSRttVPM" resolve="inputX" />
-          </node>
-        </node>
-        <node concept="z11KY" id="7wcjSRttVRQ" role="1YC0t0">
-          <ref role="yVOcQ" node="7wcjSRttVKQ" resolve="parentY" />
-          <node concept="3TlMh9" id="7wcjSRttVSd" role="yU53$">
-            <property role="2hmy$m" value="3" />
-          </node>
-        </node>
-<<<<<<< HEAD
-        <node concept="yZclw" id="3LE5RBQaMTk" role="1YC0t0">
-          <ref role="yKYgm" node="7wcjSRttVKs" resolve="ParentClass" />
-        </node>
-=======
->>>>>>> 4ee4a88205... Remove a ParentClass invocation from test case
-      </node>
-      <node concept="2gom5y" id="7wcjSRtzLBl" role="3mBdys">
-        <property role="3BMcJd" value="false" />
-        <property role="TrG5h" value="ClassName" />
-        <property role="1wg9_F" value="public" />
-        <property role="hL25V" value="false" />
-        <property role="OtGCv" value="false" />
-        <ref role="2gom41" node="7wcjSRttVMY" resolve="ClassName" />
-        <node concept="3XIRFW" id="7wcjSRtzLBm" role="1IVm9U">
-          <node concept="1_9egQ" id="6Rfiwa9IGXi" role="3XIRFZ">
-            <node concept="3pqW6w" id="6Rfiwa9IGXC" role="1_9egR">
-              <node concept="3TlMh9" id="6Rfiwa9IGY4" role="3TlMhJ">
-                <property role="2hmy$m" value="235" />
-              </node>
-              <node concept="3uHcMF" id="6Rfiwa9IGXg" role="3TlMhI">
-                <ref role="3uHcMG" node="29cSqvdU9AJ" resolve="x" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="2dFNQU" id="7wcjSRtzLBn" role="2C2TGm">
-          <property role="2caQfQ" value="false" />
-          <property role="2c7vTL" value="false" />
-        </node>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-        <node concept="yZclw" id="3LE5RBQaMRJ" role="1YC0t0">
-=======
-        <node concept="yZclw" id="6FnHX$H9n$K" role="1YC0t0">
->>>>>>> 858f7e856f... Fix tests
-          <ref role="yKYgm" node="7wcjSRttVKs" resolve="ParentClass" />
-=======
-        <node concept="yZclw" id="T6qFshzTGJ" role="1YC0t0">
-          <property role="TrG5h" value="ClassName" />
-          <ref role="yKYgm" node="T6qFshze8D" resolve="ParentClass" />
-          <node concept="3TlMh9" id="T6qFshzTHd" role="yKYi2">
-            <property role="2hmy$m" value="23" />
-          </node>
->>>>>>> fafdce9933... Fix textgen not working on constructor initializers
-=======
-        <node concept="yZclw" id="6FnHX$H9n$K" role="1YC0t0">
-=======
-        <node concept="yZclw" id="phuaKKqwUj" role="1YC0t0">
->>>>>>> 6cc9eb2d0e... Fix link not changing name of constructor when class name was changed
-=======
-        <node concept="yZclw" id="1rV7RaUSl2v" role="1YC0t0">
-          <property role="2IddBx" value="ParentClass" />
->>>>>>> 938ad72d9c... Fix textgen for class constructors.
-          <ref role="yKYgm" node="7wcjSRttVKs" resolve="ParentClass" />
->>>>>>> 25b03c4dda... Revert "Fix textgen not working on constructor initializers", it was
-        </node>
-      </node>
-      <node concept="2gom5y" id="7wcjSRtzLD7" role="3mBdys">
-        <property role="3BMcJd" value="true" />
-        <property role="TrG5h" value="ClassName" />
-        <property role="1wg9_F" value="public" />
-        <property role="hL25V" value="false" />
-        <property role="hTfT4" value="false" />
-        <property role="OtGCv" value="false" />
-        <ref role="2gom41" node="7wcjSRttVMY" resolve="ClassName" />
-        <node concept="3XIRFW" id="7wcjSRtzLD8" role="1IVm9U" />
-        <node concept="2dFNQU" id="7wcjSRtzLD9" role="2C2TGm">
-          <property role="2caQfQ" value="false" />
-          <property role="2c7vTL" value="false" />
-        </node>
-      </node>
-    </node>
-<<<<<<< HEAD
-    <node concept="2NXPZ9" id="29cSqvdKMzS" role="N3F5h">
-      <property role="TrG5h" value="empty_1527585668588_10" />
-=======
-    <node concept="2NXPZ9" id="6_kdBKMTkBX" role="N3F5h">
-      <property role="TrG5h" value="empty_1527673083315_1" />
-    </node>
-    <node concept="c0Qz5" id="72UYQRWMsqO" role="N3F5h">
-      <property role="2OOxQR" value="true" />
-      <property role="TrG5h" value="constructorTC1" />
-      <node concept="19Rifw" id="72UYQRWMsqP" role="2C2TGm">
-        <property role="2caQfQ" value="false" />
-        <property role="2c7vTL" value="false" />
-      </node>
-      <node concept="3XIRFW" id="72UYQRWMsqR" role="c0Qz3">
-        <node concept="2dywKE" id="72UYQRWMsun" role="3XIRFZ">
-          <property role="TrG5h" value="twoIntsConstructor" />
-          <ref role="2esx9c" node="7wcjSRttVPm" resolve="ClassName" />
-          <node concept="3mBfEi" id="72UYQRWMsum" role="2C2TGm">
-            <property role="2caQfQ" value="false" />
-            <property role="2c7vTL" value="false" />
-            <ref role="3mBfEM" node="7wcjSRttVMY" resolve="ClassName" />
-          </node>
-          <node concept="3TlMh9" id="72UYQRWMsv5" role="2enIz8">
-            <property role="2hmy$m" value="50" />
-          </node>
-          <node concept="3TlMh9" id="72UYQRWMsx0" role="2enIz8">
-            <property role="2hmy$m" value="100" />
-          </node>
-        </node>
-        <node concept="2dywKE" id="6Rfiwa9IGF5" role="3XIRFZ">
-          <property role="TrG5h" value="noArgsConstructor" />
-          <node concept="3mBfEi" id="6Rfiwa9IGF3" role="2C2TGm">
-            <property role="2caQfQ" value="false" />
-            <property role="2c7vTL" value="false" />
-            <ref role="3mBfEM" node="7wcjSRttVMY" resolve="ClassName" />
-          </node>
-        </node>
-        <node concept="3XISUE" id="6Rfiwa9IGJe" role="3XIRFZ" />
-        <node concept="2N2KuS" id="6Rfiwa9IGJW" role="3XIRFZ">
-          <node concept="3TlMh9" id="6Rfiwa9IGOq" role="2N2GHh">
-            <property role="2hmy$m" value="50" />
-          </node>
-          <node concept="2qmXGp" id="6Rfiwa9IGL7" role="2N2GHg">
-            <node concept="3mBk1D" id="6Rfiwa9IGOc" role="1ESnxz">
-              <ref role="3mBk1B" node="29cSqvdU9AJ" resolve="x" />
-            </node>
-            <node concept="3ZVu4v" id="6Rfiwa9IGKY" role="1_9fRO">
-              <ref role="3ZVs_2" node="72UYQRWMsun" resolve="twoIntsConstructor" />
-            </node>
-          </node>
-        </node>
-        <node concept="2N2KuS" id="6Rfiwa9IGW$" role="3XIRFZ">
-          <node concept="3TlMh9" id="6Rfiwa9IGZS" role="2N2GHh">
-            <property role="2hmy$m" value="235" />
-          </node>
-          <node concept="2qmXGp" id="6Rfiwa9IGZg" role="2N2GHg">
-            <node concept="3mBk1D" id="6Rfiwa9IGZE" role="1ESnxz">
-              <ref role="3mBk1B" node="29cSqvdU9AJ" resolve="x" />
-            </node>
-            <node concept="3ZVu4v" id="6Rfiwa9IGZ7" role="1_9fRO">
-              <ref role="3ZVs_2" node="6Rfiwa9IGF5" resolve="noArgsConstructor" />
-            </node>
-          </node>
-        </node>
-      </node>
->>>>>>> 25f98cbbb7... Fix class constructors
-    </node>
-    <node concept="3GEVxB" id="72UYQRXdZyt" role="2OODSX">
-      <ref role="3GEb4d" node="45rBLTDXEQn" resolve="ImportedModule" />
-    </node>
-  </node>
-<<<<<<< HEAD
-  <node concept="1whW_1" id="2yiFVcKEIWv">
-    <property role="TrG5h" value="This" />
-    <node concept="3mBW2U" id="2yiFVcKEJMS" role="N3F5h">
-      <property role="2OOxQR" value="true" />
-      <property role="TrG5h" value="Person" />
-      <node concept="3mBbG7" id="2yiFVcKEJYJ" role="3mBdys">
-        <property role="TrG5h" value="age" />
-        <node concept="26Vqph" id="2yiFVcKEJZx" role="2C2TGm">
-          <property role="2caQfQ" value="false" />
-          <property role="2c7vTL" value="false" />
-        </node>
-      </node>
-      <node concept="3u$6M4" id="4smL_2CS9G2" role="3mBdys" />
-      <node concept="2gom5y" id="2yiFVcKEJZJ" role="3mBdys">
-        <property role="3BMcJd" value="false" />
-        <property role="1wg9_F" value="public" />
-        <property role="TrG5h" value="Person" />
-        <ref role="2gom41" node="2yiFVcKEJMS" resolve="Person" />
-        <node concept="3XIRFW" id="2yiFVcKEJZK" role="1IVm9U">
-          <node concept="1_9egQ" id="4smL_2CUr10" role="3XIRFZ">
-            <node concept="3pqW6w" id="4smL_2CVGOo" role="1_9egR">
-              <node concept="3ZUYvv" id="4smL_2CVGRh" role="3TlMhJ">
-                <ref role="3ZUYvu" node="2yiFVcKEK0m" resolve="age" />
-              </node>
-              <node concept="2qmXGp" id="4smL_2CUr1h" role="3TlMhI">
-                <node concept="3mBk1D" id="4smL_2CUr1_" role="1ESnxz">
-                  <ref role="3mBk1B" node="2yiFVcKEJYJ" resolve="age" />
-                </node>
-                <node concept="oe0_q" id="4smL_2CUr0Z" role="1_9fRO" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="2dFNQU" id="2yiFVcKEJZL" role="2C2TGm">
-          <property role="2caQfQ" value="false" />
-          <property role="2c7vTL" value="false" />
-        </node>
-        <node concept="19RgSI" id="2yiFVcKEK0m" role="1UOdpc">
-          <property role="TrG5h" value="age" />
-          <node concept="26Vqph" id="2yiFVcKEK0l" role="2C2TGm">
-            <property role="2caQfQ" value="false" />
-            <property role="2c7vTL" value="false" />
-          </node>
-        </node>
-      </node>
-      <node concept="3u$6M4" id="4smL_2CVH0S" role="3mBdys" />
-      <node concept="3mB1cK" id="4smL_2CVH3j" role="3mBdys">
-        <property role="1wg9_F" value="public" />
-        <property role="TrG5h" value="getAge" />
-        <node concept="26Vqph" id="4smL_2CVH5B" role="2C2TGm">
-          <property role="2caQfQ" value="false" />
-          <property role="2c7vTL" value="false" />
-        </node>
-        <node concept="3XIRFW" id="4smL_2CVH5U" role="3XIRFX">
-          <node concept="2BFjQ_" id="4smL_2CVH6b" role="3XIRFZ">
-            <node concept="2qmXGp" id="4smL_2CVH8j" role="2BFjQA">
-              <node concept="3mBk1D" id="4smL_2CVH8G" role="1ESnxz">
-                <ref role="3mBk1B" node="2yiFVcKEJYJ" resolve="age" />
-              </node>
-              <node concept="oe0_q" id="4smL_2CVH6B" role="1_9fRO" />
-            </node>
-          </node>
-          <node concept="2BFjQ_" id="4Mb2ywH7Oxu" role="3XIRFZ">
-            <node concept="3TlMh9" id="4Mb2ywH7OxK" role="2BFjQA">
-              <property role="2hmy$m" value="5" />
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="2NXPZ9" id="1AWeiMKMSMh" role="N3F5h">
-      <property role="TrG5h" value="empty_1528182038102_1" />
-    </node>
-    <node concept="3BZPaE" id="ZKpU3C6h_O" role="N3F5h">
-      <property role="2OOxQR" value="true" />
-      <property role="TrG5h" value="List" />
-      <node concept="3V$TgL" id="ZKpU3C6h_Q" role="3Cz$97">
-        <property role="TrG5h" value="T" />
-      </node>
-      <node concept="3mBbG7" id="ZKpU3C6i7R" role="3mBdys">
-        <property role="TrG5h" value="head" />
-        <property role="1wg9_F" value="public" />
-        <node concept="3XnNuS" id="ZKpU3C6i8c" role="2C2TGm">
-          <property role="2caQfQ" value="false" />
-          <property role="2c7vTL" value="false" />
-          <ref role="3XnNuT" node="ZKpU3C6h_Q" resolve="T" />
-        </node>
-      </node>
-      <node concept="3mBbG7" id="ZKpU3C6i8x" role="3mBdys">
-        <property role="TrG5h" value="tail" />
-        <property role="1wg9_F" value="public" />
-        <node concept="3wxxNl" id="ZKpU3C6i9y" role="2C2TGm">
-          <property role="2caQfQ" value="false" />
-          <property role="2c7vTL" value="false" />
-          <node concept="3BS1T_" id="ZKpU3C6i8R" role="2umbIo">
-            <property role="2caQfQ" value="false" />
-            <property role="2c7vTL" value="false" />
-            <ref role="3mBfEM" node="ZKpU3C6h_O" resolve="List" />
-            <node concept="3C0mPD" id="1iZHTjWMujG" role="3BS1TB">
-              <node concept="3XnNuS" id="1iZHTjWMusc" role="3C0mMl">
-                <property role="2caQfQ" value="false" />
-                <property role="2c7vTL" value="false" />
-                <ref role="3XnNuT" node="ZKpU3C6h_Q" resolve="T" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="3u$6M4" id="6_kdBKMWpD0" role="3mBdys" />
-      <node concept="2gom5y" id="6_kdBKMWpF_" role="3mBdys">
-        <property role="3BMcJd" value="false" />
-        <property role="TrG5h" value="List" />
-        <property role="1wg9_F" value="public" />
-        <ref role="2gom41" node="ZKpU3C6h_O" resolve="List" />
-        <node concept="3XIRFW" id="6_kdBKMWpFA" role="1IVm9U" />
-        <node concept="2dFNQU" id="6_kdBKMWpFB" role="2C2TGm">
-          <property role="2caQfQ" value="false" />
-          <property role="2c7vTL" value="false" />
-        </node>
-        <node concept="19RgSI" id="6_kdBKMWpGF" role="1UOdpc">
-          <property role="TrG5h" value="h" />
-          <node concept="3XnNuS" id="6_kdBKMWpGE" role="2C2TGm">
-            <property role="2caQfQ" value="false" />
-            <property role="2c7vTL" value="false" />
-            <ref role="3XnNuT" node="ZKpU3C6h_Q" resolve="T" />
-          </node>
-        </node>
-        <node concept="19RgSI" id="6_kdBKMWpHf" role="1UOdpc">
-          <property role="TrG5h" value="t" />
-          <node concept="3wxxNl" id="6_kdBKMWpI9" role="2C2TGm">
-            <property role="2caQfQ" value="false" />
-            <property role="2c7vTL" value="false" />
-            <node concept="3BS1T_" id="6_kdBKMWpHc" role="2umbIo">
-              <property role="2caQfQ" value="false" />
-              <property role="2c7vTL" value="false" />
-              <ref role="3mBfEM" node="ZKpU3C6h_O" resolve="List" />
-              <node concept="3C0mPD" id="6_kdBKMWpHe" role="3BS1TB">
-                <node concept="3XnNuS" id="6_kdBKMWpHF" role="3C0mMl">
-                  <property role="2caQfQ" value="false" />
-                  <property role="2c7vTL" value="false" />
-                  <ref role="3XnNuT" node="ZKpU3C6h_Q" resolve="T" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="z11KY" id="6_kdBKMWpNG" role="1YC0t0">
-          <ref role="yVOcQ" node="ZKpU3C6i7R" resolve="head" />
-          <node concept="3ZUYvv" id="6_kdBKMWpTg" role="yU53$">
-            <ref role="3ZUYvu" node="6_kdBKMWpGF" resolve="h" />
-          </node>
-        </node>
-        <node concept="z11KY" id="6_kdBKMWpTB" role="1YC0t0">
-          <ref role="yVOcQ" node="ZKpU3C6i8x" resolve="tail" />
-          <node concept="3ZUYvv" id="6_kdBKMWpTY" role="yU53$">
-            <ref role="3ZUYvu" node="6_kdBKMWpHf" resolve="t" />
-          </node>
-        </node>
-      </node>
-      <node concept="3u$6M4" id="6_kdBKMWpEG" role="3mBdys" />
-      <node concept="3mB1cK" id="ZKpU3Ccmax" role="3mBdys">
-        <property role="TrG5h" value="lastItem" />
-        <property role="1wg9_F" value="public" />
-        <node concept="3XnNuS" id="ZKpU3Ccmbs" role="2C2TGm">
-          <property role="2caQfQ" value="false" />
-          <property role="2c7vTL" value="false" />
-          <ref role="3XnNuT" node="ZKpU3C6h_Q" resolve="T" />
-        </node>
-        <node concept="3XIRFW" id="ZKpU3CcmbM" role="3XIRFX">
-          <node concept="3XIRlf" id="1AWeiMKMTZS" role="3XIRFZ">
-            <property role="TrG5h" value="node" />
-            <node concept="3wxxNl" id="1AWeiMKMU1C" role="2C2TGm">
-              <property role="2caQfQ" value="false" />
-              <property role="2c7vTL" value="false" />
-              <node concept="3BS1T_" id="1AWeiMKMTZP" role="2umbIo">
-                <property role="2caQfQ" value="false" />
-                <property role="2c7vTL" value="false" />
-                <ref role="3mBfEM" node="ZKpU3C6h_O" resolve="List" />
-                <node concept="3C0mPD" id="1AWeiMKMTZR" role="3BS1TB">
-                  <node concept="3XnNuS" id="1AWeiMKMU0C" role="3C0mMl">
-                    <property role="2caQfQ" value="false" />
-                    <property role="2c7vTL" value="false" />
-                    <ref role="3XnNuT" node="ZKpU3C6h_Q" resolve="T" />
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="oe0_q" id="1AWeiMKOjIO" role="3XIe9u" />
-          </node>
-          <node concept="27v$Wf" id="1AWeiMKMUbD" role="3XIRFZ">
-            <node concept="3XIRFW" id="1AWeiMKMUbE" role="27v$W9">
-              <node concept="1_9egQ" id="1AWeiMKMUHV" role="3XIRFZ">
-                <node concept="3pqW6w" id="1AWeiMKMUIA" role="1_9egR">
-                  <node concept="2qmXGp" id="1AWeiMKMUU9" role="3TlMhJ">
-                    <node concept="3mBk1D" id="1AWeiMKMUZJ" role="1ESnxz">
-                      <ref role="3mBk1B" node="ZKpU3C6i8x" resolve="tail" />
-                    </node>
-                    <node concept="3ZVu4v" id="1AWeiMKMUOa" role="1_9fRO">
-                      <ref role="3ZVs_2" node="1AWeiMKMTZS" resolve="node" />
-                    </node>
-                  </node>
-                  <node concept="3ZVu4v" id="1AWeiMKMUHU" role="3TlMhI">
-                    <ref role="3ZVs_2" node="1AWeiMKMTZS" resolve="node" />
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="25Bbzn" id="1AWeiMKMU_7" role="27v$We">
-              <node concept="Ea8Gl" id="1AWeiMKMUDs" role="3TlMhJ" />
-              <node concept="2qmXGp" id="1AWeiMKMUpq" role="3TlMhI">
-                <node concept="3mBk1D" id="1AWeiMKMUs$" role="1ESnxz">
-                  <ref role="3mBk1B" node="ZKpU3C6i8x" resolve="tail" />
-                </node>
-                <node concept="3ZVu4v" id="1AWeiMKMUmV" role="1_9fRO">
-                  <ref role="3ZVs_2" node="1AWeiMKMTZS" resolve="node" />
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="2BFjQ_" id="1AWeiMKMVe3" role="3XIRFZ">
-            <node concept="2qmXGp" id="1AWeiMKMVoq" role="2BFjQA">
-              <node concept="3mBk1D" id="1AWeiMKMVvG" role="1ESnxz">
-                <ref role="3mBk1B" node="ZKpU3C6i7R" resolve="head" />
-              </node>
-              <node concept="3ZVu4v" id="1AWeiMKMVlD" role="1_9fRO">
-                <ref role="3ZVs_2" node="1AWeiMKMTZS" resolve="node" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="2NXPZ9" id="1AWeiMKOjPt" role="N3F5h">
-      <property role="TrG5h" value="empty_1528182660363_1" />
-    </node>
-    <node concept="c0Qz5" id="2yiFVcKEJzr" role="N3F5h">
-      <property role="2OOxQR" value="true" />
-      <property role="TrG5h" value="thisTC1" />
-      <node concept="19Rifw" id="2yiFVcKEJzs" role="2C2TGm">
-        <property role="2caQfQ" value="false" />
-        <property role="2c7vTL" value="false" />
-      </node>
-      <node concept="3XIRFW" id="2yiFVcKEJzt" role="c0Qz3">
-        <node concept="2dywKE" id="4smL_2CVGNt" role="3XIRFZ">
-          <property role="TrG5h" value="henk" />
-          <ref role="2esx9c" node="2yiFVcKEJZJ" resolve="Person" />
-          <node concept="3TlMh9" id="4smL_2CVGPn" role="2enIz8">
-            <property role="2hmy$m" value="20" />
-          </node>
-          <node concept="3mBfEi" id="4smL_2CVGNr" role="2C2TGm">
-            <property role="2caQfQ" value="false" />
-            <property role="2c7vTL" value="false" />
-            <ref role="3mBfEM" node="2yiFVcKEJMS" resolve="Person" />
-          </node>
-        </node>
-        <node concept="2N2KuS" id="4smL_2CVGLP" role="3XIRFZ">
-          <node concept="2qmXGp" id="4smL_2CVGZk" role="2N2GHh">
-            <node concept="3mBbHP" id="4smL_2CVH9h" role="1ESnxz">
-              <ref role="3mBbHN" node="4smL_2CVH3j" resolve="getAge" />
-            </node>
-            <node concept="3ZVu4v" id="4smL_2CVGRI" role="1_9fRO">
-              <ref role="3ZVs_2" node="4smL_2CVGNt" resolve="henk" />
-            </node>
-          </node>
-          <node concept="3TlMh9" id="4smL_2CVGM4" role="2N2GHg">
-            <property role="2hmy$m" value="20" />
-          </node>
-        </node>
-        <node concept="3XISUE" id="1AWeiMKOk4$" role="3XIRFZ" />
-        <node concept="3XIRlf" id="1AWeiMKOk6F" role="3XIRFZ">
-          <property role="TrG5h" value="ages" />
-          <node concept="3BS1T_" id="1AWeiMKOk6C" role="2C2TGm">
-            <property role="2caQfQ" value="false" />
-            <property role="2c7vTL" value="false" />
-            <ref role="3mBfEM" node="ZKpU3C6h_O" resolve="List" />
-            <node concept="3C0mPD" id="1AWeiMKOk6E" role="3BS1TB">
-              <node concept="26Vqph" id="1AWeiMKOk7k" role="3C0mMl">
-                <property role="2caQfQ" value="false" />
-                <property role="2c7vTL" value="false" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1X3_iC" id="4Mb2ywH8Cvt" role="lGtFl">
-          <property role="3V$3am" value="statements" />
-          <property role="3V$3ak" value="a9d69647-0840-491e-bf39-2eb0805d2011/4185783222026475861/4185783222026475862" />
-          <node concept="1_9egQ" id="1AWeiMKOkaj" role="8Wnug">
-            <node concept="3pqW6w" id="1AWeiMKOkhj" role="1_9egR">
-              <node concept="2qmXGp" id="1AWeiMKOkkh" role="3TlMhJ">
-                <node concept="3mBbHP" id="1AWeiMKOkmI" role="1ESnxz">
-                  <ref role="3mBbHN" node="4smL_2CVH3j" resolve="getAge" />
-                </node>
-                <node concept="3ZVu4v" id="1AWeiMKOkiZ" role="1_9fRO">
-                  <ref role="3ZVs_2" node="4smL_2CVGNt" resolve="henk" />
-                </node>
-              </node>
-              <node concept="2qmXGp" id="1AWeiMKOkb8" role="3TlMhI">
-                <node concept="3mBk1D" id="1AWeiMKOkc3" role="1ESnxz">
-                  <ref role="3mBk1B" node="ZKpU3C6i7R" resolve="head" />
-                </node>
-                <node concept="3ZVu4v" id="1AWeiMKOkah" role="1_9fRO">
-                  <ref role="3ZVs_2" node="1AWeiMKOk6F" resolve="ages" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="2N2KuS" id="1AWeiMKOkAM" role="3XIRFZ">
-          <node concept="3TlMh9" id="1AWeiMKOkBS" role="2N2GHg">
-            <property role="2hmy$m" value="20" />
-          </node>
-          <node concept="2qmXGp" id="1AWeiMKOlpa" role="2N2GHh">
-            <node concept="3mBbHP" id="1AWeiMKOlsb" role="1ESnxz">
-              <ref role="3mBbHN" node="ZKpU3Ccmax" resolve="lastItem" />
-            </node>
-            <node concept="3ZVu4v" id="1AWeiMKOldW" role="1_9fRO">
-              <ref role="3ZVs_2" node="1AWeiMKOk6F" resolve="ages" />
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="2NXPZ9" id="2yiFVcKEJzO" role="N3F5h">
-      <property role="TrG5h" value="empty_1526980563585_97" />
-    </node>
-    <node concept="3GEVxB" id="4smL_2D2PAC" role="2OODSX">
-      <ref role="3GEb4d" node="45rBLTDXEQn" resolve="ImportedModule" />
-    </node>
-  </node>
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> d16f2d8d2e... Put thisPointer executable test outside classes
-=======
->>>>>>> 39a1d09c6b... Migrate constructor executable test cases outside classes model
   <node concept="1whW_1" id="1yn8PkybQJK">
     <property role="TrG5h" value="Nesting" />
     <node concept="3mBW2U" id="1yn8Pkyc1xp" role="N3F5h">
@@ -2645,7 +1163,6 @@
             <property role="2hmy$m" value="1" />
           </node>
         </node>
-<<<<<<< HEAD
       </node>
       <node concept="3u$6M4" id="3M9Tj7Yz5Dj" role="3mBdys" />
       <node concept="321v0r" id="3M9Tj7Yz5EY" role="3mBdys">
@@ -2663,70 +1180,10 @@
           <property role="2caQfQ" value="false" />
           <property role="2c7vTL" value="false" />
           <ref role="3mBfEM" node="2j_NnBniVCX" resolve="Inner" />
-=======
-        <node concept="2gom5y" id="6Rfiwa9IH$n" role="3mBdys">
-          <property role="3BMcJd" value="false" />
-          <property role="1wg9_F" value="public" />
-          <property role="TrG5h" value="B" />
-          <ref role="2gom41" node="1yn8Pkyc1Au" resolve="B" />
-          <node concept="19RgSI" id="6Rfiwa9IH_a" role="1UOdpc">
-            <property role="TrG5h" value="someArgument" />
-            <node concept="26Vqph" id="6Rfiwa9IH_u" role="2C2TGm">
-              <property role="2caQfQ" value="false" />
-              <property role="2c7vTL" value="false" />
-            </node>
-          </node>
-          <node concept="3XIRFW" id="6Rfiwa9IH$o" role="1IVm9U">
-            <node concept="1_9egQ" id="6Rfiwa9IH_Q" role="3XIRFZ">
-              <node concept="3pqW6w" id="6Rfiwa9IHBk" role="1_9egR">
-                <node concept="2qmXGp" id="6Rfiwa9IHA9" role="3TlMhI">
-                  <node concept="3mBk1D" id="6Rfiwa9IHAx" role="1ESnxz">
-                    <ref role="3mBk1B" node="1yn8Pkyc1DB" resolve="bValue" />
-                  </node>
-                  <node concept="oe0_q" id="6Rfiwa9IH_P" role="1_9fRO" />
-                </node>
-                <node concept="3ZUYvv" id="6Rfiwa9IHKM" role="3TlMhJ">
-                  <ref role="3ZUYvu" node="6Rfiwa9IH_a" resolve="someArgument" />
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="2dFNQU" id="6Rfiwa9IH$p" role="2C2TGm">
-            <property role="2caQfQ" value="false" />
-            <property role="2c7vTL" value="false" />
-          </node>
-        </node>
-        <node concept="3u$6M4" id="6Rfiwa9IHIS" role="3mBdys" />
-        <node concept="3mBW2U" id="1yn8Pkyc1AB" role="3mBdys">
-          <property role="2OOxQR" value="true" />
-          <property role="TrG5h" value="C" />
-          <property role="1wg9_F" value="public" />
-          <node concept="3mBW2U" id="1yn8Pkyc1AK" role="3mBdys">
-            <property role="2OOxQR" value="true" />
-            <property role="TrG5h" value="D" />
-            <property role="1wg9_F" value="public" />
-            <node concept="3mBbG7" id="1yn8Pkyc1BO" role="3mBdys">
-              <property role="TrG5h" value="dValue" />
-              <property role="1wg9_F" value="public" />
-              <node concept="26Vqph" id="1yn8Pkyc1C1" role="2C2TGm">
-                <property role="2caQfQ" value="false" />
-                <property role="2c7vTL" value="false" />
-              </node>
-              <node concept="3TlMh9" id="1yn8Pkyc1CP" role="3XIe9v">
-                <property role="2hmy$m" value="0" />
-              </node>
-            </node>
-          </node>
->>>>>>> e6791fc3a8... Cleaned up the executable tests and made sure there weren't snytax errors. Many still have build problems due to UnitTestHelper.h
         </node>
       </node>
       <node concept="3mB1cK" id="2j_NnBnwWFo" role="3mBdys">
-<<<<<<< HEAD
-        <property role="1wg9_F" value="public" />
-<<<<<<< HEAD
-=======
         <property role="1wg9_F" value="2Ai0Gt9ODIs/public" />
->>>>>>> cc021cd381... migrated to 2019.2
         <property role="TrG5h" value="getInnerValue" />
         <node concept="3TlMh2" id="3M9Tj7Yz5QB" role="2C2TGm">
           <property role="2caQfQ" value="false" />
@@ -2737,53 +1194,6 @@
             <node concept="2qmXGp" id="2j_NnBnwWHY" role="2BFjQA">
               <node concept="3mBk1D" id="2j_NnBnwWIm" role="1ESnxz">
                 <ref role="3mBk1B" node="2j_NnBniVD0" resolve="iVal" />
-=======
-        <node concept="3mBW2U" id="1yn8Pkyc1BA" role="3mBdys">
-          <property role="2OOxQR" value="true" />
-          <property role="TrG5h" value="S" />
-          <property role="1wg9_F" value="public" />
-          <node concept="3BZPaE" id="1yn8PkzRpUf" role="3mBdys">
-            <property role="2OOxQR" value="true" />
-            <property role="1wg9_F" value="public" />
-            <property role="TrG5h" value="templateClass" />
-            <node concept="3V$TgL" id="1yn8PkzRpUM" role="3Cz$97">
-              <property role="TrG5h" value="T" />
-            </node>
-            <node concept="3mBW2U" id="1yn8PkzRpUQ" role="3mBdys">
-              <property role="2OOxQR" value="true" />
-              <property role="1wg9_F" value="public" />
-              <property role="TrG5h" value="insideTemplate" />
-            </node>
-            <node concept="3BZPaE" id="1yn8PkzRpV8" role="3mBdys">
-              <property role="2OOxQR" value="true" />
-              <property role="1wg9_F" value="public" />
-              <property role="TrG5h" value="templateClassInsideTemplate" />
-              <node concept="3V$TgL" id="1yn8PkzRpVh" role="3Cz$97">
-                <property role="TrG5h" value="D" />
-              </node>
-              <node concept="3mBbG7" id="1yn8PkzRpVl" role="3mBdys">
-                <property role="TrG5h" value="insideInnerTemplate" />
-                <node concept="26Vqph" id="1yn8PkzRpVw" role="2C2TGm">
-                  <property role="2caQfQ" value="false" />
-                  <property role="2c7vTL" value="false" />
-                </node>
-                <node concept="3TlMh9" id="1yn8PkzRpWc" role="3XIe9v">
-                  <property role="2hmy$m" value="4" />
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="3mBW2U" id="1yn8Pkyc1BJ" role="3mBdys">
-            <property role="2OOxQR" value="true" />
-            <property role="TrG5h" value="T" />
-            <property role="1wg9_F" value="public" />
-            <node concept="3mB1cK" id="1yn8Pkzl_3r" role="3mBdys">
-              <property role="1wg9_F" value="public" />
-              <property role="TrG5h" value="returnsTrue" />
-              <node concept="3TlMgk" id="1yn8Pkzl_3C" role="2C2TGm">
-                <property role="2caQfQ" value="false" />
-                <property role="2c7vTL" value="false" />
->>>>>>> e6791fc3a8... Cleaned up the executable tests and made sure there weren't snytax errors. Many still have build problems due to UnitTestHelper.h
               </node>
               <node concept="3uHcMF" id="2j_NnBnwWHF" role="1_9fRO">
                 <ref role="3uHcMG" node="2j_NnBniVHu" resolve="inner" />
@@ -2795,12 +1205,7 @@
       <node concept="3u$6M4" id="2j_NnBnxuJz" role="3mBdys" />
       <node concept="3mBW2U" id="2j_NnBnxuN9" role="3mBdys">
         <property role="2OOxQR" value="true" />
-<<<<<<< HEAD
-        <property role="1wg9_F" value="public" />
-<<<<<<< HEAD
-=======
         <property role="1wg9_F" value="2Ai0Gt9ODIs/public" />
->>>>>>> cc021cd381... migrated to 2019.2
         <property role="TrG5h" value="Other" />
         <node concept="3mBbG7" id="2j_NnBnxuOX" role="3mBdys">
           <property role="1wg9_F" value="2Ai0Gt9ODIs/public" />
@@ -2811,35 +1216,19 @@
           </node>
           <node concept="3TlMh9" id="2j_NnBnxuV8" role="3XIe9v">
             <property role="2hmy$m" value="2" />
-=======
-        <property role="TrG5h" value="returnsFalse" />
-        <node concept="3TlMgk" id="1yn8Pkzl_81" role="2C2TGm">
-          <property role="2caQfQ" value="false" />
-          <property role="2c7vTL" value="false" />
-        </node>
-        <node concept="3XIRFW" id="1yn8Pkzl_8l" role="3XIRFX">
-          <node concept="2BFjQ_" id="1yn8Pkzl_8N" role="3XIRFZ">
-            <node concept="3TlMhd" id="1yn8Pkzl_9e" role="2BFjQA" />
->>>>>>> e6791fc3a8... Cleaned up the executable tests and made sure there weren't snytax errors. Many still have build problems due to UnitTestHelper.h
           </node>
         </node>
       </node>
     </node>
-<<<<<<< HEAD
     <node concept="2NXPZ9" id="2j_NnBniW2n" role="N3F5h">
       <property role="TrG5h" value="empty_1528720376319_4" />
     </node>
-<<<<<<< HEAD
-=======
->>>>>>> e6791fc3a8... Cleaned up the executable tests and made sure there weren't snytax errors. Many still have build problems due to UnitTestHelper.h
-=======
     <node concept="2NXPZ9" id="Chy8Dz6NAP" role="N3F5h">
       <property role="TrG5h" value="empty_1529411270212_1" />
     </node>
     <node concept="2NXPZ9" id="Chy8Dz6NCm" role="N3F5h">
       <property role="TrG5h" value="empty_1529411270306_2" />
     </node>
->>>>>>> 8926664026... Fixed innerclasstype editor
     <node concept="c0Qz5" id="1yn8PkybR6C" role="N3F5h">
       <property role="2OOxQR" value="true" />
       <property role="TrG5h" value="nestingTC1" />
@@ -2848,7 +1237,6 @@
         <property role="2c7vTL" value="false" />
       </node>
       <node concept="3XIRFW" id="1yn8PkybR6E" role="c0Qz3">
-<<<<<<< HEAD
         <node concept="3XIRlf" id="2j_NnBnwWK_" role="3XIRFZ">
           <property role="TrG5h" value="outer" />
           <node concept="3mBfEi" id="2j_NnBnwWKz" role="2C2TGm">
@@ -2899,53 +1287,6 @@
                 <ref role="3ZVs_2" node="Chy8D$RTqB" resolve="other" />
               </node>
             </node>
-=======
-        <node concept="2dywKE" id="6Rfiwa9IHzr" role="3XIRFZ">
-          <property role="TrG5h" value="nestedB" />
-          <ref role="2esx9c" node="6Rfiwa9IH$n" resolve="B" />
-          <node concept="3TlMh9" id="6Rfiwa9IHMP" role="2enIz8">
-            <property role="2hmy$m" value="54" />
-          </node>
-          <node concept="3mBfEi" id="6Rfiwa9IHzp" role="2C2TGm">
-            <property role="2caQfQ" value="false" />
-            <property role="2c7vTL" value="false" />
-            <ref role="3mBfEM" node="1yn8Pkyc1Au" resolve="B" />
-          </node>
-        </node>
-        <node concept="2dywKE" id="6Rfiwa9IIwO" role="3XIRFZ">
-          <property role="TrG5h" value="quadrupleNested" />
-          <node concept="3mBfEi" id="6Rfiwa9IIwM" role="2C2TGm">
-            <property role="2caQfQ" value="false" />
-            <property role="2c7vTL" value="false" />
-            <ref role="3mBfEM" node="1yn8Pkyc1AK" resolve="D" />
-          </node>
-        </node>
-        <node concept="3XISUE" id="6Rfiwa9IHQb" role="3XIRFZ" />
-        <node concept="2N2KuS" id="6Rfiwa9IHSw" role="3XIRFZ">
-          <node concept="3TlMh9" id="6Rfiwa9IHVj" role="2N2GHh">
-            <property role="2hmy$m" value="54" />
-          </node>
-          <node concept="2qmXGp" id="6Rfiwa9IHTt" role="2N2GHg">
-            <node concept="3mBk1D" id="6Rfiwa9IHV6" role="1ESnxz">
-              <ref role="3mBk1B" node="1yn8Pkyc1DB" resolve="bValue" />
-            </node>
-            <node concept="3ZVu4v" id="6Rfiwa9IHTi" role="1_9fRO">
-              <ref role="3ZVs_2" node="6Rfiwa9IHzr" resolve="nestedB" />
-            </node>
-          </node>
-        </node>
-        <node concept="2N2KuS" id="6Rfiwa9IIy$" role="3XIRFZ">
-          <node concept="3TlMh9" id="6Rfiwa9II$1" role="2N2GHh">
-            <property role="2hmy$m" value="0" />
->>>>>>> e6791fc3a8... Cleaned up the executable tests and made sure there weren't snytax errors. Many still have build problems due to UnitTestHelper.h
-          </node>
-          <node concept="2qmXGp" id="6Rfiwa9IIzq" role="2N2GHg">
-            <node concept="3mBk1D" id="6Rfiwa9IIzO" role="1ESnxz">
-              <ref role="3mBk1B" node="1yn8Pkyc1BO" resolve="dValue" />
-            </node>
-            <node concept="3ZVu4v" id="6Rfiwa9IIzh" role="1_9fRO">
-              <ref role="3ZVs_2" node="6Rfiwa9IIwO" resolve="quadrupleNested" />
-            </node>
           </node>
         </node>
       </node>
@@ -2957,7 +1298,6 @@
       <ref role="3GEb4d" node="45rBLTDXEQn" resolve="ImportedModule" />
     </node>
   </node>
->>>>>>> 7ac605e081... allow wytiwyg text editing inside classes
   <node concept="1whW_1" id="4Mb2ywHr281">
     <property role="TrG5h" value="Polymorphism" />
     <node concept="3mBW2U" id="4Mb2ywHr283" role="N3F5h">
@@ -2976,6 +1316,12 @@
         <property role="1wg9_F" value="2Ai0Gt9ODIs/public" />
         <property role="TrG5h" value="A" />
         <ref role="2gom41" node="4Mb2ywHr283" resolve="A" />
+        <node concept="z11KY" id="6Rfiwa9IJVF" role="1YC0t0">
+          <ref role="yVOcQ" node="6Rfiwa9IJFo" resolve="xValue" />
+          <node concept="3ZUYvv" id="6Rfiwa9IK18" role="yU53$">
+            <ref role="3ZUYvu" node="7SgJHc7IOO6" resolve="x" />
+          </node>
+        </node>
         <node concept="3XIRFW" id="7SgJHc7IOBQ" role="1IVm9U" />
         <node concept="2dFNQU" id="7SgJHc7IOBR" role="2C2TGm">
           <property role="2caQfQ" value="false" />
@@ -2986,12 +1332,6 @@
           <node concept="26Vqqz" id="7SgJHc7IOO5" role="2C2TGm">
             <property role="2caQfQ" value="false" />
             <property role="2c7vTL" value="false" />
-          </node>
-        </node>
-        <node concept="z11KY" id="6Rfiwa9IJVF" role="1YC0t0">
-          <ref role="yVOcQ" node="6Rfiwa9IJFo" resolve="xValue" />
-          <node concept="3ZUYvv" id="6Rfiwa9IK18" role="yU53$">
-            <ref role="3ZUYvu" node="7SgJHc7IOO6" resolve="x" />
           </node>
         </node>
       </node>
@@ -3007,6 +1347,13 @@
         <property role="1wg9_F" value="2Ai0Gt9ODIs/public" />
         <property role="TrG5h" value="B" />
         <ref role="2gom41" node="4Mb2ywHr28j" resolve="B" />
+        <node concept="yZclw" id="6Rfiwa9IKix" role="1YC0t0">
+          <property role="2IddBx" value="A" />
+          <ref role="yKYgm" node="7SgJHc7IOBP" resolve="A" />
+          <node concept="3ZUYvv" id="6Rfiwa9IKou" role="yKYi2">
+            <ref role="3ZUYvu" node="4Mb2ywHWTiV" resolve="x" />
+          </node>
+        </node>
         <node concept="3XIRFW" id="4Mb2ywHWSY3" role="1IVm9U" />
         <node concept="2dFNQU" id="4Mb2ywHWSY4" role="2C2TGm">
           <property role="2caQfQ" value="false" />
@@ -3017,13 +1364,6 @@
           <node concept="26Vqqz" id="4Mb2ywHWTiU" role="2C2TGm">
             <property role="2caQfQ" value="false" />
             <property role="2c7vTL" value="false" />
-          </node>
-        </node>
-        <node concept="yZclw" id="6Rfiwa9IKix" role="1YC0t0">
-          <property role="2IddBx" value="A" />
-          <ref role="yKYgm" node="7SgJHc7IOBP" resolve="A" />
-          <node concept="3ZUYvv" id="6Rfiwa9IKou" role="yKYi2">
-            <ref role="3ZUYvu" node="4Mb2ywHWTiV" resolve="x" />
           </node>
         </node>
       </node>
@@ -3047,17 +1387,17 @@
         <property role="1wg9_F" value="2Ai0Gt9ODIs/public" />
         <property role="TrG5h" value="C" />
         <ref role="2gom41" node="7SgJHc7u6MF" resolve="C" />
-        <node concept="3XIRFW" id="7SgJHc7u6NW" role="1IVm9U" />
-        <node concept="2dFNQU" id="7SgJHc7u6NX" role="2C2TGm">
-          <property role="2caQfQ" value="false" />
-          <property role="2c7vTL" value="false" />
-        </node>
         <node concept="yZclw" id="6Rfiwa9IM8q" role="1YC0t0">
           <property role="2IddBx" value="B" />
           <ref role="yKYgm" node="4Mb2ywHWSY2" resolve="B" />
           <node concept="3TlMh9" id="6Rfiwa9IMbG" role="yKYi2">
             <property role="2hmy$m" value="22" />
           </node>
+        </node>
+        <node concept="3XIRFW" id="7SgJHc7u6NW" role="1IVm9U" />
+        <node concept="2dFNQU" id="7SgJHc7u6NX" role="2C2TGm">
+          <property role="2caQfQ" value="false" />
+          <property role="2c7vTL" value="false" />
         </node>
       </node>
     </node>
@@ -3131,64 +1471,10 @@
               </node>
               <node concept="3TlMh9" id="7SgJHc8Sfy0" role="3jnSvg">
                 <property role="2hmy$m" value="5" />
-=======
-  <node concept="1whW_1" id="1yn8PkybQJK">
-    <property role="TrG5h" value="Nesting" />
-    <node concept="3mBW2U" id="1yn8Pkyc1xp" role="N3F5h">
-      <property role="2OOxQR" value="true" />
-      <property role="TrG5h" value="A" />
-      <property role="1wg9_F" value="public" />
-      <node concept="3mBW2U" id="1yn8Pkyc1Au" role="3mBdys">
-        <property role="2OOxQR" value="true" />
-        <property role="TrG5h" value="B" />
-        <property role="1wg9_F" value="public" />
-        <node concept="3mBbG7" id="1yn8Pkyc1DB" role="3mBdys">
-          <property role="TrG5h" value="bValue" />
-          <property role="1wg9_F" value="public" />
-          <node concept="26Vqph" id="1yn8Pkyc1E5" role="2C2TGm">
-            <property role="2caQfQ" value="false" />
-            <property role="2c7vTL" value="false" />
-          </node>
-          <node concept="3TlMh9" id="1yn8Pkyc1EO" role="3XIe9v">
-            <property role="2hmy$m" value="3" />
-          </node>
-        </node>
-        <node concept="3mBW2U" id="1yn8Pkyc1AB" role="3mBdys">
-          <property role="2OOxQR" value="true" />
-          <property role="TrG5h" value="C" />
-          <property role="1wg9_F" value="public" />
-          <node concept="3mBbG7" id="2PCjd49tvkR" role="3mBdys">
-            <property role="TrG5h" value="b" />
-            <node concept="TrGU4" id="2PCjd49tLr2" role="2C2TGm">
-              <property role="2caQfQ" value="false" />
-              <property role="2c7vTL" value="false" />
-              <ref role="3mBfEM" node="1yn8Pkyc1Au" resolve="B" />
-              <node concept="3mBfEi" id="2PCjd49tLqQ" role="TrGU7">
-                <property role="2caQfQ" value="false" />
-                <property role="2c7vTL" value="false" />
-                <ref role="3mBfEM" node="1yn8Pkyc1xp" resolve="A" />
-              </node>
-            </node>
-          </node>
-          <node concept="3mBW2U" id="1yn8Pkyc1AK" role="3mBdys">
-            <property role="2OOxQR" value="true" />
-            <property role="TrG5h" value="D" />
-            <property role="1wg9_F" value="public" />
-            <node concept="3mBbG7" id="1yn8Pkyc1BO" role="3mBdys">
-              <property role="TrG5h" value="dValue" />
-              <property role="1wg9_F" value="public" />
-              <node concept="26Vqph" id="1yn8Pkyc1C1" role="2C2TGm">
-                <property role="2caQfQ" value="false" />
-                <property role="2c7vTL" value="false" />
-              </node>
-              <node concept="3TlMh9" id="1yn8Pkyc1CP" role="3XIe9v">
-                <property role="2hmy$m" value="0" />
->>>>>>> 363789fa02... added testing module
               </node>
             </node>
           </node>
         </node>
-<<<<<<< HEAD
         <node concept="1QiMYF" id="7SgJHc8Uen_" role="3XIRFZ">
           <node concept="OjmMv" id="7SgJHc8UenB" role="3SJzmv">
             <node concept="19SGf9" id="7SgJHc8UenC" role="OjmMu">
@@ -3218,65 +1504,6 @@
                 <property role="2caQfQ" value="false" />
                 <property role="2c7vTL" value="false" />
                 <ref role="3mBfEM" node="7SgJHc7u6MF" resolve="C" />
-              </node>
-            </node>
-=======
-      </node>
-      <node concept="3u$6M4" id="1yn8Pkyc1AO" role="3mBdys" />
-      <node concept="3mBW2U" id="1yn8Pkyc1Bh" role="3mBdys">
-        <property role="2OOxQR" value="true" />
-        <property role="TrG5h" value="R" />
-        <property role="1wg9_F" value="public" />
-        <node concept="3mBW2U" id="1yn8Pkyc1BA" role="3mBdys">
-          <property role="2OOxQR" value="true" />
-          <property role="TrG5h" value="S" />
-          <property role="1wg9_F" value="public" />
-          <node concept="3BZPaE" id="1yn8PkzRpUf" role="3mBdys">
-            <property role="2OOxQR" value="true" />
-            <property role="1wg9_F" value="public" />
-            <property role="TrG5h" value="templateClass" />
-            <node concept="3V$TgL" id="1yn8PkzRpUM" role="3Cz$97">
-              <property role="TrG5h" value="T" />
-            </node>
-            <node concept="3mBW2U" id="1yn8PkzRpUQ" role="3mBdys">
-              <property role="2OOxQR" value="true" />
-              <property role="1wg9_F" value="public" />
-              <property role="TrG5h" value="insideTemplate" />
-            </node>
-            <node concept="3BZPaE" id="1yn8PkzRpV8" role="3mBdys">
-              <property role="2OOxQR" value="true" />
-              <property role="1wg9_F" value="public" />
-              <property role="TrG5h" value="templateClassInsideTemplate" />
-              <node concept="3V$TgL" id="1yn8PkzRpVh" role="3Cz$97">
-                <property role="TrG5h" value="D" />
-              </node>
-              <node concept="3mBbG7" id="1yn8PkzRpVl" role="3mBdys">
-                <property role="TrG5h" value="insideInnerTemplate" />
-                <node concept="26Vqph" id="1yn8PkzRpVw" role="2C2TGm">
-                  <property role="2caQfQ" value="false" />
-                  <property role="2c7vTL" value="false" />
-                </node>
-                <node concept="3TlMh9" id="1yn8PkzRpWc" role="3XIe9v">
-                  <property role="2hmy$m" value="4" />
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="3mBW2U" id="1yn8Pkyc1BJ" role="3mBdys">
-            <property role="2OOxQR" value="true" />
-            <property role="TrG5h" value="T" />
-            <property role="1wg9_F" value="public" />
-            <node concept="3mB1cK" id="1yn8Pkzl_3r" role="3mBdys">
-              <property role="1wg9_F" value="public" />
-              <property role="TrG5h" value="yesSir" />
-              <node concept="3TlMgk" id="1yn8Pkzl_3C" role="2C2TGm">
-                <property role="2caQfQ" value="false" />
-                <property role="2c7vTL" value="false" />
-              </node>
-              <node concept="3XIRFW" id="1yn8Pkzl_4g" role="3XIRFX">
-                <node concept="2BFjQ_" id="1yn8Pkzl_4C" role="3XIRFZ">
-                  <node concept="3TlMhK" id="1yn8Pkzl_4V" role="2BFjQA" />
-                </node>
               </node>
             </node>
           </node>
@@ -3322,87 +1549,7 @@
           </node>
         </node>
       </node>
-      <node concept="3u$6M4" id="1yn8Pkzl_5u" role="3mBdys" />
-      <node concept="3mB1cK" id="1yn8Pkzl_6Y" role="3mBdys">
-        <property role="1wg9_F" value="public" />
-        <property role="TrG5h" value="noSir" />
-        <node concept="3TlMgk" id="1yn8Pkzl_81" role="2C2TGm">
-          <property role="2caQfQ" value="false" />
-          <property role="2c7vTL" value="false" />
-        </node>
-        <node concept="3XIRFW" id="1yn8Pkzl_8l" role="3XIRFX">
-          <node concept="2BFjQ_" id="1yn8Pkzl_8N" role="3XIRFZ">
-            <node concept="3TlMhd" id="1yn8Pkzl_9e" role="2BFjQA" />
-          </node>
-        </node>
-      </node>
-      <node concept="3mBW2U" id="64ejoCJUAta" role="3mBdys">
-        <property role="2OOxQR" value="true" />
-        <property role="1wg9_F" value="private" />
-        <property role="TrG5h" value="privateInner" />
-      </node>
     </node>
-    <node concept="3mBW2U" id="2PCjd49toyC" role="N3F5h">
-      <property role="2OOxQR" value="true" />
-      <property role="1wg9_F" value="public" />
-      <property role="TrG5h" value="Outer" />
-      <node concept="3mBW2U" id="2PCjd49toDX" role="3mBdys">
-        <property role="2OOxQR" value="true" />
-        <property role="1wg9_F" value="public" />
-        <property role="TrG5h" value="Inner" />
-      </node>
-    </node>
-    <node concept="2NXPZ9" id="1yn8PkySbD8" role="N3F5h">
-      <property role="TrG5h" value="empty_1528198543623_2" />
-    </node>
-    <node concept="2NXPZ9" id="1yn8Pkyc0Mp" role="N3F5h">
-      <property role="TrG5h" value="empty_1528192578546_3" />
-    </node>
-    <node concept="c0Qz5" id="1yn8PkybR6C" role="N3F5h">
-      <property role="2OOxQR" value="true" />
-      <property role="TrG5h" value="nestingTC1" />
-      <node concept="19Rifw" id="1yn8PkybR6D" role="2C2TGm">
-        <property role="2caQfQ" value="false" />
-        <property role="2c7vTL" value="false" />
-      </node>
-      <node concept="3XIRFW" id="1yn8PkybR6E" role="c0Qz3">
-        <node concept="3XISUE" id="64ejoCJUAqI" role="3XIRFZ" />
-        <node concept="3XISUE" id="64ejoCJUApK" role="3XIRFZ" />
-        <node concept="2N2KuS" id="1yn8PkybR6I" role="3XIRFZ">
-          <node concept="3TlMh9" id="1yn8PkybR6M" role="2N2GHg">
-            <property role="2hmy$m" value="0" />
-          </node>
-          <node concept="3TlMh9" id="1yn8PkybRCk" role="2N2GHh">
-            <property role="2hmy$m" value="0" />
->>>>>>> 363789fa02... added testing module
-          </node>
-        </node>
-      </node>
-    </node>
-<<<<<<< HEAD
-<<<<<<< HEAD
-    <node concept="2NXPZ9" id="7SgJHc8UcL0" role="N3F5h">
-      <property role="TrG5h" value="empty_1528359509077_1" />
-    </node>
-    <node concept="lIfQi" id="7SgJHc8UcTE" role="N3F5h">
-      <property role="3HjyOP" value="true" />
-      <property role="TrG5h" value="Polymorphism" />
-      <node concept="3cM6IN" id="7SgJHc8Ud0G" role="lIfQt">
-        <ref role="3cM6IK" node="4Mb2ywHWU4q" resolve="poly_external" />
-      </node>
-    </node>
-    <node concept="2NXPZ9" id="4Mb2ywHv67p" role="N3F5h">
-      <property role="TrG5h" value="empty_1528289125571_8" />
-=======
-    <node concept="2NXPZ9" id="1yn8PkybQJL" role="N3F5h">
-      <property role="TrG5h" value="empty_1528192447066_1" />
-    </node>
-    <node concept="3GEVxB" id="1yn8PkybQJM" role="2OODSX">
-      <ref role="3GEb4d" node="45rBLTDXEQn" resolve="ImportedModule" />
->>>>>>> 363789fa02... added testing module
-    </node>
-=======
->>>>>>> e6ce50a6a5... Fix new constructors not having textgen after change, fix double entrypoint
   </node>
 </model>
 

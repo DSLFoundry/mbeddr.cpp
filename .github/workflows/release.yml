@@ -3,16 +3,8 @@ name: Release to Github
 on:
   push:
     branches:
-<<<<<<< HEAD
       - master
   workflow_dispatch:
-=======
-      - release
-<<<<<<< HEAD
->>>>>>> 354d89bdf7... added release action
-=======
-  workflow_dispatch:
->>>>>>> 07749d131a... added workflow_dispatch to release action to trigger it manually
 
 jobs:
   build:
@@ -25,18 +17,11 @@ jobs:
       uses: actions/setup-java@v1
       with:
         java-version: 11
-<<<<<<< HEAD
     - name: Grant execute permission for gradlew
       run: chmod +x gradlew
     - name: release to github with gradle
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         CI_COMMIT_SHA: ${{ env.GITHUB_SHA }}
-=======
-    - name: release to github with gradle
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        CI_COMMIT_SHA: release
->>>>>>> 354d89bdf7... added release action
       run: ./gradlew githubRelease
 

@@ -2,90 +2,29 @@
 <model ref="r:3f268faf-14e3-477d-a53c-522a4576dea7(com.mbeddr.cpp.base.constraints)">
   <persistence version="9" />
   <languages>
-<<<<<<< HEAD
-<<<<<<< HEAD
-    <use id="3f4bc5f5-c6c1-4a28-8b10-c83066ffa4a1" name="jetbrains.mps.lang.constraints" version="4" />
-=======
-    <use id="3f4bc5f5-c6c1-4a28-8b10-c83066ffa4a1" name="jetbrains.mps.lang.constraints" version="5" />
-=======
     <use id="3f4bc5f5-c6c1-4a28-8b10-c83066ffa4a1" name="jetbrains.mps.lang.constraints" version="6" />
-<<<<<<< HEAD
->>>>>>> 4e2541f81a... migrated to 2019.3
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="9" />
->>>>>>> cc021cd381... migrated to 2019.2
-=======
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="11" />
->>>>>>> 6bfe4b6649... example showing too long grammarcells method
     <devkit ref="00000000-0000-4000-0000-5604ebd4f22c(jetbrains.mps.devkit.aspect.constraints)" />
   </languages>
   <imports>
     <import index="o8zo" ref="r:314576fc-3aee-4386-a0a5-a38348ac317d(jetbrains.mps.scope)" />
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     <import index="wnzg" ref="r:24646c42-f8e0-499c-b639-679cfa170a2e(com.mbeddr.cpp.base.structure)" />
-<<<<<<< HEAD
-    <import index="hwgx" ref="r:fd2980c8-676c-4b19-b524-18c70e02f8b7(com.mbeddr.core.base.behavior)" />
-    <import index="vs0r" ref="r:f7764ca4-8c75-4049-922b-08516400a727(com.mbeddr.core.base.structure)" />
-    <import index="c4fa" ref="r:9f0e84b6-2ec7-4f9e-83e0-feedc77b63a3(com.mbeddr.core.statements.structure)" />
-    <import index="rj8d" ref="r:da9fd96f-5c71-45ab-b2da-1aa6232ec67f(com.mbeddr.core.statements.behavior)" />
-=======
     <import index="x27k" ref="r:75ecab8a-8931-4140-afc6-4b46398710fc(com.mbeddr.core.modules.structure)" />
-<<<<<<< HEAD
-<<<<<<< HEAD
-    <import index="1yyn" ref="r:64e0a2a9-7957-424b-8102-a5e8a7a73035(com.mbeddr.cpp.templates.structure)" />
-<<<<<<< HEAD
->>>>>>> 180d6b24f4... Unify structure naming, fix dependency issue and remove unused dependencies
-=======
-    <import index="mj1l" ref="r:c371cf98-dcc8-4a43-8eb8-8a8096de18b2(com.mbeddr.core.expressions.structure)" />
-<<<<<<< HEAD
->>>>>>> 9f10d43a5e... Add array assignment to array fields
-=======
-    <import index="uaom" ref="r:00838eaa-3253-4491-82f7-437f360206d2(com.mbeddr.cpp.templates.behavior)" />
->>>>>>> be2d622988... Add some tests
-=======
->>>>>>> 8ced65fd10... Decouple templates from base
-=======
     <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" />
->>>>>>> 0614305c07... introduced NamespaceType; fixed named references in scopes
     <import index="kntn" ref="r:4090021e-0c8f-4cca-ab3f-590afb43a745(com.mbeddr.cpp.base.behavior)" implicit="true" />
-<<<<<<< HEAD
-=======
-    <import index="hwgx" ref="r:fd2980c8-676c-4b19-b524-18c70e02f8b7(com.mbeddr.core.base.behavior)" />
->>>>>>> dd5d1b9963... Fixed error: abstract concept.
-=======
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    <import index="c4fa" ref="r:9f0e84b6-2ec7-4f9e-83e0-feedc77b63a3(com.mbeddr.core.statements.structure)" implicit="true" />
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> f7ba0272ae... Redo auto keyword
-=======
-    <import index="yq40" ref="r:152b3fc0-83a1-4bab-a8cd-565eb8483785(com.mbeddr.core.pointers.structure)" implicit="true" />
->>>>>>> 9f10d43a5e... Add array assignment to array fields
-=======
->>>>>>> f6a9ef0714... Fix TextGen for arrays in classes, add type and size checking
-=======
->>>>>>> 546a94c71c... Auto type scope fixed
-=======
-    <import index="c4fa" ref="r:9f0e84b6-2ec7-4f9e-83e0-feedc77b63a3(com.mbeddr.core.statements.structure)" implicit="true" />
->>>>>>> 5c976ae824... Fix constraints being gone and typesystem test
-=======
->>>>>>> 900cef7e23... Fix auto keyword
-=======
     <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
->>>>>>> 0614305c07... introduced NamespaceType; fixed named references in scopes
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
       <concept id="1080223426719" name="jetbrains.mps.baseLanguage.structure.OrExpression" flags="nn" index="22lmx$" />
       <concept id="1082485599095" name="jetbrains.mps.baseLanguage.structure.BlockStatement" flags="nn" index="9aQIb">
         <child id="1082485599096" name="statements" index="9aQI4" />
+      </concept>
+      <concept id="1215693861676" name="jetbrains.mps.baseLanguage.structure.BaseAssignmentExpression" flags="nn" index="d038R">
+        <child id="1068498886297" name="rValue" index="37vLTx" />
+        <child id="1068498886295" name="lValue" index="37vLTJ" />
       </concept>
       <concept id="4836112446988635817" name="jetbrains.mps.baseLanguage.structure.UndefinedType" flags="in" index="2jxLKc" />
       <concept id="1202948039474" name="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" flags="nn" index="liA8E" />
@@ -99,45 +38,13 @@
       <concept id="1154032098014" name="jetbrains.mps.baseLanguage.structure.AbstractLoopStatement" flags="nn" index="2LF5Ji">
         <child id="1154032183016" name="body" index="2LFqv$" />
       </concept>
-=======
-    <import index="x27k" ref="r:75ecab8a-8931-4140-afc6-4b46398710fc(com.mbeddr.core.modules.structure)" />
-    <import index="1yyn" ref="r:64e0a2a9-7957-424b-8102-a5e8a7a73035(com.mbeddr.cpp.templates.structure)" />
-=======
->>>>>>> b95cdd26ff... Namespace Declaration and Member Referencing (WIP) without TextGen elements
-=======
-    <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" />
->>>>>>> 71d8fb9fa7... Added InnerClassType, further testing for Using Namespace, small adjustments
-    <import index="wnzg" ref="r:24646c42-f8e0-499c-b639-679cfa170a2e(com.mbeddr.cpp.base.structure)" implicit="true" />
-    <import index="kntn" ref="r:4090021e-0c8f-4cca-ab3f-590afb43a745(com.mbeddr.cpp.base.behavior)" implicit="true" />
-    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
-  </imports>
-  <registry>
-    <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
-<<<<<<< HEAD
-<<<<<<< HEAD
-      <concept id="4836112446988635817" name="jetbrains.mps.baseLanguage.structure.UndefinedType" flags="in" index="2jxLKc" />
->>>>>>> b70d14e537... loads of stuff
-=======
->>>>>>> b95cdd26ff... Namespace Declaration and Member Referencing (WIP) without TextGen elements
-=======
-      <concept id="1215693861676" name="jetbrains.mps.baseLanguage.structure.BaseAssignmentExpression" flags="nn" index="d038R">
-        <child id="1068498886297" name="rValue" index="37vLTx" />
-        <child id="1068498886295" name="lValue" index="37vLTJ" />
-      </concept>
->>>>>>> 09067ffb17... Added support for the global Namespace Declaration.
       <concept id="1197027756228" name="jetbrains.mps.baseLanguage.structure.DotExpression" flags="nn" index="2OqwBi">
         <child id="1197027771414" name="operand" index="2Oq$k0" />
         <child id="1197027833540" name="operation" index="2OqNvi" />
       </concept>
-<<<<<<< HEAD
-<<<<<<< HEAD
       <concept id="1145552977093" name="jetbrains.mps.baseLanguage.structure.GenericNewExpression" flags="nn" index="2ShNRf">
         <child id="1145553007750" name="creator" index="2ShVmc" />
       </concept>
-=======
->>>>>>> b70d14e537... loads of stuff
-=======
->>>>>>> b95cdd26ff... Namespace Declaration and Member Referencing (WIP) without TextGen elements
       <concept id="1137021947720" name="jetbrains.mps.baseLanguage.structure.ConceptFunction" flags="in" index="2VMwT0">
         <child id="1137022507850" name="body" index="2VODD2" />
       </concept>
@@ -149,78 +56,37 @@
       <concept id="1081236700937" name="jetbrains.mps.baseLanguage.structure.StaticMethodCall" flags="nn" index="2YIFZM">
         <reference id="1144433194310" name="classConcept" index="1Pybhc" />
       </concept>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 186ea3c3fb... Added bases 'Using Namespace Method' feature, cleaned up TextGens and Editors
-=======
       <concept id="1068390468198" name="jetbrains.mps.baseLanguage.structure.ClassConcept" flags="ig" index="312cEu">
         <child id="1165602531693" name="superclass" index="1zkMxy" />
       </concept>
->>>>>>> 0614305c07... introduced NamespaceType; fixed named references in scopes
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
         <child id="1068431790190" name="initializer" index="33vP2m" />
       </concept>
       <concept id="1068498886296" name="jetbrains.mps.baseLanguage.structure.VariableReference" flags="nn" index="37vLTw">
         <reference id="1068581517664" name="variableDeclaration" index="3cqZAo" />
       </concept>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
       <concept id="1068498886292" name="jetbrains.mps.baseLanguage.structure.ParameterDeclaration" flags="ir" index="37vLTG" />
       <concept id="1068498886294" name="jetbrains.mps.baseLanguage.structure.AssignmentExpression" flags="nn" index="37vLTI" />
       <concept id="1225271177708" name="jetbrains.mps.baseLanguage.structure.StringType" flags="in" index="17QB3L" />
->>>>>>> 0614305c07... introduced NamespaceType; fixed named references in scopes
       <concept id="1225271283259" name="jetbrains.mps.baseLanguage.structure.NPEEqualsExpression" flags="nn" index="17R0WA" />
-=======
-      <concept id="1068498886296" name="jetbrains.mps.baseLanguage.structure.VariableReference" flags="nn" index="37vLTw">
-        <reference id="1068581517664" name="variableDeclaration" index="3cqZAo" />
-      </concept>
->>>>>>> b70d14e537... loads of stuff
-=======
-      <concept id="1068498886294" name="jetbrains.mps.baseLanguage.structure.AssignmentExpression" flags="nn" index="37vLTI" />
->>>>>>> 09067ffb17... Added support for the global Namespace Declaration.
       <concept id="4972933694980447171" name="jetbrains.mps.baseLanguage.structure.BaseVariableDeclaration" flags="ng" index="19Szcq">
         <child id="5680397130376446158" name="type" index="1tU5fm" />
       </concept>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
       <concept id="1068580123132" name="jetbrains.mps.baseLanguage.structure.BaseMethodDeclaration" flags="ng" index="3clF44">
         <child id="1068580123133" name="returnType" index="3clF45" />
         <child id="1068580123134" name="parameter" index="3clF46" />
         <child id="1068580123135" name="body" index="3clF47" />
       </concept>
       <concept id="1068580123165" name="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" flags="ig" index="3clFb_" />
->>>>>>> 0614305c07... introduced NamespaceType; fixed named references in scopes
       <concept id="1068580123155" name="jetbrains.mps.baseLanguage.structure.ExpressionStatement" flags="nn" index="3clFbF">
         <child id="1068580123156" name="expression" index="3clFbG" />
-<<<<<<< HEAD
-=======
-      <concept id="4972933694980447171" name="jetbrains.mps.baseLanguage.structure.BaseVariableDeclaration" flags="ng" index="19Szcq">
-        <child id="5680397130376446158" name="type" index="1tU5fm" />
->>>>>>> 186ea3c3fb... Added bases 'Using Namespace Method' feature, cleaned up TextGens and Editors
       </concept>
-<<<<<<< HEAD
       <concept id="1068580123157" name="jetbrains.mps.baseLanguage.structure.Statement" flags="nn" index="3clFbH" />
       <concept id="1068580123159" name="jetbrains.mps.baseLanguage.structure.IfStatement" flags="nn" index="3clFbJ">
         <child id="1082485599094" name="ifFalseStatement" index="9aQIa" />
         <child id="1068580123160" name="condition" index="3clFbw" />
         <child id="1068580123161" name="ifTrue" index="3clFbx" />
-=======
->>>>>>> 71d8fb9fa7... Added InnerClassType, further testing for Using Namespace, small adjustments
       </concept>
-=======
->>>>>>> d652370829... Editor and TextGen MethodCalls using GeneralNamespaceDeclarations works correctly.
-=======
-      <concept id="1068580123155" name="jetbrains.mps.baseLanguage.structure.ExpressionStatement" flags="nn" index="3clFbF">
-        <child id="1068580123156" name="expression" index="3clFbG" />
-      </concept>
->>>>>>> 8526e6c0af... Finished the other using statements, only TextGen left.
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
@@ -229,46 +95,18 @@
       <concept id="1068581242878" name="jetbrains.mps.baseLanguage.structure.ReturnStatement" flags="nn" index="3cpWs6">
         <child id="1068581517676" name="expression" index="3cqZAk" />
       </concept>
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 186ea3c3fb... Added bases 'Using Namespace Method' feature, cleaned up TextGens and Editors
       <concept id="1068581242864" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" flags="nn" index="3cpWs8">
         <child id="1068581242865" name="localVariableDeclaration" index="3cpWs9" />
       </concept>
       <concept id="1068581242863" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" flags="nr" index="3cpWsn" />
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-      <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
-        <child id="1068581517665" name="statement" index="3cqZAp" />
-      </concept>
->>>>>>> b70d14e537... loads of stuff
-=======
       <concept id="1068581517677" name="jetbrains.mps.baseLanguage.structure.VoidType" flags="in" index="3cqZAl" />
->>>>>>> 0614305c07... introduced NamespaceType; fixed named references in scopes
       <concept id="1081516740877" name="jetbrains.mps.baseLanguage.structure.NotExpression" flags="nn" index="3fqX7Q">
         <child id="1081516765348" name="expression" index="3fr31v" />
       </concept>
-=======
-      <concept id="1068580123155" name="jetbrains.mps.baseLanguage.structure.ExpressionStatement" flags="nn" index="3clFbF">
-        <child id="1068580123156" name="expression" index="3clFbG" />
-      </concept>
-      <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
-        <child id="1068581517665" name="statement" index="3cqZAp" />
-      </concept>
->>>>>>> b95cdd26ff... Namespace Declaration and Member Referencing (WIP) without TextGen elements
-=======
->>>>>>> c9ad58ee32... Added TextGen elements of Namespace Concepts and adjusted several Editors
-=======
->>>>>>> 186ea3c3fb... Added bases 'Using Namespace Method' feature, cleaned up TextGens and Editors
       <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ng" index="1ndlxa">
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
         <child id="1068499141038" name="actualArgument" index="37wK5m" />
       </concept>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
       <concept id="1212685548494" name="jetbrains.mps.baseLanguage.structure.ClassCreator" flags="nn" index="1pGfFk" />
       <concept id="1107461130800" name="jetbrains.mps.baseLanguage.structure.Classifier" flags="ng" index="3pOWGL">
         <child id="5375687026011219971" name="member" index="jymVt" unordered="true" />
@@ -280,7 +118,6 @@
         <child id="1081773367579" name="rightExpression" index="3uHU7w" />
         <child id="1081773367580" name="leftExpression" index="3uHU7B" />
       </concept>
-<<<<<<< HEAD
       <concept id="1073239437375" name="jetbrains.mps.baseLanguage.structure.NotEqualsExpression" flags="nn" index="3y3z36" />
       <concept id="1178549954367" name="jetbrains.mps.baseLanguage.structure.IVisible" flags="ng" index="1B3ioH">
         <child id="1178549979242" name="visibility" index="1B3o_S" />
@@ -290,24 +127,11 @@
       </concept>
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
       <concept id="1080120340718" name="jetbrains.mps.baseLanguage.structure.AndExpression" flags="nn" index="1Wc70l" />
-=======
->>>>>>> b70d14e537... loads of stuff
     </language>
     <language id="3f4bc5f5-c6c1-4a28-8b10-c83066ffa4a1" name="jetbrains.mps.lang.constraints">
       <concept id="6702802731807351367" name="jetbrains.mps.lang.constraints.structure.ConstraintFunction_CanBeAChild" flags="in" index="9S07l" />
       <concept id="1202989658459" name="jetbrains.mps.lang.constraints.structure.ConstraintFunctionParameter_parentNode" flags="nn" index="nLn13" />
       <concept id="8966504967485224688" name="jetbrains.mps.lang.constraints.structure.ConstraintFunctionParameter_contextNode" flags="nn" index="2rP1CM" />
-      <concept id="5564765827938091039" name="jetbrains.mps.lang.constraints.structure.ConstraintFunction_ReferentSearchScope_Scope" flags="ig" index="3dgokm" />
-=======
-=======
-      <concept id="1107535904670" name="jetbrains.mps.baseLanguage.structure.ClassifierType" flags="in" index="3uibUv">
-        <reference id="1107535924139" name="classifier" index="3uigEE" />
-      </concept>
->>>>>>> 186ea3c3fb... Added bases 'Using Namespace Method' feature, cleaned up TextGens and Editors
-=======
->>>>>>> 09067ffb17... Added support for the global Namespace Declaration.
-    </language>
-    <language id="3f4bc5f5-c6c1-4a28-8b10-c83066ffa4a1" name="jetbrains.mps.lang.constraints">
       <concept id="1147467115080" name="jetbrains.mps.lang.constraints.structure.NodePropertyConstraint" flags="ng" index="EnEH3">
         <reference id="1147467295099" name="applicableProperty" index="EomxK" />
         <child id="1147468630220" name="propertyGetter" index="EtsB7" />
@@ -317,11 +141,7 @@
       <concept id="1147468365020" name="jetbrains.mps.lang.constraints.structure.ConstraintsFunctionParameter_node" flags="nn" index="EsrRn" />
       <concept id="5564765827938091039" name="jetbrains.mps.lang.constraints.structure.ConstraintFunction_ReferentSearchScope_Scope" flags="ig" index="3dgokm" />
       <concept id="1163200647017" name="jetbrains.mps.lang.constraints.structure.ConstraintFunctionParameter_referenceNode" flags="nn" index="3kakTB" />
-<<<<<<< HEAD
->>>>>>> b95cdd26ff... Namespace Declaration and Member Referencing (WIP) without TextGen elements
-=======
       <concept id="1152959968041" name="jetbrains.mps.lang.constraints.structure.ConstraintFunction_PropertySetter" flags="in" index="1LLf8_" />
->>>>>>> 09067ffb17... Added support for the global Namespace Declaration.
       <concept id="1213093968558" name="jetbrains.mps.lang.constraints.structure.ConceptConstraints" flags="ng" index="1M2fIO">
         <reference id="1213093996982" name="concept" index="1M2myG" />
         <child id="6702802731807737306" name="canBeChild" index="9Vyp8" />
@@ -333,7 +153,6 @@
         <child id="1148687345559" name="searchScopeFactory" index="1N6uqs" />
       </concept>
     </language>
-<<<<<<< HEAD
     <language id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures">
       <concept id="1199569711397" name="jetbrains.mps.baseLanguage.closures.structure.ClosureLiteral" flags="nn" index="1bVj0M">
         <child id="1199569906740" name="parameter" index="1bW2Oz" />
@@ -353,61 +172,21 @@
       <concept id="1138411891628" name="jetbrains.mps.lang.smodel.structure.SNodeOperation" flags="nn" index="eCIE_">
         <child id="1144104376918" name="parameter" index="1xVPHs" />
       </concept>
-<<<<<<< HEAD
       <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
-<<<<<<< HEAD
-<<<<<<< HEAD
-      <concept id="1138676077309" name="jetbrains.mps.lang.smodel.structure.EnumMemberReference" flags="nn" index="uoxfO">
-        <reference id="1138676095763" name="enumMember" index="uo_Cq" />
-      </concept>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-      <concept id="1143234257716" name="jetbrains.mps.lang.smodel.structure.Node_GetModelOperation" flags="nn" index="I4A8Y" />
-=======
->>>>>>> cc021cd381... migrated to 2019.2
-      <concept id="1171305280644" name="jetbrains.mps.lang.smodel.structure.Node_GetDescendantsOperation" flags="nn" index="2Rf3mk" />
-      <concept id="1171315804604" name="jetbrains.mps.lang.smodel.structure.Model_RootsOperation" flags="nn" index="2RRcyG" />
->>>>>>> 5fffaff81e... added broken scoping
-=======
->>>>>>> f496843022... removed scope file
-=======
-=======
       <concept id="2396822768958367367" name="jetbrains.mps.lang.smodel.structure.AbstractTypeCastExpression" flags="nn" index="$5XWr">
         <child id="6733348108486823193" name="leftExpression" index="1m5AlR" />
         <child id="3906496115198199033" name="conceptArgument" index="3oSUPX" />
       </concept>
->>>>>>> 0614305c07... introduced NamespaceType; fixed named references in scopes
       <concept id="1171305280644" name="jetbrains.mps.lang.smodel.structure.Node_GetDescendantsOperation" flags="nn" index="2Rf3mk" />
->>>>>>> be2d622988... Add some tests
       <concept id="1171407110247" name="jetbrains.mps.lang.smodel.structure.Node_GetAncestorOperation" flags="nn" index="2Xjw5R" />
-<<<<<<< HEAD
-=======
       <concept id="2644386474301421077" name="jetbrains.mps.lang.smodel.structure.LinkIdRefExpression" flags="nn" index="359W_D">
         <reference id="2644386474301421078" name="conceptDeclaration" index="359W_E" />
         <reference id="2644386474301421079" name="linkDeclaration" index="359W_F" />
       </concept>
-<<<<<<< HEAD
-<<<<<<< HEAD
       <concept id="1139621453865" name="jetbrains.mps.lang.smodel.structure.Node_IsInstanceOfOperation" flags="nn" index="1mIQ4w">
         <child id="1177027386292" name="conceptArgument" index="cj9EA" />
       </concept>
->>>>>>> d979bf937a... Namespace EX and TS Tests.
-=======
->>>>>>> 546a94c71c... Auto type scope fixed
-=======
-      <concept id="1139621453865" name="jetbrains.mps.lang.smodel.structure.Node_IsInstanceOfOperation" flags="nn" index="1mIQ4w">
-        <child id="1177027386292" name="conceptArgument" index="cj9EA" />
-      </concept>
-<<<<<<< HEAD
->>>>>>> 5c976ae824... Fix constraints being gone and typesystem test
-      <concept id="1146171026731" name="jetbrains.mps.lang.smodel.structure.Property_HasValue_Enum" flags="nn" index="3t7uKx">
-        <child id="1146171026732" name="value" index="3t7uKA" />
-      </concept>
-=======
       <concept id="1171999116870" name="jetbrains.mps.lang.smodel.structure.Node_IsNullOperation" flags="nn" index="3w_OXm" />
->>>>>>> cc021cd381... migrated to 2019.2
       <concept id="1144100932627" name="jetbrains.mps.lang.smodel.structure.OperationParm_Inclusion" flags="ng" index="1xIGOp" />
       <concept id="1144101972840" name="jetbrains.mps.lang.smodel.structure.OperationParm_Concept" flags="ng" index="1xMEDy">
         <child id="1207343664468" name="conceptArgument" index="ri$Ld" />
@@ -418,46 +197,18 @@
       </concept>
       <concept id="1138056022639" name="jetbrains.mps.lang.smodel.structure.SPropertyAccess" flags="nn" index="3TrcHB">
         <reference id="1138056395725" name="property" index="3TsBF5" />
-=======
-    <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
-      <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
-      <concept id="2644386474301421077" name="jetbrains.mps.lang.smodel.structure.LinkIdRefExpression" flags="nn" index="359W_D">
-        <reference id="2644386474301421078" name="conceptDeclaration" index="359W_E" />
-        <reference id="2644386474301421079" name="linkDeclaration" index="359W_F" />
->>>>>>> b95cdd26ff... Namespace Declaration and Member Referencing (WIP) without TextGen elements
-      </concept>
-      <concept id="2644386474300074836" name="jetbrains.mps.lang.smodel.structure.ConceptIdRefExpression" flags="nn" index="35c_gC">
-        <reference id="2644386474300074837" name="conceptDeclaration" index="35c_gD" />
-      </concept>
-      <concept id="1138056022639" name="jetbrains.mps.lang.smodel.structure.SPropertyAccess" flags="nn" index="3TrcHB">
-        <reference id="1138056395725" name="property" index="3TsBF5" />
       </concept>
       <concept id="1138056143562" name="jetbrains.mps.lang.smodel.structure.SLinkAccess" flags="nn" index="3TrEf2">
         <reference id="1138056516764" name="link" index="3Tt5mk" />
       </concept>
-<<<<<<< HEAD
       <concept id="1138056282393" name="jetbrains.mps.lang.smodel.structure.SLinkListAccess" flags="nn" index="3Tsc0h">
         <reference id="1138056546658" name="link" index="3TtcxE" />
       </concept>
-=======
-      <concept id="1171305280644" name="jetbrains.mps.lang.smodel.structure.Node_GetDescendantsOperation" flags="nn" index="2Rf3mk" />
-      <concept id="1171407110247" name="jetbrains.mps.lang.smodel.structure.Node_GetAncestorOperation" flags="nn" index="2Xjw5R" />
-      <concept id="1139621453865" name="jetbrains.mps.lang.smodel.structure.Node_IsInstanceOfOperation" flags="nn" index="1mIQ4w">
-        <child id="1177027386292" name="conceptArgument" index="cj9EA" />
-      </concept>
-      <concept id="1144101972840" name="jetbrains.mps.lang.smodel.structure.OperationParm_Concept" flags="ng" index="1xMEDy">
-        <child id="1207343664468" name="conceptArgument" index="ri$Ld" />
-      </concept>
->>>>>>> b70d14e537... loads of stuff
-=======
->>>>>>> b95cdd26ff... Namespace Declaration and Member Referencing (WIP) without TextGen elements
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
         <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
       </concept>
-<<<<<<< HEAD
-<<<<<<< HEAD
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
@@ -474,23 +225,6 @@
       <concept id="1204796164442" name="jetbrains.mps.baseLanguage.collections.structure.InternalSequenceOperation" flags="nn" index="23sCx2">
         <child id="1204796294226" name="closure" index="23t8la" />
       </concept>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-      <concept id="1176903168877" name="jetbrains.mps.baseLanguage.collections.structure.UnionOperation" flags="nn" index="4Tj9Z" />
-      <concept id="1176906603202" name="jetbrains.mps.baseLanguage.collections.structure.BinaryOperation" flags="nn" index="56pJg">
-        <child id="1176906787974" name="rightExpression" index="576Qk" />
-      </concept>
-      <concept id="1224414427926" name="jetbrains.mps.baseLanguage.collections.structure.SequenceCreator" flags="nn" index="kMnCb">
-        <child id="1224414456414" name="elementType" index="kMuH3" />
-      </concept>
-      <concept id="1151689724996" name="jetbrains.mps.baseLanguage.collections.structure.SequenceType" flags="in" index="A3Dl8">
-        <child id="1151689745422" name="elementType" index="A3Ik2" />
-      </concept>
->>>>>>> 5fffaff81e... added broken scoping
-=======
->>>>>>> f496843022... removed scope file
       <concept id="1153943597977" name="jetbrains.mps.baseLanguage.collections.structure.ForEachStatement" flags="nn" index="2Gpval">
         <child id="1153944400369" name="variable" index="2Gsz3X" />
         <child id="1153944424730" name="inputSequence" index="2GsD0m" />
@@ -499,14 +233,10 @@
       <concept id="1153944233411" name="jetbrains.mps.baseLanguage.collections.structure.ForEachVariableReference" flags="nn" index="2GrUjf">
         <reference id="1153944258490" name="variable" index="2Gs0qQ" />
       </concept>
-=======
->>>>>>> b70d14e537... loads of stuff
       <concept id="1203518072036" name="jetbrains.mps.baseLanguage.collections.structure.SmartClosureParameterDeclaration" flags="ig" index="Rh6nW" />
       <concept id="1202120902084" name="jetbrains.mps.baseLanguage.collections.structure.WhereOperation" flags="nn" index="3zZkjj" />
     </language>
   </registry>
-<<<<<<< HEAD
-<<<<<<< HEAD
   <node concept="1M2fIO" id="6hUtorE3DPH">
     <property role="3GE5qa" value="class" />
     <ref role="1M2myG" to="wnzg:6hUtorDW7AG" resolve="LocalClassVariableDeclaration" />
@@ -519,20 +249,6 @@
               <property role="TrG5h" value="cScope" />
               <node concept="3uibUv" id="6hUtorEuXye" role="1tU5fm">
                 <ref role="3uigEE" to="o8zo:7ipADkTevLt" resolve="CompositeScope" />
-=======
-  <node concept="1M2fIO" id="383ZxwZuPTg">
-    <property role="3GE5qa" value="namespace" />
-    <ref role="1M2myG" to="wnzg:383ZxwZrBky" resolve="NamespaceMethodCall" />
-    <node concept="1N5Pfh" id="383ZxwZuPTh" role="1Mr941">
-      <ref role="1N5Vy1" to="wnzg:383ZxwZrBkI" resolve="method" />
-      <node concept="3dgokm" id="383ZxwZuPTn" role="1N6uqs">
-        <node concept="3clFbS" id="383ZxwZuPTp" role="2VODD2">
-          <node concept="3cpWs8" id="3Nc$bFG9xCR" role="3cqZAp">
-            <node concept="3cpWsn" id="3Nc$bFG9xCS" role="3cpWs9">
-              <property role="TrG5h" value="methScope" />
-              <node concept="3uibUv" id="3Nc$bFG9xCT" role="1tU5fm">
-                <ref role="3uigEE" to="o8zo:3fifI_xCtN$" resolve="Scope" />
->>>>>>> a5b410c665... Fix highlighting to be consistent and make the package name lowercase
               </node>
               <node concept="2ShNRf" id="6hUtorEuXI8" role="33vP2m">
                 <node concept="1pGfFk" id="6hUtorEuXOr" role="2ShVmc">
@@ -689,50 +405,8 @@
               </node>
             </node>
           </node>
-<<<<<<< HEAD
           <node concept="3SKdUt" id="2xmTzC2MlNY" role="3cqZAp">
-<<<<<<< HEAD
-<<<<<<< HEAD
-            <node concept="3SKdUq" id="2xmTzC2MlO0" role="3SKWNk">
-              <property role="3SKdUp" value="include protected and private constructors of the current class, and protected constructors" />
-=======
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="1M2fIO" id="7RFM8R0Rm5C">
-    <property role="3GE5qa" value="namespace" />
-    <ref role="1M2myG" to="wnzg:7RFM8R0Rm5q" resolve="GlobalUsingNamespaceMethodDeclaration" />
-    <node concept="1N5Pfh" id="7RFM8R0Roby" role="1Mr941">
-      <ref role="1N5Vy1" to="wnzg:7RFM8R0Rm5s" resolve="method" />
-      <node concept="3dgokm" id="7RFM8R0RoeG" role="1N6uqs">
-        <node concept="3clFbS" id="7RFM8R0RoeH" role="2VODD2">
-          <node concept="3cpWs8" id="7RFM8R0RoeI" role="3cqZAp">
-            <node concept="3cpWsn" id="7RFM8R0RoeJ" role="3cpWs9">
-              <property role="TrG5h" value="newScope" />
-              <node concept="3uibUv" id="7RFM8R0RoeK" role="1tU5fm">
-                <ref role="3uigEE" to="o8zo:3fifI_xCtN$" resolve="Scope" />
-              </node>
-              <node concept="2YIFZM" id="7RFM8R0RoeL" role="33vP2m">
-                <ref role="1Pybhc" to="o8zo:7ipADkTevLm" resolve="SimpleRoleScope" />
-                <ref role="37wK5l" to="o8zo:6t3ylNOzI9Y" resolve="forNamedElements" />
-                <node concept="2OqwBi" id="7RFM8R0RoeM" role="37wK5m">
-                  <node concept="3kakTB" id="7RFM8R0RoeN" role="2Oq$k0" />
-                  <node concept="3TrEf2" id="7RFM8R0RoeO" role="2OqNvi">
-                    <ref role="3Tt5mk" to="wnzg:7RFM8R0Rm5r" resolve="namespace" />
-                  </node>
-                </node>
-                <node concept="359W_D" id="7RFM8R0RoeP" role="37wK5m">
-                  <ref role="359W_E" to="wnzg:383ZxwZqQYo" resolve="NamespaceDeclaration" />
-                  <ref role="359W_F" to="wnzg:383ZxwZsUja" resolve="members" />
-                </node>
-              </node>
->>>>>>> a5b410c665... Fix highlighting to be consistent and make the package name lowercase
-=======
-            <node concept="1PaTwC" id="7jWRS$D_0Wb" role="3ndbpf">
-=======
             <node concept="1PaTwC" id="7jWRS$D_0Wb" role="1aUNEU">
->>>>>>> 6bfe4b6649... example showing too long grammarcells method
               <node concept="3oM_SD" id="7jWRS$D_0Wc" role="1PaTwD">
                 <property role="3oM_SC" value="include" />
               </node>
@@ -769,7 +443,6 @@
               <node concept="3oM_SD" id="7jWRS$D_0Wn" role="1PaTwD">
                 <property role="3oM_SC" value="constructors" />
               </node>
->>>>>>> cc021cd381... migrated to 2019.2
             </node>
           </node>
           <node concept="3SKdUt" id="2xmTzC2MmC4" role="3cqZAp">
@@ -823,75 +496,14 @@
                         <node concept="37vLTw" id="2xmTzC2ME0H" role="2Oq$k0">
                           <ref role="3cqZAo" node="2xmTzC2MgH2" resolve="pClass" />
                         </node>
-<<<<<<< HEAD
                         <node concept="2qgKlT" id="6_kdBKMWMqE" role="2OqNvi">
-<<<<<<< HEAD
-                          <ref role="37wK5l" to="kntn:2xmTzC2MHBB" resolve="getAllLocalConstructors" />
-=======
-  <node concept="1M2fIO" id="ZKpU3C45zg">
-    <property role="3GE5qa" value="class" />
-    <ref role="1M2myG" to="wnzg:4o2nsMgBEtu" resolve="ClassType" />
-    <node concept="1N5Pfh" id="ZKpU3C45zh" role="1Mr941">
-      <ref role="1N5Vy1" to="wnzg:4o2nsMgBEtY" resolve="clazz" />
-      <node concept="3dgokm" id="ZKpU3C57SJ" role="1N6uqs">
-        <node concept="3clFbS" id="ZKpU3C57SL" role="2VODD2">
-          <node concept="3clFbF" id="ZKpU3C57VK" role="3cqZAp">
-            <node concept="2YIFZM" id="ZKpU3C53dL" role="3clFbG">
-              <ref role="37wK5l" to="o8zo:4IP40Bi3eAf" resolve="forNamedElements" />
-              <ref role="1Pybhc" to="o8zo:4IP40Bi3e_R" resolve="ListScope" />
-              <node concept="2OqwBi" id="ZKpU3C5dZh" role="37wK5m">
-                <node concept="2OqwBi" id="ZKpU3C56iw" role="2Oq$k0">
-                  <node concept="2OqwBi" id="ZKpU3C53vY" role="2Oq$k0">
-                    <node concept="2rP1CM" id="ZKpU3C53j2" role="2Oq$k0" />
-                    <node concept="2Xjw5R" id="ZKpU3C53KM" role="2OqNvi">
-                      <node concept="1xMEDy" id="ZKpU3C53KO" role="1xVPHs">
-                        <node concept="chp4Y" id="ZKpU3C53T6" role="ri$Ld">
-                          <ref role="cht4Q" to="x27k:5_l8w1EmTde" resolve="ImplementationModule" />
->>>>>>> b70d14e537... loads of stuff
-=======
-                      </node>
-                      <node concept="3TrcHB" id="7RFM8R0YLmg" role="2OqNvi">
-                        <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
-=======
                           <ref role="37wK5l" to="kntn:2xmTzC2MHBB" resolve="allLocalConstructors" />
                         </node>
->>>>>>> 128a1aeb4d... Consistentified(?) the class package.
                       </node>
                     </node>
                   </node>
                 </node>
               </node>
-<<<<<<< HEAD
-              <node concept="2OqwBi" id="7RFM8R0Rvpx" role="37vLTJ">
-                <node concept="EsrRn" id="7RFM8R0Rvpy" role="2Oq$k0" />
-                <node concept="3TrcHB" id="7RFM8R0Rvpz" role="2OqNvi">
-                  <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="1M2fIO" id="6gFj6gpEkqz">
-    <property role="3GE5qa" value="namespace" />
-    <ref role="1M2myG" to="wnzg:6gFj6gpBJFg" resolve="GlobalUsingGeneralNamespaceDeclaration" />
-    <node concept="EnEH3" id="6gFj6gpEkq$" role="1MhHOB">
-      <ref role="EomxK" to="tpck:h0TrG11" resolve="name" />
-      <node concept="Eqf_E" id="6gFj6gpKXtU" role="EtsB7">
-        <node concept="3clFbS" id="6gFj6gpKXtV" role="2VODD2">
-          <node concept="3clFbF" id="6gFj6gpN9aN" role="3cqZAp">
-            <node concept="3cpWs3" id="6gFj6gpREoD" role="3clFbG">
-              <node concept="Xl_RD" id="6gFj6gpRECu" role="3uHU7w">
-                <property role="Xl_RC" value="gb" />
-              </node>
-              <node concept="2OqwBi" id="6gFj6gpNbKG" role="3uHU7B">
-                <node concept="2OqwBi" id="6gFj6gpNawP" role="2Oq$k0">
-                  <node concept="EsrRn" id="6gFj6gpNab7" role="2Oq$k0" />
-                  <node concept="3TrEf2" id="6gFj6gpNb4L" role="2OqNvi">
-                    <ref role="3Tt5mk" to="wnzg:6gFj6gpBJF$" resolve="namespace" />
-=======
               <node concept="3clFbF" id="2xmTzC2NJmu" role="3cqZAp">
                 <node concept="2OqwBi" id="2xmTzC2NJ$W" role="3clFbG">
                   <node concept="37vLTw" id="2xmTzC2NJms" role="2Oq$k0">
@@ -911,279 +523,8 @@
                         </node>
                       </node>
                     </node>
->>>>>>> 128a1aeb4d... Consistentified(?) the class package.
                   </node>
                 </node>
-                <node concept="3TrcHB" id="6gFj6gpNcrF" role="2OqNvi">
-                  <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="1LLf8_" id="6gFj6gpPkCd" role="1LXaQT">
-        <node concept="3clFbS" id="6gFj6gpPkCe" role="2VODD2">
-          <node concept="3clFbF" id="6gFj6gpPkS6" role="3cqZAp">
-            <node concept="37vLTI" id="6gFj6gpPm7d" role="3clFbG">
-              <node concept="3cpWs3" id="6gFj6gpPpyg" role="37vLTx">
-                <node concept="Xl_RD" id="6gFj6gpPpIk" role="3uHU7B">
-                  <property role="Xl_RC" value="global using namespace " />
-                </node>
-                <node concept="2OqwBi" id="6gFj6gpPnCF" role="3uHU7w">
-                  <node concept="2OqwBi" id="6gFj6gpPmAO" role="2Oq$k0">
-                    <node concept="EsrRn" id="6gFj6gpPmjs" role="2Oq$k0" />
-                    <node concept="3TrEf2" id="6gFj6gpPmYH" role="2OqNvi">
-                      <ref role="3Tt5mk" to="wnzg:6gFj6gpBJF$" resolve="namespace" />
-                    </node>
-                  </node>
-                  <node concept="3TrcHB" id="6gFj6gpPoAB" role="2OqNvi">
-                    <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
-                  </node>
-                </node>
-<<<<<<< HEAD
-=======
-                <node concept="3TrEf2" id="2xmTzC2P5$g" role="2OqNvi">
-                  <ref role="3Tt5mk" to="wnzg:4o2nsMgBEtY" resolve="class" />
-                </node>
->>>>>>> 128a1aeb4d... Consistentified(?) the class package.
-              </node>
-              <node concept="2OqwBi" id="6gFj6gpPl5r" role="37vLTJ">
-                <node concept="EsrRn" id="6gFj6gpPkS5" role="2Oq$k0" />
-                <node concept="3TrcHB" id="6gFj6gpPlq5" role="2OqNvi">
-                  <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
-                </node>
-              </node>
-            </node>
-<<<<<<< HEAD
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="1M2fIO" id="7fNEwq_6ZK6">
-    <property role="3GE5qa" value="namespace" />
-    <ref role="1M2myG" to="wnzg:7fNEwq_6ZJn" resolve="NamespaceClassInstanceAttributeRef" />
-    <node concept="1N5Pfh" id="7fNEwq_6ZMx" role="1Mr941">
-      <ref role="1N5Vy1" to="wnzg:7fNEwq_6ZLT" resolve="class_attribute" />
-      <node concept="3dgokm" id="7fNEwq_6ZMB" role="1N6uqs">
-        <node concept="3clFbS" id="7fNEwq_6ZMD" role="2VODD2">
-          <node concept="3clFbF" id="7fNEwq_r2Gq" role="3cqZAp">
-            <node concept="2YIFZM" id="7fNEwq_r2On" role="3clFbG">
-              <ref role="37wK5l" to="o8zo:4IP40Bi3eAf" resolve="forNamedElements" />
-              <ref role="1Pybhc" to="o8zo:4IP40Bi3e_R" resolve="ListScope" />
-              <node concept="2OqwBi" id="7fNEwq_r3dU" role="37wK5m">
-                <node concept="3kakTB" id="7fNEwq_r2Ta" role="2Oq$k0" />
-                <node concept="2qgKlT" id="7fNEwq_r3FS" role="2OqNvi">
-                  <ref role="37wK5l" to="kntn:7fNEwq_qWne" resolve="allPublicAttributes" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="1M2fIO" id="7fNEwqBx$7b">
-    <property role="3GE5qa" value="namespace" />
-    <ref role="1M2myG" to="wnzg:7fNEwqBx$6S" resolve="NamespaceClassInstanceMethodCall" />
-    <node concept="1N5Pfh" id="7fNEwqBxCee" role="1Mr941">
-      <ref role="1N5Vy1" to="wnzg:7fNEwqBx$6W" resolve="class_method" />
-      <node concept="3dgokm" id="7fNEwqBxCey" role="1N6uqs">
-        <node concept="3clFbS" id="7fNEwqBxCe$" role="2VODD2">
-          <node concept="3clFbF" id="7fNEwqBxCtm" role="3cqZAp">
-            <node concept="2YIFZM" id="7fNEwqBxC_j" role="3clFbG">
-              <ref role="37wK5l" to="o8zo:4IP40Bi3eAf" resolve="forNamedElements" />
-              <ref role="1Pybhc" to="o8zo:4IP40Bi3e_R" resolve="ListScope" />
-              <node concept="2OqwBi" id="7fNEwqBym$e" role="37wK5m">
-                <node concept="3kakTB" id="7fNEwqBymgJ" role="2Oq$k0" />
-                <node concept="2qgKlT" id="7fNEwqBymXs" role="2OqNvi">
-                  <ref role="37wK5l" to="kntn:7fNEwqBxD2s" resolve="allPublicMethods" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="1M2fIO" id="3Nc$bFFSMUe">
-    <property role="3GE5qa" value="namespace" />
-    <ref role="1M2myG" to="wnzg:1$h5d7v1dEb" resolve="UsingNamespaceAttributeDeclaration" />
-    <node concept="1N5Pfh" id="3Nc$bFFSMUf" role="1Mr941">
-      <ref role="1N5Vy1" to="wnzg:1$h5d7v1dEp" resolve="attribute" />
-      <node concept="3dgokm" id="3Nc$bFFSMUh" role="1N6uqs">
-        <node concept="3clFbS" id="3Nc$bFFSMUi" role="2VODD2">
-          <node concept="3clFbF" id="3Nc$bFFSMXf" role="3cqZAp">
-            <node concept="2YIFZM" id="3Nc$bFFSN4K" role="3clFbG">
-              <ref role="37wK5l" to="o8zo:6t3ylNOzI9Y" resolve="forNamedElements" />
-              <ref role="1Pybhc" to="o8zo:7ipADkTevLm" resolve="SimpleRoleScope" />
-              <node concept="2OqwBi" id="3Nc$bFFSNpQ" role="37wK5m">
-                <node concept="3kakTB" id="3Nc$bFFSN9k" role="2Oq$k0" />
-                <node concept="3TrEf2" id="3Nc$bFFSNNS" role="2OqNvi">
-                  <ref role="3Tt5mk" to="wnzg:1$h5d7v1dEf" resolve="namespace" />
-                </node>
-              </node>
-              <node concept="359W_D" id="3Nc$bFFSO6C" role="37wK5m">
-                <ref role="359W_E" to="wnzg:383ZxwZqQYo" resolve="NamespaceDeclaration" />
-                <ref role="359W_F" to="wnzg:383ZxwZsUja" resolve="members" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="1M2fIO" id="7RFM8R0xwrr">
-    <property role="3GE5qa" value="namespace" />
-    <ref role="1M2myG" to="wnzg:7RFM8R0xwre" resolve="GlobalUsingNamespaceAttributeDeclaration" />
-    <node concept="EnEH3" id="7RFM8R0xz7o" role="1MhHOB">
-      <ref role="EomxK" to="tpck:h0TrG11" resolve="name" />
-      <node concept="Eqf_E" id="7RFM8R0xzX3" role="EtsB7">
-        <node concept="3clFbS" id="7RFM8R0xzX4" role="2VODD2">
-          <node concept="3clFbF" id="7RFM8R0xzX5" role="3cqZAp">
-            <node concept="3cpWs3" id="7RFM8R0xzX6" role="3clFbG">
-              <node concept="2OqwBi" id="7RFM8R0xzX8" role="3uHU7B">
-                <node concept="2OqwBi" id="7RFM8R0xzX9" role="2Oq$k0">
-                  <node concept="EsrRn" id="7RFM8R0xzXa" role="2Oq$k0" />
-                  <node concept="3TrEf2" id="7RFM8R19rSs" role="2OqNvi">
-                    <ref role="3Tt5mk" to="wnzg:7RFM8R0xwrs" resolve="attribute" />
-                  </node>
-                </node>
-                <node concept="3TrcHB" id="7RFM8R19ssB" role="2OqNvi">
-                  <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
-                </node>
-              </node>
-              <node concept="Xl_RD" id="7RFM8R0xzX7" role="3uHU7w">
-                <property role="Xl_RC" value="gb" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="1LLf8_" id="7RFM8R0xExm" role="1LXaQT">
-        <node concept="3clFbS" id="7RFM8R0xExn" role="2VODD2">
-          <node concept="3clFbF" id="7RFM8R0xF6h" role="3cqZAp">
-            <node concept="37vLTI" id="7RFM8R0xF6i" role="3clFbG">
-              <node concept="3cpWs3" id="7RFM8R0xSaW" role="37vLTx">
-                <node concept="2OqwBi" id="7RFM8R13HS3" role="3uHU7w">
-                  <node concept="2OqwBi" id="7RFM8R0xSTP" role="2Oq$k0">
-                    <node concept="EsrRn" id="7RFM8R0xSuh" role="2Oq$k0" />
-                    <node concept="3TrEf2" id="7RFM8R0xTwN" role="2OqNvi">
-                      <ref role="3Tt5mk" to="wnzg:7RFM8R0xwrs" resolve="attribute" />
-                    </node>
-                  </node>
-                  <node concept="3TrcHB" id="7RFM8R13I_z" role="2OqNvi">
-                    <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
-                  </node>
-                </node>
-                <node concept="3cpWs3" id="7RFM8R0xU4V" role="3uHU7B">
-                  <node concept="Xl_RD" id="7RFM8R0xUop" role="3uHU7w">
-                    <property role="Xl_RC" value="::" />
-                  </node>
-                  <node concept="3cpWs3" id="7RFM8R0xF6j" role="3uHU7B">
-                    <node concept="Xl_RD" id="7RFM8R0xF6k" role="3uHU7B">
-                      <property role="Xl_RC" value="global using namespace attribute " />
-                    </node>
-                    <node concept="2OqwBi" id="7RFM8R0xF6l" role="3uHU7w">
-                      <node concept="2OqwBi" id="7RFM8R0xF6m" role="2Oq$k0">
-                        <node concept="EsrRn" id="7RFM8R0xF6n" role="2Oq$k0" />
-                        <node concept="3TrEf2" id="7RFM8R0xF6o" role="2OqNvi">
-                          <ref role="3Tt5mk" to="wnzg:7RFM8R0xwrf" resolve="namespace" />
->>>>>>> a5b410c665... Fix highlighting to be consistent and make the package name lowercase
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-<<<<<<< HEAD
-                </node>
-              </node>
-<<<<<<< HEAD
-              <node concept="3clFbF" id="2xmTzC2NJmu" role="3cqZAp">
-                <node concept="2OqwBi" id="2xmTzC2NJ$W" role="3clFbG">
-                  <node concept="37vLTw" id="2xmTzC2NJms" role="2Oq$k0">
-                    <ref role="3cqZAo" node="6hUtorEuXyd" resolve="cScope" />
-                  </node>
-                  <node concept="liA8E" id="2xmTzC2NJNV" role="2OqNvi">
-                    <ref role="37wK5l" to="o8zo:7ipADkTevN6" resolve="addScope" />
-                    <node concept="2YIFZM" id="2xmTzC2NKTg" role="37wK5m">
-                      <ref role="37wK5l" to="o8zo:3jEbQoczdCs" resolve="forResolvableElements" />
-                      <ref role="1Pybhc" to="o8zo:4IP40Bi3e_R" resolve="ListScope" />
-                      <node concept="2OqwBi" id="6_kdBKMWO5z" role="37wK5m">
-                        <node concept="37vLTw" id="2xmTzC2NLq3" role="2Oq$k0">
-                          <ref role="3cqZAo" node="2xmTzC2MgH2" resolve="pClass" />
-                        </node>
-                        <node concept="2qgKlT" id="6_kdBKMWPSg" role="2OqNvi">
-                          <ref role="37wK5l" to="kntn:2xmTzC2MVik" resolve="getInheritedConstructors" />
-                        </node>
-=======
-                  <node concept="2Rf3mk" id="ZKpU3C57FE" role="2OqNvi">
-                    <node concept="1xMEDy" id="ZKpU3C57FG" role="1xVPHs">
-                      <node concept="chp4Y" id="ZKpU3C5$L$" role="ri$Ld">
-                        <ref role="cht4Q" to="wnzg:4o2nsMgBpPQ" resolve="ClassDeclaration" />
->>>>>>> b70d14e537... loads of stuff
-                      </node>
-                    </node>
-=======
-              <node concept="2OqwBi" id="7RFM8R0xF6q" role="37vLTJ">
-                <node concept="EsrRn" id="7RFM8R0xF6r" role="2Oq$k0" />
-                <node concept="3TrcHB" id="7RFM8R0xF6s" role="2OqNvi">
-                  <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="1N5Pfh" id="7RFM8R0xyPF" role="1Mr941">
-      <ref role="1N5Vy1" to="wnzg:7RFM8R0xwrs" resolve="attribute" />
-      <node concept="3dgokm" id="7RFM8R0xyPI" role="1N6uqs">
-        <node concept="3clFbS" id="7RFM8R0xyPJ" role="2VODD2">
-          <node concept="3clFbF" id="7RFM8R0xySH" role="3cqZAp">
-            <node concept="2YIFZM" id="7RFM8R0xySI" role="3clFbG">
-              <ref role="1Pybhc" to="o8zo:7ipADkTevLm" resolve="SimpleRoleScope" />
-              <ref role="37wK5l" to="o8zo:6t3ylNOzI9Y" resolve="forNamedElements" />
-              <node concept="2OqwBi" id="7RFM8R0xySJ" role="37wK5m">
-                <node concept="3kakTB" id="7RFM8R0xySK" role="2Oq$k0" />
-                <node concept="3TrEf2" id="7RFM8R0xySL" role="2OqNvi">
-                  <ref role="3Tt5mk" to="wnzg:7RFM8R0xwrf" resolve="namespace" />
-                </node>
-              </node>
-              <node concept="359W_D" id="7RFM8R0xySM" role="37wK5m">
-                <ref role="359W_E" to="wnzg:383ZxwZqQYo" resolve="NamespaceDeclaration" />
-                <ref role="359W_F" to="wnzg:383ZxwZsUja" resolve="members" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="1M2fIO" id="1rolTiuVQHX">
-    <property role="3GE5qa" value="namespace" />
-    <ref role="1M2myG" to="wnzg:1rolTiuOPQt" resolve="UsingNamespaceMethodDeclaration" />
-    <node concept="1N5Pfh" id="1rolTiuVQHY" role="1Mr941">
-      <ref role="1N5Vy1" to="wnzg:1rolTiuOPRl" resolve="method" />
-      <node concept="3dgokm" id="1rolTiuVQI4" role="1N6uqs">
-        <node concept="3clFbS" id="1rolTiuVQI6" role="2VODD2">
-          <node concept="3cpWs8" id="1rolTiuYDiE" role="3cqZAp">
-            <node concept="3cpWsn" id="1rolTiuYDiF" role="3cpWs9">
-              <property role="TrG5h" value="newScope" />
-              <node concept="3uibUv" id="1rolTiuYDiG" role="1tU5fm">
-                <ref role="3uigEE" to="o8zo:3fifI_xCtN$" resolve="Scope" />
-              </node>
-              <node concept="2YIFZM" id="1rolTiuYEd5" role="33vP2m">
-                <ref role="37wK5l" to="o8zo:6t3ylNOzI9Y" resolve="forNamedElements" />
-                <ref role="1Pybhc" to="o8zo:7ipADkTevLm" resolve="SimpleRoleScope" />
-                <node concept="2OqwBi" id="1rolTiuYEFn" role="37wK5m">
-                  <node concept="3kakTB" id="1rolTiuYElG" role="2Oq$k0" />
-                  <node concept="3TrEf2" id="1rolTiuYF5n" role="2OqNvi">
-                    <ref role="3Tt5mk" to="wnzg:1rolTiuRvvJ" resolve="namespace" />
->>>>>>> a5b410c665... Fix highlighting to be consistent and make the package name lowercase
-                  </node>
-                </node>
-<<<<<<< HEAD
               </node>
             </node>
             <node concept="17R0WA" id="2xmTzC2OYuP" role="3clFbw">
@@ -1197,7 +538,7 @@
                   </node>
                 </node>
                 <node concept="3TrEf2" id="2xmTzC2P5$g" role="2OqNvi">
-                  <ref role="3Tt5mk" to="wnzg:4o2nsMgBEtY" resolve="clazz" />
+                  <ref role="3Tt5mk" to="wnzg:4o2nsMgBEtY" resolve="class" />
                 </node>
               </node>
               <node concept="37vLTw" id="2xmTzC2OU6F" role="3uHU7B">
@@ -1207,498 +548,7 @@
             <node concept="9aQIb" id="2xmTzC2OeZz" role="9aQIa">
               <node concept="3clFbS" id="2xmTzC2OeZ$" role="9aQI4">
                 <node concept="3SKdUt" id="3n$8_Xbe0pk" role="3cqZAp">
-                  <node concept="3SKdUq" id="3n$8_Xbe0pm" role="3SKWNk">
-                    <property role="3SKdUp" value="Just the public ones. Doing this with getAllLocalConstructors on pClass does not work for whatever reason." />
-                  </node>
-                </node>
-                <node concept="3clFbF" id="2xmTzC2P9FJ" role="3cqZAp">
-                  <node concept="2OqwBi" id="2xmTzC2P9Xt" role="3clFbG">
-                    <node concept="37vLTw" id="2xmTzC2P9FH" role="2Oq$k0">
-                      <ref role="3cqZAo" node="6hUtorEuXyd" resolve="cScope" />
-                    </node>
-                    <node concept="liA8E" id="2xmTzC2PaDE" role="2OqNvi">
-                      <ref role="37wK5l" to="o8zo:7ipADkTevN6" resolve="addScope" />
-                      <node concept="2YIFZM" id="2xmTzC2PbSN" role="37wK5m">
-                        <ref role="37wK5l" to="o8zo:3jEbQoczdCs" resolve="forResolvableElements" />
-                        <ref role="1Pybhc" to="o8zo:4IP40Bi3e_R" resolve="ListScope" />
-                        <node concept="2OqwBi" id="3n$8_XbdP9_" role="37wK5m">
-                          <node concept="2OqwBi" id="3n$8_XbdMP2" role="2Oq$k0">
-                            <node concept="2OqwBi" id="2xmTzC2Pg0g" role="2Oq$k0">
-                              <node concept="2OqwBi" id="2xmTzC2Pd5k" role="2Oq$k0">
-                                <node concept="37vLTw" id="2xmTzC2PcuJ" role="2Oq$k0">
-                                  <ref role="3cqZAo" node="6hUtorEv66p" resolve="pDec" />
-                                </node>
-                                <node concept="2qgKlT" id="2xmTzC2Pf7L" role="2OqNvi">
-                                  <ref role="37wK5l" to="kntn:6hUtorEt37D" resolve="getClassType" />
-                                </node>
-                              </node>
-                              <node concept="3TrEf2" id="3n$8_XbdLLr" role="2OqNvi">
-                                <ref role="3Tt5mk" to="wnzg:4o2nsMgBEtY" resolve="class" />
-                              </node>
-                            </node>
-                            <node concept="2qgKlT" id="3n$8_XbdOlk" role="2OqNvi">
-                              <ref role="37wK5l" to="kntn:2xmTzC2MHBB" resolve="allLocalConstructors" />
-                            </node>
-                          </node>
-                          <node concept="3zZkjj" id="3n$8_XbdPYN" role="2OqNvi">
-                            <node concept="1bVj0M" id="3n$8_XbdPYP" role="23t8la">
-                              <node concept="3clFbS" id="3n$8_XbdPYQ" role="1bW5cS">
-                                <node concept="3clFbF" id="3n$8_XbdQ_K" role="3cqZAp">
-                                  <node concept="2OqwBi" id="3n$8_XbdTrf" role="3clFbG">
-                                    <node concept="2OqwBi" id="3n$8_XbdR9Z" role="2Oq$k0">
-                                      <node concept="37vLTw" id="3n$8_XbdQ_J" role="2Oq$k0">
-                                        <ref role="3cqZAo" node="3n$8_XbdPYR" resolve="it" />
-                                      </node>
-                                      <node concept="3TrcHB" id="3LE5RBQnZEZ" role="2OqNvi">
-                                        <ref role="3TsBF5" to="wnzg:2Ai0Gt9ODIG" resolve="visibility" />
-                                      </node>
-                                    </node>
-                                    <node concept="3t7uKx" id="3n$8_XbdUrW" role="2OqNvi">
-                                      <node concept="uoxfO" id="3n$8_XbdUrY" role="3t7uKA">
-                                        <ref role="uo_Cq" to="wnzg:2Ai0Gt9ODIs" />
-                                      </node>
-                                    </node>
-                                  </node>
-                                </node>
-                              </node>
-                              <node concept="Rh6nW" id="3n$8_XbdPYR" role="1bW2Oz">
-                                <property role="TrG5h" value="it" />
-                                <node concept="2jxLKc" id="3n$8_XbdPYS" role="1tU5fm" />
-=======
-                <node concept="3zZkjj" id="ZKpU3C5go9" role="2OqNvi">
-                  <node concept="1bVj0M" id="ZKpU3C5gob" role="23t8la">
-                    <node concept="3clFbS" id="ZKpU3C5goc" role="1bW5cS">
-                      <node concept="3clFbF" id="ZKpU3C5gyJ" role="3cqZAp">
-                        <node concept="3fqX7Q" id="ZKpU3C5gyH" role="3clFbG">
-                          <node concept="2OqwBi" id="ZKpU3C5gVq" role="3fr31v">
-                            <node concept="37vLTw" id="ZKpU3C5gDB" role="2Oq$k0">
-                              <ref role="3cqZAo" node="ZKpU3C5god" resolve="it" />
-                            </node>
-                            <node concept="1mIQ4w" id="ZKpU3C5hm8" role="2OqNvi">
-                              <node concept="chp4Y" id="ZKpU3C5_8o" role="cj9EA">
-                                <ref role="cht4Q" to="1yyn:ZKpU3C3Nka" resolve="TemplateClassDeclaration" />
->>>>>>> b70d14e537... loads of stuff
-                              </node>
-                            </node>
-                          </node>
-                        </node>
-                      </node>
-                    </node>
-<<<<<<< HEAD
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-<<<<<<< HEAD
-          <node concept="3clFbH" id="2xmTzC2Mn0X" role="3cqZAp" />
-          <node concept="3cpWs6" id="6hUtorEuXS6" role="3cqZAp">
-            <node concept="37vLTw" id="6hUtorEuXVs" role="3cqZAk">
-              <ref role="3cqZAo" node="6hUtorEuXyd" resolve="cScope" />
-<<<<<<< HEAD
-=======
-=======
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="1M2fIO" id="6hUtorEt3FS">
-    <property role="3GE5qa" value="class" />
-    <ref role="1M2myG" to="wnzg:6hUtorE0jsx" resolve="IClassTyped" />
-  </node>
-  <node concept="1M2fIO" id="7DDmkyXkvJ">
-    <property role="3GE5qa" value="method.constructor" />
-    <ref role="1M2myG" to="wnzg:7DDmkyVr_r" resolve="ConstructorInitializedAttribute" />
-    <node concept="1N5Pfh" id="7DDmkz1IpA" role="1Mr941">
-      <ref role="1N5Vy1" to="wnzg:7DDmkz1Ipj" resolve="identity" />
-      <node concept="3dgokm" id="7DDmkz1ICH" role="1N6uqs">
-        <node concept="3clFbS" id="7DDmkz1ICJ" role="2VODD2">
-          <node concept="3cpWs8" id="7DDmkz1IIN" role="3cqZAp">
-            <node concept="3cpWsn" id="7DDmkz1IIO" role="3cpWs9">
-              <property role="TrG5h" value="cScope" />
-              <node concept="3uibUv" id="7DDmkz1IIP" role="1tU5fm">
-                <ref role="3uigEE" to="o8zo:7ipADkTevLt" resolve="CompositeScope" />
-              </node>
-              <node concept="2ShNRf" id="7DDmkz1IOZ" role="33vP2m">
-                <node concept="1pGfFk" id="7DDmkz1IOY" role="2ShVmc">
-                  <ref role="37wK5l" to="o8zo:7ipADkTevLv" resolve="CompositeScope" />
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="3cpWs8" id="7DDmkz1K84" role="3cqZAp">
-            <node concept="3cpWsn" id="7DDmkz1K87" role="3cpWs9">
-              <property role="TrG5h" value="pClass" />
-              <node concept="3Tqbb2" id="7DDmkz1K82" role="1tU5fm">
-                <ref role="ehGHo" to="wnzg:4o2nsMgBpPQ" resolve="ClassDeclaration" />
-              </node>
-              <node concept="2OqwBi" id="7DDmkz1KzB" role="33vP2m">
-                <node concept="2rP1CM" id="7DDmkz1Kp1" role="2Oq$k0" />
-                <node concept="2Xjw5R" id="7DDmkz1KH3" role="2OqNvi">
-                  <node concept="1xMEDy" id="7DDmkz1KH5" role="1xVPHs">
-                    <node concept="chp4Y" id="7DDmkz1KMX" role="ri$Ld">
-                      <ref role="cht4Q" to="wnzg:4o2nsMgBpPQ" resolve="ClassDeclaration" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="3clFbH" id="7DDmkz1J2H" role="3cqZAp" />
-          <node concept="3clFbF" id="7DDmkz1M_M" role="3cqZAp">
-            <node concept="2OqwBi" id="7DDmkz1M_N" role="3clFbG">
-              <node concept="37vLTw" id="7DDmkz1M_O" role="2Oq$k0">
-                <ref role="3cqZAo" node="7DDmkz1IIO" resolve="cScope" />
-              </node>
-              <node concept="liA8E" id="7DDmkz1M_P" role="2OqNvi">
-                <ref role="37wK5l" to="o8zo:7ipADkTevN6" resolve="addScope" />
-                <node concept="2YIFZM" id="7DDmkz1M_Q" role="37wK5m">
-                  <ref role="37wK5l" to="o8zo:3jEbQoczdCs" resolve="forResolvableElements" />
-                  <ref role="1Pybhc" to="o8zo:4IP40Bi3e_R" resolve="ListScope" />
-                  <node concept="2OqwBi" id="7DDmkz1M_R" role="37wK5m">
-                    <node concept="37vLTw" id="7DDmkz1M_S" role="2Oq$k0">
-                      <ref role="3cqZAo" node="7DDmkz1K87" resolve="pClass" />
-                    </node>
-                    <node concept="2qgKlT" id="7DDmkz1M_T" role="2OqNvi">
-                      <ref role="37wK5l" to="kntn:gWE$qahJwJ" resolve="allDataMembers" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="2Gpval" id="7DDmkz1P_c" role="3cqZAp">
-            <node concept="2GrKxI" id="7DDmkz1P_e" role="2Gsz3X">
-              <property role="TrG5h" value="parentC" />
-            </node>
-            <node concept="2OqwBi" id="7DDmkz1QyV" role="2GsD0m">
-              <node concept="37vLTw" id="7DDmkz1Q9B" role="2Oq$k0">
-                <ref role="3cqZAo" node="7DDmkz1K87" resolve="pClass" />
-              </node>
-              <node concept="3Tsc0h" id="7DDmkz1Rwb" role="2OqNvi">
-                <ref role="3TtcxE" to="wnzg:3UsoL$l5qj8" resolve="ancestors" />
-              </node>
-            </node>
-            <node concept="3clFbS" id="7DDmkz1P_i" role="2LFqv$">
-              <node concept="3clFbF" id="7DDmkz1RGn" role="3cqZAp">
-                <node concept="2OqwBi" id="7DDmkz1RGo" role="3clFbG">
-                  <node concept="37vLTw" id="7DDmkz1RGp" role="2Oq$k0">
-                    <ref role="3cqZAo" node="7DDmkz1IIO" resolve="cScope" />
-                  </node>
-                  <node concept="liA8E" id="7DDmkz1RGq" role="2OqNvi">
-                    <ref role="37wK5l" to="o8zo:7ipADkTevN6" resolve="addScope" />
-                    <node concept="2YIFZM" id="7DDmkz1RGr" role="37wK5m">
-                      <ref role="37wK5l" to="o8zo:3jEbQoczdCs" resolve="forResolvableElements" />
-                      <ref role="1Pybhc" to="o8zo:4IP40Bi3e_R" resolve="ListScope" />
-                      <node concept="2OqwBi" id="7DDmkz1Ukq" role="37wK5m">
-                        <node concept="2OqwBi" id="7DDmkz1To6" role="2Oq$k0">
-                          <node concept="2GrUjf" id="7DDmkz1SNr" role="2Oq$k0">
-                            <ref role="2Gs0qQ" node="7DDmkz1P_e" resolve="parentC" />
-                          </node>
-                          <node concept="3TrEf2" id="7DDmkz1TIr" role="2OqNvi">
-                            <ref role="3Tt5mk" to="wnzg:3UsoL$l5qkM" resolve="parentClass" />
-                          </node>
-                        </node>
-                        <node concept="2qgKlT" id="7DDmkz1Voy" role="2OqNvi">
-                          <ref role="37wK5l" to="kntn:6oRbCP690yv" resolve="allHeritableDataMembers" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="3clFbH" id="7DDmkz1ISa" role="3cqZAp" />
-          <node concept="3cpWs6" id="7DDmkz1IVz" role="3cqZAp">
-            <node concept="37vLTw" id="7DDmkz1IYT" role="3cqZAk">
-              <ref role="3cqZAo" node="7DDmkz1IIO" resolve="cScope" />
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="1M2fIO" id="7DDmkza$8D">
-    <property role="3GE5qa" value="method.constructor" />
-    <ref role="1M2myG" to="wnzg:7DDmkz5m05" resolve="ConstructorInitializedConstructor" />
-    <node concept="1N5Pfh" id="7DDmkza$8E" role="1Mr941">
-      <ref role="1N5Vy1" to="wnzg:7DDmkza$5N" resolve="identity" />
-      <node concept="3dgokm" id="7DDmkza$8H" role="1N6uqs">
-        <node concept="3clFbS" id="7DDmkza$8I" role="2VODD2">
-          <node concept="3cpWs8" id="7DDmkza$eL" role="3cqZAp">
-            <node concept="3cpWsn" id="7DDmkza$eM" role="3cpWs9">
-              <property role="TrG5h" value="cScope" />
-              <node concept="3uibUv" id="7DDmkza$eN" role="1tU5fm">
-                <ref role="3uigEE" to="o8zo:7ipADkTevLt" resolve="CompositeScope" />
-              </node>
-              <node concept="2ShNRf" id="7DDmkza$nP" role="33vP2m">
-                <node concept="1pGfFk" id="7DDmkza$nO" role="2ShVmc">
-                  <ref role="37wK5l" to="o8zo:7ipADkTevLv" resolve="CompositeScope" />
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="3cpWs8" id="7DDmkza_SU" role="3cqZAp">
-            <node concept="3cpWsn" id="7DDmkza_SX" role="3cpWs9">
-              <property role="TrG5h" value="pClass" />
-              <node concept="3Tqbb2" id="7DDmkza_SS" role="1tU5fm">
-                <ref role="ehGHo" to="wnzg:4o2nsMgBpPQ" resolve="ClassDeclaration" />
-              </node>
-              <node concept="2OqwBi" id="7DDmkzaAUX" role="33vP2m">
-                <node concept="2rP1CM" id="7DDmkzaAlm" role="2Oq$k0" />
-                <node concept="2Xjw5R" id="7DDmkzaB9u" role="2OqNvi">
-                  <node concept="1xMEDy" id="7DDmkzaB9w" role="1xVPHs">
-                    <node concept="chp4Y" id="7DDmkzaBgT" role="ri$Ld">
-                      <ref role="cht4Q" to="wnzg:4o2nsMgBpPQ" resolve="ClassDeclaration" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="3clFbH" id="7DDmkza$Jy" role="3cqZAp" />
-          <node concept="3SKdUt" id="7DDmkzaY6f" role="3cqZAp">
-            <node concept="3SKdUq" id="7DDmkzaY6h" role="3SKWNk">
-              <property role="3SKdUp" value="This class's constructors" />
-            </node>
-          </node>
-          <node concept="3clFbF" id="7DDmkza$RC" role="3cqZAp">
-            <node concept="2OqwBi" id="7DDmkza_2j" role="3clFbG">
-              <node concept="37vLTw" id="7DDmkza$RA" role="2Oq$k0">
-                <ref role="3cqZAo" node="7DDmkza$eM" resolve="cScope" />
-              </node>
-              <node concept="liA8E" id="7DDmkza_eW" role="2OqNvi">
-                <ref role="37wK5l" to="o8zo:7ipADkTevN6" resolve="addScope" />
-                <node concept="2YIFZM" id="7DDmkzaGXz" role="37wK5m">
-                  <ref role="37wK5l" to="o8zo:3jEbQoczdCs" resolve="forResolvableElements" />
-                  <ref role="1Pybhc" to="o8zo:4IP40Bi3e_R" resolve="ListScope" />
-                  <node concept="2OqwBi" id="7DDmkzaCy7" role="37wK5m">
-                    <node concept="2OqwBi" id="7DDmkzaBL_" role="2Oq$k0">
-                      <node concept="37vLTw" id="7DDmkzaBsX" role="2Oq$k0">
-                        <ref role="3cqZAo" node="7DDmkza_SX" resolve="pClass" />
-                      </node>
-                      <node concept="2qgKlT" id="7DDmkzaChT" role="2OqNvi">
-                        <ref role="37wK5l" to="kntn:2xmTzC2MHBB" resolve="getAllLocalConstructors" />
-                      </node>
-                    </node>
-                    <node concept="3zZkjj" id="7DDmkzaCVG" role="2OqNvi">
-                      <node concept="1bVj0M" id="7DDmkzaCVI" role="23t8la">
-                        <node concept="3clFbS" id="7DDmkzaCVJ" role="1bW5cS">
-                          <node concept="3clFbF" id="7DDmkzaDcn" role="3cqZAp">
-                            <node concept="1Wc70l" id="5i01kANoEVr" role="3clFbG">
-                              <node concept="3y3z36" id="7DDmkzewhq" role="3uHU7B">
-                                <node concept="37vLTw" id="7DDmkzeu$p" role="3uHU7B">
-                                  <ref role="3cqZAo" node="7DDmkzaCVK" resolve="it" />
-                                </node>
-                                <node concept="2rP1CM" id="7DDmkzewD2" role="3uHU7w" />
-                              </node>
-                              <node concept="3fqX7Q" id="5i01kANoFKa" role="3uHU7w">
-                                <node concept="2OqwBi" id="5i01kANoGgw" role="3fr31v">
-                                  <node concept="37vLTw" id="5i01kANoFKj" role="2Oq$k0">
-                                    <ref role="3cqZAo" node="7DDmkzaCVK" resolve="it" />
-                                  </node>
-                                  <node concept="3TrcHB" id="5i01kANoHaG" role="2OqNvi">
-                                    <ref role="3TsBF5" to="wnzg:5i01kANicU4" resolve="isDestructor" />
-                                  </node>
-                                </node>
-                              </node>
-                            </node>
-                          </node>
-                        </node>
-                        <node concept="Rh6nW" id="7DDmkzaCVK" role="1bW2Oz">
-                          <property role="TrG5h" value="it" />
-                          <node concept="2jxLKc" id="7DDmkzaCVL" role="1tU5fm" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="3SKdUt" id="7DDmkzaYM2" role="3cqZAp">
-            <node concept="3SKdUq" id="7DDmkzaYM4" role="3SKWNk">
-              <property role="3SKdUp" value="Inherited ones" />
-            </node>
-          </node>
-          <node concept="3clFbF" id="7DDmkzaTgD" role="3cqZAp">
-            <node concept="2OqwBi" id="7DDmkzaTyh" role="3clFbG">
-              <node concept="37vLTw" id="7DDmkzaTgB" role="2Oq$k0">
-                <ref role="3cqZAo" node="7DDmkza$eM" resolve="cScope" />
-              </node>
-              <node concept="liA8E" id="7DDmkzaTOq" role="2OqNvi">
-                <ref role="37wK5l" to="o8zo:7ipADkTevN6" resolve="addScope" />
-                <node concept="2YIFZM" id="7DDmkzaUL1" role="37wK5m">
-                  <ref role="37wK5l" to="o8zo:3jEbQoczdCs" resolve="forResolvableElements" />
-                  <ref role="1Pybhc" to="o8zo:4IP40Bi3e_R" resolve="ListScope" />
-                  <node concept="2OqwBi" id="7DDmkzaV$v" role="37wK5m">
-                    <node concept="37vLTw" id="7DDmkzaVa6" role="2Oq$k0">
-                      <ref role="3cqZAo" node="7DDmkza_SX" resolve="pClass" />
-                    </node>
-                    <node concept="2qgKlT" id="7DDmkzaWIX" role="2OqNvi">
-                      <ref role="37wK5l" to="kntn:2xmTzC2MVik" resolve="getInheritedConstructors" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="3clFbH" id="7DDmkza$ya" role="3cqZAp" />
-          <node concept="3cpWs6" id="7DDmkza$Cq" role="3cqZAp">
-            <node concept="37vLTw" id="7DDmkza$FK" role="3cqZAk">
-              <ref role="3cqZAo" node="7DDmkza$eM" resolve="cScope" />
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="1M2fIO" id="6gFj6gpEkqz">
-    <property role="3GE5qa" value="namespace" />
-    <ref role="1M2myG" to="wnzg:6gFj6gpBJFg" resolve="GlobalUsingGeneralNamespaceDeclaration" />
-    <node concept="EnEH3" id="6gFj6gpEkq$" role="1MhHOB">
-      <ref role="EomxK" to="tpck:h0TrG11" resolve="name" />
-      <node concept="Eqf_E" id="6gFj6gpKXtU" role="EtsB7">
-        <node concept="3clFbS" id="6gFj6gpKXtV" role="2VODD2">
-          <node concept="3clFbF" id="6gFj6gpN9aN" role="3cqZAp">
-            <node concept="3cpWs3" id="6gFj6gpREoD" role="3clFbG">
-              <node concept="Xl_RD" id="6gFj6gpRECu" role="3uHU7w">
-                <property role="Xl_RC" value="gb" />
-              </node>
-              <node concept="2OqwBi" id="6gFj6gpNbKG" role="3uHU7B">
-                <node concept="2OqwBi" id="6gFj6gpNawP" role="2Oq$k0">
-                  <node concept="EsrRn" id="6gFj6gpNab7" role="2Oq$k0" />
-                  <node concept="3TrEf2" id="6gFj6gpNb4L" role="2OqNvi">
-                    <ref role="3Tt5mk" to="wnzg:6gFj6gpBJF$" resolve="namespace" />
-                  </node>
-                </node>
-                <node concept="3TrcHB" id="6gFj6gpNcrF" role="2OqNvi">
-                  <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="1LLf8_" id="6gFj6gpPkCd" role="1LXaQT">
-        <node concept="3clFbS" id="6gFj6gpPkCe" role="2VODD2">
-          <node concept="3clFbF" id="6gFj6gpPkS6" role="3cqZAp">
-            <node concept="37vLTI" id="6gFj6gpPm7d" role="3clFbG">
-              <node concept="3cpWs3" id="6gFj6gpPpyg" role="37vLTx">
-                <node concept="Xl_RD" id="6gFj6gpPpIk" role="3uHU7B">
-                  <property role="Xl_RC" value="global using namespace " />
-                </node>
-                <node concept="2OqwBi" id="6gFj6gpPnCF" role="3uHU7w">
-                  <node concept="2OqwBi" id="6gFj6gpPmAO" role="2Oq$k0">
-                    <node concept="EsrRn" id="6gFj6gpPmjs" role="2Oq$k0" />
-                    <node concept="3TrEf2" id="6gFj6gpPmYH" role="2OqNvi">
-                      <ref role="3Tt5mk" to="wnzg:6gFj6gpBJF$" resolve="namespace" />
-                    </node>
-                  </node>
-                  <node concept="3TrcHB" id="6gFj6gpPoAB" role="2OqNvi">
-                    <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
-                  </node>
-                </node>
-              </node>
-              <node concept="2OqwBi" id="6gFj6gpPl5r" role="37vLTJ">
-                <node concept="EsrRn" id="6gFj6gpPkS5" role="2Oq$k0" />
-                <node concept="3TrcHB" id="6gFj6gpPlq5" role="2OqNvi">
-                  <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
-                </node>
-              </node>
-            </node>
-          </node>
->>>>>>> b0d1d327f3... Add contexpr to constructors
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="1M2fIO" id="7fNEwq_6ZK6">
-    <property role="3GE5qa" value="namespace" />
-    <ref role="1M2myG" to="wnzg:7fNEwq_6ZJn" resolve="NamespaceClassInstanceAttributeRef" />
-    <node concept="1N5Pfh" id="7fNEwq_6ZMx" role="1Mr941">
-      <ref role="1N5Vy1" to="wnzg:7fNEwq_6ZLT" resolve="classAttribute" />
-      <node concept="3dgokm" id="7fNEwq_6ZMB" role="1N6uqs">
-        <node concept="3clFbS" id="7fNEwq_6ZMD" role="2VODD2">
-          <node concept="3clFbF" id="7fNEwq_r2Gq" role="3cqZAp">
-            <node concept="2YIFZM" id="7fNEwq_r2On" role="3clFbG">
-              <ref role="37wK5l" to="o8zo:4IP40Bi3eAf" resolve="forNamedElements" />
-              <ref role="1Pybhc" to="o8zo:4IP40Bi3e_R" resolve="ListScope" />
-              <node concept="2OqwBi" id="7fNEwq_r3dU" role="37wK5m">
-                <node concept="3kakTB" id="7fNEwq_r2Ta" role="2Oq$k0" />
-                <node concept="2qgKlT" id="7fNEwq_r3FS" role="2OqNvi">
-                  <ref role="37wK5l" to="kntn:7fNEwq_qWne" resolve="allPublicAttributes" />
-                </node>
-              </node>
->>>>>>> 180d6b24f4... Unify structure naming, fix dependency issue and remove unused dependencies
-            </node>
-          </node>
-=======
-=======
-      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
-        <property id="1169194664001" name="name" index="TrG5h" />
-      </concept>
->>>>>>> 186ea3c3fb... Added bases 'Using Namespace Method' feature, cleaned up TextGens and Editors
-    </language>
-  </registry>
-  <node concept="1M2fIO" id="383ZxwZunUH">
-    <property role="3GE5qa" value="namespace" />
-    <ref role="1M2myG" to="wnzg:383ZxwZrBkp" resolve="NamespaceAttributeRef" />
-    <node concept="1N5Pfh" id="383ZxwZunUI" role="1Mr941">
-      <ref role="1N5Vy1" to="wnzg:383ZxwZrBkt" resolve="attribute" />
-      <node concept="3dgokm" id="383ZxwZunUO" role="1N6uqs">
-        <node concept="3clFbS" id="383ZxwZunUQ" role="2VODD2">
-          <node concept="3cpWs8" id="3Nc$bFFUPOI" role="3cqZAp">
-            <node concept="3cpWsn" id="3Nc$bFFUPOJ" role="3cpWs9">
-              <property role="TrG5h" value="memberScope" />
-              <node concept="3uibUv" id="3Nc$bFFUPOK" role="1tU5fm">
-                <ref role="3uigEE" to="o8zo:3fifI_xCtN$" resolve="Scope" />
-              </node>
-<<<<<<< HEAD
-              <node concept="2YIFZM" id="3Nc$bFFUQ5t" role="33vP2m">
-                <ref role="1Pybhc" to="o8zo:7ipADkTevLm" resolve="SimpleRoleScope" />
-                <ref role="37wK5l" to="o8zo:6t3ylNOzI9Y" resolve="forNamedElements" />
-                <node concept="2OqwBi" id="3Nc$bFFUQ5u" role="37wK5m">
-                  <node concept="3kakTB" id="3Nc$bFFUQ5v" role="2Oq$k0" />
-                  <node concept="3TrEf2" id="3Nc$bFFUQ5w" role="2OqNvi">
-                    <ref role="3Tt5mk" to="wnzg:383ZxwZrBkq" resolve="namespace" />
-                  </node>
-                </node>
-                <node concept="359W_D" id="3Nc$bFFUQ5x" role="37wK5m">
-                  <ref role="359W_E" to="wnzg:383ZxwZqQYo" resolve="NamespaceDeclaration" />
-                  <ref role="359W_F" to="wnzg:383ZxwZsUja" resolve="members" />
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="3cpWs8" id="3Nc$bFFUQuT" role="3cqZAp">
-            <node concept="3cpWsn" id="3Nc$bFFUQuU" role="3cpWs9">
-              <property role="TrG5h" value="usingScope" />
-              <node concept="3uibUv" id="3Nc$bFFUQuV" role="1tU5fm">
-                <ref role="3uigEE" to="o8zo:3fifI_xCtN$" resolve="Scope" />
-              </node>
-              <node concept="2YIFZM" id="3Nc$bFFVutU" role="33vP2m">
-                <ref role="37wK5l" to="o8zo:4IP40Bi3eAf" resolve="forNamedElements" />
-                <ref role="1Pybhc" to="o8zo:4IP40Bi3e_R" resolve="ListScope" />
-                <node concept="2OqwBi" id="3Nc$bFFVuXp" role="37wK5m">
-                  <node concept="3kakTB" id="3Nc$bFFVuC7" role="2Oq$k0" />
-                  <node concept="2qgKlT" id="6gFj6gt5xkN" role="2OqNvi">
-                    <ref role="37wK5l" to="kntn:6gFj6gsR4hL" resolve="usedAttributes" />
-=======
-            </node>
-            <node concept="9aQIb" id="2xmTzC2OeZz" role="9aQIa">
-              <node concept="3clFbS" id="2xmTzC2OeZ$" role="9aQI4">
-                <node concept="3SKdUt" id="3n$8_Xbe0pk" role="3cqZAp">
-                  <node concept="1PaTwC" id="7jWRS$D_0Wt" role="3ndbpf">
-=======
-            <node concept="9aQIb" id="2xmTzC2OeZz" role="9aQIa">
-              <node concept="3clFbS" id="2xmTzC2OeZ$" role="9aQI4">
-                <node concept="3SKdUt" id="3n$8_Xbe0pk" role="3cqZAp">
                   <node concept="1PaTwC" id="7jWRS$D_0Wt" role="1aUNEU">
->>>>>>> 6bfe4b6649... example showing too long grammarcells method
                     <node concept="3oM_SD" id="7jWRS$D_0Wu" role="1PaTwD">
                       <property role="3oM_SC" value="Just" />
                     </node>
@@ -1808,44 +658,21 @@
                         </node>
                       </node>
                     </node>
->>>>>>> cc021cd381... migrated to 2019.2
                   </node>
                 </node>
               </node>
             </node>
           </node>
-          <node concept="3cpWs8" id="3Nc$bFFURkQ" role="3cqZAp">
-            <node concept="3cpWsn" id="3Nc$bFFURkR" role="3cpWs9">
-              <property role="TrG5h" value="compositeScope" />
-              <node concept="3uibUv" id="3Nc$bFFURkS" role="1tU5fm">
-                <ref role="3uigEE" to="o8zo:3fifI_xCtN$" resolve="Scope" />
-              </node>
-              <node concept="2YIFZM" id="3Nc$bFFURQO" role="33vP2m">
-                <ref role="37wK5l" to="o8zo:7ipADkTevQ_" resolve="createComposite" />
-                <ref role="1Pybhc" to="o8zo:7ipADkTevLt" resolve="CompositeScope" />
-                <node concept="37vLTw" id="3Nc$bFFURZB" role="37wK5m">
-                  <ref role="3cqZAo" node="3Nc$bFFUPOJ" resolve="memberScope" />
-                </node>
-                <node concept="37vLTw" id="3Nc$bFFUShb" role="37wK5m">
-                  <ref role="3cqZAo" node="3Nc$bFFUQuU" resolve="usingScope" />
-                </node>
-              </node>
+          <node concept="3clFbH" id="2xmTzC2Mn0X" role="3cqZAp" />
+          <node concept="3cpWs6" id="6hUtorEuXS6" role="3cqZAp">
+            <node concept="37vLTw" id="6hUtorEuXVs" role="3cqZAk">
+              <ref role="3cqZAo" node="6hUtorEuXyd" resolve="cScope" />
             </node>
           </node>
-<<<<<<< HEAD
->>>>>>> b95cdd26ff... Namespace Declaration and Member Referencing (WIP) without TextGen elements
         </node>
       </node>
     </node>
   </node>
-<<<<<<< HEAD
-<<<<<<< HEAD
-  <node concept="1M2fIO" id="6hUtorEt3FS">
-    <property role="3GE5qa" value="class" />
-    <ref role="1M2myG" to="wnzg:6hUtorE0jsx" resolve="IClassTyped" />
-  </node>
-=======
->>>>>>> 128a1aeb4d... Consistentified(?) the class package.
   <node concept="1M2fIO" id="7DDmkyXkvJ">
     <property role="3GE5qa" value="method.constructor" />
     <ref role="1M2myG" to="wnzg:7DDmkyVr_r" resolve="ConstructorInitializedAttribute" />
@@ -2017,20 +844,12 @@
           <node concept="3cpWs6" id="7DDmkz1IVz" role="3cqZAp">
             <node concept="37vLTw" id="7DDmkz1IYT" role="3cqZAk">
               <ref role="3cqZAo" node="7DDmkz1IIO" resolve="cScope" />
-=======
-          <node concept="3cpWs6" id="3Nc$bFFUQZA" role="3cqZAp">
-            <node concept="37vLTw" id="3Nc$bFFUSpU" role="3cqZAk">
-              <ref role="3cqZAo" node="3Nc$bFFURkR" resolve="compositeScope" />
->>>>>>> 8526e6c0af... Finished the other using statements, only TextGen left.
             </node>
           </node>
         </node>
       </node>
     </node>
   </node>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
   <node concept="1M2fIO" id="7DDmkza$8D">
     <property role="3GE5qa" value="method.constructor" />
     <ref role="1M2myG" to="wnzg:7DDmkz5m05" resolve="ConstructorInitializedConstructor" />
@@ -2047,50 +866,10 @@
               <node concept="2ShNRf" id="7DDmkza$nP" role="33vP2m">
                 <node concept="1pGfFk" id="7DDmkza$nO" role="2ShVmc">
                   <ref role="37wK5l" to="o8zo:7ipADkTevLv" resolve="CompositeScope" />
-=======
-  <node concept="1M2fIO" id="7RFM8R3Szyr">
-    <property role="3GE5qa" value="namespace" />
-    <ref role="1M2myG" to="wnzg:7RFM8R3Me1y" resolve="NamespaceClassInstance" />
-    <node concept="1N5Pfh" id="7RFM8R3Szys" role="1Mr941">
-      <ref role="1N5Vy1" to="wnzg:7RFM8R3Me2a" resolve="class" />
-      <node concept="3dgokm" id="7RFM8R3Szyy" role="1N6uqs">
-        <node concept="3clFbS" id="7RFM8R3Szy$" role="2VODD2">
-          <node concept="3clFbF" id="7RFM8R3SzD2" role="3cqZAp">
-            <node concept="2YIFZM" id="7RFM8R3SzI4" role="3clFbG">
-              <ref role="37wK5l" to="o8zo:4IP40Bi3eAf" resolve="forNamedElements" />
-              <ref role="1Pybhc" to="o8zo:4IP40Bi3e_R" resolve="ListScope" />
-              <node concept="2OqwBi" id="7RFM8R3TYSm" role="37wK5m">
-                <node concept="3kakTB" id="7RFM8R3TYxV" role="2Oq$k0" />
-                <node concept="2qgKlT" id="7RFM8R3TZrB" role="2OqNvi">
-                  <ref role="37wK5l" to="kntn:7RFM8R3Sz_I" resolve="classesWithinNamespaces" />
->>>>>>> a5b410c665... Fix highlighting to be consistent and make the package name lowercase
-=======
-  <node concept="1M2fIO" id="ZKpU3C45zg">
-    <property role="3GE5qa" value="class" />
-    <ref role="1M2myG" to="wnzg:4o2nsMgBEtu" resolve="ClassType" />
-    <node concept="1N5Pfh" id="ZKpU3C45zh" role="1Mr941">
-      <ref role="1N5Vy1" to="wnzg:4o2nsMgBEtY" resolve="clazz" />
-      <node concept="3dgokm" id="ZKpU3C57SJ" role="1N6uqs">
-        <node concept="3clFbS" id="ZKpU3C57SL" role="2VODD2">
-          <node concept="3cpWs8" id="64ejoCJUGcK" role="3cqZAp">
-            <node concept="3cpWsn" id="64ejoCJUGcN" role="3cpWs9">
-              <property role="TrG5h" value="scope" />
-              <node concept="A3Dl8" id="64ejoCJUGcH" role="1tU5fm">
-                <node concept="3Tqbb2" id="64ejoCJUGxC" role="A3Ik2">
-                  <ref role="ehGHo" to="wnzg:4o2nsMgBpPQ" resolve="ClassDeclaration" />
-                </node>
-              </node>
-              <node concept="2ShNRf" id="64ejoCJUHt8" role="33vP2m">
-                <node concept="kMnCb" id="64ejoCJUINu" role="2ShVmc">
-                  <node concept="3Tqbb2" id="64ejoCJUJ7s" role="kMuH3">
-                    <ref role="ehGHo" to="wnzg:4o2nsMgBpPQ" resolve="ClassDeclaration" />
-                  </node>
->>>>>>> 5fffaff81e... added broken scoping
                 </node>
               </node>
             </node>
           </node>
-<<<<<<< HEAD
           <node concept="3cpWs8" id="7DDmkza_SU" role="3cqZAp">
             <node concept="3cpWsn" id="7DDmkza_SX" role="3cpWs9">
               <property role="TrG5h" value="pClass" />
@@ -2105,34 +884,10 @@
                       <ref role="cht4Q" to="wnzg:4o2nsMgBpPQ" resolve="ClassDeclaration" />
                     </node>
                   </node>
-=======
-          <node concept="3clFbH" id="64ejoCJWyHv" role="3cqZAp" />
-          <node concept="3clFbF" id="64ejoCJUK8w" role="3cqZAp">
-            <node concept="2OqwBi" id="64ejoCJUKPg" role="3clFbG">
-              <node concept="37vLTw" id="64ejoCJUKtC" role="2Oq$k0">
-                <ref role="3cqZAo" node="64ejoCJUGcN" resolve="scope" />
-              </node>
-              <node concept="4Tj9Z" id="64ejoCJULnT" role="2OqNvi">
-                <node concept="2OqwBi" id="64ejoCJUNzM" role="576Qk">
-                  <node concept="2OqwBi" id="64ejoCJUM8z" role="2Oq$k0">
-                    <node concept="3kakTB" id="64ejoCJW31T" role="2Oq$k0" />
-                    <node concept="2Xjw5R" id="64ejoCJUMyr" role="2OqNvi">
-                      <node concept="1xMEDy" id="64ejoCJUMyt" role="1xVPHs">
-                        <node concept="chp4Y" id="64ejoCJUMS_" role="ri$Ld">
-                          <ref role="cht4Q" to="wnzg:4o2nsMgBpPQ" resolve="ClassDeclaration" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                  <node concept="2qgKlT" id="64ejoCJUOVZ" role="2OqNvi">
-                    <ref role="37wK5l" to="kntn:1yn8PkxZ2Zk" resolve="allClassMembers" />
-                  </node>
->>>>>>> 5fffaff81e... added broken scoping
                 </node>
               </node>
             </node>
           </node>
-<<<<<<< HEAD
           <node concept="3clFbH" id="7DDmkza$Jy" role="3cqZAp" />
           <node concept="3SKdUt" id="7DDmkzaY6f" role="3cqZAp">
             <node concept="1PaTwC" id="7jWRS$D_0X3" role="1aUNEU">
@@ -2183,89 +938,11 @@
                                     <ref role="3cqZAo" node="7DDmkzaCVK" resolve="it" />
                                   </node>
                                   <node concept="3TrcHB" id="5i01kANoHaG" role="2OqNvi">
-                                    <ref role="3TsBF5" to="wnzg:5i01kANicU4" resolve="is_destructor" />
-=======
-          <node concept="3clFbH" id="64ejoCJW2rp" role="3cqZAp" />
-          <node concept="3clFbF" id="64ejoCJUPJ6" role="3cqZAp">
-            <node concept="2OqwBi" id="64ejoCJUQ7T" role="3clFbG">
-              <node concept="37vLTw" id="64ejoCJUPJ4" role="2Oq$k0">
-                <ref role="3cqZAo" node="64ejoCJUGcN" resolve="scope" />
-              </node>
-              <node concept="4Tj9Z" id="64ejoCJUQJ_" role="2OqNvi">
-                <node concept="2OqwBi" id="64ejoCJUVxo" role="576Qk">
-                  <node concept="2OqwBi" id="64ejoCJUTpK" role="2Oq$k0">
-                    <node concept="2OqwBi" id="64ejoCJUREl" role="2Oq$k0">
-                      <node concept="3kakTB" id="64ejoCJW3h2" role="2Oq$k0" />
-                      <node concept="2Xjw5R" id="64ejoCJUSej" role="2OqNvi">
-                        <node concept="1xMEDy" id="64ejoCJUSel" role="1xVPHs">
-                          <node concept="chp4Y" id="64ejoCJUSDw" role="ri$Ld">
-                            <ref role="cht4Q" to="wnzg:4o2nsMgBpPQ" resolve="ClassDeclaration" />
-                          </node>
-                        </node>
-                      </node>
-                    </node>
-                    <node concept="2Xjw5R" id="64ejoCJUUlL" role="2OqNvi">
-                      <node concept="1xMEDy" id="64ejoCJUUlN" role="1xVPHs">
-                        <node concept="chp4Y" id="64ejoCJUUL1" role="ri$Ld">
-                          <ref role="cht4Q" to="wnzg:4o2nsMgBpPQ" resolve="ClassDeclaration" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                  <node concept="2qgKlT" id="64ejoCJUWZh" role="2OqNvi">
-                    <ref role="37wK5l" to="kntn:1yn8PkxZfdx" resolve="allPublicClassMembers" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="3clFbH" id="64ejoCJW4js" role="3cqZAp" />
-          <node concept="3clFbF" id="64ejoCJVwIu" role="3cqZAp">
-            <node concept="2OqwBi" id="64ejoCJVxdo" role="3clFbG">
-              <node concept="37vLTw" id="64ejoCJVwIs" role="2Oq$k0">
-                <ref role="3cqZAo" node="64ejoCJUGcN" resolve="scope" />
-              </node>
-              <node concept="4Tj9Z" id="64ejoCJVxAX" role="2OqNvi">
-                <node concept="2OqwBi" id="64ejoCJVOC_" role="576Qk">
-                  <node concept="2OqwBi" id="64ejoCJVHhW" role="2Oq$k0">
-                    <node concept="2OqwBi" id="64ejoCJVA5i" role="2Oq$k0">
-                      <node concept="2OqwBi" id="64ejoCJV$sM" role="2Oq$k0">
-                        <node concept="2OqwBi" id="64ejoCJVzuu" role="2Oq$k0">
-                          <node concept="2rP1CM" id="64ejoCJVxTD" role="2Oq$k0" />
-                          <node concept="I4A8Y" id="64ejoCJVzVA" role="2OqNvi" />
-                        </node>
-                        <node concept="2RRcyG" id="64ejoCJV$U9" role="2OqNvi" />
-                      </node>
-                      <node concept="1uHKPH" id="64ejoCJVBcV" role="2OqNvi" />
-                    </node>
-                    <node concept="2Rf3mk" id="64ejoCJVHMQ" role="2OqNvi">
-                      <node concept="1xMEDy" id="64ejoCJVHMS" role="1xVPHs">
-                        <node concept="chp4Y" id="64ejoCJVI80" role="ri$Ld">
-                          <ref role="cht4Q" to="wnzg:4o2nsMgBpPQ" resolve="ClassDeclaration" />
-                        </node>
-                      </node>
-                      <node concept="1xIGOp" id="64ejoCJWgxJ" role="1xVPHs" />
-                    </node>
-                  </node>
-                  <node concept="3zZkjj" id="64ejoCJVXHM" role="2OqNvi">
-                    <node concept="1bVj0M" id="64ejoCJVXHO" role="23t8la">
-                      <node concept="3clFbS" id="64ejoCJVXHP" role="1bW5cS">
-                        <node concept="3clFbF" id="64ejoCJVY72" role="3cqZAp">
-                          <node concept="2OqwBi" id="64ejoCJW0JM" role="3clFbG">
-                            <node concept="2OqwBi" id="64ejoCJVYD9" role="2Oq$k0">
-                              <node concept="37vLTw" id="64ejoCJVY71" role="2Oq$k0">
-                                <ref role="3cqZAo" node="64ejoCJVXHQ" resolve="it" />
-                              </node>
-                              <node concept="2Xjw5R" id="64ejoCJVZyt" role="2OqNvi">
-                                <node concept="1xMEDy" id="64ejoCJVZyv" role="1xVPHs">
-                                  <node concept="chp4Y" id="64ejoCJVZYU" role="ri$Ld">
-                                    <ref role="cht4Q" to="wnzg:4o2nsMgBpPQ" resolve="ClassDeclaration" />
->>>>>>> 5fffaff81e... added broken scoping
+                                    <ref role="3TsBF5" to="wnzg:5i01kANicU4" resolve="isDestructor" />
                                   </node>
                                 </node>
                               </node>
                             </node>
-                            <node concept="3w_OXm" id="64ejoCJW1Eh" role="2OqNvi" />
                           </node>
                         </node>
                         <node concept="Rh6nW" id="7DDmkzaCVK" role="1bW2Oz">
@@ -2273,7 +950,6 @@
                           <node concept="2jxLKc" id="7DDmkzaCVL" role="1tU5fm" />
                         </node>
                       </node>
-<<<<<<< HEAD
                     </node>
                   </node>
                 </node>
@@ -2311,58 +987,78 @@
                       <ref role="3cqZAo" node="7DDmkza_SX" resolve="pClass" />
                     </node>
                     <node concept="2qgKlT" id="7DDmkzaWIX" role="2OqNvi">
-<<<<<<< HEAD
-                      <ref role="37wK5l" to="kntn:2xmTzC2MVik" resolve="getInheritedConstructors" />
-=======
-                    <node concept="Rh6nW" id="ZKpU3C5god" role="1bW2Oz">
-                      <property role="TrG5h" value="it" />
-                      <node concept="2jxLKc" id="ZKpU3C5goe" role="1tU5fm" />
->>>>>>> b70d14e537... loads of stuff
-=======
-                      <node concept="Rh6nW" id="64ejoCJVXHQ" role="1bW2Oz">
-                        <property role="TrG5h" value="it" />
-                        <node concept="2jxLKc" id="64ejoCJVXHR" role="1tU5fm" />
-                      </node>
->>>>>>> 5fffaff81e... added broken scoping
-=======
                       <ref role="37wK5l" to="kntn:2xmTzC2MVik" resolve="allInheritedConstructors" />
->>>>>>> 128a1aeb4d... Consistentified(?) the class package.
                     </node>
                   </node>
                 </node>
               </node>
             </node>
           </node>
-<<<<<<< HEAD
-<<<<<<< HEAD
           <node concept="3clFbH" id="7DDmkza$ya" role="3cqZAp" />
           <node concept="3cpWs6" id="7DDmkza$Cq" role="3cqZAp">
             <node concept="37vLTw" id="7DDmkza$FK" role="3cqZAk">
               <ref role="3cqZAo" node="7DDmkza$eM" resolve="cScope" />
             </node>
           </node>
-=======
->>>>>>> b70d14e537... loads of stuff
-=======
-=======
-          <node concept="3clFbH" id="64ejoCJWfp4" role="3cqZAp" />
-          <node concept="3clFbH" id="64ejoCJVtge" role="3cqZAp" />
-          <node concept="3cpWs6" id="64ejoCJVtAK" role="3cqZAp">
-            <node concept="2YIFZM" id="64ejoCJVuO9" role="3cqZAk">
-              <ref role="37wK5l" to="o8zo:4IP40Bi3eAf" resolve="forNamedElements" />
-              <ref role="1Pybhc" to="o8zo:4IP40Bi3e_R" resolve="ListScope" />
-<<<<<<< HEAD
-              <node concept="37vLTw" id="64ejoCJVv6o" role="37wK5m">
-                <ref role="3cqZAo" node="64ejoCJUGcN" resolve="scope" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="6gFj6gpEkqz">
+    <property role="3GE5qa" value="namespace" />
+    <ref role="1M2myG" to="wnzg:6gFj6gpBJFg" resolve="GlobalUsingGeneralNamespaceDeclaration" />
+    <node concept="EnEH3" id="6gFj6gpEkq$" role="1MhHOB">
+      <ref role="EomxK" to="tpck:h0TrG11" resolve="name" />
+      <node concept="Eqf_E" id="6gFj6gpKXtU" role="EtsB7">
+        <node concept="3clFbS" id="6gFj6gpKXtV" role="2VODD2">
+          <node concept="3clFbF" id="6gFj6gpN9aN" role="3cqZAp">
+            <node concept="3cpWs3" id="6gFj6gpREoD" role="3clFbG">
+              <node concept="Xl_RD" id="6gFj6gpRECu" role="3uHU7w">
+                <property role="Xl_RC" value="gb" />
+              </node>
+              <node concept="2OqwBi" id="6gFj6gpNbKG" role="3uHU7B">
+                <node concept="2OqwBi" id="6gFj6gpNawP" role="2Oq$k0">
+                  <node concept="EsrRn" id="6gFj6gpNab7" role="2Oq$k0" />
+                  <node concept="3TrEf2" id="6gFj6gpNb4L" role="2OqNvi">
+                    <ref role="3Tt5mk" to="wnzg:6gFj6gpBJF$" resolve="namespace" />
+                  </node>
+                </node>
+                <node concept="3TrcHB" id="6gFj6gpNcrF" role="2OqNvi">
+                  <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                </node>
               </node>
             </node>
           </node>
-<<<<<<< HEAD
-=======
-              <node concept="2OqwBi" id="7fNEwq_r3dU" role="37wK5m">
-                <node concept="3kakTB" id="7fNEwq_r2Ta" role="2Oq$k0" />
-                <node concept="2qgKlT" id="7fNEwq_r3FS" role="2OqNvi">
-=======
+        </node>
+      </node>
+      <node concept="1LLf8_" id="6gFj6gpPkCd" role="1LXaQT">
+        <node concept="3clFbS" id="6gFj6gpPkCe" role="2VODD2">
+          <node concept="3clFbF" id="6gFj6gpPkS6" role="3cqZAp">
+            <node concept="37vLTI" id="6gFj6gpPm7d" role="3clFbG">
+              <node concept="3cpWs3" id="6gFj6gpPpyg" role="37vLTx">
+                <node concept="Xl_RD" id="6gFj6gpPpIk" role="3uHU7B">
+                  <property role="Xl_RC" value="global using namespace " />
+                </node>
+                <node concept="2OqwBi" id="6gFj6gpPnCF" role="3uHU7w">
+                  <node concept="2OqwBi" id="6gFj6gpPmAO" role="2Oq$k0">
+                    <node concept="EsrRn" id="6gFj6gpPmjs" role="2Oq$k0" />
+                    <node concept="3TrEf2" id="6gFj6gpPmYH" role="2OqNvi">
+                      <ref role="3Tt5mk" to="wnzg:6gFj6gpBJF$" resolve="namespace" />
+                    </node>
+                  </node>
+                  <node concept="3TrcHB" id="6gFj6gpPoAB" role="2OqNvi">
+                    <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                  </node>
+                </node>
+              </node>
+              <node concept="2OqwBi" id="6gFj6gpPl5r" role="37vLTJ">
+                <node concept="EsrRn" id="6gFj6gpPkS5" role="2Oq$k0" />
+                <node concept="3TrcHB" id="6gFj6gpPlq5" role="2OqNvi">
+                  <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                </node>
+              </node>
+            </node>
+          </node>
         </node>
       </node>
     </node>
@@ -2381,7 +1077,6 @@
               <node concept="2OqwBi" id="SDkzKCxFUc" role="37wK5m">
                 <node concept="3kakTB" id="SDkzKCxFUd" role="2Oq$k0" />
                 <node concept="2qgKlT" id="SDkzKCxFUe" role="2OqNvi">
->>>>>>> 0614305c07... introduced NamespaceType; fixed named references in scopes
                   <ref role="37wK5l" to="kntn:7fNEwq_qWne" resolve="allPublicAttributes" />
                 </node>
               </node>
@@ -2450,16 +1145,12 @@
               <ref role="3cqZAo" node="c7Kd0gqfZj" resolve="cScope" />
             </node>
           </node>
->>>>>>> 2f50f3beb8... Clean up namespaces and made composite scoping style consistent
         </node>
       </node>
     </node>
   </node>
->>>>>>> 5fffaff81e... added broken scoping
-=======
->>>>>>> f496843022... removed scope file
   <node concept="1M2fIO" id="383ZxwZuPTg">
-    <property role="3GE5qa" value="Namespace" />
+    <property role="3GE5qa" value="namespace" />
     <ref role="1M2myG" to="wnzg:383ZxwZrBky" resolve="NamespaceMethodCall" />
     <node concept="1N5Pfh" id="383ZxwZuPTh" role="1Mr941">
       <ref role="1N5Vy1" to="wnzg:383ZxwZrBkI" resolve="method" />
@@ -2512,65 +1203,28 @@
               </node>
             </node>
           </node>
-<<<<<<< HEAD
-          <node concept="3cpWs8" id="3Nc$bFG9$0b" role="3cqZAp">
-            <node concept="3cpWsn" id="3Nc$bFG9$0c" role="3cpWs9">
-              <property role="TrG5h" value="compScope" />
-              <node concept="3uibUv" id="3Nc$bFG9$0d" role="1tU5fm">
-                <ref role="3uigEE" to="o8zo:3fifI_xCtN$" resolve="Scope" />
-              </node>
-              <node concept="2YIFZM" id="3Nc$bFG9$G2" role="33vP2m">
-                <ref role="37wK5l" to="o8zo:7ipADkTevQ_" resolve="createComposite" />
-                <ref role="1Pybhc" to="o8zo:7ipADkTevLt" resolve="CompositeScope" />
-                <node concept="37vLTw" id="3Nc$bFG9$Rk" role="37wK5m">
-                  <ref role="3cqZAo" node="3Nc$bFG9xCS" resolve="methScope" />
-                </node>
-                <node concept="37vLTw" id="3Nc$bFG9_dQ" role="37wK5m">
-                  <ref role="3cqZAo" node="3Nc$bFG9yMu" resolve="refScope" />
-                </node>
-              </node>
-            </node>
-          </node>
-<<<<<<< HEAD
->>>>>>> b95cdd26ff... Namespace Declaration and Member Referencing (WIP) without TextGen elements
-=======
-=======
->>>>>>> 2f50f3beb8... Clean up namespaces and made composite scoping style consistent
           <node concept="3cpWs6" id="3Nc$bFG9ypu" role="3cqZAp">
             <node concept="37vLTw" id="c7Kd0gq9TD" role="3cqZAk">
               <ref role="3cqZAo" node="c7Kd0gq5WD" resolve="cScope" />
             </node>
           </node>
->>>>>>> 8526e6c0af... Finished the other using statements, only TextGen left.
         </node>
       </node>
     </node>
   </node>
-  <node concept="1M2fIO" id="1rolTiuVQHX">
-    <property role="3GE5qa" value="Namespace" />
-    <ref role="1M2myG" to="wnzg:1rolTiuOPQt" resolve="UsingNamespaceMethodDeclaration" />
-    <node concept="1N5Pfh" id="1rolTiuVQHY" role="1Mr941">
-      <ref role="1N5Vy1" to="wnzg:1rolTiuOPRl" resolve="method" />
-      <node concept="3dgokm" id="1rolTiuVQI4" role="1N6uqs">
-        <node concept="3clFbS" id="1rolTiuVQI6" role="2VODD2">
-          <node concept="3cpWs8" id="1rolTiuYDiE" role="3cqZAp">
-            <node concept="3cpWsn" id="1rolTiuYDiF" role="3cpWs9">
+  <node concept="1M2fIO" id="7RFM8R0Rm5C">
+    <property role="3GE5qa" value="namespace" />
+    <ref role="1M2myG" to="wnzg:7RFM8R0Rm5q" resolve="GlobalUsingNamespaceMethodDeclaration" />
+    <node concept="1N5Pfh" id="7RFM8R0Roby" role="1Mr941">
+      <ref role="1N5Vy1" to="wnzg:7RFM8R0Rm5s" resolve="method" />
+      <node concept="3dgokm" id="7RFM8R0RoeG" role="1N6uqs">
+        <node concept="3clFbS" id="7RFM8R0RoeH" role="2VODD2">
+          <node concept="3cpWs8" id="7RFM8R0RoeI" role="3cqZAp">
+            <node concept="3cpWsn" id="7RFM8R0RoeJ" role="3cpWs9">
               <property role="TrG5h" value="newScope" />
-              <node concept="3uibUv" id="1rolTiuYDiG" role="1tU5fm">
+              <node concept="3uibUv" id="7RFM8R0RoeK" role="1tU5fm">
                 <ref role="3uigEE" to="o8zo:3fifI_xCtN$" resolve="Scope" />
               </node>
-<<<<<<< HEAD
-              <node concept="2YIFZM" id="1rolTiuYEd5" role="33vP2m">
-                <ref role="37wK5l" to="o8zo:6t3ylNOzI9Y" resolve="forNamedElements" />
-                <ref role="1Pybhc" to="o8zo:7ipADkTevLm" resolve="SimpleRoleScope" />
-                <node concept="2OqwBi" id="1rolTiuYEFn" role="37wK5m">
-                  <node concept="3kakTB" id="1rolTiuYElG" role="2Oq$k0" />
-                  <node concept="3TrEf2" id="1rolTiuYF5n" role="2OqNvi">
-                    <ref role="3Tt5mk" to="wnzg:1rolTiuRvvJ" resolve="namespace" />
-                  </node>
-                </node>
-                <node concept="359W_D" id="1rolTiuYFn1" role="37wK5m">
-=======
               <node concept="2YIFZM" id="SDkzKCxzHk" role="33vP2m">
                 <ref role="37wK5l" node="SDkzKCxtG$" resolve="forResolvableElements" />
                 <ref role="1Pybhc" node="SDkzKCxr9U" resolve="SimpleRoleScopeEx" />
@@ -2581,40 +1235,12 @@
                   </node>
                 </node>
                 <node concept="359W_D" id="SDkzKCxzHo" role="37wK5m">
->>>>>>> 0614305c07... introduced NamespaceType; fixed named references in scopes
                   <ref role="359W_E" to="wnzg:383ZxwZqQYo" resolve="NamespaceDeclaration" />
                   <ref role="359W_F" to="wnzg:383ZxwZsUja" resolve="members" />
                 </node>
               </node>
             </node>
           </node>
-<<<<<<< HEAD
-          <node concept="3cpWs8" id="1rolTivc_nE" role="3cqZAp">
-            <node concept="3cpWsn" id="1rolTivc_nF" role="3cpWs9">
-              <property role="TrG5h" value="otherScope" />
-              <node concept="3uibUv" id="1rolTivc_nG" role="1tU5fm">
-                <ref role="3uigEE" to="o8zo:3fifI_xCtN$" resolve="Scope" />
-              </node>
-              <node concept="2YIFZM" id="1rolTivc_RP" role="33vP2m">
-                <ref role="37wK5l" to="o8zo:52_Geb4R1Rv" resolve="getScope" />
-                <ref role="1Pybhc" to="o8zo:3rV3sBXetA0" resolve="FilteringScope" />
-                <node concept="2OqwBi" id="1rolTivc_RQ" role="37wK5m">
-                  <node concept="3kakTB" id="1rolTivc_RR" role="2Oq$k0" />
-                  <node concept="3TrEf2" id="1rolTivc_RS" role="2OqNvi">
-                    <ref role="3Tt5mk" to="wnzg:1rolTiuRvvJ" resolve="namespace" />
-                  </node>
-                </node>
-                <node concept="359W_D" id="1rolTivc_RT" role="37wK5m">
-                  <ref role="359W_E" to="wnzg:383ZxwZqQYo" resolve="NamespaceDeclaration" />
-                  <ref role="359W_F" to="wnzg:383ZxwZsUja" resolve="members" />
-                </node>
-                <node concept="3cmrfG" id="1rolTivgpH0" role="37wK5m">
-                  <property role="3cmrfH" value="2578" />
-                </node>
-                <node concept="35c_gC" id="1rolTivc_RV" role="37wK5m">
-                  <ref role="35c_gD" to="wnzg:383ZxwZqQYo" resolve="NamespaceDeclaration" />
-                </node>
-=======
           <node concept="3cpWs8" id="mwDIXwWUTU" role="3cqZAp">
             <node concept="3cpWsn" id="mwDIXwWUTV" role="3cpWs9">
               <property role="TrG5h" value="usedScope" />
@@ -2630,23 +1256,18 @@
                     <ref role="37wK5l" to="kntn:mwDIXwWvLs" resolve="usedMethods" />
                   </node>
                 </node>
->>>>>>> d979bf937a... Namespace EX and TS Tests.
               </node>
             </node>
           </node>
-          <node concept="3cpWs8" id="1rolTivhlRR" role="3cqZAp">
-            <node concept="3cpWsn" id="1rolTivhlRS" role="3cpWs9">
+          <node concept="3cpWs8" id="7RFM8R0Rof0" role="3cqZAp">
+            <node concept="3cpWsn" id="7RFM8R0Rof1" role="3cpWs9">
               <property role="TrG5h" value="extraScope" />
-              <node concept="3uibUv" id="1rolTivhnrt" role="1tU5fm">
+              <node concept="3uibUv" id="7RFM8R0Rof2" role="1tU5fm">
                 <ref role="3uigEE" to="o8zo:3fifI_xCtN$" resolve="Scope" />
               </node>
-              <node concept="2YIFZM" id="1rolTivhohK" role="33vP2m">
-                <ref role="37wK5l" to="o8zo:7ipADkTevQ_" resolve="createComposite" />
-<<<<<<< HEAD
+              <node concept="2YIFZM" id="7RFM8R0Rof3" role="33vP2m">
                 <ref role="1Pybhc" to="o8zo:7ipADkTevLt" resolve="CompositeScope" />
-                <node concept="37vLTw" id="1rolTivhot6" role="37wK5m">
-                  <ref role="3cqZAo" node="1rolTiuYDiF" resolve="newScope" />
-=======
+                <ref role="37wK5l" to="o8zo:7ipADkTevQ_" resolve="createComposite" />
                 <node concept="37vLTw" id="7RFM8R0Rof4" role="37wK5m">
                   <ref role="3cqZAo" node="7RFM8R0RoeJ" resolve="newScope" />
                 </node>
@@ -2724,19 +1345,16 @@
                       </node>
                     </node>
                   </node>
->>>>>>> d979bf937a... Namespace EX and TS Tests.
                 </node>
-                <node concept="37vLTw" id="3Nc$bFG9wxC" role="37wK5m">
-                  <ref role="3cqZAo" node="1rolTivc_nF" resolve="otherScope" />
+              </node>
+              <node concept="2OqwBi" id="7RFM8R0Rvpx" role="37vLTJ">
+                <node concept="EsrRn" id="7RFM8R0Rvpy" role="2Oq$k0" />
+                <node concept="3TrcHB" id="7RFM8R0Rvpz" role="2OqNvi">
+                  <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
                 </node>
               </node>
             </node>
           </node>
-<<<<<<< HEAD
-          <node concept="3cpWs6" id="1rolTiuYFT3" role="3cqZAp">
-            <node concept="37vLTw" id="1rolTivhoZJ" role="3cqZAk">
-              <ref role="3cqZAo" node="1rolTivhlRS" resolve="extraScope" />
-=======
         </node>
       </node>
     </node>
@@ -2758,7 +1376,6 @@
                   <ref role="37wK5l" to="kntn:7fNEwqBxD2s" resolve="allPublicMethods" />
                 </node>
               </node>
->>>>>>> 180d6b24f4... Unify structure naming, fix dependency issue and remove unused dependencies
             </node>
           </node>
         </node>
@@ -2766,7 +1383,7 @@
     </node>
   </node>
   <node concept="1M2fIO" id="3Nc$bFFSMUe">
-    <property role="3GE5qa" value="Namespace" />
+    <property role="3GE5qa" value="namespace" />
     <ref role="1M2myG" to="wnzg:1$h5d7v1dEb" resolve="UsingNamespaceAttributeDeclaration" />
     <node concept="1N5Pfh" id="3Nc$bFFSMUf" role="1Mr941">
       <ref role="1N5Vy1" to="wnzg:1$h5d7v1dEp" resolve="attribute" />
@@ -2828,67 +1445,8 @@
       </node>
     </node>
   </node>
-  <node concept="1M2fIO" id="6gFj6gpEkqz">
-    <property role="3GE5qa" value="Namespace" />
-    <ref role="1M2myG" to="wnzg:6gFj6gpBJFg" resolve="GlobalUsingGeneralNamespaceDeclaration" />
-    <node concept="EnEH3" id="6gFj6gpEkq$" role="1MhHOB">
-      <ref role="EomxK" to="tpck:h0TrG11" resolve="name" />
-      <node concept="Eqf_E" id="6gFj6gpKXtU" role="EtsB7">
-        <node concept="3clFbS" id="6gFj6gpKXtV" role="2VODD2">
-          <node concept="3clFbF" id="6gFj6gpN9aN" role="3cqZAp">
-            <node concept="3cpWs3" id="6gFj6gpREoD" role="3clFbG">
-              <node concept="Xl_RD" id="6gFj6gpRECu" role="3uHU7w">
-                <property role="Xl_RC" value="gb" />
-              </node>
-              <node concept="2OqwBi" id="6gFj6gpNbKG" role="3uHU7B">
-                <node concept="2OqwBi" id="6gFj6gpNawP" role="2Oq$k0">
-                  <node concept="EsrRn" id="6gFj6gpNab7" role="2Oq$k0" />
-                  <node concept="3TrEf2" id="6gFj6gpNb4L" role="2OqNvi">
-                    <ref role="3Tt5mk" to="wnzg:6gFj6gpBJF$" resolve="namespace" />
-                  </node>
-                </node>
-                <node concept="3TrcHB" id="6gFj6gpNcrF" role="2OqNvi">
-                  <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="1LLf8_" id="6gFj6gpPkCd" role="1LXaQT">
-        <node concept="3clFbS" id="6gFj6gpPkCe" role="2VODD2">
-          <node concept="3clFbF" id="6gFj6gpPkS6" role="3cqZAp">
-            <node concept="37vLTI" id="6gFj6gpPm7d" role="3clFbG">
-              <node concept="3cpWs3" id="6gFj6gpPpyg" role="37vLTx">
-                <node concept="Xl_RD" id="6gFj6gpPpIk" role="3uHU7B">
-                  <property role="Xl_RC" value="global using namespace " />
-                </node>
-                <node concept="2OqwBi" id="6gFj6gpPnCF" role="3uHU7w">
-                  <node concept="2OqwBi" id="6gFj6gpPmAO" role="2Oq$k0">
-                    <node concept="EsrRn" id="6gFj6gpPmjs" role="2Oq$k0" />
-                    <node concept="3TrEf2" id="6gFj6gpPmYH" role="2OqNvi">
-                      <ref role="3Tt5mk" to="wnzg:6gFj6gpBJF$" resolve="namespace" />
-                    </node>
-                  </node>
-                  <node concept="3TrcHB" id="6gFj6gpPoAB" role="2OqNvi">
-                    <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
-                  </node>
-                </node>
-              </node>
-              <node concept="2OqwBi" id="6gFj6gpPl5r" role="37vLTJ">
-                <node concept="EsrRn" id="6gFj6gpPkS5" role="2Oq$k0" />
-                <node concept="3TrcHB" id="6gFj6gpPlq5" role="2OqNvi">
-                  <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
   <node concept="1M2fIO" id="7RFM8R0xwrr">
-    <property role="3GE5qa" value="Namespace" />
+    <property role="3GE5qa" value="namespace" />
     <ref role="1M2myG" to="wnzg:7RFM8R0xwre" resolve="GlobalUsingNamespaceAttributeDeclaration" />
     <node concept="EnEH3" id="7RFM8R0xz7o" role="1MhHOB">
       <ref role="EomxK" to="tpck:h0TrG11" resolve="name" />
@@ -3034,69 +1592,6 @@
       </node>
     </node>
   </node>
-<<<<<<< HEAD
-  <node concept="1M2fIO" id="7RFM8R0Rm5C">
-    <property role="3GE5qa" value="Namespace" />
-    <ref role="1M2myG" to="wnzg:7RFM8R0Rm5q" resolve="GlobalUsingNamespaceMethodDeclaration" />
-    <node concept="1N5Pfh" id="7RFM8R0Roby" role="1Mr941">
-      <ref role="1N5Vy1" to="wnzg:7RFM8R0Rm5s" resolve="method" />
-      <node concept="3dgokm" id="7RFM8R0RoeG" role="1N6uqs">
-        <node concept="3clFbS" id="7RFM8R0RoeH" role="2VODD2">
-          <node concept="3cpWs8" id="7RFM8R0RoeI" role="3cqZAp">
-            <node concept="3cpWsn" id="7RFM8R0RoeJ" role="3cpWs9">
-              <property role="TrG5h" value="newScope" />
-              <node concept="3uibUv" id="7RFM8R0RoeK" role="1tU5fm">
-                <ref role="3uigEE" to="o8zo:3fifI_xCtN$" resolve="Scope" />
-              </node>
-              <node concept="2YIFZM" id="7RFM8R0RoeL" role="33vP2m">
-                <ref role="1Pybhc" to="o8zo:7ipADkTevLm" resolve="SimpleRoleScope" />
-                <ref role="37wK5l" to="o8zo:6t3ylNOzI9Y" resolve="forNamedElements" />
-                <node concept="2OqwBi" id="7RFM8R0RoeM" role="37wK5m">
-                  <node concept="3kakTB" id="7RFM8R0RoeN" role="2Oq$k0" />
-                  <node concept="3TrEf2" id="7RFM8R0RoeO" role="2OqNvi">
-                    <ref role="3Tt5mk" to="wnzg:7RFM8R0Rm5r" resolve="namespace" />
-                  </node>
-                </node>
-                <node concept="359W_D" id="7RFM8R0RoeP" role="37wK5m">
-                  <ref role="359W_E" to="wnzg:383ZxwZqQYo" resolve="NamespaceDeclaration" />
-                  <ref role="359W_F" to="wnzg:383ZxwZsUja" resolve="members" />
-                </node>
-              </node>
-            </node>
-          </node>
-<<<<<<< HEAD
-          <node concept="3cpWs8" id="7RFM8R0RoeQ" role="3cqZAp">
-            <node concept="3cpWsn" id="7RFM8R0RoeR" role="3cpWs9">
-              <property role="TrG5h" value="otherScope" />
-              <node concept="3uibUv" id="7RFM8R0RoeS" role="1tU5fm">
-                <ref role="3uigEE" to="o8zo:3fifI_xCtN$" resolve="Scope" />
-              </node>
-              <node concept="2YIFZM" id="7RFM8R0RoeT" role="33vP2m">
-                <ref role="37wK5l" to="o8zo:52_Geb4R1Rv" resolve="getScope" />
-                <ref role="1Pybhc" to="o8zo:3rV3sBXetA0" resolve="FilteringScope" />
-                <node concept="2OqwBi" id="7RFM8R0RoeU" role="37wK5m">
-                  <node concept="3kakTB" id="7RFM8R0RoeV" role="2Oq$k0" />
-                  <node concept="3TrEf2" id="7RFM8R0RoeW" role="2OqNvi">
-                    <ref role="3Tt5mk" to="wnzg:7RFM8R0Rm5r" resolve="namespace" />
-                  </node>
-                </node>
-                <node concept="359W_D" id="7RFM8R0RoeX" role="37wK5m">
-                  <ref role="359W_E" to="wnzg:383ZxwZqQYo" resolve="NamespaceDeclaration" />
-                  <ref role="359W_F" to="wnzg:383ZxwZsUja" resolve="members" />
-                </node>
-                <node concept="3cmrfG" id="7RFM8R0RoeY" role="37wK5m">
-                  <property role="3cmrfH" value="2578" />
-                </node>
-                <node concept="35c_gC" id="7RFM8R0RoeZ" role="37wK5m">
-                  <ref role="35c_gD" to="wnzg:383ZxwZqQYo" resolve="NamespaceDeclaration" />
-                </node>
-=======
-          <node concept="3cpWs8" id="mwDIXwWnYU" role="3cqZAp">
-            <node concept="3cpWsn" id="mwDIXwWnYV" role="3cpWs9">
-              <property role="TrG5h" value="usedScope" />
-              <node concept="3uibUv" id="mwDIXwWnYW" role="1tU5fm">
-                <ref role="3uigEE" to="o8zo:3fifI_xCtN$" resolve="Scope" />
-=======
   <node concept="1M2fIO" id="1rolTiuVQHX">
     <property role="3GE5qa" value="namespace" />
     <ref role="1M2myG" to="wnzg:1rolTiuOPQt" resolve="UsingNamespaceMethodDeclaration" />
@@ -3135,7 +1630,6 @@
             <node concept="2OqwBi" id="c7Kd0gpFLO" role="3clFbG">
               <node concept="37vLTw" id="c7Kd0gpFvm" role="2Oq$k0">
                 <ref role="3cqZAo" node="c7Kd0gpEbX" resolve="cScope" />
->>>>>>> 2f50f3beb8... Clean up namespaces and made composite scoping style consistent
               </node>
               <node concept="liA8E" id="c7Kd0gpGkm" role="2OqNvi">
                 <ref role="37wK5l" to="o8zo:7ipADkTevN6" resolve="addScope" />
@@ -3149,115 +1643,12 @@
                     </node>
                   </node>
                 </node>
->>>>>>> d979bf937a... Namespace EX and TS Tests.
               </node>
             </node>
           </node>
-<<<<<<< HEAD
-          <node concept="3cpWs8" id="7RFM8R0Rof0" role="3cqZAp">
-            <node concept="3cpWsn" id="7RFM8R0Rof1" role="3cpWs9">
-              <property role="TrG5h" value="extraScope" />
-              <node concept="3uibUv" id="7RFM8R0Rof2" role="1tU5fm">
-                <ref role="3uigEE" to="o8zo:3fifI_xCtN$" resolve="Scope" />
-              </node>
-              <node concept="2YIFZM" id="7RFM8R0Rof3" role="33vP2m">
-                <ref role="1Pybhc" to="o8zo:7ipADkTevLt" resolve="CompositeScope" />
-                <ref role="37wK5l" to="o8zo:7ipADkTevQ_" resolve="createComposite" />
-                <node concept="37vLTw" id="7RFM8R0Rof4" role="37wK5m">
-                  <ref role="3cqZAo" node="7RFM8R0RoeJ" resolve="newScope" />
-                </node>
-<<<<<<< HEAD
-                <node concept="37vLTw" id="7RFM8R0Rof5" role="37wK5m">
-                  <ref role="3cqZAo" node="7RFM8R0RoeR" resolve="otherScope" />
-=======
-                <node concept="37vLTw" id="mwDIXwWqfY" role="37wK5m">
-                  <ref role="3cqZAo" node="mwDIXwWnYV" resolve="usedScope" />
->>>>>>> d979bf937a... Namespace EX and TS Tests.
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="3cpWs6" id="7RFM8R0Rof6" role="3cqZAp">
-            <node concept="37vLTw" id="7RFM8R0Rof7" role="3cqZAk">
-              <ref role="3cqZAo" node="7RFM8R0Rof1" resolve="extraScope" />
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="EnEH3" id="7RFM8R0Robv" role="1MhHOB">
-      <ref role="EomxK" to="tpck:h0TrG11" resolve="name" />
-      <node concept="Eqf_E" id="7RFM8R0RoIT" role="EtsB7">
-        <node concept="3clFbS" id="7RFM8R0RoIU" role="2VODD2">
-          <node concept="3clFbF" id="7RFM8R0Rp26" role="3cqZAp">
-            <node concept="3cpWs3" id="7RFM8R0Rp2d" role="3clFbG">
-              <node concept="2OqwBi" id="7RFM8R0Rp2e" role="3uHU7B">
-                <node concept="2OqwBi" id="7RFM8R0Rp2f" role="2Oq$k0">
-                  <node concept="EsrRn" id="7RFM8R0Rp2g" role="2Oq$k0" />
-                  <node concept="3TrEf2" id="7RFM8R1f_7h" role="2OqNvi">
-                    <ref role="3Tt5mk" to="wnzg:7RFM8R0Rm5s" resolve="method" />
-                  </node>
-                </node>
-                <node concept="3TrcHB" id="7RFM8R0Rp2i" role="2OqNvi">
-                  <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
-                </node>
-              </node>
-              <node concept="Xl_RD" id="7RFM8R0Rp2j" role="3uHU7w">
-                <property role="Xl_RC" value="gb" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="1LLf8_" id="7RFM8R0Rv0T" role="1LXaQT">
-        <node concept="3clFbS" id="7RFM8R0Rv0U" role="2VODD2">
-          <node concept="3clFbF" id="7RFM8R0Rvpi" role="3cqZAp">
-            <node concept="37vLTI" id="7RFM8R0Rvpj" role="3clFbG">
-              <node concept="3cpWs3" id="7RFM8R0Rvpk" role="37vLTx">
-                <node concept="2OqwBi" id="7RFM8R13EBt" role="3uHU7w">
-                  <node concept="2OqwBi" id="7RFM8R0Rvpl" role="2Oq$k0">
-                    <node concept="EsrRn" id="7RFM8R0Rvpm" role="2Oq$k0" />
-                    <node concept="3TrEf2" id="7RFM8R0RwUz" role="2OqNvi">
-                      <ref role="3Tt5mk" to="wnzg:7RFM8R0Rm5s" resolve="method" />
-                    </node>
-                  </node>
-                  <node concept="3TrcHB" id="7RFM8R13GJS" role="2OqNvi">
-                    <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
-                  </node>
-                </node>
-                <node concept="3cpWs3" id="7RFM8R0Rvpo" role="3uHU7B">
-                  <node concept="Xl_RD" id="7RFM8R0Rvpp" role="3uHU7w">
-                    <property role="Xl_RC" value="::" />
-                  </node>
-                  <node concept="3cpWs3" id="7RFM8R0Rvpq" role="3uHU7B">
-                    <node concept="Xl_RD" id="7RFM8R0Rvpr" role="3uHU7B">
-                      <property role="Xl_RC" value="global using namespace method " />
-                    </node>
-                    <node concept="2OqwBi" id="7RFM8R0Rvps" role="3uHU7w">
-                      <node concept="2OqwBi" id="7RFM8R0Rvpt" role="2Oq$k0">
-                        <node concept="EsrRn" id="7RFM8R0Rvpu" role="2Oq$k0" />
-                        <node concept="3TrEf2" id="7RFM8R0Rvpv" role="2OqNvi">
-                          <ref role="3Tt5mk" to="wnzg:7RFM8R0Rm5r" resolve="namespace" />
-                        </node>
-                      </node>
-                      <node concept="3TrcHB" id="7RFM8R0YLmg" role="2OqNvi">
-                        <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-              <node concept="2OqwBi" id="7RFM8R0Rvpx" role="37vLTJ">
-                <node concept="EsrRn" id="7RFM8R0Rvpy" role="2Oq$k0" />
-                <node concept="3TrcHB" id="7RFM8R0Rvpz" role="2OqNvi">
-                  <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
-                </node>
-              </node>
-=======
           <node concept="3cpWs6" id="1rolTiuYFT3" role="3cqZAp">
             <node concept="37vLTw" id="c7Kd0gpHsk" role="3cqZAk">
               <ref role="3cqZAo" node="c7Kd0gpEbX" resolve="cScope" />
->>>>>>> 2f50f3beb8... Clean up namespaces and made composite scoping style consistent
             </node>
           </node>
         </node>
@@ -3265,7 +1656,7 @@
     </node>
   </node>
   <node concept="1M2fIO" id="7RFM8R3Szyr">
-    <property role="3GE5qa" value="Namespace" />
+    <property role="3GE5qa" value="namespace" />
     <ref role="1M2myG" to="wnzg:7RFM8R3Me1y" resolve="NamespaceClassInstance" />
     <node concept="1N5Pfh" id="7RFM8R3Szys" role="1Mr941">
       <ref role="1N5Vy1" to="wnzg:7RFM8R3Me2a" resolve="class" />
@@ -3287,104 +1678,9 @@
       </node>
     </node>
   </node>
-<<<<<<< HEAD
-  <node concept="1M2fIO" id="7fNEwq_6ZK6">
-    <property role="3GE5qa" value="Namespace" />
-    <ref role="1M2myG" to="wnzg:7fNEwq_6ZJn" resolve="NamespaceClassInstanceAttributeRef" />
-    <node concept="1N5Pfh" id="7fNEwq_6ZMx" role="1Mr941">
-      <ref role="1N5Vy1" to="wnzg:7fNEwq_6ZLT" resolve="class_attribute" />
-      <node concept="3dgokm" id="7fNEwq_6ZMB" role="1N6uqs">
-        <node concept="3clFbS" id="7fNEwq_6ZMD" role="2VODD2">
-          <node concept="3clFbF" id="7fNEwq_r2Gq" role="3cqZAp">
-            <node concept="2YIFZM" id="7fNEwq_r2On" role="3clFbG">
-              <ref role="37wK5l" to="o8zo:4IP40Bi3eAf" resolve="forNamedElements" />
-              <ref role="1Pybhc" to="o8zo:4IP40Bi3e_R" resolve="ListScope" />
-              <node concept="2OqwBi" id="7fNEwq_r3dU" role="37wK5m">
-                <node concept="3kakTB" id="7fNEwq_r2Ta" role="2Oq$k0" />
-                <node concept="2qgKlT" id="7fNEwq_r3FS" role="2OqNvi">
-                  <ref role="37wK5l" to="kntn:7fNEwq_qWne" resolve="allPublicAttributes" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="1M2fIO" id="7fNEwqBx$7b">
-    <property role="3GE5qa" value="Namespace" />
-    <ref role="1M2myG" to="wnzg:7fNEwqBx$6S" resolve="NamespaceClassInstanceMethodCall" />
-    <node concept="1N5Pfh" id="7fNEwqBxCee" role="1Mr941">
-      <ref role="1N5Vy1" to="wnzg:7fNEwqBx$6W" resolve="class_method" />
-      <node concept="3dgokm" id="7fNEwqBxCey" role="1N6uqs">
-        <node concept="3clFbS" id="7fNEwqBxCe$" role="2VODD2">
-          <node concept="3clFbF" id="7fNEwqBxCtm" role="3cqZAp">
-            <node concept="2YIFZM" id="7fNEwqBxC_j" role="3clFbG">
-              <ref role="37wK5l" to="o8zo:4IP40Bi3eAf" resolve="forNamedElements" />
-              <ref role="1Pybhc" to="o8zo:4IP40Bi3e_R" resolve="ListScope" />
-              <node concept="2OqwBi" id="7fNEwqBym$e" role="37wK5m">
-                <node concept="3kakTB" id="7fNEwqBymgJ" role="2Oq$k0" />
-                <node concept="2qgKlT" id="7fNEwqBymXs" role="2OqNvi">
-                  <ref role="37wK5l" to="kntn:7fNEwqBxD2s" resolve="allPublicMethods" />
-=======
   <node concept="1M2fIO" id="6FZQsHt$aAc">
     <property role="3GE5qa" value="type" />
     <ref role="1M2myG" to="wnzg:6FZQsHt7RdA" resolve="AutoType" />
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 5c976ae824... Fix constraints being gone and typesystem test
-    <node concept="9S07l" id="6FZQsHt$aAd" role="9Vyp8">
-      <node concept="3clFbS" id="6FZQsHt$aAe" role="2VODD2">
-        <node concept="3SKdUt" id="7POJCje72K$" role="3cqZAp">
-          <node concept="3SKdUq" id="7POJCje72KA" role="3SKWNk">
-            <property role="3SKdUp" value="Auto is only supported in declarations in this implementation" />
-          </node>
-        </node>
-        <node concept="3clFbF" id="6FZQsHt$aHz" role="3cqZAp">
-          <node concept="22lmx$" id="6FZQsHt$isI" role="3clFbG">
-            <node concept="2OqwBi" id="6FZQsHt$j7d" role="3uHU7w">
-              <node concept="nLn13" id="6FZQsHt$iL1" role="2Oq$k0" />
-              <node concept="1mIQ4w" id="6FZQsHt$jzA" role="2OqNvi">
-                <node concept="chp4Y" id="6FZQsHt$jUU" role="cj9EA">
-                  <ref role="cht4Q" to="wnzg:4o2nsMgBIrb" resolve="AttributeDeclaration" />
-                </node>
-              </node>
-            </node>
-            <node concept="22lmx$" id="6FZQsHt$e2C" role="3uHU7B">
-              <node concept="2OqwBi" id="6FZQsHt$aTh" role="3uHU7B">
-                <node concept="nLn13" id="6FZQsHt$aHy" role="2Oq$k0" />
-                <node concept="1mIQ4w" id="6FZQsHt$b60" role="2OqNvi">
-                  <node concept="chp4Y" id="6FZQsHt$biJ" role="cj9EA">
-                    <ref role="cht4Q" to="c4fa:3CmSUB7FprA" resolve="LocalVariableDeclaration" />
-                  </node>
-                </node>
-              </node>
-              <node concept="2OqwBi" id="6FZQsHt$ex7" role="3uHU7w">
-                <node concept="nLn13" id="6FZQsHt$egG" role="2Oq$k0" />
-                <node concept="1mIQ4w" id="6FZQsHt$eWK" role="2OqNvi">
-                  <node concept="chp4Y" id="6FZQsHt$feh" role="cj9EA">
-                    <ref role="cht4Q" to="x27k:5IYyAOzCrre" resolve="GlobalVariableDeclaration" />
-                  </node>
-<<<<<<< HEAD
->>>>>>> f7ba0272ae... Redo auto keyword
-=======
->>>>>>> 5c976ae824... Fix constraints being gone and typesystem test
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-<<<<<<< HEAD
-=======
->>>>>>> 546a94c71c... Auto type scope fixed
-=======
->>>>>>> 5c976ae824... Fix constraints being gone and typesystem test
-=======
->>>>>>> 900cef7e23... Fix auto keyword
   </node>
   <node concept="1M2fIO" id="6OyCGy9cOMX">
     <ref role="1M2myG" to="wnzg:6OyCGy9cOMO" resolve="ClassStaticVarRef" />

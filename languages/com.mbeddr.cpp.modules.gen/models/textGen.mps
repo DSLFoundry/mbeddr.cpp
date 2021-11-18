@@ -2,24 +2,8 @@
 <model ref="r:a8f6e6f5-d76a-484d-97e0-e6fe76aefcbf(com.mbeddr.cpp.modules.gen.textGen)">
   <persistence version="9" />
   <languages>
-<<<<<<< HEAD
-    <use id="b83431fe-5c8f-40bc-8a36-65e25f4dd253" name="jetbrains.mps.lang.textGen" version="1" />
-    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="11" />
-=======
     <use id="b83431fe-5c8f-40bc-8a36-65e25f4dd253" name="jetbrains.mps.lang.textGen" version="-1" />
-<<<<<<< HEAD
-    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="13" />
->>>>>>> 635c84c995... migrated to 2018.3
-=======
     <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="17" />
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> cc021cd381... migrated to 2019.2
-=======
-    <use id="760a0a8c-eabb-4521-8bfd-65db761a9ba3" name="jetbrains.mps.baseLanguage.logging" version="0" />
->>>>>>> 6bfe4b6649... example showing too long grammarcells method
-=======
->>>>>>> fc26ef49ce... Migate to MPS 2020.3
   </languages>
   <imports>
     <import index="yz0i" ref="r:0777b219-94ea-49d2-8175-d5f018f3e7f9(com.mbeddr.cpp.base.textGen)" />
@@ -318,12 +302,6 @@
         <node concept="lc7rE" id="2Ai0GtaeGWh" role="3cqZAp">
           <node concept="1bDJIP" id="2Ai0GtaeGWL" role="lcghm">
             <ref role="1rvKf6" to="yz0i:2Ai0GtaeCGJ" resolve="generateVisibilityInfo" />
-<<<<<<< HEAD
-            <node concept="2OqwBi" id="2Ai0GtaeH4R" role="1ryhcI">
-              <node concept="117lpO" id="2Ai0GtaeGX9" role="2Oq$k0" />
-              <node concept="3TrcHB" id="3LE5RBQo1ll" role="2OqNvi">
-                <ref role="3TsBF5" to="wnzg:2Ai0Gt9ODIG" resolve="visibility" />
-=======
             <node concept="2OqwBi" id="7jWRS$D$ZJy" role="1ryhcI">
               <node concept="24Tkf9" id="7jWRS$D$ZJ$" role="2OqNvi" />
               <node concept="2OqwBi" id="2Ai0GtaeH4R" role="2Oq$k0">
@@ -331,7 +309,6 @@
                   <ref role="3TsBF5" to="wnzg:7jWRS$D$ZDC" resolve="visibility" />
                 </node>
                 <node concept="117lpO" id="2Ai0GtaeGX9" role="2Oq$k0" />
->>>>>>> cc021cd381... migrated to 2019.2
               </node>
             </node>
           </node>

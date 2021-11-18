@@ -1,18 +1,9 @@
-<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 <model ref="r:0777b219-94ea-49d2-8175-d5f018f3e7f9(com.mbeddr.cpp.base.textGen)">
   <persistence version="9" />
   <languages>
-<<<<<<< HEAD
-    <use id="b83431fe-5c8f-40bc-8a36-65e25f4dd253" name="jetbrains.mps.lang.textGen" version="1" />
-=======
     <use id="b83431fe-5c8f-40bc-8a36-65e25f4dd253" name="jetbrains.mps.lang.textGen" version="-1" />
-<<<<<<< HEAD
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="9" />
->>>>>>> cc021cd381... migrated to 2019.2
-=======
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="11" />
->>>>>>> 6bfe4b6649... example showing too long grammarcells method
     <devkit ref="fa73d85a-ac7f-447b-846c-fcdc41caa600(jetbrains.mps.devkit.aspect.textgen)" />
   </languages>
   <imports>
@@ -20,65 +11,18 @@
     <import index="mj1l" ref="r:c371cf98-dcc8-4a43-8eb8-8a8096de18b2(com.mbeddr.core.expressions.structure)" />
     <import index="rj8d" ref="r:da9fd96f-5c71-45ab-b2da-1aa6232ec67f(com.mbeddr.core.statements.behavior)" />
     <import index="x27k" ref="r:75ecab8a-8931-4140-afc6-4b46398710fc(com.mbeddr.core.modules.structure)" />
-<<<<<<< HEAD
-<<<<<<< HEAD
-    <import index="dylp" ref="r:9840bc62-cb31-4ef3-9c9b-2de91c97cc15(com.mbeddr.core.expressions.textGen)" />
     <import index="hwgx" ref="r:fd2980c8-676c-4b19-b524-18c70e02f8b7(com.mbeddr.core.base.behavior)" />
     <import index="c4fa" ref="r:9f0e84b6-2ec7-4f9e-83e0-feedc77b63a3(com.mbeddr.core.statements.structure)" />
-<<<<<<< HEAD
-=======
-    <import index="tbr6" ref="r:6a005c26-87c0-43c4-8cf3-49ffba1099df(de.slisson.mps.richtext.behavior)" />
->>>>>>> 71d8fb9fa7... Added InnerClassType, further testing for Using Namespace, small adjustments
-    <import index="wnzg" ref="r:24646c42-f8e0-499c-b639-679cfa170a2e(com.mbeddr.cpp.base.structure)" implicit="true" />
-    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
-<<<<<<< HEAD
-<<<<<<< HEAD
-    <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" implicit="true" />
-=======
-    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
-    <import index="c4fa" ref="r:9f0e84b6-2ec7-4f9e-83e0-feedc77b63a3(com.mbeddr.core.statements.structure)" />
-    <import index="hwgx" ref="r:fd2980c8-676c-4b19-b524-18c70e02f8b7(com.mbeddr.core.base.behavior)" />
-=======
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
     <import index="dylp" ref="r:9840bc62-cb31-4ef3-9c9b-2de91c97cc15(com.mbeddr.core.expressions.textGen)" />
-<<<<<<< HEAD
->>>>>>> 180d6b24f4... Unify structure naming, fix dependency issue and remove unused dependencies
-=======
     <import index="iq8l" ref="r:ffb23717-2675-4f36-b47c-a7d3b95c99a7(com.mbeddr.core.expressions.runtime.plugin)" />
     <import index="ywuz" ref="r:c6ce92e7-5a98-4a6f-866a-ec8b9e945dd8(com.mbeddr.core.expressions.behavior)" />
->>>>>>> 2cdef1be64... Fix textgen in the tests for casting
     <import index="wnzg" ref="r:24646c42-f8e0-499c-b639-679cfa170a2e(com.mbeddr.cpp.base.structure)" implicit="true" />
-<<<<<<< HEAD
->>>>>>> ff7b242aec... Added auto declaration.
-=======
-    <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" implicit="true" />
-<<<<<<< HEAD
->>>>>>> c9ad58ee32... Added TextGen elements of Namespace Concepts and adjusted several Editors
-=======
-    <import index="kntn" ref="r:4090021e-0c8f-4cca-ab3f-590afb43a745(com.mbeddr.cpp.base.behavior)" implicit="true" />
->>>>>>> d652370829... Editor and TextGen MethodCalls using GeneralNamespaceDeclarations works correctly.
-=======
-    <import index="kntn" ref="r:4090021e-0c8f-4cca-ab3f-590afb43a745(com.mbeddr.cpp.base.behavior)" implicit="true" />
-    <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" implicit="true" />
-<<<<<<< HEAD
->>>>>>> 8bafdcfd38... Editor and TextGen AttributeRefs using GeneralNS works correctly.
-=======
-    <import index="c4fa" ref="r:9f0e84b6-2ec7-4f9e-83e0-feedc77b63a3(com.mbeddr.core.statements.structure)" implicit="true" />
->>>>>>> 5ef9af0b8a... Classes in Namespaces.
-=======
     <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" implicit="true" />
     <import index="yq40" ref="r:152b3fc0-83a1-4bab-a8cd-565eb8483785(com.mbeddr.core.pointers.structure)" implicit="true" />
     <import index="kntn" ref="r:4090021e-0c8f-4cca-ab3f-590afb43a745(com.mbeddr.cpp.base.behavior)" implicit="true" />
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" implicit="true" />
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> f6a9ef0714... Fix TextGen for arrays in classes, add type and size checking
-=======
-    <import index="ywuz" ref="r:c6ce92e7-5a98-4a6f-866a-ec8b9e945dd8(com.mbeddr.core.expressions.behavior)" implicit="true" />
-=======
->>>>>>> 2cdef1be64... Fix textgen in the tests for casting
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
->>>>>>> 193f96f9fb... Add header import interface for new keyword, may be used elsewhere
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -100,6 +44,7 @@
       <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
         <property id="1070475926801" name="value" index="Xl_RC" />
       </concept>
+      <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
         <child id="1068431790190" name="initializer" index="33vP2m" />
       </concept>
@@ -119,6 +64,7 @@
         <child id="1068580123135" name="body" index="3clF47" />
       </concept>
       <concept id="1068580123152" name="jetbrains.mps.baseLanguage.structure.EqualsExpression" flags="nn" index="3clFbC" />
+      <concept id="1068580123157" name="jetbrains.mps.baseLanguage.structure.Statement" flags="nn" index="3clFbH" />
       <concept id="1068580123159" name="jetbrains.mps.baseLanguage.structure.IfStatement" flags="nn" index="3clFbJ">
         <child id="1082485599094" name="ifFalseStatement" index="9aQIa" />
         <child id="1068580123160" name="condition" index="3clFbw" />
@@ -137,38 +83,22 @@
       </concept>
       <concept id="1068581242863" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" flags="nr" index="3cpWsn" />
       <concept id="1068581517677" name="jetbrains.mps.baseLanguage.structure.VoidType" flags="in" index="3cqZAl" />
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-      <concept id="1081506762703" name="jetbrains.mps.baseLanguage.structure.GreaterThanExpression" flags="nn" index="3eOSWO" />
-=======
-      <concept id="1081516740877" name="jetbrains.mps.baseLanguage.structure.NotExpression" flags="nn" index="3fqX7Q">
-        <child id="1081516765348" name="expression" index="3fr31v" />
-      </concept>
->>>>>>> ce47921082... Fixed auto declaration type errors.
-      <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ng" index="1ndlxa">
-        <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
-        <child id="1068499141038" name="actualArgument" index="37wK5m" />
-=======
-=======
       <concept id="1206060495898" name="jetbrains.mps.baseLanguage.structure.ElsifClause" flags="ng" index="3eNFk2">
         <child id="1206060619838" name="condition" index="3eO9$A" />
         <child id="1206060644605" name="statementList" index="3eOfB_" />
       </concept>
+      <concept id="1081506762703" name="jetbrains.mps.baseLanguage.structure.GreaterThanExpression" flags="nn" index="3eOSWO" />
       <concept id="1081516740877" name="jetbrains.mps.baseLanguage.structure.NotExpression" flags="nn" index="3fqX7Q">
         <child id="1081516765348" name="expression" index="3fr31v" />
       </concept>
->>>>>>> d652370829... Editor and TextGen MethodCalls using GeneralNamespaceDeclarations works correctly.
       <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ng" index="1ndlxa">
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
->>>>>>> c9ad58ee32... Added TextGen elements of Namespace Concepts and adjusted several Editors
+        <child id="1068499141038" name="actualArgument" index="37wK5m" />
       </concept>
       <concept id="1081773326031" name="jetbrains.mps.baseLanguage.structure.BinaryOperation" flags="nn" index="3uHJSO">
         <child id="1081773367579" name="rightExpression" index="3uHU7w" />
         <child id="1081773367580" name="leftExpression" index="3uHU7B" />
       </concept>
-<<<<<<< HEAD
-<<<<<<< HEAD
       <concept id="1073239437375" name="jetbrains.mps.baseLanguage.structure.NotEqualsExpression" flags="nn" index="3y3z36" />
       <concept id="5497648299878491908" name="jetbrains.mps.baseLanguage.structure.BaseVariableReference" flags="nn" index="1M0zk4">
         <reference id="5497648299878491909" name="baseVariableDeclaration" index="1M0zk5" />
@@ -176,18 +106,7 @@
       <concept id="6329021646629104954" name="jetbrains.mps.baseLanguage.structure.SingleLineComment" flags="nn" index="3SKdUt">
         <child id="8356039341262087992" name="line" index="1aUNEU" />
       </concept>
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 7b3a85ea65... Added various uses of the Using keyword for namespaces
       <concept id="1080120340718" name="jetbrains.mps.baseLanguage.structure.AndExpression" flags="nn" index="1Wc70l" />
-=======
->>>>>>> 4af7845191... Fixed TextGen problems with 'Using (namespace)' declarations
-=======
->>>>>>> f7ba0272ae... Redo auto keyword
-=======
-      <concept id="1080120340718" name="jetbrains.mps.baseLanguage.structure.AndExpression" flags="nn" index="1Wc70l" />
->>>>>>> 4cbcd056d4... Copied StaticVar from screenshots and started making test
     </language>
     <language id="b83431fe-5c8f-40bc-8a36-65e25f4dd253" name="jetbrains.mps.lang.textGen">
       <concept id="1237305208784" name="jetbrains.mps.lang.textGen.structure.NewLineAppendPart" flags="ng" index="l8MVK" />
@@ -241,17 +160,6 @@
         <child id="6733348108486823193" name="leftExpression" index="1m5AlR" />
         <child id="3906496115198199033" name="conceptArgument" index="3oSUPX" />
       </concept>
-<<<<<<< HEAD
-<<<<<<< HEAD
-      <concept id="1171999116870" name="jetbrains.mps.lang.smodel.structure.Node_IsNullOperation" flags="nn" index="3w_OXm" />
-=======
-      <concept id="1171407110247" name="jetbrains.mps.lang.smodel.structure.Node_GetAncestorOperation" flags="nn" index="2Xjw5R" />
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 7b3a85ea65... Added various uses of the Using keyword for namespaces
-=======
-=======
-=======
       <concept id="1883223317721008708" name="jetbrains.mps.lang.smodel.structure.IfInstanceOfStatement" flags="nn" index="Jncv_">
         <reference id="1883223317721008712" name="nodeConcept" index="JncvD" />
         <child id="1883223317721008709" name="body" index="Jncv$" />
@@ -264,17 +172,11 @@
       <concept id="1180031783296" name="jetbrains.mps.lang.smodel.structure.Concept_IsSubConceptOfOperation" flags="nn" index="2Zo12i">
         <child id="1180031783297" name="conceptArgument" index="2Zo12j" />
       </concept>
->>>>>>> 193f96f9fb... Add header import interface for new keyword, may be used elsewhere
       <concept id="1139621453865" name="jetbrains.mps.lang.smodel.structure.Node_IsInstanceOfOperation" flags="nn" index="1mIQ4w">
         <child id="1177027386292" name="conceptArgument" index="cj9EA" />
       </concept>
-<<<<<<< HEAD
->>>>>>> f6a9ef0714... Fix TextGen for arrays in classes, add type and size checking
-=======
       <concept id="6870613620390542976" name="jetbrains.mps.lang.smodel.structure.ConceptAliasOperation" flags="ng" index="3n3YKJ" />
->>>>>>> 3e9af26420... Add static_cast<T> and reinterpret_cast<T*>
       <concept id="1171999116870" name="jetbrains.mps.lang.smodel.structure.Node_IsNullOperation" flags="nn" index="3w_OXm" />
->>>>>>> 5ef9af0b8a... Classes in Namespaces.
       <concept id="1172008320231" name="jetbrains.mps.lang.smodel.structure.Node_IsNotNullOperation" flags="nn" index="3x8VRR" />
       <concept id="1144101972840" name="jetbrains.mps.lang.smodel.structure.OperationParm_Concept" flags="ng" index="1xMEDy">
         <child id="1207343664468" name="conceptArgument" index="ri$Ld" />
@@ -430,28 +332,31 @@
           <node concept="l8MVK" id="3UsoL$laf7G" role="lcghm" />
         </node>
         <node concept="3clFbH" id="3UsoL$l8UrM" role="3cqZAp" />
-        <node concept="2Gpval" id="7fNEwqBk$j$" role="3cqZAp">
-          <node concept="2GrKxI" id="7fNEwqBk$j_" role="2Gsz3X">
-            <property role="TrG5h" value="m" />
-          </node>
-          <node concept="2OqwBi" id="7fNEwqBk$jA" role="2GsD0m">
-            <node concept="117lpO" id="7fNEwqBk$jB" role="2Oq$k0" />
-            <node concept="3Tsc0h" id="7fNEwqBk$jC" role="2OqNvi">
-              <ref role="3TtcxE" to="wnzg:4o2nsMgBClg" resolve="members" />
-            </node>
-          </node>
-          <node concept="3clFbS" id="7fNEwqBk$jD" role="2LFqv$">
-            <node concept="lc7rE" id="7fNEwqBk$jE" role="3cqZAp">
-              <node concept="l9hG8" id="7fNEwqBk$jF" role="lcghm">
-                <property role="ld1Su" value="true" />
-                <node concept="2GrUjf" id="7fNEwqBk$jG" role="lb14g">
-                  <ref role="2Gs0qQ" node="7fNEwqBk$j_" resolve="m" />
+        <node concept="3izx1p" id="10VTyH5UESt" role="3cqZAp">
+          <node concept="3clFbS" id="10VTyH5UESv" role="3izTki">
+            <node concept="2Gpval" id="7fNEwqBk$j$" role="3cqZAp">
+              <node concept="2GrKxI" id="7fNEwqBk$j_" role="2Gsz3X">
+                <property role="TrG5h" value="m" />
+              </node>
+              <node concept="2OqwBi" id="7fNEwqBk$jA" role="2GsD0m">
+                <node concept="117lpO" id="7fNEwqBk$jB" role="2Oq$k0" />
+                <node concept="3Tsc0h" id="7fNEwqBk$jC" role="2OqNvi">
+                  <ref role="3TtcxE" to="wnzg:4o2nsMgBClg" resolve="members" />
+                </node>
+              </node>
+              <node concept="3clFbS" id="7fNEwqBk$jD" role="2LFqv$">
+                <node concept="lc7rE" id="7fNEwqBk$jE" role="3cqZAp">
+                  <node concept="l9hG8" id="7fNEwqBk$jF" role="lcghm">
+                    <property role="ld1Su" value="true" />
+                    <node concept="2GrUjf" id="7fNEwqBk$jG" role="lb14g">
+                      <ref role="2Gs0qQ" node="7fNEwqBk$j_" resolve="m" />
+                    </node>
+                  </node>
                 </node>
               </node>
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="1yn8PkzkZ_g" role="3cqZAp" />
         <node concept="lc7rE" id="4o2nsMgC1dE" role="3cqZAp">
           <node concept="la8eA" id="4o2nsMgC1hX" role="lcghm">
             <property role="lacIc" value="};" />
@@ -613,7 +518,7 @@
             <node concept="37vLTw" id="2Ai0Gt9WyXg" role="2Oq$k0">
               <ref role="3cqZAo" node="2Ai0Gt9WxLU" resolve="typePrefix" />
             </node>
-            <node concept="17RvpY" id="1yn8PkzoxZq" role="2OqNvi" />
+            <node concept="17RvpY" id="2Ai0Gt9WzDj" role="2OqNvi" />
           </node>
         </node>
         <node concept="3clFbH" id="7POJCjfXbQy" role="3cqZAp" />
@@ -1168,180 +1073,14 @@
       </node>
     </node>
   </node>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  <node concept="WtQ9Q" id="3UsoL$lb1lN">
-    <property role="3GE5qa" value="class" />
-    <ref role="WuzLi" to="wnzg:3UsoL$l5qkL" resolve="InheritanceInstance" />
-    <node concept="11bSqf" id="3UsoL$lb1lO" role="11c4hB">
-      <node concept="3clFbS" id="3UsoL$lb1lP" role="2VODD2">
-        <node concept="lc7rE" id="3UsoL$lb1m8" role="3cqZAp">
-          <node concept="l9hG8" id="3UsoL$lb1mw" role="lcghm">
-            <node concept="2OqwBi" id="3UsoL$lb1vH" role="lb14g">
-              <node concept="117lpO" id="3UsoL$lb1nq" role="2Oq$k0" />
-              <node concept="3TrcHB" id="3UsoL$lb1Bi" role="2OqNvi">
-                <ref role="3TsBF5" to="wnzg:3UsoL$l5qkP" resolve="visibility" />
-=======
-  <node concept="WtQ9Q" id="1$h5d7v1itx">
-    <property role="3GE5qa" value="namespace" />
-    <ref role="WuzLi" to="wnzg:1$h5d7v1dEb" resolve="UsingNamespaceAttributeDeclaration" />
-    <node concept="11bSqf" id="1$h5d7v1ity" role="11c4hB">
-      <node concept="3clFbS" id="1$h5d7v1itz" role="2VODD2">
-        <node concept="lc7rE" id="1$h5d7v1iCc" role="3cqZAp">
-          <node concept="la8eA" id="1$h5d7v1iCd" role="lcghm">
-            <property role="lacIc" value="using " />
-          </node>
-          <node concept="l9hG8" id="1$h5d7v1iCe" role="lcghm">
-            <node concept="2OqwBi" id="1$h5d7v1iCf" role="lb14g">
-              <node concept="2OqwBi" id="1$h5d7v1iCg" role="2Oq$k0">
-                <node concept="117lpO" id="1$h5d7v1iCh" role="2Oq$k0" />
-                <node concept="3TrEf2" id="1$h5d7v1iCi" role="2OqNvi">
-                  <ref role="3Tt5mk" to="wnzg:1$h5d7v1dEf" resolve="namespace" />
-                </node>
-              </node>
-              <node concept="2qgKlT" id="1$h5d7v1iCj" role="2OqNvi">
-                <ref role="37wK5l" to="tpcu:hEwIMiw" resolve="getPresentation" />
->>>>>>> a5b410c665... Fix highlighting to be consistent and make the package name lowercase
-              </node>
-            </node>
-          </node>
-          <node concept="la8eA" id="3UsoL$lb2xP" role="lcghm">
-            <property role="lacIc" value=" " />
-          </node>
-          <node concept="l9hG8" id="3UsoL$lb2Bh" role="lcghm">
-            <node concept="2OqwBi" id="3UsoL$lb3gT" role="lb14g">
-              <node concept="2OqwBi" id="3UsoL$lb2MK" role="2Oq$k0">
-                <node concept="117lpO" id="3UsoL$lb2Et" role="2Oq$k0" />
-                <node concept="3TrEf2" id="3UsoL$lb2Ul" role="2OqNvi">
-                  <ref role="3Tt5mk" to="wnzg:3UsoL$l5qkM" resolve="parent_class" />
-                </node>
-              </node>
-              <node concept="3TrcHB" id="3UsoL$lb44F" role="2OqNvi">
-                <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
-              </node>
-            </node>
-          </node>
-=======
-  <node concept="WtQ9Q" id="O6qFYdpAsQ">
-    <ref role="WuzLi" to="wnzg:3EDDOqDY7x5" resolve="DeleteKeyword" />
-    <node concept="11bSqf" id="O6qFYdpAsR" role="11c4hB">
-      <node concept="3clFbS" id="O6qFYdpAsS" role="2VODD2">
-        <node concept="lc7rE" id="O6qFYdpAtb" role="3cqZAp">
-          <node concept="la8eA" id="O6qFYdpAtz" role="lcghm">
-            <property role="lacIc" value="delete" />
-          </node>
-          <node concept="la8eA" id="O6qFYdpAuv" role="lcghm">
-            <property role="lacIc" value=" " />
-          </node>
-          <node concept="l9hG8" id="O6qFYdpAvv" role="lcghm">
-            <node concept="2OqwBi" id="O6qFYdpAJz" role="lb14g">
-              <node concept="117lpO" id="O6qFYdpAwt" role="2Oq$k0" />
-              <node concept="3TrcHB" id="O6qFYdpB6L" role="2OqNvi">
-                <ref role="3TsBF5" to="wnzg:3EDDOqDY7xa" resolve="expression" />
-              </node>
-            </node>
-          </node>
-          <node concept="la8eA" id="O6qFYdpBf0" role="lcghm">
-            <property role="lacIc" value=";" />
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
-<<<<<<< HEAD
-  <node concept="WtQ9Q" id="O6qFYdpBjt">
-    <property role="3GE5qa" value="class" />
-    <ref role="WuzLi" to="wnzg:3EDDOqDY7xe" resolve="DeleteArrayDeclaration" />
-    <node concept="11bSqf" id="O6qFYdpBju" role="11c4hB">
-      <node concept="3clFbS" id="O6qFYdpBjv" role="2VODD2">
-        <node concept="lc7rE" id="O6qFYdpBjM" role="3cqZAp">
-          <node concept="la8eA" id="O6qFYdpBka" role="lcghm">
-            <property role="lacIc" value="delete" />
-=======
-  <node concept="WtQ9Q" id="7fNEwqBx$7n">
-    <property role="3GE5qa" value="namespace" />
-    <ref role="WuzLi" to="wnzg:7fNEwqBx$6S" resolve="NamespaceClassInstanceMethodCall" />
-    <node concept="11bSqf" id="7fNEwqBx$7o" role="11c4hB">
-      <node concept="3clFbS" id="7fNEwqBx$7p" role="2VODD2">
-        <node concept="lc7rE" id="7fNEwqByo60" role="3cqZAp">
-          <node concept="l9hG8" id="7fNEwqBypT8" role="lcghm">
-            <node concept="2OqwBi" id="7fNEwqBypT9" role="lb14g">
-              <node concept="2OqwBi" id="7fNEwqBypTa" role="2Oq$k0">
-                <node concept="117lpO" id="7fNEwqBypTb" role="2Oq$k0" />
-                <node concept="3TrEf2" id="7fNEwqBypTc" role="2OqNvi">
-                  <ref role="3Tt5mk" to="wnzg:7fNEwqBx$6T" resolve="class_instance" />
-                </node>
-              </node>
-              <node concept="3TrcHB" id="7fNEwqBypTd" role="2OqNvi">
-                <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
-              </node>
-            </node>
->>>>>>> a5b410c665... Fix highlighting to be consistent and make the package name lowercase
-          </node>
-          <node concept="la8eA" id="O6qFYdpBl6" role="lcghm">
-            <property role="lacIc" value=" " />
-          </node>
-          <node concept="la8eA" id="O6qFYdpBm6" role="lcghm">
-            <property role="lacIc" value="[]" />
-          </node>
-          <node concept="la8eA" id="O6qFYdpBna" role="lcghm">
-            <property role="lacIc" value=" " />
-          </node>
-          <node concept="l9hG8" id="O6qFYdpBoi" role="lcghm">
-            <node concept="2OqwBi" id="O6qFYdpBCq" role="lb14g">
-              <node concept="117lpO" id="O6qFYdpBpk" role="2Oq$k0" />
-              <node concept="3TrcHB" id="O6qFYdpBZC" role="2OqNvi">
-                <ref role="3TsBF5" to="wnzg:3EDDOqDY7xf" resolve="expression" />
-              </node>
-            </node>
-          </node>
-          <node concept="la8eA" id="O6qFYdpC7V" role="lcghm">
-            <property role="lacIc" value=";" />
-          </node>
-<<<<<<< HEAD
->>>>>>> 375fe27794... Add textGen for DeleteKeyword and DeleteArrayKeyword
-=======
-        </node>
-      </node>
-    </node>
-  </node>
-<<<<<<< HEAD
-=======
->>>>>>> 9cc6d595ca... New and Delete keywords are working, with types and constructors
   <node concept="WtQ9Q" id="O6qFYdpAsQ">
     <property role="3GE5qa" value="" />
     <ref role="WuzLi" to="wnzg:3EDDOqDY7x5" resolve="DeleteDeclaration" />
     <node concept="11bSqf" id="O6qFYdpAsR" role="11c4hB">
       <node concept="3clFbS" id="O6qFYdpAsS" role="2VODD2">
-<<<<<<< HEAD
-        <node concept="lc7rE" id="O6qFYdpAtb" role="3cqZAp">
-          <node concept="la8eA" id="O6qFYdpAtz" role="lcghm">
-            <property role="lacIc" value="delete" />
-=======
-  <node concept="WtQ9Q" id="1rolTiuDqV3">
-    <property role="3GE5qa" value="namespace" />
-    <ref role="WuzLi" to="wnzg:383ZxwZqQYo" resolve="NamespaceDeclaration" />
-    <node concept="11bSqf" id="1rolTiuDqV4" role="11c4hB">
-      <node concept="3clFbS" id="1rolTiuDqV5" role="2VODD2">
-        <node concept="lc7rE" id="1rolTiuDqVo" role="3cqZAp">
-          <node concept="la8eA" id="1rolTiuDqWT" role="lcghm">
-            <property role="lacIc" value="namespace " />
-          </node>
-          <node concept="l9hG8" id="1rolTiuDqY3" role="lcghm">
-            <node concept="2OqwBi" id="1rolTiuDrf0" role="lb14g">
-              <node concept="117lpO" id="1rolTiuDqYZ" role="2Oq$k0" />
-              <node concept="3TrcHB" id="1rolTiuDrWK" role="2OqNvi">
-                <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
-              </node>
-            </node>
->>>>>>> a5b410c665... Fix highlighting to be consistent and make the package name lowercase
-=======
         <node concept="lc7rE" id="72UYQRWCAvH" role="3cqZAp">
           <node concept="la8eA" id="72UYQRWCAw5" role="lcghm">
             <property role="lacIc" value="delete " />
->>>>>>> 9cc6d595ca... New and Delete keywords are working, with types and constructors
           </node>
         </node>
         <node concept="3clFbH" id="72UYQRYrypN" role="3cqZAp" />
@@ -1373,32 +1112,10 @@
           <node concept="la8eA" id="72UYQRWCZYR" role="lcghm">
             <property role="lacIc" value=";" />
           </node>
->>>>>>> 8ebf22174f... Refactor and sort com.mbeddr.cpp
         </node>
       </node>
     </node>
   </node>
-<<<<<<< HEAD
-<<<<<<< HEAD
-  <node concept="WtQ9Q" id="6ddXmWdNsw1">
-    <property role="3GE5qa" value="method.constructor" />
-    <ref role="WuzLi" to="wnzg:6NtgknWJ20B" resolve="ClassConstructorDeclaration" />
-    <node concept="11bSqf" id="6ddXmWdNsw2" role="11c4hB">
-      <node concept="3clFbS" id="6ddXmWdNsw3" role="2VODD2">
-        <node concept="lc7rE" id="6ddXmWdPBIB" role="3cqZAp">
-          <node concept="1bDJIP" id="6ddXmWdPBRL" role="lcghm">
-            <ref role="1rvKf6" node="6ddXmWdP_nH" resolve="generateConstructorPrototype" />
-            <node concept="117lpO" id="6ddXmWdPBS7" role="1ryhcI" />
-            <node concept="2OqwBi" id="6ddXmWdPDCj" role="1ryhcI">
-              <node concept="2OqwBi" id="6ddXmWdPCys" role="2Oq$k0">
-                <node concept="117lpO" id="6ddXmWdPCiA" role="2Oq$k0" />
-                <node concept="3TrEf2" id="6ddXmWdPCW6" role="2OqNvi">
-                  <ref role="3Tt5mk" to="wnzg:6NtgknWJ214" resolve="parent_class" />
-                </node>
-              </node>
-              <node concept="3TrcHB" id="6ddXmWdPEwa" role="2OqNvi">
-                <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
-=======
   <node concept="WtQ9Q" id="3UsoL$lb1lN">
     <property role="3GE5qa" value="class" />
     <ref role="WuzLi" to="wnzg:3UsoL$l5qkL" resolve="InheritanceInstance" />
@@ -1409,13 +1126,6 @@
             <property role="lacIc" value=" " />
           </node>
           <node concept="l9hG8" id="3UsoL$lb1mw" role="lcghm">
-<<<<<<< HEAD
-            <node concept="2OqwBi" id="3UsoL$lb1vH" role="lb14g">
-              <node concept="117lpO" id="3UsoL$lb1nq" role="2Oq$k0" />
-              <node concept="3TrcHB" id="3UsoL$lb1Bi" role="2OqNvi">
-                <ref role="3TsBF5" to="wnzg:3UsoL$l5qkP" resolve="visibility" />
->>>>>>> 24ac19e1a8... Improve text generation for class declerations
-=======
             <node concept="2OqwBi" id="7jWRS$D$ZED" role="lb14g">
               <node concept="24Tkf9" id="7jWRS$D$ZEF" role="2OqNvi" />
               <node concept="2OqwBi" id="3UsoL$lb1vH" role="2Oq$k0">
@@ -1423,49 +1133,40 @@
                 <node concept="3TrcHB" id="3UsoL$lb1Bi" role="2OqNvi">
                   <ref role="3TsBF5" to="wnzg:7jWRS$D$ZDE" resolve="visibility" />
                 </node>
->>>>>>> cc021cd381... migrated to 2019.2
               </node>
             </node>
           </node>
-        </node>
-        <node concept="lc7rE" id="6ddXmWdNtZV" role="3cqZAp">
-          <node concept="la8eA" id="6ddXmWdNu16" role="lcghm">
+          <node concept="la8eA" id="3UsoL$lb2xP" role="lcghm">
             <property role="lacIc" value=" " />
           </node>
-<<<<<<< HEAD
-          <node concept="l9hG8" id="6ddXmWdNu2k" role="lcghm">
-            <node concept="2OqwBi" id="6ddXmWdNuk4" role="lb14g">
-              <node concept="117lpO" id="6ddXmWdNu3g" role="2Oq$k0" />
-              <node concept="3TrEf2" id="6ddXmWdNuI8" role="2OqNvi">
-                <ref role="3Tt5mk" to="wnzg:6ddXmWdC9sl" resolve="body" />
+          <node concept="l9hG8" id="3UsoL$lb2Bh" role="lcghm">
+            <node concept="2OqwBi" id="3UsoL$lb3gT" role="lb14g">
+              <node concept="2OqwBi" id="3UsoL$lb2MK" role="2Oq$k0">
+                <node concept="117lpO" id="3UsoL$lb2Et" role="2Oq$k0" />
+                <node concept="3TrEf2" id="3UsoL$lb2Ul" role="2OqNvi">
+                  <ref role="3Tt5mk" to="wnzg:3UsoL$l5qkM" resolve="parentClass" />
+                </node>
+              </node>
+              <node concept="3TrcHB" id="3UsoL$lb44F" role="2OqNvi">
+                <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
               </node>
             </node>
           </node>
-        </node>
-        <node concept="lc7rE" id="6ddXmWdNvkc" role="3cqZAp">
-          <node concept="l8MVK" id="6ddXmWdNvuv" role="lcghm" />
         </node>
       </node>
     </node>
   </node>
-<<<<<<< HEAD
-<<<<<<< HEAD
-  <node concept="1bsvg0" id="6ddXmWdP_5w">
-    <property role="TrG5h" value="constructorPrototype" />
-    <node concept="1bwezc" id="6ddXmWdP_nH" role="1bwxVq">
-      <property role="TrG5h" value="generateConstructorPrototype" />
-      <node concept="3cqZAl" id="6ddXmWdP_nI" role="3clF45" />
-      <node concept="3clFbS" id="6ddXmWdP_nJ" role="3clF47">
-        <node concept="3cpWs8" id="6ddXmWdP_oB" role="3cqZAp">
-          <node concept="3cpWsn" id="6ddXmWdP_oE" role="3cpWs9">
-            <property role="TrG5h" value="sig" />
-            <node concept="3Tqbb2" id="6ddXmWdP_oA" role="1tU5fm">
-              <ref role="ehGHo" to="wnzg:6NtgknWJ21h" resolve="ClassConstructorSignature" />
-            </node>
-            <node concept="1PxgMI" id="6ddXmWdP_JX" role="33vP2m">
-              <node concept="chp4Y" id="6ddXmWdP_KB" role="3oSUPX">
-                <ref role="cht4Q" to="wnzg:6NtgknWJ21h" resolve="ClassConstructorSignature" />
-=======
+  <node concept="WtQ9Q" id="29cSqve8Gd0">
+    <property role="3GE5qa" value="class" />
+    <ref role="WuzLi" to="wnzg:3v5DuFDls_I" resolve="EmptyClassContent" />
+    <node concept="11bSqf" id="29cSqve8Gd1" role="11c4hB">
+      <node concept="3clFbS" id="29cSqve8Gd2" role="2VODD2">
+        <node concept="lc7rE" id="29cSqve8QPZ" role="3cqZAp">
+          <node concept="l8MVK" id="29cSqve8QRq" role="lcghm" />
+        </node>
+      </node>
+    </node>
+  </node>
   <node concept="WtQ9Q" id="1rolTiuDuhy">
     <property role="3GE5qa" value="namespace" />
     <ref role="WuzLi" to="wnzg:383ZxwZrBky" resolve="NamespaceMethodCall" />
@@ -1506,47 +1207,49 @@
                     <ref role="37wK5l" to="kntn:r2pGcfny46" resolve="getNewPresentation" />
                   </node>
                 </node>
->>>>>>> ab9bc2e05b... Cleanup and document some TextGen components
               </node>
-              <node concept="37vLTw" id="6ddXmWdP_qU" role="1m5AlR">
-                <ref role="3cqZAo" node="6ddXmWdP_q9" resolve="node" />
+              <node concept="la8eA" id="r2pGcfnL_v" role="lcghm">
+                <property role="lacIc" value="::" />
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="r2pGcfd3i7" role="3clFbw">
+            <node concept="117lpO" id="r2pGcfd32K" role="2Oq$k0" />
+            <node concept="2qgKlT" id="r2pGcfd3Qd" role="2OqNvi">
+              <ref role="37wK5l" to="kntn:r2pGcfcIT4" resolve="checkForNewPresentation" />
+            </node>
+          </node>
+          <node concept="3eNFk2" id="r2pGcfmgJi" role="3eNLev">
+            <node concept="3clFbS" id="r2pGcfmgJk" role="3eOfB_">
+              <node concept="lc7rE" id="r2pGcfmh7V" role="3cqZAp">
+                <node concept="l9hG8" id="r2pGcfmh7W" role="lcghm">
+                  <node concept="2OqwBi" id="r2pGcfmh7X" role="lb14g">
+                    <node concept="2OqwBi" id="r2pGcfmh7Y" role="2Oq$k0">
+                      <node concept="117lpO" id="r2pGcfmh7Z" role="2Oq$k0" />
+                      <node concept="3TrEf2" id="r2pGcfmh80" role="2OqNvi">
+                        <ref role="3Tt5mk" to="wnzg:383ZxwZrBkD" resolve="namespace" />
+                      </node>
+                    </node>
+                    <node concept="2qgKlT" id="r2pGcfmh81" role="2OqNvi">
+                      <ref role="37wK5l" to="tpcu:hEwIMiw" resolve="getPresentation" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="la8eA" id="r2pGcfmh82" role="lcghm">
+                  <property role="lacIc" value="::" />
+                </node>
+              </node>
+            </node>
+            <node concept="3fqX7Q" id="r2pGcfmgXU" role="3eO9$A">
+              <node concept="2OqwBi" id="r2pGcfmgXV" role="3fr31v">
+                <node concept="117lpO" id="r2pGcfmgXW" role="2Oq$k0" />
+                <node concept="2qgKlT" id="r2pGcfmgXX" role="2OqNvi">
+                  <ref role="37wK5l" to="kntn:dx81$JlDkz" resolve="removeEditorPresentation" />
+                </node>
               </node>
             </node>
           </node>
         </node>
-        <node concept="lc7rE" id="6ddXmWdPACC" role="3cqZAp">
-          <node concept="l9hG8" id="6ddXmWdPAD7" role="lcghm">
-            <node concept="37vLTw" id="6ddXmWdPADU" role="lb14g">
-              <ref role="3cqZAo" node="6ddXmWdPAB7" resolve="className" />
-            </node>
-          </node>
-          <node concept="la8eA" id="6ddXmWdPAEE" role="lcghm">
-            <property role="lacIc" value="::" />
-          </node>
-        </node>
-        <node concept="3clFbJ" id="5i01kANswlx" role="3cqZAp">
-          <node concept="3clFbS" id="5i01kANswlz" role="3clFbx">
-            <node concept="lc7rE" id="5i01kANsx_A" role="3cqZAp">
-              <node concept="la8eA" id="5i01kANsx_I" role="lcghm">
-                <property role="lacIc" value="~" />
-              </node>
-            </node>
-          </node>
-          <node concept="2OqwBi" id="5i01kANswBY" role="3clFbw">
-            <node concept="37vLTw" id="5i01kANswn2" role="2Oq$k0">
-              <ref role="3cqZAo" node="6ddXmWdP_q9" resolve="node" />
-            </node>
-            <node concept="3TrcHB" id="5i01kANsxwL" role="2OqNvi">
-              <ref role="3TsBF5" to="wnzg:5i01kANicU4" resolve="is_destructor" />
-            </node>
-          </node>
-        </node>
-<<<<<<< HEAD
-        <node concept="lc7rE" id="5i01kANhJdO" role="3cqZAp">
-          <node concept="l9hG8" id="5i01kANhJkz" role="lcghm">
-            <node concept="37vLTw" id="5i01kANhJlm" role="lb14g">
-              <ref role="3cqZAo" node="6ddXmWdPAB7" resolve="className" />
-=======
         <node concept="3SKdUt" id="7POJCjfXj4c" role="3cqZAp">
           <node concept="1PaTwC" id="7jWRS$D_0ZX" role="1aUNEU">
             <node concept="3oM_SD" id="7jWRS$D_0ZY" role="1PaTwD">
@@ -1581,85 +1284,68 @@
               <node concept="3TrcHB" id="dx81$JxJYY" role="2OqNvi">
                 <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
               </node>
->>>>>>> ab9bc2e05b... Cleanup and document some TextGen components
+            </node>
+          </node>
+          <node concept="la8eA" id="dx81$JxKig" role="lcghm">
+            <property role="lacIc" value="(" />
+          </node>
+        </node>
+        <node concept="lc7rE" id="1rolTiuDA8B" role="3cqZAp">
+          <node concept="l9S2W" id="1rolTiuDAoz" role="lcghm">
+            <property role="XA4eZ" value="true" />
+            <property role="lbP0B" value=", " />
+            <node concept="2OqwBi" id="1rolTiuDAIL" role="lbANJ">
+              <node concept="117lpO" id="1rolTiuDAzm" role="2Oq$k0" />
+              <node concept="3Tsc0h" id="1rolTiuDBrr" role="2OqNvi">
+                <ref role="3TtcxE" to="wnzg:383ZxwZrBkA" resolve="actuals" />
+              </node>
             </node>
           </node>
         </node>
-        <node concept="lc7rE" id="6ddXmWdPAHY" role="3cqZAp">
-          <node concept="la8eA" id="6ddXmWdPAID" role="lcghm">
-            <property role="lacIc" value="(" />
-          </node>
-          <node concept="l9S2W" id="6ddXmWdPAKE" role="lcghm">
-            <property role="XA4eZ" value="true" />
-            <property role="lbP0B" value=", " />
-            <node concept="2OqwBi" id="6ddXmWdPB1O" role="lbANJ">
-              <node concept="37vLTw" id="6ddXmWdPAPs" role="2Oq$k0">
-                <ref role="3cqZAo" node="6ddXmWdP_q9" resolve="node" />
-              </node>
-              <node concept="3Tsc0h" id="6hUtorDO75q" role="2OqNvi">
-                <ref role="3TtcxE" to="x27k:4WTYg$PUiX5" resolve="arguments" />
-              </node>
-            </node>
-          </node>
-          <node concept="la8eA" id="6ddXmWdPBvH" role="lcghm">
+        <node concept="lc7rE" id="1rolTiuDGeq" role="3cqZAp">
+          <node concept="la8eA" id="1rolTiuDGuB" role="lcghm">
             <property role="lacIc" value=")" />
           </node>
         </node>
-        <node concept="3clFbJ" id="7DDmkz5z$e" role="3cqZAp">
-          <node concept="3clFbS" id="7DDmkz5z$g" role="3clFbx">
-            <node concept="lc7rE" id="7DDmkz5Bvi" role="3cqZAp">
-              <node concept="la8eA" id="7DDmkz5BvG" role="lcghm">
-                <property role="lacIc" value=" : " />
-              </node>
-            </node>
-            <node concept="lc7rE" id="7DDmkz5Bx5" role="3cqZAp">
-              <node concept="l9S2W" id="7DDmkz5Bxz" role="lcghm">
-                <property role="XA4eZ" value="true" />
-                <property role="lbP0B" value=", " />
-                <node concept="2OqwBi" id="7DDmkz5BMg" role="lbANJ">
-                  <node concept="37vLTw" id="7DDmkza6aY" role="2Oq$k0">
-                    <ref role="3cqZAo" node="6ddXmWdP_oE" resolve="sig" />
-                  </node>
-                  <node concept="3Tsc0h" id="7DDmkza6F5" role="2OqNvi">
-                    <ref role="3TtcxE" to="wnzg:3n$8_Xbh2kv" resolve="initializers" />
-                  </node>
-=======
-          <node concept="l9hG8" id="3UsoL$lb2Bh" role="lcghm">
-            <node concept="2OqwBi" id="3UsoL$lb3gT" role="lb14g">
-              <node concept="2OqwBi" id="3UsoL$lb2MK" role="2Oq$k0">
-                <node concept="117lpO" id="3UsoL$lb2Et" role="2Oq$k0" />
-                <node concept="3TrEf2" id="3UsoL$lb2Ul" role="2OqNvi">
-                  <ref role="3Tt5mk" to="wnzg:3UsoL$l5qkM" resolve="parentClass" />
->>>>>>> a12a984071... Fix style issues
+      </node>
+    </node>
+  </node>
+  <node concept="WtQ9Q" id="7fNEwq_Vo48">
+    <property role="3GE5qa" value="namespace" />
+    <ref role="WuzLi" to="wnzg:7fNEwq_6ZJn" resolve="NamespaceClassInstanceAttributeRef" />
+    <node concept="11bSqf" id="7fNEwq_Vo49" role="11c4hB">
+      <node concept="3clFbS" id="7fNEwq_Vo4a" role="2VODD2">
+        <node concept="lc7rE" id="7fNEwq_Vo4t" role="3cqZAp">
+          <node concept="l9hG8" id="7fNEwq_Vo4P" role="lcghm">
+            <node concept="2OqwBi" id="7fNEwq_Vp4f" role="lb14g">
+              <node concept="2OqwBi" id="7fNEwq_Voii" role="2Oq$k0">
+                <node concept="117lpO" id="7fNEwq_Vo5J" role="2Oq$k0" />
+                <node concept="3TrEf2" id="7fNEwq_VozO" role="2OqNvi">
+                  <ref role="3Tt5mk" to="wnzg:7fNEwq_6ZJT" resolve="classInstance" />
                 </node>
               </node>
-            </node>
-          </node>
-          <node concept="2OqwBi" id="7DDmkz5AnJ" role="3clFbw">
-            <node concept="2OqwBi" id="7DDmkz5$69" role="2Oq$k0">
-              <node concept="37vLTw" id="7DDmkza5xS" role="2Oq$k0">
-                <ref role="3cqZAo" node="6ddXmWdP_oE" resolve="sig" />
-              </node>
-              <node concept="3Tsc0h" id="7DDmkza62v" role="2OqNvi">
-                <ref role="3TtcxE" to="wnzg:3n$8_Xbh2kv" resolve="initializers" />
+              <node concept="3TrcHB" id="7fNEwq_Vpyd" role="2OqNvi">
+                <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
               </node>
             </node>
-            <node concept="3GX2aA" id="7DDmkz5Bq6" role="2OqNvi" />
+          </node>
+          <node concept="la8eA" id="7fNEwq_VpKy" role="lcghm">
+            <property role="lacIc" value="." />
+          </node>
+          <node concept="l9hG8" id="7fNEwq_VpZk" role="lcghm">
+            <node concept="2OqwBi" id="7fNEwq_Vrvh" role="lb14g">
+              <node concept="2OqwBi" id="7fNEwq_Vqjy" role="2Oq$k0">
+                <node concept="117lpO" id="7fNEwq_Vq7b" role="2Oq$k0" />
+                <node concept="3TrEf2" id="7fNEwq_VqWG" role="2OqNvi">
+                  <ref role="3Tt5mk" to="wnzg:7fNEwq_6ZLT" resolve="classAttribute" />
+                </node>
+              </node>
+              <node concept="3TrcHB" id="7fNEwq_VrUP" role="2OqNvi">
+                <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+              </node>
+            </node>
           </node>
         </node>
-<<<<<<< HEAD
-        <node concept="3clFbH" id="7DDmkza5jz" role="3cqZAp" />
-      </node>
-      <node concept="37vLTG" id="6ddXmWdP_q9" role="3clF46">
-        <property role="TrG5h" value="node" />
-        <node concept="3Tqbb2" id="6ddXmWdP_q8" role="1tU5fm">
-          <ref role="ehGHo" to="wnzg:6NtgknWJ21h" resolve="ClassConstructorSignature" />
-        </node>
-      </node>
-      <node concept="37vLTG" id="6ddXmWdPAB7" role="3clF46">
-        <property role="TrG5h" value="className" />
-        <node concept="17QB3L" id="6ddXmWdPABr" role="1tU5fm" />
-=======
         <node concept="3clFbJ" id="61rdzRj0aVv" role="3cqZAp">
           <node concept="3clFbS" id="61rdzRj0aVx" role="3clFbx">
             <node concept="lc7rE" id="61rdzRj0dnD" role="3cqZAp">
@@ -1685,19 +1371,35 @@
         <node concept="lc7rE" id="61rdzRj0bNJ" role="3cqZAp">
           <node concept="l8MVK" id="61rdzRj0c1Y" role="lcghm" />
         </node>
->>>>>>> 927d6c1d7b... Adjusted namespace class calling. Added final demo module.
       </node>
     </node>
   </node>
-  <node concept="WtQ9Q" id="6hUtorDPkwX">
-    <property role="3GE5qa" value="method.constructor" />
-    <ref role="WuzLi" to="wnzg:6hUtorDPkwW" resolve="ConstructorVoidType" />
-    <node concept="11bSqf" id="6hUtorDPkwY" role="11c4hB">
-      <node concept="3clFbS" id="6hUtorDPkwZ" role="2VODD2">
-        <node concept="3SKdUt" id="6hUtorDPkxi" role="3cqZAp">
-          <node concept="3SKdUq" id="6hUtorDPkxj" role="3SKWNk">
-            <property role="3SKdUp" value="Intentionally empty" />
+  <node concept="WtQ9Q" id="6gFj6gq0OZt">
+    <property role="3GE5qa" value="namespace" />
+    <ref role="WuzLi" to="wnzg:6gFj6gpBJFg" resolve="GlobalUsingGeneralNamespaceDeclaration" />
+    <node concept="11bSqf" id="6gFj6gq0Pf_" role="11c4hB">
+      <node concept="3clFbS" id="6gFj6gq0PfA" role="2VODD2">
+        <node concept="lc7rE" id="6gFj6gq0PfB" role="3cqZAp">
+          <node concept="la8eA" id="6gFj6gq0PfC" role="lcghm">
+            <property role="lacIc" value="using namespace " />
           </node>
+          <node concept="l9hG8" id="6gFj6gq0PfD" role="lcghm">
+            <node concept="2OqwBi" id="6gFj6gq0PfE" role="lb14g">
+              <node concept="2OqwBi" id="6gFj6gq0PfF" role="2Oq$k0">
+                <node concept="117lpO" id="6gFj6gq0PfG" role="2Oq$k0" />
+                <node concept="3TrEf2" id="6gFj6gq0PfH" role="2OqNvi">
+                  <ref role="3Tt5mk" to="wnzg:6gFj6gpBJF$" resolve="namespace" />
+                </node>
+              </node>
+              <node concept="2qgKlT" id="6gFj6gq0PfI" role="2OqNvi">
+                <ref role="37wK5l" to="tpcu:hEwIMiw" resolve="getPresentation" />
+              </node>
+            </node>
+          </node>
+          <node concept="la8eA" id="6gFj6gq2U1e" role="lcghm">
+            <property role="lacIc" value=";" />
+          </node>
+          <node concept="l8MVK" id="6gFj6gq2Un3" role="lcghm" />
         </node>
       </node>
     </node>
@@ -1928,94 +1630,56 @@
           <node concept="la8eA" id="1OcdQnyTWL0" role="lcghm">
             <property role="lacIc" value=";" />
           </node>
-=======
-  <node concept="WtQ9Q" id="1rolTiuDlXW">
-    <property role="3GE5qa" value="Namespace" />
-    <ref role="WuzLi" to="wnzg:383ZxwZrBkp" resolve="NamespaceAttributeRef" />
-    <node concept="11bSqf" id="1rolTiuDlXX" role="11c4hB">
-      <node concept="3clFbS" id="1rolTiuDlXY" role="2VODD2">
-        <node concept="3clFbJ" id="r2pGcfOfQF" role="3cqZAp">
-          <node concept="3clFbS" id="r2pGcfOfQG" role="3clFbx">
-            <node concept="lc7rE" id="r2pGcfOfQH" role="3cqZAp">
-              <node concept="l9hG8" id="r2pGcfOfQI" role="lcghm">
-                <node concept="2OqwBi" id="r2pGcfOfQJ" role="lb14g">
-                  <node concept="117lpO" id="r2pGcfOfQK" role="2Oq$k0" />
-                  <node concept="2qgKlT" id="r2pGcfOh8L" role="2OqNvi">
-                    <ref role="37wK5l" to="kntn:r2pGcfMQ$x" resolve="getNewPresentation" />
-                  </node>
-                </node>
-              </node>
-              <node concept="la8eA" id="r2pGcfOfQM" role="lcghm">
-                <property role="lacIc" value="::" />
-              </node>
-            </node>
-          </node>
-          <node concept="2OqwBi" id="r2pGcfOfQN" role="3clFbw">
-            <node concept="117lpO" id="r2pGcfOfQO" role="2Oq$k0" />
-            <node concept="2qgKlT" id="r2pGcfOg_2" role="2OqNvi">
-              <ref role="37wK5l" to="kntn:r2pGcfNm5m" resolve="checkForNewPresentation" />
-            </node>
-          </node>
-          <node concept="3eNFk2" id="r2pGcfOfQQ" role="3eNLev">
-            <node concept="3clFbS" id="r2pGcfOfQR" role="3eOfB_">
-              <node concept="lc7rE" id="r2pGcfOfQS" role="3cqZAp">
-                <node concept="l9hG8" id="r2pGcfOfQT" role="lcghm">
-                  <node concept="2OqwBi" id="r2pGcfOfQU" role="lb14g">
-                    <node concept="2OqwBi" id="r2pGcfOfQV" role="2Oq$k0">
-                      <node concept="117lpO" id="r2pGcfOfQW" role="2Oq$k0" />
-                      <node concept="3TrEf2" id="r2pGcfOfQX" role="2OqNvi">
-                        <ref role="3Tt5mk" to="wnzg:383ZxwZrBkq" resolve="namespace" />
-                      </node>
-                    </node>
-                    <node concept="2qgKlT" id="r2pGcfOfQY" role="2OqNvi">
-                      <ref role="37wK5l" to="tpcu:hEwIMiw" resolve="getPresentation" />
-                    </node>
-                  </node>
-                </node>
-                <node concept="la8eA" id="r2pGcfOfQZ" role="lcghm">
-                  <property role="lacIc" value="::" />
-                </node>
-              </node>
-            </node>
-            <node concept="3fqX7Q" id="r2pGcfOfR0" role="3eO9$A">
-              <node concept="2OqwBi" id="r2pGcfOfR1" role="3fr31v">
-                <node concept="117lpO" id="r2pGcfOfR2" role="2Oq$k0" />
-                <node concept="2qgKlT" id="r2pGcfOhDN" role="2OqNvi">
-                  <ref role="37wK5l" to="kntn:r2pGcfNSpD" resolve="removeEditorPresentation" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="lc7rE" id="1rolTiuDlYh" role="3cqZAp">
-          <node concept="l9hG8" id="1rolTiuDp41" role="lcghm">
-            <node concept="2OqwBi" id="1rolTiuDqqE" role="lb14g">
-              <node concept="2OqwBi" id="1rolTiuDpus" role="2Oq$k0">
-                <node concept="117lpO" id="1rolTiuDpfl" role="2Oq$k0" />
-                <node concept="3TrEf2" id="1rolTiuDpOf" role="2OqNvi">
-                  <ref role="3Tt5mk" to="wnzg:383ZxwZrBkt" resolve="attribute" />
-                </node>
-              </node>
-              <node concept="3TrcHB" id="1rolTiuDqNw" role="2OqNvi">
-                <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
-              </node>
-            </node>
-          </node>
         </node>
       </node>
     </node>
   </node>
-<<<<<<< HEAD
-<<<<<<< HEAD
-  <node concept="WtQ9Q" id="1rolTiuDqV3">
-    <property role="3GE5qa" value="Namespace" />
-    <ref role="WuzLi" to="wnzg:383ZxwZqQYo" resolve="NamespaceDeclaration" />
-    <node concept="11bSqf" id="1rolTiuDqV4" role="11c4hB">
-      <node concept="3clFbS" id="1rolTiuDqV5" role="2VODD2">
-        <node concept="lc7rE" id="1rolTiuDqVo" role="3cqZAp">
-          <node concept="la8eA" id="1rolTiuDqWT" role="lcghm">
-            <property role="lacIc" value="namespace " />
-=======
+  <node concept="WtQ9Q" id="7RFM8R0Rm5D">
+    <property role="3GE5qa" value="namespace" />
+    <ref role="WuzLi" to="wnzg:7RFM8R0Rm5q" resolve="GlobalUsingNamespaceMethodDeclaration" />
+    <node concept="11bSqf" id="7RFM8R0Rm5E" role="11c4hB">
+      <node concept="3clFbS" id="7RFM8R0Rm5F" role="2VODD2">
+        <node concept="lc7rE" id="7RFM8R0Rxe3" role="3cqZAp">
+          <node concept="la8eA" id="7RFM8R0Rxe4" role="lcghm">
+            <property role="lacIc" value="using " />
+          </node>
+          <node concept="l9hG8" id="7RFM8R0Rxe5" role="lcghm">
+            <node concept="2OqwBi" id="7RFM8R0Rxe6" role="lb14g">
+              <node concept="2OqwBi" id="7RFM8R0Rxe7" role="2Oq$k0">
+                <node concept="117lpO" id="7RFM8R0Rxe8" role="2Oq$k0" />
+                <node concept="3TrEf2" id="7RFM8R0RzdP" role="2OqNvi">
+                  <ref role="3Tt5mk" to="wnzg:7RFM8R0Rm5r" resolve="namespace" />
+                </node>
+              </node>
+              <node concept="2qgKlT" id="7RFM8R0Rxea" role="2OqNvi">
+                <ref role="37wK5l" to="tpcu:hEwIMiw" resolve="getPresentation" />
+              </node>
+            </node>
+          </node>
+          <node concept="la8eA" id="7RFM8R0Rxeb" role="lcghm">
+            <property role="lacIc" value="::" />
+          </node>
+          <node concept="l9hG8" id="7RFM8R0Rxec" role="lcghm">
+            <node concept="2OqwBi" id="7RFM8R0Rxed" role="lb14g">
+              <node concept="2OqwBi" id="7RFM8R0Rxee" role="2Oq$k0">
+                <node concept="117lpO" id="7RFM8R0Rxef" role="2Oq$k0" />
+                <node concept="3TrEf2" id="7RFM8R0RyMD" role="2OqNvi">
+                  <ref role="3Tt5mk" to="wnzg:7RFM8R0Rm5s" resolve="method" />
+                </node>
+              </node>
+              <node concept="3TrcHB" id="7RFM8R0Rxeh" role="2OqNvi">
+                <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+              </node>
+            </node>
+          </node>
+          <node concept="la8eA" id="7RFM8R0RxKQ" role="lcghm">
+            <property role="lacIc" value=";" />
+          </node>
+          <node concept="l8MVK" id="7RFM8R0Ryg0" role="lcghm" />
+        </node>
+      </node>
+    </node>
+  </node>
   <node concept="1bsvg0" id="6ddXmWdP_5w">
     <property role="TrG5h" value="constructorPrototype" />
     <node concept="1bwezc" id="6ddXmWdP_nH" role="1bwxVq">
@@ -2060,485 +1724,6 @@
             <node concept="3oM_SD" id="7jWRS$D_10H" role="1PaTwD">
               <property role="3oM_SC" value="body." />
             </node>
->>>>>>> cc021cd381... migrated to 2019.2
-          </node>
-          <node concept="l9hG8" id="1rolTiuDqY3" role="lcghm">
-            <node concept="2OqwBi" id="1rolTiuDrf0" role="lb14g">
-              <node concept="117lpO" id="1rolTiuDqYZ" role="2Oq$k0" />
-              <node concept="3TrcHB" id="1rolTiuDrWK" role="2OqNvi">
-                <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
-              </node>
-            </node>
-          </node>
-          <node concept="la8eA" id="1rolTiuDs5b" role="lcghm">
-            <property role="lacIc" value=" {" />
-          </node>
-          <node concept="l8MVK" id="1rolTiuDseg" role="lcghm" />
-        </node>
-        <node concept="3izx1p" id="1rolTiuDsvw" role="3cqZAp">
-          <node concept="3clFbS" id="1rolTiuDsvy" role="3izTki">
-            <node concept="2Gpval" id="1rolTiuDszU" role="3cqZAp">
-              <node concept="2GrKxI" id="1rolTiuDszV" role="2Gsz3X">
-                <property role="TrG5h" value="statement" />
-              </node>
-              <node concept="2OqwBi" id="1rolTiuDsN8" role="2GsD0m">
-                <node concept="117lpO" id="1rolTiuDs$r" role="2Oq$k0" />
-                <node concept="3Tsc0h" id="1rolTiuDtwl" role="2OqNvi">
-                  <ref role="3TtcxE" to="wnzg:383ZxwZsUja" resolve="members" />
-                </node>
-              </node>
-              <node concept="3clFbS" id="1rolTiuDszX" role="2LFqv$">
-                <node concept="lc7rE" id="1rolTiuDt$$" role="3cqZAp">
-                  <node concept="l9hG8" id="1rolTiuDt$W" role="lcghm">
-                    <property role="ld1Su" value="true" />
-                    <node concept="2GrUjf" id="1rolTiuDt_Q" role="lb14g">
-                      <ref role="2Gs0qQ" node="1rolTiuDszV" resolve="statement" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1bpajm" id="1rolTiuDtLq" role="3cqZAp" />
-        <node concept="lc7rE" id="1rolTiuDu18" role="3cqZAp">
-          <node concept="la8eA" id="1rolTiuDu96" role="lcghm">
-            <property role="lacIc" value="}" />
-          </node>
-          <node concept="l8MVK" id="1rolTiuDua2" role="lcghm" />
->>>>>>> c9ad58ee32... Added TextGen elements of Namespace Concepts and adjusted several Editors
-        </node>
-      </node>
-    </node>
-  </node>
-<<<<<<< HEAD
-  <node concept="WtQ9Q" id="7DDmkz5meI">
-    <property role="3GE5qa" value="method.constructor" />
-    <ref role="WuzLi" to="wnzg:7DDmkyVr_r" resolve="ConstructorInitializedAttribute" />
-    <node concept="11bSqf" id="7DDmkz5meJ" role="11c4hB">
-      <node concept="3clFbS" id="7DDmkz5meK" role="2VODD2">
-        <node concept="lc7rE" id="7DDmkz5wRD" role="3cqZAp">
-          <node concept="l9hG8" id="7DDmkz5wS1" role="lcghm">
-            <node concept="2OqwBi" id="7DDmkz5xAG" role="lb14g">
-              <node concept="2OqwBi" id="7DDmkz5x63" role="2Oq$k0">
-                <node concept="117lpO" id="7DDmkz5wXc" role="2Oq$k0" />
-                <node concept="3TrEf2" id="7DDmkz5xf3" role="2OqNvi">
-                  <ref role="3Tt5mk" to="wnzg:7DDmkz1Ipj" resolve="identity" />
-                </node>
-              </node>
-              <node concept="3TrcHB" id="7DDmkz5xYa" role="2OqNvi">
-                <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
-              </node>
-            </node>
-          </node>
-          <node concept="la8eA" id="7DDmkz5y99" role="lcghm">
-            <property role="lacIc" value="(" />
-          </node>
-          <node concept="l9hG8" id="7DDmkz5yk_" role="lcghm">
-            <node concept="2OqwBi" id="7DDmkz5yzC" role="lb14g">
-              <node concept="117lpO" id="7DDmkz5yqL" role="2Oq$k0" />
-              <node concept="3TrEf2" id="7DDmkz5yGs" role="2OqNvi">
-                <ref role="3Tt5mk" to="wnzg:7DDmkz0vm1" resolve="init" />
-              </node>
-            </node>
-          </node>
-          <node concept="la8eA" id="7DDmkz5yVz" role="lcghm">
-            <property role="lacIc" value=")" />
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="WtQ9Q" id="4KyQ_QhDpke">
-    <property role="3GE5qa" value="method.constructor" />
-    <ref role="WuzLi" to="wnzg:7DDmkz5m05" resolve="ConstructorInitializedConstructor" />
-    <node concept="11bSqf" id="4KyQ_QhDpkf" role="11c4hB">
-      <node concept="3clFbS" id="4KyQ_QhDpkg" role="2VODD2">
-        <node concept="3SKdUt" id="4KyQ_QhOZ0S" role="3cqZAp">
-          <node concept="3SKdUq" id="4KyQ_QhOZ0U" role="3SKWNk">
-            <property role="3SKdUp" value="TODO: The following line doesn't print the name for some reason." />
-          </node>
-=======
-  <node concept="WtQ9Q" id="29cSqve8Gd0">
-    <property role="3GE5qa" value="class" />
-    <ref role="WuzLi" to="wnzg:3v5DuFDls_I" resolve="EmptyClassContent" />
-    <node concept="11bSqf" id="29cSqve8Gd1" role="11c4hB">
-      <node concept="3clFbS" id="29cSqve8Gd2" role="2VODD2">
-        <node concept="lc7rE" id="29cSqve8QPZ" role="3cqZAp">
-          <node concept="l8MVK" id="29cSqve8QRq" role="lcghm" />
->>>>>>> f7ba0272ae... Redo auto keyword
-        </node>
-        <node concept="3SKdUt" id="4KyQ_QhOZqM" role="3cqZAp">
-          <node concept="3SKdUq" id="4KyQ_QhOZqO" role="3SKWNk">
-            <property role="3SKdUp" value="Not sure why this isn't working, I've tried many alternatives." />
-          </node>
-        </node>
-        <node concept="lc7rE" id="4KyQ_QhDpkP" role="3cqZAp">
-          <node concept="l9hG8" id="4KyQ_QhDplf" role="lcghm">
-            <node concept="2OqwBi" id="4KyQ_QhO0WW" role="lb14g">
-              <node concept="2OqwBi" id="4KyQ_QhNXkL" role="2Oq$k0">
-                <node concept="2OqwBi" id="4KyQ_QhNyr9" role="2Oq$k0">
-                  <node concept="117lpO" id="4KyQ_QhNyi9" role="2Oq$k0" />
-                  <node concept="3TrEf2" id="4KyQ_QhNyB_" role="2OqNvi">
-                    <ref role="3Tt5mk" to="wnzg:7DDmkza$5N" resolve="identity" />
-                  </node>
-                </node>
-                <node concept="3TrEf2" id="4KyQ_QhO00Y" role="2OqNvi">
-                  <ref role="3Tt5mk" to="wnzg:6NtgknWJ214" resolve="parent_class" />
-                </node>
-              </node>
-              <node concept="3TrcHB" id="4KyQ_QhOp44" role="2OqNvi">
-=======
-  <node concept="WtQ9Q" id="1rolTiuDuhy">
-    <property role="3GE5qa" value="Namespace" />
-=======
-  <node concept="WtQ9Q" id="1rolTiuDuhy">
-    <property role="3GE5qa" value="namespace" />
->>>>>>> a5b410c665... Fix highlighting to be consistent and make the package name lowercase
-    <ref role="WuzLi" to="wnzg:383ZxwZrBky" resolve="NamespaceMethodCall" />
-    <node concept="11bSqf" id="1rolTiuDuhz" role="11c4hB">
-      <node concept="3clFbS" id="1rolTiuDuh$" role="2VODD2">
-        <node concept="3clFbJ" id="r2pGcfd2Js" role="3cqZAp">
-          <node concept="3clFbS" id="r2pGcfd2Ju" role="3clFbx">
-            <node concept="lc7rE" id="r2pGcfeL97" role="3cqZAp">
-              <node concept="l9hG8" id="r2pGcfeL9t" role="lcghm">
-                <node concept="2OqwBi" id="r2pGcfeLpT" role="lb14g">
-                  <node concept="117lpO" id="r2pGcfeLal" role="2Oq$k0" />
-                  <node concept="2qgKlT" id="r2pGcfnL9m" role="2OqNvi">
-                    <ref role="37wK5l" to="kntn:r2pGcfny46" resolve="getNewPresentation" />
-                  </node>
-                </node>
-              </node>
-              <node concept="la8eA" id="r2pGcfnL_v" role="lcghm">
-                <property role="lacIc" value="::" />
-              </node>
-            </node>
-          </node>
-          <node concept="2OqwBi" id="r2pGcfd3i7" role="3clFbw">
-            <node concept="117lpO" id="r2pGcfd32K" role="2Oq$k0" />
-            <node concept="2qgKlT" id="r2pGcfd3Qd" role="2OqNvi">
-              <ref role="37wK5l" to="kntn:r2pGcfcIT4" resolve="checkForNewPresentation" />
-            </node>
-          </node>
-          <node concept="3eNFk2" id="r2pGcfmgJi" role="3eNLev">
-            <node concept="3clFbS" id="r2pGcfmgJk" role="3eOfB_">
-              <node concept="lc7rE" id="r2pGcfmh7V" role="3cqZAp">
-                <node concept="l9hG8" id="r2pGcfmh7W" role="lcghm">
-                  <node concept="2OqwBi" id="r2pGcfmh7X" role="lb14g">
-                    <node concept="2OqwBi" id="r2pGcfmh7Y" role="2Oq$k0">
-                      <node concept="117lpO" id="r2pGcfmh7Z" role="2Oq$k0" />
-                      <node concept="3TrEf2" id="r2pGcfmh80" role="2OqNvi">
-                        <ref role="3Tt5mk" to="wnzg:383ZxwZrBkD" resolve="namespace" />
-                      </node>
-                    </node>
-                    <node concept="2qgKlT" id="r2pGcfmh81" role="2OqNvi">
-                      <ref role="37wK5l" to="tpcu:hEwIMiw" resolve="getPresentation" />
-                    </node>
-                  </node>
-                </node>
-                <node concept="la8eA" id="r2pGcfmh82" role="lcghm">
-                  <property role="lacIc" value="::" />
-                </node>
-              </node>
-            </node>
-            <node concept="3fqX7Q" id="r2pGcfmgXU" role="3eO9$A">
-              <node concept="2OqwBi" id="r2pGcfmgXV" role="3fr31v">
-                <node concept="117lpO" id="r2pGcfmgXW" role="2Oq$k0" />
-                <node concept="2qgKlT" id="r2pGcfmgXX" role="2OqNvi">
-                  <ref role="37wK5l" to="kntn:dx81$JlDkz" resolve="removeEditorPresentation" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="lc7rE" id="dx81$JxJEx" role="3cqZAp">
-          <node concept="l9hG8" id="dx81$JxJYT" role="lcghm">
-            <node concept="2OqwBi" id="dx81$JxJYU" role="lb14g">
-              <node concept="2OqwBi" id="dx81$JxJYV" role="2Oq$k0">
-                <node concept="117lpO" id="dx81$JxJYW" role="2Oq$k0" />
-                <node concept="3TrEf2" id="dx81$JxJYX" role="2OqNvi">
-                  <ref role="3Tt5mk" to="wnzg:383ZxwZrBkI" resolve="method" />
-                </node>
-              </node>
-<<<<<<< HEAD
-              <node concept="3TrcHB" id="1rolTiuD_gx" role="2OqNvi">
->>>>>>> c9ad58ee32... Added TextGen elements of Namespace Concepts and adjusted several Editors
-=======
-              <node concept="3TrcHB" id="dx81$JxJYY" role="2OqNvi">
->>>>>>> d652370829... Editor and TextGen MethodCalls using GeneralNamespaceDeclarations works correctly.
-                <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
-              </node>
-            </node>
-          </node>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-          <node concept="la8eA" id="4KyQ_QhDr_2" role="lcghm">
-            <property role="lacIc" value="(" />
-          </node>
-        </node>
-        <node concept="lc7rE" id="4KyQ_QhDrNu" role="3cqZAp">
-          <node concept="l9S2W" id="4KyQ_QhDrVX" role="lcghm">
-            <property role="XA4eZ" value="true" />
-            <property role="lbP0B" value=", " />
-            <node concept="2OqwBi" id="4KyQ_QhDs2Y" role="lbANJ">
-              <node concept="117lpO" id="4KyQ_QhDrWl" role="2Oq$k0" />
-              <node concept="3Tsc0h" id="4KyQ_QhDscP" role="2OqNvi">
-                <ref role="3TtcxE" to="wnzg:7DDmkza$7B" resolve="actual_arguments" />
-=======
-          <node concept="la8eA" id="dx81$JxKig" role="lcghm">
-            <property role="lacIc" value="(" />
-          </node>
-        </node>
-        <node concept="lc7rE" id="1rolTiuDA8B" role="3cqZAp">
-          <node concept="l9S2W" id="1rolTiuDAoz" role="lcghm">
-            <property role="XA4eZ" value="true" />
-            <property role="lbP0B" value=", " />
-            <node concept="2OqwBi" id="1rolTiuDAIL" role="lbANJ">
-              <node concept="117lpO" id="1rolTiuDAzm" role="2Oq$k0" />
-              <node concept="3Tsc0h" id="1rolTiuDBrr" role="2OqNvi">
-                <ref role="3TtcxE" to="wnzg:383ZxwZrBkA" resolve="actuals" />
-              </node>
-<<<<<<< HEAD
-=======
-            </node>
-          </node>
-        </node>
-        <node concept="lc7rE" id="1rolTiuDGeq" role="3cqZAp">
-          <node concept="la8eA" id="1rolTiuDGuB" role="lcghm">
-            <property role="lacIc" value=")" />
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="WtQ9Q" id="7fNEwq_Vo48">
-    <property role="3GE5qa" value="namespace" />
-    <ref role="WuzLi" to="wnzg:7fNEwq_6ZJn" resolve="NamespaceClassInstanceAttributeRef" />
-    <node concept="11bSqf" id="7fNEwq_Vo49" role="11c4hB">
-      <node concept="3clFbS" id="7fNEwq_Vo4a" role="2VODD2">
-        <node concept="lc7rE" id="7fNEwq_Vo4t" role="3cqZAp">
-          <node concept="l9hG8" id="7fNEwq_Vo4P" role="lcghm">
-            <node concept="2OqwBi" id="7fNEwq_Vp4f" role="lb14g">
-              <node concept="2OqwBi" id="7fNEwq_Voii" role="2Oq$k0">
-                <node concept="117lpO" id="7fNEwq_Vo5J" role="2Oq$k0" />
-                <node concept="3TrEf2" id="7fNEwq_VozO" role="2OqNvi">
-                  <ref role="3Tt5mk" to="wnzg:7fNEwq_6ZJT" resolve="classInstance" />
-                </node>
-              </node>
-              <node concept="3TrcHB" id="7fNEwq_Vpyd" role="2OqNvi">
-                <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
-              </node>
-            </node>
-          </node>
-          <node concept="la8eA" id="7fNEwq_VpKy" role="lcghm">
-            <property role="lacIc" value="." />
-          </node>
-          <node concept="l9hG8" id="7fNEwq_VpZk" role="lcghm">
-            <node concept="2OqwBi" id="7fNEwq_Vrvh" role="lb14g">
-              <node concept="2OqwBi" id="7fNEwq_Vqjy" role="2Oq$k0">
-                <node concept="117lpO" id="7fNEwq_Vq7b" role="2Oq$k0" />
-                <node concept="3TrEf2" id="7fNEwq_VqWG" role="2OqNvi">
-                  <ref role="3Tt5mk" to="wnzg:7fNEwq_6ZLT" resolve="classAttribute" />
-                </node>
-              </node>
-              <node concept="3TrcHB" id="7fNEwq_VrUP" role="2OqNvi">
-                <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="WtQ9Q" id="6gFj6gq0OZt">
-    <property role="3GE5qa" value="namespace" />
-    <ref role="WuzLi" to="wnzg:6gFj6gpBJFg" resolve="GlobalUsingGeneralNamespaceDeclaration" />
-    <node concept="11bSqf" id="6gFj6gq0Pf_" role="11c4hB">
-      <node concept="3clFbS" id="6gFj6gq0PfA" role="2VODD2">
-        <node concept="lc7rE" id="6gFj6gq0PfB" role="3cqZAp">
-          <node concept="la8eA" id="6gFj6gq0PfC" role="lcghm">
-            <property role="lacIc" value="using namespace " />
-          </node>
-          <node concept="l9hG8" id="6gFj6gq0PfD" role="lcghm">
-            <node concept="2OqwBi" id="6gFj6gq0PfE" role="lb14g">
-              <node concept="2OqwBi" id="6gFj6gq0PfF" role="2Oq$k0">
-                <node concept="117lpO" id="6gFj6gq0PfG" role="2Oq$k0" />
-                <node concept="3TrEf2" id="6gFj6gq0PfH" role="2OqNvi">
-                  <ref role="3Tt5mk" to="wnzg:6gFj6gpBJF$" resolve="namespace" />
-                </node>
-              </node>
-              <node concept="2qgKlT" id="6gFj6gq0PfI" role="2OqNvi">
-                <ref role="37wK5l" to="tpcu:hEwIMiw" resolve="getPresentation" />
-              </node>
-            </node>
-          </node>
-          <node concept="la8eA" id="6gFj6gq2U1e" role="lcghm">
-            <property role="lacIc" value=";" />
-          </node>
-          <node concept="l8MVK" id="6gFj6gq2Un3" role="lcghm" />
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="WtQ9Q" id="17yeYAhYjUw">
-    <property role="3GE5qa" value="class" />
-    <ref role="WuzLi" to="wnzg:6hUtorDW7AG" resolve="LocalClassVariableDeclaration" />
-    <node concept="11bSqf" id="17yeYAhYjUx" role="11c4hB">
-      <node concept="3clFbS" id="17yeYAhYjUy" role="2VODD2">
-        <node concept="3clFbJ" id="3_fgNoLAYot" role="3cqZAp">
-          <node concept="3clFbS" id="3_fgNoLAYou" role="3clFbx">
-            <node concept="lc7rE" id="3_fgNoLAYoB" role="3cqZAp">
-              <node concept="la8eA" id="3_fgNoLAYoD" role="lcghm">
-                <property role="lacIc" value="static " />
-              </node>
-            </node>
-          </node>
-          <node concept="2OqwBi" id="3_fgNoLAYoy" role="3clFbw">
-            <node concept="117lpO" id="3_fgNoLAYox" role="2Oq$k0" />
-            <node concept="3TrcHB" id="3_fgNoLAYoA" role="2OqNvi">
-              <ref role="3TsBF5" to="c4fa:3_fgNoLA7XY" resolve="static" />
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbJ" id="71J$BslqK0h" role="3cqZAp">
-          <node concept="3clFbS" id="71J$BslqK0i" role="3clFbx">
-            <node concept="lc7rE" id="71J$BslqK0j" role="3cqZAp">
-              <node concept="la8eA" id="71J$BslqK0k" role="lcghm">
-                <property role="lacIc" value="extern " />
-              </node>
-            </node>
-          </node>
-          <node concept="2OqwBi" id="71J$BslqK0l" role="3clFbw">
-            <node concept="117lpO" id="71J$BslqK0m" role="2Oq$k0" />
-            <node concept="3TrcHB" id="71J$BslqL4l" role="2OqNvi">
-              <ref role="3TsBF5" to="c4fa:71J$BslqIK_" resolve="extern" />
->>>>>>> 180d6b24f4... Unify structure naming, fix dependency issue and remove unused dependencies
-            </node>
-          </node>
-        </node>
-        <node concept="lc7rE" id="1rolTiuDGeq" role="3cqZAp">
-          <node concept="la8eA" id="1rolTiuDGuB" role="lcghm">
-            <property role="lacIc" value=")" />
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="WtQ9Q" id="7fNEwq_I8Jx">
-    <property role="3GE5qa" value="namespace" />
-    <ref role="WuzLi" to="wnzg:7RFM8R3Me1y" resolve="NamespaceClassInstance" />
-    <node concept="11bSqf" id="7fNEwq_I8Jy" role="11c4hB">
-      <node concept="3clFbS" id="7fNEwq_I8Jz" role="2VODD2">
-        <node concept="lc7rE" id="7fNEwq_I8JQ" role="3cqZAp">
-          <node concept="l9hG8" id="7fNEwq_I8Ke" role="lcghm">
-            <node concept="2OqwBi" id="7fNEwq_I92U" role="lb14g">
-              <node concept="117lpO" id="7fNEwq_I8L8" role="2Oq$k0" />
-              <node concept="2qgKlT" id="7fNEwq_I9uV" role="2OqNvi">
-                <ref role="37wK5l" to="kntn:7RFM8R40uZO" resolve="getNamespaceAncestorsOfClass" />
-              </node>
-            </node>
-          </node>
-          <node concept="l9hG8" id="7fNEwq_I9Nf" role="lcghm">
-            <node concept="2OqwBi" id="7fNEwq_IbGp" role="lb14g">
-              <node concept="2OqwBi" id="7fNEwq_IadF" role="2Oq$k0">
-                <node concept="117lpO" id="7fNEwq_I9W5" role="2Oq$k0" />
-                <node concept="3TrEf2" id="7fNEwq_IaDG" role="2OqNvi">
-                  <ref role="3Tt5mk" to="wnzg:7RFM8R3Me2a" resolve="class" />
-                </node>
-              </node>
-              <node concept="3TrcHB" id="7fNEwq_Icgx" role="2OqNvi">
-                <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
-              </node>
-            </node>
-          </node>
-          <node concept="la8eA" id="7fNEwq_IcE$" role="lcghm">
-            <property role="lacIc" value=" " />
-          </node>
-          <node concept="l9hG8" id="7fNEwq_Id56" role="lcghm">
-            <node concept="2OqwBi" id="7fNEwq_Id$p" role="lb14g">
-              <node concept="117lpO" id="7fNEwq_IdiP" role="2Oq$k0" />
-              <node concept="3TrcHB" id="7fNEwq_Ie0q" role="2OqNvi">
-                <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbJ" id="7fNEwqBqBMt" role="3cqZAp">
-          <node concept="3clFbS" id="7fNEwqBqBMv" role="3clFbx">
-            <node concept="lc7rE" id="7fNEwqBqDZy" role="3cqZAp">
-              <node concept="la8eA" id="7fNEwqBqDZW" role="lcghm">
-                <property role="lacIc" value=";" />
-              </node>
-              <node concept="l8MVK" id="7fNEwqBqE0L" role="lcghm" />
-            </node>
-          </node>
-          <node concept="2OqwBi" id="7fNEwqBqDlp" role="3clFbw">
-            <node concept="2OqwBi" id="7fNEwqBqCk4" role="2Oq$k0">
-              <node concept="117lpO" id="7fNEwqBqC17" role="2Oq$k0" />
-              <node concept="2Xjw5R" id="7fNEwqBqCWl" role="2OqNvi">
-                <node concept="1xMEDy" id="7fNEwqBqCWn" role="1xVPHs">
-                  <node concept="chp4Y" id="7fNEwqBqD3t" role="ri$Ld">
-                    <ref role="cht4Q" to="c4fa:3CmSUB7Fp_l" resolve="StatementList" />
-                  </node>
-                </node>
->>>>>>> a5b410c665... Fix highlighting to be consistent and make the package name lowercase
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="lc7rE" id="4KyQ_QhDxiJ" role="3cqZAp">
-          <node concept="la8eA" id="4KyQ_QhDxqm" role="lcghm">
-            <property role="lacIc" value=")" />
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-  <node concept="WtQ9Q" id="7DDmkz5meI">
-    <property role="3GE5qa" value="method.constructor" />
-    <ref role="WuzLi" to="wnzg:7DDmkyVr_r" resolve="ConstructorInitializedAttribute" />
-    <node concept="11bSqf" id="7DDmkz5meJ" role="11c4hB">
-      <node concept="3clFbS" id="7DDmkz5meK" role="2VODD2">
-        <node concept="lc7rE" id="7DDmkz5wRD" role="3cqZAp">
-          <node concept="l9hG8" id="7DDmkz5wS1" role="lcghm">
-            <node concept="2OqwBi" id="7DDmkz5xAG" role="lb14g">
-              <node concept="2OqwBi" id="7DDmkz5x63" role="2Oq$k0">
-                <node concept="117lpO" id="7DDmkz5wXc" role="2Oq$k0" />
-                <node concept="3TrEf2" id="7DDmkz5xf3" role="2OqNvi">
-                  <ref role="3Tt5mk" to="wnzg:7DDmkz1Ipj" resolve="identity" />
-=======
-  <node concept="WtQ9Q" id="7fNEwq_Vo48">
-    <property role="3GE5qa" value="namespace" />
-    <ref role="WuzLi" to="wnzg:7fNEwq_6ZJn" resolve="NamespaceClassInstanceAttributeRef" />
-    <node concept="11bSqf" id="7fNEwq_Vo49" role="11c4hB">
-      <node concept="3clFbS" id="7fNEwq_Vo4a" role="2VODD2">
-        <node concept="lc7rE" id="7fNEwq_Vo4t" role="3cqZAp">
-          <node concept="l9hG8" id="7fNEwq_Vo4P" role="lcghm">
-            <node concept="2OqwBi" id="7fNEwq_Vp4f" role="lb14g">
-              <node concept="2OqwBi" id="7fNEwq_Voii" role="2Oq$k0">
-                <node concept="117lpO" id="7fNEwq_Vo5J" role="2Oq$k0" />
-                <node concept="3TrEf2" id="7fNEwq_VozO" role="2OqNvi">
-                  <ref role="3Tt5mk" to="wnzg:7fNEwq_6ZJT" resolve="class_instance" />
->>>>>>> a5b410c665... Fix highlighting to be consistent and make the package name lowercase
-                </node>
-              </node>
-              <node concept="3TrcHB" id="7DDmkz5xYa" role="2OqNvi">
-                <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
-              </node>
-=======
-  <node concept="1bsvg0" id="6ddXmWdP_5w">
-    <property role="TrG5h" value="constructorPrototype" />
-    <node concept="1bwezc" id="6ddXmWdP_nH" role="1bwxVq">
-      <property role="TrG5h" value="generateConstructorPrototype" />
-      <node concept="3cqZAl" id="6ddXmWdP_nI" role="3clF45" />
-      <node concept="3clFbS" id="6ddXmWdP_nJ" role="3clF47">
-        <node concept="3SKdUt" id="7POJCjfXq75" role="3cqZAp">
-          <node concept="3SKdUq" id="7POJCjfXq77" role="3SKWNk">
-            <property role="3SKdUp" value="Generates the signature of the constructor, including it's initializers, without the body." />
           </node>
         </node>
         <node concept="3cpWs8" id="6ddXmWdP_oB" role="3cqZAp">
@@ -2546,100 +1731,18 @@
             <property role="TrG5h" value="sig" />
             <node concept="3Tqbb2" id="6ddXmWdP_oA" role="1tU5fm">
               <ref role="ehGHo" to="wnzg:6NtgknWJ21h" resolve="ClassConstructorSignature" />
->>>>>>> ab9bc2e05b... Cleanup and document some TextGen components
             </node>
-          </node>
-          <node concept="la8eA" id="7DDmkz5y99" role="lcghm">
-            <property role="lacIc" value="(" />
-          </node>
-          <node concept="l9hG8" id="7DDmkz5yk_" role="lcghm">
-            <node concept="2OqwBi" id="7DDmkz5yzC" role="lb14g">
-              <node concept="117lpO" id="7DDmkz5yqL" role="2Oq$k0" />
-              <node concept="3TrEf2" id="7DDmkz5yGs" role="2OqNvi">
-                <ref role="3Tt5mk" to="wnzg:7DDmkz0vm1" resolve="init" />
+            <node concept="1PxgMI" id="6ddXmWdP_JX" role="33vP2m">
+              <node concept="chp4Y" id="6ddXmWdP_KB" role="3oSUPX">
+                <ref role="cht4Q" to="wnzg:6NtgknWJ21h" resolve="ClassConstructorSignature" />
               </node>
-            </node>
-          </node>
-          <node concept="la8eA" id="7DDmkz5yVz" role="lcghm">
-            <property role="lacIc" value=")" />
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  <node concept="WtQ9Q" id="3LE5RBQ6aSI">
-    <property role="3GE5qa" value="operator" />
-    <ref role="WuzLi" to="wnzg:3LE5RBPQ$rY" resolve="OperatorOverloadDeclaration" />
-    <node concept="11bSqf" id="3LE5RBQ6aSJ" role="11c4hB">
-      <node concept="3clFbS" id="3LE5RBQ6aSK" role="2VODD2">
-        <node concept="3clFbJ" id="3LE5RBQayu$" role="3cqZAp">
-          <node concept="2OqwBi" id="3LE5RBQayK5" role="3clFbw">
-            <node concept="117lpO" id="3LE5RBQayv2" role="2Oq$k0" />
-            <node concept="3TrcHB" id="3LE5RBQazcs" role="2OqNvi">
-              <ref role="3TsBF5" to="wnzg:3LE5RBQ6qAk" resolve="inline" />
-            </node>
-          </node>
-          <node concept="3clFbS" id="3LE5RBQayuA" role="3clFbx">
-            <node concept="lc7rE" id="3LE5RBQazgY" role="3cqZAp">
-              <node concept="la8eA" id="3LE5RBQazhm" role="lcghm">
-                <property role="lacIc" value="inline " />
-=======
-  <node concept="WtQ9Q" id="1$h5d7wobOh">
-    <property role="3GE5qa" value="namespace" />
-    <ref role="WuzLi" to="wnzg:1$h5d7wdNkU" resolve="UsingGeneralNamespaceDeclaration" />
-    <node concept="11bSqf" id="1$h5d7wFnjM" role="11c4hB">
-      <node concept="3clFbS" id="1$h5d7wFnjN" role="2VODD2">
-        <node concept="lc7rE" id="1$h5d7wFnjO" role="3cqZAp">
-          <node concept="la8eA" id="1$h5d7wFnjP" role="lcghm">
-            <property role="lacIc" value="using namespace " />
-          </node>
-          <node concept="l9hG8" id="1$h5d7wFnjQ" role="lcghm">
-            <node concept="2OqwBi" id="1$h5d7wFnjR" role="lb14g">
-              <node concept="2OqwBi" id="1$h5d7wFnjS" role="2Oq$k0">
-                <node concept="117lpO" id="1$h5d7wFnjT" role="2Oq$k0" />
-                <node concept="3TrEf2" id="1$h5d7wFnjU" role="2OqNvi">
-                  <ref role="3Tt5mk" to="wnzg:1$h5d7wk3lQ" resolve="namespace" />
-                </node>
-              </node>
-              <node concept="2qgKlT" id="1$h5d7wFnjV" role="2OqNvi">
-                <ref role="37wK5l" to="tpcu:hEwIMiw" resolve="getPresentation" />
->>>>>>> a5b410c665... Fix highlighting to be consistent and make the package name lowercase
+              <node concept="37vLTw" id="6ddXmWdP_qU" role="1m5AlR">
+                <ref role="3cqZAo" node="6ddXmWdP_q9" resolve="node" />
               </node>
             </node>
           </node>
         </node>
-<<<<<<< HEAD
-<<<<<<< HEAD
-        <node concept="lc7rE" id="3LE5RBQazmQ" role="3cqZAp">
-          <node concept="l9hG8" id="3LE5RBQazrE" role="lcghm">
-            <node concept="2OqwBi" id="3LE5RBQazI_" role="lb14g">
-              <node concept="117lpO" id="3LE5RBQazs$" role="2Oq$k0" />
-              <node concept="3TrEf2" id="3LE5RBQa$bv" role="2OqNvi">
-                <ref role="3Tt5mk" to="mj1l:hEaDaGor64" resolve="type" />
-              </node>
-            </node>
-          </node>
-          <node concept="la8eA" id="3LE5RBQa$qM" role="lcghm">
-            <property role="lacIc" value=" operator" />
-          </node>
-          <node concept="l9hG8" id="3LE5RBQa_ZR" role="lcghm">
-            <node concept="2OqwBi" id="3LE5RBQaAqc" role="lb14g">
-              <node concept="117lpO" id="3LE5RBQaA8b" role="2Oq$k0" />
-              <node concept="3TrcHB" id="3LE5RBQpq9l" role="2OqNvi">
-                <ref role="3TsBF5" to="wnzg:3LE5RBQoIf8" resolve="operator" />
-=======
-          <node concept="la8eA" id="1rolTiuD_CK" role="lcghm">
-=======
-          <node concept="la8eA" id="dx81$JxKig" role="lcghm">
->>>>>>> d652370829... Editor and TextGen MethodCalls using GeneralNamespaceDeclarations works correctly.
-            <property role="lacIc" value="(" />
-=======
-=======
         <node concept="3clFbH" id="7POJCjfXpIJ" role="3cqZAp" />
->>>>>>> ab9bc2e05b... Cleanup and document some TextGen components
         <node concept="3clFbJ" id="5HgCzLwxJGF" role="3cqZAp">
           <node concept="3clFbS" id="5HgCzLwxJGH" role="3clFbx">
             <node concept="lc7rE" id="6ddXmWdPACC" role="3cqZAp">
@@ -2667,147 +1770,26 @@
               </node>
             </node>
             <node concept="3w_OXm" id="5HgCzLwxMel" role="2OqNvi" />
->>>>>>> 9c4d6db0b0... Fix constructors
           </node>
         </node>
-<<<<<<< HEAD
-        <node concept="lc7rE" id="1rolTiuDA8B" role="3cqZAp">
-          <node concept="l9S2W" id="1rolTiuDAoz" role="lcghm">
-            <property role="XA4eZ" value="true" />
-            <property role="lbP0B" value=", " />
-            <node concept="2OqwBi" id="1rolTiuDAIL" role="lbANJ">
-              <node concept="117lpO" id="1rolTiuDAzm" role="2Oq$k0" />
-              <node concept="3Tsc0h" id="1rolTiuDBrr" role="2OqNvi">
-                <ref role="3TtcxE" to="wnzg:383ZxwZrBkA" resolve="actuals" />
->>>>>>> c9ad58ee32... Added TextGen elements of Namespace Concepts and adjusted several Editors
-=======
         <node concept="3clFbH" id="7POJCjfXpKw" role="3cqZAp" />
         <node concept="3clFbJ" id="5i01kANswlx" role="3cqZAp">
           <node concept="3clFbS" id="5i01kANswlz" role="3clFbx">
             <node concept="lc7rE" id="5i01kANsx_A" role="3cqZAp">
               <node concept="la8eA" id="5i01kANsx_I" role="lcghm">
                 <property role="lacIc" value="~" />
->>>>>>> ab9bc2e05b... Cleanup and document some TextGen components
               </node>
             </node>
           </node>
-        </node>
-<<<<<<< HEAD
-<<<<<<< HEAD
-        <node concept="lc7rE" id="3LE5RBQaBHC" role="3cqZAp">
-          <node concept="la8eA" id="3LE5RBQaKcq" role="lcghm">
-            <property role="lacIc" value="(" />
-=======
-      </node>
-    </node>
-  </node>
-  <node concept="WtQ9Q" id="6gFj6gq0OZt">
-    <property role="3GE5qa" value="namespace" />
-    <ref role="WuzLi" to="wnzg:6gFj6gpBJFg" resolve="GlobalUsingGeneralNamespaceDeclaration" />
-    <node concept="11bSqf" id="6gFj6gq0Pf_" role="11c4hB">
-      <node concept="3clFbS" id="6gFj6gq0PfA" role="2VODD2">
-        <node concept="lc7rE" id="6gFj6gq0PfB" role="3cqZAp">
-          <node concept="la8eA" id="6gFj6gq0PfC" role="lcghm">
-            <property role="lacIc" value="using namespace " />
->>>>>>> a5b410c665... Fix highlighting to be consistent and make the package name lowercase
-          </node>
-          <node concept="l9S2W" id="3LE5RBQaCBe" role="lcghm">
-            <property role="XA4eZ" value="true" />
-            <property role="lbP0B" value="," />
-            <node concept="2OqwBi" id="3LE5RBQaCP9" role="lbANJ">
-              <node concept="117lpO" id="3LE5RBQaCBA" role="2Oq$k0" />
-              <node concept="3Tsc0h" id="3LE5RBQpqF2" role="2OqNvi">
-                <ref role="3TtcxE" to="x27k:4WTYg$PUiX5" resolve="arguments" />
-              </node>
+          <node concept="2OqwBi" id="5i01kANswBY" role="3clFbw">
+            <node concept="37vLTw" id="5i01kANswn2" role="2Oq$k0">
+              <ref role="3cqZAo" node="6ddXmWdP_q9" resolve="node" />
             </node>
-<<<<<<< HEAD
-          </node>
-          <node concept="la8eA" id="3LE5RBQaKlS" role="lcghm">
-            <property role="lacIc" value=")" />
-          </node>
-        </node>
-        <node concept="lc7rE" id="3LE5RBQaKzE" role="3cqZAp">
-          <node concept="l9hG8" id="3LE5RBQaKGG" role="lcghm">
-            <node concept="2OqwBi" id="3LE5RBQaKZB" role="lb14g">
-              <node concept="117lpO" id="3LE5RBQaKHA" role="2Oq$k0" />
-              <node concept="3TrEf2" id="3LE5RBQaLsl" role="2OqNvi">
-                <ref role="3Tt5mk" to="wnzg:3LE5RBPSwl7" resolve="body" />
-              </node>
-=======
             <node concept="3TrcHB" id="5i01kANsxwL" role="2OqNvi">
               <ref role="3TsBF5" to="wnzg:5i01kANicU4" resolve="isDestructor" />
->>>>>>> b0d1d327f3... Add contexpr to constructors
-            </node>
-=======
-  <node concept="WtQ9Q" id="29cSqvdUjFp">
-    <ref role="WuzLi" to="wnzg:29cSqvcoIWH" resolve="NullPointerType" />
-    <node concept="11bSqf" id="29cSqvdUjFq" role="11c4hB">
-      <node concept="3clFbS" id="29cSqvdUjFr" role="2VODD2">
-        <node concept="lc7rE" id="29cSqvdUjFI" role="3cqZAp">
-          <node concept="la8eA" id="29cSqve1vuw" role="lcghm">
-            <property role="lacIc" value="std::nullptr_t" />
->>>>>>> ecef4c91d7... Add null pointer type and null pointer literal
-          </node>
-        </node>
-<<<<<<< HEAD
-      </node>
-    </node>
-  </node>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 5cb8cfdb11... Fix tests and remove unused concepts
-=======
-  <node concept="WtQ9Q" id="3LE5RBQz5gL">
-    <property role="3GE5qa" value="operator" />
-    <ref role="WuzLi" to="wnzg:3LE5RBQoIen" resolve="OperatorOverloadPrototype" />
-    <node concept="11bSqf" id="3LE5RBQz5gM" role="11c4hB">
-      <node concept="3clFbS" id="3LE5RBQz5gN" role="2VODD2">
-        <node concept="lc7rE" id="3LE5RBQz5_Z" role="3cqZAp">
-          <node concept="l9hG8" id="3LE5RBQz5At" role="lcghm">
-            <node concept="2OqwBi" id="3LE5RBQz5ST" role="lb14g">
-              <node concept="117lpO" id="3LE5RBQz5Bn" role="2Oq$k0" />
-              <node concept="3TrEf2" id="3LE5RBQz6lN" role="2OqNvi">
-                <ref role="3Tt5mk" to="mj1l:hEaDaGor64" resolve="type" />
-=======
-  <node concept="WtQ9Q" id="7RFM8R0Rm5D">
-    <property role="3GE5qa" value="namespace" />
-    <ref role="WuzLi" to="wnzg:7RFM8R0Rm5q" resolve="GlobalUsingNamespaceMethodDeclaration" />
-    <node concept="11bSqf" id="7RFM8R0Rm5E" role="11c4hB">
-      <node concept="3clFbS" id="7RFM8R0Rm5F" role="2VODD2">
-        <node concept="lc7rE" id="7RFM8R0Rxe3" role="3cqZAp">
-          <node concept="la8eA" id="7RFM8R0Rxe4" role="lcghm">
-            <property role="lacIc" value="using " />
-          </node>
-          <node concept="l9hG8" id="7RFM8R0Rxe5" role="lcghm">
-            <node concept="2OqwBi" id="7RFM8R0Rxe6" role="lb14g">
-              <node concept="2OqwBi" id="7RFM8R0Rxe7" role="2Oq$k0">
-                <node concept="117lpO" id="7RFM8R0Rxe8" role="2Oq$k0" />
-                <node concept="3TrEf2" id="7RFM8R0RzdP" role="2OqNvi">
-                  <ref role="3Tt5mk" to="wnzg:7RFM8R0Rm5r" resolve="namespace" />
-                </node>
-              </node>
-              <node concept="2qgKlT" id="7RFM8R0Rxea" role="2OqNvi">
-                <ref role="37wK5l" to="tpcu:hEwIMiw" resolve="getPresentation" />
->>>>>>> a5b410c665... Fix highlighting to be consistent and make the package name lowercase
-              </node>
-            </node>
-          </node>
-          <node concept="la8eA" id="3LE5RBQz6$q" role="lcghm">
-            <property role="lacIc" value=" operator" />
-          </node>
-          <node concept="l9hG8" id="3LE5RBQz7ay" role="lcghm">
-            <node concept="2OqwBi" id="3LE5RBQz7$2" role="lb14g">
-              <node concept="117lpO" id="3LE5RBQz7iw" role="2Oq$k0" />
-              <node concept="3TrcHB" id="3LE5RBQz80W" role="2OqNvi">
-                <ref role="3TsBF5" to="wnzg:3LE5RBQoIf8" resolve="operator" />
-              </node>
             </node>
           </node>
         </node>
-        <node concept="lc7rE" id="3LE5RBQz85N" role="3cqZAp">
-          <node concept="la8eA" id="3LE5RBQz8dQ" role="lcghm">
-=======
         <node concept="3clFbH" id="7POJCjfXq1p" role="3cqZAp" />
         <node concept="lc7rE" id="6ddXmWdPAHY" role="3cqZAp">
           <node concept="l9hG8" id="7POJCjfXpWb" role="lcghm">
@@ -2816,61 +1798,24 @@
             </node>
           </node>
           <node concept="la8eA" id="6ddXmWdPAID" role="lcghm">
->>>>>>> ab9bc2e05b... Cleanup and document some TextGen components
             <property role="lacIc" value="(" />
           </node>
-          <node concept="l9S2W" id="3LE5RBQz8gm" role="lcghm">
+          <node concept="l9S2W" id="6ddXmWdPAKE" role="lcghm">
             <property role="XA4eZ" value="true" />
             <property role="lbP0B" value=", " />
-            <node concept="2OqwBi" id="3LE5RBQz8ul" role="lbANJ">
-              <node concept="117lpO" id="3LE5RBQz8gM" role="2Oq$k0" />
-              <node concept="3Tsc0h" id="3LE5RBQz8Uv" role="2OqNvi">
+            <node concept="2OqwBi" id="6ddXmWdPB1O" role="lbANJ">
+              <node concept="37vLTw" id="6ddXmWdPAPs" role="2Oq$k0">
+                <ref role="3cqZAo" node="6ddXmWdP_q9" resolve="node" />
+              </node>
+              <node concept="3Tsc0h" id="6hUtorDO75q" role="2OqNvi">
                 <ref role="3TtcxE" to="x27k:4WTYg$PUiX5" resolve="arguments" />
               </node>
             </node>
           </node>
-          <node concept="la8eA" id="3LE5RBQzeyu" role="lcghm">
+          <node concept="la8eA" id="6ddXmWdPBvH" role="lcghm">
             <property role="lacIc" value=")" />
           </node>
         </node>
-<<<<<<< HEAD
-        <node concept="lc7rE" id="3LE5RBQz5ni" role="3cqZAp">
-          <node concept="la8eA" id="3LE5RBQz5nj" role="lcghm">
-            <property role="lacIc" value=";" />
-=======
-  <node concept="WtQ9Q" id="29cSqvdUjKq">
-    <ref role="WuzLi" to="wnzg:29cSqvcoIWG" resolve="NullPointerLiteral" />
-    <node concept="11bSqf" id="29cSqvdUjKr" role="11c4hB">
-      <node concept="3clFbS" id="29cSqvdUjKs" role="2VODD2">
-        <node concept="lc7rE" id="29cSqvdUjKJ" role="3cqZAp">
-          <node concept="la8eA" id="29cSqve1vsG" role="lcghm">
-            <property role="lacIc" value="nullptr" />
->>>>>>> ecef4c91d7... Add null pointer type and null pointer literal
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 1e5511abaf... TextGen for operator overloading signatures and restructuring
-=======
->>>>>>> dc8ff306fc... Migrate operator overloading to separate language
-=======
-  <node concept="WtQ9Q" id="79L075G2UTY">
-    <ref role="WuzLi" to="wnzg:3fD_lX7L3Ad" resolve="AutoDeclaration" />
-    <node concept="11bSqf" id="79L075Gfowd" role="11c4hB">
-      <node concept="3clFbS" id="79L075Gfowe" role="2VODD2">
-        <node concept="2Gpval" id="8PQYytVh6M" role="3cqZAp">
-          <node concept="2GrKxI" id="8PQYytVh6N" role="2Gsz3X">
-            <property role="TrG5h" value="p" />
-          </node>
-          <node concept="2OqwBi" id="8PQYytVh6O" role="2GsD0m">
-            <node concept="117lpO" id="8PQYytVh6P" role="2Oq$k0" />
-            <node concept="2qgKlT" id="8PQYytVh6Q" role="2OqNvi">
-              <ref role="37wK5l" to="rj8d:8PQYytSeGD" resolve="beforeAndAttributePrefixes" />
-=======
         <node concept="3clFbH" id="7POJCjfXpXC" role="3cqZAp" />
         <node concept="3clFbJ" id="7DDmkz5z$e" role="3cqZAp">
           <node concept="3clFbS" id="7DDmkz5z$g" role="3clFbx">
@@ -2878,97 +1823,34 @@
               <node concept="la8eA" id="7DDmkz5BvG" role="lcghm">
                 <property role="lacIc" value=" : " />
               </node>
->>>>>>> ab9bc2e05b... Cleanup and document some TextGen components
             </node>
-          </node>
-          <node concept="3clFbS" id="8PQYytVh6R" role="2LFqv$">
-            <node concept="lc7rE" id="8PQYytVh6S" role="3cqZAp">
-              <node concept="l9hG8" id="8PQYytVh6T" role="lcghm">
-                <node concept="2OqwBi" id="8PQYytVh6U" role="lb14g">
-                  <node concept="2GrUjf" id="8PQYytVh6V" role="2Oq$k0">
-                    <ref role="2Gs0qQ" node="8PQYytVh6N" resolve="p" />
+            <node concept="lc7rE" id="7DDmkz5Bx5" role="3cqZAp">
+              <node concept="l9S2W" id="7DDmkz5Bxz" role="lcghm">
+                <property role="XA4eZ" value="true" />
+                <property role="lbP0B" value=", " />
+                <node concept="2OqwBi" id="7DDmkz5BMg" role="lbANJ">
+                  <node concept="37vLTw" id="7DDmkza6aY" role="2Oq$k0">
+                    <ref role="3cqZAo" node="6ddXmWdP_oE" resolve="sig" />
                   </node>
-                  <node concept="2qgKlT" id="8PQYytVh6W" role="2OqNvi">
-                    <ref role="37wK5l" to="rj8d:8PQYytSnuo" resolve="beforeText" />
-=======
-  <node concept="WtQ9Q" id="1rolTiuDlXW">
-    <property role="3GE5qa" value="namespace" />
-    <ref role="WuzLi" to="wnzg:383ZxwZrBkp" resolve="NamespaceAttributeRef" />
-    <node concept="11bSqf" id="1rolTiuDlXX" role="11c4hB">
-      <node concept="3clFbS" id="1rolTiuDlXY" role="2VODD2">
-        <node concept="3clFbJ" id="r2pGcfOfQF" role="3cqZAp">
-          <node concept="3clFbS" id="r2pGcfOfQG" role="3clFbx">
-            <node concept="lc7rE" id="r2pGcfOfQH" role="3cqZAp">
-              <node concept="l9hG8" id="r2pGcfOfQI" role="lcghm">
-                <node concept="2OqwBi" id="r2pGcfOfQJ" role="lb14g">
-                  <node concept="117lpO" id="r2pGcfOfQK" role="2Oq$k0" />
-                  <node concept="2qgKlT" id="r2pGcfOh8L" role="2OqNvi">
-                    <ref role="37wK5l" to="kntn:r2pGcfMQ$x" resolve="getNewPresentation" />
->>>>>>> a5b410c665... Fix highlighting to be consistent and make the package name lowercase
+                  <node concept="3Tsc0h" id="7DDmkza6F5" role="2OqNvi">
+                    <ref role="3TtcxE" to="wnzg:3n$8_Xbh2kv" resolve="initializers" />
                   </node>
                 </node>
               </node>
-              <node concept="l8MVK" id="8PQYytVh6X" role="lcghm" />
             </node>
+          </node>
+          <node concept="2OqwBi" id="7DDmkz5AnJ" role="3clFbw">
+            <node concept="2OqwBi" id="7DDmkz5$69" role="2Oq$k0">
+              <node concept="37vLTw" id="7DDmkza5xS" role="2Oq$k0">
+                <ref role="3cqZAo" node="6ddXmWdP_oE" resolve="sig" />
+              </node>
+              <node concept="3Tsc0h" id="7DDmkza62v" role="2OqNvi">
+                <ref role="3TtcxE" to="wnzg:3n$8_Xbh2kv" resolve="initializers" />
+              </node>
+            </node>
+            <node concept="3GX2aA" id="7DDmkz5Bq6" role="2OqNvi" />
           </node>
         </node>
-        <node concept="3clFbJ" id="5Oog2UbP_cB" role="3cqZAp">
-          <node concept="1Wc70l" id="7e09zBHrU5o" role="3clFbw">
-            <node concept="2OqwBi" id="7e09zBHrWVf" role="3uHU7w">
-              <node concept="2OqwBi" id="7e09zBHrUxA" role="2Oq$k0">
-                <node concept="117lpO" id="7e09zBHrUm9" role="2Oq$k0" />
-                <node concept="3TrEf2" id="7e09zBHrW3r" role="2OqNvi">
-                  <ref role="3Tt5mk" to="x27k:2pPw_DEjkM9" resolve="init" />
-                </node>
-              </node>
-              <node concept="3w_OXm" id="7e09zBHrXqp" role="2OqNvi" />
-            </node>
-            <node concept="2OqwBi" id="5Oog2UbP_cG" role="3uHU7B">
-              <node concept="117lpO" id="5Oog2UbP_cF" role="2Oq$k0" />
-              <node concept="3TrcHB" id="5Oog2UbP_cK" role="2OqNvi">
-                <ref role="3TsBF5" to="x27k:5Oog2UbPmsL" resolve="extern" />
-              </node>
-            </node>
-          </node>
-<<<<<<< HEAD
-          <node concept="3clFbS" id="5Oog2UbP_cC" role="3clFbx">
-            <node concept="lc7rE" id="5Oog2UbP_cL" role="3cqZAp">
-              <node concept="la8eA" id="5Oog2UbP_cN" role="lcghm">
-                <property role="lacIc" value="extern " />
-              </node>
-            </node>
-          </node>
-        </node>
-<<<<<<< HEAD
-        <node concept="3clFbH" id="2S_w_nntZ5E" role="3cqZAp" />
-        <node concept="3clFbJ" id="2S_w_nntZ5H" role="3cqZAp">
-          <node concept="3clFbS" id="2S_w_nntZ5I" role="3clFbx">
-            <node concept="lc7rE" id="2S_w_nntZ5J" role="3cqZAp">
-              <node concept="la8eA" id="2S_w_nntZ5K" role="lcghm">
-                <property role="lacIc" value="static " />
-              </node>
-            </node>
-          </node>
-          <node concept="1Wc70l" id="2S_w_nntZ6a" role="3clFbw">
-            <node concept="3fqX7Q" id="2S_w_nntZ6d" role="3uHU7w">
-              <node concept="2OqwBi" id="2S_w_nntZ6$" role="3fr31v">
-                <node concept="117lpO" id="2S_w_nntZ6f" role="2Oq$k0" />
-                <node concept="3TrcHB" id="2S_w_nntZ6E" role="2OqNvi">
-                  <ref role="3TsBF5" to="x27k:5Oog2UbPmsL" resolve="extern" />
-                </node>
-              </node>
-            </node>
-            <node concept="3fqX7Q" id="2S_w_nntZ5L" role="3uHU7B">
-              <node concept="2OqwBi" id="2S_w_nntZ5M" role="3fr31v">
-                <node concept="117lpO" id="2S_w_nntZ5N" role="2Oq$k0" />
-                <node concept="3TrcHB" id="2S_w_nntZ5O" role="2OqNvi">
-                  <ref role="3TsBF5" to="x27k:19a6$uAA0vK" resolve="exported" />
-                </node>
-=======
-        </node>
-        <node concept="3clFbH" id="7DDmkza5jz" role="3cqZAp" />
-=======
->>>>>>> ab9bc2e05b... Cleanup and document some TextGen components
       </node>
       <node concept="37vLTG" id="6ddXmWdP_q9" role="3clF46">
         <property role="TrG5h" value="node" />
@@ -3005,27 +1887,6 @@
     <ref role="WuzLi" to="wnzg:7DDmkz5m05" resolve="ConstructorInitializedConstructor" />
     <node concept="11bSqf" id="4KyQ_QhDpkf" role="11c4hB">
       <node concept="3clFbS" id="4KyQ_QhDpkg" role="2VODD2">
-<<<<<<< HEAD
-        <node concept="3SKdUt" id="4KyQ_QhOZ0S" role="3cqZAp">
-          <node concept="3SKdUq" id="4KyQ_QhOZ0U" role="3SKWNk">
-            <property role="3SKdUp" value="TODO: The following line doesn't print the name for some reason." />
-          </node>
-        </node>
-        <node concept="3SKdUt" id="4KyQ_QhOZqM" role="3cqZAp">
-          <node concept="3SKdUq" id="4KyQ_QhOZqO" role="3SKWNk">
-            <property role="3SKdUp" value="Not sure why this isn't working, I've tried many alternatives." />
-          </node>
-        </node>
-        <node concept="lc7rE" id="4KyQ_QhDpkP" role="3cqZAp">
-          <node concept="l9hG8" id="4KyQ_QhDplf" role="lcghm">
-<<<<<<< HEAD
-            <node concept="2OqwBi" id="4KyQ_QhO0WW" role="lb14g">
-              <node concept="2OqwBi" id="4KyQ_QhNXkL" role="2Oq$k0">
-                <node concept="2OqwBi" id="4KyQ_QhNyr9" role="2Oq$k0">
-                  <node concept="117lpO" id="4KyQ_QhNyi9" role="2Oq$k0" />
-                  <node concept="3TrEf2" id="4KyQ_QhNyB_" role="2OqNvi">
-                    <ref role="3Tt5mk" to="wnzg:7DDmkza$5N" resolve="identity" />
-=======
         <node concept="lc7rE" id="4KyQ_QhDpkP" role="3cqZAp">
           <node concept="l9hG8" id="4KyQ_QhDplf" role="lcghm">
             <node concept="2OqwBi" id="1rV7RaSOxTW" role="lb14g">
@@ -3097,97 +1958,69 @@
                   <node concept="117lpO" id="r2pGcfOfQK" role="2Oq$k0" />
                   <node concept="2qgKlT" id="r2pGcfOh8L" role="2OqNvi">
                     <ref role="37wK5l" to="kntn:r2pGcfMQ$x" resolve="getNewPresentation" />
->>>>>>> ab9bc2e05b... Cleanup and document some TextGen components
                   </node>
                 </node>
-                <node concept="3TrEf2" id="4KyQ_QhO00Y" role="2OqNvi">
-                  <ref role="3Tt5mk" to="wnzg:6NtgknWJ214" resolve="parent_class" />
+              </node>
+              <node concept="la8eA" id="r2pGcfOfQM" role="lcghm">
+                <property role="lacIc" value="::" />
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="r2pGcfOfQN" role="3clFbw">
+            <node concept="117lpO" id="r2pGcfOfQO" role="2Oq$k0" />
+            <node concept="2qgKlT" id="r2pGcfOg_2" role="2OqNvi">
+              <ref role="37wK5l" to="kntn:r2pGcfNm5m" resolve="checkForNewPresentation" />
+            </node>
+          </node>
+          <node concept="3eNFk2" id="r2pGcfOfQQ" role="3eNLev">
+            <node concept="3clFbS" id="r2pGcfOfQR" role="3eOfB_">
+              <node concept="lc7rE" id="r2pGcfOfQS" role="3cqZAp">
+                <node concept="l9hG8" id="r2pGcfOfQT" role="lcghm">
+                  <node concept="2OqwBi" id="r2pGcfOfQU" role="lb14g">
+                    <node concept="2OqwBi" id="r2pGcfOfQV" role="2Oq$k0">
+                      <node concept="117lpO" id="r2pGcfOfQW" role="2Oq$k0" />
+                      <node concept="3TrEf2" id="r2pGcfOfQX" role="2OqNvi">
+                        <ref role="3Tt5mk" to="wnzg:383ZxwZrBkq" resolve="namespace" />
+                      </node>
+                    </node>
+                    <node concept="2qgKlT" id="r2pGcfOfQY" role="2OqNvi">
+                      <ref role="37wK5l" to="tpcu:hEwIMiw" resolve="getPresentation" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="la8eA" id="r2pGcfOfQZ" role="lcghm">
+                  <property role="lacIc" value="::" />
                 </node>
               </node>
-              <node concept="3TrcHB" id="4KyQ_QhOp44" role="2OqNvi">
+            </node>
+            <node concept="3fqX7Q" id="r2pGcfOfR0" role="3eO9$A">
+              <node concept="2OqwBi" id="r2pGcfOfR1" role="3fr31v">
+                <node concept="117lpO" id="r2pGcfOfR2" role="2Oq$k0" />
+                <node concept="2qgKlT" id="r2pGcfOhDN" role="2OqNvi">
+                  <ref role="37wK5l" to="kntn:r2pGcfNSpD" resolve="removeEditorPresentation" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="lc7rE" id="1rolTiuDlYh" role="3cqZAp">
+          <node concept="l9hG8" id="1rolTiuDp41" role="lcghm">
+            <node concept="2OqwBi" id="1rolTiuDqqE" role="lb14g">
+              <node concept="2OqwBi" id="1rolTiuDpus" role="2Oq$k0">
+                <node concept="117lpO" id="1rolTiuDpfl" role="2Oq$k0" />
+                <node concept="3TrEf2" id="1rolTiuDpOf" role="2OqNvi">
+                  <ref role="3Tt5mk" to="wnzg:383ZxwZrBkt" resolve="attribute" />
+                </node>
+              </node>
+              <node concept="3TrcHB" id="1rolTiuDqNw" role="2OqNvi">
                 <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
->>>>>>> fafdce9933... Fix textgen not working on constructor initializers
-=======
-            <node concept="2OqwBi" id="1rV7RaSOxTW" role="lb14g">
-              <node concept="117lpO" id="1rV7RaSOxK5" role="2Oq$k0" />
-              <node concept="3TrcHB" id="1rV7RaSOygs" role="2OqNvi">
-                <ref role="3TsBF5" to="wnzg:1rV7RaSNWqj" resolve="real_name" />
->>>>>>> 938ad72d9c... Fix textgen for class constructors.
               </node>
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="2S_w_nntZ5G" role="3cqZAp" />
-        <node concept="3clFbJ" id="52l0VUuNofJ" role="3cqZAp">
-          <node concept="3clFbS" id="52l0VUuNofK" role="3clFbx">
-            <node concept="lc7rE" id="52l0VUuNogf" role="3cqZAp">
-              <node concept="la8eA" id="52l0VUuNogh" role="lcghm">
-                <property role="lacIc" value="register " />
-              </node>
-            </node>
-          </node>
-          <node concept="2OqwBi" id="52l0VUuNog8" role="3clFbw">
-            <node concept="117lpO" id="52l0VUuNofN" role="2Oq$k0" />
-            <node concept="3TrcHB" id="52l0VUuNoge" role="2OqNvi">
-              <ref role="3TsBF5" to="c4fa:52l0VUuN5OB" resolve="storeInRegister" />
-            </node>
-          </node>
-        </node>
-<<<<<<< HEAD
-        <node concept="lc7rE" id="79L075Gfowf" role="3cqZAp">
-          <node concept="la8eA" id="79L075Gfowk" role="lcghm">
-            <property role="lacIc" value="auto " />
-=======
       </node>
     </node>
   </node>
-<<<<<<< HEAD
-  <node concept="WtQ9Q" id="7RFM8R0xVtk">
-    <property role="3GE5qa" value="namespace" />
-    <ref role="WuzLi" to="wnzg:7RFM8R0xwre" resolve="GlobalUsingNamespaceAttributeDeclaration" />
-    <node concept="11bSqf" id="7RFM8R0xVtl" role="11c4hB">
-      <node concept="3clFbS" id="7RFM8R0xVtm" role="2VODD2">
-        <node concept="lc7rE" id="7RFM8R0xW8V" role="3cqZAp">
-          <node concept="la8eA" id="7RFM8R0xW8W" role="lcghm">
-            <property role="lacIc" value="using " />
->>>>>>> a5b410c665... Fix highlighting to be consistent and make the package name lowercase
-          </node>
-        </node>
-        <node concept="lc7rE" id="5GVBePM8ftS" role="3cqZAp">
-          <node concept="l9hG8" id="5GVBePM8h8_" role="lcghm">
-            <node concept="2OqwBi" id="5GVBePM8hYD" role="lb14g">
-              <node concept="117lpO" id="5GVBePM8hr0" role="2Oq$k0" />
-              <node concept="2qgKlT" id="5GVBePM8jzt" role="2OqNvi">
-                <ref role="37wK5l" to="hwgx:3x8oZgL6CjW" resolve="processedName" />
-                <node concept="2OqwBi" id="5GVBePM8krl" role="37wK5m">
-                  <node concept="117lpO" id="5GVBePM8k0g" role="2Oq$k0" />
-                  <node concept="2qgKlT" id="5GVBePM8lyt" role="2OqNvi">
-                    <ref role="37wK5l" to="qd6m:19a6$uAAq0e" resolve="mangledName" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="lc7rE" id="2O2YBLDxpJu" role="3cqZAp">
-          <node concept="la8eA" id="2O2YBLDxpJv" role="lcghm">
-            <property role="lacIc" value=" = " />
-          </node>
-        </node>
-        <node concept="lc7rE" id="5GVBePM8njd" role="3cqZAp">
-          <node concept="l9hG8" id="5GVBePM8nJO" role="lcghm">
-            <node concept="2OqwBi" id="5GVBePM8owP" role="lb14g">
-              <node concept="117lpO" id="5GVBePM8o2v" role="2Oq$k0" />
-              <node concept="3TrEf2" id="5GVBePM8q5D" role="2OqNvi">
-                <ref role="3Tt5mk" to="wnzg:2O2YBLDq81u" resolve="initialize" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="lc7rE" id="79L075GfowA" role="3cqZAp">
-          <node concept="la8eA" id="79L075GfowB" role="lcghm">
-            <property role="lacIc" value=";" />
-=======
   <node concept="WtQ9Q" id="29cSqvdUjKq">
     <property role="3GE5qa" value="type" />
     <ref role="WuzLi" to="wnzg:29cSqvcoIWG" resolve="NullptrLiteral" />
@@ -3196,31 +2029,11 @@
         <node concept="lc7rE" id="29cSqvdUjKJ" role="3cqZAp">
           <node concept="la8eA" id="29cSqve1vsG" role="lcghm">
             <property role="lacIc" value="nullptr" />
->>>>>>> 08c1b73e1c... Migrate types in base to separate language and add import for nullptr_t
           </node>
-=======
-  <node concept="WtQ9Q" id="29cSqve8Gd0">
-    <property role="3GE5qa" value="class" />
-    <ref role="WuzLi" to="wnzg:3v5DuFDls_I" resolve="EmptyClassContent" />
-    <node concept="11bSqf" id="29cSqve8Gd1" role="11c4hB">
-      <node concept="3clFbS" id="29cSqve8Gd2" role="2VODD2">
-        <node concept="lc7rE" id="29cSqve8QPZ" role="3cqZAp">
-          <node concept="l8MVK" id="29cSqve8QRq" role="lcghm" />
->>>>>>> ecef4c91d7... Add null pointer type and null pointer literal
         </node>
       </node>
     </node>
   </node>
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> ff7b242aec... Added auto declaration.
-=======
->>>>>>> ecef4c91d7... Add null pointer type and null pointer literal
-=======
-        <node concept="lc7rE" id="1rolTiuDGeq" role="3cqZAp">
-          <node concept="la8eA" id="1rolTiuDGuB" role="lcghm">
-            <property role="lacIc" value=")" />
-=======
   <node concept="WtQ9Q" id="29cSqvdUjFp">
     <property role="3GE5qa" value="type" />
     <ref role="WuzLi" to="wnzg:29cSqvcoIWH" resolve="Nullptr_tType" />
@@ -3229,15 +2042,11 @@
         <node concept="lc7rE" id="29cSqvdUjFI" role="3cqZAp">
           <node concept="la8eA" id="29cSqve1vuw" role="lcghm">
             <property role="lacIc" value="std::nullptr_t" />
->>>>>>> 08c1b73e1c... Migrate types in base to separate language and add import for nullptr_t
           </node>
         </node>
       </node>
     </node>
   </node>
-<<<<<<< HEAD
->>>>>>> c9ad58ee32... Added TextGen elements of Namespace Concepts and adjusted several Editors
-=======
   <node concept="WtQ9Q" id="1rolTiv7uRe">
     <property role="3GE5qa" value="namespace" />
     <ref role="WuzLi" to="wnzg:1rolTiuOPQt" resolve="UsingNamespaceMethodDeclaration" />
@@ -3303,11 +2112,8 @@
       </node>
     </node>
   </node>
-<<<<<<< HEAD
->>>>>>> 186ea3c3fb... Added bases 'Using Namespace Method' feature, cleaned up TextGens and Editors
-=======
   <node concept="WtQ9Q" id="1$h5d7v1itx">
-    <property role="3GE5qa" value="Namespace" />
+    <property role="3GE5qa" value="namespace" />
     <ref role="WuzLi" to="wnzg:1$h5d7v1dEb" resolve="UsingNamespaceAttributeDeclaration" />
     <node concept="11bSqf" id="1$h5d7v1ity" role="11c4hB">
       <node concept="3clFbS" id="1$h5d7v1itz" role="2VODD2">
@@ -3371,23 +2177,6 @@
       </node>
     </node>
   </node>
-<<<<<<< HEAD
-  <node concept="WtQ9Q" id="1$h5d7wobOh">
-    <property role="3GE5qa" value="Namespace" />
-    <ref role="WuzLi" to="wnzg:1$h5d7wdNkU" resolve="UsingGeneralNamespaceDeclaration" />
-    <node concept="11bSqf" id="1$h5d7wFnjM" role="11c4hB">
-      <node concept="3clFbS" id="1$h5d7wFnjN" role="2VODD2">
-        <node concept="lc7rE" id="1$h5d7wFnjO" role="3cqZAp">
-          <node concept="la8eA" id="1$h5d7wFnjP" role="lcghm">
-            <property role="lacIc" value="using namespace " />
-          </node>
-          <node concept="l9hG8" id="1$h5d7wFnjQ" role="lcghm">
-            <node concept="2OqwBi" id="1$h5d7wFnjR" role="lb14g">
-              <node concept="2OqwBi" id="1$h5d7wFnjS" role="2Oq$k0">
-                <node concept="117lpO" id="1$h5d7wFnjT" role="2Oq$k0" />
-                <node concept="3TrEf2" id="1$h5d7wFnjU" role="2OqNvi">
-                  <ref role="3Tt5mk" to="wnzg:1$h5d7wk3lQ" resolve="namespace" />
-=======
   <node concept="WtQ9Q" id="7fNEwqBx$7n">
     <property role="3GE5qa" value="namespace" />
     <ref role="WuzLi" to="wnzg:7fNEwqBx$6S" resolve="NamespaceClassInstanceMethodCall" />
@@ -3400,79 +2189,49 @@
                 <node concept="117lpO" id="7fNEwqBypTb" role="2Oq$k0" />
                 <node concept="3TrEf2" id="7fNEwqBypTc" role="2OqNvi">
                   <ref role="3Tt5mk" to="wnzg:7fNEwqBx$6T" resolve="classInstance" />
->>>>>>> 180d6b24f4... Unify structure naming, fix dependency issue and remove unused dependencies
                 </node>
               </node>
-              <node concept="2qgKlT" id="1$h5d7wFnjV" role="2OqNvi">
-                <ref role="37wK5l" to="tpcu:hEwIMiw" resolve="getPresentation" />
+              <node concept="3TrcHB" id="7fNEwqBypTd" role="2OqNvi">
+                <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
               </node>
             </node>
           </node>
-        </node>
-        <node concept="3clFbJ" id="dx81$J8jc0" role="3cqZAp">
-          <node concept="3clFbS" id="dx81$J8jc2" role="3clFbx">
-            <node concept="lc7rE" id="dx81$J8jmF" role="3cqZAp">
-              <node concept="la8eA" id="dx81$J8jmG" role="lcghm">
-                <property role="lacIc" value=";" />
-              </node>
-              <node concept="l8MVK" id="dx81$J8jmH" role="lcghm" />
-            </node>
+          <node concept="la8eA" id="7fNEwqBypTe" role="lcghm">
+            <property role="lacIc" value="." />
           </node>
-<<<<<<< HEAD
-          <node concept="2OqwBi" id="dx81$J8li8" role="3clFbw">
-            <node concept="2OqwBi" id="dx81$J8jUA" role="2Oq$k0">
-              <node concept="117lpO" id="dx81$J8jGo" role="2Oq$k0" />
-              <node concept="2Xjw5R" id="dx81$J8kpM" role="2OqNvi">
-                <node concept="1xMEDy" id="dx81$J8kpO" role="1xVPHs">
-                  <node concept="chp4Y" id="dx81$J8ks5" role="ri$Ld">
-                    <ref role="cht4Q" to="wnzg:383ZxwZqQYo" resolve="NamespaceDeclaration" />
-                  </node>
-=======
           <node concept="l9hG8" id="7fNEwqByo61" role="lcghm">
             <node concept="2OqwBi" id="7fNEwqByo62" role="lb14g">
               <node concept="2OqwBi" id="7fNEwqByo63" role="2Oq$k0">
                 <node concept="117lpO" id="7fNEwqByo64" role="2Oq$k0" />
                 <node concept="3TrEf2" id="7fNEwqByoxc" role="2OqNvi">
                   <ref role="3Tt5mk" to="wnzg:7fNEwqBx$6W" resolve="classMethod" />
->>>>>>> 180d6b24f4... Unify structure naming, fix dependency issue and remove unused dependencies
                 </node>
               </node>
+              <node concept="3TrcHB" id="7fNEwqBypfM" role="2OqNvi">
+                <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+              </node>
             </node>
-            <node concept="3x8VRR" id="dx81$J8lPV" role="2OqNvi" />
+          </node>
+          <node concept="la8eA" id="7fNEwqByo67" role="lcghm">
+            <property role="lacIc" value="(" />
           </node>
         </node>
-      </node>
-    </node>
-  </node>
-<<<<<<< HEAD
->>>>>>> 7b3a85ea65... Added various uses of the Using keyword for namespaces
-=======
-  <node concept="WtQ9Q" id="6gFj6gq0OZt">
-    <property role="3GE5qa" value="Namespace" />
-    <ref role="WuzLi" to="wnzg:6gFj6gpBJFg" resolve="GlobalUsingGeneralNamespaceDeclaration" />
-    <node concept="11bSqf" id="6gFj6gq0Pf_" role="11c4hB">
-      <node concept="3clFbS" id="6gFj6gq0PfA" role="2VODD2">
-        <node concept="lc7rE" id="6gFj6gq0PfB" role="3cqZAp">
-          <node concept="la8eA" id="6gFj6gq0PfC" role="lcghm">
-            <property role="lacIc" value="using namespace " />
-          </node>
-          <node concept="l9hG8" id="6gFj6gq0PfD" role="lcghm">
-            <node concept="2OqwBi" id="6gFj6gq0PfE" role="lb14g">
-              <node concept="2OqwBi" id="6gFj6gq0PfF" role="2Oq$k0">
-                <node concept="117lpO" id="6gFj6gq0PfG" role="2Oq$k0" />
-                <node concept="3TrEf2" id="6gFj6gq0PfH" role="2OqNvi">
-                  <ref role="3Tt5mk" to="wnzg:6gFj6gpBJF$" resolve="namespace" />
-                </node>
-              </node>
-              <node concept="2qgKlT" id="6gFj6gq0PfI" role="2OqNvi">
-                <ref role="37wK5l" to="tpcu:hEwIMiw" resolve="getPresentation" />
+        <node concept="lc7rE" id="7fNEwqByo68" role="3cqZAp">
+          <node concept="l9S2W" id="7fNEwqByo69" role="lcghm">
+            <property role="XA4eZ" value="true" />
+            <property role="lbP0B" value=", " />
+            <node concept="2OqwBi" id="7fNEwqByo6a" role="lbANJ">
+              <node concept="117lpO" id="7fNEwqByo6b" role="2Oq$k0" />
+              <node concept="3Tsc0h" id="7fNEwqBypDQ" role="2OqNvi">
+                <ref role="3TtcxE" to="wnzg:7fNEwqBxBea" resolve="actuals" />
               </node>
             </node>
           </node>
-          <node concept="la8eA" id="6gFj6gq2U1e" role="lcghm">
-            <property role="lacIc" value=";" />
+        </node>
+        <node concept="lc7rE" id="7fNEwqByo6d" role="3cqZAp">
+          <node concept="la8eA" id="7fNEwqByo6e" role="lcghm">
+            <property role="lacIc" value=")" />
           </node>
-          <node concept="l8MVK" id="6gFj6gq2Un3" role="lcghm" />
         </node>
         <node concept="3clFbJ" id="61rdzRj0e9p" role="3cqZAp">
           <node concept="3clFbS" id="61rdzRj0e9r" role="3clFbx">
@@ -3502,113 +2261,67 @@
       </node>
     </node>
   </node>
-<<<<<<< HEAD
->>>>>>> 09067ffb17... Added support for the global Namespace Declaration.
-=======
-  <node concept="WtQ9Q" id="7RFM8R0xVtk">
-    <property role="3GE5qa" value="Namespace" />
-    <ref role="WuzLi" to="wnzg:7RFM8R0xwre" resolve="GlobalUsingNamespaceAttributeDeclaration" />
-    <node concept="11bSqf" id="7RFM8R0xVtl" role="11c4hB">
-      <node concept="3clFbS" id="7RFM8R0xVtm" role="2VODD2">
-        <node concept="lc7rE" id="7RFM8R0xW8V" role="3cqZAp">
-          <node concept="la8eA" id="7RFM8R0xW8W" role="lcghm">
-            <property role="lacIc" value="using " />
+  <node concept="WtQ9Q" id="1rolTiuDqV3">
+    <property role="3GE5qa" value="namespace" />
+    <ref role="WuzLi" to="wnzg:383ZxwZqQYo" resolve="NamespaceDeclaration" />
+    <node concept="11bSqf" id="1rolTiuDqV4" role="11c4hB">
+      <node concept="3clFbS" id="1rolTiuDqV5" role="2VODD2">
+        <node concept="lc7rE" id="1rolTiuDqVo" role="3cqZAp">
+          <node concept="la8eA" id="1rolTiuDqWT" role="lcghm">
+            <property role="lacIc" value="namespace " />
           </node>
-          <node concept="l9hG8" id="7RFM8R0xW8X" role="lcghm">
-            <node concept="2OqwBi" id="7RFM8R0xW8Y" role="lb14g">
-              <node concept="2OqwBi" id="7RFM8R0xW8Z" role="2Oq$k0">
-                <node concept="117lpO" id="7RFM8R0xW90" role="2Oq$k0" />
-                <node concept="3TrEf2" id="7RFM8R0xW91" role="2OqNvi">
-                  <ref role="3Tt5mk" to="wnzg:7RFM8R0xwrf" resolve="namespace" />
-                </node>
-              </node>
-              <node concept="2qgKlT" id="7RFM8R0xW92" role="2OqNvi">
-                <ref role="37wK5l" to="tpcu:hEwIMiw" resolve="getPresentation" />
-              </node>
-            </node>
-          </node>
-          <node concept="la8eA" id="7RFM8R0xW93" role="lcghm">
-            <property role="lacIc" value="::" />
-          </node>
-          <node concept="l9hG8" id="7RFM8R0xW94" role="lcghm">
-            <node concept="2OqwBi" id="7RFM8R0xW95" role="lb14g">
-              <node concept="2OqwBi" id="7RFM8R0xW96" role="2Oq$k0">
-                <node concept="117lpO" id="7RFM8R0xW97" role="2Oq$k0" />
-                <node concept="3TrEf2" id="7RFM8R0xW98" role="2OqNvi">
-                  <ref role="3Tt5mk" to="wnzg:7RFM8R0xwrs" resolve="attribute" />
-                </node>
-              </node>
-              <node concept="3TrcHB" id="7RFM8R0xW99" role="2OqNvi">
+          <node concept="l9hG8" id="1rolTiuDqY3" role="lcghm">
+            <node concept="2OqwBi" id="1rolTiuDrf0" role="lb14g">
+              <node concept="117lpO" id="1rolTiuDqYZ" role="2Oq$k0" />
+              <node concept="3TrcHB" id="1rolTiuDrWK" role="2OqNvi">
                 <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
               </node>
             </node>
           </node>
-<<<<<<< HEAD
-          <node concept="la8eA" id="7RFM8R0xWDi" role="lcghm">
-            <property role="lacIc" value=";" />
-=======
           <node concept="l8MVK" id="2zp5FdUfeK3" role="lcghm" />
           <node concept="2BGw6n" id="2zp5FdUfeL_" role="lcghm" />
           <node concept="la8eA" id="1rolTiuDs5b" role="lcghm">
             <property role="lacIc" value="{" />
->>>>>>> c2b0325e2c... fine-tuning braces; added some constructor-related cocepts
           </node>
-          <node concept="l8MVK" id="7RFM8R0xX60" role="lcghm" />
+          <node concept="l8MVK" id="1rolTiuDseg" role="lcghm" />
+        </node>
+        <node concept="3izx1p" id="1rolTiuDsvw" role="3cqZAp">
+          <node concept="3clFbS" id="1rolTiuDsvy" role="3izTki">
+            <node concept="2Gpval" id="1rolTiuDszU" role="3cqZAp">
+              <node concept="2GrKxI" id="1rolTiuDszV" role="2Gsz3X">
+                <property role="TrG5h" value="statement" />
+              </node>
+              <node concept="2OqwBi" id="1rolTiuDsN8" role="2GsD0m">
+                <node concept="117lpO" id="1rolTiuDs$r" role="2Oq$k0" />
+                <node concept="3Tsc0h" id="1rolTiuDtwl" role="2OqNvi">
+                  <ref role="3TtcxE" to="wnzg:383ZxwZsUja" resolve="members" />
+                </node>
+              </node>
+              <node concept="3clFbS" id="1rolTiuDszX" role="2LFqv$">
+                <node concept="lc7rE" id="1rolTiuDt$$" role="3cqZAp">
+                  <node concept="l9hG8" id="1rolTiuDt$W" role="lcghm">
+                    <property role="ld1Su" value="true" />
+                    <node concept="2GrUjf" id="1rolTiuDt_Q" role="lb14g">
+                      <ref role="2Gs0qQ" node="1rolTiuDszV" resolve="statement" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1bpajm" id="1rolTiuDtLq" role="3cqZAp" />
+        <node concept="lc7rE" id="1rolTiuDu18" role="3cqZAp">
+          <node concept="la8eA" id="1rolTiuDu96" role="lcghm">
+            <property role="lacIc" value="}" />
+          </node>
+          <node concept="l8MVK" id="1rolTiuDua2" role="lcghm" />
         </node>
       </node>
     </node>
   </node>
-  <node concept="WtQ9Q" id="7RFM8R0Rm5D">
-    <property role="3GE5qa" value="Namespace" />
-    <ref role="WuzLi" to="wnzg:7RFM8R0Rm5q" resolve="GlobalUsingNamespaceMethodDeclaration" />
-    <node concept="11bSqf" id="7RFM8R0Rm5E" role="11c4hB">
-      <node concept="3clFbS" id="7RFM8R0Rm5F" role="2VODD2">
-        <node concept="lc7rE" id="7RFM8R0Rxe3" role="3cqZAp">
-          <node concept="la8eA" id="7RFM8R0Rxe4" role="lcghm">
-            <property role="lacIc" value="using " />
-          </node>
-          <node concept="l9hG8" id="7RFM8R0Rxe5" role="lcghm">
-            <node concept="2OqwBi" id="7RFM8R0Rxe6" role="lb14g">
-              <node concept="2OqwBi" id="7RFM8R0Rxe7" role="2Oq$k0">
-                <node concept="117lpO" id="7RFM8R0Rxe8" role="2Oq$k0" />
-                <node concept="3TrEf2" id="7RFM8R0RzdP" role="2OqNvi">
-                  <ref role="3Tt5mk" to="wnzg:7RFM8R0Rm5r" resolve="namespace" />
-                </node>
-              </node>
-              <node concept="2qgKlT" id="7RFM8R0Rxea" role="2OqNvi">
-                <ref role="37wK5l" to="tpcu:hEwIMiw" resolve="getPresentation" />
-              </node>
-            </node>
-          </node>
-          <node concept="la8eA" id="7RFM8R0Rxeb" role="lcghm">
-            <property role="lacIc" value="::" />
-          </node>
-          <node concept="l9hG8" id="7RFM8R0Rxec" role="lcghm">
-            <node concept="2OqwBi" id="7RFM8R0Rxed" role="lb14g">
-              <node concept="2OqwBi" id="7RFM8R0Rxee" role="2Oq$k0">
-                <node concept="117lpO" id="7RFM8R0Rxef" role="2Oq$k0" />
-                <node concept="3TrEf2" id="7RFM8R0RyMD" role="2OqNvi">
-                  <ref role="3Tt5mk" to="wnzg:7RFM8R0Rm5s" resolve="method" />
-                </node>
-              </node>
-              <node concept="3TrcHB" id="7RFM8R0Rxeh" role="2OqNvi">
-                <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
-              </node>
-            </node>
-          </node>
-          <node concept="la8eA" id="7RFM8R0RxKQ" role="lcghm">
-            <property role="lacIc" value=";" />
-          </node>
-          <node concept="l8MVK" id="7RFM8R0Ryg0" role="lcghm" />
-        </node>
-      </node>
-    </node>
-  </node>
-<<<<<<< HEAD
->>>>>>> 187dabb7a4... Added global using namespace declaration support.
-=======
   <node concept="WtQ9Q" id="7fNEwq_I8Jx">
-    <property role="3GE5qa" value="Namespace" />
+    <property role="3GE5qa" value="namespace" />
     <ref role="WuzLi" to="wnzg:7RFM8R3Me1y" resolve="NamespaceClassInstance" />
     <node concept="11bSqf" id="7fNEwq_I8Jy" role="11c4hB">
       <node concept="3clFbS" id="7fNEwq_I8Jz" role="2VODD2">
@@ -3709,20 +2422,6 @@
       </node>
     </node>
   </node>
-<<<<<<< HEAD
-  <node concept="WtQ9Q" id="7fNEwq_Vo48">
-    <property role="3GE5qa" value="Namespace" />
-    <ref role="WuzLi" to="wnzg:7fNEwq_6ZJn" resolve="NamespaceClassInstanceAttributeRef" />
-    <node concept="11bSqf" id="7fNEwq_Vo49" role="11c4hB">
-      <node concept="3clFbS" id="7fNEwq_Vo4a" role="2VODD2">
-        <node concept="lc7rE" id="7fNEwq_Vo4t" role="3cqZAp">
-          <node concept="l9hG8" id="7fNEwq_Vo4P" role="lcghm">
-            <node concept="2OqwBi" id="7fNEwq_Vp4f" role="lb14g">
-              <node concept="2OqwBi" id="7fNEwq_Voii" role="2Oq$k0">
-                <node concept="117lpO" id="7fNEwq_Vo5J" role="2Oq$k0" />
-                <node concept="3TrEf2" id="7fNEwq_VozO" role="2OqNvi">
-                  <ref role="3Tt5mk" to="wnzg:7fNEwq_6ZJT" resolve="class_instance" />
-=======
   <node concept="WtQ9Q" id="6ddXmWdNsw1">
     <property role="3GE5qa" value="constructor" />
     <ref role="WuzLi" to="wnzg:6NtgknWJ20B" resolve="ClassConstructorDeclaration" />
@@ -3790,64 +2489,123 @@
                 <node concept="117lpO" id="6ddXmWdPCiA" role="2Oq$k0" />
                 <node concept="3TrEf2" id="6ddXmWdPCW6" role="2OqNvi">
                   <ref role="3Tt5mk" to="wnzg:6NtgknWJ214" resolve="parentClass" />
->>>>>>> b0d1d327f3... Add contexpr to constructors
                 </node>
               </node>
-              <node concept="3TrcHB" id="7fNEwq_Vpyd" role="2OqNvi">
-                <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
-              </node>
-            </node>
-          </node>
-          <node concept="la8eA" id="7fNEwq_VpKy" role="lcghm">
-            <property role="lacIc" value="." />
-          </node>
-          <node concept="l9hG8" id="7fNEwq_VpZk" role="lcghm">
-            <node concept="2OqwBi" id="7fNEwq_Vrvh" role="lb14g">
-              <node concept="2OqwBi" id="7fNEwq_Vqjy" role="2Oq$k0">
-                <node concept="117lpO" id="7fNEwq_Vq7b" role="2Oq$k0" />
-                <node concept="3TrEf2" id="7fNEwq_VqWG" role="2OqNvi">
-                  <ref role="3Tt5mk" to="wnzg:7fNEwq_6ZLT" resolve="class_attribute" />
-                </node>
-              </node>
-              <node concept="3TrcHB" id="7fNEwq_VrUP" role="2OqNvi">
+              <node concept="3TrcHB" id="6ddXmWdPEwa" role="2OqNvi">
                 <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
               </node>
             </node>
           </node>
         </node>
+        <node concept="lc7rE" id="6ddXmWdNtZV" role="3cqZAp">
+          <node concept="la8eA" id="6ddXmWdNu16" role="lcghm">
+            <property role="lacIc" value=" " />
+          </node>
+          <node concept="l9hG8" id="6ddXmWdNu2k" role="lcghm">
+            <node concept="2OqwBi" id="6ddXmWdNuk4" role="lb14g">
+              <node concept="117lpO" id="6ddXmWdNu3g" role="2Oq$k0" />
+              <node concept="3TrEf2" id="6ddXmWdNuI8" role="2OqNvi">
+                <ref role="3Tt5mk" to="wnzg:6ddXmWdC9sl" resolve="body" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="lc7rE" id="6ddXmWdNvkc" role="3cqZAp">
+          <node concept="l8MVK" id="6ddXmWdNvuv" role="lcghm" />
+        </node>
       </node>
     </node>
   </node>
-  <node concept="WtQ9Q" id="7fNEwqBx$7n">
-    <property role="3GE5qa" value="Namespace" />
-    <ref role="WuzLi" to="wnzg:7fNEwqBx$6S" resolve="NamespaceClassInstanceMethodCall" />
-    <node concept="11bSqf" id="7fNEwqBx$7o" role="11c4hB">
-      <node concept="3clFbS" id="7fNEwqBx$7p" role="2VODD2">
-        <node concept="lc7rE" id="7fNEwqByo60" role="3cqZAp">
-          <node concept="l9hG8" id="7fNEwqBypT8" role="lcghm">
-            <node concept="2OqwBi" id="7fNEwqBypT9" role="lb14g">
-              <node concept="2OqwBi" id="7fNEwqBypTa" role="2Oq$k0">
-                <node concept="117lpO" id="7fNEwqBypTb" role="2Oq$k0" />
-                <node concept="3TrEf2" id="7fNEwqBypTc" role="2OqNvi">
-                  <ref role="3Tt5mk" to="wnzg:7fNEwqBx$6T" resolve="class_instance" />
+  <node concept="WtQ9Q" id="1$h5d7wobOh">
+    <property role="3GE5qa" value="namespace" />
+    <ref role="WuzLi" to="wnzg:1$h5d7wdNkU" resolve="UsingGeneralNamespaceDeclaration" />
+    <node concept="11bSqf" id="1$h5d7wFnjM" role="11c4hB">
+      <node concept="3clFbS" id="1$h5d7wFnjN" role="2VODD2">
+        <node concept="lc7rE" id="1$h5d7wFnjO" role="3cqZAp">
+          <node concept="la8eA" id="1$h5d7wFnjP" role="lcghm">
+            <property role="lacIc" value="using namespace " />
+          </node>
+          <node concept="l9hG8" id="1$h5d7wFnjQ" role="lcghm">
+            <node concept="2OqwBi" id="1$h5d7wFnjR" role="lb14g">
+              <node concept="2OqwBi" id="1$h5d7wFnjS" role="2Oq$k0">
+                <node concept="117lpO" id="1$h5d7wFnjT" role="2Oq$k0" />
+                <node concept="3TrEf2" id="1$h5d7wFnjU" role="2OqNvi">
+                  <ref role="3Tt5mk" to="wnzg:1$h5d7wk3lQ" resolve="namespace" />
                 </node>
               </node>
-              <node concept="3TrcHB" id="7fNEwqBypTd" role="2OqNvi">
+              <node concept="2qgKlT" id="1$h5d7wFnjV" role="2OqNvi">
+                <ref role="37wK5l" to="tpcu:hEwIMiw" resolve="getPresentation" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="dx81$J8jc0" role="3cqZAp">
+          <node concept="3clFbS" id="dx81$J8jc2" role="3clFbx">
+            <node concept="lc7rE" id="dx81$J8jmF" role="3cqZAp">
+              <node concept="la8eA" id="dx81$J8jmG" role="lcghm">
+                <property role="lacIc" value=";" />
+              </node>
+              <node concept="l8MVK" id="dx81$J8jmH" role="lcghm" />
+            </node>
+          </node>
+          <node concept="2OqwBi" id="dx81$J8li8" role="3clFbw">
+            <node concept="2OqwBi" id="dx81$J8jUA" role="2Oq$k0">
+              <node concept="117lpO" id="dx81$J8jGo" role="2Oq$k0" />
+              <node concept="2Xjw5R" id="dx81$J8kpM" role="2OqNvi">
+                <node concept="1xMEDy" id="dx81$J8kpO" role="1xVPHs">
+                  <node concept="chp4Y" id="dx81$J8ks5" role="ri$Ld">
+                    <ref role="cht4Q" to="wnzg:383ZxwZqQYo" resolve="NamespaceDeclaration" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3x8VRR" id="dx81$J8lPV" role="2OqNvi" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="WtQ9Q" id="7RFM8R0xVtk">
+    <property role="3GE5qa" value="namespace" />
+    <ref role="WuzLi" to="wnzg:7RFM8R0xwre" resolve="GlobalUsingNamespaceAttributeDeclaration" />
+    <node concept="11bSqf" id="7RFM8R0xVtl" role="11c4hB">
+      <node concept="3clFbS" id="7RFM8R0xVtm" role="2VODD2">
+        <node concept="lc7rE" id="7RFM8R0xW8V" role="3cqZAp">
+          <node concept="la8eA" id="7RFM8R0xW8W" role="lcghm">
+            <property role="lacIc" value="using " />
+          </node>
+          <node concept="l9hG8" id="7RFM8R0xW8X" role="lcghm">
+            <node concept="2OqwBi" id="7RFM8R0xW8Y" role="lb14g">
+              <node concept="2OqwBi" id="7RFM8R0xW8Z" role="2Oq$k0">
+                <node concept="117lpO" id="7RFM8R0xW90" role="2Oq$k0" />
+                <node concept="3TrEf2" id="7RFM8R0xW91" role="2OqNvi">
+                  <ref role="3Tt5mk" to="wnzg:7RFM8R0xwrf" resolve="namespace" />
+                </node>
+              </node>
+              <node concept="2qgKlT" id="7RFM8R0xW92" role="2OqNvi">
+                <ref role="37wK5l" to="tpcu:hEwIMiw" resolve="getPresentation" />
+              </node>
+            </node>
+          </node>
+          <node concept="la8eA" id="7RFM8R0xW93" role="lcghm">
+            <property role="lacIc" value="::" />
+          </node>
+          <node concept="l9hG8" id="7RFM8R0xW94" role="lcghm">
+            <node concept="2OqwBi" id="7RFM8R0xW95" role="lb14g">
+              <node concept="2OqwBi" id="7RFM8R0xW96" role="2Oq$k0">
+                <node concept="117lpO" id="7RFM8R0xW97" role="2Oq$k0" />
+                <node concept="3TrEf2" id="7RFM8R0xW98" role="2OqNvi">
+                  <ref role="3Tt5mk" to="wnzg:7RFM8R0xwrs" resolve="attribute" />
+                </node>
+              </node>
+              <node concept="3TrcHB" id="7RFM8R0xW99" role="2OqNvi">
                 <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
               </node>
             </node>
           </node>
-          <node concept="la8eA" id="7fNEwqBypTe" role="lcghm">
-            <property role="lacIc" value="." />
+          <node concept="la8eA" id="7RFM8R0xWDi" role="lcghm">
+            <property role="lacIc" value=";" />
           </node>
-<<<<<<< HEAD
-          <node concept="l9hG8" id="7fNEwqByo61" role="lcghm">
-            <node concept="2OqwBi" id="7fNEwqByo62" role="lb14g">
-              <node concept="2OqwBi" id="7fNEwqByo63" role="2Oq$k0">
-                <node concept="117lpO" id="7fNEwqByo64" role="2Oq$k0" />
-                <node concept="3TrEf2" id="7fNEwqByoxc" role="2OqNvi">
-                  <ref role="3Tt5mk" to="wnzg:7fNEwqBx$6W" resolve="class_method" />
-=======
           <node concept="l8MVK" id="7RFM8R0xX60" role="lcghm" />
         </node>
       </node>
@@ -3865,56 +2623,31 @@
                 <node concept="117lpO" id="7DDmkz5wXc" role="2Oq$k0" />
                 <node concept="3TrEf2" id="7DDmkz5xf3" role="2OqNvi">
                   <ref role="3Tt5mk" to="wnzg:7DDmkz1Ipj" resolve="identity" />
->>>>>>> 7743891de9... Move constructor outside method virtual package
                 </node>
               </node>
-              <node concept="3TrcHB" id="7fNEwqBypfM" role="2OqNvi">
+              <node concept="3TrcHB" id="7DDmkz5xYa" role="2OqNvi">
                 <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
               </node>
             </node>
           </node>
-          <node concept="la8eA" id="7fNEwqByo67" role="lcghm">
+          <node concept="la8eA" id="7DDmkz5y99" role="lcghm">
             <property role="lacIc" value="(" />
           </node>
-        </node>
-        <node concept="lc7rE" id="7fNEwqByo68" role="3cqZAp">
-          <node concept="l9S2W" id="7fNEwqByo69" role="lcghm">
-            <property role="XA4eZ" value="true" />
-            <property role="lbP0B" value=", " />
-            <node concept="2OqwBi" id="7fNEwqByo6a" role="lbANJ">
-              <node concept="117lpO" id="7fNEwqByo6b" role="2Oq$k0" />
-              <node concept="3Tsc0h" id="7fNEwqBypDQ" role="2OqNvi">
-                <ref role="3TtcxE" to="wnzg:7fNEwqBxBea" resolve="actuals" />
+          <node concept="l9hG8" id="7DDmkz5yk_" role="lcghm">
+            <node concept="2OqwBi" id="7DDmkz5yzC" role="lb14g">
+              <node concept="117lpO" id="7DDmkz5yqL" role="2Oq$k0" />
+              <node concept="3TrEf2" id="7DDmkz5yGs" role="2OqNvi">
+                <ref role="3Tt5mk" to="wnzg:7DDmkz0vm1" resolve="init" />
               </node>
             </node>
           </node>
-        </node>
-        <node concept="lc7rE" id="7fNEwqByo6d" role="3cqZAp">
-          <node concept="la8eA" id="7fNEwqByo6e" role="lcghm">
+          <node concept="la8eA" id="7DDmkz5yVz" role="lcghm">
             <property role="lacIc" value=")" />
           </node>
         </node>
       </node>
     </node>
   </node>
-<<<<<<< HEAD
->>>>>>> 5ef9af0b8a... Classes in Namespaces.
-=======
-  <node concept="WtQ9Q" id="6FZQsHt$4Ly">
-    <ref role="WuzLi" to="wnzg:6FZQsHt7RdA" resolve="AutoType" />
-    <node concept="11bSqf" id="6FZQsHt$4Lz" role="11c4hB">
-      <node concept="3clFbS" id="6FZQsHt$4L$" role="2VODD2">
-        <node concept="lc7rE" id="6FZQsHt$4LR" role="3cqZAp">
-          <node concept="la8eA" id="6FZQsHt$4Mf" role="lcghm">
-            <property role="lacIc" value="auto" />
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
-<<<<<<< HEAD
->>>>>>> f7ba0272ae... Redo auto keyword
-=======
   <node concept="WtQ9Q" id="6OyCGy3Hkpj">
     <ref role="WuzLi" to="wnzg:6OyCGy3FHs3" resolve="GlobalVarDecCPP" />
     <node concept="11bSqf" id="6OyCGy3Hkpk" role="11c4hB">
@@ -4106,10 +2839,6 @@
       </node>
     </node>
   </node>
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 4cbcd056d4... Copied StaticVar from screenshots and started making test
-=======
   <node concept="WtQ9Q" id="6OyCGyafvkZ">
     <ref role="WuzLi" to="wnzg:6OyCGy9cOMO" resolve="ClassStaticVarRef" />
     <node concept="11bSqf" id="6OyCGyafvl0" role="11c4hB">
@@ -4132,11 +2861,6 @@
       </node>
     </node>
   </node>
-<<<<<<< HEAD
->>>>>>> 857aa482f2... Replaced IAccessStatisClassVar for ClassStaticVarRef
-=======
->>>>>>> 8bd087cd45... Fix textgen for auto type
-=======
   <node concept="WtQ9Q" id="72UYQRW_gSR">
     <ref role="WuzLi" to="wnzg:6WSa0snOgvZ" resolve="NewDeclaration" />
     <node concept="11bSqf" id="72UYQRW_gSS" role="11c4hB">
@@ -4592,7 +3316,6 @@
       </node>
     </node>
   </node>
-<<<<<<< HEAD
   <node concept="WtQ9Q" id="72UYQRWDfh5">
     <ref role="WuzLi" to="wnzg:4KCRVMvtEXq" resolve="NewObjectInitializer" />
     <node concept="11bSqf" id="72UYQRWDfh6" role="11c4hB">
@@ -4636,20 +3359,6 @@
       </node>
     </node>
   </node>
-<<<<<<< HEAD
->>>>>>> 9cc6d595ca... New and Delete keywords are working, with types and constructors
-=======
-  <node concept="WtQ9Q" id="1yn8Pky5yLK">
-    <property role="3GE5qa" value="class" />
-    <ref role="WuzLi" to="wnzg:1yn8PkxYuRh" resolve="InnerClassType" />
-    <node concept="11bSqf" id="1yn8Pky5yLL" role="11c4hB">
-      <node concept="3clFbS" id="1yn8Pky5yLM" role="2VODD2">
-        <node concept="lc7rE" id="1yn8Pky5yM5" role="3cqZAp">
-          <node concept="l9hG8" id="1yn8Pky5yMv" role="lcghm">
-            <node concept="2OqwBi" id="1yn8Pky5z0R" role="lb14g">
-              <node concept="117lpO" id="1yn8Pky5yNr" role="2Oq$k0" />
-              <node concept="3TrEf2" id="1yn8Pky5zlk" role="2OqNvi">
-=======
   <node concept="WtQ9Q" id="8CgsWn3xra">
     <property role="3GE5qa" value="class" />
     <ref role="WuzLi" to="wnzg:1yn8PkxYuRh" resolve="InnerClassType" />
@@ -4660,29 +3369,10 @@
             <node concept="2OqwBi" id="8CgsWn3C8g" role="lb14g">
               <node concept="117lpO" id="8CgsWn3BVs" role="2Oq$k0" />
               <node concept="3TrEf2" id="8CgsWn3CE6" role="2OqNvi">
-<<<<<<< HEAD
->>>>>>> f94167da49... Added lost InnerClassType textgen again
-                <ref role="3Tt5mk" to="wnzg:1yn8PkxYuRi" resolve="outerclassType" />
-=======
                 <ref role="3Tt5mk" to="wnzg:1yn8PkxYuRi" resolve="outerClassType" />
->>>>>>> 128a1aeb4d... Consistentified(?) the class package.
               </node>
             </node>
           </node>
-<<<<<<< HEAD
-          <node concept="la8eA" id="1yn8Pky5$5v" role="lcghm">
-            <property role="lacIc" value="::" />
-          </node>
-          <node concept="l9hG8" id="1yn8Pky5$iK" role="lcghm">
-            <node concept="2OqwBi" id="1yn8Pky5_yt" role="lb14g">
-              <node concept="2OqwBi" id="1yn8Pky5$Bz" role="2Oq$k0">
-                <node concept="117lpO" id="1yn8Pky5$pS" role="2Oq$k0" />
-                <node concept="3TrEf2" id="1yn8Pky5$W0" role="2OqNvi">
-                  <ref role="3Tt5mk" to="wnzg:4o2nsMgBEtY" resolve="clazz" />
-                </node>
-              </node>
-              <node concept="3TrcHB" id="1yn8Pky5A8N" role="2OqNvi">
-=======
           <node concept="la8eA" id="8CgsWn3CR5" role="lcghm">
             <property role="lacIc" value="::" />
           </node>
@@ -4695,7 +3385,6 @@
                 </node>
               </node>
               <node concept="3TrcHB" id="8CgsWn3GfM" role="2OqNvi">
->>>>>>> f94167da49... Added lost InnerClassType textgen again
                 <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
               </node>
             </node>
@@ -4704,174 +3393,6 @@
       </node>
     </node>
   </node>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 5699f64d84... added Textgen and behaviour
-=======
->>>>>>> f94167da49... Added lost InnerClassType textgen again
-=======
-  <node concept="WtQ9Q" id="4WhfN3ok04k">
-    <property role="3GE5qa" value="errorhandling" />
-    <ref role="WuzLi" to="wnzg:4WhfN3oe7VM" resolve="CatchBlock" />
-    <node concept="11bSqf" id="4WhfN3ok04l" role="11c4hB">
-      <node concept="3clFbS" id="4WhfN3ok04m" role="2VODD2">
-        <node concept="lc7rE" id="4WhfN3ok04D" role="3cqZAp">
-          <node concept="la8eA" id="4WhfN3ok051" role="lcghm">
-            <property role="lacIc" value="catch (" />
-          </node>
-        </node>
-        <node concept="lc7rE" id="4WhfN3ok06b" role="3cqZAp">
-          <node concept="l9hG8" id="4WhfN3ok06D" role="lcghm">
-            <node concept="2OqwBi" id="4WhfN3ok0fY" role="lb14g">
-              <node concept="117lpO" id="4WhfN3ok07z" role="2Oq$k0" />
-              <node concept="3TrEf2" id="6r_QSB17TFM" role="2OqNvi">
-                <ref role="3Tt5mk" to="wnzg:4WhfN3oe7XA" resolve="catch" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="lc7rE" id="4WhfN3ok0xU" role="3cqZAp">
-          <node concept="la8eA" id="4WhfN3ok0A_" role="lcghm">
-            <property role="lacIc" value=") " />
-          </node>
-        </node>
-        <node concept="lc7rE" id="4WhfN3ok0Gf" role="3cqZAp">
-          <node concept="l9hG8" id="4WhfN3ok0KY" role="lcghm">
-            <node concept="2OqwBi" id="4WhfN3ok0Uj" role="lb14g">
-              <node concept="117lpO" id="4WhfN3ok0LS" role="2Oq$k0" />
-              <node concept="3TrEf2" id="6r_QSB17U9o" role="2OqNvi">
-                <ref role="3Tt5mk" to="wnzg:4WhfN3oe7XD" resolve="body" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="WtQ9Q" id="4WhfN3okcof">
-    <property role="3GE5qa" value="errorhandling" />
-    <ref role="WuzLi" to="wnzg:4WhfN3oe7Xs" resolve="DefaultCatch" />
-    <node concept="11bSqf" id="4WhfN3okcog" role="11c4hB">
-      <node concept="3clFbS" id="4WhfN3okcoh" role="2VODD2">
-        <node concept="lc7rE" id="4WhfN3okco$" role="3cqZAp">
-          <node concept="la8eA" id="4WhfN3okcoW" role="lcghm">
-            <property role="lacIc" value="..." />
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="WtQ9Q" id="4WhfN3oj0oA">
-    <property role="3GE5qa" value="errorhandling" />
-    <ref role="WuzLi" to="wnzg:4WhfN3ocFih" resolve="ThrowStatement" />
-    <node concept="11bSqf" id="4WhfN3oj0oB" role="11c4hB">
-      <node concept="3clFbS" id="4WhfN3oj0oC" role="2VODD2">
-        <node concept="lc7rE" id="4WhfN3oj0oV" role="3cqZAp">
-          <node concept="la8eA" id="4WhfN3oj0pj" role="lcghm">
-            <property role="lacIc" value="throw " />
-          </node>
-        </node>
-        <node concept="lc7rE" id="4WhfN3oj0qt" role="3cqZAp">
-          <node concept="l9hG8" id="4WhfN3oj0qV" role="lcghm">
-            <node concept="2OqwBi" id="4WhfN3oj0EO" role="lb14g">
-              <node concept="117lpO" id="4WhfN3oj0rP" role="2Oq$k0" />
-              <node concept="3TrEf2" id="6r_QSB17TfW" role="2OqNvi">
-                <ref role="3Tt5mk" to="wnzg:4WhfN3ocFjQ" resolve="value" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="lc7rE" id="4WhfN3oj1gU" role="3cqZAp">
-          <node concept="la8eA" id="4WhfN3oj1oq" role="lcghm">
-            <property role="lacIc" value=";" />
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="WtQ9Q" id="4WhfN3ojXCJ">
-    <property role="3GE5qa" value="errorhandling" />
-    <ref role="WuzLi" to="wnzg:4WhfN3oe7VL" resolve="TryCatchStatement" />
-    <node concept="11bSqf" id="4WhfN3ojXCK" role="11c4hB">
-      <node concept="3clFbS" id="4WhfN3ojXCL" role="2VODD2">
-        <node concept="lc7rE" id="4WhfN3ojXD4" role="3cqZAp">
-          <node concept="la8eA" id="4WhfN3ojXDs" role="lcghm">
-            <property role="lacIc" value="try " />
-          </node>
-        </node>
-        <node concept="lc7rE" id="4WhfN3ojXEA" role="3cqZAp">
-          <node concept="l9hG8" id="4WhfN3ojXF4" role="lcghm">
-            <node concept="2OqwBi" id="4WhfN3ojXUX" role="lb14g">
-              <node concept="117lpO" id="4WhfN3ojXFY" role="2Oq$k0" />
-              <node concept="3TrEf2" id="6r_QSB17SJK" role="2OqNvi">
-                <ref role="3Tt5mk" to="wnzg:4WhfN3oe7VN" resolve="body" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="2Gpval" id="4WhfN3ojYyR" role="3cqZAp">
-          <node concept="2GrKxI" id="4WhfN3ojYyT" role="2Gsz3X">
-            <property role="TrG5h" value="catchBlock" />
-          </node>
-          <node concept="2OqwBi" id="4WhfN3ojYV2" role="2GsD0m">
-            <node concept="117lpO" id="4WhfN3ojYGr" role="2Oq$k0" />
-            <node concept="3Tsc0h" id="6r_QSB17ShJ" role="2OqNvi">
-              <ref role="3TtcxE" to="wnzg:4WhfN3oe7VQ" resolve="catches" />
-            </node>
-          </node>
-          <node concept="3clFbS" id="4WhfN3ojYyX" role="2LFqv$">
-            <node concept="1bpajm" id="4WhfN3omIdN" role="3cqZAp" />
-            <node concept="lc7rE" id="4WhfN3ojZDj" role="3cqZAp">
-              <node concept="l9hG8" id="4WhfN3ojZDF" role="lcghm">
-                <node concept="2GrUjf" id="4WhfN3ojZE_" role="lb14g">
-                  <ref role="2Gs0qQ" node="4WhfN3ojYyT" resolve="catchBlock" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="WtQ9Q" id="4WhfN3okcpx">
-    <property role="3GE5qa" value="errorhandling" />
-    <ref role="WuzLi" to="wnzg:4WhfN3oefOo" resolve="TypeCatch" />
-    <node concept="11bSqf" id="4WhfN3okcpy" role="11c4hB">
-      <node concept="3clFbS" id="4WhfN3okcpz" role="2VODD2">
-        <node concept="lc7rE" id="4WhfN3okcpQ" role="3cqZAp">
-          <node concept="l9hG8" id="4WhfN3okcqe" role="lcghm">
-            <node concept="2OqwBi" id="4WhfN3okcNz" role="lb14g">
-              <node concept="117lpO" id="4WhfN3okcr8" role="2Oq$k0" />
-              <node concept="3TrEf2" id="4WhfN3okftt" role="2OqNvi">
-                <ref role="3Tt5mk" to="mj1l:hEaDaGor64" resolve="type" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="lc7rE" id="4WhfN3okfIX" role="3cqZAp">
-          <node concept="la8eA" id="4WhfN3okfRS" role="lcghm">
-            <property role="lacIc" value=" " />
-          </node>
-        </node>
-        <node concept="lc7rE" id="4WhfN3okg1k" role="3cqZAp">
-          <node concept="l9hG8" id="4WhfN3okgaj" role="lcghm">
-            <node concept="2OqwBi" id="4WhfN3okgzC" role="lb14g">
-              <node concept="117lpO" id="4WhfN3okgbd" role="2Oq$k0" />
-              <node concept="3TrcHB" id="4WhfN3okhf1" role="2OqNvi">
-                <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
-<<<<<<< HEAD
->>>>>>> 061e94da3b... Migrate error handling to cpp.base
-=======
->>>>>>> d72e40f1e7... Revert "Migrate error handling to cpp.base"
-=======
   <node concept="WtQ9Q" id="hYHfWq_jIc">
     <property role="3GE5qa" value="type" />
     <ref role="WuzLi" to="wnzg:hYHfWq_jIb" resolve="Char16_tType" />
@@ -4911,9 +3432,6 @@
       </node>
     </node>
   </node>
-<<<<<<< HEAD
->>>>>>> 2cc9b19fc3... Added type checking for char16_t initialization.
-=======
   <node concept="WtQ9Q" id="4lmr4L5$JPG">
     <property role="3GE5qa" value="cast" />
     <ref role="WuzLi" to="wnzg:3e4PW874nO8" resolve="ICPPCast" />
@@ -4958,9 +3476,6 @@
       </node>
     </node>
   </node>
-<<<<<<< HEAD
->>>>>>> 3e9af26420... Add static_cast<T> and reinterpret_cast<T*>
-=======
   <node concept="WtQ9Q" id="cx3$dxZIaS">
     <ref role="WuzLi" to="wnzg:cx3$dxZGVV" resolve="ClassStaticMethodRef" />
     <node concept="11bSqf" id="cx3$dxZIaT" role="11c4hB">
@@ -4983,9 +3498,6 @@
       </node>
     </node>
   </node>
-<<<<<<< HEAD
->>>>>>> 06a53f073f... Added reference for static class methods.
-=======
   <node concept="WtQ9Q" id="3L3ootSwKmT">
     <ref role="WuzLi" to="wnzg:3L3ootRECAk" resolve="ClassStaticRef" />
     <node concept="11bSqf" id="3L3ootSwKmU" role="11c4hB">
@@ -5019,9 +3531,6 @@
       </node>
     </node>
   </node>
-<<<<<<< HEAD
->>>>>>> cbe08163b1... Fix static so that you can just type the classname first
-=======
   <node concept="WtQ9Q" id="3R7yI4Pogqx">
     <property role="3GE5qa" value="namespace" />
     <ref role="WuzLi" to="wnzg:3R7yI4PogpJ" resolve="EmptyNamespaceContent" />
@@ -5033,9 +3542,6 @@
       </node>
     </node>
   </node>
-<<<<<<< HEAD
->>>>>>> ae9eeb1884... Added EmptyClassContent (blank lines) but for Namespaces.
-=======
   <node concept="WtQ9Q" id="2KlFKP$WUoE">
     <property role="3GE5qa" value="type" />
     <ref role="WuzLi" to="wnzg:fwMInzpHoK" resolve="ReferenceType" />
@@ -5050,9 +3556,6 @@
       </node>
     </node>
   </node>
-<<<<<<< HEAD
->>>>>>> 46c21610ea... added ReferenceType, TemplateConstructorInit (wip)
-=======
   <node concept="WtQ9Q" id="7pUsrpuVZjO">
     <property role="3GE5qa" value="constructor" />
     <ref role="WuzLi" to="wnzg:7pUsrpuVZdh" resolve="ClassConstructorPrototype" />
@@ -5157,9 +3660,6 @@
       </node>
     </node>
   </node>
-<<<<<<< HEAD
->>>>>>> 6bfe4b6649... example showing too long grammarcells method
-=======
   <node concept="WtQ9Q" id="7RTlUgfKctI">
     <property role="3GE5qa" value="namespace" />
     <ref role="WuzLi" to="wnzg:7RTlUgfKaMq" resolve="NamespaceType" />
@@ -5196,8 +3696,5 @@
       </node>
     </node>
   </node>
->>>>>>> 0614305c07... introduced NamespaceType; fixed named references in scopes
 </model>
 
-=======
->>>>>>> f496843022... removed scope file

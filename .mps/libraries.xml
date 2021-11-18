@@ -3,19 +3,11 @@
   <component name="ProjectLibraryManager">
     <option name="libraries">
       <map>
-<<<<<<< HEAD
-        <entry key="mbeddr.core">
-          <value>
-            <Library>
-              <option name="name" value="mbeddr.core" />
-              <option name="path" value="${mbeddr.github.core.home}/code/languages" />
-=======
         <entry key="dependencies">
           <value>
             <Library>
               <option name="name" value="dependencies" />
               <option name="path" value="$PROJECT_DIR$/build/dependencies" />
->>>>>>> 9f65221021... added Kolja's files
             </Library>
           </value>
         </entry>

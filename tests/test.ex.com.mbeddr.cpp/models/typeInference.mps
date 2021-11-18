@@ -171,23 +171,6 @@
   </node>
   <node concept="1whW_1" id="2O2YBLCmwEn">
     <property role="TrG5h" value="Auto" />
-<<<<<<< HEAD
-    <node concept="3Iz7nb" id="cx3$dxZErN" role="N3F5h">
-      <property role="TrG5h" value="globalShouldBeBool" />
-      <node concept="RSaEH" id="cx3$dxZErL" role="2C2TGm">
-        <property role="2caQfQ" value="false" />
-        <property role="2c7vTL" value="false" />
-      </node>
-      <node concept="3TlMhK" id="cx3$dxZEty" role="1cecVj" />
-    </node>
-    <node concept="3Iz7nb" id="cx3$dxZEyG" role="N3F5h">
-      <property role="TrG5h" value="globalShouldBeInt" />
-      <node concept="RSaEH" id="cx3$dxZEyE" role="2C2TGm">
-        <property role="2caQfQ" value="false" />
-        <property role="2c7vTL" value="false" />
-      </node>
-      <node concept="3TlMh9" id="cx3$dxZE$J" role="1cecVj">
-=======
     <node concept="3Iz7nb" id="2QzMXD3sZMe" role="N3F5h">
       <property role="TrG5h" value="globalShouldBeInt" />
       <node concept="RSaEH" id="2QzMXD3sZMc" role="2C2TGm">
@@ -195,7 +178,6 @@
         <property role="2c7vTL" value="false" />
       </node>
       <node concept="3TlMh9" id="2QzMXD3sZOR" role="1cecVj">
->>>>>>> d16f2d8d2e... Put thisPointer executable test outside classes
         <property role="2hmy$m" value="1" />
       </node>
     </node>
@@ -261,25 +243,9 @@
           </node>
         </node>
         <node concept="1_9egQ" id="6FZQsHuvf1w" role="3XIRFZ">
-<<<<<<< HEAD
-          <node concept="3pqW6w" id="6FZQsHuvf42" role="1_9egR">
-            <node concept="1S7827" id="6FZQsHuvf6n" role="3TlMhJ">
-              <ref role="1S7826" node="6FZQsHtzJAJ" resolve="wassup" />
-=======
           <node concept="3pqW6w" id="6FZQsHv7TZi" role="1_9egR">
-<<<<<<< HEAD
-<<<<<<< HEAD
-            <node concept="1S7827" id="6FZQsHv7U1U" role="3TlMhJ">
-              <ref role="1S7826" node="6FZQsHtzJAJ" resolve="globalShouldBeInt" />
->>>>>>> e6791fc3a8... Cleaned up the executable tests and made sure there weren't snytax errors. Many still have build problems due to UnitTestHelper.h
-=======
-            <node concept="1S7827" id="cx3$dxZEC$" role="3TlMhJ">
-              <ref role="1S7826" node="cx3$dxZEyG" resolve="globalShouldBeInt" />
->>>>>>> 06a53f073f... Added reference for static class methods.
-=======
             <node concept="1S7827" id="2QzMXD3sZXW" role="3TlMhJ">
               <ref role="1S7826" node="2QzMXD3sZMe" resolve="globalShouldBeInt" />
->>>>>>> d16f2d8d2e... Put thisPointer executable test outside classes
             </node>
             <node concept="3ZVu4v" id="6FZQsHuvf1u" role="3TlMhI">
               <ref role="3ZVs_2" node="6FZQsHtzK2B" resolve="integer" />
@@ -294,26 +260,11 @@
             <ref role="3mBfEM" node="6FZQsHt$4Ud" resolve="AutoContainer" />
           </node>
         </node>
-<<<<<<< HEAD
-        <node concept="1_9egQ" id="6FZQsHuICi3" role="3XIRFZ">
-          <node concept="3pqW6w" id="6FZQsHuTtpL" role="1_9egR">
-            <node concept="3TlMh9" id="6FZQsHuTtt0" role="3TlMhJ">
-              <property role="2hmy$m" value="1" />
-            </node>
-            <node concept="2qmXGp" id="6FZQsHuTtll" role="3TlMhI">
-              <node concept="3mBk1D" id="6FZQsHuTtnJ" role="1ESnxz">
-                <ref role="3mBk1B" node="6FZQsHt$4Y3" resolve="hoi" />
-=======
         <node concept="1_9egQ" id="7WruJMA1MHe" role="3XIRFZ">
           <node concept="3pqW6w" id="7WruJMA1MKC" role="1_9egR">
             <node concept="2qmXGp" id="7WruJMA1MOe" role="3TlMhJ">
               <node concept="3mBk1D" id="7WruJMA1MQ7" role="1ESnxz">
-<<<<<<< HEAD
-                <ref role="3mBk1B" node="7WruJM_Sek7" resolve="hoi" />
->>>>>>> 28a746ac9e... Add constraint on auto data members
-=======
                 <ref role="3mBk1B" node="7WruJM_Sek7" resolve="shouldBeInt" />
->>>>>>> e6791fc3a8... Cleaned up the executable tests and made sure there weren't snytax errors. Many still have build problems due to UnitTestHelper.h
               </node>
               <node concept="3ZVu4v" id="7WruJMA1MM_" role="1_9fRO">
                 <ref role="3ZVs_2" node="6FZQsHuIC8R" resolve="autoContainer" />

@@ -5,14 +5,8 @@ name: Publish to GitHub Maven Packages with Gradle
 
 on:
   push:
-<<<<<<< HEAD
     branches:
       - master
-=======
-    branches: [ master ]
-  pull_request:
-    branches: [ master ]
->>>>>>> feb6a8ebb9... added publish with gradle to github maven packages action
   workflow_dispatch:
 
 jobs:
@@ -29,12 +23,7 @@ jobs:
     - name: Grant execute permission for gradlew
       run: chmod +x gradlew
     - name: Publish with Gradle
-<<<<<<< HEAD
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
-        echo "Github username: ${GITHUB_ACTOR}"
         ./gradlew publish
-=======
-      run: ./gradlew publish
->>>>>>> feb6a8ebb9... added publish with gradle to github maven packages action
