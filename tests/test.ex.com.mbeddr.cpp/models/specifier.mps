@@ -5,9 +5,7 @@
     <engage id="236f3e56-2360-4657-9b9d-0cb84f56784d" name="com.mbeddr.cpp.modules.gen" />
     <devkit ref="bdd1ab49-ce55-4bff-86d1-5394fa0aa930(com.mbeddr.cpp)" />
   </languages>
-  <imports>
-    <import index="3y0n" ref="r:d4d16117-20fb-4ba8-a1b2-1598e121e1d0(com.mbeddr.core.stdlib)" />
-  </imports>
+  <imports />
   <registry>
     <language id="a9d69647-0840-491e-bf39-2eb0805d2011" name="com.mbeddr.core.statements">
       <concept id="4185783222026475238" name="com.mbeddr.core.statements.structure.LocalVariableDeclaration" flags="ng" index="3XIRlf">
@@ -23,7 +21,7 @@
     </language>
     <language id="2d7fadf5-33f6-4e80-a78f-0f739add2bde" name="com.mbeddr.core.buildconfig">
       <concept id="5046689135693761556" name="com.mbeddr.core.buildconfig.structure.Binary" flags="ng" index="2eOfOj">
-        <reference id="2504745233808502246" name="target" index="3oK8_y" />
+        <reference id="2504745233808502246" name="target_old" index="3oK8_y" />
         <child id="5046689135693761559" name="referencedModules" index="2eOfOg" />
       </concept>
       <concept id="5046689135693761554" name="com.mbeddr.core.buildconfig.structure.Executable" flags="ng" index="2eOfOl">
@@ -31,21 +29,21 @@
       </concept>
       <concept id="7717755763392524104" name="com.mbeddr.core.buildconfig.structure.BuildConfiguration" flags="ng" index="2v9HqL">
         <child id="5046689135694070731" name="binaries" index="2ePNbc" />
-        <child id="5323740605968447026" name="target" index="2AWWZH" />
+        <child id="5323740605968447026" name="platform" index="2AWWZH" />
       </concept>
       <concept id="7717755763392524107" name="com.mbeddr.core.buildconfig.structure.ModuleRef" flags="ng" index="2v9HqM">
         <reference id="7717755763392524108" name="module" index="2v9HqP" />
       </concept>
       <concept id="5323740605968447022" name="com.mbeddr.core.buildconfig.structure.DesktopPlatform" flags="ng" index="2AWWZL">
-        <property id="5323740605968447025" name="compilerOptions" index="2AWWZI" />
-        <property id="5323740605968447024" name="compiler" index="2AWWZJ" />
+        <property id="5323740605968447025" name="cCompilerOptions" index="2AWWZI" />
+        <property id="5323740605968447024" name="cCompiler" index="2AWWZJ" />
         <property id="3963667026125442601" name="gdb" index="3r8Kw1" />
         <property id="3963667026125442676" name="make" index="3r8Kxs" />
       </concept>
       <concept id="5323740605968447019" name="com.mbeddr.core.buildconfig.structure.Platform" flags="ng" index="2AWWZO">
         <child id="1485382076185232212" name="targets" index="3anu1O" />
       </concept>
-      <concept id="1485382076184236780" name="com.mbeddr.core.buildconfig.structure.Target" flags="ng" index="3abb7c" />
+      <concept id="1485382076184236780" name="com.mbeddr.core.buildconfig.structure.System" flags="ng" index="3abb7c" />
       <concept id="2736179788492003936" name="com.mbeddr.core.buildconfig.structure.IDebuggablePlatform" flags="ng" index="1FkSt_">
         <property id="2736179788492003937" name="debugOptions" index="1FkSt$" />
       </concept>
@@ -62,34 +60,25 @@
       </concept>
     </language>
     <language id="8c081446-e4ba-48b7-a7e0-3db40e2c3439" name="com.mbeddr.cpp.base">
-      <concept id="2277423264798216734" name="com.mbeddr.cpp.base.structure.IStaticFlagConcept" flags="ng" index="226hDU">
+      <concept id="2277423264798216734" name="com.mbeddr.cpp.base.structure.IStaticFlag" flags="ng" index="226hDU">
         <property id="2277423264798216735" name="isStatic" index="226hDV" />
       </concept>
-      <concept id="2277423264798199359" name="com.mbeddr.cpp.base.structure.IInlineFlagConcept" flags="ng" index="226Gpr">
+      <concept id="2277423264798199359" name="com.mbeddr.cpp.base.structure.IInlineFlag" flags="ng" index="226Gpr">
         <property id="2277423264798199360" name="isInlined" index="226Go$" />
       </concept>
       <concept id="7240228573262412204" name="com.mbeddr.cpp.base.structure.LocalClassVariableDeclaration" flags="ng" index="2dywKE" />
-      <concept id="3188920472788366140" name="com.mbeddr.cpp.base.structure.IVirtualFlagConcept" flags="ng" index="hL25U">
+      <concept id="3188920472788366140" name="com.mbeddr.cpp.base.structure.IVirtualFlag" flags="ng" index="hL25U">
         <property id="3188920472788366141" name="isVirtual" index="hL25V" />
       </concept>
-      <concept id="3188920472790477822" name="com.mbeddr.cpp.base.structure.IPureVirtualFlagConcept" flags="ng" index="hTfAS">
+      <concept id="3188920472790477822" name="com.mbeddr.cpp.base.structure.IPureVirtualFlag" flags="ng" index="hTfAS">
         <property id="3188920472790477826" name="isPureVirtual" index="hTfT4" />
       </concept>
-      <concept id="6028541369715364763" name="com.mbeddr.cpp.base.structure.IVolatileFlagConcept" flags="ng" index="O23RO">
+      <concept id="6028541369715364763" name="com.mbeddr.cpp.base.structure.IVolatileFlag" flags="ng" index="O23RO">
         <property id="6028541369715364764" name="isVolatile" index="O23RN" />
       </concept>
-<<<<<<< HEAD
-<<<<<<< HEAD
-      <concept id="6028541369719415919" name="com.mbeddr.cpp.base.structure.IConstExprFlagConcept" flags="ng" index="OtGC0">
+      <concept id="6028541369719415919" name="com.mbeddr.cpp.base.structure.IConstExprFlag" flags="ng" index="OtGC0">
         <property id="6028541369719415920" name="isConstExpr" index="OtGCv" />
       </concept>
-=======
->>>>>>> 27c73b6b9d... New and Delete keywords are working, also has executable test and typesystem test
-=======
-      <concept id="6028541369719415919" name="com.mbeddr.cpp.base.structure.IConstExprFlagConcept" flags="ng" index="OtGC0">
-        <property id="6028541369719415920" name="isConstExpr" index="OtGCv" />
-      </concept>
->>>>>>> 8a9c6733aa... Revert "Remove redundant executable testcases"
       <concept id="5044697665789382396" name="com.mbeddr.cpp.base.structure.MethodDeclaration" flags="ng" index="3mB1cK">
         <child id="4185783222026475860" name="body" index="3XIRFX" />
       </concept>
@@ -100,7 +89,7 @@
         <property id="2995459757115087788" name="visibility" index="1wg9_F" />
       </concept>
       <concept id="5044697665789405022" name="com.mbeddr.cpp.base.structure.ClassType" flags="ng" index="3mBfEi">
-        <reference id="5044697665789405054" name="clazz" index="3mBfEM" />
+        <reference id="5044697665789405054" name="class" index="3mBfEM" />
       </concept>
       <concept id="5044697665789336950" name="com.mbeddr.cpp.base.structure.ClassDeclaration" flags="ng" index="3mBW2U">
         <child id="5044697665789396304" name="members" index="3mBdys" />
@@ -131,7 +120,7 @@
         <child id="7755897872837031764" name="expected" index="2N2GHh" />
       </concept>
       <concept id="7755897872837082045" name="com.mbeddr.core.unittest.structure.AssertEquals" flags="ng" index="2N2KuS" />
-      <concept id="8610007178384196427" name="com.mbeddr.core.unittest.structure.TestCaseConfigItem" flags="ng" index="12mU2y">
+      <concept id="8610007178384196427" name="com.mbeddr.core.unittest.structure.UnitTestConfigItem" flags="ng" index="12mU2y">
         <child id="842732463503928104" name="testStrategy" index="3GpDut" />
       </concept>
       <concept id="842732463503928106" name="com.mbeddr.core.unittest.structure.NoTestIsolationStrategy" flags="ng" index="3GpDuv" />
@@ -214,72 +203,34 @@
     <node concept="3mBW2U" id="1Yr26iukrN$" role="N3F5h">
       <property role="2OOxQR" value="false" />
       <property role="TrG5h" value="SomeClass" />
-<<<<<<< HEAD
-<<<<<<< HEAD
-      <node concept="3mBbG7" id="5eDFAXBt0Dc" role="3mBdys">
-        <property role="TrG5h" value="staticField" />
-        <property role="226hDV" value="true" />
-=======
       <node concept="3u$6M4" id="72UYQRXZOKS" role="3mBdys" />
       <node concept="3mBbG7" id="72UYQRXZOVH" role="3mBdys">
->>>>>>> 27c73b6b9d... New and Delete keywords are working, also has executable test and typesystem test
         <property role="1wg9_F" value="public" />
-<<<<<<< HEAD
-        <property role="226hDV" value="true" />
-        <property role="TrG5h" value="staticField" />
-        <node concept="26Vqph" id="72UYQRXZOZ_" role="2C2TGm">
-=======
-=======
-      <node concept="3mBbG7" id="5eDFAXBt0Dc" role="3mBdys">
-        <property role="TrG5h" value="staticField" />
-        <property role="226hDV" value="true" />
-        <property role="1wg9_F" value="public" />
->>>>>>> 8a9c6733aa... Revert "Remove redundant executable testcases"
-        <property role="OtGCv" value="true" />
-        <node concept="3TlMh9" id="6Rfiwa9LP0Z" role="3XIe9v">
-          <property role="2hmy$m" value="111" />
+        <node concept="3mBbG7" id="5eDFAXBt0Dc" role="3mBdys">
+          <property role="TrG5h" value="staticField" />
+          <property role="226hDV" value="true" />
+          <property role="1wg9_F" value="public" />
+          <property role="OtGCv" value="true" />
+          <node concept="3TlMh9" id="6Rfiwa9LP0Z" role="3XIe9v">
+            <property role="2hmy$m" value="111" />
+          </node>
+          <node concept="26Vqph" id="5eDFAXBt0Ga" role="2C2TGm">
+            <property role="2caQfQ" value="false" />
+            <property role="2c7vTL" value="false" />
+          </node>
+          <node concept="3TlMh9" id="72UYQRXZP0d" role="3XIe9v">
+            <property role="2hmy$m" value="0" />
+          </node>
         </node>
-        <node concept="26Vqph" id="5eDFAXBt0Ga" role="2C2TGm">
-<<<<<<< HEAD
->>>>>>> e6791fc3a8... Cleaned up the executable tests and made sure there weren't snytax errors. Many still have build problems due to UnitTestHelper.h
-          <property role="2caQfQ" value="false" />
-          <property role="2c7vTL" value="false" />
-        </node>
-<<<<<<< HEAD
-        <node concept="3uHhno" id="7j9KGYMPDrF" role="3XIe9v">
-          <ref role="3uHhlH" node="1Yr26iukrNB" resolve="inlinedMethod" />
-=======
-        <node concept="3TlMh9" id="72UYQRXZP0d" role="3XIe9v">
-          <property role="2hmy$m" value="0" />
->>>>>>> 27c73b6b9d... New and Delete keywords are working, also has executable test and typesystem test
-        </node>
-      </node>
-      <node concept="3u$6M4" id="5eDFAXBt0Ao" role="3mBdys" />
-      <node concept="3mBbG7" id="72UYQRXZO_2" role="3mBdys">
-        <property role="TrG5h" value="constField" />
-        <property role="1wg9_F" value="public" />
-<<<<<<< HEAD
-        <property role="OtGCv" value="true" />
-        <node concept="26Vqph" id="5eDFAXBNIUC" role="2C2TGm">
-=======
-        <node concept="26Vqph" id="72UYQRXZOCN" role="2C2TGm">
->>>>>>> 27c73b6b9d... New and Delete keywords are working, also has executable test and typesystem test
-          <property role="2caQfQ" value="false" />
-          <property role="2c7vTL" value="true" />
-        </node>
-<<<<<<< HEAD
-        <node concept="3TlMh9" id="72UYQRXZODk" role="3XIe9v">
-          <property role="2hmy$m" value="0" />
-=======
-        <node concept="3TlMh9" id="5eDFAXBNIV$" role="3XIe9v">
-          <property role="2hmy$m" value="3" />
->>>>>>> e6791fc3a8... Cleaned up the executable tests and made sure there weren't snytax errors. Many still have build problems due to UnitTestHelper.h
-=======
+        <node concept="3u$6M4" id="5eDFAXBt0Ao" role="3mBdys" />
+        <node concept="3mBbG7" id="72UYQRXZO_2" role="3mBdys">
+          <property role="TrG5h" value="constField" />
+          <property role="1wg9_F" value="public" />
           <property role="2caQfQ" value="false" />
           <property role="2c7vTL" value="false" />
         </node>
       </node>
-      <node concept="3u$6M4" id="5eDFAXBt0Ao" role="3mBdys" />
+      <node concept="3u$6M4" id="w$yjPEBKaT" role="3mBdys" />
       <node concept="3mBbG7" id="5eDFAXBNIRy" role="3mBdys">
         <property role="TrG5h" value="constField" />
         <property role="1wg9_F" value="public" />
@@ -290,7 +241,6 @@
         </node>
         <node concept="3TlMh9" id="5eDFAXBNIV$" role="3XIe9v">
           <property role="2hmy$m" value="3" />
->>>>>>> 8a9c6733aa... Revert "Remove redundant executable testcases"
         </node>
       </node>
       <node concept="3u$6M4" id="5eDFAXBNIW5" role="3mBdys" />
@@ -306,179 +256,166 @@
           <property role="2hmy$m" value="5" />
         </node>
       </node>
-<<<<<<< HEAD
-      <node concept="3u$6M4" id="72UYQRXZOcq" role="3mBdys" />
-      <node concept="3mBbG7" id="72UYQRXZOjA" role="3mBdys">
-        <property role="TrG5h" value="constVolatileField" />
-<<<<<<< HEAD
-=======
       <node concept="3u$6M4" id="5eDFAXBNJ4o" role="3mBdys" />
       <node concept="3mBbG7" id="5eDFAXBNJ8A" role="3mBdys">
         <property role="TrG5h" value="constVolatileField" />
->>>>>>> 8a9c6733aa... Revert "Remove redundant executable testcases"
         <property role="O23RN" value="true" />
         <node concept="26Vqph" id="5eDFAXBNJc1" role="2C2TGm">
           <property role="2caQfQ" value="false" />
           <property role="2c7vTL" value="true" />
-<<<<<<< HEAD
-=======
-        <node concept="26Vqph" id="72UYQRXZOnn" role="2C2TGm">
-          <property role="2caQfQ" value="true" />
-          <property role="2c7vTL" value="false" />
->>>>>>> 27c73b6b9d... New and Delete keywords are working, also has executable test and typesystem test
-        </node>
-        <node concept="3TlMh9" id="72UYQRXZOoq" role="3XIe9v">
-=======
-        </node>
-        <node concept="3TlMh9" id="5eDFAXBNJcA" role="3XIe9v">
->>>>>>> 8a9c6733aa... Revert "Remove redundant executable testcases"
-          <property role="2hmy$m" value="0" />
-        </node>
-      </node>
-      <node concept="3u$6M4" id="5eDFAXBNIOA" role="3mBdys" />
-      <node concept="3mB1cK" id="1Yr26iukrNB" role="3mBdys">
-        <property role="TrG5h" value="inlinedMethod" />
-        <property role="226Go$" value="true" />
-        <property role="1wg9_F" value="public" />
-        <property role="OtGCv" value="false" />
-        <node concept="26Vqph" id="1Yr26iukrNM" role="2C2TGm">
-          <property role="2caQfQ" value="false" />
-          <property role="2c7vTL" value="false" />
-        </node>
-        <node concept="3XIRFW" id="1Yr26iukrO8" role="3XIRFX">
-          <node concept="2BFjQ_" id="1Yr26iukrOE" role="3XIRFZ">
-            <node concept="3TlMh9" id="1Yr26iukrOS" role="2BFjQA">
-              <property role="2hmy$m" value="32" />
-            </node>
+          <node concept="26Vqph" id="72UYQRXZOnn" role="2C2TGm">
+            <property role="2caQfQ" value="true" />
+            <property role="2c7vTL" value="false" />
+          </node>
+          <node concept="3TlMh9" id="5eDFAXBNJcA" role="3XIe9v">
+            <property role="2hmy$m" value="0" />
           </node>
         </node>
-      </node>
-      <node concept="3u$6M4" id="1Yr26iukrWG" role="3mBdys" />
-      <node concept="3mB1cK" id="1Yr26iukrYm" role="3mBdys">
-        <property role="TrG5h" value="staticMethod" />
-        <property role="226hDV" value="true" />
-        <property role="hL25V" value="false" />
-        <property role="hTfT4" value="false" />
-        <node concept="26Vqph" id="1Yr26iukrZX" role="2C2TGm">
-          <property role="2caQfQ" value="false" />
-          <property role="2c7vTL" value="false" />
-        </node>
-        <node concept="3XIRFW" id="1Yr26iuks0j" role="3XIRFX">
-          <node concept="3XIRlf" id="5eDFAXBNZnl" role="3XIRFZ">
-            <property role="TrG5h" value="test" />
-            <node concept="26Vqph" id="5eDFAXBNZnj" role="2C2TGm">
-              <property role="2caQfQ" value="false" />
-              <property role="2c7vTL" value="false" />
-            </node>
-            <node concept="3TlMh9" id="5eDFAXBNZoJ" role="3XIe9u">
-              <property role="2hmy$m" value="1" />
-            </node>
-          </node>
-          <node concept="2BFjQ_" id="1Yr26iuks0Q" role="3XIRFZ">
-            <node concept="3TlMh9" id="1Yr26iuks14" role="2BFjQA">
-              <property role="2hmy$m" value="0" />
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="3u$6M4" id="1Yr26iuks3z" role="3mBdys" />
-      <node concept="3mB1cK" id="1Yr26iuks6b" role="3mBdys">
-        <property role="TrG5h" value="staticInlinedMethod" />
-        <property role="226hDV" value="true" />
-        <property role="226Go$" value="true" />
-        <node concept="26Vqph" id="1Yr26iuks8$" role="2C2TGm">
-          <property role="2caQfQ" value="false" />
-          <property role="2c7vTL" value="false" />
-        </node>
-        <node concept="3XIRFW" id="1Yr26iuks8Z" role="3XIRFX">
-          <node concept="2BFjQ_" id="1Yr26iuks9n" role="3XIRFZ">
-            <node concept="3TlMh9" id="1Yr26iuks9v" role="2BFjQA">
-              <property role="2hmy$m" value="0" />
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="2NXPZ9" id="1Yr26iuksrh" role="N3F5h">
-      <property role="TrG5h" value="empty_1527243997568_3" />
-    </node>
-    <node concept="c0Qz5" id="6Rfiwa9LMCu" role="N3F5h">
-      <property role="2OOxQR" value="true" />
-      <property role="TrG5h" value="test_specifiers" />
-      <node concept="19Rifw" id="6Rfiwa9LMCv" role="2C2TGm">
-        <property role="2caQfQ" value="false" />
-        <property role="2c7vTL" value="false" />
-      </node>
-      <node concept="3XIRFW" id="6Rfiwa9LMCx" role="c0Qz3">
-        <node concept="2dywKE" id="6Rfiwa9LN5E" role="3XIRFZ">
-          <property role="TrG5h" value="anInstance" />
-          <node concept="3mBfEi" id="6Rfiwa9LN5D" role="2C2TGm">
+        <node concept="3u$6M4" id="5eDFAXBNIOA" role="3mBdys" />
+        <node concept="3mB1cK" id="1Yr26iukrNB" role="3mBdys">
+          <property role="TrG5h" value="inlinedMethod" />
+          <property role="226Go$" value="true" />
+          <property role="1wg9_F" value="public" />
+          <property role="OtGCv" value="false" />
+          <node concept="26Vqph" id="1Yr26iukrNM" role="2C2TGm">
             <property role="2caQfQ" value="false" />
             <property role="2c7vTL" value="false" />
-            <ref role="3mBfEM" node="1Yr26iukrN$" resolve="SomeClass" />
           </node>
-        </node>
-        <node concept="3XISUE" id="6Rfiwa9LN6k" role="3XIRFZ" />
-        <node concept="2N2KuS" id="6Rfiwa9LN71" role="3XIRFZ">
-          <node concept="3TlMh9" id="6Rfiwa9LNdD" role="2N2GHh">
-            <property role="2hmy$m" value="3" />
-          </node>
-          <node concept="2qmXGp" id="6Rfiwa9LNd2" role="2N2GHg">
-            <node concept="3mBk1D" id="6Rfiwa9LNds" role="1ESnxz">
-              <ref role="3mBk1B" node="5eDFAXBNIRy" resolve="constField" />
-            </node>
-            <node concept="3ZVu4v" id="6Rfiwa9LNcT" role="1_9fRO">
-              <ref role="3ZVs_2" node="6Rfiwa9LN5E" resolve="anInstance" />
+          <node concept="3XIRFW" id="1Yr26iukrO8" role="3XIRFX">
+            <node concept="2BFjQ_" id="1Yr26iukrOE" role="3XIRFZ">
+              <node concept="3TlMh9" id="1Yr26iukrOS" role="2BFjQA">
+                <property role="2hmy$m" value="32" />
+              </node>
             </node>
           </node>
         </node>
-        <node concept="2N2KuS" id="6Rfiwa9LNoA" role="3XIRFZ">
-          <node concept="3TlMh9" id="6Rfiwa9LN_c" role="2N2GHh">
-            <property role="2hmy$m" value="5" />
+        <node concept="3u$6M4" id="1Yr26iukrWG" role="3mBdys" />
+        <node concept="3mB1cK" id="1Yr26iukrYm" role="3mBdys">
+          <property role="TrG5h" value="staticMethod" />
+          <property role="226hDV" value="true" />
+          <property role="hL25V" value="false" />
+          <property role="hTfT4" value="false" />
+          <node concept="26Vqph" id="1Yr26iukrZX" role="2C2TGm">
+            <property role="2caQfQ" value="false" />
+            <property role="2c7vTL" value="false" />
           </node>
-          <node concept="2qmXGp" id="6Rfiwa9LNpx" role="2N2GHg">
-            <node concept="3mBk1D" id="6Rfiwa9LN$Z" role="1ESnxz">
-              <ref role="3mBk1B" node="5eDFAXBNIZY" resolve="volatileField" />
+          <node concept="3XIRFW" id="1Yr26iuks0j" role="3XIRFX">
+            <node concept="3XIRlf" id="5eDFAXBNZnl" role="3XIRFZ">
+              <property role="TrG5h" value="test" />
+              <node concept="26Vqph" id="5eDFAXBNZnj" role="2C2TGm">
+                <property role="2caQfQ" value="false" />
+                <property role="2c7vTL" value="false" />
+              </node>
+              <node concept="3TlMh9" id="5eDFAXBNZoJ" role="3XIe9u">
+                <property role="2hmy$m" value="1" />
+              </node>
             </node>
-            <node concept="3ZVu4v" id="6Rfiwa9LNpo" role="1_9fRO">
-              <ref role="3ZVs_2" node="6Rfiwa9LN5E" resolve="anInstance" />
+            <node concept="2BFjQ_" id="1Yr26iuks0Q" role="3XIRFZ">
+              <node concept="3TlMh9" id="1Yr26iuks14" role="2BFjQA">
+                <property role="2hmy$m" value="0" />
+              </node>
             </node>
           </node>
         </node>
-        <node concept="2N2KuS" id="6Rfiwa9LO9P" role="3XIRFZ">
-          <node concept="3TlMh9" id="6Rfiwa9LOpg" role="2N2GHh">
-            <property role="2hmy$m" value="32" />
+        <node concept="3u$6M4" id="1Yr26iuks3z" role="3mBdys" />
+        <node concept="3mB1cK" id="1Yr26iuks6b" role="3mBdys">
+          <property role="TrG5h" value="staticInlinedMethod" />
+          <property role="226hDV" value="true" />
+          <property role="226Go$" value="true" />
+          <node concept="26Vqph" id="1Yr26iuks8$" role="2C2TGm">
+            <property role="2caQfQ" value="false" />
+            <property role="2c7vTL" value="false" />
           </node>
-          <node concept="2qmXGp" id="6Rfiwa9LOaW" role="2N2GHg">
-            <node concept="3mBbHP" id="6Rfiwa9LOp1" role="1ESnxz">
-              <ref role="3mBbHN" node="1Yr26iukrNB" resolve="inlinedMethod" />
-            </node>
-            <node concept="3ZVu4v" id="6Rfiwa9LOaN" role="1_9fRO">
-              <ref role="3ZVs_2" node="6Rfiwa9LN5E" resolve="anInstance" />
-            </node>
-          </node>
-        </node>
-        <node concept="2N2KuS" id="6Rfiwa9LP3Q" role="3XIRFZ">
-          <node concept="3TlMh9" id="6Rfiwa9LPld" role="2N2GHh">
-            <property role="2hmy$m" value="111" />
-          </node>
-          <node concept="2qmXGp" id="6Rfiwa9LP57" role="2N2GHg">
-            <node concept="3mBk1D" id="6Rfiwa9LPl0" role="1ESnxz">
-              <ref role="3mBk1B" node="5eDFAXBt0Dc" resolve="staticField" />
-            </node>
-            <node concept="3ZVu4v" id="6Rfiwa9LP4Y" role="1_9fRO">
-              <ref role="3ZVs_2" node="6Rfiwa9LN5E" resolve="anInstance" />
+          <node concept="3XIRFW" id="1Yr26iuks8Z" role="3XIRFX">
+            <node concept="2BFjQ_" id="1Yr26iuks9n" role="3XIRFZ">
+              <node concept="3TlMh9" id="1Yr26iuks9v" role="2BFjQA">
+                <property role="2hmy$m" value="0" />
+              </node>
             </node>
           </node>
         </node>
       </node>
-    </node>
-    <node concept="2NXPZ9" id="6Rfiwa9LMv7" role="N3F5h">
-      <property role="TrG5h" value="empty_1528717614348_2" />
-    </node>
-    <node concept="lIfQi" id="1Yr26iuksuV" role="N3F5h">
-      <property role="3HjyOP" value="true" />
-      <property role="TrG5h" value="FunctionSpecifiers" />
+      <node concept="2NXPZ9" id="1Yr26iuksrh" role="N3F5h">
+        <property role="TrG5h" value="empty_1527243997568_3" />
+      </node>
+      <node concept="c0Qz5" id="6Rfiwa9LMCu" role="N3F5h">
+        <property role="2OOxQR" value="true" />
+        <property role="TrG5h" value="test_specifiers" />
+        <node concept="19Rifw" id="6Rfiwa9LMCv" role="2C2TGm">
+          <property role="2caQfQ" value="false" />
+          <property role="2c7vTL" value="false" />
+        </node>
+        <node concept="3XIRFW" id="6Rfiwa9LMCx" role="c0Qz3">
+          <node concept="2dywKE" id="6Rfiwa9LN5E" role="3XIRFZ">
+            <property role="TrG5h" value="anInstance" />
+            <node concept="3mBfEi" id="6Rfiwa9LN5D" role="2C2TGm">
+              <property role="2caQfQ" value="false" />
+              <property role="2c7vTL" value="false" />
+              <ref role="3mBfEM" node="1Yr26iukrN$" resolve="SomeClass" />
+            </node>
+          </node>
+          <node concept="3XISUE" id="6Rfiwa9LN6k" role="3XIRFZ" />
+          <node concept="2N2KuS" id="6Rfiwa9LN71" role="3XIRFZ">
+            <node concept="3TlMh9" id="6Rfiwa9LNdD" role="2N2GHh">
+              <property role="2hmy$m" value="3" />
+            </node>
+            <node concept="2qmXGp" id="6Rfiwa9LNd2" role="2N2GHg">
+              <node concept="3mBk1D" id="6Rfiwa9LNds" role="1ESnxz">
+                <ref role="3mBk1B" node="5eDFAXBNIRy" resolve="constField" />
+              </node>
+              <node concept="3ZVu4v" id="6Rfiwa9LNcT" role="1_9fRO">
+                <ref role="3ZVs_2" node="6Rfiwa9LN5E" resolve="anInstance" />
+              </node>
+            </node>
+          </node>
+          <node concept="2N2KuS" id="6Rfiwa9LNoA" role="3XIRFZ">
+            <node concept="3TlMh9" id="6Rfiwa9LN_c" role="2N2GHh">
+              <property role="2hmy$m" value="5" />
+            </node>
+            <node concept="2qmXGp" id="6Rfiwa9LNpx" role="2N2GHg">
+              <node concept="3mBk1D" id="6Rfiwa9LN$Z" role="1ESnxz">
+                <ref role="3mBk1B" node="5eDFAXBNIZY" resolve="volatileField" />
+              </node>
+              <node concept="3ZVu4v" id="6Rfiwa9LNpo" role="1_9fRO">
+                <ref role="3ZVs_2" node="6Rfiwa9LN5E" resolve="anInstance" />
+              </node>
+            </node>
+          </node>
+          <node concept="2N2KuS" id="6Rfiwa9LO9P" role="3XIRFZ">
+            <node concept="3TlMh9" id="6Rfiwa9LOpg" role="2N2GHh">
+              <property role="2hmy$m" value="32" />
+            </node>
+            <node concept="2qmXGp" id="6Rfiwa9LOaW" role="2N2GHg">
+              <node concept="3mBbHP" id="6Rfiwa9LOp1" role="1ESnxz">
+                <ref role="3mBbHN" node="1Yr26iukrNB" resolve="inlinedMethod" />
+              </node>
+              <node concept="3ZVu4v" id="6Rfiwa9LOaN" role="1_9fRO">
+                <ref role="3ZVs_2" node="6Rfiwa9LN5E" resolve="anInstance" />
+              </node>
+            </node>
+          </node>
+          <node concept="2N2KuS" id="6Rfiwa9LP3Q" role="3XIRFZ">
+            <node concept="3TlMh9" id="6Rfiwa9LPld" role="2N2GHh">
+              <property role="2hmy$m" value="111" />
+            </node>
+            <node concept="2qmXGp" id="6Rfiwa9LP57" role="2N2GHg">
+              <node concept="3mBk1D" id="6Rfiwa9LPl0" role="1ESnxz">
+                <ref role="3mBk1B" node="5eDFAXBt0Dc" resolve="staticField" />
+              </node>
+              <node concept="3ZVu4v" id="6Rfiwa9LP4Y" role="1_9fRO">
+                <ref role="3ZVs_2" node="6Rfiwa9LN5E" resolve="anInstance" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2NXPZ9" id="6Rfiwa9LMv7" role="N3F5h">
+        <property role="TrG5h" value="empty_1528717614348_2" />
+      </node>
+      <node concept="lIfQi" id="1Yr26iuksuV" role="N3F5h">
+        <property role="3HjyOP" value="true" />
+        <property role="TrG5h" value="FunctionSpecifiers" />
+      </node>
     </node>
   </node>
 </model>

@@ -923,7 +923,7 @@
             <node concept="2OqwBi" id="ZKpU3BIVHP" role="2Oq$k0">
               <node concept="13iAh5" id="ZKpU3BIVHQ" role="2Oq$k0" />
               <node concept="2qgKlT" id="ZKpU3BIVHR" role="2OqNvi">
-                <ref role="37wK5l" to="qd6m:1H6zsul5X7v" resolve="allFunctionsWithoutInlineHeaderFunctions" />
+                <ref role="37wK5l" to="qd6m:1H6zsul5X7v" resolve="allFunctionsWithoutInlineFunctionsForHeader" />
               </node>
             </node>
             <node concept="3zZkjj" id="ZKpU3BIWLg" role="2OqNvi">
