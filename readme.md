@@ -10,7 +10,7 @@ While it is not yet fully engineered, mbeddr.cpp is already a good generation ta
 
 In a similar fashion as baseLanguage that is shipped with MPS and also mbeddr, a big advantage of having C++ as an MPS language, is that it is arbirarily extensible on various C++ language elements (statements, expressions, variables, etc.) with Domain Specific Languages that are implemented in MPS. This gives an unprecedented level of integration on language-to-language level.
 
-We're happy for other uses and contributions!
+We're happy with feedback and contributions! Please check out our [issues](https://github.com/DSLFoundry/mbeddr.cpp/issues). If you are considering solving an issue, our issues are labeled, also indicating beginner-friendly issues.
 
 Have a look at the [documentation directory](https://github.com/DSLFoundry/mbeddr.cpp/tree/master/documentation/cpp) for the original project documentation.
 
