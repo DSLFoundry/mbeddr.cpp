@@ -1,3 +1,5 @@
+![build status](https://github.com/dslfoundry/mbeddr.cpp/actions/workflows/gradle.yml/badge.svg)
+
 # mbeddr.cpp
 
 C++ extension to [mbeddr](http://mbeddr.com).
