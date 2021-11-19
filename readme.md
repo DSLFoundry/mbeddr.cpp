@@ -2,10 +2,13 @@
 
 # mbeddr.cpp
 
-C++ extension to [mbeddr](http://mbeddr.com).
+Implementation of a subset of the C++14 programming language in a [JetBrains MetaProgrammingSystem](https://www.jetbrains.com/mps/) (MPS) language.
+mbeddr.cpp has been implemented as an extension to [mbeddr C](http://mbeddr.com), reusing existing concepts from the MISRA C language and extending it with concepts like classes, namespaces, templates, etc..
 
-Implementation of a subset of C++ 14.
-It supports classes, methods, exceptions, namespaces, and partially operator overloading and templates.
+Although mbeddr.cpp does not implement the full C++14 standard, it supports the most commonly used constructions such as classes, methods, exceptions, namespaces, as well as partially operator overloading and templates.
+While it is not yet fully engineered, mbeddr.cpp is already a good generation target with a reasonably workable editing experience in MPS.
+
+In a similar fashion as baseLanguage that is shipped with MPS and also mbeddr, a big advantage of having C++ as an MPS language, is that it is arbirarily extensible on various C++ language elements (statements, expressions, variables, etc.) with Domain Specific Languages that are implemented in MPS. This gives an unprecedented level of integration on language-to-language level.
 
 We're happy for other uses and contributions!
 
