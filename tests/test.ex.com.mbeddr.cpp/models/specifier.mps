@@ -78,18 +78,9 @@
       <concept id="6028541369715364763" name="com.mbeddr.cpp.base.structure.IVolatileFlagConcept" flags="ng" index="O23RO">
         <property id="6028541369715364764" name="isVolatile" index="O23RN" />
       </concept>
-<<<<<<< HEAD
-<<<<<<< HEAD
       <concept id="6028541369719415919" name="com.mbeddr.cpp.base.structure.IConstExprFlagConcept" flags="ng" index="OtGC0">
         <property id="6028541369719415920" name="isConstExpr" index="OtGCv" />
       </concept>
-=======
->>>>>>> 27c73b6b9d... New and Delete keywords are working, also has executable test and typesystem test
-=======
-      <concept id="6028541369719415919" name="com.mbeddr.cpp.base.structure.IConstExprFlagConcept" flags="ng" index="OtGC0">
-        <property id="6028541369719415920" name="isConstExpr" index="OtGCv" />
-      </concept>
->>>>>>> 8a9c6733aa... Revert "Remove redundant executable testcases"
       <concept id="5044697665789382396" name="com.mbeddr.cpp.base.structure.MethodDeclaration" flags="ng" index="3mB1cK">
         <child id="4185783222026475860" name="body" index="3XIRFX" />
       </concept>
@@ -214,67 +205,29 @@
     <node concept="3mBW2U" id="1Yr26iukrN$" role="N3F5h">
       <property role="2OOxQR" value="false" />
       <property role="TrG5h" value="SomeClass" />
-<<<<<<< HEAD
-<<<<<<< HEAD
-      <node concept="3mBbG7" id="5eDFAXBt0Dc" role="3mBdys">
-        <property role="TrG5h" value="staticField" />
-        <property role="226hDV" value="true" />
-=======
       <node concept="3u$6M4" id="72UYQRXZOKS" role="3mBdys" />
       <node concept="3mBbG7" id="72UYQRXZOVH" role="3mBdys">
->>>>>>> 27c73b6b9d... New and Delete keywords are working, also has executable test and typesystem test
         <property role="1wg9_F" value="public" />
-<<<<<<< HEAD
-        <property role="226hDV" value="true" />
-        <property role="TrG5h" value="staticField" />
-        <node concept="26Vqph" id="72UYQRXZOZ_" role="2C2TGm">
-=======
-=======
       <node concept="3mBbG7" id="5eDFAXBt0Dc" role="3mBdys">
         <property role="TrG5h" value="staticField" />
         <property role="226hDV" value="true" />
         <property role="1wg9_F" value="public" />
->>>>>>> 8a9c6733aa... Revert "Remove redundant executable testcases"
         <property role="OtGCv" value="true" />
         <node concept="3TlMh9" id="6Rfiwa9LP0Z" role="3XIe9v">
           <property role="2hmy$m" value="111" />
         </node>
         <node concept="26Vqph" id="5eDFAXBt0Ga" role="2C2TGm">
-<<<<<<< HEAD
->>>>>>> e6791fc3a8... Cleaned up the executable tests and made sure there weren't snytax errors. Many still have build problems due to UnitTestHelper.h
           <property role="2caQfQ" value="false" />
           <property role="2c7vTL" value="false" />
         </node>
-<<<<<<< HEAD
-        <node concept="3uHhno" id="7j9KGYMPDrF" role="3XIe9v">
-          <ref role="3uHhlH" node="1Yr26iukrNB" resolve="inlinedMethod" />
-=======
         <node concept="3TlMh9" id="72UYQRXZP0d" role="3XIe9v">
           <property role="2hmy$m" value="0" />
->>>>>>> 27c73b6b9d... New and Delete keywords are working, also has executable test and typesystem test
         </node>
       </node>
       <node concept="3u$6M4" id="5eDFAXBt0Ao" role="3mBdys" />
       <node concept="3mBbG7" id="72UYQRXZO_2" role="3mBdys">
         <property role="TrG5h" value="constField" />
         <property role="1wg9_F" value="public" />
-<<<<<<< HEAD
-        <property role="OtGCv" value="true" />
-        <node concept="26Vqph" id="5eDFAXBNIUC" role="2C2TGm">
-=======
-        <node concept="26Vqph" id="72UYQRXZOCN" role="2C2TGm">
->>>>>>> 27c73b6b9d... New and Delete keywords are working, also has executable test and typesystem test
-          <property role="2caQfQ" value="false" />
-          <property role="2c7vTL" value="true" />
-        </node>
-<<<<<<< HEAD
-        <node concept="3TlMh9" id="72UYQRXZODk" role="3XIe9v">
-          <property role="2hmy$m" value="0" />
-=======
-        <node concept="3TlMh9" id="5eDFAXBNIV$" role="3XIe9v">
-          <property role="2hmy$m" value="3" />
->>>>>>> e6791fc3a8... Cleaned up the executable tests and made sure there weren't snytax errors. Many still have build problems due to UnitTestHelper.h
-=======
           <property role="2caQfQ" value="false" />
           <property role="2c7vTL" value="false" />
         </node>
@@ -290,7 +243,6 @@
         </node>
         <node concept="3TlMh9" id="5eDFAXBNIV$" role="3XIe9v">
           <property role="2hmy$m" value="3" />
->>>>>>> 8a9c6733aa... Revert "Remove redundant executable testcases"
         </node>
       </node>
       <node concept="3u$6M4" id="5eDFAXBNIW5" role="3mBdys" />
@@ -306,32 +258,18 @@
           <property role="2hmy$m" value="5" />
         </node>
       </node>
-<<<<<<< HEAD
-      <node concept="3u$6M4" id="72UYQRXZOcq" role="3mBdys" />
-      <node concept="3mBbG7" id="72UYQRXZOjA" role="3mBdys">
-        <property role="TrG5h" value="constVolatileField" />
-<<<<<<< HEAD
-=======
       <node concept="3u$6M4" id="5eDFAXBNJ4o" role="3mBdys" />
       <node concept="3mBbG7" id="5eDFAXBNJ8A" role="3mBdys">
         <property role="TrG5h" value="constVolatileField" />
->>>>>>> 8a9c6733aa... Revert "Remove redundant executable testcases"
         <property role="O23RN" value="true" />
         <node concept="26Vqph" id="5eDFAXBNJc1" role="2C2TGm">
           <property role="2caQfQ" value="false" />
           <property role="2c7vTL" value="true" />
-<<<<<<< HEAD
-=======
         <node concept="26Vqph" id="72UYQRXZOnn" role="2C2TGm">
           <property role="2caQfQ" value="true" />
           <property role="2c7vTL" value="false" />
->>>>>>> 27c73b6b9d... New and Delete keywords are working, also has executable test and typesystem test
-        </node>
-        <node concept="3TlMh9" id="72UYQRXZOoq" role="3XIe9v">
-=======
         </node>
         <node concept="3TlMh9" id="5eDFAXBNJcA" role="3XIe9v">
->>>>>>> 8a9c6733aa... Revert "Remove redundant executable testcases"
           <property role="2hmy$m" value="0" />
         </node>
       </node>
@@ -480,6 +418,7 @@
       <property role="3HjyOP" value="true" />
       <property role="TrG5h" value="FunctionSpecifiers" />
     </node>
+  </node>
   </node>
 </model>
 
