@@ -1,4 +1,4 @@
-NOTE: this branch is the old main branch. The new branch is called main and this is where all development happens. This branch is only kept around for reference of old history and because of connection of a maintenance branch to it.
+```NOTE: this branch is the old main branch. The new branch is called main and this is where all development happens. This branch is only kept around for reference of old history and because of connection of a maintenance branch to it.```
 
 # mbeddr.cpp
 
