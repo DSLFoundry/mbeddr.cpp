@@ -320,6 +320,7 @@
       <concept id="1145383075378" name="jetbrains.mps.lang.smodel.structure.SNodeListType" flags="in" index="2I9FWS">
         <reference id="1145383142433" name="elementConcept" index="2I9WkF" />
       </concept>
+      <concept id="8329979535468945057" name="jetbrains.mps.lang.smodel.structure.Node_PresentationOperation" flags="ng" index="2Iv5rx" />
       <concept id="1883223317721008708" name="jetbrains.mps.lang.smodel.structure.IfInstanceOfStatement" flags="nn" index="Jncv_">
         <reference id="1883223317721008712" name="nodeConcept" index="JncvD" />
         <child id="1883223317721008709" name="body" index="Jncv$" />
@@ -772,8 +773,11 @@
                   <ref role="3cqZAo" node="4K6s$_sI$6_" resolve="instanceModule" />
                 </node>
                 <node concept="3cpWs3" id="4K6s$_sJ025" role="3uHU7B">
-                  <node concept="37vLTw" id="4K6s$_sIUX7" role="3uHU7B">
-                    <ref role="3cqZAo" node="4K6s$_sI1yj" resolve="parentClassModule" />
+                  <node concept="2OqwBi" id="6PsRtIQdxVb" role="3uHU7B">
+                    <node concept="37vLTw" id="4K6s$_sIUX7" role="2Oq$k0">
+                      <ref role="3cqZAo" node="4K6s$_sI1yj" resolve="parentClassModule" />
+                    </node>
+                    <node concept="2Iv5rx" id="6PsRtIQdxVc" role="2OqNvi" />
                   </node>
                   <node concept="Xl_RD" id="4K6s$_sJ0ze" role="3uHU7w">
                     <property role="Xl_RC" value=" " />
@@ -795,8 +799,11 @@
               <node concept="Xl_RD" id="4K6s$_sIa7P" role="3uHU7B">
                 <property role="Xl_RC" value="you can't extend a class from another module unless you import the module; try importing " />
               </node>
-              <node concept="37vLTw" id="4K6s$_sJj7F" role="3uHU7w">
-                <ref role="3cqZAo" node="4K6s$_sI1yj" resolve="parentClassModule" />
+              <node concept="2OqwBi" id="6PsRtIQdxVm" role="3uHU7w">
+                <node concept="37vLTw" id="4K6s$_sJj7F" role="2Oq$k0">
+                  <ref role="3cqZAo" node="4K6s$_sI1yj" resolve="parentClassModule" />
+                </node>
+                <node concept="2Iv5rx" id="6PsRtIQdxVn" role="2OqNvi" />
               </node>
             </node>
             <node concept="1YBJjd" id="4K6s$_sIa8m" role="1urrMF">
@@ -1611,13 +1618,16 @@
         <node concept="3clFbS" id="6hUtorEt3G8" role="3clFbx">
           <node concept="2MkqsV" id="6hUtorEt47E" role="3cqZAp">
             <node concept="3cpWs3" id="6hUtorEtrhL" role="2MkJ7o">
-              <node concept="2OqwBi" id="6hUtorEtrxp" role="3uHU7w">
-                <node concept="1YBJjd" id="6hUtorEtrli" role="2Oq$k0">
-                  <ref role="1YBMHb" node="6hUtorEt3G2" resolve="iClassTyped" />
+              <node concept="2OqwBi" id="6PsRtIQdxZt" role="3uHU7w">
+                <node concept="2OqwBi" id="6hUtorEtrxp" role="2Oq$k0">
+                  <node concept="1YBJjd" id="6hUtorEtrli" role="2Oq$k0">
+                    <ref role="1YBMHb" node="6hUtorEt3G2" resolve="iClassTyped" />
+                  </node>
+                  <node concept="3TrEf2" id="6hUtorEtrOE" role="2OqNvi">
+                    <ref role="3Tt5mk" to="mj1l:hEaDaGor64" resolve="type" />
+                  </node>
                 </node>
-                <node concept="3TrEf2" id="6hUtorEtrOE" role="2OqNvi">
-                  <ref role="3Tt5mk" to="mj1l:hEaDaGor64" resolve="type" />
-                </node>
+                <node concept="2Iv5rx" id="6PsRtIQdxZu" role="2OqNvi" />
               </node>
               <node concept="Xl_RD" id="6hUtorEt47T" role="3uHU7B">
                 <property role="Xl_RC" value="must be an instance of ClassType but is " />
@@ -5364,13 +5374,16 @@
                       <node concept="Xl_RD" id="72UYQRWzYDL" role="3uHU7B">
                         <property role="Xl_RC" value="type of " />
                       </node>
-                      <node concept="2OqwBi" id="72UYQRWzEMw" role="3uHU7w">
-                        <node concept="3TrEf2" id="72UYQRWzFmV" role="2OqNvi">
-                          <ref role="3Tt5mk" to="wnzg:72UYQRW0DPK" resolve="varRef" />
+                      <node concept="2OqwBi" id="6PsRtIQdy35" role="3uHU7w">
+                        <node concept="2OqwBi" id="72UYQRWzEMw" role="2Oq$k0">
+                          <node concept="3TrEf2" id="72UYQRWzFmV" role="2OqNvi">
+                            <ref role="3Tt5mk" to="wnzg:72UYQRW0DPK" resolve="varRef" />
+                          </node>
+                          <node concept="1YBJjd" id="72UYQRW$167" role="2Oq$k0">
+                            <ref role="1YBMHb" node="72UYQRWvwJo" resolve="dd" />
+                          </node>
                         </node>
-                        <node concept="1YBJjd" id="72UYQRW$167" role="2Oq$k0">
-                          <ref role="1YBMHb" node="72UYQRWvwJo" resolve="dd" />
-                        </node>
+                        <node concept="2Iv5rx" id="6PsRtIQdy36" role="2OqNvi" />
                       </node>
                     </node>
                     <node concept="Xl_RD" id="72UYQRW$3JQ" role="3uHU7w">

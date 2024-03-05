@@ -185,6 +185,7 @@
         <child id="6733348108486823193" name="leftExpression" index="1m5AlR" />
         <child id="3906496115198199033" name="conceptArgument" index="3oSUPX" />
       </concept>
+      <concept id="8329979535468945057" name="jetbrains.mps.lang.smodel.structure.Node_PresentationOperation" flags="ng" index="2Iv5rx" />
       <concept id="1883223317721008708" name="jetbrains.mps.lang.smodel.structure.IfInstanceOfStatement" flags="nn" index="Jncv_">
         <reference id="1883223317721008712" name="nodeConcept" index="JncvD" />
         <child id="1883223317721008709" name="body" index="Jncv$" />
@@ -1380,13 +1381,16 @@
                           <node concept="Xl_RD" id="3p40HKhESRM" role="3uHU7B">
                             <property role="Xl_RC" value="elements must be of type " />
                           </node>
-                          <node concept="2OqwBi" id="3p40HKhESRN" role="3uHU7w">
-                            <node concept="37vLTw" id="3p40HKhESRO" role="2Oq$k0">
-                              <ref role="3cqZAo" node="3p40HKhBz7$" resolve="arraySpec" />
+                          <node concept="2OqwBi" id="6PsRtIQdy3Z" role="3uHU7w">
+                            <node concept="2OqwBi" id="3p40HKhESRN" role="2Oq$k0">
+                              <node concept="37vLTw" id="3p40HKhESRO" role="2Oq$k0">
+                                <ref role="3cqZAo" node="3p40HKhBz7$" resolve="arraySpec" />
+                              </node>
+                              <node concept="3TrEf2" id="3p40HKhESRP" role="2OqNvi">
+                                <ref role="3Tt5mk" to="c4fa:6IWRcVPT6tm" resolve="baseType" />
+                              </node>
                             </node>
-                            <node concept="3TrEf2" id="3p40HKhESRP" role="2OqNvi">
-                              <ref role="3Tt5mk" to="c4fa:6IWRcVPT6tm" resolve="baseType" />
-                            </node>
+                            <node concept="2Iv5rx" id="6PsRtIQdy40" role="2OqNvi" />
                           </node>
                         </node>
                         <node concept="Xl_RD" id="3p40HKhESRQ" role="3uHU7w">
@@ -1482,13 +1486,16 @@
                         <node concept="Xl_RD" id="3p40HKhBJNv" role="3uHU7B">
                           <property role="Xl_RC" value="elements must be of type " />
                         </node>
-                        <node concept="2OqwBi" id="3p40HKhBKVX" role="3uHU7w">
-                          <node concept="37vLTw" id="3p40HKhBKCG" role="2Oq$k0">
-                            <ref role="3cqZAo" node="3p40HKhBz7$" resolve="arraySpec" />
+                        <node concept="2OqwBi" id="6PsRtIQdy4t" role="3uHU7w">
+                          <node concept="2OqwBi" id="3p40HKhBKVX" role="2Oq$k0">
+                            <node concept="37vLTw" id="3p40HKhBKCG" role="2Oq$k0">
+                              <ref role="3cqZAo" node="3p40HKhBz7$" resolve="arraySpec" />
+                            </node>
+                            <node concept="3TrEf2" id="3p40HKhBMiV" role="2OqNvi">
+                              <ref role="3Tt5mk" to="c4fa:6IWRcVPT6tm" resolve="baseType" />
+                            </node>
                           </node>
-                          <node concept="3TrEf2" id="3p40HKhBMiV" role="2OqNvi">
-                            <ref role="3Tt5mk" to="c4fa:6IWRcVPT6tm" resolve="baseType" />
-                          </node>
+                          <node concept="2Iv5rx" id="6PsRtIQdy4u" role="2OqNvi" />
                         </node>
                       </node>
                       <node concept="Xl_RD" id="3p40HKhDkzL" role="3uHU7w">
