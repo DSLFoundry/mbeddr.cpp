@@ -2,7 +2,7 @@
 <model ref="r:46cfbc0d-ad3f-4b86-89aa-023d6d7a12bd(test.ts.com.mbeddr.cpp.polymorphism@tests)">
   <persistence version="9" />
   <languages>
-    <use id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test" version="5" />
+    <use id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test" version="6" />
     <use id="2d7fadf5-33f6-4e80-a78f-0f739add2bde" name="com.mbeddr.core.buildconfig" version="10" />
     <use id="2693fc71-9b0e-4b05-ab13-f57227d675f2" name="com.mbeddr.core.util" version="0" />
     <use id="783af01f-87a7-412c-be99-293a162652b5" name="com.mbeddr.core.embedded" version="1" />
@@ -29,6 +29,7 @@
         <property id="5097124989038916363" name="projectPath" index="2XOHcw" />
       </concept>
       <concept id="1216913645126" name="jetbrains.mps.lang.test.structure.NodesTestCase" flags="lg" index="1lH9Xt">
+        <property id="2616911529524314943" name="accessMode" index="3DII0k" />
         <property id="6339244025081158986" name="needsNoWriteAction" index="3OwPAg" />
         <child id="1217501822150" name="nodesToCheck" index="1SKRRt" />
       </concept>
@@ -196,6 +197,7 @@
   <node concept="1lH9Xt" id="7SgJHc8UfkB">
     <property role="TrG5h" value="Polymorphism" />
     <property role="3OwPAg" value="false" />
+    <property role="3DII0k" value="2hh8MJdVwqX/command" />
     <node concept="1qefOq" id="7SgJHc8UfkC" role="1SKRRt">
       <node concept="1whW_1" id="7SgJHc8UfkD" role="1qenE9">
         <property role="TrG5h" value="AttrClassMemberSpecifier" />
