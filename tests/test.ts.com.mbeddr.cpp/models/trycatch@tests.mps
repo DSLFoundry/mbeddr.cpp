@@ -2,7 +2,7 @@
 <model ref="r:60e7250e-6ee4-4c7a-bb1a-ec90844a8de3(test.ts.com.mbeddr.cpp.trycatch@tests)">
   <persistence version="9" />
   <languages>
-    <use id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test" version="5" />
+    <use id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test" version="6" />
     <use id="2d7fadf5-33f6-4e80-a78f-0f739add2bde" name="com.mbeddr.core.buildconfig" version="10" />
     <use id="dd4979e3-3be6-46b3-9e1e-c36309e30758" name="com.mbeddr.cpp.modules" version="0" />
     <use id="2e15e1a4-8998-4f06-86b2-8d184a179e8e" name="com.mbeddr.cpp.exceptions" version="0" />
@@ -33,6 +33,7 @@
         <property id="5097124989038916363" name="projectPath" index="2XOHcw" />
       </concept>
       <concept id="1216913645126" name="jetbrains.mps.lang.test.structure.NodesTestCase" flags="lg" index="1lH9Xt">
+        <property id="2616911529524314943" name="accessMode" index="3DII0k" />
         <property id="6339244025081158986" name="needsNoWriteAction" index="3OwPAg" />
         <child id="1217501822150" name="nodesToCheck" index="1SKRRt" />
       </concept>
@@ -160,6 +161,7 @@
   <node concept="1lH9Xt" id="1gzloVU_9IT">
     <property role="TrG5h" value="TryCatchStatement" />
     <property role="3OwPAg" value="false" />
+    <property role="3DII0k" value="2hh8MJdVwqX/command" />
     <node concept="1qefOq" id="1gzloVU_9IU" role="1SKRRt">
       <node concept="1whW_1" id="1gzloVU_9IV" role="1qenE9">
         <property role="TrG5h" value="TryCatchStatement" />
