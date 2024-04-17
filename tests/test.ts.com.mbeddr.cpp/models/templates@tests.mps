@@ -2,7 +2,7 @@
 <model ref="r:7763084c-3b09-4e65-8092-7d50039caf61(test.ts.com.mbeddr.cpp.templates@tests)">
   <persistence version="9" />
   <languages>
-    <use id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test" version="5" />
+    <use id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test" version="6" />
     <devkit ref="bdd1ab49-ce55-4bff-86d1-5394fa0aa930(com.mbeddr.cpp)" />
     <devkit ref="d2a9c55c-6bdc-4cc2-97e1-4ba7552f5584(com.mbeddr.core)" />
   </languages>
@@ -30,6 +30,7 @@
         <property id="5097124989038916363" name="projectPath" index="2XOHcw" />
       </concept>
       <concept id="1216913645126" name="jetbrains.mps.lang.test.structure.NodesTestCase" flags="lg" index="1lH9Xt">
+        <property id="2616911529524314943" name="accessMode" index="3DII0k" />
         <child id="1217501822150" name="nodesToCheck" index="1SKRRt" />
       </concept>
       <concept id="1216989428737" name="jetbrains.mps.lang.test.structure.TestNode" flags="ng" index="1qefOq">
@@ -234,6 +235,7 @@
   </node>
   <node concept="1lH9Xt" id="6XKbQvbA533">
     <property role="TrG5h" value="FunctionTemplates" />
+    <property role="3DII0k" value="2hh8MJdVwqX/command" />
     <node concept="1qefOq" id="1gzloVU_9IU" role="1SKRRt">
       <node concept="1whW_1" id="1gzloVU_9IV" role="1qenE9">
         <property role="TrG5h" value="FunctionTemplates" />
@@ -648,6 +650,7 @@
   </node>
   <node concept="1lH9Xt" id="6XKbQvbAfKq">
     <property role="TrG5h" value="ClassTemplates" />
+    <property role="3DII0k" value="2hh8MJdVwqX/command" />
     <node concept="1qefOq" id="6XKbQvbAfKr" role="1SKRRt">
       <node concept="1whW_1" id="6XKbQvbAfKs" role="1qenE9">
         <property role="TrG5h" value="ClassTemplates" />
