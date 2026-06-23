@@ -306,7 +306,7 @@
             </node>
           </node>
           <node concept="2dSIm2" id="9o59ysDBq1" role="3mBdys">
-            <property role="TrG5h" value="operator" />
+            <property role="TrG5h" value="operatorOverload" />
             <property role="2dBlGS" value="45rBLTH8Vrd/plus" />
             <node concept="3XIRFW" id="9o59ysDBq2" role="2dBqIF">
               <node concept="2BFjQ_" id="9o59ysDC6C" role="3XIRFZ">
@@ -362,7 +362,7 @@
             </node>
           </node>
           <node concept="2dSIm2" id="9o59ysDCmt" role="3mBdys">
-            <property role="TrG5h" value="operator" />
+            <property role="TrG5h" value="operatorOverload" />
             <property role="2dBlGS" value="45rBLTH8Vrd/plus" />
             <node concept="3XIRFW" id="9o59ysDCmu" role="2dBqIF">
               <node concept="2BFjQ_" id="9o59ysDDLK" role="3XIRFZ">
@@ -417,7 +417,7 @@
             </node>
           </node>
           <node concept="2dSIm2" id="9o59ysDE66" role="3mBdys">
-            <property role="TrG5h" value="operator" />
+            <property role="TrG5h" value="operatorOverload" />
             <property role="2dBlGS" value="45rBLTH8Vsp/multiply" />
             <node concept="3XIRFW" id="9o59ysDE67" role="2dBqIF">
               <node concept="2BFjQ_" id="9o59ysDEvL" role="3XIRFZ">
@@ -475,7 +475,7 @@
             </node>
           </node>
           <node concept="2dSIm2" id="9o59ysDF3r" role="3mBdys">
-            <property role="TrG5h" value="operator" />
+            <property role="TrG5h" value="operatorOverload" />
             <property role="2dBlGS" value="45rBLTHEKZ4/plusEq" />
             <node concept="3XIRFW" id="9o59ysDF3s" role="2dBqIF">
               <node concept="2BFjQ_" id="9o59ysDFR2" role="3XIRFZ">
@@ -496,7 +496,7 @@
           </node>
           <node concept="3u$6M4" id="7SgJHc9s$SF" role="3mBdys" />
           <node concept="2dSIm2" id="7SgJHc9s$Fl" role="3mBdys">
-            <property role="TrG5h" value="operator" />
+            <property role="TrG5h" value="operatorOverload" />
             <property role="1wg9_F" value="2Ai0Gt9ODIs/public" />
             <property role="2dBlGS" value="45rBLTHELAO/[]" />
             <node concept="19RgSI" id="7SgJHc9s$Fo" role="1UOdpc">
@@ -548,7 +548,7 @@
             </node>
           </node>
           <node concept="2dSIm2" id="9o59ysDGbl" role="3mBdys">
-            <property role="TrG5h" value="operator" />
+            <property role="TrG5h" value="operatorOverload" />
             <property role="2dBlGS" value="45rBLTHEKY_/greaterEqThan" />
             <node concept="3XIRFW" id="9o59ysDGbm" role="2dBqIF">
               <node concept="2BFjQ_" id="9o59ysDGTV" role="3XIRFZ">
