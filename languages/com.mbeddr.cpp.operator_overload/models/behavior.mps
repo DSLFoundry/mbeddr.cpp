@@ -188,7 +188,7 @@
         <node concept="3clFbF" id="3LE5RBPZGow" role="3cqZAp">
           <node concept="37vLTI" id="3LE5RBPZHyJ" role="3clFbG">
             <node concept="Xl_RD" id="3LE5RBPZHBg" role="37vLTx">
-              <property role="Xl_RC" value="operator" />
+              <property role="Xl_RC" value="operatorOverload" />
             </node>
             <node concept="2OqwBi" id="3LE5RBPZGDm" role="37vLTJ">
               <node concept="13iPFW" id="3LE5RBPZGou" role="2Oq$k0" />
