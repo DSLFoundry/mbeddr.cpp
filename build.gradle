@@ -15,7 +15,7 @@ buildscript {
         maven { url = 'https://artifacts.itemis.cloud/repository/maven-mps/' }
     }
     dependencies {
-        classpath 'de.itemis.mps:mps-gradle-plugin:1.30.2.1.649c88d'
+        classpath 'de.itemis.mps:mps-gradle-plugin:1.31.0.1.1243113'
     }
 }
 
@@ -23,11 +23,11 @@ plugins {
     id 'base'
     id 'maven-publish'
     id "com.github.breadmoirai.github-release" version "2.5.2"
-    id 'download-jbr' version '1.29.3.1.19b70ba'
+    id 'download-jbr' version '1.31.0.1.1243113'
 }
 
 downloadJbr {
-    jbrVersion = '17.0.11-b1207.30'
+    jbrVersion = '21.0.6-b895.109'
 }
 
 def incrementalBuild = !project.hasProperty("disableIncrementalBuild")
@@ -43,8 +43,8 @@ configurations {
 }
 
 dependencies {
-    mps "com.jetbrains:mps:2022.3.3"
-    languageLibs "com.mbeddr:mbeddr:2022.3.26500.b633ef3"
+    mps "com.jetbrains:mps:2025.1.2"
+    languageLibs "com.mbeddr:mbeddr:2025.1.26590.38c6766"
     junitAnt 'org.apache.ant:ant-junit:1.10.17'
     // The "com.jetbrains:mps" artifact's bundled lib/jna/<arch>/ directories are
     // missing lib/jna.jar itself (the actual JNA classes + all-platform native
