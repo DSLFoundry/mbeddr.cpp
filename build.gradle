@@ -38,30 +38,12 @@ configurations {
     mps
     languageLibs
     junitAnt
-    junitAntTaskdefs
-    jna
 }
 
 dependencies {
     mps "com.jetbrains:mps:2025.1.2"
     languageLibs "com.mbeddr:mbeddr:2025.1.26590.38c6766"
     junitAnt 'org.apache.ant:ant-junit:1.10.17'
-    // The "com.jetbrains:mps" artifact's bundled lib/jna/<arch>/ directories are
-    // missing lib/jna.jar itself (the actual JNA classes + all-platform native
-    // libraries as classpath resources, e.g. com/sun/jna/darwin-aarch64/...) --
-    // a real gap in that artifact vs. a full MPS installation. Without it, any
-    // code touching native UI (e.g. macOS's native scrollbar styling) fails with
-    // NoClassDefFoundError/UnsatisfiedLinkError when run outside a real MPS app.
-    jna 'net.java.dev.jna:jna:5.13.0'
-    // Separate from junitAnt (which also feeds the global default ant-script classpath below) so
-    // registering the <junit>/<junitreport> ant tasks doesn't pollute every ant-script invocation.
-    junitAntTaskdefs 'junit:junit:4.12'
-    junitAntTaskdefs('org.apache.ant:ant-junit:1.10.17') {
-        transitive = false
-    }
-    junitAntTaskdefs('org.apache.ant:ant-junit4:1.10.17') {
-        transitive = false
-    }
 }
 
 task resolveMps(type: Copy) {
@@ -144,12 +126,9 @@ task packageLanguages(type: Zip, dependsOn: buildLanguages) {
     include 'com.mbeddr.cpp/**'
 }
 
-ant.taskdef(name: 'junit', classname: 'org.apache.tools.ant.taskdefs.optional.junit.JUnitTask',
-        classpath: configurations.junitAntTaskdefs.asPath)
 ant.taskdef(name: 'junitreport', classname: 'org.apache.tools.ant.taskdefs.optional.junit.XMLResultAggregator',
-        classpath: configurations.junitAntTaskdefs.asPath)
+        classpath: configurations.junitAnt.asPath)
 
-// test.ts.com.mbeddr.cpp: JUnit-style typesystem/language tests, run via the MPS ant "check" target
 task generateTsTests(type: RunAntScript, dependsOn: buildAllScripts) {
     script = "${layout.buildDirectory.get().asFile}/cppTsTestsBuild.xml"
     targets = ['generate']
@@ -160,51 +139,6 @@ task testTsTests(type: TestLanguages, dependsOn: [generateTsTests, buildLanguage
     targets = ['check']
     doFirst {
         delete fileTree(dir: layout.buildDirectory.get().asFile, includes: ['**/TEST-*.xml'])
-        // The <junit> task MPS's build language generates never sets
-        // -Djava.awt.headless=true (harmless to add, so add it), and more
-        // importantly its classpath (a single "mps.class.path.jar" whose
-        // manifest lists the "com.jetbrains:mps" artifact's own jars) is missing
-        // lib/jna.jar -- that artifact ships lib/jna/<arch>/ directories but not
-        // the actual JNA classes+all-platform-natives jar a full MPS install has.
-        // Without it, any code touching native UI (e.g. macOS's native scrollbar
-        // styling) fails with NoClassDefFoundError/UnsatisfiedLinkError outside
-        // a real MPS app. Patch in a real, public JNA jar (see the "jna"
-        // configuration) that bundles proper natives for every platform.
-        def marker = 'jna-classpath-patch'
-        def scriptFile = file(script)
-        def content = scriptFile.text
-        if (!content.contains(marker)) {
-            def jnaJar = configurations.jna.singleFile.absolutePath
-            // Scope the classpath replacement to the <junit>...</junit> body
-            // specifically, rather than a plain whole-file replaceFirst -- otherwise
-            // an unrelated <classpath location="..." /> appearing earlier in the file
-            // (e.g. in a taskdef or another target) would be silently patched instead,
-            // and "patched != content" alone couldn't tell the difference.
-            def junitOpen = (content =~ /<junit\b[^>]*>/)
-            if (!junitOpen.find()) {
-                throw new GradleException("Could not find a <junit> tag to patch in ${scriptFile}")
-            }
-            def bodyStart = junitOpen.end()
-            def bodyEnd = content.indexOf('</junit>', bodyStart)
-            if (bodyEnd < 0) {
-                throw new GradleException("Could not find a matching </junit> tag to patch in ${scriptFile}")
-            }
-            def jvmargs = '\n      <!-- ' + marker + ' -->' +
-                    '\n      <jvmarg value="-Djava.awt.headless=true" />' +
-                    // The build just packaged the test/preferences modules into jars
-                    // moments earlier; IntelliJ's native file watcher then races to
-                    // watch files inside those still-settling archives and hits
-                    // ClosedChannelException. Disabling it is the standard fix for
-                    // headless IntelliJ-platform test runs.
-                    '\n      <jvmarg value="-Didea.filewatcher.disabled=true" />'
-            def body = content.substring(bodyStart, bodyEnd)
-            def patchedBody = body.replaceFirst(/<classpath location="([^"]*)" \/>/,
-                    '<classpath><pathelement location="$1" /><pathelement location="' + jnaJar + '" /></classpath>')
-            if (patchedBody == body) {
-                throw new GradleException("Could not find a <classpath> tag inside <junit> to patch in ${scriptFile}")
-            }
-            scriptFile.text = content.substring(0, bodyStart) + jvmargs + patchedBody + content.substring(bodyEnd)
-        }
     }
     doLast {
         // Don't rely on TestLanguages/the ant script's own exit code -- the ant
