@@ -195,7 +195,7 @@
         <property role="3BMcJd" value="true" />
         <property role="hL25V" value="true" />
         <property role="TrG5h" value="SomeClass" />
-        <property role="1wg9_F" value="public" />
+        <property role="1wg9_F" value="2Ai0Gt9ODIs/public" />
         <ref role="2gom41" node="4lmr4L5g4Fy" resolve="BaseClass" />
         <node concept="3XIRFW" id="4KmUErP6L6r" role="1IVm9U" />
         <node concept="2dFNQU" id="4KmUErP6L6s" role="2C2TGm">

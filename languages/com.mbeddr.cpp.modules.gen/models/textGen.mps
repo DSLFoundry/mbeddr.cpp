@@ -2,8 +2,8 @@
 <model ref="r:a8f6e6f5-d76a-484d-97e0-e6fe76aefcbf(com.mbeddr.cpp.modules.gen.textGen)">
   <persistence version="9" />
   <languages>
-    <use id="b83431fe-5c8f-40bc-8a36-65e25f4dd253" name="jetbrains.mps.lang.textGen" version="-1" />
     <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="19" />
+    <devkit ref="fa73d85a-ac7f-447b-846c-fcdc41caa600(jetbrains.mps.devkit.aspect.textgen)" />
   </languages>
   <imports>
     <import index="yz0i" ref="r:0777b219-94ea-49d2-8175-d5f018f3e7f9(com.mbeddr.cpp.base.textGen)" />

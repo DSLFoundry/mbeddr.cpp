@@ -109,6 +109,9 @@
         <property id="5253498789149547713" name="reexport" index="3bR36h" />
         <reference id="5253498789149547705" name="module" index="3bR37D" />
       </concept>
+      <concept id="763829979718664966" name="jetbrains.mps.build.mps.structure.BuildMps_ModuleResources" flags="ng" index="3rtmxn">
+        <child id="763829979718664967" name="files" index="3rtmxm" />
+      </concept>
       <concept id="4278635856200817744" name="jetbrains.mps.build.mps.structure.BuildMps_ModuleModelRoot" flags="ng" index="1BupzO">
         <property id="8137134783396907368" name="convert2binary" index="1Hdu6h" />
         <property id="8137134783396676838" name="extracted" index="1HemKv" />
@@ -383,6 +386,22 @@
             <ref role="3bR37D" to="ffeo:rD7wKO5Iy" resolve="MPS.TextGen" />
           </node>
         </node>
+        <node concept="3rtmxn" id="3oM__YG$xJq" role="3bR31x">
+          <node concept="3LXTmp" id="3oM__YG$xJr" role="3rtmxm">
+            <node concept="3qWCbU" id="3oM__YG$xJs" role="3LXTna">
+              <property role="3qWCbO" value="icons/**, resources/**" />
+            </node>
+            <node concept="398BVA" id="3oM__YG$xJt" role="3LXTmr">
+              <ref role="398BVh" node="6UXXL6qO7Rb" resolve="mbeddr.cpp" />
+              <node concept="2Ry0Ak" id="3oM__YG$xJu" role="iGT6I">
+                <property role="2Ry0Am" value="tests" />
+                <node concept="2Ry0Ak" id="3oM__YG$xJv" role="2Ry0An">
+                  <property role="2Ry0Am" value="test.ts.com.mbeddr.cpp" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
       <node concept="1E1JtA" id="6UXXL6qOqdf" role="2G$12L">
         <property role="3LESm3" value="~_PreferencesModule#com.mbeddr.cpp.__spreferences.PlatformTemplates" />
@@ -418,6 +437,22 @@
               <property role="2Ry0Am" value="PlatformTemplates" />
               <node concept="2Ry0Ak" id="6UXXL6qOqdq" role="2Ry0An">
                 <property role="2Ry0Am" value="module.msd" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3rtmxn" id="3oM__YG$xJx" role="3bR31x">
+          <node concept="3LXTmp" id="3oM__YG$xJy" role="3rtmxm">
+            <node concept="3qWCbU" id="3oM__YG$xJz" role="3LXTna">
+              <property role="3qWCbO" value="icons/**, resources/**" />
+            </node>
+            <node concept="398BVA" id="3oM__YG$xJ$" role="3LXTmr">
+              <ref role="398BVh" node="6UXXL6qO7Rb" resolve="mbeddr.cpp" />
+              <node concept="2Ry0Ak" id="3oM__YG$xJ_" role="iGT6I">
+                <property role="2Ry0Am" value="_spreferences" />
+                <node concept="2Ry0Ak" id="3oM__YG$xJA" role="2Ry0An">
+                  <property role="2Ry0Am" value="PlatformTemplates" />
+                </node>
               </node>
             </node>
           </node>
