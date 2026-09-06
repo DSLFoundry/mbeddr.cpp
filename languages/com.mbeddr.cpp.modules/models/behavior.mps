@@ -726,7 +726,9 @@
           <node concept="3cpWsn" id="29cSqveikNz" role="3cpWs9">
             <property role="TrG5h" value="imports" />
             <node concept="_YKpA" id="29cSqveimhf" role="1tU5fm">
-              <node concept="3Tqbb2" id="29cSqveimhh" role="_ZDj9" />
+              <node concept="3Tqbb2" id="29cSqveimhh" role="_ZDj9">
+                <ref role="ehGHo" to="vs0r:6clJcrJZLbn" resolve="IChunkDependency" />
+              </node>
             </node>
             <node concept="2OqwBi" id="29cSqveim_g" role="33vP2m">
               <node concept="2OqwBi" id="7U3i_0R9VfB" role="2Oq$k0">
@@ -1368,7 +1370,9 @@
         </node>
       </node>
       <node concept="A3Dl8" id="7U3i_0R9R7Z" role="3clF45">
-        <node concept="3Tqbb2" id="7U3i_0R9R80" role="A3Ik2" />
+        <node concept="3Tqbb2" id="7U3i_0R9R80" role="A3Ik2">
+          <ref role="ehGHo" to="vs0r:6clJcrJZLbn" resolve="IChunkDependency" />
+        </node>
       </node>
       <node concept="P$JXv" id="3J_5hL3JFhw" role="lGtFl">
         <node concept="TZ5HA" id="3J_5hL3JKZ5" role="TZ5H$">

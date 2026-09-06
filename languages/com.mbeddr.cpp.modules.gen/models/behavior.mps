@@ -11,11 +11,11 @@
     <import index="qd6m" ref="r:c4c3f7d3-0acf-4671-a134-5fab66c4e637(com.mbeddr.core.modules.behavior)" />
     <import index="x27k" ref="r:75ecab8a-8931-4140-afc6-4b46398710fc(com.mbeddr.core.modules.structure)" />
     <import index="1yyn" ref="r:64e0a2a9-7957-424b-8102-a5e8a7a73035(com.mbeddr.cpp.templates.structure)" />
-    <import index="d0vh" ref="r:9488318d-ce46-4320-b4e7-2566a511c366(com.mbeddr.core.modules.gen.structure)" />
     <import index="pmno" ref="r:fb787694-3ba8-4e1e-89dc-c410426eb36e(com.mbeddr.cpp.modules.gen.structure)" />
     <import index="wnzg" ref="r:24646c42-f8e0-499c-b639-679cfa170a2e(com.mbeddr.cpp.base.structure)" />
     <import index="kntn" ref="r:4090021e-0c8f-4cca-ab3f-590afb43a745(com.mbeddr.cpp.base.behavior)" />
     <import index="uaom" ref="r:00838eaa-3253-4491-82f7-437f360206d2(com.mbeddr.cpp.templates.behavior)" />
+    <import index="vs0r" ref="r:f7764ca4-8c75-4049-922b-08516400a727(com.mbeddr.core.base.structure)" />
     <import index="mj1l" ref="r:c371cf98-dcc8-4a43-8eb8-8a8096de18b2(com.mbeddr.core.expressions.structure)" implicit="true" />
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
@@ -294,7 +294,9 @@
           <node concept="3cpWsn" id="4k76AKYmdeA" role="3cpWs9">
             <property role="TrG5h" value="imports" />
             <node concept="_YKpA" id="4k76AKYmdeB" role="1tU5fm">
-              <node concept="3Tqbb2" id="4k76AKYmdeC" role="_ZDj9" />
+              <node concept="3Tqbb2" id="4k76AKYmdeC" role="_ZDj9">
+                <ref role="ehGHo" to="vs0r:6clJcrJZLbn" resolve="IChunkDependency" />
+              </node>
             </node>
             <node concept="2OqwBi" id="4k76AKYmdeD" role="33vP2m">
               <node concept="2OqwBi" id="4k76AKYmdeE" role="2Oq$k0">
@@ -840,12 +842,12 @@
                       <node concept="3cpWsn" id="7mGKYHi6YWL" role="3cpWs9">
                         <property role="TrG5h" value="fixedImport" />
                         <node concept="3Tqbb2" id="7mGKYHi6YWG" role="1tU5fm">
-                          <ref role="ehGHo" to="d0vh:3kEjc_WIMEE" resolve="GenStdHeaderImport" />
+                          <ref role="ehGHo" to="x27k:3kEjc_WIKGf" resolve="StdHeaderImport" />
                         </node>
                         <node concept="2ShNRf" id="7mGKYHi6Z5x" role="33vP2m">
                           <node concept="3zrR0B" id="7mGKYHi6Z5v" role="2ShVmc">
                             <node concept="3Tqbb2" id="7mGKYHi6Z5w" role="3zrR0E">
-                              <ref role="ehGHo" to="d0vh:3kEjc_WIMEE" resolve="GenStdHeaderImport" />
+                              <ref role="ehGHo" to="x27k:3kEjc_WIKGf" resolve="StdHeaderImport" />
                             </node>
                           </node>
                         </node>
@@ -871,7 +873,7 @@
                             <ref role="3cqZAo" node="7mGKYHi6YWL" resolve="fixedImport" />
                           </node>
                           <node concept="3TrcHB" id="7mGKYHi6ZF$" role="2OqNvi">
-                            <ref role="3TsBF5" to="d0vh:3kEjc_WIMEF" resolve="headerFileName" />
+                            <ref role="3TsBF5" to="x27k:3kEjc_WIKGg" resolve="headerFileName" />
                           </node>
                         </node>
                       </node>
@@ -902,7 +904,9 @@
         </node>
       </node>
       <node concept="A3Dl8" id="4k76AKYmdeP" role="3clF45">
-        <node concept="3Tqbb2" id="4k76AKYmdeQ" role="A3Ik2" />
+        <node concept="3Tqbb2" id="4k76AKYmdeQ" role="A3Ik2">
+          <ref role="ehGHo" to="vs0r:6clJcrJZLbn" resolve="IChunkDependency" />
+        </node>
       </node>
       <node concept="P$JXv" id="3J_5hL3JN4U" role="lGtFl">
         <node concept="TZ5HA" id="3J_5hL3JN4V" role="TZ5H$">

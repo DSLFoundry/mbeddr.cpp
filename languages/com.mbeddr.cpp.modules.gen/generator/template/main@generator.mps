@@ -12,6 +12,7 @@
     <use id="b341759a-c721-4072-90cf-328bb2724684" name="com.mbeddr.cpp.expressions" version="0" />
     <use id="5e6018dc-dc26-4070-9526-663fdbfe4c10" name="com.mbeddr.cpp.templates" version="-1" />
     <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
+    <use id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator" version="4" />
     <devkit ref="a2eb3a43-fcc2-4200-80dc-c60110c4862d(jetbrains.mps.devkit.templates)" />
   </languages>
   <imports>
@@ -25,6 +26,7 @@
     <import index="zhp8" ref="r:66d213c1-a12b-4017-8dd5-0423703c30a9(com.mbeddr.cpp.operator_overload.structure)" />
     <import index="mj1l" ref="r:c371cf98-dcc8-4a43-8eb8-8a8096de18b2(com.mbeddr.core.expressions.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
+    <import index="85w" ref="r:104df616-5c18-47eb-a8e4-393dc7bbcf94(com.mbeddr.cpp.modules.behavior)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -80,6 +82,9 @@
       </concept>
       <concept id="1081516740877" name="jetbrains.mps.baseLanguage.structure.NotExpression" flags="nn" index="3fqX7Q">
         <child id="1081516765348" name="expression" index="3fr31v" />
+      </concept>
+      <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ngI" index="1ndlxa">
+        <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
       </concept>
       <concept id="1081773326031" name="jetbrains.mps.baseLanguage.structure.BinaryOperation" flags="nn" index="3uHJSO">
         <child id="1081773367579" name="rightExpression" index="3uHU7w" />
@@ -250,6 +255,7 @@
       <concept id="6437088627575722813" name="com.mbeddr.core.modules.structure.Module" flags="ng" index="N3F4X">
         <child id="6437088627575722833" name="contents" index="N3F5h" />
         <child id="1317894735999304826" name="imports" index="2OODSX" />
+        <child id="9074180702632864845" name="stdImports" index="3tNLG8" />
       </concept>
       <concept id="6437088627575722831" name="com.mbeddr.core.modules.structure.IModuleContent" flags="ngI" index="N3F5f">
         <property id="1317894735999272944" name="exported" index="2OOxQR" />
@@ -258,6 +264,7 @@
         <child id="4185783222026475860" name="body" index="3XIRFY" />
       </concept>
       <concept id="8934095934011938595" name="com.mbeddr.core.modules.structure.EmptyModuleContent" flags="ng" index="2NXPZ9" />
+      <concept id="3830958861296798479" name="com.mbeddr.core.modules.structure.StdHeaderImport" flags="ng" index="19$kv6" />
       <concept id="7892328519581704407" name="com.mbeddr.core.modules.structure.Argument" flags="ng" index="19RgSI" />
       <concept id="6610873504380335822" name="com.mbeddr.core.modules.structure.GlobalVariableDeclaration" flags="ng" index="1S7NMz" />
     </language>
@@ -320,6 +327,7 @@
       <concept id="1138411891628" name="jetbrains.mps.lang.smodel.structure.SNodeOperation" flags="nn" index="eCIE_">
         <child id="1144104376918" name="parameter" index="1xVPHs" />
       </concept>
+      <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
       <concept id="4693937538533521280" name="jetbrains.mps.lang.smodel.structure.OfConceptOperation" flags="ng" index="v3k3i">
         <child id="4693937538533538124" name="requestedConcept" index="v3oSu" />
       </concept>
@@ -2593,6 +2601,29 @@
                   <ref role="3TtcxE" to="x27k:19a6$uAA8hU" resolve="imports" />
                 </node>
                 <node concept="30H73N" id="2Ai0GtaaXMN" role="2Oq$k0" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="19$kv6" id="16mVCjlJuI5" role="3tNLG8">
+      <node concept="2b32R4" id="16mVCjlJygP" role="lGtFl">
+        <node concept="3JmXsc" id="16mVCjlJygS" role="2P8S$">
+          <node concept="3clFbS" id="16mVCjlJygT" role="2VODD2">
+            <node concept="3clFbF" id="16mVCjlJygZ" role="3cqZAp">
+              <node concept="2OqwBi" id="16mVCjlJGEf" role="3clFbG">
+                <node concept="2OqwBi" id="16mVCjlJygU" role="2Oq$k0">
+                  <node concept="2qgKlT" id="16mVCjlJG1P" role="2OqNvi">
+                    <ref role="37wK5l" to="85w:7U3i_0R9R7o" resolve="importsForHeader" />
+                  </node>
+                  <node concept="30H73N" id="16mVCjlJygY" role="2Oq$k0" />
+                </node>
+                <node concept="v3k3i" id="16mVCjlJHyg" role="2OqNvi">
+                  <node concept="chp4Y" id="16mVCjlJHYY" role="v3oSu">
+                    <ref role="cht4Q" to="x27k:3kEjc_WIKGf" resolve="StdHeaderImport" />
+                  </node>
+                </node>
               </node>
             </node>
           </node>
