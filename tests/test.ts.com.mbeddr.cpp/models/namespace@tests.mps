@@ -676,9 +676,6 @@
             <property role="2c7vTL" value="false" />
           </node>
         </node>
-        <node concept="7CXmI" id="mwDIXwF953" role="lGtFl">
-          <node concept="7OXhh" id="mwDIXwF956" role="7EUXB" />
-        </node>
       </node>
     </node>
   </node>
