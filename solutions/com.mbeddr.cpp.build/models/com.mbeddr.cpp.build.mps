@@ -2,7 +2,7 @@
 <model ref="r:1a308560-20f5-4466-a1f0-9ff02de1a04c(com.mbeddr.cpp.build)">
   <persistence version="9" />
   <languages>
-    <use id="0cf935df-4699-4e9c-a132-fa109541cba3" name="jetbrains.mps.build.mps" version="7" />
+    <use id="0cf935df-4699-4e9c-a132-fa109541cba3" name="jetbrains.mps.build.mps" version="8" />
     <use id="798100da-4f0a-421a-b991-71f8c50ce5d2" name="jetbrains.mps.build" version="0" />
   </languages>
   <imports>
@@ -65,7 +65,7 @@
       <concept id="8654221991637384182" name="jetbrains.mps.build.structure.BuildFileIncludesSelector" flags="ng" index="3qWCbU">
         <property id="8654221991637384184" name="pattern" index="3qWCbO" />
       </concept>
-      <concept id="4701820937132344003" name="jetbrains.mps.build.structure.BuildLayout_Container" flags="ng" index="1y1bJS">
+      <concept id="4701820937132344003" name="jetbrains.mps.build.structure.BuildLayout_Container" flags="ngI" index="1y1bJS">
         <child id="7389400916848037006" name="children" index="39821P" />
       </concept>
       <concept id="841011766566059607" name="jetbrains.mps.build.structure.BuildStringNotEmpty" flags="ng" index="3_J27D" />
@@ -84,7 +84,7 @@
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
         <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
       </concept>
-      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
+      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
       <concept id="709746936026466394" name="jetbrains.mps.lang.core.structure.ChildAttribute" flags="ng" index="3VBwX9">
@@ -1382,24 +1382,8 @@
         </node>
       </node>
     </node>
-    <node concept="2kB4xC" id="64J97BBiLC5" role="1l3spd">
-      <property role="TrG5h" value="mbeddr.cpp.version" />
-      <node concept="aVJcg" id="64J97BBiLCI" role="aVJcv">
-        <node concept="NbPM2" id="64J97BBiLCH" role="aVJcq">
-          <node concept="3Mxwew" id="64J97BBiLCG" role="3MwsjC">
-            <property role="3MwjfP" value="0.1" />
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="398rNT" id="41kuMHWAyD2" role="1l3spd">
-      <property role="TrG5h" value="mps_home" />
-    </node>
     <node concept="398rNT" id="23LEVbRX3hP" role="1l3spd">
       <property role="TrG5h" value="mps.home" />
-      <node concept="398BVA" id="41kuMHWAyDH" role="398pKh">
-        <ref role="398BVh" node="41kuMHWAyD2" resolve="mps_home" />
-      </node>
     </node>
     <node concept="398rNT" id="4FIECQpNJnG" role="1l3spd">
       <property role="TrG5h" value="mbeddr.cpp" />
@@ -1450,7 +1434,7 @@
       <node concept="aVJcg" id="7TN8EE6trcQ" role="aVJcv">
         <node concept="NbPM2" id="7TN8EE6trcR" role="aVJcq">
           <node concept="3Mxwew" id="7TN8EE6trcS" role="3MwsjC">
-            <property role="3MwjfP" value="2020" />
+            <property role="3MwjfP" value="2025" />
           </node>
         </node>
       </node>
@@ -1460,7 +1444,7 @@
       <node concept="aVJcg" id="7TN8EE6trcU" role="aVJcv">
         <node concept="NbPM2" id="7TN8EE6trcV" role="aVJcq">
           <node concept="3Mxwew" id="7TN8EE6trcW" role="3MwsjC">
-            <property role="3MwjfP" value="3" />
+            <property role="3MwjfP" value="1" />
           </node>
         </node>
       </node>
@@ -1492,6 +1476,28 @@
             <property role="3MwjfP" value="-" />
           </node>
           <node concept="3Mxwey" id="7TN8EE6trd8" role="3MwsjC">
+            <ref role="3Mxwex" node="7TN8EE6trcX" resolve="build" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2kB4xC" id="64J97BBiLC5" role="1l3spd">
+      <property role="TrG5h" value="mbeddr.cpp.version" />
+      <node concept="aVJcg" id="64J97BBiLCI" role="aVJcv">
+        <node concept="NbPM2" id="64J97BBiLCH" role="aVJcq">
+          <node concept="3Mxwey" id="16mVCjm15jR" role="3MwsjC">
+            <ref role="3Mxwex" node="7TN8EE6trcP" resolve="major.version" />
+          </node>
+          <node concept="3Mxwew" id="16mVCjm15jS" role="3MwsjC">
+            <property role="3MwjfP" value="." />
+          </node>
+          <node concept="3Mxwey" id="16mVCjm15jT" role="3MwsjC">
+            <ref role="3Mxwex" node="7TN8EE6trcT" resolve="minor.version" />
+          </node>
+          <node concept="3Mxwew" id="16mVCjm15jU" role="3MwsjC">
+            <property role="3MwjfP" value="-" />
+          </node>
+          <node concept="3Mxwey" id="16mVCjm15jV" role="3MwsjC">
             <ref role="3Mxwex" node="7TN8EE6trcX" resolve="build" />
           </node>
         </node>

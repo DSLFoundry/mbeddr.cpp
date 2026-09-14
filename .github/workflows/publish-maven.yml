@@ -9,21 +9,31 @@ on:
       - main
   workflow_dispatch:
 
+permissions:
+  contents: read
+  packages: write
+
 jobs:
   build:
 
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v5
     - name: Set up JDK 17
-      uses: actions/setup-java@v1
+      uses: actions/setup-java@v5
       with:
+        distribution: temurin
         java-version: 17
+    - name: Install C++ build tools
+      run: sudo apt-get update && sudo apt-get install -y g++ make xvfb
     - name: Grant execute permission for gradlew
       run: chmod +x gradlew
     - name: Publish with Gradle
+      # publish depends on build, which now runs the full test suite (see
+      # build.gradle) -- testTsTests boots a real (headed) MPS/IntelliJ-platform
+      # instance, so it needs a display, same as the "Java CI with Gradle" workflow.
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
-        ./gradlew publish
+        xvfb-run --auto-servernum ./gradlew publish

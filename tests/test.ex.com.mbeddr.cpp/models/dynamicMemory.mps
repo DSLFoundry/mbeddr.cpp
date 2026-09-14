@@ -8,7 +8,7 @@
   <imports />
   <registry>
     <language id="a9d69647-0840-491e-bf39-2eb0805d2011" name="com.mbeddr.core.statements">
-      <concept id="7763322639126652757" name="com.mbeddr.core.statements.structure.ITypeContainingType" flags="ng" index="2umbIr">
+      <concept id="7763322639126652757" name="com.mbeddr.core.statements.structure.ITypeContainingType" flags="ngI" index="2umbIr">
         <child id="7763322639126652758" name="baseType" index="2umbIo" />
       </concept>
       <concept id="7254843406768833938" name="com.mbeddr.core.statements.structure.ExpressionStatement" flags="ng" index="1_9egQ">
@@ -57,8 +57,9 @@
         <property id="3963667026125442601" name="gdb" index="3r8Kw1" />
         <property id="3963667026125442676" name="make" index="3r8Kxs" />
       </concept>
+      <concept id="1253797277662831035" name="com.mbeddr.core.buildconfig.structure.CppCoCompilationConfigItem" flags="ng" index="U5S10" />
       <concept id="5476261277774503065" name="com.mbeddr.core.buildconfig.structure.Any" flags="ng" index="1l1$C7" />
-      <concept id="2736179788492003936" name="com.mbeddr.core.buildconfig.structure.IDebuggablePlatform" flags="ng" index="1FkSt_">
+      <concept id="2736179788492003936" name="com.mbeddr.core.buildconfig.structure.IDebuggablePlatform" flags="ngI" index="1FkSt_">
         <property id="2736179788492003937" name="debugOptions" index="1FkSt$" />
       </concept>
     </language>
@@ -79,7 +80,7 @@
       <concept id="8375407818529178006" name="com.mbeddr.core.base.structure.TextBlock" flags="ng" index="OjmMv">
         <child id="8375407818529178007" name="text" index="OjmMu" />
       </concept>
-      <concept id="4459718605982007337" name="com.mbeddr.core.base.structure.IConfigurationContainer" flags="ng" index="2Q9xDo">
+      <concept id="4459718605982007337" name="com.mbeddr.core.base.structure.IConfigurationContainer" flags="ngI" index="2Q9xDo">
         <child id="4459718605982007338" name="configurationItems" index="2Q9xDr" />
       </concept>
     </language>
@@ -109,7 +110,7 @@
         <child id="9083970262000480030" name="classType" index="1QO97d" />
       </concept>
       <concept id="5044697665789421259" name="com.mbeddr.cpp.base.structure.AttributeDeclaration" flags="ng" index="3mBbG7" />
-      <concept id="5044697665789421253" name="com.mbeddr.cpp.base.structure.IClassMemberDeclaration" flags="ng" index="3mBbG9">
+      <concept id="5044697665789421253" name="com.mbeddr.cpp.base.structure.IClassMemberDeclaration" flags="ngI" index="3mBbG9">
         <property id="2995459757115087788" name="visibility" index="1wg9_F" />
       </concept>
       <concept id="5044697665789405022" name="com.mbeddr.cpp.base.structure.ClassType" flags="ng" index="3mBfEi">
@@ -127,13 +128,13 @@
       </concept>
     </language>
     <language id="6d11763d-483d-4b2b-8efc-09336c1b0001" name="com.mbeddr.core.modules">
-      <concept id="8105003328814797298" name="com.mbeddr.core.modules.structure.IFunctionLike" flags="ng" index="2H9T1B">
+      <concept id="8105003328814797298" name="com.mbeddr.core.modules.structure.IFunctionLike" flags="ngI" index="2H9T1B">
         <child id="5708867820623310661" name="arguments" index="1UOdpc" />
       </concept>
       <concept id="6437088627575722813" name="com.mbeddr.core.modules.structure.Module" flags="ng" index="N3F4X">
         <child id="6437088627575722833" name="contents" index="N3F5h" />
       </concept>
-      <concept id="6437088627575722831" name="com.mbeddr.core.modules.structure.IModuleContent" flags="ng" index="N3F5f">
+      <concept id="6437088627575722831" name="com.mbeddr.core.modules.structure.IModuleContent" flags="ngI" index="N3F5f">
         <property id="1317894735999272944" name="exported" index="2OOxQR" />
       </concept>
       <concept id="8934095934011938595" name="com.mbeddr.core.modules.structure.EmptyModuleContent" flags="ng" index="2NXPZ9" />
@@ -164,7 +165,7 @@
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
-      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
+      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
     </language>
@@ -184,7 +185,7 @@
       <concept id="4620120465980402700" name="com.mbeddr.core.expressions.structure.GenericDotExpression" flags="ng" index="2qmXGp">
         <child id="7034214596252529803" name="target" index="1ESnxz" />
       </concept>
-      <concept id="318113533128716675" name="com.mbeddr.core.expressions.structure.ITyped" flags="ng" index="2C2TGh">
+      <concept id="318113533128716675" name="com.mbeddr.core.expressions.structure.ITyped" flags="ngI" index="2C2TGh">
         <child id="318113533128716676" name="type" index="2C2TGm" />
       </concept>
       <concept id="7892328519581699353" name="com.mbeddr.core.expressions.structure.VoidType" flags="ng" index="19Rifw" />
@@ -208,7 +209,7 @@
       <property role="1FkSt$" value="-g" />
       <property role="2AWWZI" value=" " />
       <property role="UXd52" value="g++" />
-      <property role="UXd4T" value="-std=c++11" />
+      <property role="UXd4T" value="-std=c++11 -fpermissive" />
     </node>
     <node concept="2Q9Fgs" id="6WSa0snB9z3" role="2Q9xDr">
       <node concept="2Q9FjX" id="6WSa0snB9z4" role="2Q9FjI" />
@@ -223,6 +224,7 @@
         <property role="TrG5h" value="any" />
       </node>
     </node>
+    <node concept="U5S10" id="4KmUErOYEdu" role="2Q9xDr" />
   </node>
   <node concept="1whW_1" id="6WSa0snB9zy">
     <property role="TrG5h" value="NewDelete" />
@@ -338,7 +340,7 @@
             </node>
           </node>
           <node concept="1SUiZS" id="6WSa0sojVR5" role="3XIe9u">
-            <property role="1SUi07" value="true" />
+            <property role="1SUi07" value="false" />
             <node concept="3J0A42" id="72UYQRWzAWG" role="1RfGkM">
               <property role="2caQfQ" value="false" />
               <property role="2c7vTL" value="false" />
@@ -455,6 +457,16 @@
             </node>
           </node>
         </node>
+        <node concept="1_9egQ" id="4KmUErSxdsk" role="3XIRFZ">
+          <node concept="3pqW6w" id="4KmUErSxdsB" role="1_9egR">
+            <node concept="1SUiZS" id="4KmUErSxdtV" role="3TlMhJ">
+              <node concept="26Vqpk" id="4KmUErSxdwV" role="1RfGkM" />
+            </node>
+            <node concept="3ZVu4v" id="4KmUErSxdsi" role="3TlMhI">
+              <ref role="3ZVs_2" node="72UYQRW_1M6" resolve="ndc2Int" />
+            </node>
+          </node>
+        </node>
         <node concept="1_9egQ" id="72UYQRW_2rp" role="3XIRFZ">
           <node concept="3pqW6w" id="72UYQRW_2rq" role="1_9egR">
             <node concept="3wxyx2" id="72UYQRW_2rr" role="3TlMhI">
@@ -469,7 +481,7 @@
         </node>
         <node concept="2N2KuS" id="6Rfiwa9JW_c" role="3XIRFZ">
           <node concept="3TlMh9" id="6Rfiwa9JWDx" role="2N2GHh">
-            <property role="2hmy$m" value="600" />
+            <property role="2hmy$m" value="700" />
           </node>
           <node concept="3wxyx2" id="6Rfiwa9JWCG" role="2N2GHg">
             <node concept="3ZVu4v" id="6Rfiwa9JWD8" role="1_9fRO">

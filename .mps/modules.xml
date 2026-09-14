@@ -15,6 +15,8 @@
       <modulePath path="$PROJECT_DIR$/languages/com.mbeddr.cpp.templates/com.mbeddr.cpp.templates.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/com.mbeddr.cpp.build/com.mbeddr.cpp.build.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/com.mbeddr.cpp.buildAllScripts/com.mbeddr.cpp.buildAllScripts.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/com.mbeddr.cpp.ex-tests.build/com.mbeddr.cpp.ex-tests.build.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/com.mbeddr.cpp.ts-tests.build/com.mbeddr.cpp.ts-tests.build.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/tests/test.ex.com.mbeddr.cpp/test.ex.com.mbeddr.cpp.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/tests/test.ts.com.mbeddr.cpp/test.ts.com.mbeddr.cpp.msd" folder="" />
     </projectModules>

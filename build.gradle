@@ -3,6 +3,10 @@ import de.itemis.mps.gradle.*
 import java.time.LocalDate
 import java.time.format.DateTimeFormatter
 import java.time.format.FormatStyle
+import groovy.xml.XmlSlurper
+import groovy.xml.XmlParser
+import java.util.concurrent.Callable
+import java.util.concurrent.Executors
 
 //will pull the groovy classes/types from nexus to the classpath
 buildscript {
@@ -11,7 +15,7 @@ buildscript {
         maven { url = 'https://artifacts.itemis.cloud/repository/maven-mps/' }
     }
     dependencies {
-        classpath 'de.itemis.mps:mps-gradle-plugin:1.30.+'
+        classpath 'de.itemis.mps:mps-gradle-plugin:1.31.0.1.1243113'
     }
 }
 
@@ -19,6 +23,11 @@ plugins {
     id 'base'
     id 'maven-publish'
     id "com.github.breadmoirai.github-release" version "2.5.2"
+    id 'download-jbr' version '1.31.0.1.1243113'
+}
+
+downloadJbr {
+    jbrVersion = '21.0.6-b895.109'
 }
 
 def incrementalBuild = !project.hasProperty("disableIncrementalBuild")
@@ -32,17 +41,9 @@ configurations {
 }
 
 dependencies {
-    mps "com.jetbrains:mps:2022.3.+"
-    languageLibs "com.mbeddr:mbeddr:2022.3.+"
+    mps "com.jetbrains:mps:2025.1.2"
+    languageLibs "com.mbeddr:mbeddr:2025.1.26590.38c6766"
     junitAnt 'org.apache.ant:ant-junit:1.10.17'
-}
-
-repositories {
-        maven {
-            url = "https://artifacts.itemis.cloud/repository/maven-mps/"
-        }
-
-    mavenCentral()
 }
 
 task resolveMps(type: Copy) {
@@ -62,10 +63,29 @@ task resolveAllLanguageLibs(type: Copy) {
 
 def mbeddrCppVersion = project.findProperty("mbeddrCppVersion") ?: '0.1'
 
+// publish/githubRelease currently run on every push to main (there's no separate
+// release-branch/tag process yet), so mbeddrCppVersion alone isn't unique per run --
+// republishing the same version to an immutable Maven registry, or recreating the
+// same GitHub Release, both fail on the second push (409/422). Append the CI run
+// number and short commit SHA -- GitHub Actions' equivalent of a build counter plus
+// git SHA, the same scheme iets3.core uses -- so every CI-triggered publish/release
+// gets a genuinely unique version. A plain local build (no GITHUB_RUN_NUMBER) keeps
+// the bare base version. Only used for the published/released version identifier,
+// not for mbeddrCppVersion itself, which still names the actual build artifact.
+def publishVersion = System.getenv("GITHUB_RUN_NUMBER") ?
+        "${mbeddrCppVersion}.${System.getenv('GITHUB_RUN_NUMBER')}.${(System.getenv('GITHUB_SHA') ?: '').take(7)}" :
+        mbeddrCppVersion
+
+// GITHUB_REPOSITORY (owner/repo) is set automatically by GitHub Actions for every
+// workflow run, so this resolves to whichever repo the workflow is actually running
+// in -- a fork publishes/releases against itself, and the same config works
+// unmodified once merged upstream. Falls back to upstream for a plain local run
+// outside CI. Used by both the publishing{} and githubRelease{} blocks below.
+def ghRepository = (System.getenv("GITHUB_REPOSITORY") ?: "DSLFoundry/mbeddr.cpp").split("/", 2)
+
 // Default arguments for ant scripts
 def defaultScriptArgs = [
         'mps.home'                          : resolveMps.destinationDir,
-        'mbeddr.github.cpp.home'            : projectDir,
         'build.dir'                         : layout.buildDirectory.get().asFile,
         'mps.generator.skipUnmodifiedModels': incrementalBuild,
         'version'                           : mbeddrCppVersion,
@@ -76,9 +96,23 @@ def defaultScriptClasspath = project.configurations.junitAnt.asFileTree
 // enables https://github.com/mbeddr/mps-gradle-plugin#providing-global-defaults
 ext["itemis.mps.gradle.ant.defaultScriptArgs"] = defaultScriptArgs.collect { "-D$it.key=$it.value".toString() }
 ext["itemis.mps.gradle.ant.defaultScriptClasspath"] = defaultScriptClasspath
+ext["itemis.mps.gradle.ant.defaultJavaExecutable"] = tasks.named('downloadJbr').get().javaExecutable
+
+// MPS's own generation cache (source_gen.caches/, next to each module's sources) tracks
+// what's "unmodified" independently of Gradle's build/ dir, so `clean` alone doesn't
+// invalidate it -- a `clean build` run can then have MPS skip regenerating build scripts
+// it thinks are unchanged, silently leaving files like cppBuild.xml missing for downstream
+// tasks. Whenever `clean` is part of this invocation, force a full (non-incremental)
+// generation so results are always consistent with the just-wiped build/ dir.
+gradle.taskGraph.whenReady { graph ->
+    if (graph.allTasks.any { it.name == 'clean' }) {
+        defaultScriptArgs['mps.generator.skipUnmodifiedModels'] = false
+        ext["itemis.mps.gradle.ant.defaultScriptArgs"] = defaultScriptArgs.collect { "-D$it.key=$it.value".toString() }
+    }
+}
 
 
-task buildAllScripts(type: BuildLanguages, dependsOn: [resolveMps, resolveAllLanguageLibs]) {
+task buildAllScripts(type: BuildLanguages, dependsOn: [resolveMps, resolveAllLanguageLibs, tasks.named('downloadJbr')]) {
     script = "scripts/allScripts.xml"
 }
 
@@ -92,6 +126,225 @@ task packageLanguages(type: Zip, dependsOn: buildLanguages) {
     include 'com.mbeddr.cpp/**'
 }
 
+ant.taskdef(name: 'junitreport', classname: 'org.apache.tools.ant.taskdefs.optional.junit.XMLResultAggregator',
+        classpath: configurations.junitAnt.asPath)
+
+task generateTsTests(type: RunAntScript, dependsOn: buildAllScripts) {
+    script = "${layout.buildDirectory.get().asFile}/cppTsTestsBuild.xml"
+    targets = ['generate']
+}
+
+task testTsTests(type: TestLanguages, dependsOn: [generateTsTests, buildLanguages]) {
+    script = "${layout.buildDirectory.get().asFile}/cppTsTestsBuild.xml"
+    targets = ['check']
+    doFirst {
+        delete fileTree(dir: layout.buildDirectory.get().asFile, includes: ['**/TEST-*.xml'])
+    }
+    doLast {
+        // Don't rely on TestLanguages/the ant script's own exit code -- the ant
+        // <junit> step does not halt on failure, so a broken test run can still
+        // report BUILD SUCCESSFUL. Read the JUnit report(s) ourselves and fail
+        // the Gradle build if anything reported a failure or error.
+        def reports = fileTree(dir: layout.buildDirectory.get().asFile, includes: ['**/TEST-*.xml']).files
+        if (reports.isEmpty()) {
+            throw new GradleException("No JUnit test reports found under ${layout.buildDirectory.get().asFile} -- did testTsTests actually run any tests?")
+        }
+        def problems = []
+        reports.each { report ->
+            def testsuite = new XmlSlurper().parse(report)
+            def failures = (testsuite.@failures.text() ?: '0') as int
+            def errors = (testsuite.@errors.text() ?: '0') as int
+            def tests = (testsuite.@tests.text() ?: '0') as int
+            if (failures > 0 || errors > 0) {
+                problems << "${report.name}: ${tests} test(s), ${failures} failure(s), ${errors} error(s)"
+            }
+        }
+        if (problems) {
+            throw new GradleException("test.ts.com.mbeddr.cpp JUnit reports contain failures:\n" + problems.join('\n'))
+        }
+    }
+}
+
+// test.ex.com.mbeddr.cpp: test modules that generate real C++, compiled and run as native binaries
+task generateExTests(type: RunAntScript, dependsOn: [buildAllScripts, buildLanguages]) {
+    script = "${layout.buildDirectory.get().asFile}/cppExTestsBuild.xml"
+    targets = ['generate']
+}
+
+task testExTests(dependsOn: generateExTests) {
+    description = 'Compile and run the C++ binaries generated by test.ex.com.mbeddr.cpp'
+    doLast {
+        def sourceGenDir = file("${projectDir}/tests/test.ex.com.mbeddr.cpp/source_gen")
+        def makefiles = fileTree(dir: sourceGenDir, includes: ['**/Makefile']).files
+        if (makefiles.isEmpty()) {
+            throw new GradleException("No generated Makefiles found under ${sourceGenDir} -- did generateExTests run?")
+        }
+        // Match against the path *relative to sourceGenDir*, split into segments --
+        // matching the absolute path (as before) would misclassify every module for
+        // a checkout under any ancestor directory containing a "lib" segment (e.g.
+        // "/opt/lib/mbeddr.cpp"); matching relative-path substrings with separators
+        // on both sides would still miss "lib" as the first or last segment.
+        def isLibDir = { File dir -> sourceGenDir.toPath().relativize(dir.toPath()).any { it.toString() == 'lib' } }
+        def libDirs = makefiles.findAll { isLibDir(it.parentFile) }.collect { it.parentFile }
+        def otherDirs = makefiles.findAll { !isLibDir(it.parentFile) }.collect { it.parentFile }
+
+        // These modules are independent of each other (only otherDirs depend on
+        // libDirs, not on each other), so build/run them concurrently instead of
+        // one at a time. Capped at availableProcessors -- and each individual
+        // `make` no longer gets its own "-j N" -- so we don't oversubscribe the
+        // machine by fanning out N-wide processes N-wide again inside each one.
+        // Output from concurrent processes interleaves in the log; that's an
+        // accepted trade-off for the wall-clock win.
+        def pool = Executors.newFixedThreadPool(Runtime.runtime.availableProcessors())
+        def runMake = { File dir ->
+            logger.lifecycle("make in ${dir}")
+            def proc = new ProcessBuilder('make')
+                    .directory(dir)
+                    .redirectOutput(ProcessBuilder.Redirect.INHERIT)
+                    .redirectError(ProcessBuilder.Redirect.INHERIT)
+                    .start()
+            proc.waitFor() == 0
+        }
+        try {
+            // Compile every directory even if one fails to build -- a broken module
+            // shouldn't hide the pass/fail status of every other module. Libraries
+            // build first (test modules depend on them), so a failed library build
+            // still skips only the test modules that actually need it.
+            def failedLibDirs = libDirs.collect { dir -> pool.submit({ -> runMake(dir) ? null : dir } as Callable) }
+                    *.get().findAll { it != null }
+
+            // Each task returns its own result instead of writing into a list shared
+            // across threads -- java.util.ArrayList isn't safe for concurrent
+            // mutation, and a race here would mean silently losing a real failure.
+            def moduleResults = failedLibDirs ? [] : otherDirs.collect { dir ->
+                pool.submit({ ->
+                    if (!runMake(dir)) {
+                        return [compileFailed: dir, runFailures: []]
+                    }
+                    // The generated Makefile picks its own platform/flavor subdirectory
+                    // (e.g. build/linux/release on CI, where $CI switches the default
+                    // flavor, vs build/macosx/debug locally) -- find whatever "bin" dir
+                    // it actually produced instead of assuming one.
+                    def buildOutputDir = new File(dir, 'build')
+                    def binDirs = []
+                    if (buildOutputDir.isDirectory()) {
+                        buildOutputDir.eachFileRecurse { f -> if (f.isDirectory() && f.name == 'bin') binDirs << f }
+                    }
+                    if (binDirs.isEmpty()) {
+                        logger.lifecycle("No binary directory under ${dir}, skipping run")
+                        return [compileFailed: null, runFailures: []]
+                    }
+                    def failures = []
+                    binDirs.each { binDir ->
+                        binDir.listFiles({ f -> f.isFile() && f.canExecute() } as FileFilter)?.each { bin ->
+                            logger.lifecycle("Running ${bin}")
+                            def runProc = new ProcessBuilder(bin.absolutePath)
+                                    .directory(dir)
+                                    .redirectOutput(ProcessBuilder.Redirect.INHERIT)
+                                    .redirectError(ProcessBuilder.Redirect.INHERIT)
+                                    .start()
+                            if (runProc.waitFor() != 0) {
+                                failures << bin.absolutePath
+                            }
+                        }
+                    }
+                    return [compileFailed: null, runFailures: failures]
+                } as Callable)
+            }*.get()
+            def compileFailures = moduleResults.findAll { it.compileFailed != null }.collect { it.compileFailed }
+            def runFailures = moduleResults.collectMany { it.runFailures }
+
+            if (failedLibDirs || compileFailures || runFailures) {
+                def problems = []
+                if (failedLibDirs) problems << "Library build(s) failed: ${failedLibDirs.join(', ')}"
+                if (compileFailures) problems << "Test module build(s) failed: ${compileFailures.join(', ')}"
+                if (runFailures) problems << "Test binaries failed: ${runFailures.join(', ')}"
+                throw new GradleException(problems.join('\n'))
+            }
+        } finally {
+            pool.shutdown()
+        }
+    }
+}
+
+// test.ex binaries already emit a per-module JUnit-format TEST-*.xml next to
+// themselves (tests/test.ex.com.mbeddr.cpp/source_gen/**/build/test-results/) --
+// mbeddr's C++ test runtime writes those on its own, regardless of Gradle/ant.
+// test.ts produces one combined TEST-*.xml under build/ (the ant <junit> report).
+// Merge both into a single JUnit report (raw XML + HTML) so there's one place to
+// look regardless of which suite something failed in. finalizedBy (not
+// dependsOn) on both test tasks so the report is still produced when a test
+// task fails -- that's the whole point of collecting results after --continue.
+task testReport {
+    description = 'Merge the test.ts and test.ex JUnit reports into one unified report'
+    doLast {
+        def stagingDir = layout.buildDirectory.dir('test-results/all').get().asFile
+        delete(stagingDir)
+        stagingDir.mkdirs()
+
+        // Unlike test.ex (one XML file per module, each with its own suite name --
+        // ant's report groups by that name, so modules show up as separate rows),
+        // test.ts's ant <junit> run packs all tests from many different model
+        // classes into ONE file under one generic suite name
+        // ("jetbrains.mps.testbench.junit.suites.AntModuleTestSuite0"). Grouped as-is,
+        // every test.ts failure/error would show up under that one meaningless name
+        // instead of the actual model it came from. Split it into one synthetic
+        // testsuite per distinct testcase "classname" (already fully qualified,
+        // e.g. "test.ts.com.mbeddr.cpp.identifiernames.IIdentifierNamedConceptKeywords_Test")
+        // so the report groups test.ts results the same way it groups test.ex ones.
+        // Recursive to match testTsTests' own check above -- ant's <junit> report
+        // location isn't guaranteed to stay at the top level of the build dir.
+        fileTree(dir: layout.buildDirectory.get().asFile, includes: ['**/TEST-*.xml']).each { report ->
+            def xml = new XmlParser().parse(report)
+            xml.testcase.groupBy { it.@classname }.each { classname, cases ->
+                def failures = cases.count { !it.failure.isEmpty() }
+                def errors = cases.count { !it.error.isEmpty() }
+                def skipped = cases.count { !it.skipped.isEmpty() }
+                def sb = new StringBuilder()
+                sb << '<?xml version="1.0" encoding="UTF-8"?>\n'
+                sb << "<testsuite name=\"${classname}\" tests=\"${cases.size()}\" failures=\"${failures}\" errors=\"${errors}\" skipped=\"${skipped}\">\n"
+                cases.each { tc -> sb << groovy.xml.XmlUtil.serialize(tc).replaceAll(/(?s)^<\?xml.*?\?>\s*/, '') }
+                sb << '</testsuite>\n'
+                new File(stagingDir, "ts-${classname}.xml").text = sb.toString()
+            }
+        }
+        fileTree(dir: file("${projectDir}/tests/test.ex.com.mbeddr.cpp/source_gen"), includes: ['**/build/test-results/TEST-*.xml']).each { report ->
+            // mbeddr's C++ test runtime names its testsuite after the C++ scope
+            // (e.g. "test.ex.com.mbeddr.cpp.attributes.ClassAttributes::main").
+            // Ant's HTML report turns that name straight into a filename, and a
+            // literal ":" there makes actions/upload-artifact reject the whole
+            // artifact upload on CI (colons aren't valid in a Windows path).
+            // Replace "::" with "." before staging -- the name is still unique
+            // and readable, just filesystem-safe.
+            def xml = new XmlParser().parse(report)
+            xml.@name = xml.@name.toString().replace('::', '.')
+            def target = new File(stagingDir, "ex-${report.parentFile.parentFile.parentFile.name}-${report.name}")
+            groovy.xml.XmlUtil.serialize(xml, new FileWriter(target))
+        }
+
+        if (!stagingDir.listFiles()) {
+            logger.warn("testReport: no JUnit XML reports found to merge under ${stagingDir}")
+            return
+        }
+
+        def aggregateDir = layout.buildDirectory.dir('test-results/unified').get().asFile
+        def htmlDir = layout.buildDirectory.dir('reports/tests/unified').get().asFile
+        aggregateDir.mkdirs()
+        htmlDir.mkdirs()
+        ant.junitreport(todir: aggregateDir) {
+            fileset(dir: stagingDir, includes: '*.xml')
+            report(format: 'frames', todir: htmlDir)
+        }
+        logger.lifecycle("Unified test report: file://${new File(htmlDir, 'index.html')}")
+    }
+}
+testTsTests.finalizedBy testReport
+testExTests.finalizedBy testReport
+
+task testLanguages(dependsOn: [testTsTests, testExTests]) {
+    description = 'Run the test.ts and test.ex test suites for com.mbeddr.cpp'
+}
+
 task setup {
     dependsOn resolveAllLanguageLibs
     description = 'Set up MPS project libraries. Libraries are read in from projectlibraries.properties file.'
@@ -101,12 +354,12 @@ task setup {
 def releaseArtifacts = ["${artifactsDir}/com.mbeddr.cpp/com.mbeddr.cpp-${mbeddrCppVersion}.zip"]
 
 githubRelease {
-    owner = 'DSLFoundry'
-    repo = 'mbeddr.cpp'
+    owner = ghRepository[0]
+    repo = ghRepository[1]
     token =  providers.environmentVariable("GITHUB_TOKEN").getOrElse("empty")
-    tagName =  "v-$mbeddrCppVersion"
-    targetCommitish = providers.environmentVariable("CI_COMMIT_SHA").getOrElse("master")
-    releaseName =  "mbeddr C++ Extensions v$mbeddrCppVersion"
+    tagName =  "v-$publishVersion"
+    targetCommitish = providers.environmentVariable("CI_COMMIT_SHA").getOrElse("main")
+    releaseName =  "mbeddr C++ Extensions v$publishVersion"
     releaseAssets = releaseArtifacts
     // body = ReleaseNotes.getReleaseNotes(file("RELEASE_NOTES.md"))
 }
@@ -115,7 +368,7 @@ publishing {
     repositories {
         maven {
             name = "GitHubPackages"
-            url = uri("https://maven.pkg.github.com/DSLFoundry/mbeddr.cpp")
+            url = uri("https://maven.pkg.github.com/${ghRepository[0]}/${ghRepository[1]}")
             credentials {
                 username = project.findProperty("gpr.user") ?: System.getenv("GITHUB_ACTOR")
                 password = project.findProperty("gpr.key") ?: System.getenv("GITHUB_TOKEN")
@@ -127,7 +380,7 @@ publishing {
         gpr(MavenPublication) {
             groupId = 'com.mbeddr'
             artifactId = 'cpp'
-            version = "$mbeddrCppVersion"
+            version = "$publishVersion"
             
             artifacts = releaseArtifacts
             pom {
@@ -139,6 +392,7 @@ publishing {
 }
 
 build.dependsOn buildLanguages
+tasks.named("check") { dependsOn testLanguages }
 tasks.named("githubRelease") { dependsOn(tasks.named("build"))}
 
 defaultTasks 'buildLanguages'
