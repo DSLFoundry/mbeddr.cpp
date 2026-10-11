@@ -106,7 +106,6 @@
         <child id="5253498789149547704" name="dependencies" index="3bR37C" />
       </concept>
       <concept id="5253498789149585690" name="jetbrains.mps.build.mps.structure.BuildMps_ModuleDependencyOnModule" flags="ng" index="3bR9La">
-        <property id="5253498789149547713" name="reexport" index="3bR36h" />
         <reference id="5253498789149547705" name="module" index="3bR37D" />
       </concept>
       <concept id="763829979718664966" name="jetbrains.mps.build.mps.structure.BuildMps_ModuleResources" flags="ng" index="3rtmxn">
@@ -368,22 +367,6 @@
         <node concept="1SiIV0" id="6UXXL6qOqze" role="3bR37C">
           <node concept="3bR9La" id="6UXXL6qOqzf" role="1SiIV1">
             <ref role="3bR37D" node="6UXXL6qOqdf" resolve="com.mbeddr.cpp.__spreferences.PlatformTemplates" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="6UXXL6qOPoN" role="3bR37C">
-          <node concept="3bR9La" id="6UXXL6qOPoO" role="1SiIV1">
-            <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="6UXXL6qOPIC" role="3bR37C">
-          <node concept="3bR9La" id="6UXXL6qOPID" role="1SiIV1">
-            <ref role="3bR37D" to="ffeo:1TaHNgiIbIZ" resolve="MPS.Editor" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="6UXXL6qOQ4t" role="3bR37C">
-          <node concept="3bR9La" id="6UXXL6qOQ4u" role="1SiIV1">
-            <property role="3bR36h" value="true" />
-            <ref role="3bR37D" to="ffeo:rD7wKO5Iy" resolve="MPS.TextGen" />
           </node>
         </node>
         <node concept="3rtmxn" id="3oM__YG$xJq" role="3bR31x">

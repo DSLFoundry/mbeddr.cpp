@@ -9,6 +9,7 @@
     <import index="wnzg" ref="r:24646c42-f8e0-499c-b639-679cfa170a2e(com.mbeddr.cpp.base.structure)" />
     <import index="mj1l" ref="r:c371cf98-dcc8-4a43-8eb8-8a8096de18b2(com.mbeddr.core.expressions.structure)" />
     <import index="x27k" ref="r:75ecab8a-8931-4140-afc6-4b46398710fc(com.mbeddr.core.modules.structure)" />
+    <import index="ifqb" ref="r:b69271f0-a5f0-460a-ac98-e40901bc3cd0(com.mbeddr.cpp.operator_overload.behavior)" />
     <import index="zhp8" ref="r:66d213c1-a12b-4017-8dd5-0423703c30a9(com.mbeddr.cpp.operator_overload.structure)" implicit="true" />
   </imports>
   <registry>
@@ -26,6 +27,9 @@
       </concept>
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
+      </concept>
+      <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ngI" index="1ndlxa">
+        <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
       </concept>
     </language>
     <language id="b83431fe-5c8f-40bc-8a36-65e25f4dd253" name="jetbrains.mps.lang.textGen">
@@ -51,6 +55,7 @@
       <concept id="1233749247888" name="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration" flags="in" index="11bSqf" />
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
+      <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
       <concept id="1138056022639" name="jetbrains.mps.lang.smodel.structure.SPropertyAccess" flags="nn" index="3TrcHB">
         <reference id="1138056395725" name="property" index="3TsBF5" />
       </concept>
@@ -129,6 +134,26 @@
             <property role="lacIc" value=";" />
           </node>
         </node>
+        <node concept="3clFbJ" id="68TK0P1LfqN" role="3cqZAp">
+          <node concept="2OqwBi" id="68TK0P1LfqO" role="3clFbw">
+            <node concept="117lpO" id="68TK0P1LfqP" role="2Oq$k0" />
+            <node concept="2qgKlT" id="68TK0P1LfqQ" role="2OqNvi">
+              <ref role="37wK5l" to="ifqb:68TK0P1L56E" resolve="needsPostfixCompanion" />
+            </node>
+          </node>
+          <node concept="3clFbS" id="68TK0P1LfqR" role="3clFbx">
+            <node concept="lc7rE" id="68TK0P1LfqS" role="3cqZAp">
+              <node concept="l9hG8" id="68TK0P1LfqT" role="lcghm">
+                <node concept="2OqwBi" id="68TK0P1LfqU" role="lb14g">
+                  <node concept="117lpO" id="68TK0P1LfqV" role="2Oq$k0" />
+                  <node concept="2qgKlT" id="68TK0P1LfqW" role="2OqNvi">
+                    <ref role="37wK5l" to="ifqb:68TK0P1L7Je" resolve="postfixCompanionPrototypeText" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
     </node>
   </node>
@@ -199,6 +224,26 @@
               <node concept="117lpO" id="3LE5RBQaKHA" role="2Oq$k0" />
               <node concept="3TrEf2" id="3LE5RBQaLsl" role="2OqNvi">
                 <ref role="3Tt5mk" to="zhp8:7bt9OVZg8N_" resolve="body" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="68TK0P1LfqY" role="3cqZAp">
+          <node concept="2OqwBi" id="68TK0P1LfqZ" role="3clFbw">
+            <node concept="117lpO" id="68TK0P1Lfr0" role="2Oq$k0" />
+            <node concept="2qgKlT" id="68TK0P1Lfr1" role="2OqNvi">
+              <ref role="37wK5l" to="ifqb:68TK0P1L56E" resolve="needsPostfixCompanion" />
+            </node>
+          </node>
+          <node concept="3clFbS" id="68TK0P1Lfr2" role="3clFbx">
+            <node concept="lc7rE" id="68TK0P1Lfr3" role="3cqZAp">
+              <node concept="l9hG8" id="68TK0P1Lfr4" role="lcghm">
+                <node concept="2OqwBi" id="68TK0P1Lfr5" role="lb14g">
+                  <node concept="117lpO" id="68TK0P1Lfr6" role="2Oq$k0" />
+                  <node concept="2qgKlT" id="68TK0P1Lfr7" role="2OqNvi">
+                    <ref role="37wK5l" to="ifqb:68TK0P1L7JO" resolve="postfixCompanionDefinitionText" />
+                  </node>
+                </node>
               </node>
             </node>
           </node>

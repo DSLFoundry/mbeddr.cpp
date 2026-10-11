@@ -573,7 +573,7 @@
       <property role="1FkSt$" value="-g" />
       <property role="2AWWZI" value=" " />
       <property role="UXd52" value="g++" />
-      <property role="UXd4T" value="-std=c++11 -fpermissive" />
+      <property role="UXd4T" value="-std=c++11" />
     </node>
     <node concept="U5S10" id="4KmUErOYEdx" role="2Q9xDr" />
   </node>
