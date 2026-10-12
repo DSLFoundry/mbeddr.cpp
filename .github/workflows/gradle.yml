@@ -10,18 +10,51 @@ on:
     branches: [ main ]
   workflow_dispatch:
 
+# Cancel a stale run when a new push lands on the same branch/PR instead of
+# letting redundant runs pile up and burn CI minutes.
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
 jobs:
   build:
 
     runs-on: ubuntu-latest
+    # Guards against a hang (e.g. the indexing deadlock class of bug this repo
+    # already hit once) running until GitHub's default 6-hour cap instead of
+    # failing fast.
+    timeout-minutes: 30
 
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v5
     - name: Set up JDK 17
-      uses: actions/setup-java@v1
+      uses: actions/setup-java@v5
       with:
+        distribution: temurin
         java-version: 17
+        cache: gradle
+    - name: Install C++ build tools
+      run: sudo apt-get update && sudo apt-get install -y g++ make xvfb
     - name: Grant execute permission for gradlew
       run: chmod +x gradlew
-    - name: Build with Gradle
-      run: ./gradlew buildLanguages
+    - name: Build and test with Gradle
+      # testTsTests boots a real (headed) MPS/IntelliJ-platform instance even for
+      # headless-looking typesystem checks, so it needs a display -- Ubuntu runners
+      # have none, hence xvfb-run. --continue runs every independent task (e.g.
+      # both testTsTests and testExTests) even after one fails, so a single CI
+      # run reports every failure instead of stopping at the first one.
+      run: xvfb-run --auto-servernum ./gradlew build --continue
+    - name: Upload test reports
+      if: always()
+      uses: actions/upload-artifact@v5
+      with:
+        name: test-reports
+        path: |
+          tests/test.ex.com.mbeddr.cpp/source_gen/**/build/test-results/**
+          build/**/TEST-*.xml
+          build/**/test-results/**
+          build/reports/tests/unified/**
+        if-no-files-found: ignore
