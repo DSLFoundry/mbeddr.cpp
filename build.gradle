@@ -23,12 +23,8 @@ plugins {
     id 'base'
     id 'maven-publish'
     id "com.github.breadmoirai.github-release" version "2.5.2"
-    id 'download-jbr' version '1.29.3.1.19b70ba'
 }
 
-downloadJbr {
-    jbrVersion = '17.0.11-b1207.30'
-}
 
 def incrementalBuild = !project.hasProperty("disableIncrementalBuild")
 def artifactsDir = layout.buildDirectory.dir('artifacts').get().asFile
@@ -97,7 +93,6 @@ def defaultScriptClasspath = project.configurations.junitAnt.asFileTree
 // enables https://github.com/mbeddr/mps-gradle-plugin#providing-global-defaults
 ext["itemis.mps.gradle.ant.defaultScriptArgs"] = defaultScriptArgs.collect { "-D$it.key=$it.value".toString() }
 ext["itemis.mps.gradle.ant.defaultScriptClasspath"] = defaultScriptClasspath
-ext["itemis.mps.gradle.ant.defaultJavaExecutable"] = tasks.named('downloadJbr').get().javaExecutable
 
 // MPS's own generation cache (source_gen.caches/, next to each module's sources) tracks
 // what's "unmodified" independently of Gradle's build/ dir, so `clean` alone doesn't
@@ -113,7 +108,7 @@ gradle.taskGraph.whenReady { graph ->
 }
 
 
-task buildAllScripts(type: BuildLanguages, dependsOn: [resolveMps, resolveAllLanguageLibs, tasks.named('downloadJbr')]) {
+task buildAllScripts(type: BuildLanguages, dependsOn: [resolveMps, resolveAllLanguageLibs]) {
     script = "scripts/allScripts.xml"
 }
 
