@@ -89,8 +89,8 @@ def defaultScriptArgs = [
         'mps.home'                          : resolveMps.destinationDir,
         'build.dir'                         : layout.buildDirectory.get().asFile,
         'mps.generator.skipUnmodifiedModels': incrementalBuild,
-        'version'                           : mbeddrCppVersion,
-        'mbeddr.cpp.version'                : mbeddrCppVersion,
+        'version'                           : publishVersion,
+        'mbeddr.cpp.version'                : publishVersion,
 ]
 def defaultScriptClasspath = project.configurations.junitAnt.asFileTree
 
@@ -366,7 +366,7 @@ task setup {
 }
 
 
-def releaseArtifacts = ["${artifactsDir}/com.mbeddr.cpp/com.mbeddr.cpp-${mbeddrCppVersion}.zip"]
+def releaseArtifacts = ["${artifactsDir}/com.mbeddr.cpp/com.mbeddr.cpp-${publishVersion}.zip"]
 
 githubRelease {
     owner = ghRepository[0]
