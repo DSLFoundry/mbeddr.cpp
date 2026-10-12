@@ -70,11 +70,11 @@ def mbeddrCppVersion = project.findProperty("mbeddrCppVersion") ?: '0.1'
 // same GitHub Release, both fail on the second push (409/422). Append the CI run
 // number and short commit SHA -- GitHub Actions' equivalent of a build counter plus
 // git SHA, the same scheme iets3.core uses -- so every CI-triggered publish/release
-// gets a genuinely unique version. A plain local build (no GITHUB_REF_NAME) keeps
+// gets a genuinely unique version. A plain local build (no GITHUB_RUN_NUMBER) keeps
 // the bare base version. Only used for the published/released version identifier,
 // not for mbeddrCppVersion itself, which still names the actual build artifact.
-def publishVersion = System.getenv("GITHUB_REF_NAME") ?
-        "${mbeddrCppVersion}.${System.getenv('GITHUB_REF_NAME')}.${(System.getenv('GITHUB_SHA') ?: '').take(7)}" :
+def publishVersion = System.getenv("GITHUB_RUN_NUMBER") ?
+        "${mbeddrCppVersion}.${(System.getenv('GITHUB_SHA') ?: '').take(7)}" :
         mbeddrCppVersion
 
 // GITHUB_REPOSITORY (owner/repo) is set automatically by GitHub Actions for every
