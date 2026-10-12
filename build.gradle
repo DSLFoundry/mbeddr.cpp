@@ -41,9 +41,9 @@ configurations {
 }
 
 dependencies {
-    mps "com.jetbrains:mps:2023.2.3"
-    languageLibs "com.mbeddr:mbeddr:2023.2.26277.f5ef6b6"
-    languageLibs "de.itemis.mps:extensions:2023.2.3623.35b8c5e"
+    mps "com.jetbrains:mps:2023.2.+"
+    languageLibs "com.mbeddr:mbeddr:2023.2.+"
+    languageLibs "de.itemis.mps:extensions:2023.2.+"
     junitAnt 'org.apache.ant:ant-junit:1.10.17'
 }
 
@@ -119,6 +119,20 @@ task buildAllScripts(type: BuildLanguages, dependsOn: [resolveMps, resolveAllLan
 
 task buildLanguages(type: BuildLanguages, dependsOn: buildAllScripts) {
     script = "${layout.buildDirectory.get().asFile}/cppBuild.xml"
+}
+// Workaround: mbeddr 2023.2 marks com.mbeddr.core.expressions.runtime as doNotCompile,
+// so MPS's build generator drops its jar from dependents' javac classpath.
+// Remove once mbeddr publishes a build without that flag.
+buildLanguages.doFirst { task ->
+    def scriptFile = file(task.script)
+    def exprJar = '<fileset file="${artifacts.mbeddr}/mbeddr.core/languages/com.mbeddr.core/com.mbeddr.core.expressions.jar" />'
+    def runtimeJar = '<fileset file="${artifacts.mbeddr}/mbeddr.core/languages/com.mbeddr.core/com.mbeddr.core.expressions.runtime.jar" />'
+    def text = scriptFile.text
+    if (text.contains(runtimeJar)) return
+    if (!text.contains(exprJar)) {
+        throw new GradleException("${scriptFile.name} layout changed; expressions.runtime classpath workaround no longer applies")
+    }
+    scriptFile.text = text.replace(exprJar, exprJar + '\n        ' + runtimeJar)
 }
 
 task packageLanguages(type: Zip, dependsOn: buildLanguages) {
