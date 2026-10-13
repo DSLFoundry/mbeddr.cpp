@@ -37,9 +37,9 @@ configurations {
 }
 
 dependencies {
-    mps "com.jetbrains:mps:2023.2.+"
-    languageLibs "com.mbeddr:mbeddr:2023.2.+"
-    languageLibs "de.itemis.mps:extensions:2023.2.+"
+    mps "com.jetbrains:mps:2024.1.+"
+    languageLibs "com.mbeddr:mbeddr:2024.1.+"
+    languageLibs "de.itemis.mps:extensions:2024.1.+"
     junitAnt 'org.apache.ant:ant-junit:1.10.17'
 }
 
