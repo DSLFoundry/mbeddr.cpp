@@ -168,7 +168,7 @@
       <property role="1FkSt$" value="-g" />
       <property role="2AWWZI" value=" " />
       <property role="UXd52" value="g++" />
-      <property role="UXd4T" value="-std=c++11 -fpermissive" />
+      <property role="UXd4T" value="-std=c++11" />
     </node>
     <node concept="2Q9Fgs" id="6WSa0snB9z3" role="2Q9xDr">
       <node concept="2Q9FjX" id="6WSa0snB9z4" role="2Q9FjI" />

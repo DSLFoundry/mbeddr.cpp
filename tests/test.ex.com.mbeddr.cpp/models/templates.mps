@@ -293,7 +293,7 @@
       <property role="1FkSt$" value="-g" />
       <property role="2AWWZI" value=" " />
       <property role="UXd52" value="g++" />
-      <property role="UXd4T" value="-std=c++11 -fpermissive" />
+      <property role="UXd4T" value="-std=c++11" />
     </node>
     <node concept="2eOfOl" id="4o2nsMgBpPF" role="2ePNbc">
       <property role="TrG5h" value="ex" />

@@ -166,9 +166,19 @@ task testTsTests(type: TestLanguages, dependsOn: [generateTsTests, buildLanguage
 }
 
 // test.ex.com.mbeddr.cpp: test modules that generate real C++, compiled and run as native binaries
+// Written only when generation succeeds, so CI can tell whether the generated
+// sources are complete before re-running testExTests with another compiler.
+def exTestsGeneratedMarker = file("${layout.buildDirectory.get().asFile}/exTestsGenerated")
+
 task generateExTests(type: RunAntScript, dependsOn: [buildAllScripts, buildLanguages]) {
     script = "${layout.buildDirectory.get().asFile}/cppExTestsBuild.xml"
     targets = ['generate']
+    doFirst {
+        delete exTestsGeneratedMarker
+    }
+    doLast {
+        exTestsGeneratedMarker.text = ''
+    }
 }
 
 task testExTests(dependsOn: generateExTests) {
@@ -195,15 +205,24 @@ task testExTests(dependsOn: generateExTests) {
         // machine by fanning out N-wide processes N-wide again inside each one.
         // Output from concurrent processes interleaves in the log; that's an
         // accepted trade-off for the wall-clock win.
+        // -PexTestsCxx=clang++ (or any other C++ compiler) rebuilds the generated code
+        // with that compiler instead of the Makefiles' default g++ -- CI uses it to
+        // also check the output against clang, which is what macOS users get as g++.
+        // A command-line CXX overrides the Makefile's own assignment; the clean makes
+        // sure nothing built by the previous compiler is reused.
+        def cxxOverride = project.findProperty('exTestsCxx')
         def pool = Executors.newFixedThreadPool(Runtime.runtime.availableProcessors())
         def runMake = { File dir ->
-            logger.lifecycle("make in ${dir}")
-            def proc = new ProcessBuilder('make')
-                    .directory(dir)
-                    .redirectOutput(ProcessBuilder.Redirect.INHERIT)
-                    .redirectError(ProcessBuilder.Redirect.INHERIT)
-                    .start()
-            proc.waitFor() == 0
+            logger.lifecycle("make in ${dir}${cxxOverride ? " (CXX=${cxxOverride})" : ''}")
+            def make = { List<String> command ->
+                new ProcessBuilder(command)
+                        .directory(dir)
+                        .redirectOutput(ProcessBuilder.Redirect.INHERIT)
+                        .redirectError(ProcessBuilder.Redirect.INHERIT)
+                        .start()
+                        .waitFor() == 0
+            }
+            cxxOverride ? (make(['make', 'clean']) && make(['make', "CXX=${cxxOverride}".toString()])) : make(['make'])
         }
         try {
             // Compile every directory even if one fails to build -- a broken module

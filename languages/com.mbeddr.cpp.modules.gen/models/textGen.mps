@@ -15,7 +15,8 @@
     <import index="x27k" ref="r:75ecab8a-8931-4140-afc6-4b46398710fc(com.mbeddr.core.modules.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
     <import index="f5gc" ref="r:6a521ed1-40f9-42de-a2e3-a84be0e00a18(com.mbeddr.cpp.templates.textGen)" />
-    <import index="pmno" ref="r:fb787694-3ba8-4e1e-89dc-c410426eb36e(com.mbeddr.cpp.modules.gen.structure)" implicit="true" />
+    <import index="ifqb" ref="r:b69271f0-a5f0-460a-ac98-e40901bc3cd0(com.mbeddr.cpp.operator_overload.behavior)" />
+    <import index="pmno" ref="r:fb787694-3ba8-4e1e-89dc-c410426eb36e(com.mbeddr.cpp.modules.gen.structure)" />
     <import index="qd6m" ref="r:c4c3f7d3-0acf-4671-a134-5fab66c4e637(com.mbeddr.core.modules.behavior)" implicit="true" />
     <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" implicit="true" />
     <import index="zhp8" ref="r:66d213c1-a12b-4017-8dd5-0423703c30a9(com.mbeddr.cpp.operator_overload.structure)" implicit="true" />
@@ -446,6 +447,26 @@
               <node concept="117lpO" id="3LE5RBQ$FAs" role="2Oq$k0" />
               <node concept="3TrEf2" id="6FnHX$GP7qm" role="2OqNvi">
                 <ref role="3Tt5mk" to="zhp8:7bt9OVZg8N_" resolve="body" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="68TK0P1Lfr9" role="3cqZAp">
+          <node concept="2OqwBi" id="68TK0P1Lfra" role="3clFbw">
+            <node concept="117lpO" id="68TK0P1Lfrb" role="2Oq$k0" />
+            <node concept="2qgKlT" id="68TK0P1Lfrc" role="2OqNvi">
+              <ref role="37wK5l" to="ifqb:68TK0P1L56E" resolve="needsPostfixCompanion" />
+            </node>
+          </node>
+          <node concept="3clFbS" id="68TK0P1Lfrd" role="3clFbx">
+            <node concept="lc7rE" id="68TK0P1Lfre" role="3cqZAp">
+              <node concept="l9hG8" id="68TK0P1Lfrf" role="lcghm">
+                <node concept="2OqwBi" id="68TK0P1Lfrg" role="lb14g">
+                  <node concept="117lpO" id="68TK0P1Lfrh" role="2Oq$k0" />
+                  <node concept="2qgKlT" id="68TK0P1Lfri" role="2OqNvi">
+                    <ref role="37wK5l" to="ifqb:68TK0P1L7JO" resolve="postfixCompanionDefinitionText" />
+                  </node>
+                </node>
               </node>
             </node>
           </node>
@@ -926,6 +947,34 @@
               <node concept="117lpO" id="3L3ootSwNEE" role="2Oq$k0" />
               <node concept="3TrEf2" id="3L3ootSwO8r" role="2OqNvi">
                 <ref role="3Tt5mk" to="wnzg:3L3ootRECAp" resolve="target" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="WtQ9Q" id="68TK0P216lU">
+    <ref role="WuzLi" to="pmno:68TK0P216lP" resolve="GenPointerMemberAccess" />
+    <node concept="11bSqf" id="68TK0P216lV" role="11c4hB">
+      <node concept="3clFbS" id="68TK0P216lW" role="2VODD2">
+        <node concept="lc7rE" id="68TK0P216lX" role="3cqZAp">
+          <node concept="l9hG8" id="68TK0P216lY" role="lcghm">
+            <node concept="2OqwBi" id="68TK0P216lZ" role="lb14g">
+              <node concept="117lpO" id="68TK0P216m0" role="2Oq$k0" />
+              <node concept="3TrEf2" id="68TK0P216m1" role="2OqNvi">
+                <ref role="3Tt5mk" to="mj1l:6iIoqg1yDLg" resolve="expression" />
+              </node>
+            </node>
+          </node>
+          <node concept="la8eA" id="68TK0P216m2" role="lcghm">
+            <property role="lacIc" value="-&gt;" />
+          </node>
+          <node concept="l9hG8" id="68TK0P216m3" role="lcghm">
+            <node concept="2OqwBi" id="68TK0P216m4" role="lb14g">
+              <node concept="117lpO" id="68TK0P216m5" role="2Oq$k0" />
+              <node concept="3TrEf2" id="68TK0P216m6" role="2OqNvi">
+                <ref role="3Tt5mk" to="mj1l:66uzewbvZib" resolve="target" />
               </node>
             </node>
           </node>

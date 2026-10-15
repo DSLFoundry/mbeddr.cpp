@@ -25,10 +25,14 @@
     <import index="1yyn" ref="r:64e0a2a9-7957-424b-8102-a5e8a7a73035(com.mbeddr.cpp.templates.structure)" />
     <import index="zhp8" ref="r:66d213c1-a12b-4017-8dd5-0423703c30a9(com.mbeddr.cpp.operator_overload.structure)" />
     <import index="mj1l" ref="r:c371cf98-dcc8-4a43-8eb8-8a8096de18b2(com.mbeddr.core.expressions.structure)" />
+    <import index="hqhc" ref="r:9ce47a08-031d-4637-a8ea-d2a3789a14cc(com.mbeddr.cpp.modules.gen.behavior)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="85w" ref="r:104df616-5c18-47eb-a8e4-393dc7bbcf94(com.mbeddr.cpp.modules.behavior)" implicit="true" />
   </imports>
   <registry>
+    <language id="13744753-c81f-424a-9c1b-cf8943bf4e86" name="jetbrains.mps.lang.sharedConcepts">
+      <concept id="1161622665029" name="jetbrains.mps.lang.sharedConcepts.structure.ConceptFunctionParameter_model" flags="nn" index="1Q6Npb" />
+    </language>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
       <concept id="1080223426719" name="jetbrains.mps.baseLanguage.structure.OrExpression" flags="nn" index="22lmx$" />
       <concept id="1215693861676" name="jetbrains.mps.baseLanguage.structure.BaseAssignmentExpression" flags="nn" index="d038R">
@@ -45,6 +49,9 @@
       </concept>
       <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
         <property id="1070475926801" name="value" index="Xl_RC" />
+      </concept>
+      <concept id="1081236700937" name="jetbrains.mps.baseLanguage.structure.StaticMethodCall" flags="nn" index="2YIFZM">
+        <reference id="1144433194310" name="classConcept" index="1Pybhc" />
       </concept>
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
         <child id="1068431790190" name="initializer" index="33vP2m" />
@@ -85,6 +92,7 @@
       </concept>
       <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ngI" index="1ndlxa">
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
+        <child id="1068499141038" name="actualArgument" index="37wK5m" />
       </concept>
       <concept id="1081773326031" name="jetbrains.mps.baseLanguage.structure.BinaryOperation" flags="nn" index="3uHJSO">
         <child id="1081773367579" name="rightExpression" index="3uHU7w" />
@@ -129,6 +137,7 @@
         <child id="1200911492601" name="mappingLabel" index="2rTMjI" />
         <child id="1167328349397" name="reductionMappingRule" index="3acgRq" />
         <child id="1167514678247" name="rootMappingRule" index="3lj3bC" />
+        <child id="1195502100749" name="preMappingScript" index="1puA0r" />
       </concept>
       <concept id="1177093525992" name="jetbrains.mps.lang.generator.structure.InlineTemplate_RuleConsequence" flags="lg" index="gft3U">
         <child id="1177093586806" name="templateNode" index="gfFT$" />
@@ -168,6 +177,15 @@
       </concept>
       <concept id="1167514355419" name="jetbrains.mps.lang.generator.structure.Root_MappingRule" flags="lg" index="3lhOvk">
         <reference id="1167514355421" name="template" index="3lhOvi" />
+      </concept>
+      <concept id="1195499912406" name="jetbrains.mps.lang.generator.structure.MappingScript" flags="lg" index="1pmfR0">
+        <property id="1195595592106" name="scriptKind" index="1v3f2W" />
+        <property id="1195595611951" name="modifiesModel" index="1v3jST" />
+        <child id="1195501105008" name="codeBlock" index="1pqMTA" />
+      </concept>
+      <concept id="1195500722856" name="jetbrains.mps.lang.generator.structure.MappingScript_CodeBlock" flags="in" index="1pplIY" />
+      <concept id="1195502151594" name="jetbrains.mps.lang.generator.structure.MappingScriptReference" flags="lg" index="1puMqW">
+        <reference id="1195502167610" name="mappingScript" index="1puQsG" />
       </concept>
       <concept id="1167756080639" name="jetbrains.mps.lang.generator.structure.PropertyMacro_GetPropertyValue" flags="in" index="3zFVjK" />
       <concept id="1167770111131" name="jetbrains.mps.lang.generator.structure.ReferenceMacro_GetReferent" flags="in" index="3$xsQk" />
@@ -1567,6 +1585,22 @@
                 <node concept="3clFbF" id="5HgCzLvXPGi" role="3cqZAp">
                   <node concept="37vLTw" id="5HgCzLvXPGj" role="3clFbG">
                     <ref role="3cqZAo" node="5HgCzLvXPFU" resolve="output" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="17Uvod" id="68TK0P1KsZs" role="lGtFl">
+            <property role="P4ACc" value="8c081446-e4ba-48b7-a7e0-3db40e2c3439/137823117410394117/1655951865576146579" />
+            <property role="2qtEX9" value="real_name" />
+            <node concept="3zFVjK" id="68TK0P1KsZt" role="3zH0cK">
+              <node concept="3clFbS" id="68TK0P1KsZu" role="2VODD2">
+                <node concept="3clFbF" id="68TK0P1KsZv" role="3cqZAp">
+                  <node concept="2OqwBi" id="68TK0P1KsZw" role="3clFbG">
+                    <node concept="30H73N" id="68TK0P1KsZx" role="2Oq$k0" />
+                    <node concept="3TrcHB" id="68TK0P1KsZy" role="2OqNvi">
+                      <ref role="3TsBF5" to="wnzg:1rV7RaSNWqj" resolve="real_name" />
+                    </node>
                   </node>
                 </node>
               </node>
@@ -6351,6 +6385,28 @@
           <ref role="v9R2y" node="1yn8PkyOfZN" resolve="TemplateClassRecursion" />
         </node>
       </node>
+    </node>
+  </node>
+  <node concept="1pmfR0" id="68TK0P1SPys">
+    <property role="TrG5h" value="adaptCModulesForCpp" />
+    <property role="1v3f2W" value="pre_processing" />
+    <property role="1v3jST" value="true" />
+    <node concept="1pplIY" id="68TK0P1SPyt" role="1pqMTA">
+      <node concept="3clFbS" id="68TK0P1SPyu" role="2VODD2">
+        <node concept="3clFbF" id="68TK0P1SPyv" role="3cqZAp">
+          <node concept="2YIFZM" id="68TK0P1SPyw" role="3clFbG">
+            <ref role="1Pybhc" to="hqhc:68TK0P1SpZ9" resolve="CToCppAdapter" />
+            <ref role="37wK5l" to="hqhc:68TK0P1SpZb" resolve="adapt" />
+            <node concept="1Q6Npb" id="68TK0P1SPyx" role="37wK5m" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="bUwia" id="68TK0P1SPyy">
+    <property role="TrG5h" value="adaptCForCpp" />
+    <node concept="1puMqW" id="68TK0P1SPyz" role="1puA0r">
+      <ref role="1puQsG" node="68TK0P1SPys" resolve="adaptCModulesForCpp" />
     </node>
   </node>
 </model>

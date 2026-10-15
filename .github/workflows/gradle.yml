@@ -37,7 +37,7 @@ jobs:
         java-version: 17
         cache: gradle
     - name: Install C++ build tools
-      run: sudo apt-get update && sudo apt-get install -y g++ make xvfb
+      run: sudo apt-get update && sudo apt-get install -y g++ clang make xvfb
     - name: Grant execute permission for gradlew
       run: chmod +x gradlew
     - name: Build and test with Gradle
@@ -47,6 +47,15 @@ jobs:
       # both testTsTests and testExTests) even after one fails, so a single CI
       # run reports every failure instead of stopping at the first one.
       run: xvfb-run --auto-servernum ./gradlew build --continue
+    - name: Rebuild and run test.ex binaries with clang
+      # The step above compiles the generated C++ with GCC. macOS users get clang
+      # as "g++", which rejects things GCC lets through, so compile and run the
+      # same generated sources once more with clang++ (no regeneration needed).
+      # Runs even if the step above failed (e.g. a GCC or ts-test failure), but
+      # only when generateExTests completed -- otherwise there is nothing to
+      # compile and this step would just add a second, misleading failure.
+      if: ${{ !cancelled() && hashFiles('build/exTestsGenerated') != '' }}
+      run: ./gradlew testExTests -x generateExTests -PexTestsCxx=clang++
     - name: Upload test reports
       if: always()
       uses: actions/upload-artifact@v5

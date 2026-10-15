@@ -968,7 +968,7 @@
       <property role="2AWWZJ" value="g++" />
       <property role="2AWWZI" value=" " />
       <property role="UXd52" value="g++" />
-      <property role="UXd4T" value="-std=c++11 -fpermissive" />
+      <property role="UXd4T" value="-std=c++11" />
       <property role="3r8Kw1" value="gdb" />
       <property role="1FkSt$" value="-g" />
     </node>

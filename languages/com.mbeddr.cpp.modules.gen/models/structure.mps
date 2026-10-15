@@ -10,6 +10,7 @@
     <import index="x27k" ref="r:75ecab8a-8931-4140-afc6-4b46398710fc(com.mbeddr.core.modules.structure)" />
     <import index="zhp8" ref="r:66d213c1-a12b-4017-8dd5-0423703c30a9(com.mbeddr.cpp.operator_overload.structure)" />
     <import index="1yyn" ref="r:64e0a2a9-7957-424b-8102-a5e8a7a73035(com.mbeddr.cpp.templates.structure)" />
+    <import index="mj1l" ref="r:c371cf98-dcc8-4a43-8eb8-8a8096de18b2(com.mbeddr.core.expressions.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -45,6 +46,7 @@
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <property id="1156234966388" name="shortDescription" index="OYnhT" />
         <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
       </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
@@ -150,6 +152,12 @@
     <node concept="PrWs8" id="7AGjRMZOE7e" role="PzmwI">
       <ref role="PrY4T" to="1yyn:ZKpU3C47B6" resolve="ITemplateImpl" />
     </node>
+  </node>
+  <node concept="1TIwiD" id="68TK0P216lP">
+    <property role="TrG5h" value="GenPointerMemberAccess" />
+    <property role="EcuMT" value="7077899452564137333" />
+    <property role="OYnhT" value="struct member access through a pointer whose arrow was decided before generation; always emitted as expression-&gt;target (generation helper)" />
+    <ref role="1TJDcQ" to="mj1l:40tXLnqhyKc" resolve="GenericDotExpression" />
   </node>
 </model>
 

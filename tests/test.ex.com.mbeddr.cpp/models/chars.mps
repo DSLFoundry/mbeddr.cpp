@@ -2,6 +2,7 @@
 <model ref="r:a7bed5ed-3eae-48d0-9bbb-3c177a83b1a3(test.ex.com.mbeddr.cpp.chars)">
   <persistence version="9" />
   <languages>
+    <engage id="236f3e56-2360-4657-9b9d-0cb84f56784d" name="com.mbeddr.cpp.modules.gen" />
     <devkit ref="bdd1ab49-ce55-4bff-86d1-5394fa0aa930(com.mbeddr.cpp)" />
   </languages>
   <imports />
@@ -145,7 +146,7 @@
       <property role="1FkSt$" value="-g" />
       <property role="2AWWZI" value=" " />
       <property role="UXd52" value="g++" />
-      <property role="UXd4T" value="-std=c++11 -fpermissive" />
+      <property role="UXd4T" value="-std=c++11" />
     </node>
     <node concept="U5S10" id="4KmUErOYEdr" role="2Q9xDr" />
   </node>

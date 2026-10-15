@@ -79,6 +79,11 @@
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
     </language>
+    <language id="9d69e719-78c8-4286-90db-fb19c107d049" name="com.mbeddr.mpsutil.grammarcells">
+      <concept id="7363578995839203705" name="com.mbeddr.mpsutil.grammarcells.structure.FlagCell" flags="sg" stub="1984422498400729024" index="1kHk_G">
+        <property id="7617962380315063287" name="flagText" index="ZjSer" />
+      </concept>
+    </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
       <concept id="1138056022639" name="jetbrains.mps.lang.smodel.structure.SPropertyAccess" flags="nn" index="3TrcHB">
         <reference id="1138056395725" name="property" index="3TsBF5" />
@@ -127,11 +132,15 @@
       <node concept="PMmxH" id="3LE5RBPSwl0" role="3EZMnx">
         <ref role="PMmxG" to="gkp7:59MAV0yaZn2" resolve="AccessModifier" />
       </node>
-      <node concept="PMmxH" id="1D2kn9asXWn" role="3EZMnx">
-        <ref role="PMmxG" to="gkp7:1D2kn9asHis" resolve="ExplicitFlag" />
+      <node concept="1kHk_G" id="1D2kn9asHiu" role="3EZMnx">
+        <property role="ZjSer" value="explicit" />
+        <ref role="1NtTu8" to="wnzg:1D2kn9asHiy" resolve="isExplicit" />
+        <ref role="1k5W1q" to="r4b4:2CEi94dgHKA" resolve="KW" />
       </node>
-      <node concept="PMmxH" id="1D2kn9asXV_" role="3EZMnx">
-        <ref role="PMmxG" to="gkp7:1Yr26itwsTs" resolve="InlineFlag" />
+      <node concept="1kHk_G" id="1Yr26itwsTu" role="3EZMnx">
+        <property role="ZjSer" value="inline" />
+        <ref role="1NtTu8" to="wnzg:1Yr26itwsT0" resolve="isInlined" />
+        <ref role="1k5W1q" to="r4b4:2CEi94dgHKA" resolve="KW" />
       </node>
       <node concept="PMmxH" id="3LE5RBQoSTw" role="3EZMnx">
         <ref role="PMmxG" node="7bt9OVZg7dU" resolve="operatorOverloadSignature" />
