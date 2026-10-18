@@ -3,7 +3,7 @@
   <persistence version="9" />
   <languages>
     <use id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior" version="2" />
-    <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
+    <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="3" />
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="12" />
     <devkit ref="2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)" />
   </languages>
@@ -38,6 +38,7 @@
       </concept>
       <concept id="1225194628440" name="jetbrains.mps.lang.behavior.structure.SuperNodeExpression" flags="nn" index="13iAh5" />
       <concept id="1225194691553" name="jetbrains.mps.lang.behavior.structure.ThisNodeExpression" flags="nn" index="13iPFW" />
+      <concept id="3235159848334022093" name="jetbrains.mps.lang.behavior.structure.Node_ConceptMethodCall" flags="nn" index="3zqWPK" />
     </language>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
       <concept id="1215693861676" name="jetbrains.mps.baseLanguage.structure.BaseAssignmentExpression" flags="nn" index="d038R">
@@ -129,15 +130,9 @@
       </concept>
     </language>
     <language id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc">
-      <concept id="5349172909345501395" name="jetbrains.mps.baseLanguage.javadoc.structure.BaseDocComment" flags="ng" index="P$AiS">
-        <child id="8465538089690331502" name="body" index="TZ5H$" />
-      </concept>
       <concept id="5349172909345532724" name="jetbrains.mps.baseLanguage.javadoc.structure.MethodDocComment" flags="ng" index="P$JXv" />
-      <concept id="8465538089690331500" name="jetbrains.mps.baseLanguage.javadoc.structure.CommentLine" flags="ng" index="TZ5HA">
-        <child id="8970989240999019149" name="part" index="1dT_Ay" />
-      </concept>
-      <concept id="8970989240999019143" name="jetbrains.mps.baseLanguage.javadoc.structure.TextCommentLinePart" flags="ng" index="1dT_AC">
-        <property id="8970989240999019144" name="text" index="1dT_AB" />
+      <concept id="5085607816302529296" name="jetbrains.mps.baseLanguage.javadoc.structure.IHoldCommentLines" flags="ngI" index="1VezTd">
+        <child id="5085607816302529587" name="commentBody" index="1Vez_I" />
       </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
@@ -147,7 +142,6 @@
       <concept id="1138411891628" name="jetbrains.mps.lang.smodel.structure.SNodeOperation" flags="nn" index="eCIE_">
         <child id="1144104376918" name="parameter" index="1xVPHs" />
       </concept>
-      <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
       <concept id="4693937538533521280" name="jetbrains.mps.lang.smodel.structure.OfConceptOperation" flags="ng" index="v3k3i">
         <child id="4693937538533538124" name="requestedConcept" index="v3oSu" />
       </concept>
@@ -734,7 +728,7 @@
                   <node concept="2GrUjf" id="7mGKYHhDyt1" role="2Oq$k0">
                     <ref role="2Gs0qQ" node="7mGKYHhD7v8" resolve="d" />
                   </node>
-                  <node concept="2qgKlT" id="7mGKYHhDyXD" role="2OqNvi">
+                  <node concept="3zqWPK" id="62SrzyM_L2$" role="2OqNvi">
                     <ref role="37wK5l" to="kntn:7mGKYHhDe0H" resolve="getRequiredImports" />
                   </node>
                 </node>
@@ -908,9 +902,30 @@
         <node concept="3Tqbb2" id="4k76AKYmdeQ" role="A3Ik2" />
       </node>
       <node concept="P$JXv" id="3J_5hL3JN4U" role="lGtFl">
-        <node concept="TZ5HA" id="3J_5hL3JN4V" role="TZ5H$">
-          <node concept="1dT_AC" id="3J_5hL3JN4W" role="1dT_Ay">
-            <property role="1dT_AB" value="Mirrors CPPImplmentationModule#importsForHeader. See that method for detailed explanations." />
+        <node concept="1PaTwC" id="62SrzyM_LeI" role="1Vez_I">
+          <node concept="3oM_SD" id="62SrzyM_LeJ" role="1PaTwD">
+            <property role="3oM_SC" value="Mirrors" />
+          </node>
+          <node concept="3oM_SD" id="62SrzyM_LeK" role="1PaTwD">
+            <property role="3oM_SC" value="CPPImplmentationModule#importsForHeader." />
+          </node>
+          <node concept="3oM_SD" id="62SrzyM_LeL" role="1PaTwD">
+            <property role="3oM_SC" value="See" />
+          </node>
+          <node concept="3oM_SD" id="62SrzyM_LeM" role="1PaTwD">
+            <property role="3oM_SC" value="that" />
+          </node>
+          <node concept="3oM_SD" id="62SrzyM_LeN" role="1PaTwD">
+            <property role="3oM_SC" value="method" />
+          </node>
+          <node concept="3oM_SD" id="62SrzyM_LeO" role="1PaTwD">
+            <property role="3oM_SC" value="for" />
+          </node>
+          <node concept="3oM_SD" id="62SrzyM_LeP" role="1PaTwD">
+            <property role="3oM_SC" value="detailed" />
+          </node>
+          <node concept="3oM_SD" id="62SrzyM_LeQ" role="1PaTwD">
+            <property role="3oM_SC" value="explanations." />
           </node>
         </node>
       </node>
@@ -925,7 +940,7 @@
           <node concept="2OqwBi" id="ZKpU3BIW98" role="3clFbG">
             <node concept="2OqwBi" id="ZKpU3BIVHP" role="2Oq$k0">
               <node concept="13iAh5" id="ZKpU3BIVHQ" role="2Oq$k0" />
-              <node concept="2qgKlT" id="ZKpU3BIVHR" role="2OqNvi">
+              <node concept="3zqWPK" id="62SrzyM_L2A" role="2OqNvi">
                 <ref role="37wK5l" to="qd6m:1H6zsul5X7v" resolve="allFunctionsWithoutInlineFunctionsForHeader" />
               </node>
             </node>
@@ -1102,14 +1117,122 @@
         </node>
       </node>
       <node concept="P$JXv" id="3J_5hL3JSVh" role="lGtFl">
-        <node concept="TZ5HA" id="3J_5hL3JSVi" role="TZ5H$">
-          <node concept="1dT_AC" id="3J_5hL3JSVj" role="1dT_Ay">
-            <property role="1dT_AB" value="Generates an empty initializer so that they can be included in the header where nothing is in scope for them" />
+        <node concept="1PaTwC" id="62SrzyM_LeR" role="1Vez_I">
+          <node concept="3oM_SD" id="62SrzyM_LeS" role="1PaTwD">
+            <property role="3oM_SC" value="Generates" />
+          </node>
+          <node concept="3oM_SD" id="62SrzyM_LeT" role="1PaTwD">
+            <property role="3oM_SC" value="an" />
+          </node>
+          <node concept="3oM_SD" id="62SrzyM_LeU" role="1PaTwD">
+            <property role="3oM_SC" value="empty" />
+          </node>
+          <node concept="3oM_SD" id="62SrzyM_LeV" role="1PaTwD">
+            <property role="3oM_SC" value="initializer" />
+          </node>
+          <node concept="3oM_SD" id="62SrzyM_LeW" role="1PaTwD">
+            <property role="3oM_SC" value="so" />
+          </node>
+          <node concept="3oM_SD" id="62SrzyM_LeX" role="1PaTwD">
+            <property role="3oM_SC" value="that" />
+          </node>
+          <node concept="3oM_SD" id="62SrzyM_LeY" role="1PaTwD">
+            <property role="3oM_SC" value="they" />
+          </node>
+          <node concept="3oM_SD" id="62SrzyM_LeZ" role="1PaTwD">
+            <property role="3oM_SC" value="can" />
+          </node>
+          <node concept="3oM_SD" id="62SrzyM_Lf0" role="1PaTwD">
+            <property role="3oM_SC" value="be" />
+          </node>
+          <node concept="3oM_SD" id="62SrzyM_Lf1" role="1PaTwD">
+            <property role="3oM_SC" value="included" />
+          </node>
+          <node concept="3oM_SD" id="62SrzyM_Lf2" role="1PaTwD">
+            <property role="3oM_SC" value="in" />
+          </node>
+          <node concept="3oM_SD" id="62SrzyM_Lf3" role="1PaTwD">
+            <property role="3oM_SC" value="the" />
+          </node>
+          <node concept="3oM_SD" id="62SrzyM_Lf4" role="1PaTwD">
+            <property role="3oM_SC" value="header" />
+          </node>
+          <node concept="3oM_SD" id="62SrzyM_Lf5" role="1PaTwD">
+            <property role="3oM_SC" value="where" />
+          </node>
+          <node concept="3oM_SD" id="62SrzyM_Lf6" role="1PaTwD">
+            <property role="3oM_SC" value="nothing" />
+          </node>
+          <node concept="3oM_SD" id="62SrzyM_Lf7" role="1PaTwD">
+            <property role="3oM_SC" value="is" />
+          </node>
+          <node concept="3oM_SD" id="62SrzyM_Lf8" role="1PaTwD">
+            <property role="3oM_SC" value="in" />
+          </node>
+          <node concept="3oM_SD" id="62SrzyM_Lf9" role="1PaTwD">
+            <property role="3oM_SC" value="scope" />
+          </node>
+          <node concept="3oM_SD" id="62SrzyM_Lfa" role="1PaTwD">
+            <property role="3oM_SC" value="for" />
+          </node>
+          <node concept="3oM_SD" id="62SrzyM_Lfb" role="1PaTwD">
+            <property role="3oM_SC" value="them" />
           </node>
         </node>
-        <node concept="TZ5HA" id="3J_5hL3JT_s" role="TZ5H$">
-          <node concept="1dT_AC" id="3J_5hL3JT_t" role="1dT_Ay">
-            <property role="1dT_AB" value="They are invalid but they can still be generated since it's only something to wrap with a macro." />
+        <node concept="1PaTwC" id="62SrzyM_Lfc" role="1Vez_I">
+          <node concept="3oM_SD" id="62SrzyM_Lfd" role="1PaTwD">
+            <property role="3oM_SC" value="They" />
+          </node>
+          <node concept="3oM_SD" id="62SrzyM_Lfe" role="1PaTwD">
+            <property role="3oM_SC" value="are" />
+          </node>
+          <node concept="3oM_SD" id="62SrzyM_Lff" role="1PaTwD">
+            <property role="3oM_SC" value="invalid" />
+          </node>
+          <node concept="3oM_SD" id="62SrzyM_Lfg" role="1PaTwD">
+            <property role="3oM_SC" value="but" />
+          </node>
+          <node concept="3oM_SD" id="62SrzyM_Lfh" role="1PaTwD">
+            <property role="3oM_SC" value="they" />
+          </node>
+          <node concept="3oM_SD" id="62SrzyM_Lfi" role="1PaTwD">
+            <property role="3oM_SC" value="can" />
+          </node>
+          <node concept="3oM_SD" id="62SrzyM_Lfj" role="1PaTwD">
+            <property role="3oM_SC" value="still" />
+          </node>
+          <node concept="3oM_SD" id="62SrzyM_Lfk" role="1PaTwD">
+            <property role="3oM_SC" value="be" />
+          </node>
+          <node concept="3oM_SD" id="62SrzyM_Lfl" role="1PaTwD">
+            <property role="3oM_SC" value="generated" />
+          </node>
+          <node concept="3oM_SD" id="62SrzyM_Lfm" role="1PaTwD">
+            <property role="3oM_SC" value="since" />
+          </node>
+          <node concept="3oM_SD" id="62SrzyM_Lfn" role="1PaTwD">
+            <property role="3oM_SC" value="it's" />
+          </node>
+          <node concept="3oM_SD" id="62SrzyM_Lfo" role="1PaTwD">
+            <property role="3oM_SC" value="only" />
+          </node>
+          <node concept="3oM_SD" id="62SrzyM_Lfp" role="1PaTwD">
+            <property role="3oM_SC" value="something" />
+          </node>
+          <node concept="3oM_SD" id="62SrzyM_Lfq" role="1PaTwD">
+            <property role="3oM_SC" value="to" />
+          </node>
+          <node concept="3oM_SD" id="62SrzyM_Lfr" role="1PaTwD">
+            <property role="3oM_SC" value="wrap" />
+          </node>
+          <node concept="3oM_SD" id="62SrzyM_Lfs" role="1PaTwD">
+            <property role="3oM_SC" value="with" />
+          </node>
+          <node concept="3oM_SD" id="62SrzyM_Lft" role="1PaTwD">
+            <property role="3oM_SC" value="a" />
+          </node>
+          <node concept="3oM_SD" id="62SrzyM_Lfu" role="1PaTwD">
+            <property role="3oM_SC" value="macro." />
           </node>
         </node>
       </node>
@@ -1159,7 +1282,7 @@
                 <node concept="35c_gC" id="2OCJl3LwkKX" role="2Oq$k0">
                   <ref role="35c_gD" to="pmno:7DDmkzf7zb" resolve="GenConstructorPrototype" />
                 </node>
-                <node concept="2qgKlT" id="2OCJl3Lwptp" role="2OqNvi">
+                <node concept="3zqWPK" id="62SrzyM_L2C" role="2OqNvi">
                   <ref role="37wK5l" node="4KyQ_QhB97R" resolve="getNewInitializer" />
                 </node>
               </node>

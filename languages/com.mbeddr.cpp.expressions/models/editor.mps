@@ -17,6 +17,9 @@
     <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" implicit="true" />
   </imports>
   <registry>
+    <language id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior">
+      <concept id="3235159848334022093" name="jetbrains.mps.lang.behavior.structure.Node_ConceptMethodCall" flags="nn" index="3zqWPK" />
+    </language>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
       <concept id="5991739802479784074" name="jetbrains.mps.lang.editor.structure.MenuTypeNamed" flags="ng" index="22hDWg" />
       <concept id="5991739802479784073" name="jetbrains.mps.lang.editor.structure.MenuTypeDefault" flags="ng" index="22hDWj" />
@@ -104,7 +107,6 @@
       </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
-      <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
       <concept id="1138056022639" name="jetbrains.mps.lang.smodel.structure.SPropertyAccess" flags="nn" index="3TrcHB">
         <reference id="1138056395725" name="property" index="3TsBF5" />
       </concept>
@@ -246,7 +248,7 @@
           <node concept="3clFbF" id="gWE$qaeLZu" role="3cqZAp">
             <node concept="2OqwBi" id="gWE$qaeMsw" role="3clFbG">
               <node concept="1WAUZh" id="gWE$qaeLZt" role="2Oq$k0" />
-              <node concept="2qgKlT" id="gWE$qaePe7" role="2OqNvi">
+              <node concept="3zqWPK" id="62SrzyM_L3A" role="2OqNvi">
                 <ref role="37wK5l" to="tpcu:hEwIMiw" resolve="getPresentation" />
               </node>
             </node>
@@ -267,7 +269,7 @@
           <node concept="3clFbF" id="gWE$qahx89" role="3cqZAp">
             <node concept="2OqwBi" id="gWE$qahx_b" role="3clFbG">
               <node concept="1WAUZh" id="gWE$qahx88" role="2Oq$k0" />
-              <node concept="2qgKlT" id="gWE$qahyfI" role="2OqNvi">
+              <node concept="3zqWPK" id="62SrzyM_L3C" role="2OqNvi">
                 <ref role="37wK5l" to="tpcu:hEwIMiw" resolve="getPresentation" />
               </node>
             </node>
