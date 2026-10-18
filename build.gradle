@@ -27,7 +27,7 @@ plugins {
 }
 
 downloadJbr {
-    jbrVersion = '17.0.11-b1207.30'
+    jbrVersion = '21.0.6-b895.109'
 }
 
 def incrementalBuild = !project.hasProperty("disableIncrementalBuild")
@@ -41,9 +41,9 @@ configurations {
 }
 
 dependencies {
-    mps "com.jetbrains:mps:2024.1.+"
-    languageLibs "com.mbeddr:mbeddr:2024.1.+"
-    languageLibs "de.itemis.mps:extensions:2024.1.+"
+    mps "com.jetbrains:mps:2025.1.+"
+    languageLibs "com.mbeddr:mbeddr:2025.1.+"
+    languageLibs "de.itemis.mps:extensions:2025.1.+"
     junitAnt 'org.apache.ant:ant-junit:1.10.17'
 }
 
