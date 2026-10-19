@@ -21,6 +21,9 @@
     <import index="kntn" ref="r:4090021e-0c8f-4cca-ab3f-590afb43a745(com.mbeddr.cpp.base.behavior)" />
   </imports>
   <registry>
+    <language id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior">
+      <concept id="3235159848334022093" name="jetbrains.mps.lang.behavior.structure.Node_ConceptMethodCall" flags="nn" index="3zqWPK" />
+    </language>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
       <concept id="5991739802479784074" name="jetbrains.mps.lang.editor.structure.MenuTypeNamed" flags="ng" index="22hDWg" />
       <concept id="5991739802479784073" name="jetbrains.mps.lang.editor.structure.MenuTypeDefault" flags="ng" index="22hDWj" />
@@ -205,7 +208,6 @@
       </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
-      <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
       <concept id="1171999116870" name="jetbrains.mps.lang.smodel.structure.Node_IsNullOperation" flags="nn" index="3w_OXm" />
       <concept id="1172008320231" name="jetbrains.mps.lang.smodel.structure.Node_IsNotNullOperation" flags="nn" index="3x8VRR" />
       <concept id="1180636770613" name="jetbrains.mps.lang.smodel.structure.SNodeCreator" flags="nn" index="3zrR0B">
@@ -1849,7 +1851,7 @@
           <node concept="3clFbF" id="gWE$qahx89" role="3cqZAp">
             <node concept="2OqwBi" id="gWE$qahx_b" role="3clFbG">
               <node concept="1WAUZh" id="gWE$qahx88" role="2Oq$k0" />
-              <node concept="2qgKlT" id="gWE$qahyfI" role="2OqNvi">
+              <node concept="3zqWPK" id="62SrzyM_L4Z" role="2OqNvi">
                 <ref role="37wK5l" to="tpcu:hEwIMiw" resolve="getPresentation" />
               </node>
             </node>
@@ -1891,7 +1893,7 @@
                 <node concept="3clFbF" id="dx81$JFaFo" role="3cqZAp">
                   <node concept="2OqwBi" id="dx81$JFaFq" role="3clFbG">
                     <node concept="pncrf" id="dx81$JFaFr" role="2Oq$k0" />
-                    <node concept="2qgKlT" id="r2pGceVWlJ" role="2OqNvi">
+                    <node concept="3zqWPK" id="62SrzyM_L51" role="2OqNvi">
                       <ref role="37wK5l" to="kntn:r2pGceUPkv" resolve="getNewEditorPresentation" />
                     </node>
                   </node>
@@ -1956,7 +1958,7 @@
                 <node concept="3fqX7Q" id="r2pGcf2AGi" role="3uHU7B">
                   <node concept="2OqwBi" id="r2pGcf2BpP" role="3fr31v">
                     <node concept="pncrf" id="r2pGcf2B1H" role="2Oq$k0" />
-                    <node concept="2qgKlT" id="r2pGcf2C76" role="2OqNvi">
+                    <node concept="3zqWPK" id="62SrzyM_L53" role="2OqNvi">
                       <ref role="37wK5l" to="kntn:dx81$JlDkz" resolve="removeEditorPresentation" />
                     </node>
                   </node>

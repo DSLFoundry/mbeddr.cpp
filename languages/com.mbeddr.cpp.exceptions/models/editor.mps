@@ -19,6 +19,9 @@
     <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" implicit="true" />
   </imports>
   <registry>
+    <language id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior">
+      <concept id="3235159848334022093" name="jetbrains.mps.lang.behavior.structure.Node_ConceptMethodCall" flags="nn" index="3zqWPK" />
+    </language>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
       <concept id="1402906326895675325" name="jetbrains.mps.lang.editor.structure.CellActionMap_FunctionParm_selectedNode" flags="nn" index="0IXxy" />
       <concept id="1071666914219" name="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" flags="ig" index="24kQdi" />
@@ -197,7 +200,6 @@
       <concept id="1140725362528" name="jetbrains.mps.lang.smodel.structure.Link_SetTargetOperation" flags="nn" index="2oxUTD">
         <child id="1140725362529" name="linkTarget" index="2oxUTC" />
       </concept>
-      <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
       <concept id="1171305280644" name="jetbrains.mps.lang.smodel.structure.Node_GetDescendantsOperation" flags="nn" index="2Rf3mk" />
       <concept id="1139184414036" name="jetbrains.mps.lang.smodel.structure.LinkList_AddNewChildOperation" flags="nn" index="WFELt">
         <reference id="1139877738879" name="concept" index="1A0vxQ" />
@@ -625,7 +627,7 @@
                               <node concept="2GrUjf" id="7POJCjggmon" role="2Oq$k0">
                                 <ref role="2Gs0qQ" node="7POJCjggmoe" resolve="statement" />
                               </node>
-                              <node concept="2qgKlT" id="7POJCjggmoo" role="2OqNvi">
+                              <node concept="3zqWPK" id="62SrzyM_L4e" role="2OqNvi">
                                 <ref role="37wK5l" to="tpcu:22G2W3WJ92t" resolve="getDetailedPresentation" />
                               </node>
                             </node>
@@ -745,7 +747,7 @@
                               <node concept="2GrUjf" id="7POJCjggmpb" role="2Oq$k0">
                                 <ref role="2Gs0qQ" node="7POJCjggmp2" resolve="statement" />
                               </node>
-                              <node concept="2qgKlT" id="7POJCjggmpc" role="2OqNvi">
+                              <node concept="3zqWPK" id="62SrzyM_L4g" role="2OqNvi">
                                 <ref role="37wK5l" to="tpcu:22G2W3WJ92t" resolve="getDetailedPresentation" />
                               </node>
                             </node>
