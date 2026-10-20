@@ -3,6 +3,12 @@
   <persistence version="9" />
   <languages>
     <use id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test" version="6" />
+    <use id="dd4979e3-3be6-46b3-9e1e-c36309e30758" name="com.mbeddr.cpp.modules" version="0" />
+    <use id="8c081446-e4ba-48b7-a7e0-3db40e2c3439" name="com.mbeddr.cpp.base" version="0" />
+    <use id="5e6018dc-dc26-4070-9526-663fdbfe4c10" name="com.mbeddr.cpp.templates" version="0" />
+    <use id="61c69711-ed61-4850-81d9-7714ff227fb0" name="com.mbeddr.core.expressions" version="5" />
+    <use id="6d11763d-483d-4b2b-8efc-09336c1b0001" name="com.mbeddr.core.modules" version="5" />
+    <use id="d4280a54-f6df-4383-aa41-d1b2bffa7eb1" name="com.mbeddr.core.base" version="6" />
     <devkit ref="bdd1ab49-ce55-4bff-86d1-5394fa0aa930(com.mbeddr.cpp)" />
   </languages>
   <imports>
@@ -23,6 +29,10 @@
       <concept id="1215607067978" name="jetbrains.mps.lang.test.structure.CheckNodeForErrorMessagesOperation" flags="ng" index="7OXhh">
         <property id="3743352646565420194" name="includeSelf" index="GvXf4" />
       </concept>
+      <concept id="511191073233700873" name="jetbrains.mps.lang.test.structure.ScopesTest" flags="ng" index="2rqxmr">
+        <reference id="5449224527592117654" name="checkingReference" index="1BTHP0" />
+        <child id="3655334166513314307" name="nodes" index="3KTr4d" />
+      </concept>
       <concept id="7691029917083872157" name="jetbrains.mps.lang.test.structure.IRuleReference" flags="ngI" index="2u4UPC">
         <reference id="8333855927540250453" name="declaration" index="39XzEq" />
       </concept>
@@ -38,6 +48,9 @@
       </concept>
       <concept id="1216989428737" name="jetbrains.mps.lang.test.structure.TestNode" flags="ng" index="1qefOq">
         <child id="1216989461394" name="nodeToCheck" index="1qenE9" />
+      </concept>
+      <concept id="3655334166513314291" name="jetbrains.mps.lang.test.structure.ScopesExpectedNode" flags="ng" index="3KTrbX">
+        <reference id="4052780437578824735" name="ref" index="3AHY9a" />
       </concept>
     </language>
     <language id="a9d69647-0840-491e-bf39-2eb0805d2011" name="com.mbeddr.core.statements">
@@ -84,8 +97,15 @@
       <concept id="4459718605982007337" name="com.mbeddr.core.base.structure.IConfigurationContainer" flags="ngI" index="2Q9xDo">
         <child id="4459718605982007338" name="configurationItems" index="2Q9xDr" />
       </concept>
+      <concept id="747084250476811597" name="com.mbeddr.core.base.structure.DefaultGenericChunkDependency" flags="ng" index="3GEVxB">
+        <property id="747084250476874891" name="reexport" index="3GEa6x" />
+        <reference id="747084250476878887" name="chunk" index="3GEb4d" />
+      </concept>
     </language>
     <language id="8c081446-e4ba-48b7-a7e0-3db40e2c3439" name="com.mbeddr.cpp.base">
+      <concept id="3604003506923204504" name="com.mbeddr.cpp.base.structure.NamespaceDeclaration" flags="ng" index="dq960">
+        <child id="3604003506923742410" name="members" index="ds5Fi" />
+      </concept>
       <concept id="7240228573262412204" name="com.mbeddr.cpp.base.structure.LocalClassVariableDeclaration" flags="ng" index="2dywKE" />
       <concept id="4511589886097466673" name="com.mbeddr.cpp.base.structure.InheritanceInstance" flags="ng" index="FysoC">
         <property id="4511589886097466677" name="visibility" index="FysoG" />
@@ -107,13 +127,22 @@
         <child id="4511589886097466568" name="ancestors" index="Fysvh" />
         <child id="5044697665789396304" name="members" index="3mBdys" />
       </concept>
+      <concept id="7864026881428739843" name="com.mbeddr.cpp.base.structure.GlobalVarDecCPP" flags="ng" index="3Iz7nb" />
     </language>
     <language id="6d11763d-483d-4b2b-8efc-09336c1b0001" name="com.mbeddr.core.modules">
+      <concept id="6116558314501417952" name="com.mbeddr.core.modules.structure.HeaderDescriptor" flags="ng" index="rcWE1" />
+      <concept id="6116558314501417921" name="com.mbeddr.core.modules.structure.ExternalModule" flags="ng" index="rcWEw">
+        <child id="6116558314501417978" name="descriptors" index="rcWEr" />
+      </concept>
+      <concept id="6116558314501417934" name="com.mbeddr.core.modules.structure.ExternalResourceDescriptor" flags="ng" index="rcWEJ">
+        <property id="6116558314501417936" name="path" index="rcWEL" />
+      </concept>
       <concept id="8967919205527146149" name="com.mbeddr.core.modules.structure.ReturnStatement" flags="ng" index="2BFjQ_">
         <child id="8967919205527146150" name="expression" index="2BFjQA" />
       </concept>
       <concept id="6437088627575722813" name="com.mbeddr.core.modules.structure.Module" flags="ng" index="N3F4X">
         <child id="6437088627575722833" name="contents" index="N3F5h" />
+        <child id="1317894735999304826" name="imports" index="2OODSX" />
       </concept>
       <concept id="6437088627575722831" name="com.mbeddr.core.modules.structure.IModuleContent" flags="ngI" index="N3F5f">
         <property id="1317894735999272944" name="exported" index="2OOxQR" />
@@ -122,6 +151,13 @@
         <child id="4185783222026475860" name="body" index="3XIRFY" />
       </concept>
       <concept id="8934095934011938595" name="com.mbeddr.core.modules.structure.EmptyModuleContent" flags="ng" index="2NXPZ9" />
+    </language>
+    <language id="5e6018dc-dc26-4070-9526-663fdbfe4c10" name="com.mbeddr.cpp.templates">
+      <concept id="1148531845765215498" name="com.mbeddr.cpp.templates.structure.TemplateClassDeclaration" flags="ng" index="3BZPaE" />
+      <concept id="1495115451834430404" name="com.mbeddr.cpp.templates.structure.TemplateValueParam" flags="ng" index="3Ct$hg" />
+      <concept id="1148531845755708899" name="com.mbeddr.cpp.templates.structure.ITemplate" flags="ngI" index="3Cz$93">
+        <child id="1148531845755708903" name="types" index="3Cz$97" />
+      </concept>
     </language>
     <language id="b341759a-c721-4072-90cf-328bb2724684" name="com.mbeddr.cpp.expressions">
       <concept id="5044697665789421241" name="com.mbeddr.cpp.expressions.structure.QualifiedMethodCall" flags="ng" index="3mBbHP">
@@ -1010,6 +1046,235 @@
           <node concept="7OXhh" id="32KsbhSQE6f" role="7EUXB">
             <property role="GvXf4" value="true" />
           </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1lH9Xt" id="3kyNclwBlGT">
+    <property role="3DII0k" value="2hh8MJdVwqX/command" />
+    <property role="TrG5h" value="ClassTypeModuleVisibility" />
+    <node concept="1qefOq" id="3kyNclwBlGU" role="1SKRRt">
+      <node concept="1whW_1" id="3kyNclwBlGW" role="1qenE9">
+        <property role="TrG5h" value="ScopeConsumer" />
+        <node concept="3mBW2U" id="3kyNclwBlGY" role="N3F5h">
+          <property role="2OOxQR" value="false" />
+          <property role="1wg9_F" value="2Ai0Gt9ODIs/public" />
+          <property role="TrG5h" value="ScopeLocal" />
+        </node>
+        <node concept="3BZPaE" id="3kyNclwBlGZ" role="N3F5h">
+          <property role="2OOxQR" value="true" />
+          <property role="1wg9_F" value="2Ai0Gt9ODIs/public" />
+          <property role="TrG5h" value="ScopeLocalTemplate" />
+          <node concept="3Ct$hg" id="3kyNclwBlH1" role="3Cz$97">
+            <property role="TrG5h" value="N" />
+            <node concept="26Vqph" id="3kyNclwBlH3" role="2C2TGm" />
+          </node>
+        </node>
+        <node concept="dq960" id="3kyNclwBlH4" role="N3F5h">
+          <property role="TrG5h" value="ScopeNamespace" />
+          <node concept="3mBW2U" id="3kyNclwBlH5" role="ds5Fi">
+            <property role="2OOxQR" value="false" />
+            <property role="1wg9_F" value="2Ai0Gt9ODIs/public" />
+            <property role="TrG5h" value="ScopeNamespaceClass" />
+          </node>
+        </node>
+        <node concept="3Iz7nb" id="3kyNclwBlH6" role="N3F5h">
+          <property role="TrG5h" value="scopeConsumerUse" />
+          <node concept="3mBfEi" id="3kyNclwBlH8" role="2C2TGm">
+            <ref role="3mBfEM" node="3kyNclwBlGY" />
+            <node concept="2rqxmr" id="3kyNclwBlI1" role="lGtFl">
+              <ref role="1BTHP0" node="3kyNclwBlGY" resolve="ScopeLocal" />
+              <node concept="3KTrbX" id="3kyNclwBlI2" role="3KTr4d">
+                <ref role="3AHY9a" node="3kyNclwBlGY" resolve="ScopeLocal" />
+              </node>
+              <node concept="3KTrbX" id="3kyNclwBlI3" role="3KTr4d">
+                <ref role="3AHY9a" node="3kyNclwBlH5" resolve="ScopeNamespaceClass" />
+              </node>
+              <node concept="3KTrbX" id="3kyNclwBlI4" role="3KTr4d">
+                <ref role="3AHY9a" node="3kyNclwBlHi" resolve="ScopeExternalClass" />
+              </node>
+              <node concept="3KTrbX" id="3kyNclwBlI5" role="3KTr4d">
+                <ref role="3AHY9a" node="3kyNclwBlHD" resolve="ScopeExported" />
+              </node>
+              <node concept="3KTrbX" id="3kyNclwBlI6" role="3KTr4d">
+                <ref role="3AHY9a" node="3kyNclwBlHJ" resolve="ScopeBridgeClass" />
+              </node>
+              <node concept="3KTrbX" id="3kyNclwBlI7" role="3KTr4d">
+                <ref role="3AHY9a" node="3kyNclwBlHQ" resolve="ScopeReexportedClass" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3Iz7nb" id="3kyNclwBlH9" role="N3F5h">
+          <property role="TrG5h" value="scopeImportedUse" />
+          <node concept="3mBfEi" id="3kyNclwBlHb" role="2C2TGm">
+            <ref role="3mBfEM" node="3kyNclwBlHi" />
+            <node concept="2rqxmr" id="3kyNclwBlI8" role="lGtFl">
+              <ref role="1BTHP0" node="3kyNclwBlHi" resolve="ScopeExternalClass" />
+              <node concept="3KTrbX" id="3kyNclwBlI9" role="3KTr4d">
+                <ref role="3AHY9a" node="3kyNclwBlGY" resolve="ScopeLocal" />
+              </node>
+              <node concept="3KTrbX" id="3kyNclwBlIa" role="3KTr4d">
+                <ref role="3AHY9a" node="3kyNclwBlH5" resolve="ScopeNamespaceClass" />
+              </node>
+              <node concept="3KTrbX" id="3kyNclwBlIb" role="3KTr4d">
+                <ref role="3AHY9a" node="3kyNclwBlHi" resolve="ScopeExternalClass" />
+              </node>
+              <node concept="3KTrbX" id="3kyNclwBlIc" role="3KTr4d">
+                <ref role="3AHY9a" node="3kyNclwBlHD" resolve="ScopeExported" />
+              </node>
+              <node concept="3KTrbX" id="3kyNclwBlId" role="3KTr4d">
+                <ref role="3AHY9a" node="3kyNclwBlHJ" resolve="ScopeBridgeClass" />
+              </node>
+              <node concept="3KTrbX" id="3kyNclwBlIe" role="3KTr4d">
+                <ref role="3AHY9a" node="3kyNclwBlHQ" resolve="ScopeReexportedClass" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3GEVxB" id="3kyNclwBlHc" role="2OODSX">
+          <property role="3GEa6x" value="false" />
+          <ref role="3GEb4d" node="3kyNclwBlHh" />
+        </node>
+        <node concept="3GEVxB" id="3kyNclwBlHd" role="2OODSX">
+          <property role="3GEa6x" value="false" />
+          <ref role="3GEb4d" node="3kyNclwBlHB" />
+        </node>
+        <node concept="3GEVxB" id="3kyNclwBlHe" role="2OODSX">
+          <property role="3GEa6x" value="false" />
+          <ref role="3GEb4d" node="3kyNclwBlHH" />
+        </node>
+      </node>
+    </node>
+    <node concept="1qefOq" id="3kyNclwBlHf" role="1SKRRt">
+      <node concept="rcWEw" id="3kyNclwBlHh" role="1qenE9">
+        <property role="TrG5h" value="ScopeExternal" />
+        <node concept="3mBW2U" id="3kyNclwBlHi" role="N3F5h">
+          <property role="2OOxQR" value="false" />
+          <property role="1wg9_F" value="2Ai0Gt9ODIs/public" />
+          <property role="TrG5h" value="ScopeExternalClass" />
+        </node>
+        <node concept="3BZPaE" id="3kyNclwBlHj" role="N3F5h">
+          <property role="2OOxQR" value="true" />
+          <property role="1wg9_F" value="2Ai0Gt9ODIs/public" />
+          <property role="TrG5h" value="ScopeExternalTemplate" />
+          <node concept="3Ct$hg" id="3kyNclwBlHl" role="3Cz$97">
+            <property role="TrG5h" value="N" />
+            <node concept="26Vqph" id="3kyNclwBlHn" role="2C2TGm" />
+          </node>
+        </node>
+        <node concept="3Iz7nb" id="3kyNclwBlHo" role="N3F5h">
+          <property role="TrG5h" value="scopeExternalUse" />
+          <node concept="3mBfEi" id="3kyNclwBlHq" role="2C2TGm">
+            <ref role="3mBfEM" node="3kyNclwBlHi" />
+            <node concept="2rqxmr" id="3kyNclwBlIf" role="lGtFl">
+              <ref role="1BTHP0" node="3kyNclwBlHi" resolve="ScopeExternalClass" />
+              <node concept="3KTrbX" id="3kyNclwBlIg" role="3KTr4d">
+                <ref role="3AHY9a" node="3kyNclwBlHi" resolve="ScopeExternalClass" />
+              </node>
+              <node concept="3KTrbX" id="3kyNclwBlIh" role="3KTr4d">
+                <ref role="3AHY9a" node="3kyNclwBlHz" resolve="ScopeExternalDependencyClass" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3Iz7nb" id="3kyNclwBlHr" role="N3F5h">
+          <property role="TrG5h" value="scopeExternalImportedUse" />
+          <node concept="3mBfEi" id="3kyNclwBlHt" role="2C2TGm">
+            <ref role="3mBfEM" node="3kyNclwBlHz" />
+            <node concept="2rqxmr" id="3kyNclwBlIi" role="lGtFl">
+              <ref role="1BTHP0" node="3kyNclwBlHz" resolve="ScopeExternalDependencyClass" />
+              <node concept="3KTrbX" id="3kyNclwBlIj" role="3KTr4d">
+                <ref role="3AHY9a" node="3kyNclwBlHi" resolve="ScopeExternalClass" />
+              </node>
+              <node concept="3KTrbX" id="3kyNclwBlIk" role="3KTr4d">
+                <ref role="3AHY9a" node="3kyNclwBlHz" resolve="ScopeExternalDependencyClass" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="rcWE1" id="3kyNclwBlHu" role="rcWEr">
+          <property role="rcWEL" value="&quot;ScopeExternal.hh&quot;" />
+        </node>
+        <node concept="3GEVxB" id="3kyNclwBlHv" role="2OODSX">
+          <property role="3GEa6x" value="false" />
+          <ref role="3GEb4d" node="3kyNclwBlHy" />
+        </node>
+      </node>
+    </node>
+    <node concept="1qefOq" id="3kyNclwBlHw" role="1SKRRt">
+      <node concept="rcWEw" id="3kyNclwBlHy" role="1qenE9">
+        <property role="TrG5h" value="ScopeExternalDependency" />
+        <node concept="3mBW2U" id="3kyNclwBlHz" role="N3F5h">
+          <property role="2OOxQR" value="false" />
+          <property role="1wg9_F" value="2Ai0Gt9ODIs/public" />
+          <property role="TrG5h" value="ScopeExternalDependencyClass" />
+        </node>
+        <node concept="rcWE1" id="3kyNclwBlH$" role="rcWEr">
+          <property role="rcWEL" value="&quot;ScopeExternalDependency.hh&quot;" />
+        </node>
+      </node>
+    </node>
+    <node concept="1qefOq" id="3kyNclwBlH_" role="1SKRRt">
+      <node concept="1whW_1" id="3kyNclwBlHB" role="1qenE9">
+        <property role="TrG5h" value="ScopeProvider" />
+        <node concept="3mBW2U" id="3kyNclwBlHD" role="N3F5h">
+          <property role="2OOxQR" value="true" />
+          <property role="1wg9_F" value="2Ai0Gt9ODIs/public" />
+          <property role="TrG5h" value="ScopeExported" />
+        </node>
+        <node concept="3mBW2U" id="3kyNclwBlHE" role="N3F5h">
+          <property role="2OOxQR" value="false" />
+          <property role="1wg9_F" value="2Ai0Gt9ODIs/public" />
+          <property role="TrG5h" value="ScopePrivate" />
+        </node>
+      </node>
+    </node>
+    <node concept="1qefOq" id="3kyNclwBlHF" role="1SKRRt">
+      <node concept="1whW_1" id="3kyNclwBlHH" role="1qenE9">
+        <property role="TrG5h" value="ScopeBridge" />
+        <node concept="3mBW2U" id="3kyNclwBlHJ" role="N3F5h">
+          <property role="2OOxQR" value="true" />
+          <property role="1wg9_F" value="2Ai0Gt9ODIs/public" />
+          <property role="TrG5h" value="ScopeBridgeClass" />
+        </node>
+        <node concept="3GEVxB" id="3kyNclwBlHK" role="2OODSX">
+          <property role="3GEa6x" value="true" />
+          <ref role="3GEb4d" node="3kyNclwBlHO" />
+        </node>
+        <node concept="3GEVxB" id="3kyNclwBlHL" role="2OODSX">
+          <property role="3GEa6x" value="false" />
+          <ref role="3GEb4d" node="3kyNclwBlHT" />
+        </node>
+      </node>
+    </node>
+    <node concept="1qefOq" id="3kyNclwBlHM" role="1SKRRt">
+      <node concept="1whW_1" id="3kyNclwBlHO" role="1qenE9">
+        <property role="TrG5h" value="ScopeReexport" />
+        <node concept="3mBW2U" id="3kyNclwBlHQ" role="N3F5h">
+          <property role="2OOxQR" value="true" />
+          <property role="1wg9_F" value="2Ai0Gt9ODIs/public" />
+          <property role="TrG5h" value="ScopeReexportedClass" />
+        </node>
+      </node>
+    </node>
+    <node concept="1qefOq" id="3kyNclwBlHR" role="1SKRRt">
+      <node concept="1whW_1" id="3kyNclwBlHT" role="1qenE9">
+        <property role="TrG5h" value="ScopeNotReexported" />
+        <node concept="3mBW2U" id="3kyNclwBlHV" role="N3F5h">
+          <property role="2OOxQR" value="true" />
+          <property role="1wg9_F" value="2Ai0Gt9ODIs/public" />
+          <property role="TrG5h" value="ScopeTransitivePrivateClass" />
+        </node>
+      </node>
+    </node>
+    <node concept="1qefOq" id="3kyNclwBlHW" role="1SKRRt">
+      <node concept="1whW_1" id="3kyNclwBlHY" role="1qenE9">
+        <property role="TrG5h" value="ScopeUnimported" />
+        <node concept="3mBW2U" id="3kyNclwBlI0" role="N3F5h">
+          <property role="2OOxQR" value="true" />
+          <property role="1wg9_F" value="2Ai0Gt9ODIs/public" />
+          <property role="TrG5h" value="ScopeUnimportedClass" />
         </node>
       </node>
     </node>
