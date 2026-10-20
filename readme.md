@@ -14,6 +14,19 @@ We're happy with feedback and contributions! Please check out our [issues](https
 
 The original project documentation can be found in the [documentation directory](https://github.com/DSLFoundry/mbeddr.cpp/tree/master/documentation/cpp).
 
+## Checker regressions
+
+The `test.ts.com.mbeddr.cpp` solution contains scope and type-system tests. Run
+`gradlew testTsTests`, or run the individual test roots as JUnit tests in MPS.
+
+`ClassTypeModuleVisibility` checks local and imported class scopes, including
+external modules, import/export boundaries, reexports, and template filtering.
+`ReferenceTypeNormalization` checks normalized reference base types and
+const/volatile qualifiers, with pointer and reference-to-pointer controls.
+`ReferenceArgumentCompatibility` checks qualification additions and rejects
+qualification loss, pointer/reference mismatches, unrelated classes, and numeric
+widening between reference types.
+
 ## Credits
 Current maintenance: [Hristina Moneva](https://github.com/xmoneva), [Eugen Schindler](https://github.com/eugenschindler), and [Niko Stotz](https://github.com/enikao).
 
